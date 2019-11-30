@@ -1,0 +1,538 @@
+@font-face{
+    font-family:'MontserratRegular';
+    src:url(../fonts/MontserratRegular.ttf);
+}
+@font-face{
+    font-family:'MontserratBold';
+    src:url(../fonts/MontserratBold.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.noleft{
+    padding-left: 0;
+}
+
+.noright{
+    padding-right: 0;
+}
+
+.nopadding{
+    padding: 0;
+}
+
+a{
+    outline: medium none !important;
+    text-decoration:none;
+    transition: all 0.35s ease 0s;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+button {
+    transition: all 0.35s ease 0s;
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+button:focus{
+    outline:0px;
+}
+
+.width1{
+	width:100%;
+}
+
+.container{
+	
+}
+
+.boxs{
+	width: 100%;
+	display: block;
+	float: left;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+	top:0;
+	left:0;
+}
+
+.header .container-fluid{
+	padding:0;
+}
+.header .navbar-brand{
+    height: auto;
+    padding: 0;
+}
+.header .navbar{
+    background: rgba(0,0,0,0);
+    border: none;
+    margin-bottom: 0;
+    min-height: 32px;
+    padding: 49px 0px 22px;
+}
+
+.header .navbar ul li{
+	padding: 0px;
+}
+.header .navbar-nav > li > a{
+    font-family: "MontserratRegular";
+    font-size: 16px;
+    color: #424241;
+    padding: 12px 0px 6px;
+    margin-right: 20px;
+}
+.header .navbar-nav > li:last-child > a{
+    color: #5dcfd0;
+    text-transform: uppercase;
+    margin-right: 0;
+}
+.underline-from-left {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+.underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0px;
+    background: #5dcfd0;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.underline-from-left:hover:before {
+    right: 0;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.header .nav > li > a:hover, 
+.header .nav > li .active{
+
+}
+
+.property{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 103px;
+}
+.p_heading{
+    position: relative;
+}
+.p_heading h1{
+    font-family: "MontserratRegular";
+    font-size: 50px;
+    color: #424241;
+    margin-bottom: 25px;
+}
+.p_heading h2{
+    font-family: "MontserratBold";
+    font-size: 50px;
+    color: #5dcfd0;
+    margin-bottom: 5px;
+}
+.f_ryt{
+    float: right;
+    position: relative;
+}
+.f_ryt img.map{
+    position: absolute;
+    top: -75px;
+}
+.social_share{
+    position: absolute;
+    top: 20px;
+    z-index: 999;
+}
+.social_share a{
+    float: right;
+    font-family: "MontserratRegular";
+    font-size: 18px;
+    color: #424241;
+    display: inline-block;
+}
+.social_share a:hover{
+    color: #5dcfd0;
+}
+.social_share a img{
+    float: right;
+    margin-left: 20px;
+    margin-top: -20px;
+    transition: all .4s ease-in-out;
+}
+.social_share a img:hover{
+    transition: all .4s ease-in-out;
+    transform: scale(1.05);
+}
+
+.lft_h h3{
+    font-family: "MontserratRegular";
+    font-size: 16px;
+    color: #424241;
+    float: left;
+    margin-right: 95px;
+    min-height: 90px;
+}
+.lft_h h3 span{
+    display: block;
+    font-family: "MontserratBold";
+    font-size: 38px;
+    color: #424241;
+}
+.lft_h h3 span img{
+    margin-left: 15px;
+    float: right;
+    margin-right: 145px;
+    margin-top: -5px;
+}
+.lft_h h3 i{
+    display: block;
+    font-style: normal;
+    font-family: "MontserratRegular";
+    font-size: 16px;
+    color: #424241;
+    margin-top: 10px;
+}
+.lft_h h3 i span{
+    display: block;
+    font-style: normal;
+    font-family: "MontserratRegular";
+    font-size: 16px;
+    color: #424241;
+}
+.lft_h h3:last-child{
+    margin-right: 0;
+}
+.p_feature_main{
+    margin-top: 25px;
+}
+.p_feature_main .col-sm-2 {
+    width: 19.666667%;
+}
+.p_features p{
+    font-family: "MontserratRegular";
+    font-size: 16px;
+    color: #424241;
+    margin-bottom: 10px;
+}
+
+.chart h3{
+    font-family: "MontserratBold";
+    font-size: 30px;
+    color: #424241;
+    margin-top: 10px;
+}
+
+.p_features .img_min{
+    min-height: 52px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+.chart{
+    width: 165px;
+    height: 70px;
+    margin-top: 10px;
+}
+.chart h2{
+    width: 100px;
+    height: 30px;
+    font-family: "MontserratBold";
+    font-size: 14px;
+    color: #5dcfd0;
+    position: relative;
+    top: 15px;
+}
+.space{
+    width: 100px;
+    height: 30px;
+}
+.chart1{
+    position: relative;
+}
+.chart.chart1 img{
+    position: absolute;
+    left: 75px;
+}
+.canal{
+    width: 100%;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+.canal p{
+    font-family: "MontserratRegular";
+    font-size: 23px;
+    color: #424241;
+}
+.canal p span{
+    font-family: "MontserratBold";
+}
+.canal p img{
+    float: left;
+    margin-right: 25px;
+}
+.footer{
+    width: 100%;
+    display: none;
+}
+.footer .f_logo img{
+    width: 48%;
+    margin-bottom: 10px;
+}
+.f_logo a{
+    display: block;
+    width: max-content;
+    font-family: "MontserratRegular";
+    font-size: 18px;
+    color: #424241;
+    margin: 25px auto 0px;
+    
+}
+.f_logo a.f_btn{
+    padding: 18px 48px;
+    background-color: #5dcfd0;
+    color: #fff;
+    border: 2px solid #5dcfd0;
+    text-transform: uppercase;
+}
+.f_logo a.f_btn:hover{
+    background-color: transparent;
+    color: #5dcfd0;
+}
+
+.dotmain{
+    width: max-content;
+    margin: 0 auto;
+    display: block;
+}
+.dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #5dcfd0;
+    border-radius: 50%;
+}
+
+
+.list ul{
+    list-style-type: none;
+}
+.list ul li span{
+    display: inline-block;
+    width: 33.33%;
+    font-family: "MontserratBold";
+    font-size: 18px;
+    line-height: 40px;
+}
+.list ul li span:first-child{
+    color: #5dcfd0;
+}
+.list ul li span:nth-child(2){
+    color: #424241;
+}
+.list ul li span:last-child{
+    color: #424241;
+    font-family: "MontserratRegular";
+    font-size: 22px;
+}
+.list ul li:first-child span{
+    font-family: "MontserratRegular";
+    font-size: 16px;
+    color: #000;
+}
+.f_ryt img.map2{
+    top: 10px;
+}
+.offer{
+    width: 100%;
+    margin-top: 115px;
+    padding-bottom: 40px;
+}
+.offer p{
+    font-family: "MontserratRegular";
+    font-size: 24px;
+    color: #424241;
+    margin-bottom: 15px;
+}
+.offer .input-group .form-control{
+    height: 60px;
+    font-family: "MontserratRegular";
+    font-size: 18px;
+    color: #9b9b9b;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid #5dcfd0;
+    padding: 15px 15px;
+    padding-left: 0px;
+    right: 0px;
+    border-radius: 0px;
+    width: 50%;
+}
+.offer .input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+}
+.offer .input-group .form-control:focus{
+    color: #424241;
+    border-color: rgba(93,207,208,0.5);
+}
+.offer .input-group .form-control:focus::placeholder{
+    color: #424241;
+}
+.offer .input-group .input-group-addon{
+    font-family: "MontserratRegular";
+    font-size: 18px;
+    color: #9b9b9b;
+    padding: 18px 20px;
+    background-color: #5dcfd0;
+    color: #fff;
+    border: 2px solid #5dcfd0;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 47%;
+    text-transform: uppercase;
+    margin-left: 3%;
+    text-align: center;
+    float: left;
+}
+.offer .input-group .input-group-addon:hover{
+    background-color: transparent;
+    color: #5dcfd0;
+}
+.poshover{
+    position: relative;
+}
+.hover_box{   
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 48%;
+    /*position: relative;*/
+}
+.hovereffect:hover .hover_box{
+    display: block;
+}
+.hover_box .hoverinner{
+    width: 270px; 
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);  
+    
+    z-index: 999;
+    padding: 25px;
+    
+}
+.hoverinner h2{
+    font-family: "MontserratBold";
+    font-size: 24px;
+    line-height: 48px;
+    color: #5dcfd0;
+}
+.hoverinner h2 span{
+    font-family: "MontserratRegular";
+    font-size: 20px;
+    line-height: 20px;
+    color: #424241;
+    display: block;
+    margin-bottom: 10px;
+}
+.hoverinner h3{
+    font-family: "MontserratBold";
+    font-size: 36px;
+    line-height: 36px;
+    color: #424241;
+}
+.hoverinner h3 img{
+    float: right;
+}
+.hoverinner p{
+    font-family: "MontserratRegular";
+    font-size: 20px;
+    color: #424241;
+    margin-bottom: 35px;
+    margin-top: 5px;
+}
+.hoverinner a{
+    font-family: "MontserratRegular";
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    background-color: #5dcfd0;
+    padding: 15px 0px;
+    display: block;
+    border: 2px solid #5dcfd0;
+    text-transform: uppercase;
+}
+.hover_box a.btnclose{
+    font-family: "MontserratRegular";
+    font-size: 14px;
+    color: #9b9b9b;
+    background-color: transparent;
+    width: max-content;
+    display: inline-block;
+    border: none;
+    text-align: right;
+    float: right;
+    margin-top: 0px;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+.hoverinner a:hover{
+    background-color: transparent;
+    color: #5dcfd0;
+}
+.hoverinner:before{
+    font-family: 'FontAwesome';
+    content: "\f0d9";
+    position: absolute;
+    font-size: 40px;
+    top: 40%;
+    color: #fff;
+    left: -13px;
+    text-shadow: 0 0px 0px rgba(163, 157, 193, 0.5);
+    transition: all 0.0005s ease 0s;
+
+}
+

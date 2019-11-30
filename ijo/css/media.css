@@ -1,0 +1,29 @@
+@media(max-width:1198px){
+	
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+
+} 
+@media(max-width:991px){
+   
+}
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+
+}
+@media(max-width:768px){
+    
+}
+@media(max-width:767px){
+   .header .hamburger{
+        display: block;
+    }
+}
+@media(max-width:560px){
+   
+}
+@media(max-width:414px){
+	
+}
+@media(max-width:320px){
+
+}

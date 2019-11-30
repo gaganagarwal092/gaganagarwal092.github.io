@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+        
+        <title>Phenocase | Upload Image</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+        <link rel="stylesheet" type="text/css" href="css/nice-select.css">        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        
+    </head>
+    <body>
+        <!-- Header Start -->
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="navbar-header">
+                        <button class="hamburger hamburger_rm hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-responsive" alt="logo"></a>
+                        <a href="checkout.html" class="cart"><img src="img/cart.png" alt="cart" class="img-responsive"></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- sidenav start -->
+        <div class="sidenav" id="mySidenav">
+            <!-- <a href="javascript:void(0)" class="logo"><img src="img/logo.png" class="img-responsive" alt="logo"></a> -->
+            <button class="hamburger hamburger2 hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <a href="javascript:void(0)" class=""></a>
+            <a href="javascript:void(0)" class=""></a>
+            <a href="javascript:void(0)" class=""></a>
+            <a href="javascript:void(0)" class=""></a>
+        </div>
+        <!-- sidenav start -->
+        
+        <!-- manufacturer section start -->
+        <section class="uploadmain boxs">
+            <div class="container">
+                <div class="boxs">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="boxs uploadimgbox">
+                                <img src="img/uploadimg.png" alt="uploadimg" class="img-responsive center-block hideimg">
+                                <img src="img/uploadresimg.png" alt="uploadresimg" class="img-responsive center-block showimg">
+                                <div class="uploadbtn">
+                                    <div class="file-upload">
+                                        <a href="javascript:void(0)" class="class="file-upload-btn" onclick="$('.file-upload-input').trigger( 'click' )">
+                                            <img src="img/uploadimgicon.png" alt="uploadimgicon" class="img-responsive center-block replace">
+                                        </a>
+                                        <div class="image-upload-wrap">
+                                            <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                                            <div class="drag-text">
+                                                <p>Click the button to <br>upload a photo</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btnshowres boxs">
+                                <p>Click the button to upload a photo <span>from you camera roll</span></p>
+                                <ul>
+                                    <li><a href=""><img src="img/fillgrey.png" alt="fillgrey" class="img-responsive"></a></li>
+                                    <li><a href=""><img src="img/cropgrey.png" alt="cropgrey" class="img-responsive"></a></li>
+                                    <li><a href=""><img src="img/resetgrey.png" alt="resetgrey" class="img-responsive"></a></li>
+                                    <li><a href=""><img src="img/helpgrey.png" alt="helpgrey" class="img-responsive"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- manufacturer section end -->
+
+        
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.nice-select.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            $(document).ready(function() {
+              $('select').niceSelect();      
+            });    
+        </script>
+        <script>
+            function readURL(input) {
+              if (input.files && input.files[0]) {
+
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+                  $('.image-upload-wrap').hide();
+
+                  $('.replace').attr('src', e.target.result);
+                  $('.file-upload-content').show();
+
+                  $('.image-title').html(input.files[0].name);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+
+              } else {
+                removeUpload();
+              }
+            }
+        </script>
+    </body>
+</html>

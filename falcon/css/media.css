@@ -1,0 +1,282 @@
+@media screen and (max-width: 1199px){
+	.mp_ryt {
+	    padding: 0px 20px 0px 50px;
+	}
+	.bt_para {
+	    padding: 0px 20px;
+	}
+	.form_inner form {
+	    padding: 0px 150px;
+	}
+	.slider{
+	    padding: 165px 0px 50px;
+	    margin-top: -125px;
+	}
+
+}
+@media screen and (max-width: 991px){
+	.banner{
+	    padding: 170px 0px 140px;
+	}
+	.bt_head h2{
+	    font-size: 26px;
+	}
+	.b_btm{
+	    margin: 15px auto 20px;
+	}
+	.bt_para {
+    	padding: 0px 0px;
+	}
+	.bt_para p{
+		font-size: 15px;
+	}
+	.form_inner form {
+    	padding: 0px 50px;
+	}
+	.b_btm2{
+	    margin: 35px auto 15px;
+	}
+	.mp_ryt p{
+		font-size: 15px;
+	}
+	.mp_ryt {
+    	padding: 0px 0px 0px 0px;
+	}
+	.slider {
+	    padding: 125px 0px 50px;
+	    margin-top: -108px;
+	}
+	.slider .slick-prev:before{
+		content: "";
+		background-image: url(../img/leftarrow.png);
+	    background-size: cover;
+		width: 30px;
+		height: 165px;
+		top: -75px;
+		left: -35px;
+	}
+	.slider .slick-next:before{
+		content: "";
+		background-image: url(../img/rightarrow.png);
+		background-size: cover;
+		width: 30px;
+		height: 165px;
+		top: -75px;
+		right: -35px;
+	}
+	.slider_outer {
+    	padding: 0px 35px;
+	}
+	.slider_head h2 {
+    	font-size: 26px;
+    }
+    .b_btm3{
+	    margin: 20px 0px 25px;
+    }
+    .contact{
+	    padding: 35px 0px 15px;
+    }
+    .b_btm2 {
+    	margin: 25px auto 15px;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.banner_inner img{
+		width: 400px;
+	}
+	.banner {
+    	padding: 150px 0px 120px;
+	}
+	.mp_lft img{
+		float: initial;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.slider {
+	    padding: 30px 0px 50px;
+    	margin-top: 0;
+	}
+	.masterpiece{
+		padding: 30px 0px 15px;
+	}
+	.mp_ryt p.font_black{
+		color: #fff;
+		padding-top: 0;
+	}
+	.mp_ryt p.mgbtm {
+	    margin-bottom: 15px;
+	}
+	.slider .slick-prev:before{
+		width: 22px;
+		height: 120px;
+		top: -55px;
+	}
+	.slider .slick-next:before{
+		width: 22px;
+		height: 120px;
+		top: -55px;
+	}
+	.c_inner a{
+		font-size: 16px;
+	}
+	.follow p{
+		font-size: 14px;
+	}
+	.copyryt p{
+		font-size: 14px;
+	}
+	.contact {
+    	padding: 25px 0px 15px;
+	}
+}
+@media screen and (max-width: 560px){
+	.banner {
+    	padding: 110px 0px 80px;
+	}
+	.banner_inner img {
+	    width: 300px;
+	}
+	.bright_talent{
+		padding: 30px 0px 15px;
+	}
+	.bt_head h2 {
+    	font-size: 24px;
+	}
+	.bt_para p {
+	    font-size: 14px;
+	}
+	.form_head h3{
+		font-size: 15px;
+	}
+	.form_inner form {
+    	padding: 0px 10px;
+	}
+	.masterpiece {
+	    padding: 15px 0px 10px;
+	}
+	.mp_ryt p {
+	    font-size: 14px;
+	}
+	.slider {
+    	padding: 20px 0px 30px;
+	}
+	.slider_head h2 {
+    	font-size: 24px;
+	}
+	.c_inner{
+		display: block;
+		text-align: center;
+	}
+	.follow{
+		justify-content: center;
+	}
+	.c_inner a {
+	    margin-bottom: 15px;
+	    display: inline-block;
+	}
+	.follow a{
+		margin-bottom: 0;
+	}
+
+}
+@media screen and (max-width: 414px){
+	.header .dropdown-menu>li>a {
+    	padding: 5px 10px;
+	    font-size: 12px;
+	}
+	.header .navbar ul li {
+	    padding: 0;
+	}
+	.header .dropdown-menu{
+		min-width: 120px;
+	}
+	.banner {
+	    padding: 100px 0px 60px;
+	}
+	.banner_inner img {
+	    width: 250px;
+	}
+	.langbtn{
+		font-size: 12px;
+	}
+	.bright_talent {
+	    padding: 20px 0px 15px;
+	}
+	.b_btm {
+    	margin: 15px auto 15px;
+	}
+	.form_head h3 {
+	    font-size: 14px;
+	}
+	.form_head h3 br{
+		display: none;
+	}
+	.form_inner form {
+	    padding: 0px 0px;
+	}
+	.form_inner .col-sm-6, .form_inner .col-sm-12{
+		padding: 0;
+	}
+	.form_inner .row{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.form_inner .form-control{
+		height: 36px;
+		font-size: 14px;
+	}
+	.formbtn{
+		font-size: 14px;
+		padding: 6px 0px;
+	}
+	.contactno a{
+		font-size: 14px;
+	}
+	.b_btm2 {
+    	margin: 20px auto 15px;
+	}
+	.formbox{
+		padding: 20px 0px;
+	}
+	.slider_head h2 {
+    	font-size: 22px;
+	}
+	.contact {
+    	padding: 20px 0px 15px;
+	}
+	.slider .slick-prev:before{
+		left: -20px;
+	    width: 15px;
+        height: 80px;
+    	top: -35px;
+	}
+	.slider .slick-next:before{
+		right: -20px;
+	    width: 15px;
+        height: 80px;
+    	top: -35px;
+	}
+	.slider_outer {
+    	padding: 0px 15px;
+	}
+	.slider_img{
+		padding: 0;
+	}
+	.b_btm3 {
+	    margin: 15px 0px 15px;
+	}
+	.c_inner a {
+	    font-size: 14px;
+	}
+	.bt_head h2 {
+	    font-size: 22px;
+	}
+	.bt_para p{
+		margin-bottom: 10px;
+	}
+
+}
+@media screen and (max-width: 320px){
+
+}

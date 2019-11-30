@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon/favicon.ico" type="image/ico" sizes="16x16">
+        
+        <title>Dashboard | Date</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
+        <link rel="stylesheet" type="text/css" href="css/nice-select.css">
+        <link rel="stylesheet" type="text/css" href="css/select2.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+    </head>
+    <body>
+        <!-- Header Start -->
+        <header class="header">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <div class="navbar-header">
+                        <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <a class="navbar-brand border_ryt" href="javascript:void(0)"><img src="img/monitor.svg" class="img-responsive" alt="logo"></a>
+                        <ul class="navleft">
+                            <li>
+                                <ul class="navleftdrop">
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">September 2018<img src="img/arrowdown.svg" alt="arrowdown" class="img-responsive"></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">July 2018</a></li>
+                                            <li><a href="javascript:void(0)">August 2018</a></li>
+                                            <li><a href="javascript:void(0)">September 2018</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- <div class="collapse navbar-collapse block" id="navbar">
+                            <ul class="nav navbar-nav navbar-right ">
+                                <li class="border_ryt bellpadding right1"><a href="javascript:void(0)" class="bell"><img src="img/bell.svg" alt="bell" class="img-responsive center-block"><span class="dot"></span></a></li>
+                                
+                                <li class="border_ryt bellpadding right2"><a href="javascript:void(0)" class="setting"><img src="img/settings.svg" alt="settings" class="img-responsive"></a></li>
+                                <li class="bellpadding right3">
+                                    <ul class="navleftdrop navleftdrop2">
+                                        <li class="dropdown bellpadding bellpadding2">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"><img src="img/oval.png" alt="oval" class="img-responsive fl"><img src="img/arrowdown.svg" alt="arrowdown" class="img-responsive arrowdown fl2"></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="javascript:void(0)">July 2018</a></li>
+                                                <li><a href="javascript:void(0)">August 2018</a></li>
+                                                <li><a href="javascript:void(0)">September 2018</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+                    <div class="collapse navbar-collapse block" id="navbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="first"><a href="javascript:void(0)" data-toggle="modal" data-target="#transaction"><img src="img/plus.svg" alt="plus.svg" class="img-responsive">Add Transaction</a></li>
+                            
+                            <li class="border_ryt second"><a href="javascript:void(0)" data-toggle="modal" data-target="#expense"><img src="img/navigationarrowsup.svg" alt="navigationarrowsup.svg" class="img-responsive">Add Expense</a></li>
+                            
+                            <li class="border_ryt bellpadding"><a href="javascript:void(0)" class="bell"><img src="img/bell.svg" alt="bell" class="img-responsive center-block"><span class="dot"></span></a></li>
+                            
+                            <li class="border_ryt bellpadding forth"><a href="javascript:void(0)" class="setting"><img src="img/settings.svg" alt="settings" class="img-responsive"></a></li>
+                            <li class="dropdown2 fifth">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"><img src="img/oval.png" alt="oval" class="img-responsive fl"><img src="img/arrowdown.svg" alt="arrowdown" class="img-responsive arrowdown fl2"></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="javascript:void(0)">July 2018</a></li>
+                                    <li><a href="javascript:void(0)">August 2018</a></li>
+                                    <li><a href="javascript:void(0)">September 2018</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+        </header>
+        <!-- Header End -->
+        <!-- sidenav start -->
+        <div class="sidenavmain boxs" id="mySidenav">
+        <div class="sidenav" id="">
+            <div class="dropdown2 sidenavdrop">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"><img src="img/oval.png" alt="oval" class="img-responsive fl"><img src="img/arrowdown.svg" alt="arrowdown" class="img-responsive arrowdown fl2"></a>
+                <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0)">July 2018</a></li>
+                    <li><a href="javascript:void(0)">August 2018</a></li>
+                    <li><a href="javascript:void(0)">September 2018</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="setting"><img src="img/settings.svg" alt="settings" class="img-responsive"> Settings</a>
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#transaction"><img src="img/plus.svg" alt="plus.svg" class="img-responsive">Add Transaction</a>
+
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#expense"><img src="img/navigationarrowsup.svg" alt="navigationarrowsup.svg" class="img-responsive">Add Expense</a>
+        </div>
+        </div>
+        
+        <!-- sidenav start -->
+
+        <div class="dashboard boxs">
+            <div class="container-fluid">
+                <div class="dashboard_inner boxs">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="monthsexpchart boxs">
+                                <h2>Expenses made this Month</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="monthsexp boxs">
+                                <div class="col-xs-6 nopadding">
+                                    <div class="monthsexp_inner saved boxs">
+                                        <h3>Already Saved</h3>
+                                        <h2><i>$</i> 33,643.31</h2>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 nopadding">
+                                    <div class="monthsexp_inner budget boxs">
+                                        <h3>Daily Budget</h3>
+                                        <h2><i>$</i> 211.37</h2>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 nopadding">
+                                    <div class="incomedetails boxs">
+                                        <div class="scroll boxs">
+                                            <div class="detaillist pad_btm boxs">
+                                                <p><i>Monthly Income </i>(After Tax):<span>$ 12,643.31</span></p>
+                                                <p>Income Per Payroll:<span>$ 10,643.31</span></p>
+                                            </div>
+                                            <div class="detaillist boxs">
+                                                <p>Total Monthly Expense:<span>$ 4,643.31</span></p>
+                                                <p>Income After Expense:<span>$ 3,446.45</span></p>
+                                            </div>
+                                            <div class="detaillist boxs">
+                                                <p><i>Monthly Income </i>(After Tax):<span>$ 12,643.31</span></p>
+                                                <p>Income Per Payroll:<span>$ 10,643.31</span></p>
+                                            </div>
+                                            <div class="detaillist boxs">
+                                                <p>Total Monthly Expense:<span>$ 4,643.31</span></p>
+                                                <p>Income After Expense:<span>$ 3,446.45</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="incomedetailsshadow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="transactions boxs">
+                                <div class="trans_inner boxs">
+                                    <!-- <div class="forscroll"> -->
+                                    <div class="transaction_tabs">
+                                        <a href="javascript:void(0)" class="clickme active" data-type="1">Daily Transactions</a>
+                                        <a href="javascript:void(0)" class="clickme" data-type="2">Planned Expenses</a>
+                                        <a href="javascript:void(0)" class="add set sets2"><img src="img/navigationarrowsup_black.svg" alt="navigationarrowsup_black" class="img-responsive img_show"><img src="img/navigationarrowsup_black_hover.svg" alt="navigationarrowsup_black" class="img-responsive img_hide">Add</a>
+                                        <ul class="dp set sets1">
+                                            <li class="dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Show by <span>Date</span><img src="img/arrowdown.svg" alt="arrowdown" class="img-responsive"></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="javascript:void(0)">July 2018</a></li>
+                                                    <li><a href="javascript:void(0)">August 2018</a></li>
+                                                    <li><a href="javascript:void(0)">September 2018</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="javascript:void(0)"><img src="img/addblack.svg" alt="addblack" class="img-responsive img_show"><img src="img/addblack_hover.svg" alt="addblack_hover" class="img-responsive img_hide">Add</a></li>
+                                            <li><a href="javascript:void(0)"><img src="img/import.svg" alt="import" class="img-responsive img_show"><img src="img/import_hover.svg" alt="import" class="img-responsive img_hide">Import</a></li>
+                                            <li><a href="javascript:void(0)"><img src="img/export.svg" alt="export" class="img-responsive img_show"><img src="img/export_hover.svg" alt="export" class="img-responsive img_hide">Export</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- </div> -->
+                                    
+                                    <div class="expenses_details set sets2 boxs">
+                                        <div class="detailitems boxs">
+                                            <p><span class="imgcircle"><img src="img/house.svg" alt="house.svg" class="img-responsive"></span><span class="text">Mortgage</span>
+                                                <span class="cost"><i>$</i> 1,000.00<a href="javascript:void(0)">Edit</a></span>
+                                            </p>
+                                            <p><span class="imgcircle"><img src="img/settinggreen.svg" alt="settinggreen.svg" class="img-responsive"></span><span class="text">Maitenance</span>
+                                                <span class="cost"><i>$</i> 300.00<a href="javascript:void(0)">Edit</a></span>
+                                            </p>
+                                            <p><span class="imgcircle"><img src="img/magic.svg" alt="magic.svg" class="img-responsive"></span><span class="text">Fairy</span>
+                                                <span class="cost"><i>$</i> 158.00<a href="javascript:void(0)">Edit</a></span>
+                                            </p>
+                                            <p><span class="imgcircle"><img src="img/ribbon.svg" alt="ribbon.svg" class="img-responsive"></span><span class="text">Wedding Savings</span>
+                                                <span class="cost"><i>$</i> 500.00<a href="javascript:void(0)">Edit</a></span>
+                                            </p>
+                                        </div>
+                                        <div class="total boxs">
+                                            <p>4 items<span>Total<i>$ 1958.00</i></span></p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="expenses_details set sets1 boxs">
+                                        <div class="transaction_inner boxs">
+                                            <!-- <div class="scroll boxs"> -->
+                                                <div class="transitems boxs show1 show2">
+                                                    <p class="width width1 day">Today</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -211.56</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> -0.19</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>11</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                                <div class="transitems boxs show1 show2">
+                                                    <p class="width width1 day">Yesterday</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -54.11</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> 157.26</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>5</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                                <div class="transitems boxs show1 show2">
+                                                    <p class="width width1 day">11 Sep 2018</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -32.33</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> 179.04</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>4</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                                <div class="transitems boxs redborder show1 show2">
+                                                    <p class="width width1 day">10 Sep 2018</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -574.44</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> -363.33</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>15</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                                <div class="transitems boxs show1 show2">
+                                                    <p class="width width1 day">9 Sep 2018</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -41.11</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> 170.26</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>8</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                                <div class="transitems boxs show1 show2">
+                                                    <p class="width width1 day">8 Sep 2018</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -82.69</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> 128.68</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>6</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                                <div class="transitems boxs show1 show2">
+                                                    <p class="width width1 day">7 Sep 2018</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -211.56</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> -0.19</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>11</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                                <div class="transitems boxs show1 show2">
+                                                    <p class="width width1 day">6 Sep 2018</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -54.11</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> 157.26</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>5</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                                <div class="transitems boxs show1 show2">
+                                                    <p class="width width1 day">5 Sep 2018</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -32.33</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> 179.04</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>4</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                                <div class="transitems boxs redborder show1 show2">
+                                                    <p class="width width1 day">4 Sep 2018</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -574.44</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> -363.33</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>15</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                                <div class="transitems boxs show1 show2">
+                                                    <p class="width width1 day">3 Sep 2018</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -41.11</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> 170.26</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>8</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                                <div class="transitems boxs show1 show2">
+                                                    <p class="width width1 day">2 Sep 2018</p>
+                                                    <p class="width width2"><span>SPENT</span><i>$</i> -82.69</p>
+                                                    <p class="width width3"><span>BALANCE</span><i>$</i> 128.68</p>
+                                                    <p class="width width4"><span>TRANSACTIONS</span>6</p>
+                                                    <a href="javascript:void(0)"class="show1 show2">Show details</a>
+                                                </div>
+                                            <!-- </div> -->
+                                            <!-- <div class="incomedetailsshadow"></div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--transaction modal start-->
+       <!--  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#transaction">Open Modal</button> -->
+        <div class="transaction modal fade" id="transaction" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content boxs">
+                    <div class="modal-header boxs">
+                        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt="close" class="img-responsive img_show"><img src="img/close_hover.svg" alt="close" class="img-responsive img_hide"></button>
+                        <h4 class="modal-title">New transaction</h4>
+                    </div>
+                    <div class="modal-body boxs">
+                        <form>
+                            <div class="form-group">
+                                <div class="transaction_form">
+                                    <label>NAME</label>
+                                    <input type="text" class="form-control" placeholder="Tonik Invoice">
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 noleft widthfull">
+                                <div class="form-group">
+                                    <div class="transaction_form">
+                                        <label>DATE</label>
+                                        <input type="text" class="form-control datep" placeholder="08/12/2018">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 noright widthfull">
+                                <div class="form-group">
+                                    <div class="transaction_form bills">
+                                        <label>CATEGORY</label>
+                                        <select class="form-control niece_select">
+                                            <option>Bills</option>
+                                            <option>Recharge</option>
+                                            <option>Recharge</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 noleft widthfull widthfull2">
+                                <div class="form-group">
+                                    <div class="transaction_form">
+                                        <input type="text" class="form-control amount" placeholder="Amount">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 noright widthfull widthfull2">
+                                <div class="form-group">
+                                    <div class="transaction_form multiple multi_select bills">
+                                        <label>Additional Tags</label>
+                                        <dl class="dropdown"> 
+
+                                            <dt>
+                                                <a href="javascript:void(0)">
+                                                    <span class="hida"></span>    
+                                                    <p class="multiSel"></p>  
+                                                </a>
+                                            </dt>
+
+                                            <dd>
+                                                <div class="mutliSelect">
+                                                    <ul>
+                                                        <li>
+                                                            <i class="tick">
+                                                                <input type="checkbox" id="ticksend11" value="Just One Month"> <label for="ticksend11"><span></span>Just One Month</label>
+                                                            </i>
+                                                        <li>
+                                                            <i class="tick">
+                                                                <input type="checkbox" id="ticksend12" value="Every Month"> <label for="ticksend12"><span></span>Every Month</label>
+                                                            </i>
+                                                        </li>
+                                                        <li>
+                                                            <i class="tick">
+                                                                <input type="checkbox" id="ticksend13" value="Yearly Transaction"> <label for="ticksend13"><span></span>Yearly Transaction</label>
+                                                            </i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn">Save Transaction</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--transaction modal ends-->
+
+        <!--expense modal start-->
+        <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#expense">Open Modal</button> -->
+        <div class="expense modal fade" id="expense" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content boxs">
+                    <div class="modal-header boxs">
+                        <button type="button" class="close" data-dismiss="modal"><img src="img/close.svg" alt="close" class="img-responsive img_show"><img src="img/close_hover.svg" alt="close" class="img-responsive img_hide"></button>
+                        <h4 class="modal-title">New expense</h4>
+                    </div>
+                    <div class="modal-body boxs">
+                        <form>
+                            <div class="form-group">
+                                    <div id="accountdropdown"></div>
+                            </div>
+                            <div class="col-xs-6 noleft widthfull">
+                                <div class="form-group">
+                                    <div class="transaction_form">
+                                        <label>AMOUNT</label>
+                                        <input type="text" class="form-control" placeholder="211.56">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 noright widthfull">
+                                <div class="form-group">
+                                    <div class="transaction_form bills">
+                                        <label>REPEAT</label>
+                                        <select class="form-control niece_select">
+                                            <option>Just One Month</option>
+                                            <option>Every Month</option>
+                                            <option>Yearly Transaction</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn">Save Expense</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--transaction details start-->
+        <div id="transaction-s">
+            <div class="trans_scroll2">
+            <section class="transaction-s boxs">
+                <div class="transaction_head boxs">
+                    <p>Transactions made </p>
+                    <h3>Yesterday, 12 Sep 2018</h3>
+                    <a href="javascript:void(0)" class="show1 show3"><img src="img/close.svg" alt="close" class="img-responsive img_show"><img src="img/close_hover.svg" alt="close" class="img-responsive img_hide"></a>
+                </div>
+
+                <div class="transaction_body boxs">
+                    <div class="transaction-details boxs">
+                        <div class="col-xs-4 nopadding">
+                            <div class="spent">
+                                <p>SPENT</p>
+                                <h4><span>$</span>-54.11</h4>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 nopadding remain">
+                            <div class="remaining">
+                                <p>REMAINING</p>
+                                <h4><span>$</span>-0.19</h4>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 nopadding">
+                            <div class="trans">
+                                <p>TRANSACTIONS</p>
+                                <h4>11</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trans_outer boxs">
+                        <!-- <div class="trans_scroll"> -->
+                            <div class="trans_details boxs">
+                                <div class="details_head boxs">
+                                    <p class="boxs">
+                                        <span class="width1">name</span>
+                                        <span class="width2">amount</span>
+                                        <span class="width3">category</span>
+                                        <span class="width4">note</span>
+                                        <span class="width5"></span>
+                                    </p>
+                                </div>
+                                <div class="detail_list boxs">
+                                    <p class="boxs">
+                                        <span class="width1">
+                                            <i class="tick">
+                                                <input type="checkbox" id="ticksend1" value="second_checkbox"> <label for="ticksend1"><span></span>PAYPAL JF23FDD</label>
+                                            </i>
+
+                                        </span>
+                                        <span class="width2"><i>$</i> -211.56</span>
+                                        <span class="width3">Shopping</span>
+                                        <span class="width4">iPhone</span>
+                                        <span class="width5"><img src="img/pencil.svg" alt="edit" class="img-responsive"></span>
+                                    </p>
+
+                                </div>
+                                <div class="detail_list boxs">
+                                    <p class="boxs">
+                                        <span class="width1">
+                                            <i class="tick">
+                                                <input type="checkbox" id="ticksend2" value="second_checkbox"> <label for="ticksend2"><span></span>PAYPAL JF23FDD</label>
+                                            </i>
+
+                                        </span>
+                                        <span class="width2"><i>$</i> -211.56</span>
+                                        <span class="width3">Shopping</span>
+                                        <span class="width4">iPhone</span>
+                                        <span class="width5"><img src="img/pencil.svg" alt="edit" class="img-responsive"></span>
+                                    </p>
+
+                                </div>
+                                <div class="detail_list boxs">
+                                    <p class="boxs">
+                                        <span class="width1">
+                                            <i class="tick">
+                                                <input type="checkbox" id="ticksend3" value="second_checkbox"> <label for="ticksend3"><span></span>PAYPAL JF23FDD</label>
+                                            </i>
+
+                                        </span>
+                                        <span class="width2"><i>$</i> -211.56</span>
+                                        <span class="width3">Shopping</span>
+                                        <span class="width4">iPhone</span>
+                                        <span class="width5"><img src="img/pencil.svg" alt="edit" class="img-responsive"></span>
+                                    </p>
+
+                                </div>
+                                <div class="detail_list boxs">
+                                    <p class="boxs">
+                                        <span class="width1">
+                                            <i class="tick">
+                                                <input type="checkbox" id="ticksend4" value="second_checkbox"> <label for="ticksend4"><span></span>PAYPAL JF23FDD</label>
+                                            </i>
+
+                                        </span>
+                                        <span class="width2"><i>$</i> -211.56</span>
+                                        <span class="width3">Shopping</span>
+                                        <span class="width4">iPhone</span>
+                                        <span class="width5"><img src="img/pencil.svg" alt="edit" class="img-responsive"></span>
+                                    </p>
+
+                                </div>
+                                <div class="detail_list boxs">
+                                    <p class="boxs">
+                                        <span class="width1">
+                                            <i class="tick">
+                                                <input type="checkbox" id="ticksend5" value="second_checkbox"> <label for="ticksend5"><span></span>PAYPAL JF23FDD</label>
+                                            </i>
+
+                                        </span>
+                                        <span class="width2"><i>$</i> -211.56</span>
+                                        <span class="width3">Shopping</span>
+                                        <span class="width4">iPhone</span>
+                                        <span class="width5"><img src="img/pencil.svg" alt="edit" class="img-responsive"></span>
+                                    </p>
+
+                                </div>
+                                <div class="detail_list boxs">
+                                    <p class="boxs">
+                                        <span class="width1">
+                                            <i class="tick">
+                                                <input type="checkbox" id="ticksend5" value="second_checkbox"> <label for="ticksend5"><span></span>PAYPAL JF23FDD</label>
+                                            </i>
+
+                                        </span>
+                                        <span class="width2"><i>$</i> -211.56</span>
+                                        <span class="width3">Shopping</span>
+                                        <span class="width4">iPhone</span>
+                                        <span class="width5"><img src="img/pencil.svg" alt="edit" class="img-responsive"></span>
+                                    </p>
+
+                                </div>
+                                <div class="detail_list boxs">
+                                    <p class="boxs">
+                                        <span class="width1">
+                                            <i class="tick">
+                                                <input type="checkbox" id="ticksend6" value="second_checkbox"> <label for="ticksend6"><span></span>PAYPAL JF23FDD</label>
+                                            </i>
+
+                                        </span>
+                                        <span class="width2"><i>$</i> -211.56</span>
+                                        <span class="width3">Shopping</span>
+                                        <span class="width4">iPhone</span>
+                                        <span class="width5"><img src="img/pencil.svg" alt="edit" class="img-responsive"></span>
+                                    </p>
+
+                                </div>
+                                <div class="detail_list boxs">
+                                    <p class="boxs">
+                                        <span class="width1">
+                                            <i class="tick">
+                                                <input type="checkbox" id="ticksend7" value="second_checkbox"> <label for="ticksend7"><span></span>PAYPAL JF23FDD</label>
+                                            </i>
+
+                                        </span>
+                                        <span class="width2"><i>$</i> -211.56</span>
+                                        <span class="width3">Shopping</span>
+                                        <span class="width4">iPhone</span>
+                                        <span class="width5"><img src="img/pencil.svg" alt="edit" class="img-responsive"></span>
+                                    </p>
+
+                                </div>
+                                <div class="detail_list boxs">
+                                    <p class="boxs">
+                                        <span class="width1">
+                                            <i class="tick">
+                                                <input type="checkbox" id="ticksend8" value="second_checkbox"> <label for="ticksend8"><span></span>PAYPAL JF23FDD</label>
+                                            </i>
+
+                                        </span>
+                                        <span class="width2"><i>$</i> -211.56</span>
+                                        <span class="width3">Shopping</span>
+                                        <span class="width4">iPhone</span>
+                                        <span class="width5"><img src="img/pencil.svg" alt="edit" class="img-responsive"></span>
+                                    </p>
+
+                                </div>
+                                <div class="detail_list boxs">
+                                    <p class="boxs">
+                                        <span class="width1">
+                                            <i class="tick">
+                                                <input type="checkbox" id="ticksend9" value="second_checkbox"> <label for="ticksend9"><span></span>PAYPAL JF23FDD</label>
+                                            </i>
+
+                                        </span>
+                                        <span class="width2"><i>$</i> -211.56</span>
+                                        <span class="width3">Shopping</span>
+                                        <span class="width4">iPhone</span>
+                                        <span class="width5"><img src="img/pencil.svg" alt="edit" class="img-responsive"></span>
+                                    </p>
+
+                                </div>
+                                <div class="detail_list boxs">
+                                    <p class="boxs">
+                                        <span class="width1">
+                                            <i class="tick">
+                                                <input type="checkbox" id="ticksend10" value="second_checkbox"> <label for="ticksend10"><span></span>PAYPAL JF23FDD</label>
+                                            </i>
+
+                                        </span>
+                                        <span class="width2"><i>$</i> -211.56</span>
+                                        <span class="width3">Shopping</span>
+                                        <span class="width4">iPhone</span>
+                                        <span class="width5"><img src="img/pencil.svg" alt="edit" class="img-responsive"></span>
+                                    </p>
+
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </section>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/select2.min.js"></script>
+        <script src="js/jquery.nice-select.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/moment.js"></script>
+        <script src="js/bootstrap-datetimepicker.js"></script>
+        <script src="js/ddslick.min.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.niece_select').niceSelect();
+            });
+
+            $(document).ready(function () {
+                $('#add').select2();
+            });
+
+        </script>
+    </body>
+</html>

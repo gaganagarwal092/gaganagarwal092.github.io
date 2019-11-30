@@ -1,0 +1,2653 @@
+@media(max-width:1920px){
+    .planimg1{
+        display: block;
+    }
+    .bg-image{
+        display: none;
+    }
+}
+@media(min-width:1560px){
+    /*    .plan-wendding .planimg{
+            right:100px;
+        }  */
+    .contactus {
+        background: url(../img/path-5.png) no-repeat right 10% top 93%;
+
+    }
+    .contact_bg {
+        background: url(../img/path-6.png) no-repeat left 10% top 0%;
+    }
+    .package_popup2 {
+        background: url(../img/checkout_img2.png) no-repeat left 10% bottom 55px;
+    }
+    .package_popup {
+        background: url(../img/checkout_img1.png) no-repeat right 10% bottom 305px;
+    }
+    .read_case_price {
+        background: url(../img/pricing-bg.png) no-repeat  center center;
+    }
+    .checkout_box2 {
+        background: url(../img/checkout_img2.png) no-repeat left 10% bottom -25px;
+    }
+    .checkout_popup {
+        background: url(../img/checkout_img1.png) no-repeat right 10% bottom 145px;
+    }
+}
+@media(min-width:1920px){
+    /*    .plan-wendding .planimg{
+            right:100px;
+        }  */
+    .contactus {
+        background: url(../img/path-5.png) no-repeat right 30% top 93%;
+
+    }
+    .contact_bg {
+        background: url(../img/path-6.png) no-repeat left 30% top 0%;
+    }
+    .package_popup2 {
+        background: url(../img/checkout_img2.png) no-repeat left 20% bottom 55px;
+    }
+    .package_popup {
+        background: url(../img/checkout_img1.png) no-repeat right 20% bottom 305px;
+    }
+    .checkout_box2 {
+        background: url(../img/checkout_img2.png) no-repeat left 20% bottom -25px;
+    }
+    .checkout_popup {
+        background: url(../img/checkout_img1.png) no-repeat right 20% bottom 145px;
+    }
+    /*    .read_case_price {
+            background: url(../img/pricing-bg.png) no-repeat left 40% center;
+        }*/
+    /*    .bigscreenpadding{
+            padding-right: 10%;
+        }
+        .signin .forms{
+            padding-left: 13%;
+        }*/
+
+    .bigscreenpadding .slick2{
+        height:100%;
+        background: #38315d;
+    }
+    .adam_slider{
+        width: 1170px;
+        margin: 0px auto;
+        float: initial;
+        margin-top: 120px;
+    }
+
+}
+@media(min-width:2300px){
+    .signin {
+        height: 100vh;
+        width:2000px;
+        margin: 0 auto;
+        float:initial;
+    }
+    .signin .slick2 .slick-dots{
+        bottom:20%;
+    }
+}
+@media(max-width:1560px){
+    .slider .slick .slick-next {
+        right: 90px;
+    }
+    .slider .slick-prev {
+        left: 90px;
+    }
+}
+@media(min-width:1560px) and (max-width:1920px){
+    /*    .planimg1{
+            display: none;
+        }
+        .bg-image{
+            display: block;
+        }*/
+}
+@media(max-width:1366px){
+    /*for signup*/
+    .signin .forms {
+        padding: 15px 40px 0px 70px;
+    }
+
+    .only_Weding p{
+        padding-bottom: 20PX;
+    }
+    .only_Weding h1{
+        padding-bottom: 10px;
+    }
+    .font h1{
+        font-size: 28px;
+    }
+    .signin .forms form .inner_content_form, .signin .forms form  .inner_content_form .download  {
+        margin-bottom: 25px;
+    }
+    .only_wed_content{
+        bottom: 50px;
+    }
+    .slider .slick .slick-next {
+        right: 70px;
+    }
+    .slider .slick-prev {
+        left: 70px;
+    }
+    /*    .planimg1{
+            display: block;
+        }
+        .bg-image{
+            display: none;
+        }*/
+}
+
+@media(max-width:1199px){
+
+    .plan-wendding a , .plan-wendding a.active{
+        padding: 15px 46px 13px;
+    }
+    .plan-wendding .phone {
+        width: 40%;
+    }
+    .plan-wendding {
+        background-size: 48%;
+    }
+    .mobile-apps h1 {
+        font-size: 26px;
+    }
+    .mobile-apps h2, .mobile-apps p {
+        font-size: 15px;
+    }
+    .path:before {
+        left: -63%;
+        top: 55%;
+    }
+    .whitebox {
+        margin-top: 40px;
+    }
+    .capture {
+        margin: 20px 0px;
+        background-size: 51%;
+    }
+    .capture .right_side_inner {
+        padding: 20px;
+    }
+    .capture1 .right_side1 {
+        padding: 0px 20px 0px 0px;
+    }
+    /*for how it work page*/
+    .add_weding img{
+        height:272px;
+    }
+    .add_weding_detail .padd_right{
+        padding-right: 0;
+    } 
+    .plan-wendding.product.trusted{
+        padding: 0;
+        margin: 0 0 90px;
+    }
+    .plan-wendding.product.trusted{
+        margin-bottom: 60px;
+    }
+    .plan-wendding.product h1{
+        font-size: 32px;
+        padding: 0px 0px 25px 0;
+    }
+    .trusted p{
+        font-size: 20px;
+        line-height: 1.50;
+    }
+    .add_weding_detail .box {
+        padding: 90px 0 70px;
+    }
+    .product .top_wed p{
+        font-size: 14px;
+    }
+    .weding_couple .slick .item p{
+        line-height: 1.68;
+    }
+    .only_wed_content p span{
+        display: inline;
+    }
+    .only_wed_content{
+        padding-left: 44px;
+    }
+    .signin .forms form{
+        padding: 70px 0 0;
+    }
+    .signin .forms{
+        padding: 50px 40px 60px 60px;
+    }
+    .signin .forms form .inner_content_form{
+        margin-bottom: 20px;
+    }
+    .only_Weding p{
+        padding:10px 10px 0 0;
+    }
+    /*apps section Momento | PricingWeddingPlanners and PricingCouples start*/
+
+    .apps .apps_inner_main {
+        padding: 0px 40px;
+    }
+    .apps .appleft .left_list a.btn1{
+        width: 215px;
+    }
+    /*apps section Momento | PricingWeddingPlanners and PricingCouples end*/
+
+    /*questions section Momento | PricingWeddingPlanners and PricingCouples start*/
+    .questions{
+        padding: 0 0px 100px;
+    }
+    .questions .questions_inner .content h2{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .questions .questions_inner .content p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .questions .questions_inner .content{
+        padding: 25px 0px;
+    }
+    /*questions section Momento | PricingWeddingPlanners and PricingCouples end*/
+
+    /*customers page start*/
+
+    .story .story_left h1 {
+        font-size: 30px;
+    }
+    .story .story_left p {
+        line-height: 26px;
+        font-size: 15px;
+    }
+    .story .story_right .location p {
+        line-height: 35px;
+        font-size: 15px;
+    }
+    .story .story_right .location {
+        padding: 16px 24px;
+    }
+    .story .story_right .location p span {
+        font-size: 34px;
+    }
+    .goal .goal_right h1 {
+        font-size: 30px;
+    }
+    .goal .goal_right p {
+        font-size: 15px;
+        padding: 18px 0px 10px 0px
+    }
+    .goal .goal_right .android p span{
+        display: inline;
+    }
+    .goal .goal_right .android h2 {
+        font-size: 15px;
+    }
+    .goal .goal_left img {
+        width: 80%;
+    }
+    .goal .goal_left1 img {
+        width: 70%;
+    }
+    .result .result_right h1 {
+        left: 30%;
+    }
+    /*customers case study page end*/
+    /*customers 2 page start*/
+    .container1 {
+        width: 800px;
+    }
+    /*customers 2 page end*/
+    .apps{
+        padding-bottom: 75px;
+    }
+    /*company page start*/
+    .company .comp_inner .values .values_content p span{
+        display: inline;
+    }
+    .company .comp_inner .values{
+        padding: 100px 0px 30px;
+    }
+    .contactus .contact_inner .contact_form form label{
+        margin-bottom: 10px;
+    }
+    .contactus .contact_inner .contact_form form .form-control{
+        margin-bottom: 20px; 
+    }
+
+
+    .contact_middle {
+        padding: 0px 60px;
+    }
+    .contactus{
+        padding: 21px 0px 65px;
+    }
+    /*company page end*/
+
+    /*customer page start*/
+    .wedding .container {
+        padding: 0px 60px;
+    }
+    /*customer page end*/
+    /*about page start*/
+    .mission .story_right .location p{
+        font-size: 12px !important;
+        letter-spacing: 0.5px;
+    }
+    .mission .mission_left img{
+        width: 44%;
+    }
+    .mission .right_img img {
+        right: 2%;
+    }
+    /*about page end*/
+    /*landing page start*/
+    .helping h2 {
+        letter-spacing: 0.5px;
+        font-size: 14px;
+    }
+    .helping .helping_inner {
+        padding: 20px 18px 25px 20px;
+    }
+    .slider .slick .item {
+        padding: 46px 24px 50px 40px;
+        margin: 85px 6px 140px;
+    }
+    .read_case2{
+        padding-top: 0;
+    }
+    .slider .slick .item h1 {
+        font-size: 23px;
+        padding: 7px 0 22px;
+    }
+    .slider .slick .item p {
+        font-size: 16px;
+        line-height: 28px;
+        padding-top: 52px;
+    }
+    .demo .demo_inner a {
+        width: 200px;
+        font-size: 15px;
+        padding: 11px 0px;
+    }
+    /*landing page end*/
+
+    /*priyank changes start*/
+
+    .header .navbar-default .navbar-nav > li {
+        margin: 0px 15px;
+    }
+    .header .navbar-default .navbar-nav {
+        padding-left: 60px;
+    }
+    footer .social_media li a {
+        width: 28px;
+        height: 28px;
+        margin: 30px 11px;
+    }
+    .partners_wedding h1 {
+        padding-bottom: 20px;
+    }
+    .partners {
+        padding: 0px 55px;
+    }
+    .partners_wedding_inner h4{
+        font-size: 17px;
+        line-height: 31px;
+        padding: 18px 22px 0px 15px;
+    }
+    .partners_wedding_inner h3 {
+        color: #696b84;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+    .only_Weding{
+        min-height: 100%;
+    }
+    /*partners page end*/
+    .only_Weding img {
+        height: 100%;
+        position: absolute;
+    }
+    /*package page start*/
+    .package_modal_2 .product h1{
+        font-size: 32px;
+        padding-bottom: 5px;
+    }
+    .package_modal_2 .product p{
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .package_modal_2 .product_btns{
+        margin: 45px auto 0;
+    }
+    .package_modal_2 .product .product_btns a.active{
+        padding: 17px 100px 15px
+    }
+    .package1{
+        margin-top: 30px;
+    }
+    .package1 .package_price h4{
+        font-size: 14px;
+    }
+    .package1 .package_price h3{
+        font-size: 54px;
+        margin-top: 20px;
+    }
+    .package1 .package_price h3 i{
+        font-size: 30px;
+    }
+    .package1 .package_price h3 span{
+        font-size: 12px;
+    }
+    .package1 .package_plans ul li a{
+        font-size: 14px;
+    }
+    .package1 .package_price h5{
+        font-size: 14px;
+    }
+    .package1 .package_plans ul{
+        margin-top: 20px;
+        min-height: 90px;
+    }
+    .package1 .package_plans a.btn1{
+        width: 200px;
+        font-size: 16px;
+    }
+    /*package page end*/
+    .header .navbar-brand{
+        width: 130px;
+        margin-top: -10px;
+    }
+    .fixed_header {
+        padding: 22px 0 15px;
+    }
+    .demo .demo_inner h2 img {
+        margin-right: 5px;
+    }
+    .demo .demo_inner h2 {
+        font-size: 14px;
+    }
+    .manage .bottom_image {
+        background-size: 84%;
+        padding: 45px 0px;
+    }
+    .read_case .wedding_left2_bg {
+        background: url(../img/left-quote.png) no-repeat right 10% top 42%;
+    }
+    .google_box a {
+        margin-right: 6px;
+    }
+    footer h1, footer p, footer ul li a {
+        font-size: 13px;
+    }
+    .sup_box a {
+        padding: 7px 10px 5px;
+        top: -30px;
+        width: 80%;
+    }
+    .modal-content3_left form {
+        width: 90%;
+    }
+    /*    .bg-image{
+            width: 236px;
+            height: 400px;
+            top: 40px;
+            margin-left: 67px;
+            left: 66%;
+        }*/
+} 
+@media(max-width:991px){
+    .plan-wendding h1 {
+        font-size: 30px;
+        padding: 0px 1px 50px 0;
+    }
+    .plan-wendding a , .plan-wendding a.active{
+        padding: 11px 30px 10px;
+        font-size: 18px;
+    }
+    .plan-wendding {
+        background-size: 46%;
+    }
+    .plan-wendding .phone {
+        top: 14%;
+    }
+    .guests .rsvp img {
+        margin-bottom: 30px;
+    }
+    .guests .rsvp h1 {
+        font-size: 20px;
+    }
+    .guests .rsvp p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .guests {
+        padding: 70px 0px 100px;
+    }
+    .capture .right_side {
+        padding: 80px 0px 0px 0px;
+    }
+    .capture .right_side_inner{
+        width: 32%;
+        min-height: 180px;
+        margin-right: 2%;
+    }
+    .capture .right_side_inner:last-child{
+        margin-right: 0;
+    }
+    .capture {
+        padding: 80px 0px 50px 0px;
+        background-size: 64%;
+    }
+    .slider .slick .item {
+        margin: 60px 15px 60px;
+    }
+    .slider .slick .item p {
+        font-size: 15px;
+        line-height: 26px;
+        padding-top: 14px;
+    }
+    .slider .slick .item h1 {
+        font-size: 22px;
+        padding: 0px 0 10px;
+    }
+    .slider .slick .item h2 {
+        font-size: 13px;
+    }
+    .slider .slick .item img {
+        width: 110px;
+    }
+    .download h1 {
+        font-size: 22px;
+    }
+    .download p {
+        font-size: 16px;
+    }
+    .download a {
+        font-size: 17px;
+        padding: 11px 40px 11px;
+    }
+    .downlosset {
+        padding-left: 20px;
+    }
+    .downlosset .iphone{
+        min-height: 280px;
+    }
+    .downlosset .android {
+        min-height: 220px;
+    }
+    footer p {
+        padding-right: 30px;
+    }
+    footer h1, footer p{
+        font-size: 11px;
+    }
+    footer ul li a {
+        font-size: 13px;
+    }
+    footer {
+        padding: 70px 0 30px;
+    }
+    footer ul li {
+        padding-bottom: 3px;
+    }
+    .path:before {
+        left: -83%;
+        top: 0%;
+    }
+    /*for how it work page*/
+    .add_weding img {
+        height: 207px;
+    }
+    .count_num p {
+        font-size: 25px;
+        height: 40px;
+        width: 40px;
+        padding: 0 8px;
+    }
+    .count_num p span {
+        bottom: -1px;
+        left: 10px;
+    }
+    .add_weding_detail .rsvp h1{
+        padding: 10px 0;
+    }
+    .plan-wendding.product h1 {
+        padding: 0px 0px 15px 0;
+        font-size: 29px;
+    }
+    .read_case .wedding_left2_bg {
+        padding: 30px 30px 0px;
+        background: url(../img/left-quote.png) no-repeat right 10% top 51%;
+    }
+    .read_case .wedding_left2_bg h1{
+        padding-top: 5px !important;
+    }
+
+    .signup .download h1{
+        font-size: 24px;
+    }
+    .signup .download p{
+        padding: 30px 0;
+    }
+    .weding_couple .slick .item_disc a.full_case img{
+        width:14px;
+    }
+    /*for signin page*/
+    .signin .forms {
+        padding: 40px 0px 80px 42px;
+    }
+    .only_wed_content p span{
+        display: inline;
+    }
+    .only_Weding h1{
+        padding-bottom: 10px;
+    }
+    .signin .forms .signup_already a{
+        font-size: 14px;
+    }
+    .signin .forms .signup_already p{
+        font-size: 12px;
+    }
+    /*apps section Momento | PricingWeddingPlanners and PricingCouples start*/
+    .apps .appleft .left_heading h4{
+        font-size: 11px;
+    }
+    .apps .appleft .left_heading h3{
+        font-size: 23px;
+    }
+    .apps .appright p{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .apps .appright p span {
+        display: inline;
+    }
+    .apps .appleft .left_list ul li a{
+        font-size: 12px;
+    }
+    .apps .appleft .left_list ul li{
+        margin-bottom: 15px;
+    }
+    .apps .appleft .left_list a.btn1 {
+        width: 155px;
+    }
+    .apps .appleft .left_list a.btn1{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    /*apps section Momento | PricingWeddingPlanners and PricingCouples start*/
+    .apps .appleft .left_heading h4{
+        font-size: 11px;
+    }
+    .apps .appleft .left_heading h3{
+        font-size: 23px;
+    }
+    .apps .appright p{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .apps .appright p span {
+        display: inline;
+    }
+    .apps .appleft .left_list ul li a{
+        font-size: 12px;
+    }
+    .apps .appleft .left_list ul li{
+        margin-bottom: 15px;
+    }
+    .apps .appleft .left_list a.btn1 {
+        width: 155px;
+    }
+    .apps .appleft .left_list a.btn1{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    /*apps section Momento | PricingWeddingPlanners and PricingCouples end*/
+
+    /*questions section Momento | PricingWeddingPlanners and PricingCouples start*/
+    .questions .questions_inner .content p span {
+        display: inline;
+    }
+    .questions .questions_inner .content h2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .questions .questions_inner .content {
+        padding: 18px 0px;
+    }
+    /*questions section Momento | PricingWeddingPlanners and PricingCouples end*/
+    /*customers page start*/
+    .story .story_left {
+        padding: 15px 10px 30px 15px;
+    }
+    .story .story_right .location {
+        padding: 12px 15px;
+    }
+    .story .story_right .location p {
+        font-size: 14px;
+    }
+    .story .story_right .location p span {
+        font-size: 30px;
+    }
+    .goal .goal_right p span{
+        display: inline;
+    }
+    .goal .goal_right {
+        padding: 21px 0px 14px 6px;
+    }
+    .goal .goal_right .android {
+        padding: 15px 0px 0px 0px;
+    }
+    .result .story_right {
+        padding-left: 0px;
+    }
+    .result .result_right img {
+        width: 87%;
+    }.result .result_right2 img {
+        width: 82%;
+    }
+
+    /*customers page end*/
+
+    /*customer_2 page start*/
+    .container1 {
+        width: 690px;
+    }
+    .adam_julia .adam_inner h1 {
+        color: #262a49;
+        font-size: 20px;
+        padding: 19px 0px;
+    }
+    .adam_julia .adam_inner p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .adam_julia {
+        padding-bottom: 40px;
+    }
+    .sandlar h2 {
+        font-size: 12px;
+    }
+    .sandlar h1 {
+        padding: 4px 0px;
+        font-size: 25px;
+    }
+    .sandlar p {
+        font-size: 14px;
+        color: #696b84;
+        line-height: 26px;
+        padding-top: 9px;
+    }
+    .sandlar .sandlar_right h3 {
+        font-size: 12px;
+        letter-spacing: 0.4px;
+    }
+    .sandlar .sandlar_right h3 span {
+        font-size: 39px;
+        padding-top: 5px;
+    }
+    .sandlar a {
+        font-size: 14px;
+        padding: 20px 0px;
+        margin-top: 23px;
+
+    }
+    /*customer_2 page end*/
+    .goal .goal_left1 img{
+        left: -5px;
+    }
+    .appleft {
+        padding: 40px 20px 125px 10px;
+    }
+    .weding_couple{
+        margin-bottom: 70px;
+    }
+    /*company page start*/
+    .company .comp_inner .values .values_content p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .contactus .contact_inner .contact_form form .form-control{
+        min-height: 40px;
+    }
+    .contactus .contact_inner .contact_form form textarea.form-control{
+        min-height: 130px;
+    }
+    /*company page end*/
+    .only_Weding h1{
+        padding: 0;
+    }
+    .only_wed_content{
+        bottom: 55px;
+    }.signin .forms form {
+        padding: 50px 0 0;
+    }
+    .only_Weding p{
+        line-height: 1.50;
+    }
+    .signin .forms a{
+        font-size: 13px;
+        padding-top: 7px;
+    }
+    .inner_content_form .download a{
+        padding: 11px 40px 11px;
+    }
+
+    /*customer page start*/
+    .wedding .container {
+        padding: 0px 30px;
+    }
+    .wedding .wedding_right, .wedding .wedding_left2 {
+        background-color: #fff;
+        width: 435px;
+        padding: 34px 29px;
+        margin: -142px 0px 60px 0px;
+    }
+    .wedding .wedding_left img,.wedding .wedding_right2 img{
+        width: 80%;
+    }
+    .wedding .wedding_right h1, .wedding .wedding_left2 h1 {
+        font-size: 21px;
+    }
+    .wedding .wedding_right p, .wedding .wedding_left2 p {
+        font-size: 15px;
+        line-height: 26px;
+        padding-top: 12px;
+    }
+    .only_Weding img {
+        height: 100%;
+        position: absolute;
+    }
+    /*customer page end*/
+
+    .mission .left_img img,.mission .right_img img {
+        top: 74%;
+    }
+    .mission .story_left {
+        padding: 8px 0px 15px 15px;
+    }
+    /*landing page start*/
+    .helping .help_middle {
+        padding: 0px 40px;
+    }
+    .helping h2 {
+        letter-spacing: 0.5px;
+        font-size: 12px;
+    }
+    .helping h2 span {
+        padding-top: 6px;
+        font-size: 30px;
+    }
+    .helping .helping_inner {
+        padding: 16px 6px 19px 9px;
+    }
+    .slider {
+        background-color: #f9f8f8;
+        height: 225px;
+        margin-bottom: 85px;
+    }
+    .demo .demo_inner {
+        padding: 24px 0px;
+    }
+    .demo .demo_inner h2 img {
+        margin-right: 8px;
+    }
+    .demo .demo_inner a {
+        margin: 29px auto;
+        display: block;
+    }
+    .demo .demo_inner h2 {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+    .demo .demo_inner_main {
+        padding: 0px 20px;
+    }
+    .contact_bg {
+        background: url(../img/path-6.png) no-repeat left 4%;
+        background-size: 55%;
+    }
+    .contactus {
+        background: url(../img/path-5.png) no-repeat right 97%;
+        padding: 25px 0px 100px;
+        background-size: 49%;
+    }
+    /*landing page end*/
+
+    /*contact page start*/
+    .contact h1 {
+        padding-bottom: 18px;
+    }
+    .contact p {
+        text-align: center;
+        font-size: 16px;
+    }
+    .contact_inner {
+        padding: 50px 25px 50px 35px;
+    }
+    .contact_middle {
+        padding: 0px 30px;
+    }
+
+    .header .navbar-default .navbar-nav > li {
+        margin: 0px 10px;
+    }
+    .header .navbar-default .navbar-nav {
+        padding-left:27px;
+    }
+    .header .navbar-default .navbar-nav > li > a,.header .navbar-default .navbar-nav .dropdown-content a{
+        font-size: 12px;
+    }
+    .header .navbar-default .navbar-nav .dropdown-content a{
+        margin-right: 40px;
+    }
+    .header .navbar-default .navbar-right .navbar-right_2 a {
+        padding: 3px 15px;
+    }
+    footer .get_satrted a {
+        font-size: 11px;
+    }
+    footer .social_media li a i {
+        margin-top: 6px;
+        font-size: 12px;
+    }
+    .google_box img {
+        margin-right: 5px;
+        width: 56px;
+    }
+    footer .social_media li a {
+        width: 24px;
+        height: 23px;
+        margin: 30px 7px;
+    }
+    .partners_wedding h1 {
+        padding-bottom: 15px;
+    }
+    .partners_wedding_inner h4 {
+        font-size: 15px;
+        line-height: 29px;
+        padding: 18px 10px 0px 10px;
+    }
+    .partners_wedding_inner a {
+        font-size: 14px;
+        padding: 16px 0px;
+        margin-top: 40px;
+    }
+    .partners {
+        padding: 0px 30px;
+    }
+    .partners_wedding_inner {
+        margin-top: 50px;
+    }
+    .partners_with .partners_with_inner .future {
+        padding: 0px 10px 0px;
+        min-height: 160px;
+    }
+    /*partners page end*/
+    /*package model start*/
+    .modal-content3_left .form-control {
+        font-size: 11px;
+    }
+
+    .sup_box a {
+        padding: 8px 6px 6px;
+        top: -30px;
+        left:20px;
+    }
+    .sup_box h2 {
+        font-size: 33px;
+    }
+    .sup_box h2 span {
+        font-size: 8px;
+        padding: 2px 0px 0px 5px;
+    }
+    .upgrade_section h6 {
+        font-size: 12px;
+    }
+    .upgrade_section h6 img {
+        vertical-align: middle;
+    }
+    .modal1_checkup .modal-content .modal-box {
+        margin-top: 0px;
+    }
+    .package1 .package_plans a.btn1{
+        width: 170px;
+    }
+    .package1{
+        padding: 20px;
+    }
+    .package1 .package_price{
+        min-height: 160px;
+    }
+    .package1 .package_plans ul{
+        min-height: 85px;
+    }
+    .package1 .package_plans ul li a{
+        min-height: 40px;
+    }
+    /*package model end*/
+    .header .navbar-brand{
+        margin-top: -10px;
+    }
+    .plan-wendding .home_center a {
+        padding: 17px 30px 15px;
+    }
+    .slider .slick-prev {
+        left: 45px;
+    }
+    .slider .slick .slick-next {
+        right: 45px;
+    }
+    .manage ul li {
+        width: 33%;
+        margin-top: 15px;
+    }
+    .manage .bottom_image img{
+        width: 83%;
+    }
+    .manage .bottom_image {
+        background-size: 100%;
+    }
+    .the_best_thing h1 {
+        font-size: 30px;
+    }
+    .the_best_thing .the_best_right {
+        background: url(../img/left-quote4.png) no-repeat right 4% bottom 0;
+    }
+    .the_best_thing .the_best_left {
+        background: url(../img/left-quote3.png) no-repeat left 4% top 0;
+    }
+    .home_center{
+        width:100%;
+    }
+    .google_box {
+        padding-right: 0;
+        margin-top: -20px;
+    }
+    .package_modal_2 .product .product_btns a.active {
+        padding: 14px 84px 12px;
+    }
+    .product_btns a.active.planers_btn i {
+        right: -128px;
+        font-size: 20px;
+    }.product_btns a.active.planers_btn i img {
+        top: 4px;
+        right: 90px;
+    }
+    .pro_button a {
+        padding: 7px 10px 3px;
+    }
+    .pro_button {
+        top: 12px;
+    }
+    .modal-content3_left form {
+        width: 96.5%;
+    }
+    .modal-content3_left {
+        padding: 40px 0px 40px 0;
+    }
+    .plan-wendding, .contact{
+        margin-top: 110px;
+    }
+    .partner_lern{
+        margin-top: 0;
+    }
+    .mission.about_mission {
+        padding: 95px 0px 108px;
+    }
+    .navigation__link{
+        padding: 0px 4px;
+    }
+    /*    .bg-image{
+            width: 236px;
+            height: 400px;
+            top: 40px;
+            margin-left: 67px;
+            left: 66%;
+        }*/
+}
+@media(max-width:767px){
+    .bg-image{
+        display: none;
+        /*        width:auto;*/
+    }
+    #mainNav{
+        display: none;
+    }
+    .question .question_inner .question_content{
+        padding: 20px 0px;
+    }
+    .question .question_inner .question_content .col-sm-8{
+        padding: 0px;
+    }
+    .header .hamburger, .flex_weding, .box {
+        display: block;
+    }  
+    .header {
+        padding: 30px 0px;
+    }
+    .plan-wendding {
+        background-size: 64%;
+    }
+    .plan-wendding img:first-child {
+        padding-right: 50px;
+        margin-top: 40px;
+    }
+    .guests {
+        padding: 60px 0px 45px;
+    }
+    .guests .rsvp img{
+        margin: 0 auto;
+    }
+    .guests .rsvp {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .mobile-apps {
+        padding: 60px 0 60px;
+    }
+    .path:before{
+        display: none;
+    }
+    .mobile-apps .box h2 {
+        font-size: 15px;
+    }
+    .capture {
+        padding: 50px 0px 10px 0px;
+        background-size: 85%;
+    }
+    .capture .right_side_inner {
+        min-height: 218px;
+    }
+    .slider .slick-slider .slick-list {
+        padding: 0 0px;
+    }
+    .slider .slick .item img{
+        margin: 0 auto 15px;
+    }
+    .slider .slick .item {
+        text-align: center;
+        padding: 25px 0px 25px 0px;
+    }
+    .slider .slick .item {
+        background: url(../img/left-quote2.png) no-repeat right 9% top 61%;
+        background-size: 11%;
+        background-color: #fff;
+    }
+    .download p {
+        font-size: 18px;
+        padding: 15px 0 30px;
+    }
+    .downlosset {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+    .noleft, .noright{
+        padding: 0;
+    }
+    footer h1, footer p, footer ul li a {
+        font-size: 14px;
+    }
+    footer h1 {
+        padding-bottom: 15px;
+        padding-top: 30px;
+    }
+    footer {
+        padding: 30px 0 30px;
+    }
+    .fixed_header{
+        padding: 20px 0 15px;
+    }
+    /*for how it work page*/
+    .product p{
+        line-height: 33px;
+    }
+    .count_num p{
+        margin: 0 auto 15px;
+    }
+    .add_weding img{
+        height: auto;
+        width: -webkit-fill-available;
+    }
+    .add_weding_detail .box:nth-child(2n+0) .wed_right{
+        float:unset;
+    }
+    .add_weding_detail .rsvp h1{
+        font-size: 24px;
+        padding: 20px 0;
+    }
+    .add_weding_detail .rsvp p{
+        font-size: 16px;
+        line-height: 1.63;
+    }
+    .add_weding_detail .box{
+        padding: 70px 0;
+    }
+    .weding_couple .slick .item_disc .item{
+        padding-bottom: 58px;
+    }
+    .weding_couple .slick .item_disc a.full_case{
+        font-size: 14px;
+    }
+    /*signin*/
+    .signin .forms{
+        padding: 40px 50px;
+    }
+    .signin, .signin .forms{
+        display: block;
+    }
+    .signin{
+        height:100%;
+        padding: 0px 0px;
+    }
+    .signin .forms form img{
+        right:15px;
+    }
+    /*apps section Momento | PricingWeddingPlanners and PricingCouples start*/
+    .apps .appleft{
+        text-align: center;
+        padding: 20px 0 0px;
+    }
+    .apps .appleft .left_heading img{
+        margin: 0 auto;
+    }
+    .apps .appleft .left_list a.btn1{
+        margin-bottom: 50px;
+        width: 250px;
+        font-size: 18px;
+    }
+    .apps .appleft .left_list ul li a{
+        font-size: 16px;
+    }
+    .apps .appleft .left_heading h3{
+        font-size: 24px;
+    }
+    .apps .appleft .left_heading h4 {
+        font-size: 12px;
+    }
+    .apps .appright p{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .apps .apps_inner{
+        padding: 30px 0px;
+    }
+    /*apps section Momento | PricingWeddingPlanners and PricingCouples end*/
+
+    /*questions section Momento | PricingWeddingPlanners and PricingCouples start*/
+    .questions .questions_inner .content p {
+        line-height: 22px;
+    }
+    .product p span, .signup .download p span{
+        display: inline
+    }.product .product_btns a.active{
+        display: inline-block;
+        font-size: 16px;
+    }
+    .questions {
+        padding: 0 0px 70px;
+    }
+    .product_btns {
+        margin: 35px auto 0;
+    }
+    /*questions section Momento | PricingWeddingPlanners and PricingCouples end*/
+
+    /*customers page start*/
+    .slick3 .slick-list{
+        padding: 0;
+    }
+    .story {
+        padding: 15px 0px 70px 0px;
+    }
+    .result {
+        padding:50px 0px 110px 0px;
+    }
+    .result .result_right2 img {
+        left: 15%;
+        top: 480px;
+    }
+    .result .story_right {
+        padding-bottom: 60px;
+    }
+    .result .result_right h1 {
+        left: 33%;
+        top: 734px;
+    }
+    .goal .goal_left1 img {
+        position: absolute;
+        left: 9px;
+        top: 170px;
+    }
+    .goal .goal_right {
+        padding: 150px 0px 14px 6px;
+    }
+    .goal {
+        background-color: #f9f8f8;
+        padding: 60px 0px 40px;
+    }
+    .story .story_left {
+        padding: 15px 10px 14px 15px;
+    }
+    .slick3 .slick-dots li button:before {
+        top: -35px;
+    }
+    /*customers page end*/
+
+    /*customer2 page start*/
+    .container1{
+        width: 85%;
+
+    }
+    .adam_inner{
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .adam_inner img{
+        margin: 0 auto;
+    }
+    .sandlar {
+        margin: -66px 0px 65px 0px;
+    }
+    .slick3 .slick_btn .slick-dots li button:before {
+        top: -60px;
+    }
+    .adam_julia {
+        padding: 0 0px 20px;
+    }
+    .sandlar p{
+        padding-bottom: 25px;
+    }
+    .sandlar .sandlar_inner {
+        padding: 34px 10px 0px 10px;
+    }
+    .sandlar_right{
+        text-align: center;
+    }
+    .adam_slider{
+        padding-top: 10px;
+        margin-top: 72px;
+    }
+    /*customer2 page end*/
+    .apps .appleft .left_list ul{
+        margin-top: 30px;
+        padding: 0;
+    }
+    .plan-wendding.product.trusted.font{
+        margin-bottom: 70px;
+    }
+    .apps .appright .img_box{
+        float: unset;
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+    .appright{
+        text-align: center;
+        padding:0;
+    }
+    /*company page start*/
+
+    .company .comp_inner .values {
+        padding: 40px 0px 0px;
+    }
+    .company .comp_inner .values .values_content p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .company{
+        padding-bottom: 0;
+    }
+
+    /*company page end*/
+    .only_Weding img{
+        height: auto;
+        position: static;
+    }
+    .only_wed_content{
+        bottom: 65px;
+    }
+    /*customer page start*/
+    .wedding .wedding_right, .wedding .wedding_left2 {
+        width: 300px;
+        padding: 25px 19px;
+        margin: -95px 0px 40px 0px;
+    }
+    .wedding .wedding_right h1, .wedding .wedding_left2 h1 {
+        font-size: 19px;
+    }
+    .wedding .wedding_right p, .wedding .wedding_left2 p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .wedding .wedding_left img, .wedding .wedding_right2 img {
+        width: 75%;
+    }
+    .wedding {
+        background-size: 60%;
+    }
+    .wedding .wedding_bg {
+        background: url(../img/bg2.png) no-repeat left bottom 0;
+        background-size: 59%;
+    }
+    .wedding .wedding_left2 .wedding_left2_bg, .wedding .wedding_right .wedding_left2_bg {
+        background: url(../img/left-quote.png) no-repeat right 0%;
+        background-size: 22%;
+    }
+
+    /*customer page end*/
+    /*customer case study_2 start*/
+    .images ul li, .images2 ul li {
+        width: 33%;
+        margin: 6px 0px;
+        float: left;
+    }
+    .read_case2 {
+        background: url(../img/path-6.png) no-repeat left 87%;
+        padding: 70px 0px 70px 0px;
+        background-size: 82%;
+    }
+    .read_case {
+        background: url(../img/path-5.png) no-repeat right 16%;
+        background-size: 83%;
+    }
+
+    /*customer case study_2 end*/
+
+    /*about page start*/
+    .mission_top p span{
+        display: inline; 
+    }
+    .the_best_thing h1 {
+        font-size: 27px;
+        padding: 18px 45px 0px 45px;
+    }
+    .the_best_thing h1 span {
+        display: inline;
+    }
+    .the_best_thing .the_best_left {
+        background: url(../img/left-quote3.png) no-repeat left 0% top 0;
+        background-size: 10%;
+    }
+    .the_best_thing .the_best_right {
+        background: url(../img/left-quote4.png) no-repeat right 0% bottom 0;
+        background-size: 10%;
+    }
+    .mission .left_img img, .mission .right_img img {
+        top: 206px;
+    }
+    /*.mission .mission_left img{
+       
+    }*/
+    .mission .story_left{
+        padding: 160px 10px 14px 15px;
+    }
+    /*about page end*/
+
+    /*landing page start*/
+    .plan-wendding h1 {
+        text-align: center;
+        padding: 0;
+    }
+    .demo h1 {
+        font-size: 27px;
+    }
+    .plan-wendding a, .plan-wendding a.active {
+        padding: 17px 65px 15px;
+    }
+    .plan-wendding {
+        background: url(../img/vector.png) no-repeat right top 85%;
+        background-size: 66%;
+    }
+    .helping .helping_inner {
+        padding: 16px 15px 19px 20px;
+        margin-bottom: 20px;
+    }
+    .mobile-apps h2 {
+        padding-bottom: 20px;
+    }
+    .mobile-apps h1{
+        padding-bottom: 15px;
+    }
+    .whitebox{
+        margin-top: 0;
+    }
+    .manage ul li {
+        list-style: none;
+        float: left;
+        width: 33%;
+    }
+    .manage .bottom_image {
+        background: url(../img/packages.png) no-repeat;
+        background-size: cover !important;
+        margin: 60px 0 55px;
+    }
+    /*landing page end*/
+    .result .result2_right3 img {
+        width: 72%;
+        position: absolute;
+        left: 17%;
+        top: 497px;
+    }
+    /*contact page start*/
+
+    .contact_inner {
+        padding: 33px 10px 25px 10px;
+    }
+    .contact_middle {
+        padding: 0px 10px;
+    }
+    .contact .form-group label {
+        font-size: 13px;
+    }
+    .form-group{
+        margin-top: 32px;
+    }
+    .form-group.cvv_respons{
+        padding-right: 18px;
+    }
+    .form-group label:before{
+        margin-right: 5px;
+    }
+    .contact .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+    .contact .contact_inner h2{
+        padding-bottom: 10px;
+    }
+    .contactus{
+        padding: 0px 0px 40px;
+    }
+    .contact .contact_inner button {
+        padding: 11px 65px;
+        font-size: 14px;
+    }
+    .contact .contact_inner textarea {
+        margin-bottom: 20px;
+    }
+    footer .get_satrted a {
+        font-size: 14px;
+    }
+    footer .get_satrted{
+        text-align: left;
+        margin-top: 27px;
+    }
+    footer .social_media li a i {
+        margin-top: 6px;
+        font-size: 16px;
+    }
+    footer .social_media li a {
+        width: 30px;
+        height: 30px;
+        margin: 3px 9px 30px 0px;
+    }
+    .last_rowfoot{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .last_rowfoot ul li {
+        display: block; 
+        margin: 15px 20px;
+    }
+    .google_box {
+        text-align: left;
+        width: 100%;
+    }
+    .google_box img{
+        width: auto;
+    }
+
+    /*partners page start*/
+    .partners_with .partners_with_inner .future{
+        border-right: none;
+        min-height: 160px;
+        padding: 0px 15px;
+
+    }
+    .partners_with .partners_with_inner .future2{
+        border-bottom: 2px solid #d8d8d8;
+    }
+    .partners_with .partners_with_inner .furure_right{
+        border-right: 2px solid #d8d8d8;
+    }
+    .partners_with .partners_with_inner .future3{
+        border-bottom: none;
+    }
+    /*partners page end*/
+    .slick_btn .slick-dots {
+        bottom: 20px;
+    }
+    .partner_lern .partner_bg h1{
+        font-size: 23px;
+        padding: 0 15px 25px;
+    }
+    .images ul, .images2 ul {
+        padding: 0px;
+
+    }
+    .images ul li img, .images2 ul li img{
+        margin: 0 auto;
+    }
+    /*package model start*/
+    .modal-content3_left {
+        border-right: 0px solid #d8d8d8;
+        padding: 40px 20px 40px 20px;
+    }
+    .modal-content3_left form {
+        width: 100%;
+    }
+    .modal-content3_left form .noleft {
+        padding-left:15px;
+    }
+    .modal-content3_left .form-control {
+        font-size: 14px;
+    }
+    .sup_box h2 span {
+        font-size: 10px;
+    }
+    .modal1_checkup .checkout_box2 .close {
+        font-size: 28px;
+        right: 2%;
+        top: 45px;
+    }
+    .modal1_checkup .checkout_box2 .play {
+        left: 2%;
+    }
+    .modal-content3_right {
+        padding: 20px 20px 20px 20px;
+    }
+    .modal1_checkup .modal-content2 {
+        padding: 40px 0px 60px;
+    }
+    #sel1 {
+        width: 45%;
+    }
+    #sel2 {
+        width: 47.3%;
+    }
+    .package1{
+        margin-top: 50px;
+    }
+    .package_modal_2 .product h1{
+        font-size: 32px;
+        padding-bottom: 5px;
+    }
+    .package_modal_2 .product p{
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .package1 .package_price h4{
+        font-size: 16px;
+    }
+    .package1 .package_price h3{
+        font-size: 64px;
+        margin-top: 30px;
+    }
+    .package1 .package_price h3 i{
+        font-size: 36px;
+    }
+    .package1 .package_price h3 span{
+        font-size: 14px;
+    }
+    .package1 .package_plans ul li a{
+        font-size: 16px;
+    }
+    .package1 .package_price h5{
+        font-size: 16px;
+    }
+    .package1 .package_plans a.btn1{
+        width: 253px;
+        font-size: 18px;
+    }
+    .package1 .package_plans ul li a{
+        min-height: 22px;
+    }
+    .package1 .package_plans ul{
+        min-height: 75px;
+    }
+    .package1 .package_price{
+        min-height: 175px;
+    }
+    .package_modal_2 .plan-wendding.product{
+        padding: 25px 0 25px;
+    }
+    /*package model end*/
+    .header .navbar-brand {
+        margin-top: -8px;
+        width: 150px;
+    }
+    .last_rowfoot .footer_font {
+        float: unset;
+    }
+    .plan-wendding .phone {
+        top: 46%;
+    }
+    .home_center {
+        width: 100%;
+    }
+    .slider .slick-prev, .slider .slick-next {
+        top: 116px;
+    }
+    .slider .slick-prev {
+        left: 30px;
+    }
+    .slider .slick-next{
+        right:30px;
+    }
+    .slider .slick .item p{
+        padding-top: 10px;
+    }
+    .mobile-apps.manage {
+        padding: 92px 0 0px;
+    }
+    .demo .demo_inner_main {
+        padding: 0 100px;
+    }
+    .flex_build {
+        display: block;
+    }
+    .google_box {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .package_modal_2 .product .product_btns a.active {
+        padding: 12px 55px 10px;
+    }
+    .product_btns a.active.planers_btn i {
+        right: -88px;
+        font-size: 16px;
+        top: -10px;
+    }
+    .product_btns a.active.planers_btn i img {
+        top: -33px;
+        right: 65px;
+        width: 40px;
+    }
+    .pro_button a {
+        padding: 7px 25px 3px;
+    }
+    .sup_box a {
+        font-size: 12px;
+    }
+    .upgrade_section h6 {
+        font-size: 16px; 
+    }
+    .plan-wendding, .contact, .partners_wedding{
+        margin-top: 90px;
+    }
+    .partner_lern{
+        margin-top: 0;
+    }
+    .header{
+        box-shadow: 0 0 1px 1px rgba(34,45,57,.15);
+        padding: 20px 0 15px;
+    }
+    .the_best_thing {
+        padding: 40px 0px 35px 0px;
+    }
+    .mission.about_mission {
+        padding: 33px 0px 108px;
+    }
+    .signin .slick2 .slick-dots{
+        left:40px;
+    }
+    .modal .plan-wendding{
+        margin-top: 0px!important;
+    }
+    .package_content .package_popup2 .close{
+        top:24px;
+    }
+    .getBTN:hover img,.getBTN:focus img,.getBTN.ctive img{
+        right:15px!important;
+    }
+    .plan-wendding .planimg{
+        display: none;
+    }
+}
+@media(max-width:560px){
+    .plan-wendding {
+        background: url(../img/vector.png) no-repeat right bottom;
+        background-size: 77%;
+    }
+    .nopaddres{
+        display: none;
+    }
+    .box {
+        display: block;
+    }
+    /*    .box .nomrg, .whitebox{
+            margin-top: 0px !important;
+        }*/
+    .capture .right_side_inner{
+        min-height: auto;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .manage ul li a {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+    }
+    .helping .help_middle {
+        padding: 0px 0px;
+    }
+    .slider .slick .item{
+        padding: 30px 0px 30px 0px;
+    }
+    .slider .slick-prev {
+        left: 14px;
+    }
+    .slider .slick .slick-next {
+        right: 14px;
+    }
+    .slider .slick .item img {
+        width: 90px;
+    }
+    .download {
+        padding: 30px 30px 0;
+        margin-bottom: 50px;
+    }
+    /*for how it work page*/
+    .product p{
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .plan-wendding.product h1{
+        padding: 0px 0 10px;
+    }
+    .product .product_btns a.active{
+        font-size: 13px;
+        padding: 11px 15px 10px;
+    }
+    .product_btns{
+        margin-top: 40px;
+    }
+    .signup .download p span{
+        display: inline;
+    }
+    .signup .download{
+        padding: 55px 0 20px;
+    }
+    .count_num p{
+        margin-bottom: 0;
+    }
+    .weding_couple .slick .item_disc .item{
+        bottom: -60px;
+    }
+    .weding_couple .slick .item_disc .item .item_inner{
+        padding: 5px 20px 0;
+    }
+    .weding_couple .slick .item_disc .item{
+        padding-bottom: 120px;
+    }
+    .signin .forms{
+        padding: 40px;
+    }
+    .signin .forms a{
+        font-size: 15px;
+        padding-top: 10px;
+    }.continue_form .border_continue a{
+        top:-17px;
+        left:31%;
+        font-size: 16px;
+    }
+    /*apps & questions section Momento | PricingWeddingPlanners and PricingCouples start*/
+
+    .apps .apps_inner .col-sm-8 .col-xs-6,.questions .questions_inner .col-xs-6{
+        width: 100%;
+    }
+    .questions .questions_inner .content h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .questions .questions_inner .content p{
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .apps {
+        padding-bottom: 0px; 
+    }
+    .demo {
+        padding: 50px 0px 0px;
+    }
+    .question .question_inner h1 {
+        font-size: 30px;
+        margin-bottom: 46px;
+    }
+    /*apps & questions section Momento | PricingWeddingPlanners and PricingCouples end*/
+    /*customer page start*/
+    .goal .goal_left1 img {
+        left: 9px;
+        top: 115px;
+    }
+    .story .story_right .col-xs-6{
+        padding-right: 15px;
+        padding-left: 0px;
+    }
+    .result .result_right h1 {
+        left: 30%;
+        top: 656px;
+    }
+    /*customers page end*/
+    /*customers_2 page start*/
+    .sandlar .right_space {
+        padding-top: 30px;
+    }
+    /*customers_2 page end*/
+    .goal .goal_right {
+        padding: 115px 0px 14px 6px;
+    }
+    .result {
+        padding: 40px 0px 85px 0px;
+    }
+    .apps .apps_inner {
+        padding: 30px 0px 0;
+    }
+    .appright, .apps .appleft{
+        padding: 0;
+    }
+    /*company page start*/
+    .company .comp_inner .values .col-xs-6{
+        width: 100%;
+    }
+    /*company page end*/
+    .only_wed_content{
+        bottom: 40px;
+    }
+    .slick2 .slick-dots{
+        bottom: -50px;
+    }
+    /*customer page start*/
+    .wedding .wedding_left img, .wedding .wedding_right2 img {
+        width: 100%;
+    }
+    .wedding .wedding_right, .wedding .wedding_left2 {
+        width: 90%;
+        padding: 24px 15px;
+        display: inline-block;
+        float: unset;
+        margin: -49px 0px 40px 0px;
+    }
+    .wedding .wedd_inner{
+        text-align: center;
+    }
+    .wedding .wedding_left2 .wedding_left2_bg, .wedding .wedding_right .wedding_left2_bg {
+        background-size: 17%;
+    }
+    .wedding .wedding_right, .wedding .wedding_left2 {
+        text-align: left;
+        /*customer page end*/
+    }
+    /*customer case study2 start*/
+    .read_case .wedding_left2_bg {
+        padding: 26px 14px 0px;
+    }
+    .read_case .adam_inner {
+        padding: 0px 0px;
+    }
+    /*customer case study2 end*/
+    /*about page start*/
+    .the_best_thing h1 span{
+        display: inline;
+    }
+    .the_best_thing h1 {
+        font-size: 21px;
+    }
+    .mission .left_img img, .mission .right_img img {
+        top: 125px;
+    }
+    .mission .mission_left {
+        padding-top: 15px;
+    }
+    /*about page end*/
+
+    /*landing page start*/
+    .slider {
+        background-color: #f9f8f8;
+        height: 329px;
+    }
+    /*landing page end*/
+
+    /*contact page start*/
+    .contact .col-xs-6{
+        width: 100%;
+    }
+    .contact_bg {
+        background: url(../img/path-6.png) no-repeat left 4%;
+        background-size: 98%;
+    }
+    .contactus {
+        background: url(../img/path-5.png) no-repeat right 96%;
+        padding: 0px 0px 75px;
+        background-size: 98%;
+    }
+    .contact .contact_inner textarea {
+        width: 100%;
+        resize: none;
+        margin-bottom: 15px;
+    }
+    .form-group{
+        margin-top: 0px;
+    }
+    /*contact page end*/
+    /*priyank changes start*/
+    .google_box img {
+        margin-right: 5px;
+        width: 56px;
+    }
+    /*priyank changes end*/
+
+    /*partners page start*/
+    .partners {
+        padding: 0px 10px;
+    }
+    .partners_wedding_inner h4 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .mission .story_right .noleft {
+        padding-right: 0px;
+    }
+    .partners_wedding_inner a {
+        font-size: 13px;
+        padding: 20px 0px;
+    }
+    .partners_wedding_inner h3 {
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    .partners_wedding h1 {
+        font-size: 25px;
+    }
+    .partners_wedding p {
+        font-size: 18px;
+    }
+    .read_case2{
+        padding: 0 0 70px;
+    }
+    /*partners page end*/
+    /*package page start*/
+    .modal-content3_left .form-control {
+        font-size: 12px;
+    }
+    .modal-content3_left {
+        border-right: 0px solid #d8d8d8;
+        padding: 40px 0px 40px 0px;
+    }
+    .sup_box a {
+        font-size: 10px;
+        left: 0px;
+        width: 87%;
+    }
+    .sup_box h2 {
+        font-size: 31px;
+    }
+    .package_modal_2 .product .product_btns a.active{
+        padding: 10px 25px 10px;
+    }
+    .package_modal_2 .product .product_btns a.active{
+        font-size: 12px;
+    }
+    .package1{
+        margin-top: 35px;
+    }
+    .package_modal_2 .plan-wendding.product{
+        padding: 25px 0 0px;
+    }
+    .package_modal_2 .product h1{
+        font-size: 24px;
+    }
+    .package_modal_2 .product p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .package_modal_2 .product_btns{
+        margin: 25px auto 0;
+    }
+    /*package end*/
+    .slider .slick-prev, .slider .slick-next {
+        top: 163px;
+    }
+    .mobile-apps.manage {
+        padding: 29px 0 0px;
+    }
+    .demo .demo_inner_main {
+        padding: 0 65px 50px;
+    }
+    .partners_wedding_inner .flex_build h4{
+        padding-top: 26px;
+    }
+    footer {
+        padding: 30px 0 20px;
+    }
+    .plan-wendding, .partners_wedding, .partners_wedding{
+        margin-top: 80px;
+    }
+    .modal1_checkup .checkout_box2 .play {
+        left: 5%;
+    }
+    .modal1_checkup .checkout_box2 .close {
+        right: 5%;
+    }
+    .the_best_thing {
+        padding: 20px 0px 20px 0px;
+    }
+    .mission.about_mission {
+        padding: 75px 0px 108px;
+    }
+    .partners_with .partners_with_inner .future h2 {
+        font-size: 16px;
+    }
+    .signin .slick2 .slick-dots{
+        bottom: 20px;
+    }
+    .signin .forms h3 a img{
+        width:150px;
+    }
+    .getBTN:hover img,.getBTN:focus img,.getBTN.ctive img{
+        right:15px!important;
+    }
+}
+@media(max-width:414px){
+    .plan-wendding {   
+        background-size: 66%;
+
+    }
+    .mobile-apps {
+        padding: 40px 0;
+    }
+    .mobile-apps h1 {
+        font-size: 24px;
+    }
+    /*    .slider .slick .item{
+            padding: 30px;
+        }*/
+    .download {
+        padding: 20px 20px 0;
+    }
+    .slider .slick .item {
+        background: url(../img/left-quote2.png) no-repeat right 9% top 51%;
+        background-size: 16%;
+        background-color: #fff;
+    }
+    .downlosset .android h1 {
+        padding-left: 9px;
+    }
+    .product p span{
+        display: inline;
+    }
+    .signup .download h1{
+        font-size: 20px;
+    }
+    .signup .download p{
+        padding: 20px 0;
+        font-size: 16px;
+    }
+    .product .product_btns a.active {
+        font-size: 12px;
+        padding: 11px 11px 10px;
+        margin: 4px;
+    }
+    .weding_couple .slick img{
+        width:100%;
+    }
+    .weding_couple .slick .item p{
+        line-height: 1.59;
+    }
+    .weding_couple .slick .item_disc a.full_case{
+        padding: 15px 20px;  
+        font-size: 13px;
+    }
+    .wed_plan{
+        margin: 0 10px;
+    }
+    .weding_couple .slick .item_disc .item{
+        padding-bottom: 109px;
+    }
+    .slider .slick .item h1, .weding_couple .slick .item p{
+        padding: 10px 0;
+    }
+    .slider .slick-prev, .slick-next {
+        top: 35%;
+        height: 40px;
+        width: 40px;
+    }
+    .signin .forms {
+        padding: 25px;
+    }
+    .signin .forms a{
+        font-size: 12px;
+    }
+    .inner_content_form .download a{
+        font-size: 14px;
+    }
+    .signin .forms h3{
+        font-size: 25px;
+    }
+    .continue_form .border_continue a{
+        left:30%;
+        font-size: 13px;
+
+    }
+    /*apps & questions section Momento | PricingWeddingPlanners and PricingCouples start*/
+    .apps .apps_inner_main {
+        padding: 0px 20px;
+    }
+    .product p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .question .question_inner h1 {
+        font-size: 23px;
+        margin-bottom: 40px;
+    }
+    .question .question_inner .question_content{
+        padding: 0px;
+    }
+    .content_right .panel a {
+        font-size: 15px;
+        line-height: 21px;
+        padding: 20px 0px;
+    }
+    .navigation__link {
+        font-size: 14px;
+    }
+
+    .apps .appleft .left_list ul {
+        margin-top: 25px;
+    }
+    .apps .appleft .left_list ul li a {
+        font-size: 14px;
+    }
+    .apps .appleft .left_heading h3 {
+        font-size: 20px;
+    }
+    .apps .appleft .left_heading h4 {
+        font-size: 11px;
+    }
+    .apps .appleft .left_list a.btn1 {
+        margin-bottom: 35px;
+        width: 170px;
+        font-size: 14px;
+    }
+    .apps .apps_inner .col-sm-8{
+        padding: 0;
+    }
+    .questions {
+        padding: 0 0px 35px;
+    }
+    .questions .questions_inner .content h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .questions .questions_inner .content p{
+        font-size: 12px;
+    }
+    .questions .questions_inner .content {
+        padding: 20px 0px;
+    }
+
+    /*apps & questions section Momento | PricingWeddingPlanners and PricingCouples end*/
+
+    /*customers page start*/
+    .story .story_left {
+        padding: 15px 0px 14px 0px;
+    }
+    .story .story_left h1 {
+        font-size: 27px;
+    }
+    .story .story_left p {
+        line-height: 25px;
+        font-size: 14px;
+        padding: 12px 0px 5px 0px;
+    }
+    .story .story_right .location p {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    .story .story_right .location p span {
+        font-size: 25px;
+    }
+    .story .story_right .location {
+        padding: 8px 5px;
+    }
+    .goal .goal_left1 img {
+        left: 9px;
+        top: 90px;
+    }
+    .goal .goal_right {
+        padding: 100px 0px 5px 6px;
+    }
+    .goal .goal_right .col-xs-6{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .result .result_right2 img {
+        left: 15%;
+        top: 447px;
+    }
+    .result .result_right h1 {
+        left: 25%;
+        top: 565px;
+        font-size: 28px;
+    }
+    .goal .goal_right .android {
+        padding: 12px 0px 0px 0px;
+    }
+    .goal .goal_right p{
+        line-height: 24px;
+    }
+    .story {
+        padding: 10px 0px 47px 0px;
+    }
+    .result {
+        padding: 40px 0px 85px 0px;
+    }
+    .slick3 .slick-dots li button:before {
+        top: -25px;
+        width: 15px;
+        height: 3px;
+    }
+
+    /*    customers page end/*/
+
+    /*    customers_2 page start/*/
+    .slick3 .slick_btn .slick-dots li button:before {
+        top: -47px;
+    }
+    /*    customers_2 page end/*/
+    .plan-wendding.product h1 {
+        font-size: 25px;
+    }
+    .plan-wendding.product.trusted.font {
+        margin-bottom: 55px;
+    }
+    /*company page start*/
+    .company .comp_inner .values .values_content p {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .company .comp_inner .values .values_content h3{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .company{
+        padding-bottom: 20px;
+    }
+    .contactus .contact_inner .contact_form .col-xs-6{
+        width: 100%;
+    }
+    .contactus .contact_inner .contact_form form button.btnsubmit{
+        display: block;
+        margin: 0 auto;
+    }
+    .contactus .contact_inner .contact_form form label{
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .contactus .contact_inner .contact_form form .form-control{
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    /*company page end*/
+    .only_wed_content {
+        padding-left: 20px;
+        bottom: 43px;
+    }
+    .only_Weding p{
+        line-height: 1.3;
+    }
+    .result .result2_right3 img {
+        width: 72%;
+        position: absolute;
+        left: 17%;
+        top: 467px;
+    }
+    /*customer page start*/
+    .wedding .container {
+        padding: 0px 15px;
+    }
+    .wedding .wedding_right, .wedding .wedding_left2 {
+        margin: -49px 0px 40px 0px;
+    }
+    .wedding .wedding_right h1, .wedding .wedding_left2 h1 {
+        font-size: 18px;
+    }
+    .wedding .wedding_right p, .wedding .wedding_left2 p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    /*customer page end*/
+    /*customer case study2 start*/
+    .sandlar .sandlar_right h3 span {
+        font-size: 30px;
+    }
+    .images ul li img, .images2 ul li img{
+        width: 80%
+    }
+    .images2 {
+        padding: 10px 0px 4px 0px;
+    }
+    .case_images ul li img, .case_images ul li img{
+        width:130px;
+    }
+    .read_case .wedding_left2_bg h2 {
+        font-size: 12px;
+    }
+    /*customer case study2 end*/
+    /*about page start*/
+    .mission .story_left{
+        padding: 115px 0px 14px 0px;
+    }
+    .the_best_thing h1 {
+        font-size: 19px;
+        padding: 18px 35px 0px 40px;
+    }
+    .mission .left_img img, .mission .right_img img {
+        top: 98px;
+    }
+    .mission_top p {
+        font-size: 15px;
+    }
+    /*about page end*/
+    .demo h1 {
+        font-size: 23px;
+    }
+    .manage ul li a {
+        font-size: 11px;
+        letter-spacing: 0.3px;
+    }
+    /*priyank changes start*/
+    footer .social_media li a {
+        width: 26px;
+        height: 27px;
+        margin: 30px 3px;
+    }
+    footer .get_satrted a {
+        font-size: 10px;
+    }
+    .google_box img {
+        margin-right: 5px;
+        width: 52px;
+    }
+    /*priyank changes end*/
+    /*partner page start*/
+    .partners_with .partners_with_inner .col-xs-6{
+        width: 100%;
+    }
+    .partners {
+        padding: 0px 0px;
+    }
+    .partners_wedding h1 {
+        font-size: 23px;
+    }
+    .partners_wedding p {
+        font-size: 17px;
+    }
+    .partners_wedding_inner {
+        margin-top: 30px;
+        padding: 10px 0px 0px 0px;
+    }
+    .partners_wedding_inner h3 {
+        letter-spacing: 0.8px;
+        font-size: 11px;
+    }
+    .partners_wedding_inner h4 {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 15px 0px 0px 0px;
+    }
+    .partners_with .partners_with_inner {
+        padding: 20px 0px 0px 0px;
+    }
+    .partners_with .partners_with_inner .future {
+        padding: 10px 15px;
+    }
+    .partners_with .partners_with_inner .furure_right{
+        border-right:none;
+    }   
+    .partners_with .partners_with_inner .future3{
+        border-bottom: 2px solid #d8d8d8;
+    }
+
+    .get_satrted{
+        margin-bottom: 0px;
+    }
+    .google_box{
+        margin-top: 20px;
+    }
+    /*partner page end*/
+
+    /*package page start*/
+    .save_box .col-xs-8{
+        width: 100%;
+    }
+    .save_box .col-xs-4{
+        width: 100%;
+    }
+    .sup_box a {
+        width: 34%;
+        top: -70px;
+        right: 0;
+        left: inherit;
+    }
+    .save_box p {
+        font-size: 11px;
+        margin-top: 3px;
+    }
+    .save_box h6 {
+        font-size: 12px;
+    }
+    .modal-content3_left label {
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+    .modal-content2 h3 {
+        font-size: 20px;
+        padding: 10px 0px 10px;
+    }
+    .modal-content2 p {
+        font-size: 15px;
+    }
+    .modal-content3_right a {
+        font-size: 13px;
+        margin: 3px 0px;
+    }
+    .upgrade_section a {
+        font-size: 16px;
+    }
+    .package1 .package_plans a.btn1{
+        width: 200px;
+        font-size: 16px;
+    }
+    .package1 .package_plans ul li a{
+        font-size: 14px;
+    }
+    .package1 .package_price h5 {
+        font-size: 14px;
+    }
+    .package1 .package_price h4 {
+        font-size: 14px;
+    }
+    .package1 .package_price h3 {
+        font-size: 54px;
+        margin-top: 20px;
+    }
+    .package1 .package_price {
+        min-height: 150px;
+    }
+    .package1 .package_plans ul{
+        min-height: 65px;
+    }
+    .package1 .package_plans ul li{
+        margin-bottom: 15px;
+    }
+    .package_modal_2 .product p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .package_modal_2 .product h1 {
+        font-size: 22px;
+    }
+    .package_content .package_popup2 .close{
+        height: 40px;
+        width: 40px;
+    }
+    .package_content .package_popup2 .close img{
+        width: 50%;
+    }
+    /*package page end*/
+    .plan-wendding .home_center a{
+        padding: 17px 50px 15px;
+    }
+    .plan-wendding .col-sm-5 img {
+        margin: 22px auto 9px;
+    }
+    .home_center {
+        padding-bottom: 40px;
+    }
+    .plan-wendding .phone {
+        top: 64%;
+    }.demo .demo_inner_main {
+        padding: 0 15px 50px;
+    }
+    footer .social_media li a i {
+        font-size: 14px;
+    }
+    .package_modal_2 .product .product_btns a.active {
+        padding: 10px 18px 10px;
+    }
+    .product_btns a.active.planers_btn i img {
+        width: 30px;
+        right: 54px;
+    }
+    .product_btns a.active.planers_btn i {
+        right: -60px;
+        font-size: 13px;
+        top: -23px;
+    }
+    #sel2 {
+        width: 45.3%;
+    }
+    .partners_with .partners_with_inner img {
+        margin: 10px auto 10px;
+    }
+    .signin .slick2 .slick-dots{
+        bottom: 14px;
+        left:14px;
+    }
+    .signin .forms h3 a img {
+        width: 118px;
+    }
+    .only_Weding p {
+        padding: 10px 0px 0 0;
+    }
+
+
+}
+@media(max-width:320px){
+
+}

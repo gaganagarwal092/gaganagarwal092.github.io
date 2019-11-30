@@ -1,0 +1,281 @@
+/* @media(max-width:1450px){
+
+}
+@media(max-width:1350px){
+
+}  */
+@media screen and (max-width: 1199px){
+.container_funnel {
+    width: 770px;
+}
+.funnel_slide_heading h1 {
+    font-size: 32px;
+    line-height: 40px;
+}
+.funnel_button ul.continueul {
+    padding: 45px 100px 0px;
+}
+.formbox {
+    padding: 30px 100px 0px;
+}
+.funnel_slide-1_content {
+    padding: 0px 125px 225px;
+}
+.funnel_button ul.pdtop {
+    padding-top: 0px!important;
+}
+.personalinfo2 {
+	    padding: 0px 80px 0px;
+    }
+    .funnel_slide_heading p {
+    font-size: 22px;
+}
+.funnel_slide_heading ul li {
+    font-size: 14px;
+}
+.funnel_slide_heading h2 {
+    font-family: "SourceSansProSemiBold";
+    color: #eb630d;
+    font-size: 26px;
+    text-align: center;
+}
+.modal-dialog {
+        width: 90%;
+    }
+}
+@media(max-width:991px) and (min-width:768px){
+     .modal-body {
+        padding: 0px 40px;
+    }
+ .container_funnel {
+    width: 750px;
+}
+.funnel_slide-1_content {
+    padding: 0px 115px 225px;
+}
+.funnel_slide_heading h1 {
+    font-size: 32px;
+    line-height: 38px;
+}
+}
+@media(max-width:767px){ 
+    .modal-head button img {
+    width: 15px;
+    height: 15px;
+} 
+    .header .hamburger{
+        display: block;
+    }
+    .container_funnel {
+    width: 460px;
+}
+.funnel_slide-1_content {
+    padding: 0px 0px 225px;
+}
+.funnel_button ul.continueul {
+    padding: 45px 50px 0px;
+}
+.funnel_slide_headings h1 {
+	    font-size: 40px;
+	    line-height: 48px;
+    }
+    .funnel_button ul.continueul {
+    padding: 45px 50px 0px;
+}
+.funnel_slide-1_content {
+     min-height: 560px;
+    padding: 0px 0px 146px;
+    }
+    .navbar {
+            padding-top: 15px;
+    margin-top: -11px;
+    }
+    .funnel_button ul.continueul.button_left {
+    padding: 45px 20px 0px;
+}
+    .funnel_slide-1_content {
+    min-height: auto;
+    padding: 0px 0px 114px;
+}
+    .main_funnel {
+    margin-top: 85px;
+}
+    .modal-body h4{
+        font-size: 24px;
+    }
+    .modal_inner {
+        padding: 20px 0px;
+    }
+    .modal-body {
+        padding: 0px 20px;
+    }
+    .modal_inner p{
+        font-size: 14px;
+        padding-bottom: 10px;   
+    }
+    
+.formbox {
+    padding: 20px 50px 0px!important;
+}
+.funnel_slide_heading p {
+    font-size: 19px;
+}
+.funnel_slide_heading ul {
+    padding: 0px 77px;
+}
+.personalinfo2 {
+	    padding: 0px 50px 0px;
+    }
+    .funnel_slide_heading h2 {
+    font-size: 24px;
+}
+.funnel_slide_heading h1 {
+    font-size: 32px;
+    line-height: 34px;
+}
+}
+@media(max-width:560px){
+    funnel_slide_heading p {
+    line-height: 20px;
+}
+.header {
+    height: 77px;
+}
+ .button_left{
+        padding-top: 0px!important;
+    }
+    .modal-body h4{
+        font-size: 24px;
+    }
+    .modal_inner {
+        padding: 20px 0px;
+    }
+    .modal-body {
+        padding: 0px 20px;
+    }
+    .modal_inner p{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .list_button.continuebtn h4 {
+    font-size: 25px;
+}
+.header .navbar-brand img {
+    margin: 0 auto;
+    margin-bottom: -16px;
+    width: 30;
+    height: 85px;
+    position: relative;
+    top: 0px;
+}
+.container_funnel {
+	    width: 100%;
+	}
+.funnel_slide-1_content {
+     min-height: auto;
+}
+.funnel_button ul.continueul {
+    padding: 45px 36px 0px;
+}
+.f_inner p.copyright{
+	    margin-top: 20px;
+	}
+.formbox {
+    	padding: 20px 40px 0px!important;
+    }
+    .personalinfo2 {
+	    padding: 0px 20px 0px;
+    }
+    .funnel_slide_heading p {
+    font-size: 15px;
+}
+.funnel_slide_heading h2 {
+    font-size: 28px;
+}
+.funnel_slide_heading ul {
+    padding: 0px 55px;
+}
+.footer {
+    padding: 20px 0px 10px;
+}
+.footer_inner p.slash {
+    padding-bottom: 0px;
+}
+}
+@media(max-width:414px){
+    .list1 {
+    font-size: 18px;
+}
+.header {
+    height: 71px;
+}
+.modal-body h4 {
+    font-size: 20px;
+}
+.funnel_button ul.continueul.button_left {
+    padding: 45px 0px 0px;
+}
+    .footer {
+    padding: 20px 0px 20px;
+}
+.funnel_slide_heading p {
+    line-height: 20px;
+}
+.funnel_slide_heading h2 {
+    font-size: 26px;
+}
+     .modal_inner p{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .footer_inner .policy {
+    margin-bottom: 0px;
+}
+.funnel_button ul.continueul {
+    padding: 30px 0px 0px;
+}
+.funnel_slide_heading h1 {
+    font-size: 32px;
+}
+.funnel_slide_heading ul {
+    padding: 0px 11px;
+}
+.formbox {
+    padding: 20px 0px 0px!important;
+}
+.funnel_slide_heading p {
+	    font-size: 18px;
+    	line-height: 24px;
+    	margin: 15px 0px;
+    }
+    .formbox .form-control {
+		font-size: 20px;
+		padding: 6px 12px;
+		height: 46px;
+    }
+    .personalinfo2 {
+	    padding: 0px 0px 0px;
+    }
+    .list_button.continuebtn h4 {
+        font-size: 20px;
+}
+.funnel_slide-1_content {
+    min-height: auto;
+    padding: 0px 0px 71px;
+}
+.header .navbar-brand img {
+   margin: 0 auto;
+    margin-bottom: -16px;
+    width: 30;
+       height: 76px;
+    position: relative;
+    top: 0px;
+}
+.main_funnel {
+    padding-top: 25px;
+    margin-top: 80px;
+}
+}
+@media(max-width:320px){
+
+}

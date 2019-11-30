@@ -1,0 +1,662 @@
+<html lang="en">
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="icon" href="img/favicon/favicon.ico" type="image/ico" sizes="16x16">
+
+            <title>Momento | Events</title>
+
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+            <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+            <link rel="stylesheet" type="text/css" href="css/slick.css">
+            <link rel="stylesheet" type="text/css" href="css/chosen.css">
+            <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+            <!-- <link rel="stylesheet" type="text/css" href="css/calender.css"> -->
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
+            <link rel="stylesheet" type="text/css" href="css/media.css">
+
+        </head>
+        <body >
+            <div class="sidenav sidenav_info" id="mySidenav">
+                <a href="#" class="logo">Momento</a>
+                <a href="MomentoOverview.html" class=""><img src="img/home.svg" alt="icon">Overview</a>
+                <a href="MomentoOverviewcoupleinfo.html" class=""><img src="img/group.svg" alt="icon">Couple Info</a>
+                <a href="guest.html" class=""><img src="img/users.svg" alt="icon">Guests</a>
+                <a href="events.html" class="active"><img src="img/calendar.svg" alt="icon">Events</a>
+                <a href="message.html" class=""><img src="img/message.svg" alt="icon">Message</a>
+                <a href="social.html" class=""><img src="img/chats.svg" alt="icon">Social</a>
+                <a href="checklist.html" class=""><img src="img/list.svg" alt="icon">Checklist</a>
+                <a href="budget.html" class=""><img src="img/moneynotes.svg" alt="icon">Budget</a>
+                <a href="registery.html" class=""><img src="img/gift.svg" alt="icon">Registery</a>
+                <a href="settings.html" class=""><img src="img/settings.svg" alt="icon">Settings</a>
+            </div>
+
+
+            <div class="coupleinfo_outer height2 boxs ">
+
+                <!-- Header Start -->
+                <header class="header header_info">
+                    <div class="container-fluid">
+                        <nav class="navbar">
+                            <div class="container-fluid">
+                                <div class="">
+                                    <ul class="nav navbar-nav navbar-left">
+                                        <li><a href="javascript:void(0)" data-toggle="modal" data-target="#AddTASKEDIT">Audiences</a></li>
+                                        <li><a href="#">Leads</a></li>
+                                        <li><a href="#">Registeration</a></li>
+                                    </ul>
+                                    <ul class="avtarbox nav navbar-nav navbar-right">
+                                        <h3>
+                                            <!-- <img src="img/avatar.png" alt="avatar"> -->
+                                            Hello,<br><span>Julia Sandler</span>
+                                            <div class="dropdown dropdowndiv boxs trigger11">
+                                                <a href="javascript:void(0)" class="btn Fortabledropdown dropdown-toggle right boxs" type="button" id="dropdownMenu" data-toggle="dropdown"> <img src="img/avatar.png" class="img-responsive" alt="avatar"></a>
+                                                <ul class="dropdown-menu guestdropdown guestdropdown11" aria-labelledby="dropdownMenu">
+                                                    <div class="drop_inner boxs">
+                                                        <img class="inner_img img-responsive" src="img/avatar.png" alt="avatar">
+                                                        <h1>Julian & Veronica </h1>
+                                                        <p>davidjburgos@gmail.com</p>
+                                                        <li><a href="javascript:void(0)" class="DropDown first">
+                                                                <img class="switch img-responsive" src="img/switch_circle.png" alt="switch_circle"> 
+                                                                <img class="shover img-responsive" src="img/switch_hover.png" alt="switch_hover">  Switch Wedding </a></li>
+                                                    </div>
+
+                                                    <li><a href="javascript:void(0)" class="DropDown">
+                                                            Upgrade Plan </a></li>
+                                                    <li><a href="javascript:void(0)" class="DropDown">
+                                                            Account Settings </a></li>
+                                                    <li><a href="javascript:void(0)" class="DropDown">Log out </a></li>
+                                                </ul>
+                                            </div>
+                                        </h3>
+                                    </ul>
+                                    <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner"></span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+                <!-- Header End -->
+
+                <div class="coupleinfo_inner boxs guestD">
+
+                    <div class="col-xs-8 noleft gusetWidth1">
+                        <div class="coupleinfo_viewbox Guestwedding boxs">
+                            <h2>Your Wedding Guests!</h2>
+                            <p>
+                                Here, you will manage your to-do list, an overview of
+                                <span>what you are going to do and what’s done.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 noright gusetWidth2">
+                        <div class="guestDright boxs">
+                            <div class="guestDrightinner boxs">
+                                <p><i data-toggle="modal" data-target="#eventmodal"><a href="javascript:void(0)" data-toggle="tooltip" data-placement="bottom" title="Add Event" class="eventbanner"><span class="guestimg"><img src="img/event_modalimg.svg" alt="event_modalimg" class="img_show"><img src="img/event_modalimg_hover.svg" alt="event_modalimg_hover" class="img_hide"></span></a></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard_taskleft boxs Budgetsection PROGRESS1">
+                    <div class="Budgetbottom boxs">
+                        <div class="filtersectionD boxs">
+                            <div class="SearchD eventsearch">
+                                <div class="input-group ">
+                                    <input type="text" class="form-control SearchDinput" placeholder=" By Name.." aria-describedby="basic-addon1">
+                                    <span class="input-group-addon" id="basic-addon1"><img src="img/search.svg" alt="search"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-8 eventpadright">
+                                <div class="eventlist boxs">
+                                    
+                                    <div class="eventbox eventboxheading boxs">
+                                        <div class="eventcol eventwidth1">
+                                            <h2>EVENT</h2>
+                                        </div>
+                                        <div class="eventcol eventwidth2">
+                                            <h2>DATE</h2>
+                                        </div>
+                                        <div class="eventcol eventwidth3">
+                                            <h2>RSVP</h2>
+                                        </div>
+                                    </div>
+                                    
+                                    <i data-toggle="modal" data-target="#eventmodal">
+                                    <div class="eventbox boxs">
+                                        <div class="eventcol eventwidth1">
+                                            <h4>REHERSAL DINNER</h4>
+                                            <h3>Event Name</h3>
+                                        </div>
+                                        <div class="eventcol eventwidth2">
+                                            <h4>14th August</h4>
+                                        </div>
+                                        <div class="eventcol eventwidth3">
+                                            <h4>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_message_right_send.svg" alt="event_message_right_send">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_reg_tick.svg" alt="event_reg_tick">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_guestimg3.svg" alt="event_guestimg3">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_reg_help1.svg" alt="event_reg_help1">222</span>
+                                            </h4>
+                                        </div>
+                                        <a href="javascript:void(0)" class="delete deletewidth" contenteditable="false"><img src="img/delete.svg" alt="delete"></a>
+                                    </div>
+                                    </i>
+
+                                    <i data-toggle="modal" data-target="#eventmodal">
+                                    <div class="eventbox boxs">
+                                        <div class="eventcol eventwidth1">
+                                            <h4>REHERSAL DINNER</h4>
+                                            <h3>Event Name</h3>
+                                        </div>
+                                        <div class="eventcol eventwidth2">
+                                            <h4>14th August</h4>
+                                        </div>
+                                        <div class="eventcol eventwidth3">
+                                            <h4>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_message_right_send.svg" alt="event_message_right_send">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_reg_tick.svg" alt="event_reg_tick">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_guestimg3.svg" alt="event_guestimg3">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_reg_help1.svg" alt="event_reg_help1">222</span>
+                                            </h4>
+                                        </div>
+                                        <a href="javascript:void(0)" class="delete deletewidth" contenteditable="false"><img src="img/delete.svg" alt="delete"></a>
+                                    </div>
+                                    </i>
+
+                                    <i data-toggle="modal" data-target="#eventmodal">
+                                    <div class="eventbox boxs">
+                                        <div class="eventcol eventwidth1">
+                                            <h4>REHERSAL DINNER</h4>
+                                            <h3>Event Name</h3>
+                                        </div>
+                                        <div class="eventcol eventwidth2">
+                                            <h4>14th August</h4>
+                                        </div>
+                                        <div class="eventcol eventwidth3">
+                                            <h4>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_message_right_send.svg" alt="event_message_right_send">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_reg_tick.svg" alt="event_reg_tick">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_guestimg3.svg" alt="event_guestimg3">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_reg_help1.svg" alt="event_reg_help1">222</span>
+                                            </h4>
+                                        </div>
+                                        <a href="javascript:void(0)" class="delete deletewidth" contenteditable="false"><img src="img/delete.svg" alt="delete"></a>
+                                    </div>
+                                    </i>
+
+                                    <i data-toggle="modal" data-target="#eventmodal">
+                                    <div class="eventbox boxs">
+                                        <div class="eventcol eventwidth1">
+                                            <h4>REHERSAL DINNER</h4>
+                                            <h3>Event Name</h3>
+                                        </div>
+                                        <div class="eventcol eventwidth2">
+                                            <h4>14th August</h4>
+                                        </div>
+                                        <div class="eventcol eventwidth3">
+                                            <h4>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_message_right_send.svg" alt="event_message_right_send">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_reg_tick.svg" alt="event_reg_tick">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_guestimg3.svg" alt="event_guestimg3">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_reg_help1.svg" alt="event_reg_help1">222</span>
+                                            </h4>
+                                        </div>
+                                        <a href="javascript:void(0)" class="delete deletewidth" contenteditable="false"><img src="img/delete.svg" alt="delete"></a>
+                                    </div>
+                                    </i>
+
+                                    <i data-toggle="modal" data-target="#eventmodal">
+                                    <div class="eventbox boxs">
+                                        <div class="eventcol eventwidth1">
+                                            <h4>REHERSAL DINNER</h4>
+                                            <h3>Event Name</h3>
+                                        </div>
+                                        <div class="eventcol eventwidth2">
+                                            <h4>14th August</h4>
+                                        </div>
+                                        <div class="eventcol eventwidth3">
+                                            <h4>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_message_right_send.svg" alt="event_message_right_send">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_reg_tick.svg" alt="event_reg_tick">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_guestimg3.svg" alt="event_guestimg3">222</span>
+                                                <span data-toggle="tooltip" data-placement="top" title="Invitations sent"><img src="img/event_reg_help1.svg" alt="event_reg_help1">222</span>
+                                            </h4>
+                                        </div>
+                                        <a href="javascript:void(0)" class="delete deletewidth" contenteditable="false"><img src="img/delete.svg" alt="delete"></a>
+                                    </div>
+                                    </i>
+                                </div>
+
+                            </div>  
+                            <div class="col-xs-4 eventpadleft">
+                                <div class="calenderboxs boxs"></div>
+                                <div class="eventscalender boxs">
+                                    <a href="javascript:void(0)" type="button" class="datepp active today">
+                                        <img src="img/events_calendar.svg" alt="events_calendar" class="img-responsive img_show">
+                                        <img src="img/events_calendar_hover.svg" alt="events_calendar_hover" class="img-responsive img_hide">Today
+                                    </a>
+                                    <a href="javascript:void(0)" type="button" class="datepp">
+                                        <img src="img/events_calendar.svg" alt="events_calendar" class="img-responsive img_show">
+                                        <img src="img/events_calendar_hover.svg" alt="events_calendar_hover" class="img-responsive img_hide">Wedding day
+                                    </a>
+                                    <a href="javascript:void(0)" type="button" class="datepp">
+                                        <img src="img/events_calendar.svg" alt="events_calendar" class="img-responsive img_show">
+                                        <img src="img/events_calendar_hover.svg" alt="events_calendar_hover" class="img-responsive img_hide">Rehersal dinner
+                                    </a>
+                                    <!-- <div id="calendar"></div> -->
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trigger the modal with a button -->
+            <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#eventmodal">Open Modal</button> -->
+
+            <!-- Modal -->
+            <div id="eventmodal" class="modal fade eventmodal" role="dialog">
+                <div class="modal-dialog overviewmodalinner">
+
+                    <!-- Modal content-->
+                    <div class="modal-content boxs">
+                        <div class="modal-header boxs">
+                            <button type="button" class="close editregmodal popupcross popupcross2 ADDGuestDelete" data-dismiss="modal"><img src="img/reg_delete.svg" alt="reg_delete" class="img-responsive center-block"></button>
+                            <button type="button" class="close popupcross" data-dismiss="modal"><img src="img/cross.svg" alt="cross" class="img-responsive"></button>
+                            <div class="modal-title">
+                                <h4><span><img src="img/event_modal_calendar.svg" alt="event_modal_calendar"></span></h4>
+                                <h3>INVITATIONS SENT<span>224</span></h3>
+                                <h3>ATTENDING<span>224</span></h3>
+                                <h3>NOT ATTENDING<span>224</span></h3>
+                                <h3>NO REPLY YET<span>224</span></h3>
+                            </div>
+                            <div class="eventtabs boxs">
+                                <a href="javascript:void(0)" class="active nextme" id="f1" data-id="1">
+                                    <img src="img/event_modal_calendar2.svg" alt="event_modal_calendar2" class="img-responsive img_show">
+                                    <img src="img/event_modal_calendar2_hover.svg" alt="event_modal_calendar2_hover" class="img-responsive img_hide">Event Info
+                                </a>
+                                <a href="javascript:void(0)" class="nextme" id="f2" data-id="2">
+                                    <img src="img/event_modal_clock.svg" alt="event_modal_clock" class="img-responsive img_show">
+                                    <img src="img/event_modal_clock_hover.svg" alt="event_modal_clock_hover" class="img-responsive img_hide">AGENDA
+                                </a>
+                                <a href="javascript:void(0)" class="nextme" id="f3" data-id="3">
+                                    <img src="img/event_modal_hotel.svg" alt="event_modal_hotel" class="img-responsive img_show">
+                                    <img src="img/event_modal_hotel_hover.svg" alt="event_modal_hotel_hover" class="img-responsive img_hide">ACCOMODATION
+                                </a>
+                                <a href="javascript:void(0)" class="nextme" id="f4" data-id="4">
+                                    <img src="img/event_modal_users.svg" alt="event_modal_users" class="img-responsive img_show">
+                                    <img src="img/event_modal_users_hover.svg" alt="event_modal_users_hover" class="img-responsive img_hide">ATTENDEES
+                                </a>
+                            </div>
+                        </div>
+                        <div class="modal-body boxs">
+                            <div class="minheightbody boxs">
+                                <div class="eventinfo boxs stepsliders" id="steps1">
+                                    <div class="eventinfoinner boxs">
+                                        <div class="row">
+                                            <div class="col-xs-4 widthmodal">
+                                                <h4>Event Type</h4>
+                                                <div class="custom-select">
+                                                    <select>
+                                                        <option value="0">Select Event Type</option>
+                                                        <option value="1">Select Event Type</option>
+                                                    </select>
+                                                </div>
+                                            </div>  
+                                            <div class="col-xs-8 padleft">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="Ename">Event Name</label>
+                                                        <input type="text" class="form-control" id="Ename">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="col-xs-4 widthmodal widthmodal2">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="date">Date</label>
+                                                        <input type="text" class="form-control datep" id="date" placeholder="">
+                                                    </div>
+                                                </form>
+                                            </div> 
+                                            <div class="col-xs-8 padleft widthmodal2">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="add">Address</label>
+                                                        <textarea class="form-control" rows="5" id="add"></textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="eventattachment boxs">
+                                        <div class="file-upload">
+                                            <span id="addhere"><img src="img/paperclip.svg" alt="paperclip" class="img-responsive" id="imgchange"></span>
+                                            <input type="file" name="FileAttachment" id="FileAttachment" class="upload">
+                                            <input type="text" id="eventfileuploadurl" readonly="" placeholder="Add Floorplant ">
+                                            <a href="javascript:void(0)" class="delete2" id="anchorshow"><img src="img/cross.svg" alt="cross"></a>
+                                        </div>
+                                    </div> 
+                                    <button type="button" class="btn1" data-dismiss="modal">Save<img src="img/event_modal_tick.svg" alt="event_modal_tick" class="img-responsive img_show"><img src="img/event_modal_tick_hover.svg" alt="event_modal_tick_hover" class="img-responsive img_hide"></button> 
+                                </div>
+
+                                <div class="agenda boxs stepsliders" id="steps2">
+                                    <div class="agendainner1 boxs">
+                                        <div class="agendaleft boxs">
+                                            <div class="agendainner boxs agendainnerwidth">
+                                                <div class="agendawidth width1">
+                                                    <h4>Type</h4>
+                                                </div>
+                                                <div class="agendawidth width2">
+                                                    <h4>Time</h4>
+                                                </div>
+                                            </div>
+                                            <div class="agendaadd boxs feedbackscroll agendascroll">
+                                                <div class="agendainner boxs">
+                                                    <div class="agendawidth width1">
+                                                        <form>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" id="type" placeholder="For example: Start time">
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="agendawidth width2 clock">
+                                                        <form>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control timep" >
+                                                                <img src="" alt="">
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <a href="javascript:void(0)" class="deletechoice deletechoice2 "><img src="img/reg_delete.svg" alt="reg_delete" class="img-responsive center-block"></a>
+                                                </div>
+                                                <div class="agendainner boxs">
+                                                    <div class="agendawidth width1">
+                                                        <form>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" id="type" placeholder="For example: Start time">
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="agendawidth width2 clock">
+                                                        <form>
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control timep">
+                                                                <img src="" alt="">
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <a href="javascript:void(0)" class="deletechoice "><img src="img/reg_delete.svg" alt="reg_delete" class="img-responsive center-block"></a>
+                                                </div>
+                                            </div>
+                                            <div class="addtimeslot boxs">
+                                                <a href="javascript:void(0)" class=""><img src="img/plus.svg" alt="plus" class="img-responsive img_show"><img src="img/plushover.svg" alt="plushover" class="img-responsive img_hide">Add timeslot</a>
+                                            </div>
+                                        </div>
+                                        <div class="agendaright boxs">
+                                            <div class="rehersaldinner boxs">
+                                                <div class="rehersal_heading boxs">
+                                                    <h3>REHERSAL DINNER</h3>
+                                                </div>
+                                                <div class="rehersalinner feedbackscroll boxs">
+                                                    <p>Start Time <span><img src="img/event_modal_budgetclock.svg" alt="event_modal_budgetclock">9:00 am</span></p>
+                                                    <p>Start Time <span><img src="img/event_modal_budgetclock.svg" alt="event_modal_budgetclock">9:00 am</span></p>
+                                                    <p>Start Time <span><img src="img/event_modal_budgetclock.svg" alt="event_modal_budgetclock">9:00 am</span></p>
+                                                    <p>Start Time <span><img src="img/event_modal_budgetclock.svg" alt="event_modal_budgetclock">9:00 am</span></p>
+                                                    <p>Start Time <span><img src="img/event_modal_budgetclock.svg" alt="event_modal_budgetclock">9:00 am</span></p>
+                                                    <p>Start Time <span><img src="img/event_modal_budgetclock.svg" alt="event_modal_budgetclock">9:00 am</span></p>
+                                                </div>
+                                            </div>
+
+                                            <button type="button" class="btn1" data-dismiss="modal">Save<img src="img/event_modal_tick.svg" alt="event_modal_tick" class="img-responsive img_show"><img src="img/event_modal_tick_hover.svg" alt="event_modal_tick_hover" class="img-responsive img_hide"></button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="accomodation boxs stepsliders" id="steps3">
+                                    <div class="accomodationinner boxs">
+                                        <div class="hotelreviewlabels boxs">
+                                            <div class="accomowidth width1 accomopadright">
+                                                <h4>Hotel Name</h4>
+                                            </div>
+                                            <div class="accomowidth width2 accomopadleft">
+                                                <h4>Comments</h4>
+                                            </div>
+                                        </div>
+                                        <div class="appendhereaccmo boxs feedbackscroll agendascroll">
+                                            <div class="hotelreview boxs">
+                                                <div class="accomowidth width1 accomopadright">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" id="email">
+                                                    </div>
+                                                </div>
+                                                <div class="accomowidth width2 accomopadleft">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" id="email">
+                                                    </div>
+                                                </div>
+                                                <a href="javascript:void(0)" class="deletechoice"><img src="img/reg_delete.svg" alt="reg_delete" class="img-responsive center-block"></a>
+                                            </div>
+                                            <div class="hotelreview boxs">
+                                                <div class="accomowidth width1 accomopadright">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" id="email">
+                                                    </div>
+                                                </div>
+                                                <div class="accomowidth width2 accomopadleft">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" id="email">
+                                                    </div>
+                                                </div>
+                                                <a href="javascript:void(0)" class="deletechoice"><img src="img/reg_delete.svg" alt="reg_delete" class="img-responsive center-block"></a>
+                                            </div>
+                                        </div>
+                                        <div class="addaccmo boxs">
+                                            <a href="javascript:void(0)" class="addaccmoclick"><img src="img/plus.svg" alt="plus" class="img-responsive img_show"><img src="img/plushover.svg" alt="plushover" class="img-responsive img_hide">Add Accommodation</a>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn1" data-dismiss="modal">Save<img src="img/event_modal_tick.svg" alt="event_modal_tick" class="img-responsive img_show"><img src="img/event_modal_tick_hover.svg" alt="event_modal_tick_hover" class="img-responsive img_hide"></button>
+
+                                </div>
+
+                                <div class="eventattendees boxs stepsliders" id="steps4">
+                                    <div class="eventattendeesinner boxs">
+                                        <div class="bottom">
+                                            <div class="filtersectionD boxs">
+                                                <div class="SearchD Searchupper">
+                                                    <div class="input-group ">
+                                                        <input type="text" class="form-control SearchDinput" placeholder="By Name.." aria-describedby="basic-addon1">
+                                                        <span class="input-group-addon" id="basic-addon1"><img src="img/search.svg" alt="search"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="FiltersD">
+                                                    <div class="dropdown boxs trigger1">
+                                                        <button class="btn btn-default dropdown-toggle boxs" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                            Filter Guests
+                                                            <span class="filtericon"><i class="fa fa-sliders" aria-hidden="true"></i></span>
+                                                        </button>
+                                                        <ul class="dropdown-menu guestdropdown guestdropdown1 guestdropdownevent" aria-labelledby="dropdownMenu1">
+                                                            <li><a href="javascript:void(0)" class="">
+                                                                    <div class="tick boxs">
+                                                                        <input type="checkbox"  value="secondD_checkbox" id="check1"> <label for="check1" ><span></span>Invite Sent</label>
+                                                                    </div></a></li>
+                                                            <li><a href="javascript:void(0)" class="">
+                                                                    <div class="tick boxs">
+                                                                        <input type="checkbox"  value="thirdD_checkbox" id="check2"> <label for="check2"><span></span>Attending</label>
+                                                                    </div></a></li>
+                                                            <li><a href="javascript:void(0)" class="">
+                                                                    <div class="tick boxs">
+                                                                        <input type="checkbox"  value="fourthD_checkbox" id="check3"> <label for="check3" ><span></span>With Accompanions</label>
+                                                                    </div></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="inviteattendee boxs dropdown trigger2">
+                                                    <a href="javascript:void(0)" type="button" class="dropdown-toggle" data-toggle="dropdown"><img src="img/plus.svg" alt="plus" class="img-responsive img_show"><img src="img/plushover.svg" alt="plushover" class="img-responsive img_hide">Invite Attendee</a>
+                                                    <ul class="dropdown-menu guestdropdown guestdropdown2">
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="">
+                                                                <div class="SearchD">
+                                                                    <div class="input-group ">
+                                                                        <input type="text" class="form-control SearchDinput" placeholder="By Name.." aria-describedby="basic-addon1" autofocus>
+                                                                        <span class="input-group-addon" id="basic-addon1"><img src="img/event_modal_search.svg" alt="event_modal_search"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="">
+                                                                <div class="attendeelist boxs">
+                                                                    <input type="checkbox" value="secondD_checkbox" id="attendeename2">
+                                                                    <label for="attendeename2"><span></span>Will Smith</label>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="">
+                                                                <div class="attendeelist boxs">
+                                                                    <input type="checkbox" value="secondD_checkbox" id="attendeename3">
+                                                                    <label for="attendeename3"><span></span>Will Smith</label>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="">
+                                                                <div class="attendeelist boxs">
+                                                                    <input type="checkbox" value="secondD_checkbox" id="attendeename4">
+                                                                    <label for="attendeename4"><span></span>Will Smith</label>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="">
+                                                                <div class="attendeelist boxs">
+                                                                    <input type="checkbox" value="secondD_checkbox" id="attendeename5">
+                                                                    <label for="attendeename5"><span></span>Will Smith</label>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="">
+                                                                <div class="attendeelist boxs">
+                                                                    <input type="checkbox" value="secondD_checkbox" id="attendeename6">
+                                                                    <label for="attendeename6"><span></span>Will Smith</label>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="filterdataD boxs">
+                                                <div class="col-xs-12 nopadding">
+                                                    <div class="left boxs">
+                                                        <div class="tableguest boxs">
+                                                            <div class="boxs appendhereattendee feedbackscroll attendeescroll"> 
+                                                                <div class="boxs forrelative forrelativefeedback attendesanchorshow">
+                                                                    <div class="eventattendeswidth width1">
+                                                                        <span class="Fortableimage"><span class="fortoptext">+3</span></span>
+                                                                    </div>
+                                                                    <div class="eventattendeswidth width2">
+                                                                        <p>GROOMSMAN</p><h6>Will Smith</h6>
+                                                                    </div>
+                                                                    <div class="eventattendeswidth width3">
+                                                                        <div id="eventdropdown"></div>
+                                                                        <a href="javascript:void(0)" class="resend">Resend Invitation</a>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="deletechoice attendesanchor"><img src="img/reg_delete.svg" alt="reg_delete" class="img-responsive center-block"></a>
+                                                                </div>
+                                                                <div class="boxs forrelative forrelativefeedback attendesanchorshow">
+                                                                    <div class="eventattendeswidth width1">
+                                                                        <span class="Fortableimage"><span class="fortoptext">+3</span></span>
+                                                                    </div>
+                                                                    <div class="eventattendeswidth width2">
+                                                                        <p>GROOMSMAN</p><h6>Will Smith</h6>
+                                                                    </div>
+                                                                    <div class="eventattendeswidth width3">
+                                                                        <div id="eventdropdown2"></div>
+                                                                        <a href="javascript:void(0)" class="resend">Resend Invitation</a>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="deletechoice attendesanchor"><img src="img/reg_delete.svg" alt="reg_delete" class="img-responsive center-block"></a>
+                                                                </div>
+                                                                <div class="boxs forrelative forrelativefeedback attendesanchorshow">
+                                                                    <div class="eventattendeswidth width1">
+                                                                        <span class="Fortableimage"><span class="fortoptext">+3</span></span>
+                                                                    </div>
+                                                                    <div class="eventattendeswidth width2">
+                                                                        <p>GROOMSMAN</p><h6>Will Smith</h6>
+                                                                    </div>
+                                                                    <div class="eventattendeswidth width3">
+                                                                        <div id="eventdropdown3"></div>
+                                                                        <a href="javascript:void(0)" class="resend">Resend Invitation</a>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="deletechoice attendesanchor"><img src="img/reg_delete.svg" alt="reg_delete" class="img-responsive center-block"></a>
+                                                                </div>
+                                                                <div class="boxs forrelative forrelativefeedback attendesanchorshow">
+                                                                    <div class="eventattendeswidth width1">
+                                                                        <span class="Fortableimage"><span class="fortoptext">+3</span></span>
+                                                                    </div>
+                                                                    <div class="eventattendeswidth width2">
+                                                                        <p>GROOMSMAN</p><h6>Will Smith</h6>
+                                                                    </div>
+                                                                    <div class="eventattendeswidth width3">
+                                                                        <div id="eventdropdown4"></div>
+                                                                        <a href="javascript:void(0)" class="resend">Resend Invitation</a>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="deletechoice attendesanchor"><img src="img/reg_delete.svg" alt="reg_delete" class="img-responsive center-block"></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn1" data-dismiss="modal">Save<img src="img/event_modal_tick.svg" alt="event_modal_tick" class="img-responsive img_show"><img src="img/event_modal_tick_hover.svg" alt="event_modal_tick_hover" class="img-responsive img_hide"></button>
+                                </div>
+                            </div>
+                        </div>       
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="guestlistaddedmessage guestlistaddedmessage1">
+                <p><img src="img/guestmessage.svg" alt="added" class="GuestaddD">something has been deleted<a href="#" class="CrossD eventcross"><img src="img/guestcross.svg" alt="cross" ></a></p>
+            </div>
+
+
+            <script src="js/jquery.min.js"></script>
+            <script src='js/choosen3min.js'></script>
+            <script src="js/choosen1.js"></script> 
+            <script src="js/choosen.js"></script> 
+            <script src="js/choosenmsg.js"></script>
+            <script src="js/filedrag.js"></script>
+            <script src="js/dragdrop.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/moment.js"></script>
+            <script src="js/bootstrap-datetimepicker.min.js"></script>
+            <script src="js/slick.js"></script>
+            <script src="js/jquery.fancybox.js"></script>
+            <script src="js/jquery.ddslick.min.js"></script>
+            <!-- <script src="js/calender.js"></script>  -->
+            <script src="js/custom.js"></script> 
+
+        </body>
+    </html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.001" viewBox="0 0 24 23.001">
+    <defs>
+        <style>
+            .cls-1{fill:#353ec4}
+        </style>
+    </defs>
+    <g id="iconmonstr-linkedin-1" transform="translate(0 -.5)">
+        <path id="Shape" d="M12.983 23H8.014V7h4.968v2.155a5.87 5.87 0 0 1 5.162-2.648 5.847 5.847 0 0 1 4.018 1.482A6.449 6.449 0 0 1 24 12.869V23h-4.988v-8.4c0-2.519-1.469-3.647-2.925-3.647-1.542 0-3.1 1.253-3.1 3.647V23zM5 23H0V7h5v16zM2.5 5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" class="cls-1" transform="translate(0 .5)"/>
+    </g>
+</svg>

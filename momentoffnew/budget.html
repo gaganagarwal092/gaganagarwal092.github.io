@@ -1,0 +1,543 @@
+<html lang="en">
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="icon" href="img/favicon/favicon.ico" type="image/ico" sizes="16x16">
+
+            <title>Momento | Budget</title>
+
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+            <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+            <link rel="stylesheet" type="text/css" href="css/slick.css">
+            <link rel="stylesheet" type="text/css" href="css/chosen.css">
+            <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
+            <link rel="stylesheet" type="text/css" href="css/media.css">
+
+        </head>
+        <body >
+            <div class="sidenav sidenav_info" id="mySidenav">
+                <a href="#" class="logo">Momento</a>
+                <a href="MomentoOverview.html" class=""><img src="img/home.svg" alt="icon">Overview</a>
+                <a href="MomentoOverviewcoupleinfo.html" class=""><img src="img/group.svg" alt="icon">Couple Info</a>
+                <a href="guest.html" class=""><img src="img/users.svg" alt="icon">Guests</a>
+                <a href="events.html" class=""><img src="img/calendar.svg" alt="icon">Events</a>
+                <a href="message.html" class=""><img src="img/message.svg" alt="icon">Message</a>
+                <a href="social.html" class=""><img src="img/chats.svg" alt="icon">Social</a>
+                <a href="checklist.html" class=""><img src="img/list.svg" alt="icon">Checklist</a>
+                <a href="budget.html" class="active"><img src="img/moneynotes.svg" alt="icon">Budget</a>
+                <a href="registery.html" class=""><img src="img/gift.svg" alt="icon">Registery</a>
+                <a href="settings.html" class=""><img src="img/settings.svg" alt="icon">Settings</a>
+            </div>
+
+
+            <div class="coupleinfo_outer height2 boxs ">
+
+                <!-- Header Start -->
+                <header class="header header_info">
+                    <div class="container-fluid">
+                        <nav class="navbar">
+                            <div class="container-fluid">
+                                <div class="">
+                                    <ul class="nav navbar-nav navbar-left">
+                                        <li><a href="javascript:void(0)">Audiences</a></li>
+                                        <li><a href="#">Leads</a></li>
+                                        <li><a href="#">Registeration</a></li>
+                                    </ul>
+                                    <ul class="avtarbox nav navbar-nav navbar-right">
+                                        <h3>
+                                            <!-- <img src="img/avatar.png" alt="avatar"> -->
+                                            Hello,<br><span>Julia Sandler</span>
+                                            <div class="dropdown dropdowndiv boxs trigger11">
+                                                <a href="javascript:void(0)" class="btn Fortabledropdown dropdown-toggle right boxs" type="button" id="dropdownMenu" data-toggle="dropdown"> <img src="img/avatar.png" class="img-responsive" alt="avatar"></a>
+                                                <ul class="dropdown-menu guestdropdown guestdropdown11" aria-labelledby="dropdownMenu">
+                                                    <div class="drop_inner boxs">
+                                                        <img class="inner_img img-responsive" src="img/avatar.png" alt="avatar">
+                                                        <h1>Julian & Veronica </h1>
+                                                        <p>davidjburgos@gmail.com</p>
+                                                        <li><a href="javascript:void(0)" class="DropDown first">
+                                                                <img class="switch img-responsive" src="img/switch_circle.png" alt="switch_circle"> 
+                                                                <img class="shover img-responsive" src="img/switch_hover.png" alt="switch_hover">  Switch Wedding </a></li>
+                                                    </div>
+
+                                                    <li><a href="javascript:void(0)" class="DropDown">
+                                                            Upgrade Plan </a></li>
+                                                    <li><a href="javascript:void(0)" class="DropDown">
+                                                            Account Settings </a></li>
+                                                    <li><a href="javascript:void(0)" class="DropDown">Log out </a></li>
+                                                </ul>
+                                            </div>
+                                        </h3>
+                                    </ul>
+                                    <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner"></span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+                <!-- Header End -->
+
+                <div class="coupleinfo_inner boxs guestD">
+
+                    <div class="col-xs-8 noleft gusetWidth1">
+                        <div class="coupleinfo_viewbox Guestwedding boxs">
+                            <h2>Manage Your Wedding Budget!</h2>
+                            <p>
+                                Here, you will manage your budget, tracking expenses and figure
+                                <span>out when and whre you spent your money.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 noright gusetWidth2">
+                        <div class="guestDright boxs">
+                            <div class="guestDrightinner boxs">
+                                <p><i data-toggle="modal" data-target="#AddTASK"><a hreg="javascript:void(0)" data-toggle="tooltip" data-placement="bottom" title="Add item"><span class="guestimg"><img src="img/budgetpl.svg" alt="guest"></span></a></i></p>
+                                <!--                                <p class="boxs"><a href="#" class=" btn" type="button" data-toggle="modal" data-target="#myModal4">Add Guest</a></p>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard_taskleft boxs Budgetsection PROGRESS1">
+                    <div class="Budgettop boxs">
+                        <div class="col-sm-4 noleft">
+                            <div class="Btopleft boxs Budgetshadow">
+                                <div class="col-xs-6 noleft">
+                                    <div class="Bprogressleft boxs">
+                                        <div class="ProgressBard boxs">
+                                            <div class="progress blue">
+                                                <span class="progress-left">
+                                                    <span class="progress-bar"></span>
+                                                </span>
+                                                <span class="progress-right">
+                                                    <span class="progress-bar"></span>
+                                                </span>
+                                                <div class="progress-value">23%</div>
+                                                <div class="shadow"></div>
+                                            </div>
+                                        </div>
+                                        <div class="boxs">
+                                            <p class=""><a href="#">Total Budget: <span>$35,000</span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="BProgressright boxs">
+                                        <h6>Spent</h6>
+                                        <h5>$3360</h5>
+                                        <h6 class="Bmgt">REMAINING</h6>
+                                        <h5>$22600</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 noright">
+                            <div class="Btopright boxs Budgetshadow">
+                                <div class="col-xs-4 nopadding">
+                                    <div class="Btoprightinner boxs">
+                                        <p><span><img src="img/budgetlist.svg" alt="list"></span></p>
+                                        <h6 class="Bmgt">Total Items</h6>
+                                        <h5>425</h5>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 nopadding">
+                                    <div class="Btoprightinner boxs">
+                                        <p><span><img src="img/budgettag.svg" alt="list"></span></p>
+                                        <h6 class="Bmgt">Total items cost</h6>
+                                        <h5>$4546</h5>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 nopadding">
+                                    <div class="Btoprightinner boxs noborder">
+                                        <p><span><img src="img/budgetbookmark.svg" alt="list"></span></p>
+                                        <h6 class="Bmgt">REMAINING COSTS</h6>
+                                        <h5>$3200</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Budgetbottom boxs">
+                        <div class="filtersectionD boxs">
+                            <div class="SearchD">
+                                <div class="input-group ">
+                                    <input type="text" class="form-control SearchDinput" placeholder="Search by Name.." aria-describedby="basic-addon1">
+                                    <span class="input-group-addon" id="basic-addon1"><img src="img/search.svg" alt="search"></span>
+                                </div>
+                            </div>
+                            <div class="categoryD">
+                                <label>Category:</label>
+                                <div class="myDropdown clothesdropdown">
+                                    <dl id="country-select" class="dropdown clothesdropdownin">
+                                        <dt class="boxs"><a href="javascript:void(0);" class="boxs"><span class="boxs"><b>Clothes</b><span style="background-position:0px -10px"></span></span></a></dt>
+                                        <dd>
+                                            <ul style="display: none;">
+                                                <li><a data-type="no" href="javascript:void(0);"><b>Clothes</b><span style="background-position:0px 0px"></span></a></li>
+
+                                                <li><a data-type="yes" href="javascript:void(0);"><b>Clothes1</b><span style="background-position: 0 -10px"></span></a></li>
+
+                                                <li><a data-type="no" href="javascript:void(0);"><b>Clothes2</b><span style="background-position: 0 -20px"></span></a></li>
+
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="BudgetTick">
+                                <div class="tick boxs">
+                                    <input type="checkbox" id="tick1" value="second_checkbox"> <label for="tick1"><span></span>Show paid items</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ForTableScroll boxs">
+                            <div class="Budgettable boxs">
+                                <div class="Budgettablebox boxs">
+                                    <div class="column1 coltop">
+                                        Name
+                                    </div>
+                                    <div class="column1 coltop">
+                                        CATEGORY
+                                    </div>
+                                    <div class="column1 coltop">
+                                        COST
+                                    </div>
+                                    <div class="column1 coltop">
+                                        Amount Paid
+                                    </div>
+                                    <div class="column1 coltop">
+                                        DUE
+                                    </div>
+                                </div>
+                                <div class="Budgettablebox boxs Budgettableboxbottom" >
+                                    <div class="ForPopupbudget boxs" data-toggle="modal" data-target="#AddTASKEDIT"></div>
+                                    <div class="column1 colbottom">
+                                        Armani Dress
+                                        <b><img src="img/checklistpaperclip.svg" alt="clip"><input type="file" class="checklistinput"></b>
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        <span class="dot checklistdotblue"></span>
+                                        Clothes
+                                    </div>
+                                    <div class="column1 colbottom formediumfont">
+                                        $7432
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        $5145
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        Tuesday
+                                    </div>
+                                    <a href="javascript:void(0)" class="delete deletewidth" contenteditable="false"><img src="img/delete.svg" alt="delete"></a>
+                                    <a href="javascript:void(0)" class="EditD EditDwidth"><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                </div>
+                                <div class="Budgettablebox boxs Budgettableboxbottom" >
+                                    <div class="ForPopupbudget boxs" data-toggle="modal" data-target="#AddTASKEDIT"></div>
+                                    <div class="column1 colbottom">
+                                        Armani Dress
+                                        <b><img src="img/checklistpaperclip.svg" alt="clip"><input type="file" class="checklistinput"></b>
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        <span class="dot checklistdotred"></span>
+                                        Food
+                                    </div>
+                                    <div class="column1 colbottom formediumfont">
+                                        $7432
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        Fully Paid
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        Next Week
+                                    </div>
+                                    <a href="javascript:void(0)" class="delete deletewidth" contenteditable="false"><img src="img/delete.svg" alt="delete"></a>
+                                    <a href="javascript:void(0)" class="EditD EditDwidth"><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                </div>
+                                <div class="Budgettablebox boxs Budgettableboxbottom" >
+                                    <div class="ForPopupbudget boxs" data-toggle="modal" data-target="#AddTASKEDIT"></div>
+                                    <div class="column1 colbottom">
+                                        Armani Dress
+                                        <b><img src="img/checklistpaperclip.svg" alt="clip"><input type="file" class="checklistinput"></b>
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        <span class="dot checklistdotgreen"></span>
+                                        Devices
+                                    </div>
+                                    <div class="column1 colbottom formediumfont">
+                                        $7432
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        $6535
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        2-11-2018
+                                    </div>
+                                    <a href="javascript:void(0)" class="delete deletewidth" contenteditable="false"><img src="img/delete.svg" alt="delete"></a>
+                                    <a href="javascript:void(0)" class="EditD EditDwidth" ><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                </div>
+                                <div class="Budgettablebox boxs Budgettableboxbottom" >
+                                    <div class="ForPopupbudget boxs" data-toggle="modal" data-target="#AddTASKEDIT"></div>
+                                    <div class="column1 colbottom">
+                                        Armani Dress
+                                        <b><img src="img/checklistpaperclip.svg" alt="clip"><input type="file" class="checklistinput"></b>
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        <span class="dot checklistdotorange"></span>
+                                        Transportation
+                                    </div>
+                                    <div class="column1 colbottom formediumfont">
+                                        $7432
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        Fully Paid
+                                    </div>
+                                    <div class="column1 colbottom">
+                                        6-11-2018
+                                    </div>
+                                    <a href="javascript:void(0)" class="delete deletewidth" contenteditable="false"><img src="img/delete.svg" alt="delete"></a>
+                                    <a href="javascript:void(0)" class="EditD EditDwidth" ><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="AddTASK" class="modal fade Forclosemodal addtaskmodal ADDITEM" role="dialog">
+
+                <div class="modal-dialog overviewmodalinner">
+                    <div class="modal-content boxs">
+                        <div class="modal-header boxs">
+                            <button type="button" class="close popupcross FinishPopup"><img src="img/cross.svg" alt="cross" class="img-responsive"></button>
+                        </div>
+                        <div class="modal-body boxs">
+                            <h6><span><img src="img/checkpopupplus.svg" alt="plus"></span></h6> 
+                            <form>
+                                <div class="checklistform boxs">
+                                    <div class="col-sm-12 nopadding">
+                                        <label>Item Name</label>
+                                        <input type="text" class="form-control taskinput">
+                                    </div>
+                                    <div class="col-sm-12 nopadding">
+                                        <label>Notes</label>
+                                        <textarea class="form-control checkTextarea" placeholder="Add your notes…"></textarea>
+                                    </div>
+                                    <div class="col-sm-6 noleft">
+                                        <div class="boxs">
+                                            <label>Cost</label>
+                                            <input type="text" class="form-control taskinput Costplaceholdercolor" placeholder="$399">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 noright">
+                                        <div class="boxs">
+                                            <label>Status</label>
+                                            <div class="custom-select custom-selectfull">
+                                                <select class="form-control">
+                                                    <option value="0">Paid</option>
+                                                    <option value="1">Unpaid</option>
+                                                </select>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 noleft">
+                                        <div class="left boxs">
+                                            <label>Category</label>
+                                            <div class="myDropdown2 boxs">
+                                                <dl id="dropdownoptions" class="dropdown2">
+                                                    <dt class="boxs"><a href="javascript:void(0);" class="boxs"><span class="boxs"><b>Clothes</b><span style="background-position:0px -10px"></span></span></a></dt>
+                                                    <dd>
+                                                        <ul style="display: none;">
+                                                            <li><a data-type="no" href="javascript:void(0);"><b>Clothes</b><span style="background-position:0px 0px"></span></a></li>
+
+                                                            <li><a data-type="yes" href="javascript:void(0);"><b>Clothes1</b><span style="background-position: 0 -10px"></span></a></li>
+
+                                                            <li><a data-type="no" href="javascript:void(0);"><b>Clothes2</b><span style="background-position: 0 -20px"></span></a></li>
+
+                                                        </ul>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-6 noright">
+                                        <div class="right boxs">
+                                            <label>Due</label>
+                                            <div class="boxs Budgetclock">
+                                                <input type="text" class="form-control datep" id="fname" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="boxs">
+                                        <div class="col-sm-6 noleft">
+                                            <div class="boxs">
+                                                <div class="file-upload btn labelfont file-uploadfeedback">
+                                                    <span id="addhere"><img src="img/paperclip.svg" alt="paperclip" class="img-responsive" id="imgchange"></span>
+                                                    <input type="file" name="FileAttachment" id="FileAttachment" class="upload">
+                                                    <input type="text" id="fileuploadurl" readonly="" placeholder="Insert Attachment (Optional)">
+                                                </div>
+
+                                                <a href="javascript:void(0)" class="delete2 ckecklistdelete" id="anchorshow"><img src="img/cross.svg" alt="cross"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clipbtn boxs">
+                                        <button class="btn">Create</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="AddTASKEDIT" class="modal fade Forclosemodal addtaskmodal ADDITEM" role="dialog">
+
+                <div class="modal-dialog overviewmodalinner">
+                    <div class="modal-content boxs">
+                        <div class="modal-header boxs">
+                            <div>
+                                <a href="javascript:void(0)" class="delete deletewidth ADDGuestDelete" contenteditable="false" data-dismiss="modal"><img src="img/delete.svg" alt="delete"></a>
+                            </div>
+                            <button type="button" class="close popupcross FinishPopup"><img src="img/cross.svg" alt="cross" class="img-responsive"></button>
+                        </div>
+                        <div class="modal-body boxs">
+                            <h6><span><img src="img/checklistpencil.svg" alt="plus"></span></h6> 
+                            <form>
+                                <div class="checklistform boxs">
+                                    <div class="col-sm-12 nopadding">
+                                        <label>Item Name</label>
+                                        <input type="text" class="form-control taskinput">
+                                    </div>
+                                    <div class="col-sm-12 nopadding">
+                                        <label>Notes</label>
+                                        <textarea class="form-control checkTextarea" placeholder="Add your notes…"></textarea>
+                                    </div>
+                                    <div class="col-sm-6 noleft">
+                                        <div class="boxs">
+                                            <label>Cost</label>
+                                            <input type="text" class="form-control taskinput Costplaceholdercolor" placeholder="$399">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 noright">
+                                        <div class="boxs">
+                                            <label>Status</label>
+                                            <div class="custom-select custom-selectfull">
+                                                <select class="form-control">
+                                                    <option value="0">Paid</option>
+                                                    <option value="1">Unpaid</option>
+                                                </select>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 noleft">
+                                        <div class="left boxs">
+                                            <label>Category</label>
+                                            <div class="myDropdown2 boxs">
+                                                <dl id="dropdownoptions" class="dropdown2">
+                                                    <dt class="boxs"><a href="javascript:void(0);" class="boxs"><span class="boxs"><b>Clothes</b><span style="background-position:0px -10px"></span></span></a></dt>
+                                                    <dd>
+                                                        <ul style="display: none;">
+                                                            <li><a data-type="no" href="javascript:void(0);"><b>Clothes</b><span style="background-position:0px 0px"></span></a></li>
+
+                                                            <li><a data-type="yes" href="javascript:void(0);"><b>Clothes1</b><span style="background-position: 0 -10px"></span></a></li>
+
+                                                            <li><a data-type="no" href="javascript:void(0);"><b>Clothes2</b><span style="background-position: 0 -20px"></span></a></li>
+
+                                                        </ul>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-6 noright">
+                                        <div class="right boxs">
+                                            <label>Due</label>
+                                            <div class="boxs Budgetclock">
+                                                <input type="text" class="form-control datep" id="fname" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="boxs">
+                                        <div class="col-sm-6 noleft">
+                                            <div class="boxs">
+                                                <div class="file-upload btn labelfont file-uploadfeedback">
+                                                    <span id="addhere"><img src="img/paperclip.svg" alt="paperclip" class="img-responsive" id="ckecklist_imgchange"></span>
+                                                    <input type="file" name="ckecklist" id="ckecklist" class="upload">
+                                                    <input type="text" id="ckecklisturl" readonly="" placeholder="Insert Attachment (Optional)">
+                                                </div>
+
+                                                <a href="javascript:void(0)" class="ckecklistdelete" id="ckecklist_anchorshow"><img src="img/cross.svg" alt="cross"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clipbtn boxs">
+                                        <button class="btn">Update</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Budgetonload" class="modal fade Forclosemodal addtaskmodal" role="dialog">
+                <div class="modal-dialog overviewmodalinner">
+                    <div class="modal-content boxs">
+                        <div class="modal-header boxs">
+                            <button type="button" class="close popupcross FinishPopup"><img src="img/cross.svg" alt="cross" class="img-responsive"></button>
+                        </div>
+                        <div class="modal-body boxs">
+                            <h6><span><img src="img/piggy-bank.svg" alt="plus"></span></h6> 
+
+                            <div class="checklistform boxs">
+                                <h3>What is your wedding budget?</h3>
+                                <p>Specifying your weddding budget would help us estimate 
+                                    your costs so you can have an overview how much
+                                    money you would spend on your wedding.</p>
+                                <form>
+                                    <div class="input-group ">
+                                        <span class="input-group-addon" id="basic-addon1">$</span>
+                                        <input type="text" class="form-control emailaddress" placeholder="Number in US Dollar ($)" aria-describedby="basic-addon1">
+                                    </div>
+                                    <div class="clipbtn boxs">
+                                        <button class="btn">Submit</button>
+                                    </div>
+                                    <a href="#" class="Skipb" data-dismiss="modal">Skip For Now</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="guestlistaddedmessage guestlistaddedmessage1">
+                <p><img src="img/guestmessage.svg" alt="added" class="GuestaddD">something has been deleted<a href="#" class="CrossD"><img src="img/guestcross.svg" alt="cross" ></a></p>
+            </div>
+
+
+
+
+
+
+            <script src="js/jquery.min.js"></script>
+            <script src='js/choosen3min.js'></script>
+            <script src="js/choosen1.js"></script> 
+            <script src="js/choosen.js"></script> 
+            <script src="js/choosenmsg.js"></script>
+            <script src="js/filedrag.js"></script>
+            <script src="js/dragdrop.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/moment.js"></script>
+            <script src="js/bootstrap-datetimepicker.min.js"></script>
+            <script src="js/slick.js"></script>
+            <script src="js/jquery.fancybox.js"></script>
+            <script src="js/jquery.ddslick.min.js"></script>
+            <script src="js/custom.js"></script> 
+            <script>$("#Budgetonload").modal("show")</script>
+        </body>
+    </html>

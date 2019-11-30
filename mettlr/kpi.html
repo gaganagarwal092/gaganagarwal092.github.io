@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+
+    <title>Mettlr | KPI</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="header_lft">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="javascript:void(0)">
+                                Mettlr
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="nav navbar-nav menu">
+                                <li><a href="dashboard.html">Dashboard</a></li>
+                                <li><a href="timeline.html">Timeline</a></li>
+                                <li><a href="kpi.html" class="active">KPI</a></li>
+                                <li><a href="challenges.html" >Challenges</a></li>
+                                <li><a href="adminsettings_users.html">Admin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="anchorhover">
+                    <a href="javascript:void(0)" class="notfication"><img src="img/ball.svg" alt="notifications"></a>
+                    <div class="notifybox">
+                        <span class="triangle"></span>
+                        <div class="noti_content boxs">
+                            <div class="noti_data boxs">
+                                <h3>New question<span>47 Minutes ago</span></h3>
+                                <p>Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out</p>
+                            </div>
+                            <div class="bdr_btm"></div>
+                            <div class="noti_data boxs">
+                                <h3>New question<span>59 Minutes ago</span></h3>
+                                <p>Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out</p>
+                            </div>
+                            <div class="bdr_btm"></div>
+                            <div class="noti_data boxs">
+                                <h3>New question<span>1 day ago</span></h3>
+                                <p>Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out</p>
+                            </div>
+                        </div>
+                        <div class="boxs">
+                            <a href="javascript:void(0)" class="viewallbtn">View all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_rht">
+                <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="profileBox">
+                    <a href="javascirpt:void(0)" class="dropbox">
+                        <img src="img/user.png" class="img-responsive" alt="user">
+                        <h4>Johny doe <img src="img/arrowdwn.svg" alt="arrow" class="rotate"></h4>
+                    </a>
+                    <div class="dropmenu">
+                        <span class="triangle"></span>
+                        <a href="javascript:void(0)">Profile</a>
+                        <a href="javascript:void(0)">Help</a>
+                        <a href="javascript:void(0)">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- sidenav start -->
+    <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="logo"><img src="img/logo.png" class="img-responsive" alt="logo"></a>
+        <a href="javascript:void(0)" class=""></a>
+        <a href="javascript:void(0)" class=""></a>
+        <a href="javascript:void(0)" class=""></a>
+        <a href="javascript:void(0)" class=""></a>
+    </div>
+    <!-- sidenav start -->
+
+    <section class="graph boxs">
+        <div class="container">
+            <div class="graph_inner boxs">
+                <div class="graphInr_tp boxs">
+                    <div class="charts_heading boxs">
+                        <h3>Stars</h3>
+                        <p><a href="javascript:void(0)"><img src="img/arrowlft.png" alt="arrowlft"></a><span>May 2019</span><a href="javascript:void(0)"><img src="img/arrowryt.png" alt="arrowryt"></a></p>
+                    </div>
+                </div>
+                <div class="graphInr_btm boxs">
+                    <div class="btm_cntn boxs">
+                        <div class="starErnd starErnd2">
+                            <span>Average stars per question</span>
+                            <div class="star_r widthstr">
+                                <img src="img/trophy.png" alt="star">
+                                <p>2/18</p>
+                            </div>
+                        </div>
+                        <div class="avrg_bx">
+                          <p class="firspara">  <span class="blue">12</span> Company average</p>
+                          <p>  <span class="blue green">20</span>Your average</p>
+                        </div>
+                    </div>
+                    <div class="graphCntn boxs">
+                        <canvas id="myChart" width="200" height="50vh"></canvas>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

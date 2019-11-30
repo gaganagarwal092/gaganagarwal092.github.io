@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/fav_icon.png" type="image/ico" sizes="16x16">
+	<title>Car service</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+	!-- section 13 start -->
+<div class="section13_car boxs">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+       <div class="footer_content boxs">
+        <h6 class="semi_bold">Lorem Ipsum has been the industry's standard<br> dummy text ever since the 1500s, when an </h6>
+          <p class="semi_bold"><span><img src="img/email.png" alt="message"></span><a href="mailto:Email1234@gmail.com">Email1234@gmail.com</a></p>
+          <p class="semi_bold"><span><img src="img/phone.png" alt="phone"></span><a href="tel:+91 8410 3112 49">+91 8410 3112 49</a></p>
+          <p class="semi_bold"><span><img src="img/location.png" alt="location"></span><a href="">10, Firs Avenue, Muswell Hill,</a></p>
+         
+        
+       </div>
+      </div>
+      <div class="col-sm-6 btn_box_foot">
+        <div class="footer_btn boxs">
+          <a href="#"><i class="fa fa-facebook"></i>Contact on Facebook</a><a href="#"><i class="fa fa-instagram"></i>Contact on Instagram</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- section 13 end -->
+
+<!-- section 14 start -->
+<div class="section14_car boxs">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h5>Copyright 2018 Car Dealer Developed By Design o web technologies</h5>
+      </div>
+      <div class="col-sm-6">
+        <div class="footer_anchors boxs text-right">
+          <a href="#aboutus">About Us</a><span> | </span><a href="#contact">Contact Us</a><span> | </span><a href="">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

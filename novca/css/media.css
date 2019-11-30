@@ -1,0 +1,514 @@
+@media screen and (max-width: 1199px){
+	/*index page start*/
+	.container1{
+	    width: 100%;
+	}
+	.header .navbar-nav > li > a{
+	    padding: 26px 26px;
+	}
+	.header .navbar-nav > li.btnsign {
+	    padding: 16px 0px;
+	}
+	.header .navbar-nav > li.btnsign a{
+	    padding: 8px 30px;
+	}
+	.header .navbar-brand{
+		padding: 15px 0px;
+	}
+	.home{
+		margin-top: 72px;
+		padding: 100px 0px 150px;
+	}
+	.home_head h1{
+		font-size: 34px;
+		line-height: 42px;
+		margin-bottom: 10px;
+	}
+	.home_head a.get{
+	    padding: 8px 38px;
+	}
+	.account .acclft {
+	    margin-top: 35px;
+	}
+	.accpoints h2{
+		font-size: 20px;
+	}
+	.accpoints p {
+    	font-size: 16px;
+	}
+	.accpoints {
+	    margin-bottom: 20px;
+	}
+	.growth_head h1{
+		font-size: 39px;
+	    margin-bottom: 50px;
+	}
+	.growth{
+	    padding: 80px 0px 80px;
+	}
+	.growth_items h2{
+	    font-size: 20px;
+	}
+	.serviceitem h2{
+		font-size: 29px;
+	    margin-bottom: 10px;
+	}
+	.serviceitem p {
+    	font-size: 16px;
+    	line-height: 26px;
+	}
+	.serviceitem {
+    	padding: 50px;
+    	min-height: 245px;
+	}
+	.quote_head h1 {
+	    font-size: 29px;
+	    line-height: 39px;
+	    margin-bottom: 30px;
+	}
+	.quote_head a {
+	    font-size: 16px;
+	    line-height: 30px;
+	    padding: 8px 38px;
+	}
+	.quote{
+		padding: 80px 0px 80px;
+	}
+	.flinks ul li a{
+    	margin-bottom: 15px;
+	}
+	.footer{
+	    padding: 50px 0px 40px;
+	}
+	/*index page end*/
+
+	/*modals start*/
+	.termmodal .modal-dialog,  .privacymodal .modal-dialog{
+        width: 90%; 
+    }
+    .loginmodal .modal-dialog, .contactmodal .modal-dialog, .freemodal .modal-dialog{
+        width:90%;
+    }
+    .contactmodal .modal-body .form-group{
+        width: 100%;
+    }
+    .termmodal .modal-body, .privacymodal .modal-body, .contactmodal .modal-body {
+	    padding: 45px 45px 45px 45px;
+	}
+	.videomodal .modal-dialog{
+	    width: 90%;
+	}
+	.videomodal .modal-body iframe{
+	    width: 100%;
+	    height: 540px;
+	}
+    /*modals end*/
+
+}
+@media screen and (max-width: 991px){
+	/*index page start*/
+	.header .navbar ul li:nth-last-child(2) {
+	    margin-right: 15px;
+	}
+	.header .navbar-nav > li > a {
+	    padding: 26px 13px;
+        font-size: 14px;
+	}
+	.header .navbar-nav > li.btnsign a {
+	    padding: 6px 20px;
+	}
+	.header .navbar-brand {
+	    width: 80%;
+	    padding: 19px 0px;
+	}
+	.header .navbar-nav > li.btnsign {
+	    padding: 18px 0px;
+	}
+	.home_head h1 {
+	    font-size: 24px;
+	    line-height: 30px;
+	}
+	.home_head p {
+	    line-height: 27px;
+	    margin-bottom: 20px;
+	}
+	.home_head a.get {
+	    padding: 8px 28px;
+        line-height: 27px;
+	}
+	.home{
+	    padding: 80px 0px 80px;
+	}
+	.videoicon {
+	    width: 50%;
+	}
+	.fryt {
+    	float: initial;
+	}
+	.flex{
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.imgshow{
+    	display: block;
+	}
+	.imghide{
+    	display: none;
+	}
+	.pleft {
+	    padding-left: 15px;
+	}
+	.pryt {
+	    padding-right: 15px;
+	}
+	.growth_items {
+	    margin-bottom: 30px;
+	    position: relative;
+	    padding: 0px 0px 0px 110px;
+	    min-height: 142px;
+	}
+	.container1 {
+	    width: 100%;
+	    padding: 0;
+	}
+	.serviceitem {
+	    padding: 50px;
+	    min-height: 300px;
+	}
+	.width33{
+		width: 33.33%;
+	}
+	.f_width100{
+		width: 100%;
+	}
+	.flinks p{
+		text-align: center;
+		margin-top: 30px;
+	}
+	/*index page end*/
+
+	/*modal start*/
+	.videomodal .modal-body iframe{
+	    width: 100%;
+	    height: 440px;
+	}
+	/*modals end*/
+
+
+	
+
+}
+@media screen and (max-width: 767px){
+	/*index page start*/
+	.header .hamburger{
+        display: block;
+    }
+    .header .navbar-brand{
+    	width: initial;
+    	padding: 0;
+    }
+    .header .navbar{
+	    padding: 16px 0px;
+    }
+    .home_head h1 {
+	    text-align: center;
+	}
+	.home_head p {
+	    text-align: center;
+	}
+	.home_head a.get{
+		display: block;
+		width: max-content;
+		margin: 0 auto;
+	}
+	.videoicon{
+		margin-top: 20px;
+	    width: 16%;
+	}
+    .account .acclft {
+	    margin: 35px 0px;
+	}
+	.fryt {
+    	padding: 0;
+	}
+	.growth {
+	    padding: 40px 0px 40px;
+	}
+	.growth_head h1 {
+	    font-size: 29px;
+	    margin-bottom: 40px;
+	}
+	.growth_items {
+	    min-height: 100px;
+	}
+	.serviceitem {
+	    padding: 50px;
+	    min-height: 245px;
+	}
+	.quote {
+	    padding: 40px 0px 40px;
+	}
+	.footer {
+    	padding: 40px 0px 30px;
+	}
+	.header .hamburger{
+		padding-right: 0px;
+	}
+	.quote_head h1 {
+	    font-size: 24px;
+	    line-height: 32px;
+	    margin-bottom: 25px;
+	}
+	/*index page end*/
+
+	/*modals start*/
+	.termmodal .modal-dialog, .privacymodal .modal-dialog, .loginmodal .modal-dialog, .contactmodal .modal-dialog, .freemodal .modal-dialog{
+        margin: 30px auto;
+    }
+    .termmodal .modal-body, .privacymodal .modal-body, .loginmodal .modal-content .modal-body, .contactmodal .modal-body, .freemodal .modal-content .modal-body{
+        padding: 35px 35px 35px;
+    }
+    .termmodal .modal-body h1, .privacymodal .modal-body h1, .loginmodal .modal-body h1, .contactmodal .modal-body h1, .freemodal .modal-body h1{
+	    font-size: 30px;
+	    margin-bottom: 20px;
+    }
+    .loginmodal .modal-body .box .form-control, .contactmodal .modal-body .form-group .form-control, .freemodal .modal-body .form-group .form-control {
+        height: 50px;
+        font-size: 18px;
+    }
+    .loginmodal .modal-body .box .btn{
+        height: 50px;
+        margin: 30px 0px;
+        font-size: 18px;
+    }
+    .contactmodal .modal-body .form-group textarea.form-control{
+        height:80px;
+    }
+    .contactmodal .modal-body .btn .freemodal .modal-body .btn{
+        height: 50px;
+        font-size: 18px;
+    }
+    .freemodal .modal-body .form-group .btn{
+        height: 50px;
+        font-size: 18px;
+    }
+    .freemodal .modal-body p {
+	    font-size: 18px;
+	    margin-top: 15px;
+	}
+	.freemodal .modal-body ul li{
+		padding-top: 20px;
+	}
+	.freemodal .modal-body ul li label {
+   		font-size: 18px;  
+	}
+    .loginmodal .modal-body p a{
+    	font-size: 18px;
+    }
+    .contactmodal .modal-body .address {
+    	padding: 0px 15px;
+	}
+	.contactmodal .modal-body .address p{
+		font-size: 18px;
+	    margin-bottom: 6px;
+	}
+	.contactmodal .modal-body form{
+		margin-top: 30px;
+	}
+	.contactmodal .modal-body .form-group p {
+	    font-size: 18px;
+	}
+	.videomodal .modal-body{
+	    padding: 35px;
+	}
+	.videomodal .modal-body iframe{
+	    width: 100%;
+	    height: 340px;
+	}
+	.videomodal button.popupcross{
+	    right: 15px;
+    	top: 15px;
+	}
+	/*modals end*/
+
+
+}
+@media screen and (max-width: 560px){
+	/*index page start*/
+	.width33 {
+	    width: 50%;
+	}
+	.width33_100 {
+	    width: 100%;
+	}
+	.serviceitem {
+    	padding: 40px;
+    	min-height: 245px;
+	}
+	.quote_head h1 {
+	    font-size: 20px;
+	    line-height: 30px;
+	    margin-bottom: 20px;
+	}
+	.quote_head a {
+	    font-size: 16px;
+	    line-height: 24px;
+	    padding: 8px 24px;
+	}
+	.videoicon {
+	    margin-top: 20px;
+	    width: 22%;
+	}
+	/*index page end*/
+
+	/*modals start*/
+	.termmodal .modal-body, .privacymodal .modal-body, .loginmodal .modal-content .modal-body, .contactmodal .modal-body, .freemodal .modal-content .modal-body{
+        padding: 25px;
+    }
+    button.popupcross{
+    	top: 25px;
+    	right: 25px;
+    }
+   /* .termmodal .modal-body h1, .privacymodal .modal-body h1,  .loginmodal .modal-body h1, .contactmodal .modal-body h1, .freemodal .modal-body h1{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }*/
+    .freemodal .modal-body .form-group p {
+	    font-size: 17px;
+	}
+	.freemodal .modal-body p {
+	    font-size: 17px;
+	}
+     .loginmodal .modal-body .box, .freemodal .modal-body .form-group {
+        width: 100%;
+    }
+     .freemodal .modal-body ul{
+        width: 100%;
+    }
+    .freemodal .modal-body ul li{
+    	padding-left: 10px;
+    }
+	/*modals end*/
+
+}
+@media screen and (max-width: 414px){
+	/*index page start*/
+	.home {
+	    padding: 40px 0px 40px;
+	}
+	.home_head h1 span {
+    	display: inline;
+	}
+	.home_head h1 {
+	    font-size: 25px;
+	}
+	.quote_head h1 span {
+    	display: inline;
+	}
+	.flinks ul li a{
+		margin: 0px auto 15px;
+	}
+	.width33 {
+	    width: 100%;
+	}
+	
+	/*index page end*/
+
+	/*modals start*/
+	.termmodal .modal-body p, .privacymodal .modal-body p {
+    	font-size: 16px;
+    	line-height: 24px;
+	}
+	.termmodal .modal-dialog, .privacymodal .modal-dialog, .loginmodal .modal-dialog, .contactmodal .modal-dialog, .freemodal .modal-dialog{
+        margin: 20px auto;
+    }
+    .termmodal .modal-body, .privacymodal .modal-body, .loginmodal .modal-content .modal-body, .contactmodal .modal-body, .freemodal .modal-content .modal-body{
+        padding: 30px;
+    }
+    .loginmodal .modal-dialog{
+        margin: 60px 20px;
+    }
+    .loginmodal .modal-body .box, .freemodal .modal-body .form-group {
+        width: 100%;
+    }
+    .loginmodal .modal-body .box .form-control, .contactmodal .modal-body .form-group .form-control, .freemodal .modal-body .form-group .form-control {
+        height: 36px;
+        font-size: 16px;
+    }
+    .freemodal .modal-body p {
+	    font-size: 16px;
+	}
+	.freemodal .modal-body ul li label {
+	    font-size: 16px;
+        line-height: 16px;
+	}
+    .loginmodal .modal-body .box .btn{
+        height: 36px;
+        margin: 20px 0px;
+        font-size: 16px;
+    }
+    .contactmodal .modal-body .form-group textarea.form-control{
+        height: 60px;
+        font-size: 16px;
+    }
+    .contactmodal .modal-body .btn{
+        height: 36px;
+        font-size: 16px;
+        margin: 10px 0px 10px;
+    }
+    .freemodal .modal-body ul{
+        width: 100%;
+    }
+    .freemodal .modal-body ul li{
+        width: 100%;
+        padding-left: 50px;
+    }
+    .styled-checkbox + label:before {
+        width: 15px;
+        height: 15px;
+        margin-top: 3px;
+    }
+    .styled-checkbox:checked + label:after {
+	    left: 3px;
+	    top: 10px;
+	}
+    .freemodal .modal-body .form-group p {
+	    font-size: 16px;
+	}
+    .freemodal .modal-body .form-group .btn{
+        height: 36px;
+        font-size: 16px;
+    }
+    .loginmodal .modal-body p a{
+    	font-size: 16px;
+    }
+    .loginmodal .modal-body .box label{
+    	font-size: 16px;	
+    }
+    .contactmodal .modal-body .address p {
+	    font-size: 16px;
+	}
+	.contactmodal .modal-body .address p a {
+	    font-size: 16px;
+	}
+	.contactmodal .modal-body .form-group p {
+	    font-size: 16px;
+	}
+	.contactmodal .modal-body .form-group {
+	    margin-bottom: 15px;
+	}
+	.videomodal .modal-body{
+	    padding: 30px;
+	}
+	.videomodal .modal-body iframe{
+	    width: 100%;
+	    height: auto;
+	}
+
+	/*modals end*/
+
+}
+@media screen and (max-width: 320px){
+
+}

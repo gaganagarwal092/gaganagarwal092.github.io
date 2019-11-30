@@ -1,0 +1,2186 @@
+@media(max-width:1199px) {
+
+    /*header & footer start*/
+    .search .input-group {
+        width: 283px;
+    }
+
+    .head_left a {
+        margin: 0px 0px 0px 10px;
+    }
+
+    .head_rht_inn2 a {
+        margin-left: 10px;
+    }
+
+    .footer {
+        padding: 40px 0px;
+    }
+
+    /*header & footer end*/
+    .main {
+        padding: 30px 0px;
+    }
+
+    .faq .panel-group {
+        padding: 30px 0px;
+    }
+
+    .mentor_inner {
+        width: 19.5%;
+    }
+
+    .token-outer {
+        padding-bottom: 60px;
+    }
+
+    .purchase {
+        padding: 38px 32px;
+    }
+
+    .tok {
+        margin-bottom: 10px;
+    }
+
+    .streaming2 a {
+        margin-top: 6px;
+        padding: 8px 14px;
+    }
+
+    .chat_bottom .form-control {
+        height: 55px;
+    }
+
+    .tutorial_detail h6 {
+        font-size: 15px;
+    }
+
+    .purchase_mod .modal-dialog {
+        width: 90%;
+    }
+
+    .purItem_bottom .process_pay {
+        padding-left: 15px;
+    }
+
+    .shop_items .mins {
+        width: 275px;
+        height: 165px;
+        padding: 20px 15px 15px 20px;
+    }
+
+    .shop_items .mins p {
+        padding-bottom: 20px;
+        font-size: 22px;
+    }
+
+    .tab_container {
+        padding-bottom: 37px;
+    }
+
+    .list.proEdit_c .col-sm-6 {
+        width: 60%;
+    }
+
+    .list.proEdit_c .col-sm-6.widthcutome50 {
+        width: 50%;
+    }
+
+    .proUser .tokens_wrap {
+        margin-top: 0px;
+        width: 360px;
+    }
+
+    .profile_content {
+        padding: 32px 0px 0px 60px;
+    }
+
+    .p_account {
+        padding: 32px 0px 0px 60px;
+    }
+
+    .price_live .live a {
+        padding: 10px 30px;
+    }
+
+    .balance_bottom h2 {
+        font-size: 50px;
+    }
+
+    .balance_bottom h4 {
+        font-size: 30px;
+    }
+
+    .stephen_detail_2 .status p br {
+        display: none;
+    }
+
+    .stephen_detail_2 .status {
+        padding: 15px;
+    }
+
+    .price_live .live {
+        padding-top: 0;
+    }
+
+    .balance.balanceprofile {
+        padding: 25px;
+        width: 350px;
+        height: 165px;
+    }
+
+    /* mansi */
+    /* terms page start */
+    .t_inner_main {
+        padding: 0px 130px;
+    }
+
+    /* terms page ends */
+    .log_inner {
+        padding: 100px 0px;
+    }
+
+    .login {
+        padding: 60px 100px;
+    }
+
+    .mentor_inner {
+        width: 19.5%;
+    }
+
+    /* landing page */
+    .l_topSec .imgpos{
+        width: 675px;
+    }
+    .l_topSec {
+        padding: 170px 0px;
+    }
+
+    .l_topSec_inner h2 {
+        font-size: 32px;
+    }
+
+    .l_topSec_inner p {
+        font-size: 23px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    .l_topSec_inner .gstart_btn {
+        font-size: 23px;
+    }
+
+    .work {
+        padding: 0px 0 150px;
+    }
+
+    .work .work_inner h2,
+    .about_inner h2 {
+        font-size: 32px;
+    }
+
+    .work .work_inner .un_line,
+    .about_inner .un_line {
+        width: 240px;
+    }
+
+    .work_inner_bottom {
+        padding-top: 80px;
+    }
+
+    .about_inner p {
+        padding-top: 70px;
+    }
+
+    .about {
+        padding-bottom: 150px;
+    }
+
+    .donedialog {
+        width: 90%;
+    }
+
+    /* landing page ends */
+    /* mansi */
+    .customwidth1{
+        width: 100%;
+    }
+    .customwidth2{
+        width: 100%;
+    }
+    .customwidth2 .balance.balanceprofile{
+        float: left;
+        margin-top: 30px;
+    }
+    .myprofilewidth1{
+        width: 75%;
+    }
+    .myprofilewidth2{
+        width: 100%;
+    }
+/*    .proUser .tokens_wrap{
+        padding: 25px;
+    }*/
+    .proUser .tokens_wrap{
+        float: initial;
+        margin-top: 30px;
+    }
+    .main2 {
+        padding-bottom: 194px;
+    }
+    .chat_area{
+        min-height: 320px;
+    }
+
+}
+
+@media(max-width:991px) {
+    .toggleswitchmyprofile{
+        margin-top: 20px;
+    }
+
+    /*header & footer start*/
+    .head_left {
+        padding: 6px 0px;
+    }
+    .head_left a {
+        font-size: 14px;
+        margin: 0px 0px 0px 7px;
+    }
+
+    .head_rht_inn2 a {
+        font-size: 14px;
+        margin-left: 7px;
+    }
+
+    .header {
+        padding: 12px 10px;
+    }
+
+    .search .input-group {
+        width: 240px;
+    }
+
+    .foot ul li a {
+        margin: 0px 20px 0px 0px;
+        font-size: 14px;
+    }
+
+    .foot ul {
+        margin: 20px 0px 0px;
+    }
+
+    .footer {
+        padding: 30px 0px;
+    }
+
+    .head_rht_inn2 a.img_right_login,
+    .head_rht_inn2 a.img_right_login img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .search .form-control {
+        height: 34px;
+    }
+
+    /*header & footer end*/
+    .faq {
+        padding: 12px 70px;
+    }
+
+    .custom h1 {
+        font-size: 22px;
+    }
+
+    .custom p {
+        font-size: 14px;
+    }
+
+    .process_paymnent {
+        width: 230px;
+    }
+
+    .token-outer {
+        padding-bottom: 30px;
+    }
+
+    .width85 {
+        width: 100%;
+    }
+
+    .live_rht button.subs {
+        margin-left: 12px;
+    }
+
+    .chat_head {
+        padding: 10px 0px;
+    }
+
+    .live_row .col-sm-8,
+    .live_row .col-sm-4 {
+        width: 100%;
+    }
+
+    .live_row {
+        display: block;
+    }
+
+    .chat_bottom {
+        position: relative;
+        left: 0px;
+        right: 0px;
+    }
+
+    .stream_rht {
+        margin-top: 30px;
+    }
+
+    .smiley_div2 {
+        bottom: 0px;
+    }
+
+    .smiley_div {
+        width: 250px;
+        padding: 20px 25px 20px;
+        bottom: 0;
+    }
+
+    .smiley_div2::after {
+        left: 46%;
+    }
+
+    .tok {
+        width: 70px;
+    }
+
+    .merchandise_box h3 {
+        font-size: 16px;
+    }
+
+    .merchandise_box h5 {
+        font-size: 16px;
+    }
+
+    .merchandise_bottom .buy_btn {
+        padding: 0px 18px;
+    }
+
+    .list.proEdit_c .col-sm-6 {
+        width: 80%;
+    }
+
+    .balance {
+        width: 350px;
+        height: 150px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .balance_bottom h2 {
+        font-size: 50px;
+    }
+
+    .balance_bottom h4 {
+        font-size: 30px;
+    }
+
+    .balance_top a {
+        padding: 8px 30px 8px 30px;
+    }
+
+    .profile_content {
+        padding: 30px 0 0 30px;
+    }
+
+    .p_account {
+        padding: 30px 0 0 30px;
+    }
+
+    .bank_det {
+        width: 330px;
+    }
+
+    .tabs li a {
+        font-size: 18px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .Rmargin,
+    .Lmargin {
+        width: 30%;
+    }
+
+    .list.proEdit_c .col-sm-6.widthcutome50.widthcutome502 {
+        width: 100%;
+    }
+
+    .balance.balanceprofile {
+        margin-top: 20px;
+        float: left;
+    }
+
+    .stephen_l .stephen_img {
+        width: 42%;
+    }
+
+    .stephen_l .stephen_img img {
+        width: 100%;
+    }
+
+    .purchase_wraper {
+        padding: 30px;
+    }
+
+    /* mansi */
+    /* terms page start */
+    .t_inner_main {
+        padding: 0px 80px;
+    }
+
+    /* terms page ends */
+    .log_inner {
+        padding: 70px 0px;
+    }
+
+    .login {
+        padding: 40px 80px;
+    }
+
+    .loginModal .login {
+        padding: 20px 60px 25px;
+    }
+
+    .resetloginmodal .login {
+        padding: 30px 50px 0px;
+    }
+
+    /* landing page */
+    .l_topSec .imgpos {
+        width: 560px;
+    }
+    .l_topSec {
+        padding: 150px 0px;
+    }
+
+    .l_topSec_inner h2 {
+        font-size: 24px;
+    }
+
+    .l_topSec_inner p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .l_topSec_inner .gstart_btn {
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+
+    .work {
+        padding: 0px 0 120px;
+    }
+
+    .work .work_inner h2,
+    .about_inner h2 {
+        font-size: 25px;
+    }
+
+    .work .work_inner .un_line,
+    .about_inner .un_line {
+        width: 200px;
+    }
+
+    .work_inner_bottom {
+        padding-top: 50px;
+    }
+
+    .about_inner p {
+        padding-top: 40px;
+    }
+
+    .about {
+        padding-bottom: 120px;
+    }
+
+    .work_inner_bottom h4 {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .work_inner_bottom p,
+    .about_inner p {
+        font-size: 16px;
+    }
+
+    .l_header .l_menu li a {
+        font-size: 14px;
+        padding: 5px 16px;
+    }
+
+    .l_header .l_menu li a#regLogin {
+        padding: 3px 16px
+    }
+
+    /* landing page ends */
+    /* mansi */
+
+    /*  remain modal*/
+
+    .amodal_body {
+        padding: 40px 90px 72px;
+    }
+    .stephen_lflexoff{
+        display: block;
+    }
+    .customwidth1 .stephen_l{
+        display: block;
+    }
+    .customwidth1 .stephen_detail_2 {
+        margin-top: 30px;
+        padding: 0;
+    }
+    .stephen_detail_2 h1 .upgradepro a{
+        left: -270px;
+    }
+    .startup_left,
+    .startup_right {
+        width: 100%;
+    }
+    .startup_para {
+        min-height: 300px;
+    }
+    .smiley_div.smiley_div_theater{
+        bottom: 60px;
+    } 
+    .smiley_div.smiley_div_theater::after {
+        bottom: -9px;
+        left: 12%;
+    }
+    .smiley_div2.smiley_div_theater2{
+        bottom: 60px;
+    }
+    .smiley_div2.smiley_div_theater2::after {
+        left: 47%;
+    }
+    .stream_rht2{
+        /*min-height: 500px;*/
+    }
+    .chatboxs{
+        min-height: 190px;
+    }
+    .chat_bottom2{
+        position: relative;
+        left: 0px;
+        right: 0px;
+        bottom: 0;
+    }
+    .main2 {
+        padding-bottom: 194px;
+    }
+
+
+}
+
+@media(max-width:767px) {
+    .header .navbar-header{
+        margin: 0;
+    }
+    .stephen_lflexoff{
+        display: flex;
+    }
+
+    /*header & footer start*/
+    .header .navbar-brand{
+        padding-left: 0px;
+    }
+    .header .hamburger{
+        width: 28px;
+    }
+    .header .hamburger,
+    .header .navbar-header {
+        display: block;
+    }
+
+    .header_inner {
+        display: none;
+    }
+
+    .header {
+        padding: 20px 20px;
+    }
+
+    .foot ul {
+        text-align: center;
+    }
+
+    .foot ul.right_footer {
+        text-align: center;
+    }
+
+    .center767 {
+        margin: 0 auto;
+    }
+
+    .foot ul.right_footer li:first-child a {
+        margin-left: 0;
+    }
+
+    .foot .noleft {
+        padding-right: 0;
+    }
+
+    .foot .noright {
+        padding-left: 0;
+    }
+
+    /*header & footer end*/
+    .faq {
+        padding: 12px 40px;
+    }
+
+    .faqmodal .modal-dialog {
+        width: 90%;
+    }
+
+    .faqmodal .modal-content {
+        padding: 30px 60px;
+    }
+
+    .faqmodal .modal-body {
+        padding: 30px 0px 10px 0px;
+    }
+
+    .mentor_inner {
+        width: 24.5%;
+    }
+
+    .follow_box {
+        min-height: 336px;
+        margin-right: 46px;
+    }
+
+    .custom {
+        margin-bottom: 15px;
+    }
+
+    .token .row {
+        padding: 24px 0px 0px;
+    }
+
+    .processpay {
+        padding-left: 0px;
+    }
+
+    .live_lft.width_50 {
+        width: 36%;
+    }
+
+    .live_rht.width_50 {
+        width: 64%;
+    }
+
+    .live_rht button {
+        font-size: 14px;
+    }
+
+    .shop_items .mins p {
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .shop_items .mins h4 {
+        font-size: 22px;
+        padding-bottom: 4px;
+    }
+
+    .shop_items_bott .col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+
+    .merchandise_box {
+        margin-bottom: 30px;
+    }
+
+    .tab_container {
+        padding-bottom: 0;
+    }
+
+    .list.proEdit_c .col-sm-6 {
+        width: 100%;
+    }
+
+    .tabs_main {
+        margin-top: 30px;
+    }
+
+    .shop_items .mins {
+        width: 275px;
+        height: 145px;
+    }
+
+    .tutorial {
+        margin-bottom: 20px;
+    }
+
+    .tutorial_img img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .tutorial_detail h6 {
+        font-size: 16px;
+    }
+
+    .tabs li a {
+        font-size: 16px;
+        padding: 8px 10px 8px 10px;
+    }
+
+    .list.proEdit_c .col-sm-6.widthcutome50 {
+        width: 100%;
+    }
+
+    .balance.tokens_wrap {
+        float: left;
+        margin-top: 15px;
+    }
+
+    .Rmargin,
+    .Lmargin {
+        width: 40%;
+        float: left;
+    }
+
+    .profile_content {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .p_account {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .merchandise_box img {
+        width: 100%;
+    }
+
+    .merchandise_box h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .forscroll {
+        overflow-y: auto;
+    }
+
+    .purchase_wraper {
+        min-width: 750px;
+    }
+
+    .forscroll::-webkit-scrollbar-thumb {
+        background-color: #0e9bd8;
+    }
+
+    .forscroll::-webkit-scrollbar {
+        height: 4px;
+    }
+
+    /*modals start*/
+    .modal-dialog {
+        width: 90%;
+    }
+
+    .purItem_bottom {
+        padding: 40px 0px 0px;
+    }
+
+    .purmodal_body .purItem_top h4 {
+        padding-top: 20px;
+    }
+
+    .un_line_container {
+        padding: 40px 00px 0px;
+    }
+
+    .purItem_bottom .process_pay {
+        padding-left: 0px;
+        margin-top: 25px;
+    }
+
+    .mentorDmodal.modal-content .mentorDe_body {
+        padding: 120px 40px 120px 40px;
+    }
+
+    .withdr_popup .modal_body {
+        padding: 40px 40px 40px;
+    }
+
+    .withdr_popup .modal_body .buttons .cancel_btn {
+        padding-left: 0;
+    }
+
+    .withdr_popup .modal_body .buttons {
+        padding-top: 12px;
+        padding-bottom: 30px;
+    }
+
+    .promentor .modal-dialog {
+        width: 90%;
+    }
+
+    .promentor_inner {
+        padding: 0px 15px;
+    }
+
+    .promentor .modal-content {
+        padding: 30px;
+    }
+
+    .setupgolive .modal-dialog {
+        width: 90%;
+    }
+
+    .setupgolive .modal-body {
+        padding: 30px 65px;
+    }
+
+    .setupgolive_inner h2 {
+        margin-bottom: 20px;
+    }
+
+    .selectbox .nice-select:after {
+        top: 13px;
+    }
+
+    .selectbox {
+        margin-bottom: 15px;
+    }
+
+    .choosewatch {
+        margin-bottom: 25px;
+    }
+
+    /*modals end*/
+    /* mansi */
+    /* terms page start */
+    .t_inner_main {
+        padding: 0px 50px;
+    }
+
+    /* terms page ends */
+    .log {
+        width: 90%;
+    }
+
+    .log_inner {
+        padding: 40px 0px;
+    }
+
+    .login {
+        padding: 30px 30px;
+    }
+
+    .login form {
+        padding-top: 20px;
+    }
+
+    .login .form-control {
+        height: 40px;
+    }
+
+    .heding_ofform {
+        margin-bottom: 20px;
+    }
+
+    .log_inner_anchor a img {
+        width: 150px;
+    }
+
+    .modal-dialog {
+        width: 90%;
+    }
+
+    .loginModal .login {
+        padding: 20px 40px 25px;
+    }
+
+    .resetpass_inner {
+        padding: 36px 0px;
+    }
+
+    .mentor_inner {
+        width: 24.5%;
+    }
+
+    .mentor_img h6 {
+        font-size: 15px;
+    }
+
+    .resetloginmodal .modal-body {
+        padding: 0px 0px 0px;
+    }
+
+    /* landing page */
+    .l_topSec .imgpos {
+        width: 450px;
+    }
+    .l_topSec {
+        padding: 120px 0px;
+    }
+
+    .l_topSec_inner h2 {
+        font-size: 24px;
+        width: 50%;
+    }
+
+    .l_topSec_inner p {
+        font-size: 18px;
+        width: 50%;
+    }
+
+    .work .work_inner h2,
+    .about_inner h2 {
+        font-size: 30px;
+    }
+
+    .vlive img {
+        margin: 0 auto;
+    }
+
+    .work_inner_bottom {
+        padding-top: 0px;
+    }
+
+    .vlive {
+        padding-top: 30px;
+    }
+
+    .work_inner_bottom h4 {
+        font-size: 25px;
+    }
+
+    .work_inner_bottom p,
+    .about_inner p {
+        font-size: 20px;
+    }
+
+    .work {
+        padding: 0px 0 80px;
+    }
+
+    .about {
+        padding-bottom: 80px;
+    }
+
+    .about_inner p {
+        padding-top: 30px;
+    }
+
+    /* landing page */
+    /* mansi */
+    .startup_left,
+    .startup_right {
+        width: 100%;
+    }
+
+    /*    remain modal*/
+
+    .name_info {
+        padding-bottom: 16px;
+    }
+
+    .amodal_body {
+        padding: 40px 50px 72px;
+    }
+
+    .addImodal_body .video_wraper {
+        width: 100%;
+    }
+
+    .modal_addI .modal-content,
+    .addLess_popup_in .upload_secs {
+        width: 100%;
+    }
+
+    .addLess_popup_in h2 {
+        padding-bottom: 20px;
+    }
+
+    .addLess_popup_in {
+        padding: 38px 60px 40px 60px;
+    }
+
+    .uplform textarea {
+        height: 80px;
+    }
+
+    .uplform input {
+        height: 42px;
+    }
+
+    .uplform .uploadItem {
+        margin-top: 8px;
+    }
+
+    .trackModl .trmodal_body {
+        padding: 40px 50px 40px 50px;
+    }
+    .mentor_img .follow:hover {
+        color: #0e9bd8;
+        background-color: #fff;
+    }
+
+    .mentor_img .followed:hover {
+        color: #fff;
+        background-color: #0e9bd8;
+    }
+    .edititembtns .deletebtn{
+        padding: 11px 0px;
+        width: 47%;
+    }
+    .edititembtns .savebtn{
+        padding: 11px 0px;
+        width: 47%;
+    }
+    .stephen_detail h1{
+        width: max-content;
+    }
+    .stephen_detail_2 h1 .upgradepro a {
+        left: 140px;
+    }
+    .form_class{
+        position: absolute;
+        bottom: 0;
+        padding: 0px 10px;
+    }
+    .startup_padd {
+        padding: 20px 10px;
+    }
+    .startup_para{
+        min-height: 300px;
+    }
+    .smiley_div.smiley_div_theater::after {
+        bottom: -9px;
+        left: 9%;
+    }
+    .smiley_div2.smiley_div_theater2{
+        width: 90%;
+        left: 25px;
+
+    }
+    .main2 {
+        padding-bottom: 194px;
+    }
+    .flogo{
+        margin: 0 auto;
+        display: block;
+        width: max-content;
+    }
+
+
+}
+
+@media(max-width:560px) {
+    .toggleswitchmyprofile{
+        width: 100%;
+    }
+    .stephen_detail_2 h1 .upgradepro{
+        top: -18px;
+    }
+    .header .navbar-brand{
+        padding-left: 0px;
+    }
+    .header .hamburger{
+        width: 28px;
+    }
+
+    .modal-dialog{
+        display: flex;
+        min-height: initial;
+    }
+    .stephen_lflexoff{
+        display: block;
+    }
+
+    /*header & footer start*/
+    .foot ul li a {
+        margin: 0px 10px 0px 0px;
+    }
+
+    /*header & footer end*/
+    .faq a {
+        padding: 10px 86px;
+    }
+
+    .faq {
+        padding: 12px 20px;
+    }
+
+    .faq h2 {
+        font-size: 20px;
+    }
+
+    .faqmodal .modal-content {
+        padding: 20px 30px;
+    }
+
+    .faqmodal .modal-header h4 {
+        font-size: 20px;
+    }
+
+    .mentor_inner {
+        width: 32.5%;
+    }
+
+    .follow_box {
+        width: 168px;
+        margin-right: 16px;
+    }
+
+    .rightmetext p {
+        font-size: 16px;
+    }
+
+    .mentor .row {
+        padding: 0px 0px;
+    }
+
+    .follow_box_inner3 h4 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .recent {
+        padding: 28px 0px 24px;
+    }
+
+    .purchase {
+        padding: 18px 20px;
+    }
+
+    .shop_items .mins h4 {
+        font-size: 20px;
+    }
+
+    .shop_items .mins p {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .shop_items .mins h6 {
+        float: initial;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .shop_items .buy_btn {
+        float: initial;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .live_lft.width_50 {
+        margin-bottom: 10px;
+    }
+
+    .live_lft.width_50,
+    .live_rht.width_50 {
+        width: 100%;
+    }
+
+    .shop_items .mins {
+        width: 275px;
+        height: 185px;
+    }
+
+    .shop_tabs .tabs li a {
+        padding: 8px 30px 8px 30px;
+        font-size: 18px;
+    }
+
+    .stephen_detail h1 {
+        font-size: 20px;
+    }
+
+    .stephen_detail_2 .status p br {
+        display: none;
+    }
+
+    .stephen_detail_2 .status p {
+        font-size: 14px;
+    }
+
+    .follow_m button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .stephen_detail a {
+        margin-top: 15px;
+    }
+
+    .follow_m {
+        margin-top: 0px;
+    }
+
+    .tutorial_detail h6 {
+        font-size: 15px;
+    }
+
+    .tabs li {
+        width: 100%;
+    }
+
+    .Rmargin,
+    .Lmargin {
+        width: 50%;
+        float: left;
+    }
+
+    .merchandise_box h3 {
+        margin-bottom: 10px;
+    }
+
+    .merchandise_box2 .ubuy_btn {
+        font-size: 16px;
+        padding: 2px 15px;
+    }
+
+    .balance_top h3 {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .balance_bottom h4 {
+        padding-top: 15px;
+    }
+
+    .bank_det {
+        width: 310px;
+    }
+
+    .price_live .live a {
+        padding: 6px 12px;
+    }
+
+    .price_live .price .input-group {
+        height: 41px;
+    }
+
+    .price_live .price .input-group .form-control {
+        height: 41px;
+    }
+
+    .price_live .price .input-group .input-group-addon {
+        padding: 0px 5px;
+    }
+
+    .purch_inner h2 {
+        padding-top: 30px;
+    }
+
+    .purchase_wraper {
+        padding: 20px;
+    }
+
+    /*modals start*/
+    .purmodal_body {
+        padding: 30px;
+    }
+
+    .mentorDmodal.modal-content .mentorDe_body {
+        padding: 80px 20px 80px 20px;
+    }
+
+    .mentorDmodal.modal-content .mentorDe_body p {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .withdr_popup .modal_body {
+        padding: 30px 40px 30px;
+    }
+
+    .promentor_inner h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .promentor_inner p.mgntm {
+        margin-bottom: 10px;
+    }
+
+    .promentor_inner {
+        padding: 0px 0px;
+    }
+
+    .promentor_inner p.mgntm br {
+        display: none;
+    }
+
+    .promentor_inner p.padlftryt {
+        padding: 0px 15px;
+    }
+
+    .prolinks a.probtn {
+        padding: 11px 18px;
+    }
+
+    .prolinks {
+        margin: 15px 0px 10px;
+    }
+
+    .setupgolive .modal-body {
+        padding: 30px;
+    }
+
+    .setupgolive_inner h2 {
+        font-size: 20px;
+    }
+
+    .choosewatch {
+        margin-bottom: 20px;
+    }
+
+    /*modals end*/
+    /* mansi */
+    /* terms page start */
+    .term {
+        padding: 30px 0px;
+    }
+
+    .t_inner_main {
+        padding: 0px 30px;
+    }
+
+    .term_inner {
+        padding: 20px;
+    }
+
+    .term_inner h1 {
+        font-size: 20px;
+    }
+
+    /* terms page ends */
+    .log_inner_anchor a img {
+        width: 150px;
+    }
+
+    .heding_ofform h4,
+    .login h1 {
+        font-size: 20px;
+    }
+
+    .login .form-control {
+        height: 34px;
+        font-size: 14px;
+    }
+
+    .login {
+        padding: 20px 20px;
+    }
+
+    .login p,
+    .login p span a {
+        font-size: 16px;
+    }
+
+    .login label {
+        padding-top: 5px;
+    }
+
+    .login .form-group span,
+    .resetpass .form-group a {
+        top: 38px;
+    }
+
+    .loginModal .login {
+        padding: 20px;
+    }
+
+    .resetpass_inner {
+        padding: 60px 0px;
+    }
+
+    .mentor_inner {
+        width: 32.5%;
+    }
+
+    .main {
+        padding: 30px 0px;
+    }
+
+    .heading_h2 {
+        font-size: 20px;
+    }
+
+    .recent {
+        padding: 20px 0px 24px;
+    }
+
+    .resetloginmodal .modal-header h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .modal-body_inner p {
+        font-size: 16px;
+    }
+
+    .resetloginmodal .login {
+        padding: 0px 20px 0px;
+    }
+
+    .modal-header h6 img {
+        top: 50%;
+    }
+
+    .modal-header h6,
+    .heding_ofform h6 {
+        padding: 15px 35px 15px 15px;
+    }
+
+    /* landing page */
+    .l_topSec .imgpos {
+        width: 320px;
+    }
+    .l_topSec_inner h2 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .l_topSec_inner p {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 15px 0px;
+    }
+
+    .l_topSec_inner .gstart_btn {
+        font-size: 16px;
+        padding: 7px 30px;
+    }
+
+    .l_topSec {
+        padding: 80px 0px 50px;
+    }
+
+    .work .work_inner h2,
+    .about_inner h2 {
+        font-size: 20px;
+    }
+
+    .work .work_inner .un_line,
+    .about_inner .un_line {
+        width: 150px;
+    }
+
+    .work_inner_bottom h4 {
+        font-size: 18px;
+    }
+
+    .work_inner_bottom p,
+    .about_inner p {
+        font-size: 16px;
+    }
+
+    .work {
+        padding: 0px 0 50px;
+    }
+
+    .about {
+        padding-bottom: 50px;
+    }
+
+    .vlive img {
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    /* landing page */
+    /* mansi */
+    .startup_padd {
+        height: 70vh;
+    }
+
+    .startup_bg {
+        width: 100%;
+        height: 70vh;
+    }
+
+
+    /*remain modal*/
+
+    .updat_popup .umodal_body {
+        box-shadow: none;
+        padding: 40px 20px 40px 20px;
+    }
+
+    .contact_in form .cancel_btn {
+        padding-left: 5px;
+        margin-top: 10px;
+    }
+
+    .contact_in form .update_btn {
+        margin-right: 0;
+        font-size: 14px;
+        padding: 10px 60px;
+        margin-top: 10px;
+    }
+
+    .umodal_body .upu_line {
+        margin: 15px 0;
+    }
+
+    .amodal_body {
+        padding: 40px 25px 72px;
+    }
+
+    .amodal_body .add_bank_f input,
+    .amodal_body .add_bank_f select {
+        height: 42px;
+    }
+
+    .amodal_body .add_bank_f {
+        margin-top: 10px;
+    }
+
+    .save_btn {
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+
+    .addImodal_body {
+        padding: 39px 40px 40px 40px;
+    }
+
+    .addImodal_body h4 {
+        padding-top: 18px;
+    }
+
+    .addLess_popup_in {
+        padding: 38px 38px 40px 38px;
+    }
+
+    .uplform .uploadItem {
+        padding: 10px 0
+    }
+
+    .addLess_popup_in .upload_secs {
+        padding: 40px 35px 40px 35px;
+    }
+
+    .trmodal_body .trmodal_body_top .limg_wr {
+        width: 100%;
+    }
+
+    .trmodal_body_top .name_item,
+    .trmodal_body_top .price_item {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .trmodal_body_top .name_item {
+        padding: 15px 0;
+    }
+    .leftmeicon{
+        float: initial;
+        margin: 0 auto;
+    }
+    .rightmetext p{
+        text-align: center;
+        display: block;
+    }
+    .main2 {
+        padding-bottom: 194px;
+    }
+
+}
+
+@media(max-width:414px) {
+    .proUser .tokens_wrap{
+        width: 100%;
+    }
+
+    /*header & footer start*/
+    .header .navbar-brand {
+        padding-left: 0px;
+    }
+    .header .hamburger{
+        width: 28px;
+    }
+    .foot ul li {
+        display: block;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .foot ul li a {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .foot ul.right_footer li {
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    .foot ul.right_footer li a {
+        margin: 0px 10px 0px 10px !important;
+    }
+
+    /*header & footer end*/
+    .faq h2 {
+        font-size: 18px;
+    }
+
+    .faq a {
+        padding: 10px 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .faq .panel-title {
+        font-size: 16px;
+    }
+
+    .faq .panel-body p {
+        font-size: 14px;
+    }
+
+    .ques {
+        font-size: 16px;
+    }
+
+    .main {
+        padding: 10px 0px;
+    }
+
+    .faqmodal .modal-body {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .faqmodal .modal-header h4 {
+        font-size: 18px;
+    }
+
+    .faqmodal button {
+        padding: 8px 0px;
+    }
+
+    .mentor_inner {
+        width: 49.5%;
+        padding: 10px 0px;
+    }
+
+    .load {
+        margin-bottom: 20px;
+    }
+
+    .recent {
+        padding: 28px 0px 0px;
+    }
+
+    .heading_h2 {
+        /*  text-align: center;*/
+        /*font-size: 20px;*/
+        margin-top: 20px;
+    }
+
+    .custom {
+        min-height: 112px;
+    }
+
+    .custom h1 {
+        font-size: 20px;
+    }
+
+    .shop_items_top {
+        display: block;
+    }
+
+    .shop_items .mins {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .shop_items .mins2 {
+        margin-left: 0;
+    }
+
+    .shop_items_bott .col-sm-3 {
+        width: 100%;
+    }
+
+    .streamer {
+        padding: 6px 10px;
+    }
+
+    .chat_bottom .form-control {
+        height: 40px;
+        padding: 8px;
+    }
+
+    .stephen_l {
+        display: block;
+    }
+
+    .stephen_l .stephen_img {
+        width: 100%;
+    }
+
+    .stephen_l .stephen_img img {
+        /*margin: 0 auto;*/
+    }
+
+    .stephen_detail {
+        width: 100%;
+        margin: 30px 0px 0px;
+        padding: 0;
+    }
+
+    .follow_m button {
+        padding: 4px 8px;
+        margin: 0 10px 0 0;
+        display: inline-block;
+    }
+
+    .follow_m a {
+        padding: 6px;
+    }
+
+    .shop_tabs .tabs li a {
+        padding: 8px 20px 8px 20px;
+        font-size: 16px;
+    }
+
+    .tutorial {
+        padding: 0;
+    }
+
+    .shop_items h2 {
+        margin-top: 15px;
+    }
+
+    .balance_bottom h2 {
+        font-size: 40px;
+    }
+
+    .balance_bottom h4 {
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    .balance {
+        width: 100%;
+        height: 130px;
+    }
+
+    .balance_top a {
+        padding: 8px 20px 8px 20px;
+    }
+
+    .update_btn {
+        padding: 10px 0;
+    }
+
+    .profile_update .form-group .form-control {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .bank_det {
+        width: 100%;
+    }
+
+    .Rmargin,
+    .Lmargin {
+        width: 100%;
+        float: left;
+        padding: 0px 15px;
+    }
+
+    .price_live .live a {
+        padding: 8px 20px;
+    }
+
+    .stephen_detail_2 .status {
+        padding: 15px;
+    }
+
+    .price_live .live {
+        padding-top: 0px;
+    }
+
+    .price_live .price .input-group {
+        height: 45px;
+    }
+
+    .price_live .price .input-group .form-control {
+        height: 45px;
+    }
+
+    .balance.balanceprofile {
+        width: 100%;
+        height: 145px;
+        padding: 20px;
+    }
+
+    .shop_items .mins {
+        height: 165px;
+    }
+
+    /*modals start*/
+    .purItem_bottom form .process_pay p span {
+        padding-left: 0;
+    }
+
+    .purItem_bottom form .process_pay h4 {
+        padding-bottom: 14px;
+    }
+
+    .purmodal_body .purItem_top .pay_btn {
+        width: 100%;
+        padding: 11px 0px;
+    }
+
+    .purItem_bottom form .process_pay .payNow_btn {
+        width: 100%;
+        padding: 11px 0px;
+    }
+
+    .mentorDmodal.modal-content .mentorDe_body p {
+        font-size: 16px;
+    }
+
+    .mentorDmodal.modal-content .mentorDe_body {
+        padding: 80px 15px 80px 15px;
+    }
+
+    .mentorDmodal.modal-content .mentorDe_body img {
+        width: 80px;
+    }
+
+    .mentorDmodal.modal-content .mentorDe_body .btn_done {
+        padding: 11px 40px;
+    }
+
+    .withdr_popup .modal_body {
+        padding: 30px 20px 30px;
+    }
+
+    .withdr_popup .modal_body .buttons .withdraw_btn {
+        padding: 11px 30px;
+    }
+
+    .prolinks {
+        display: block;
+        text-align: center;
+    }
+
+    .prolinks a.notpro {
+        font-size: 14px;
+        margin-bottom: 10px;
+        display: block;
+        width: fit-content;
+        margin: 0px auto 10px;
+    }
+
+    .prolinks a.probtn {
+        font-size: 14px;
+        display: block;
+        width: fit-content;
+        margin: 0px auto;
+    }
+
+    .promentor_inner p {
+        font-size: 14px;
+    }
+
+    .promentor_inner h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .promentor_inner p {
+        margin-bottom: 0;
+    }
+
+    .promentor .modal-content {
+        padding: 20px;
+    }
+
+    .prolinks a.probtn {
+        padding: 8px 18px;
+    }
+
+    .setupgolive_inner h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .setupgolive .modal-body {
+        padding: 20px;
+    }
+
+    .selectbox .nice-select {
+        height: 40px;
+        padding: 12px 12px;
+        font-size: 14px;
+    }
+
+    .choosewatch .check_live [type="radio"]:checked + label,
+    .choosewatch .check_live [type="radio"]:not(:checked) + label {
+        font-size: 14px;
+    }
+
+    .golive a {
+        padding: 8px 0px;
+    }
+
+    .resetloginmodal.modal-content {
+        padding: 20px;
+    }
+
+    .modal-header h6,
+    .heding_ofform h6 {
+        padding: 10px 40px 10px 10px;
+    }
+
+    .modal-header h6 img {
+        top: 50%;
+    }
+
+    /*modals end*/
+    /* mansi */
+    /* terms page start */
+    .term {
+        padding: 15px 0px;
+    }
+
+    .t_inner_main {
+        padding: 0px 0px;
+    }
+
+    .term_inner h1 {
+        font-size: 18px;
+    }
+
+    .term_inner h2,
+    .term_inner p {
+        padding-top: 15px;
+    }
+
+    /* terms page ends */
+    .log_inner_anchor a {
+        margin: 10px auto;
+    }
+
+    .log_inner_anchor a img {
+        width: 120px;
+    }
+
+    .heding_ofform h4,
+    .login h1 {
+        font-size: 18px;
+    }
+
+    .login button {
+        font-size: 14px;
+        padding: 10px 0px;
+        margin: 15px 0px;
+    }
+
+    .loginModal .login {
+        padding: 0px;
+    }
+
+    .resetpass_inner {
+        padding: 80px 0px;
+    }
+
+    .mentor_inner {
+        width: 49.5%;
+    }
+
+    .heading_h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .filter_btn {
+        margin-right: 0px;
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    .filter_btn i {
+        margin-right: 7px;
+    }
+
+    .dropdown_menu {
+        min-width: 135px;
+    }
+
+    .dropdown_menu li a {
+        font-size: 12px;
+    }
+
+    #email_down2 i {
+        display: block;
+    }
+
+    .resetloginmodal .modal-header h4 {
+        font-size: 18px;
+    }
+
+    .modal-body_inner p {
+        font-size: 14px;
+    }
+
+    /* landing page */
+    .l_fixed_header #logo_change {
+        padding-top: 0;
+    }
+    .l_topSec {
+        padding: 90px 0px 50px;
+    }
+    .l_topSec .imgpos{
+        width: 340px;
+        right: -140px;
+    }
+    .l_topSec_inner h2 {
+        font-size: 18px;
+        /*text-align: center;*/
+        width: 80%;
+    }
+    .l_topSec_inner h2 br{
+        /*display: none;*/
+    }
+
+
+    .l_topSec_inner p {
+        /*text-align: center;*/
+        font-size: 14px;
+        padding: 15px 0px;
+        width: 60%;
+        /*color: #fff;*/
+    }
+    .l_topSec_inner p br{
+        /*display: none;*/
+    }
+
+    .l_topSec_inner .gstart_btn {
+        font-size: 14px;
+        padding: 5px 20px;
+        /*margin: 0 auto;*/
+        /*display: block;*/
+        /*width: max-content;*/
+    }
+
+    .work .work_inner h2,
+    .about_inner h2 {
+        font-size: 18px;
+    }
+
+    .work .work_inner .un_line,
+    .about_inner .un_line {
+        width: 120px;
+    }
+
+    .work_inner_bottom h4 {
+        font-size: 16px;
+    }
+
+    .work_inner_bottom p,
+    .about_inner p {
+        font-size: 14px;
+    }
+
+
+    /* landing page */
+    /* mansi */
+
+    /*    remain modal*/
+
+    .contact_in form .update_btn {
+        padding: 6px 35px;
+    }
+
+    /*    remain modal*/
+
+    .amodal_body {
+        padding: 40px 10px 50px;
+    }
+
+    .addImodal_body {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .addImodal_body .form-group {
+        margin-bottom: 22px;
+    }
+    .editlessonform .form-group{
+        margin-bottom: 0;
+    }
+
+    .addLess_popup_in {
+        padding: 38px 25px 40px 25px;
+    }
+
+    .trackModl .trmodal_body {
+        padding: 40px 30px 40px 30px;
+    }
+
+    .trackModl .trmodal_body h5 {
+        padding-top: 15px;
+    }
+    .form_class {
+        padding: 0px 0px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin-top: 20px;
+    }
+    .follow_box{
+        width: 100%;
+        margin-right: 0;
+    }
+    .edititembtns .deletebtn{
+        padding: 11px 0px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .edititembtns .savebtn{
+        padding: 11px 0px;
+        width: 100%;
+    }
+
+    .toggleswitchpay p{
+        font-size: 14px;
+    }
+    .switchmentor{
+        width: 100%;
+    }
+    .dropdown_wrp {
+        top: 43px;
+    }
+    .smiley_div2.smiley_div_theater2 {
+        width: 100%;
+        left: 0;
+    }
+    .live_rht button {
+        padding: 6px 5px;
+    }
+    .main2 {
+        padding-bottom: 310px;
+    }
+    .footerlivementor {
+        height: 270px;
+    }
+    .chatboxs2{
+        min-height: 100px;
+    }
+
+}
+
+@media(max-width:320px) {}

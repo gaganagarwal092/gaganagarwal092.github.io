@@ -1,0 +1,2147 @@
+@media screen and (max-width:1318px) {
+    .searchbox {
+        float: left;
+        width: 269px;
+    }
+
+    .addcntnt {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .FileExport a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .FileExport {
+        margin-right: 8px;
+    }
+
+    .admintabs ul li {
+        float: left;
+        width: 15%;
+    }
+
+    .admintabs ul li a {
+        font-size: 14px;
+    }
+
+    .admintabs_2 ul li {
+        width: 14%;
+    }
+
+}
+
+@media screen and (max-width:1218px) {
+    .admintabs ul li {
+        width: 15%;
+    }
+
+    .admintabs ul li a {
+        padding: 10px 5px;
+    }
+
+    .admintabs_2 ul li {
+        width: 14%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    /*header start*/
+    .header .menu li a {
+        padding: 0 15px;
+    }
+
+    .profileBox {
+        padding: 13px 0px 10px 0px;
+        font-size: 16px;
+    }
+
+    .dropmenu span.triangle::after {
+        right: 0;
+    }
+
+    .dropmenu {
+        width: 125px;
+    }
+
+    .dropmenu a {
+        padding: 6px 16px;
+        font-size: 16px;
+    }
+
+    .header_lft .notfication img {
+        width: 20px;
+    }
+
+    .noti_data h3 {
+        font-size: 18px;
+    }
+
+    .noti_data p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .noti_data h3 span {
+        font-size: 14px;
+    }
+
+    .viewallbtn {
+        font-size: 16px;
+        padding: 12px 0px;
+    }
+
+    .noti_data {
+        padding: 20px;
+    }
+
+    .notifybox {
+        width: 425px;
+    }
+
+    /*header end*/
+
+    /*    admin tabs*/
+    .admintabs ul li a {
+        padding: 10px 5px;
+    }
+
+    .admin_iner {
+        padding: 15px 15px 100px;
+    }
+
+    .admintabs {
+        overflow-x: scroll;
+    }
+
+    .admintabs ul {
+        min-width: 1000px;
+    }
+
+    .admintabs::-webkit-scrollbar {
+        height: 2px;
+    }
+
+    .admintabs::-webkit-scrollbar-thumb {
+        background-color: #456ffd;
+        display: none;
+    }
+
+    /*    admin tabs end*/
+
+    /*footer start*/
+    .footer {
+        padding: 30px 15px;
+    }
+
+    .f_links a {
+        font-size: 16px;
+        margin: 0px 12px;
+    }
+
+    /*footer end*/
+
+    /*modals start*/
+    .success .modal-dialog {
+        width: 330px;
+    }
+
+    .success_smiley,
+    .failed_smiley {
+        padding: 40px 0px;
+    }
+
+    .success_smiley img,
+    .failed_smiley img {
+        width: 120px;
+    }
+
+    .success_coins p {
+        margin: 10px 0px 10px;
+    }
+
+    .conti {
+        margin-top: 20px;
+    }
+
+    /*modals end*/
+
+    /*dashborad start*/
+    .top_box h2 {
+        font-size: 20px;
+    }
+
+    .view_btn {
+        font-size: 14px;
+    }
+
+    .charts_heading h3 {
+        font-size: 18px;
+    }
+
+    .charts_heading p span {
+        font-size: 16px;
+        margin: 0px 10px;
+    }
+
+    .commStyle {
+        padding: 20px 20px 15px;
+    }
+
+    .commStyle h3 {
+        font-size: 16px;
+    }
+
+    .contentBox p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .checkmark {
+        height: 25px;
+        width: 25px;
+    }
+
+    .items .checkmark:after {
+        left: 8px;
+        top: 3px;
+    }
+
+    .items2 {
+        margin-left: 30px;
+    }
+
+    .load_more .load_btn {
+        font-size: 16px;
+    }
+
+    .load_more {
+        padding: 30px 0px;
+    }
+
+    .results h3,
+    .results p span {
+        font-size: 16px;
+    }
+
+    .results h3 {
+        text-align: center;
+    }
+
+    .average h3 span {
+        font-size: 14px;
+    }
+
+    .average h3 {
+        font-size: 20px;
+    }
+
+    .results {
+        display: block;
+    }
+
+    .results p {
+        min-width: 90px;
+        display: block;
+        float: left;
+        margin: 20px 10px 0px;
+    }
+
+    .results h4 {
+        text-align: center;
+    }
+
+    /*dashboard end*/
+
+    /*notification start*/
+    .noti_head h3 {
+        font-size: 28px;
+    }
+
+    /*notification end*/
+
+    /*    adminsetting_kpi*/
+    .searchbox {
+        width: 154px;
+    }
+
+    /*    adminsetting_kpi end*/
+
+    /*    adminsetting_lang*/
+    .etrydtal_wrp {
+        overflow-x: scroll;
+    }
+
+    .EntriesDetails {
+        min-width: 890px;
+    }
+
+    .etrydtal_wrp::-webkit-scrollbar {
+        height: 2px;
+    }
+
+    .etrydtal_wrp::-webkit-scrollbar-thumb {
+        background-color: #456ffd;
+        display: none;
+    }
+
+    /*    adminsetting_lang end*/
+
+    /*    adminsetting_msg page*/
+    .EntriesDetails2 {
+        min-width: 1016px;
+    }
+
+    /*    adminsetting_msg page end*/
+
+    /*    chellange page */
+    .chlng_cnt img {
+        height: 100%;
+    }
+
+    /*    chellange page end*/
+
+    /*    add content page*/
+    .head_top h2 {
+        font-size: 30px;
+    }
+
+    .admin_iner2 {
+        padding-top: 40px;
+    }
+
+    .content_lft {
+        padding: 30px;
+    }
+
+    .uploadText h6 {
+        font-size: 12px;
+    }
+
+    .setting_rw_rht .uploadandbrowse,
+    #filedrag {
+        padding: 12px 10px;
+    }
+
+    .commBox_top {
+        padding: 12px 15px;
+    }
+
+    .col_wrp_lft h6 {
+        font-size: 14px;
+    }
+
+    .col_wrp_rht p {
+        font-size: 12px;
+    }
+
+    .commBox_top h3 {
+        font-size: 22px;
+    }
+
+    .prop_btm {
+        padding: 15px 15px 5px;
+    }
+
+    .groupBox_btm p {
+        margin-bottom: 15px;
+    }
+
+    .checkBox_wrp_lft h6 {
+        font-size: 14px;
+    }
+
+    .items .checkmark:after {
+        left: 7px;
+        top: 1px;
+    }
+
+    .checkmark {
+        height: 22px;
+        width: 22px;
+    }
+
+    .checkbox,
+    .radio {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .groupBox_btm {
+        padding: 15px 15px 15px;
+    }
+
+    .save_cnt_btn {
+        font-size: 16px;
+    }
+
+    .form_group .left_box label {
+        font-size: 15px;
+    }
+
+    /*    add content page end*/
+
+    /*    settin page*/
+    .setting_rw_rht .rightBx_inr button,
+    .setting_rw_rht input {
+        width: 100%;
+    }
+
+    .setting_rw_rht .rightBx_inr ul {
+        width: 100%;
+    }
+
+    .setting_rw_rht .colorBx {
+        width: 100%;
+    }
+
+    .setting_rw_lft label {
+        font-size: 14px;
+    }
+
+    .setting_rw_rht2 {
+        width: 100%;
+    }
+
+    .setting_rw_lft2 {
+        width: 100%;
+    }
+
+    .setting_rw_lft2 label {
+        margin-bottom: 8px;
+    }
+
+    /*    settin page end*/
+
+    /*    login page*/
+    .login_box h2 {
+        font-size: 54px;
+    }
+
+    .login_box {
+        padding: 60px 74px 40px;
+    }
+
+    /*    login page end*/
+
+    /*    10-6-19*/
+
+    .settingdply .setting_rw_lft label {
+        font-size: 18px;
+    }
+
+    .settingdply .setting_rw_lft2 {
+        width: 67%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    /*header start*/
+    .notifybox {
+        top: 120%;
+    }
+
+    .header .navbar {
+        padding: 20px 0px;
+    }
+
+    .header .menu li a {
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .profileBox {
+        padding: 13px 0px 10px 10px;
+    }
+
+    .profileBox a img {
+        width: 32px;
+    }
+
+    .profileBox h4 {
+        font-size: 14px;
+    }
+
+    .profileBox h4 img {
+        width: 10px;
+        margin-left: 0;
+    }
+
+    /*header end*/
+
+    /*footer start*/
+    .copyright p {
+        padding-right: 0px;
+        font-size: 14px;
+    }
+
+    .f_links a {
+        font-size: 14px;
+        margin: 0px 6px;
+    }
+
+    .f_logo a {
+        font-size: 20px;
+    }
+
+    /*footer end*/
+
+    /*dashboard start*/
+    .main {
+        margin-top: 60px;
+    }
+
+    .charts_heading {
+        padding: 15px 10px;
+    }
+
+    .charts_heading p span {
+        font-size: 14px;
+        margin: 0px 5px;
+    }
+
+    .charts_heading p a img {
+        margin-top: -3px;
+        width: 8px;
+    }
+
+    .top_box h2 {
+        font-size: 18px;
+    }
+
+    .view_btn {
+        padding: 6px 20px;
+    }
+
+    .results h3,
+    .results p span {
+        font-size: 14px;
+    }
+
+    .average h3 {
+        width: 100%;
+    }
+
+    .graph {
+        padding: 5px 10px 15px;
+    }
+
+    .results p {
+        margin: 10px 10px 0px;
+        float: right;
+        padding: 8px 12px;
+    }
+
+    .load_more {
+        padding: 10px 0px 30px;
+    }
+
+    .checkmark {
+        top: 3px;
+    }
+
+    .checkbox label {
+        font-size: 16px;
+        padding-left: 40px;
+    }
+
+    .submit_btn {
+        padding: 8px 35px;
+    }
+
+    /*dashboard end*/
+
+    /*notification start*/
+    .notifypagebox {
+        width: 100%;
+    }
+
+    .notifications .noti_content {
+        margin-bottom: 20px;
+    }
+
+    /*notification end*/
+
+    /*    adminsetting_api*/
+    .adminmenu {
+        top: 61px;
+        width: 210px;
+    }
+
+    .admin {
+        padding-left: 210px;
+    }
+
+    .carousel_item h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .imgdrop img {
+        width: 45px;
+    }
+
+    /*    adminsetting_api end*/
+
+    /*    adminsettin_kpi page*/
+    .entriesDtls_wrp {
+        overflow-x: scroll;
+    }
+
+    .EntriesDetails {
+        min-width: 722px;
+    }
+
+    .EntriesDetails2 {
+        min-width: 1016px;
+    }
+
+    .entriesDtls_wrp::-webkit-scrollbar {
+        height: 2px;
+    }
+
+    .entriesDtls_wrp::-webkit-scrollbar-thumb {
+        background-color: #456ffd;
+        display: none;
+    }
+
+    .entries_lft,
+    .entries_ryt {
+        width: 100%;
+    }
+
+    .fryt {
+        float: none;
+        padding-top: 15px;
+    }
+
+    /*    adminsettin_kpi end*/
+
+    /*    adminsetting_lang page*/
+    .FileExport2 {
+        width: 48%;
+    }
+
+    .FileExport2 a {
+        width: 100%;
+    }
+
+    .searchbox2 {
+        width: 50%;
+    }
+
+    /*    adminsetting_lang page end*/
+
+    /*    content page*/
+    .profileform label {
+        font-size: 16px;
+    }
+
+    /*    content page end*/
+
+    /*    add content page*/
+    .admin_iner2 {
+        padding-top: 25px;
+    }
+
+    .content_lft {
+        margin-top: 25px;
+    }
+
+    .admin_iner2 .col-sm-8 {
+        width: 100%;
+    }
+
+    .admin_iner2 .col-sm-4 {
+        width: 100%;
+    }
+
+    .col_wrp_lft h6 {
+        font-size: 16px;
+    }
+
+    .col_wrp_rht p {
+        font-size: 14px;
+    }
+
+    .checkBox_wrp_lft h6 {
+        font-size: 16px;
+    }
+
+    .checkbox,
+    .radio {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .checkmark {
+        height: 25px;
+        width: 25px;
+    }
+
+    .items .checkmark:after {
+        left: 8px;
+        top: 3px;
+    }
+
+    .content_rht {
+        margin-top: 15px;
+    }
+
+    .save_cnt_btn {
+        margin-top: 20px;
+    }
+
+    /*    add content page end*/
+
+    /*    setting page*/
+    .sitSetting_bx .col-sm-6 {
+        width: 100%;
+    }
+
+    .setting_rw_lft2 {
+        width: 45%;
+    }
+
+    .setting_rw_rht2 {
+        width: 55%;
+    }
+
+    /*    setting page end*/
+
+    /*    challenges page*/
+    .score_board {
+        padding: 15px 15px;
+        min-height: 140px;
+    }
+
+    .score_items p span {
+        font-size: 16px;
+    }
+
+    .score_items p {
+        padding: 5px 6px;
+    }
+
+    /*    challenges page end*/
+
+    /*    login page*/
+    .login_main {
+        height: 150vh;
+    }
+
+    .login_box h2 {
+        font-size: 44px;
+    }
+
+    .login_box form .formGrp {
+        margin-top: 20px;
+    }
+
+    .login_btn {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    /*    login page end*/
+
+    /*    welcome message modal*/
+    .wlmssg .modal-dialog {
+        width: 90%;
+    }
+
+    /*    welcome message modal end*/
+
+    /*    edit group modal*/
+    .usergrpmdl .modal-dialog {
+        width: 90%;
+    }
+
+    /*    edit group modal end*/
+
+    /*usergroup member modal start*/
+    .addgroup .modal-dialog {
+        width: 90%;
+    }
+
+    .addgroupbox h2 {
+        font-size: 28px;
+    }
+
+    .addgroup_content {
+        margin: 20px 0px;
+    }
+
+    .addgroupbox {
+        padding: 40px 20px 40px;
+    }
+
+    .members_list {
+        margin-top: 10px;
+    }
+
+    .select_mem {
+        padding: 20px 20px 60px;
+    }
+
+    .transferbtn {
+        width: 60px;
+        height: 60px;
+    }
+
+    /*usergroup member modal end*/
+
+    /*disclamier modal start*/
+    .disclaimer .modal-dialog {
+        width: 90%;
+    }
+
+    .disclaimerbox {
+        padding: 40px 30px 40px;
+    }
+
+    /*disclamier modal end*/
+
+    /*    10-6-19*/
+
+    .settingdply .setting_rw_lft2 {
+        width: 40%;
+    }
+
+    .settingdply .setting_rw_rht2 {
+        width: 60%;
+    }
+
+    .settingdply .setting_rw_lft label {
+        font-size: 16px;
+    }
+
+    /*----*/
+
+    .admintabs ul li {
+        width: 13%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /*header start*/
+    .dropmenu span.triangle::after {
+        border: 7px solid black;
+        border-color: transparent transparent #fff #fff;
+    }
+
+    .notifybox span.triangle::after {
+        right: 106px;
+        border: 7px solid black;
+        border-color: transparent transparent #fff #fff;
+    }
+
+    .notifybox {
+        right: -100px;
+    }
+
+    .header .hamburger {
+        display: block;
+    }
+
+    .header_lft {
+        width: 65%;
+    }
+
+    .header_rht {
+        width: 35%;
+    }
+
+    .profileBox {
+        width: 150px;
+        float: right;
+        margin-right: 30px;
+    }
+
+    .header .hamburger {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    .header .navbar {
+        padding: 17px 0px;
+    }
+
+    /*header end*/
+
+    /*footer start*/
+    .f_inner .col-xs-3 {
+        width: 20%;
+        float: left;
+    }
+
+    .f_inner .col-xs-6 {
+        width: 80%;
+        float: left;
+    }
+
+    .f_inner .col-xs-3.widthfull {
+        width: 100%;
+        float: left;
+    }
+
+    .copyright p {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .footer {
+        padding: 20px 15px;
+    }
+
+    /*footer end*/
+
+    /*dashborad start*/
+    .main {
+        margin-top: 55px;
+        padding: 20px 10px;
+    }
+
+    .top_box h2 {
+        font-size: 22px;
+    }
+
+    .contentBox p {
+        font-size: 16px;
+        line-height: 28px;
+        text-align: justify;
+    }
+
+    .commStyle h3 {
+        margin: 10px 0 6px;
+    }
+
+    .results h3,
+    .results p span {
+        font-size: 18px;
+    }
+
+    .average h3 {
+        width: 50%;
+        font-size: 24px;
+    }
+
+    .average h3 span {
+        font-size: 16px;
+    }
+
+    .graph {
+        padding: 5px 20px 15px;
+    }
+
+    .charts_heading {
+        padding: 15px 20px;
+    }
+
+    .results {
+        display: flex;
+    }
+
+    .results p {
+        margin: 0px 0px 0px;
+    }
+
+    .top_box h2 {
+        font-size: 20px;
+    }
+
+    /*dashboard end*/
+
+    /*notification start*/
+    .notifications {
+        padding-bottom: 45px;
+    }
+
+    .noti_head h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    /*notification end*/
+
+    /*    adminsetting_api*/
+    .adminmenu {
+        top: 56px;
+        left: -250px;
+    }
+
+    .admin {
+        padding-left: 0;
+    }
+
+    .appimg .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .dragitems p {
+        font-size: 14px;
+    }
+
+    /*    adminsetting_api end*/
+
+    /*    adminsetting_lang page*/
+    .admin_iner {
+        padding-bottom: 50px;
+    }
+
+    /*    adminsetting_lang page end*/
+
+    /*    profile page */
+    .profileform {
+        width: 100%;
+    }
+
+    .main_iner22 .col-sm-12 {
+        width: 100%;
+    }
+
+    .noti_onoff {
+        width: 100%;
+    }
+
+    .notifications {
+        padding-bottom: 25px;
+    }
+
+    /*    profile page  end*/
+
+    /*    setting page*/
+    .save_cnt_btn {
+        margin-top: 15px;
+    }
+
+    /*    setting page end*/
+
+    /*   challenges page*/
+    .chlng_cnt img {
+        width: 100%;
+    }
+
+    .challenges_content,
+    .score_board {
+        margin-bottom: 20px;
+    }
+
+    .challenges_main {
+        padding-bottom: 0px;
+    }
+
+    /*   challenges page end*/
+
+    /*    login page*/
+
+    .login_box form .form-control {
+        height: 42px;
+    }
+
+    .logoImg {
+        width: 110px;
+    }
+
+    /*    login page end*/
+
+    /*    edit user modal*/
+    .modal .modal-dialog2 {
+        margin: 0 auto;
+    }
+
+    /*    edit user modal end*/
+
+    /*    content page */
+    .modal-dialog1 {
+        width: 90%;
+        margin: 35px auto 0;
+        padding: 30px 15px;
+    }
+
+    .item_con h2 {
+        font-size: 28px;
+    }
+
+    /*    content page  end*/
+    /*usergroup member modal start*/
+    .addgroupbox h2 {
+        font-size: 24px;
+    }
+
+    .select_mem .checkbox label {
+        padding-left: 40px;
+    }
+
+    .select_mem {
+        padding: 20px 20px 20px;
+    }
+
+    .select_mem h3 span {
+        font-size: 18px;
+    }
+
+    .select_mem h3 {
+        margin-bottom: 10px;
+    }
+
+    /*usergroup member modal end*/
+
+    /*disclamier modal start*/
+    .disclaimer_head h1 {
+        font-size: 28px
+    }
+
+    .disclaimerbox {
+        padding: 20px 20px 20px;
+    }
+
+    /*disclamier modal end*/
+
+    /*    kpi page */
+    .btm_cntn {
+        display: block;
+    }
+
+    .avrg_bx {
+        width: 100%;
+        display: block;
+        float: left;
+    }
+
+    .avrg_bx p {
+        float: left;
+        padding-top: 15px;
+    }
+
+    /*    kpi page end*/
+
+    /*    10-6-19*/
+    .settingdply .setting_rw_lft2 {
+        width: 40%;
+    }
+
+    .settingdply .setting_rw_rht2 {
+        width: 60%;
+    }
+
+    /*-----*/
+
+    .videoSec iframe {
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    /*header start*/
+    .header_rht {
+        border-left: 0;
+    }
+
+    .notifybox {
+        width: 315px;
+    }
+
+    .header_lft {
+        width: 55%;
+    }
+
+    .header_rht {
+        width: 45%;
+    }
+
+    .notifybox span.triangle::after {
+        right: 156px;
+        border: 7px solid black;
+        border-color: transparent transparent #fff #fff;
+    }
+
+    .notifybox .noti_data p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /*header end*/
+
+    /*footer start*/
+    .f_inner .col-xs-3,
+    .f_inner .col-xs-6 {
+        width: 100%;
+        float: left;
+    }
+
+    .f_logo {
+        text-align: center;
+    }
+
+    .f_links {
+        margin-top: 10px;
+    }
+
+    /*footer end*/
+
+    /*modal start*/
+    .success_coins h2 {
+        font-size: 24px;
+    }
+
+    .success_coins {
+        padding: 20px 0px;
+    }
+
+    .success_coins p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .conti {
+        font-size: 16px;
+        padding: 8px 34px;
+    }
+
+    /*modal end*/
+
+    /*dashboard start*/
+    .question_btm {
+        padding: 30px 20px 25px;
+    }
+
+    /*dashboard end*/
+
+    /*notification start*/
+    .noti_data h3 {
+        font-size: 16px;
+    }
+
+    .noti_data h3 span {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .viewallbtn {
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+
+    /*notification end*/
+
+    /*    adminsetting_api*/
+    .appimg .col-sm-6 {
+        width: 100%;
+    }
+
+    .fryt a {
+        width: 50%;
+        text-align: center;
+    }
+
+    .FileExport {
+        width: 44%;
+    }
+
+    .FileExport a {
+        width: 100%;
+    }
+
+    .searchbox {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .SearchItm .form-control {
+        width: 100%;
+    }
+
+    .entries {
+        padding: 25px 0px;
+    }
+
+    /*    adminsetting_api end*/
+
+    /*    adminsetting_lang page*/
+    .searchbox2 {
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    .FileExport2 {
+        width: 47%;
+    }
+
+    /*    adminsetting_lang page end*/
+
+    /*    content page*/
+    .fryt2 a {
+        width: 49%;
+    }
+
+    .searchbox3 {
+        width: 48%;
+        margin-top: 0;
+    }
+
+    /*    content page end*/
+
+    /*    profile page*/
+    .cancelsavebtns {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .cancelsavebtns a.savebtn {
+        padding: 8px 0;
+    }
+
+    .cancelsavebtns a {
+        font-size: 16px;
+    }
+
+    .switch {
+        width: 60px;
+        height: 25px;
+    }
+
+    .slider:before {
+        width: 22px;
+        height: 22px;
+        left: 2px;
+        bottom: 1px;
+    }
+
+    .profileform .form-control {
+        width: 100%;
+    }
+
+    /*    profile page end*/
+
+    /*    add content page*/
+    #fileselect {
+        width: 100%;
+    }
+
+    .content_lft {
+        padding: 30px 20px 30px;
+    }
+
+    .form_group .left_box label {
+        font-size: 14px;
+    }
+
+    [type="radio"]:checked + label,
+    [type="radio"]:not(:checked) + label {
+        padding-left: 22px;
+        font-size: 12px;
+    }
+
+    .head_top h2 {
+        font-size: 28px;
+    }
+
+    .admin_iner2 {
+        padding: 0;
+        padding-top: 15px;
+    }
+
+    .col_wrp_lft h6 {
+        font-size: 14px;
+    }
+
+    .checkBox_wrp_lft h6 {
+        font-size: 14px;
+    }
+
+    /*    add content page end*/
+
+    /*    setting page*/
+    /*
+    .admintabs ul li {
+        width: 12%;
+    }
+*/
+
+    .admin_iner {
+        padding-top: 0;
+    }
+
+    /*    setting page end*/
+
+    /*    challenges page*/
+    .challenges_content,
+    .score_board {
+        min-height: initial;
+    }
+
+
+    /*    challenges page end*/
+
+    /*    login page*/
+    .login_box {
+        width: 100%;
+    }
+
+    .login_btn {
+        padding: 12px 102px;
+    }
+
+    /*    login page end*/
+
+    /*    delete modal*/
+    .confirmorder.modal:before {
+        height: 40%;
+    }
+
+    /*    delete modalend*/
+
+
+    /*    edit lang modal*/
+    .editlang .modal-dialog {
+        width: 90%;
+    }
+
+    .addgroup .orderbtns {
+        width: 100%;
+    }
+
+    .group_data label {
+        font-size: 16px;
+    }
+
+    .addgroupbox h2 {
+        font-size: 28px;
+    }
+
+    .group_data input {
+        font-size: 14px;
+    }
+
+    .addgroup .orderbtns a {
+        font-size: 16px;
+    }
+
+    /*    edit lang modalend*/
+
+    /*    welcome message modal*/
+    .wlmssg .modal-dialog .addgroupbox h2 {
+        font-size: 24px;
+
+    }
+
+    /*    welcome message modal end*/
+
+    /*    edit group modal*/
+    .addgroupbox {
+        padding: 40px 20px 40px;
+    }
+
+    /*    edit group modal end*/
+
+    /*    edit user modal */
+    .modal .modal-dialog2 {
+        width: 90%;
+    }
+
+    .mod1_sec .txt_lb {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .filledtxt {
+        width: 100%;
+    }
+
+    .leftfl {
+        float: none;
+    }
+
+    .save_btn {
+        padding: 0px 15px;
+    }
+
+    .mod1_sec a.savBtn_s {
+        padding: 8px 37px;
+        font-size: 16px;
+    }
+
+    .save_btn .cencel_btn {
+        font-size: 16px;
+    }
+
+    /*    edit user modal  end*/
+
+    /*usergroup member modal start*/
+    .group_data label {
+        font-size: 16px;
+        width: 40%;
+    }
+
+    .group_data p {
+        width: 60%;
+    }
+
+    .select_mem {
+        padding: 15px 15px 15px;
+    }
+
+    .select_mem h3 span {
+        font-size: 14px;
+        padding-left: 7px;
+    }
+
+    .select_mem .checkbox label {
+        padding-left: 30px;
+        font-size: 14px;
+    }
+
+    .transferbtn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .transferbtn img {
+        width: 20px;
+    }
+
+    .addgroup .orderbtns {
+        width: 300px;
+    }
+
+    .addgroup .orderbtns a.cnfrm {
+        padding: 8px 0px;
+        font-size: 16px;
+    }
+
+    /*usergroup member modal end*/
+
+    /*disclamier modal start*/
+    .disclaimer_head h1 {
+        font-size: 20px
+    }
+
+    .disclaimer_para h2 {
+        font-size: 18px;
+    }
+
+    .disclaimer_para a {
+        font-size: 14px;
+        padding: 6px 30px;
+    }
+
+    /*disclamier modal end*/
+
+    /*    graph page*/
+    .graphInr_btm .starErnd {
+        width: 100%;
+    }
+
+    .graphInr_tp h2 {
+        float: none;
+    }
+
+    .graphInr_tp {
+        display: block;
+    }
+
+    .starErnd {
+        width: 100%;
+    }
+
+    .starErnd span {
+        font-size: 14px;
+        margin-right: 22px;
+    }
+
+    .starErnd .widthstr {
+        width: 80px;
+    }
+
+    .starErnd .widthstr p {
+        font-size: 14px;
+    }
+
+    .graphCntn {
+        padding-top: 50px;
+    }
+
+    .starErnd .widthstr img {
+        width: 15px;
+    }
+
+    /*    graph page end*/
+
+    /*    kpi page*/
+    .avrg_bx p {
+        font-size: 14px;
+    }
+
+    .avrg_bx span.blue {
+        font-size: 20px;
+    }
+
+    /*    kpi page end*/
+
+    /*    10-6-19*/
+
+    .videoSec button img {
+        width: 40px;
+    }
+
+    /*    10-6-19*/
+
+    .lngBxs {
+        width: 100%;
+    }
+
+    .settingdply {
+        display: block;
+        width: 100%;
+    }
+
+    .settingdply .setting_rw_lft,
+    .settingdply .setting_rw_rht {
+        float: none;
+        width: 100%;
+    }
+
+    /*-------------*/
+    .videoSec iframe {
+        width: 100%;
+        height: 40vh;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    .dropmenu a {
+        font-size: 14px;
+    }
+
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        height: 2px;
+        width: 20px;
+    }
+
+    .hamburger-inner::before {
+        top: -6px;
+    }
+
+    .hamburger-inner::after {
+        bottom: -6px;
+    }
+
+    /*header start*/
+    .notifybox {
+        width: 275px;
+        right: -150px;
+    }
+
+    .header_lft {
+        width: 45%;
+    }
+
+    .header_rht {
+        width: 55%;
+    }
+
+    .header_lft .notfication {
+        margin-top: 15px;
+    }
+
+    .profileBox {
+        margin-right: 20px;
+    }
+
+    /*header end*/
+
+    /*footer start*/
+    .footer {
+        padding: 20px 0px;
+    }
+
+    /*footer end*/
+
+    /*modal start*/
+    .success .modal-dialog {
+        width: 270px;
+    }
+
+    .success_smiley img,
+    .failed_smiley img {
+        width: 90px;
+    }
+
+    /*modal end*/
+
+    /*dashboard start*/
+    .commStyle {
+        padding: 20px 15px 15px;
+    }
+
+    .question_btm {
+        padding: 20px 15px 15px;
+    }
+
+    .contentBox p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .results {
+        display: block;
+    }
+
+    .results p {
+        margin: 10px 10px 0px;
+    }
+
+    .average h3 {
+        width: 100%;
+    }
+
+    .average h3.blue {
+        margin-bottom: 10px;
+    }
+
+    .submit_btn {
+        padding: 8px 30px;
+    }
+
+    .results p img {
+        width: 20px;
+    }
+
+    .results h3,
+    .results p span {
+        font-size: 16px;
+    }
+
+    /*dahboard end*/
+
+    /*notification start*/
+    .noti_head h3 {
+        font-size: 20px;
+    }
+
+    .noti_data {
+        padding: 15px;
+    }
+
+    .notifications {
+        padding-bottom: 0;
+    }
+
+    .load_more .load_btn {
+        font-size: 14px;
+    }
+
+    /*notification end*/
+
+    /* adminsetting_api*/
+    .admintabs ul li a {
+        font-size: 14px;
+    }
+
+    .carousel_item h2 {
+        font-size: 18px;
+    }
+
+    .admin_iner {
+        /*        padding-top: 0;*/
+        padding: 0 0 50px;
+    }
+
+    .appimg {
+        margin-top: 0;
+    }
+
+    .fryt a {
+        width: 49%;
+    }
+
+    .FileExport a {
+        width: 100%;
+    }
+
+    /* adminsetting_api end*/
+
+    /*    content page*/
+    .fryt2 a {
+        width: 48%;
+    }
+
+    .reports {
+        margin-top: 20px;
+    }
+
+    /*    content page end*/
+
+    /*    profile page*/
+    .profileform {
+        padding: 15px;
+    }
+
+    .main_iner22 .col-sm-12 {
+        padding: 0;
+    }
+
+    .profileform .form-control {
+        height: 38px;
+    }
+
+    .cancelsavebtns a {
+        width: 120px;
+    }
+
+    /*    profile page end*/
+
+    /*    add content page*/
+    .form_group {
+        display: block;
+    }
+
+    .form_group .left_box {
+        width: 100%;
+    }
+
+    .form_group .right_box {
+        width: 100%;
+    }
+
+    .admin_iner2 {
+        padding-top: 15px;
+    }
+
+    .form_group .left_box label {
+        margin-bottom: 8px;
+    }
+
+    .checkmark {
+        height: 22px;
+        width: 22px;
+    }
+
+    .items .checkmark:after {
+        left: 6px;
+        top: 2px;
+        height: 12px;
+    }
+
+    .checkbox,
+    .radio {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    /*    add content page end*/
+
+    /*    setting page*/
+    .setting_rw {
+        display: block;
+    }
+
+    .setting_rw_lft {
+        width: 100%;
+    }
+
+    .setting_rw_rht {
+        width: 100%;
+    }
+
+    .setting_rw_lft label {
+        margin-bottom: 8px;
+    }
+
+    .rightBx_inr button {
+        height: 38px;
+    }
+
+    .right_box .form-control {
+        height: 38px;
+    }
+
+    .setting_rw_rht .colorBx {
+        height: 38px;
+    }
+
+    .setting_rw_rht .colorBx .pickClr {
+        height: 100%;
+    }
+
+    .save_cnt_btn {
+        margin-top: 5px;
+    }
+
+    /*    setting page end*/
+
+    /*    challenges page*/
+    .challenges_content,
+    .score_board {
+        margin-bottom: 15px;
+    }
+
+    .c_main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .score_board h1 {
+        font-size: 22px;
+    }
+
+    .chlng_cnt p {
+        font-size: 16px;
+    }
+
+    /*    challenges page end*/
+
+    /*    login page*/
+    .login_box h2 {
+        font-size: 38px;
+    }
+
+    .login_btn {
+        padding: 10px 60px;
+        display: block;
+        margin: 30px auto 20px;
+        font-size: 16px;
+    }
+
+    .login_box {
+        padding: 35px 15px 38px;
+    }
+
+    .login_box form .form-control {
+        height: 38px;
+    }
+
+    .dsclmr {
+        font-size: 14px;
+    }
+
+    .login_main {
+        height: 120vh;
+    }
+
+    /*    login page end*/
+
+    /*    delete modal*/
+    .confirmorderbox h2 {
+        font-size: 16px;
+    }
+
+    .confirmorder .modal-dialog {
+        width: 90%;
+    }
+
+    .confirmorder.modal:before {
+        height: 100%;
+    }
+
+    .confirmorderbox h2 {
+        margin-bottom: 25px;
+    }
+
+    .confirmorderbox .orderbtns a {
+        font-size: 14px;
+    }
+
+    /*    delete modalend*/
+
+    /*    welcome message modal*/
+    .group_data textarea {
+        font-size: 14px;
+    }
+
+    /*    welcome message modal end*/
+
+    /*    edit group modal*/
+    .group_data label,
+    .group_data textarea,
+    .group_data input {
+        width: 100%;
+    }
+
+    .group_data label {
+        margin-bottom: 5px;
+    }
+
+    .group_data {
+        display: block;
+    }
+
+    .addgroup .orderbtns a.cnfrm {
+        padding: 8px 0;
+    }
+
+    /*    edit group modal end*/
+
+    /*    adminsetting user page*/
+    .filledtxt {
+        font-size: 14px;
+    }
+
+    .mod1_sec img {
+        margin-top: -12px;
+    }
+
+    .modal .modal-dialog2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 30px 15px;
+    }
+
+    .editform [type="radio"]:checked + label,
+    .editform [type="radio"]:not(:checked) + label {
+        font-size: 14px;
+    }
+
+    /*    adminsetting user page end*/
+
+    /*    content page*/
+    .item_con h2 {
+        font-size: 24px;
+    }
+
+    .item_con h4,
+    .item_con p {
+        font-size: 14px;
+    }
+
+    /* content page end*/
+
+    /* profile page */
+    .profileform .form-control {
+        font-size: 14px;
+    }
+
+    /* profile page end*/
+
+    /*usergroup member modal start*/
+    .addgroupbox {
+        padding: 20px 20px 20px;
+    }
+
+    .addgroupbox h2 {
+        font-size: 20px;
+    }
+
+    .group_data p {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .members_list .col-xs-6 {
+        width: 100%;
+    }
+
+    .select_mem {
+        padding: 15px 15px 15px;
+        margin-top: 20px;
+    }
+
+    .transferbtn {
+        transform: rotate(90deg);
+        top: 47%;
+        left: 40%;
+    }
+
+    .addgroup .orderbtns {
+        width: 240px;
+    }
+
+    /*usergroup member modal end*/
+
+    /*disclamier modal start*/
+
+    .disclaimer_para h2 {
+        font-size: 16px;
+    }
+
+    .disclaimer_head h1 {
+        font-size: 18px;
+    }
+
+    /*disclamier modal end*/
+
+    /*help modal start*/
+    .help .modal-dialog {
+        width: 90%;
+    }
+
+    .help_head h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    /*help modal end*/
+
+    /*    graph page*/
+    .graph {
+        padding: 5px 0px 15px;
+    }
+
+    .starErnd span {
+        width: 100%;
+        display: block;
+        margin: 10px 5px 10px 0;
+    }
+
+    .starErnd .widthstr {
+        float: left;
+    }
+
+    .starErnd {
+        display: block;
+    }
+
+    .starErnd .star_r {
+        margin-left: 0;
+    }
+
+    .graphInr_btm {
+        padding: 15px 15px;
+    }
+
+    /*    graph page end*/
+
+    /*    kpi page*/
+    .avrg_bx p.firspara {
+        margin-right: 35px;
+    }
+
+    /*    kpi page end*/
+
+    /*    10-6-19*/
+
+    .vdimg {
+        top: 36%;
+    }
+
+    .videoSec button img {
+        width: 30px;
+    }
+
+    /*------------*/
+    .videoSec iframe {
+        width: 100%;
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 320px) {}

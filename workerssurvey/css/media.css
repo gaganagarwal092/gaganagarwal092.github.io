@@ -1,0 +1,269 @@
+@media screen and (max-width: 1199px){
+	.container_funnel {
+	    width: 770px;
+	}
+	.funnel_heading h1{
+	    font-size: 32px;
+	    line-height: 42px;
+	}
+	.funnelbtns ul{
+		padding: 30px 160px 30px;
+	}
+	.funnelbtnstyle h4{
+		font-size: 18px;
+	}
+	.formbox {
+	    padding: 30px 160px 0px;
+	}
+	.formbox .form-control{
+		font-size: 18px;
+	}
+	.funnelbox {
+	    padding: 0px 50px 50px;
+	}
+	.points{
+	    padding: 0px 90px;
+	}
+
+}
+@media screen and (max-width: 991px){
+	.container_funnel {
+	    width: 750px;
+	}
+	.funnelbox {
+		padding: 30px 0px;
+	}
+	.funnelbtns ul {
+    	padding: 30px 190px 30px;
+	}
+	.formbox {
+    	padding: 30px 190px 0px;
+	}
+	.funnelmain{
+	    padding-bottom: 60px;
+	    padding-top: 0;
+	}
+	.header .call{
+	    font-size: 18px;
+	}
+	.formbox .form-control{
+		font-size: 18px;
+	}
+	.points {
+    	padding: 0px 130px;
+	}
+	.license {
+    	padding: 0px 110px;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.header .navbar-brand>img {
+    	width: 250px;
+	}
+
+	.container_funnel {
+	    width: 450px;
+	}
+	.funnel_heading h1 {
+	    font-size: 28px;
+	    line-height: 38px;
+	}
+	.funnelbox {
+    	padding: 30px 0px;
+	}
+	.funnelbtns ul {
+	    padding: 20px 60px 20px;
+	}
+	.funnelbtnstyle{
+		padding: 12px 0px;
+	}
+	.funnelbox{
+	    min-height: 560px;
+	}
+	.funnel_heading p{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.header .call {
+	    font-size: 18px;
+	}
+	/*.header .navbar-brand>img {
+    	width: 180px;
+	}*/
+	.header .navbar{
+		min-height: 28px;
+	}
+	.funnelmain {
+        margin-top: 120px;
+        padding-bottom: 20px;
+	}
+	.header{
+		background-color: transparent;
+		padding: 0;
+	}
+	.header .call{
+		float: initial;
+		background-color: #2e3d62;
+		padding: 10px 0px;
+	}
+	.header .navbar-brand {
+    	float: initial;
+	    background-color: #1c2848;
+        padding-left: 0px;
+        padding: 10px 0px;
+	}
+	.header .navbar-header a{
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	    text-align: center;
+	}
+	.padzero{
+		padding: 0;
+	}
+	.formbox{
+	    padding: 20px 60px 0px;
+	}
+	.formbox .form-control{
+		height: 49px;
+	}
+	.points {
+    	margin-top: 20px;
+    	padding: 0px 50px;
+	}
+	.license {
+    	padding: 0px 30px;
+	}
+	.license p{
+		font-size: 20px;
+	}
+
+}
+@media screen and (max-width: 560px){
+	.funnel_heading h1 {
+		font-size: 24px;
+	    line-height: 34px;
+	}
+	.container_funnel {
+	    width: 100%;
+	}
+	.funnelbox {
+	    padding: 20px 20px;
+	}
+	.funnelmain {
+	    padding-bottom: 40px;
+	}
+	.header .call {
+		font-size: 16px;
+	    padding: 7px 0px;
+	}
+	.header .navbar-brand>img {
+    	width: 230px;
+	}
+	.funnelmain{
+		margin-top: 110px;
+	}
+	.footer{
+		padding: 14px 0px;
+	}
+	.imgcenter button{
+		font-size: 18px;
+	}
+	.points{
+		padding: 0px 30px;
+	}
+	.license {
+    	padding: 0px 20px;
+	}
+	.points p{
+		font-size: 18px;
+	}
+	.license p{
+		font-size: 18px;
+	}
+	.funnelbtns ul {
+		padding: 20px 40px 20px;
+	}
+	.formbox {
+    	padding: 20px 40px 0px;
+	}
+	.personalinfo p{
+	    padding: 0px 30px;
+	}
+	.f_inner p.copyright{
+	    margin-top: 20px;
+	}
+
+}
+@media screen and (max-width: 414px){
+	.header .navbar {
+    	min-height: 101px;
+	}
+	.funnelmain {
+	    margin-top: 110px;
+	}
+	.funnelbtns ul {
+	    padding: 20px 0 30px;
+	}
+	.funnel_heading h1 {
+	    font-size: 22px;
+    	line-height: 30px;
+	}
+	.funnel_heading h1 br{
+		display: block;
+	}
+	.funnelbtnstyle {
+	    padding: 10px 10px;
+	}
+	.funnelbtnstyle h4 {
+	    font-size: 16px;
+	}
+	.funnel_heading p {
+	    font-size: 16px;
+	    line-height: 18px;
+	}
+	.funnelbox {
+	    min-height: auto;
+        padding: 20px 0px;
+	}
+	.f_inner p {
+    	font-size: 16px;
+	}
+	.f_inner a{
+		font-size: 16px;	
+	}
+	.f_inner p.copyright{
+		font-size: 16px;
+	}
+	.formbox {
+		padding: 20px 0px 0px;
+	}
+	.formbox .form-control {
+    	font-size: 16px;
+    	padding: 6px 12px;
+    	height: 42px;
+	}
+	.points{
+		padding: 0;
+	    margin-top: 20px;
+	}
+	.points p{
+		font-size: 16px;
+	}
+	.license {
+    	padding: 0px 0px;
+    	margin-top: 10px;
+	}
+	.license p {
+    	font-size: 16px;
+	}
+	.header .navbar-header a {
+	    letter-spacing: 1.3px;
+	    font-size: 16px;
+	}
+
+}
+@media screen and (max-width: 320px){
+
+}

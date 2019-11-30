@@ -1,0 +1,2658 @@
+@media(max-width:1199px) {
+
+    .header {
+        padding: 0px 80px;
+    }
+
+    /* product page start*/
+    .banner_content h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .banner_content p {
+        font-size: 20px;
+        line-height: 37px;
+    }
+
+    /* .proimages img {
+        height: 740px;
+    } */
+    .pronumber {
+        top: 36%;
+    }
+
+    .procontent {
+        padding: 40px 40px;
+    }
+
+    .procon_inner p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .related_con {
+        padding: 40px 40px;
+        top: 26%;
+    }
+
+    .related_con p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .repro {
+        padding: 110px 0px;
+    }
+
+    .related_con a {
+        font-size: 16px;
+    }
+
+    .related_head {
+        right: -200px;
+    }
+
+    .related_head a {
+        font-size: 75px;
+        line-height: 124px;
+    }
+
+    .contacthead h1 {
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+
+    .Contact {
+        padding: 110px 0px;
+    }
+
+    .scratch h4 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .scratch p,
+    .scratch a {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .contacthead {
+        min-height: 261px;
+    }
+
+    .conatctheading a {
+        font-size: 75px;
+    }
+
+    .contact_form {
+        padding: 72px 110px;
+    }
+
+    .form_inner {
+        padding: 30px 90px 30px 0px;
+    }
+
+    .contactform h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .form_inner .form-control {
+        height: 50px;
+    }
+
+    .form_inner textarea.form-control {
+        height: 130px;
+    }
+
+    .form_button a {
+        width: 300px;
+    }
+
+    .dropdowm {
+        min-height: 70px;
+    }
+
+    .color,
+    .typography,
+    .designs,
+    .packing,
+    .logocase,
+    .talk {
+        padding: 60px 0px;
+    }
+
+    .case_rht h2 {
+        font-size: 35px;
+        line-height: 35px;
+        padding-bottom: 35px;
+    }
+
+    .case_rht h3 {
+        padding: 40px 0px;
+    }
+
+    .caselisting ul {
+        padding: 40px 0px;
+    }
+
+    .caselisting li {
+        padding: 10px 0px;
+    }
+
+    .caselisting li a {
+        padding: 10px 35px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .case_lft,
+    .case_rht {
+        height: 810px;
+    }
+
+    /*
+    .color, .packing {
+        height: 810px;
+    }
+*/
+    .talk .form-control {
+        height: 50px;
+    }
+
+    .talk .form-group {
+        margin-bottom: 60px;
+    }
+
+    .talk textarea.form-control {
+        height: 130px;
+    }
+
+    /* product page ends */
+    /* index page start */
+    .banner {
+        padding: 130px 0px 310px;
+    }
+
+    .product_inner {
+        padding: 70px 30px;
+        left: 40px;
+    }
+
+    .product_inner h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .product_inner p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .product_inner a {
+        font-size: 16px;
+    }
+
+    .zerotwo p {
+        font-size: 25px;
+    }
+
+    .skew2 {
+        height: 35px;
+        margin-top: -40px;
+    }
+
+    .method_rht {
+        width: 490px;
+        padding: 71px 85px 71px 0px;
+    }
+
+    .method_img {
+        width: 490px;
+    }
+
+    .service a,
+    .methodology a,
+    .test_heading a {
+        font-size: 75px;
+    }
+
+    .brand_con {
+        padding: 30px;
+    }
+
+    .method_rht li {
+        margin-top: 40px;
+    }
+
+    .method_content {
+        padding-left: 60px;
+    }
+
+    .method_content h4 {
+        font-size: 25px;
+        line-height: 25px;
+        padding-top: 10px;
+    }
+
+    .method_content p {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 17px;
+    }
+
+    .methodimg_outer {
+        height: 930px;
+    }
+
+    .number p {
+        font-size: 35px;
+    }
+
+    .number {
+        top: -47px;
+        padding-right: 60px;
+    }
+
+    .number2 {
+        top: 160px;
+    }
+
+    .number3 {
+        top: unset;
+        bottom: 63px;
+    }
+
+    .number4 {
+        top: unset;
+        bottom: -144px;
+    }
+
+    .getquote {
+        margin-top: -105px;
+    }
+
+    .testimo_content h5 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .testimo_content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .slick-test .slick-prev {
+        right: 349px;
+    }
+
+    .quotes img {
+        height: 150px;
+    }
+
+    .rectangle {
+        width: 470px;
+        height: 600px;
+    }
+
+    .test_heading {
+        right: -160px;
+    }
+
+    .bannerleft img {
+        height: 460px;
+    }
+
+    .banner_content {
+        padding-left: 80px;
+    }
+
+    .method_lft img {
+        height: 500px;
+    }
+
+    /* index page ends */
+
+    /* work page start */
+    .banner2 {
+        padding-bottom: 140px;
+    }
+
+    .brandlft {
+        margin-top: 60px;
+        padding-right: 15px;
+    }
+
+    .brandrht {
+        margin-top: 60px;
+        padding-left: 15px;
+    }
+
+    .work_con {
+        padding: 45px;
+    }
+
+    /* work page ends */
+
+    /* about page start */
+    .about_banner h1 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+/*
+    .skew {
+        width: 160px;
+        height: 50px;
+    }
+*/
+
+    .about_banner p {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .about_banner {
+        margin: 30px 0px 350px;
+    }
+
+    .squardslider .slick-dots {
+        bottom: -50px;
+        left: 170px;
+    }
+
+    .whoweare {
+        padding: 120px 0px 70px;
+    }
+
+    .who_rht h1 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .who_rht {
+        padding: 0px 70px 0px 0px;
+    }
+
+    .who_rht p {
+        font-size: 20px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+
+    .suard_inner {
+        padding: 100px 0px;
+    }
+
+    .teamimg {
+        height: 450px;
+    }
+
+    .squardslider {
+        margin-left: -100px;
+    }
+
+    .s_head h1 {
+        font-size: 75px;
+        line-height: 100px;
+        top: 270px;
+        left: -90px;
+    }
+
+    .squardslider .slick-dots li {
+        width: 70px;
+    }
+
+    .method_content2 {
+        padding-left: 0px !important;
+        padding-right: 40px;
+    }
+
+    .method_about {
+        padding: 70px 0px 70px 110px;
+    }
+
+    .methodology2 {
+        right: unset !important;
+        left: -190px;
+    }
+
+    .about_method {
+        padding-right: 0px !important;
+        padding-left: 40px;
+    }
+
+    .space {
+        padding-top: 100px;
+        padding-right: 60px;
+        position: relative;
+    }
+
+    .space_head {
+        right: -118px;
+    }
+
+    .space_head a,
+    .commit_heading a {
+        font-size: 75px;
+        line-height: 125px;
+    }
+
+    /* about page ends */
+    .brand_img img {
+        height: 50px;
+    }
+
+    .brandheading h5 {
+        font-size: 20px;
+    }
+
+    .brandpara pp {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:991px) {
+    .header {
+        padding: 0px 60px;
+    }
+
+    .frht a {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 16px 0px;
+    }
+
+    .frht .con {
+        height: 51px;
+    }
+
+    .logo a {
+        padding: 12px 20px;
+    }
+
+    .banner {
+        margin-top: 51px;
+    }
+
+    /* product page start */
+    .banner3 {
+        padding: 140px 0px 300px;
+    }
+
+    .postion_img {
+        top: 60px;
+    }
+
+    .postion_img img {
+        height: 630px;
+    }
+
+    .side_nav a,
+    .side_nav2 a {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .bcon {
+        padding-left: 70px;
+    }
+
+    .report a {
+        margin-left: 70px;
+        margin-bottom: 30px
+    }
+
+    .procontent {
+        padding: 20px 30px;
+        width: 50%;
+        top: 10%;
+        left: 25px;
+    }
+
+    .procon_inner p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 10px;
+    }
+
+    .pronumber p {
+        font-size: 25px;
+    }
+
+    .seperation {
+        margin: 15px 0px;
+    }
+
+    .repro {
+        padding: 80px 0px;
+    }
+
+    .related_con {
+        padding: 20px 30px;
+        width: 50%;
+        top: 24%;
+        left: 36%;
+    }
+
+    .related_con p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .related_head a {
+        font-size: 65px;
+        line-height: 100px;
+    }
+
+    .related_head {
+        right: -175px;
+    }
+
+    .Contact {
+        padding: 80px 0px;
+    }
+
+    .contacthead h1 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .line {
+        width: 150px;
+    }
+
+    .scratch h4 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .scratch p,
+    .scratch a {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .contacthead {
+        min-height: 240px;
+    }
+
+    .conatctheading a {
+        font-size: 65px;
+    }
+
+    .conatctheading {
+        right: -70px;
+    }
+
+    .contactform h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .form_inner .form-control {
+        height: 40px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .form_inner textarea.form-control {
+        height: 110px;
+        padding: 25px 0px;
+    }
+
+    .form_inner .form-group {
+        margin-bottom: 30px;
+    }
+
+    .form_button a {
+        width: 250px;
+        padding: 15px 0px;
+    }
+
+    .dropdowm {
+        min-height: 60px;
+    }
+
+    .contact_form {
+        padding: 71px 80px;
+    }
+
+    .form_inner {
+        padding: 25px 60px 25px 0px;
+    }
+
+    .case_lft,
+    .case_rht {
+        height: 710px;
+    }
+
+    /*
+      .color, .packing {
+          height: 710px;
+      }
+*/
+    .color,
+    .typography,
+    .designs,
+    .packing,
+    .logocase,
+    .talk {
+        padding: 40px 0px;
+    }
+
+    /* product page ends*/
+    /* index page start */
+    .banner_content {
+        padding-left: 60px;
+    }
+
+    .banner {
+        padding: 90px 0px 246px;
+    }
+
+    .bannerleft {
+        top: 80px;
+    }
+
+    .bannerleft img {
+        height: 380px;
+    }
+
+    .method_rht {
+        width: 384px;
+        padding: 60px 70px 60px 0px;
+    }
+
+    .product_inner {
+        padding: 40px 20px;
+        width: 300px;
+        top: 60px;
+    }
+
+    .product_inner h4 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .product_inner p {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 15px 0px;
+    }
+
+    .product_inner a {
+        font-size: 14px;
+    }
+
+    .product_inner a svg {
+        width: 20px;
+    }
+
+    .zerotwo p {
+        font-size: 20px;
+    }
+
+    .zerotwo {
+        right: 44px;
+    }
+
+    .between {
+        margin: 10px 0px;
+    }
+
+    .viewall a,
+    .getquote a {
+        font-size: 16px;
+        width: 230px;
+        padding: 15px 0px;
+    }
+
+    .service a,
+    .methodology a,
+    .test_heading a {
+        font-size: 65px;
+    }
+
+    .service {
+        right: -78px;
+        top: 43%;
+    }
+
+    .brand a {
+        font-size: 16px;
+        padding: 13px 0px;
+        line-height: 26px;
+    }
+
+    .brand_out {
+        padding: 0px 45px 0px 0px;
+    }
+
+    .brand_con {
+        padding: 15px;
+    }
+
+    .brandpara p {
+        min-height: 129px;
+    }
+
+    .test_heading {
+        right: -140px;
+    }
+
+    .testimo_content h5 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .testimo_content p {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 10px 0px;
+        min-height: 250px;
+    }
+
+    .testimonial {
+        padding-right: 50px;
+    }
+
+    .testimo_content h6 {
+        font-size: 15px;
+    }
+
+    .testimo_content h6 span {
+        font-size: 13px;
+    }
+
+    .testimo_content {
+        padding-left: 40px;
+    }
+
+    .rectangle {
+        width: 400px;
+        height: 500px;
+        top: -100px;
+    }
+
+    .test {
+        padding: 65px 0px;
+    }
+
+    .slick-test .slick-prev {
+        right: 280px;
+        bottom: 0px;
+    }
+
+    .slick-test .slick-next {
+        bottom: 0px;
+    }
+
+    .quotes img {
+        height: 100px;
+    }
+
+    .method_lft img {
+        height: 430px;
+    }
+
+    .methodology {
+        right: -150px;
+    }
+
+    .getquote {
+        margin-top: -90px;
+    }
+
+    .method_content {
+        padding-left: 30px;
+    }
+
+    .method_content h4 {
+        font-size: 21px;
+        line-height: 21px;
+    }
+
+    .method_content p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .method_rht li {
+        margin-top: 30px;
+    }
+
+    .number p {
+        font-size: 25px;
+    }
+
+    .number {
+        top: -32px;
+        padding-right: 40px;
+    }
+
+    .number2 {
+        top: 155px;
+    }
+
+    .number3 {
+        top: unset;
+        bottom: 33px;
+    }
+
+    .number4 {
+        top: unset;
+        bottom: -154px;
+    }
+
+    .method_img {
+        width: 380px;
+    }
+
+    .methodimg_outer {
+        height: 860px;
+    }
+
+    /* index page ends */
+
+    /* work page start */
+    .banner2 {
+        padding-bottom: 130px;
+    }
+
+    .work_con {
+        padding: 30px;
+        min-height: 315px;
+    }
+
+    .contentwork {
+        width: 290px;
+    }
+
+    .work_con h4 {
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .work_con p {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 15px 0px;
+    }
+
+    .brand_out2 {
+        padding-right: 0px;
+    }
+
+    /* work page ends */
+
+    /* about page start */
+    .banner_about {
+        margin-top: 51px;
+    }
+
+    .banner_about {
+        padding: 70px 0px 150px;
+    }
+
+    .about_banner h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+/*
+    .skew {
+        width: 130px;
+        height: 40px;
+    }
+*/
+
+    .who_rht h1 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    .who_lft {
+        padding-right: 20px;
+    }
+
+    .who_rht {
+        padding: 0px 15px 0px 0px;
+    }
+
+    .who_rht p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .s_head h1 {
+        font-size: 65px;
+        line-height: 90px;
+        top: 270px;
+        left: 0px;
+    }
+
+    .suard_inner {
+        padding: 70px 0px;
+    }
+
+    .teamimg {
+        height: 350px;
+    }
+
+    .p_social_links a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .p_social_links {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    .squardslider {
+        margin-left: -70px;
+    }
+
+    .person_name h3 {
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .person_name p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .squardslider .slick-dots li {
+        width: 40px;
+    }
+
+    .squardslider .slick-dots {
+        bottom: -40px;
+    }
+
+    .whoweare {
+        padding: 80px 0px 50px;
+    }
+
+    .method_about {
+        padding: 50px 0px 50px 90px;
+    }
+
+    .method_content2 {
+        padding-left: 0px !important;
+        padding-right: 15px;
+    }
+
+    .methodology2 {
+        right: unset !important;
+        left: -170px;
+    }
+
+    .about_method {
+        padding-right: 0px !important;
+        padding-left: 20px;
+    }
+
+    .space_head a,
+    .commit_heading a {
+        font-size: 65px;
+        line-height: 90px;
+    }
+
+    .space_head {
+        right: -93px;
+    }
+
+    .space {
+        padding-top: 60px;
+    }
+
+    .space ul li {
+        padding: 15px 15px;
+    }
+
+    .commit_lft {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .commit_lft img {
+        padding-right: 0px;
+    }
+
+    .commit_heading {
+        left: -237px;
+        top: 321px;
+    }
+
+    .commit_content h4 {
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    .commit_content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .commit_anchor {
+        padding-left: 30px;
+    }
+
+    .commit {
+        padding: 70px 0px;
+    }
+
+    .commit_inner {
+        padding: 40px 0px;
+    }
+
+    .commit_rht li {
+        padding-top: 30px
+    }
+
+    /* about page ends */
+    
+    .skew {
+        height: 48px;
+        top: -47px;
+    }
+}
+
+@media(max-width:767px) {
+    .header {
+        padding: 0px 40px;
+    }
+
+    .frht li {
+        width: initial;
+    }
+
+    .header .hamburger {
+        display: block;
+    }
+
+    .postion_img {
+        display: none
+    }
+
+    .menu_h,
+    .side_nav,
+    .side_nav2 {
+        display: none;
+    }
+
+    .restag {
+        display: block;
+    }
+
+    .banner3 {
+        padding: 50px 40px 100px;
+    }
+
+    .report a {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .bcon {
+        padding-left: 0px;
+    }
+
+    .proimages {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .procontent {
+        position: relative;
+        width: 100%;
+        left: 0px;
+        margin-top: -50px;
+    }
+
+    .proslider {
+        padding: 0px 40px;
+    }
+
+    .banner_content h6 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .banner_content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .procon_inner p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .procon_inner p:last-child {
+        display: none;
+    }
+
+    .pronumber {
+        right: 43px;
+    }
+
+    .pronumber p {
+        font-size: 20px;
+    }
+
+    .seperation {
+        margin: 10px 0px;
+    }
+
+    .case_lft {
+        height: initial;
+        padding: 0px;
+    }
+
+    .caselisting {
+        width: 100%;
+        overflow-y: auto;
+    }
+
+    .caselisting ul::before,
+    .caselisting ul::after {
+        display: none;
+    }
+
+    .caselisting ul {
+        border-left: none;
+        padding: 0px 0px;
+        min-width: 768px;
+        overflow-x: scroll;
+    }
+
+    .caselisting li {
+        display: inline-block;
+        margin-left: 0px;
+        padding: 0px;
+        margin: 0px 5px;
+    }
+
+    .caselisting ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    .caselisting li a {
+        padding: 20px 25px;
+        font-size: 16px;
+        line-height: 16px;
+        border-left: none;
+        border-bottom: 3px solid transparent;
+    }
+
+    .case_rht h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+
+    .case_rht h3 {
+        font-size: 25px;
+        line-height: 25px;
+        padding: 20px 0px;
+    }
+
+    .case_rht {
+        padding: 0px 40px;
+        /*        height: initial;*/
+    }
+
+    .color,
+    .typography,
+    .designs,
+    .packing,
+    .logocase,
+    .talk {
+        padding: 30px 0px;
+    }
+
+    /*
+    .color, .packing {
+        height: 653px;
+    }
+*/
+    .talk .form-group {
+        margin-bottom: 40px;
+    }
+
+    .talk .form-control {
+        height: 40px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .talk textarea.form-control {
+        height: 110px;
+    }
+
+    .talk button {
+        padding: 20px 50px;
+    }
+
+    .realted_inner {
+        width: 100%;
+    }
+
+    .related_con {
+        width: 100%;
+        top: unset;
+        left: 0px;
+        display: block;
+        float: left;
+        position: relative;
+    }
+
+    .related_head,
+    .conatctheading {
+        transform: rotate(0deg);
+        top: 10px;
+        right: 0px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .related_head a {
+        font-size: 55px;
+        line-height: 80px;
+        text-align: center;
+        display: block;
+    }
+
+    .repro {
+        padding: 100px 40px 0px 40px;
+    }
+
+    .related_con p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .contacthead {
+        min-height: initial;
+    }
+
+    .scratch2 {
+        padding-top: 0px;
+    }
+
+    .scratch {
+        padding-top: 30px;
+    }
+
+    .conatctheading a {
+        font-size: 55px;
+        text-align: center;
+        display: block;
+    }
+
+    .Contact {
+        padding: 100px 0px 30px 0px;
+        min-height: 907px;
+    }
+
+    .contact_inner {
+        padding: 0px 25px;
+    }
+
+    .scratch p,
+    .scratch a {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .form_inner {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .contact_form {
+        padding: 0px 40px;
+        width: 100%;
+    }
+
+    .forflex {
+        display: flex;
+        align-items: center;
+        min-height: 907px;
+    }
+
+    .close {
+        display: block;
+        opacity: 1;
+        background-color: #f7f052;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 25px;
+        top: 10%;
+    }
+
+    .close img {
+        width: 15px;
+    }
+
+    .close:focus,
+    .close:hover {
+        opacity: 1;
+    }
+
+    /* index page start */
+    .banner_content {
+        padding-left: 0px;
+    }
+
+    .banner {
+        padding: 50px 40px 100px;
+    }
+
+    .skew2 {
+        height: 30px;
+        margin-top: -33px;
+    }
+
+    .naaz {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .slider-nav .slick-next {
+        top: 65%;
+    }
+
+    .product_inner {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        /*        margin-top: -60px;*/
+    }
+
+    .product {
+        padding: 0px 40px;
+    }
+
+    .product_inner h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .product_inner p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .product_inner a {
+        font-size: 16px;
+    }
+
+    .service {
+        right: unset;
+        top: 40px;
+        width: 100%;
+        transform: rotate(0deg);
+    }
+
+    .service a,
+    .methodology a,
+    .test_heading a {
+        font-size: 55px;
+        text-align: center;
+        display: block;
+    }
+
+    .branding {
+        padding: 120px 0px 40px;
+    }
+
+    .brand_out {
+        padding: 0px 0px;
+    }
+
+    .brand a {
+        font-size: 18px;
+        padding: 15px 0px;
+        line-height: 30px;
+    }
+
+    .brandpara p {
+        min-height: initial;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .dflex {
+        display: block;
+    }
+
+    .test_heading {
+        right: unset;
+        top: 0px;
+        width: 100%;
+        transform: rotate(0deg);
+    }
+
+    .test {
+        padding: 80px 0px;
+    }
+
+    .testimonial {
+        padding-right: 0px;
+        padding: 0px 25px;
+    }
+
+    .testimo_content {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .slick-test .slick-prev {
+        right: 0px;
+        bottom: 0px;
+        left: 0;
+    }
+
+    .slick-test .slick-next {
+        right: 0;
+    }
+
+    .testimo_img img {
+        height: 450px;
+        margin: 0px auto;
+    }
+
+    .testimo_content h5 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .testimo_content p {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 10px 0px;
+        min-height: 205px;
+    }
+
+    .testimo_content h6 {
+        font-size: 18px;
+    }
+
+    .testimo_content h6 span {
+        font-size: 15px;
+    }
+
+    .methodimg_outer {
+        display: none;
+    }
+
+    .method_rht {
+        width: 100%;
+    }
+
+    .methodology {
+        right: unset;
+        top: 40px;
+        width: 100%;
+        transform: rotate(0deg);
+    }
+
+    .method_rht {
+        padding: 60px 40px 30px;
+    }
+
+    .list {
+        padding-top: 60px;
+    }
+
+    .method_content h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .method_content p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .method_rht li:first-child {
+        margin-top: 20px;
+    }
+
+    .naaz_inner {
+        padding: 0px;
+    }
+
+    .quotes {
+        left: 0px;
+    }
+
+    /* index page ends */
+    /* work page start */
+    .banner2 {
+        padding-bottom: 0px;
+    }
+
+    .brandingwork {
+        padding: 30px 25px;
+    }
+
+    .brandlft {
+        margin-top: 40px;
+        padding-right: 0px;
+    }
+
+    .contentwork {
+        width: 90%;
+    }
+
+    .work_con h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .work_con p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .brandrht {
+        margin-top: 40px;
+        padding-left: 0px;
+    }
+
+    .work_con {
+        min-height: initial;
+    }
+
+    /* work page ends */
+    /* about page start */
+    .banner_about {
+        padding: 30px 0px 120px;
+    }
+
+    .about_banner {
+        margin: 0px;
+        padding: 0px 25px;
+    }
+
+    .about_banner p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .team_img {
+        margin-top: -70px;
+        padding: 0px 25px;
+    }
+
+    .who_lft {
+        padding-right: 0px;
+    }
+
+    .who_rht {
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .whoweare {
+        padding: 60px 40px 50px;
+    }
+
+    .s_head h1 {
+        transform: rotate(0deg);
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .s_lft_inner {
+        float: left;
+        width: 100%;
+    }
+
+    .suard_inner {
+        width: 100%;
+    }
+
+    .squardslider {
+        margin-left: 0px;
+    }
+
+    .slider_content {
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+
+    .s_lft {
+        float: left;
+        width: 100%;
+    }
+
+    .squardslider .slick-dots {
+        left: 90px;
+    }
+
+    .methodology2 {
+        left: 0;
+    }
+
+    .commit_inner {
+        display: block;
+    }
+
+    .commit_lft img {
+        float: unset;
+        margin: 0px auto;
+    }
+
+    .space_head a,
+    .commit_heading a {
+        font-size: 50px;
+        line-height: 70px;
+        display: block;
+        text-align: center;
+    }
+
+    .space_head {
+        right: 0px;
+        left: 0px;
+        top: 0px;
+        transform: rotate(0deg);
+    }
+
+    .commit_heading {
+        right: 0px;
+        left: 0px;
+        top: 0px;
+        transform: rotate(0deg);
+    }
+
+    .space {
+        padding: 80px 25px 0px 25px;
+    }
+
+    .commit {
+        padding: 60px 25px 30px;
+    }
+
+    .commit_rht li:first-child {
+        padding-top: 30px
+    }
+
+    .caselisting::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* about page ends */
+
+    .test_heading a {
+        margin-top: 12px;
+    }
+
+    .test {
+        padding: 100px 0px;
+    }
+
+    .testimo_content h5 {
+        margin: 15px 0;
+    }
+}
+
+@media(max-width:560px) {
+    .report a {
+        margin-left: 0px;
+        margin-bottom: 11px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    .banner_content h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .banner_content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .banner_content h6 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .procontent {
+        padding: 15px 20px;
+    }
+
+    .procon_inner p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .pronumber p {
+        font-size: 18px;
+    }
+
+    .pronumber {
+        right: 45px;
+    }
+
+    .proslider .slick-next {
+        top: 66%;
+    }
+
+    .case_rht h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .case_rht h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    /*
+    .color, .packing {
+        height: 584px;
+    }
+*/
+    .talk .form-control {
+        height: 34px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .talk .form-group {
+        margin-bottom: 30px;
+    }
+
+    .talk textarea.form-control {
+        height: 80px;
+        padding: 10px;
+    }
+
+    .talk button {
+        padding: 15px 30px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .related_head a {
+        font-size: 40px;
+        line-height: 59px;
+    }
+
+    .repro {
+        padding: 80px 40px 0px 40px;
+    }
+
+    .related_con {
+        padding: 15px 20px;
+    }
+
+    .related_con p {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 10px 0px;
+    }
+
+    .related_con a {
+        font-size: 14px;
+    }
+
+    .conatctheading a {
+        font-size: 40px;
+    }
+
+    .Contact {
+        padding: 80px 0px 30px 0px;
+    }
+
+    .contacthead h1 {
+        font-size: 25px;
+        padding-bottom: 25px;
+    }
+
+    .line {
+        height: 5px;
+    }
+
+    .scratch h4 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .scratch p,
+    .scratch a {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .scratch p {
+        padding: 10px 0px;
+    }
+
+    .forflex {
+        min-height: 833px;
+    }
+
+    .contactform h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .form_inner .form-control {
+        height: 34px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .form_inner textarea.form-control {
+        height: 80px;
+        padding: 10px 0px;
+    }
+
+    .dropdowm {
+        min-height: 55px;
+    }
+
+    .form_button a {
+        width: 200px;
+        padding: 15px 0px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    /* index page start */
+    .skew2 {
+        height: 25px;
+        margin-top: -25px;
+    }
+
+    .product_inner {
+        padding: 20px 20px;
+    }
+
+    .product_inner h4 {
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .product_inner p {
+        font-size: 14px;
+        line-height: 21px;
+        min-height: 114px;
+    }
+
+    .zerotwo p {
+        font-size: 16px;
+    }
+
+    .slider-nav .slick-prev {
+        top: 35%;
+    }
+
+    .slider-nav .slick-next {
+        top: 70%;
+    }
+
+    .zerotwo {
+        right: 46px;
+    }
+
+    .viewall a,
+    .getquote a {
+        font-size: 14px;
+        width: 190px;
+        padding: 12px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .viewall a svg,
+    .getquote a svg {
+        width: 20px;
+    }
+
+    .service a,
+    .methodology a,
+    .test_heading a {
+        font-size: 40px;
+    }
+
+    .branding {
+        padding: 100px 0px 40px;
+    }
+
+    .brand a {
+        font-size: 16px;
+        padding: 12px 0px;
+        line-height: 26px;
+    }
+
+    .test {
+        padding: 85px 0px;
+    }
+
+    .testimo_img img {
+        height: 350px;
+    }
+
+    .testimo_content h5 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .testimo_content p {
+        font-size: 14px;
+        line-height: 21px;
+        min-height: 215px;
+    }
+
+    .testimo_content h6 {
+        font-size: 16px;
+    }
+
+    .testimo_content h6 span {
+        font-size: 13px;
+    }
+
+    .methodology {
+        top: 25px;
+    }
+
+    .list {
+        padding-top: 30px;
+    }
+
+    .method_content {
+        padding-left: 0px;
+    }
+
+    .method_content h4 {
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .method_content p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .viewall {
+        right: 50px;
+    }
+
+    /* index page ends */
+    /* work page start */
+    .banner2 {
+        padding-bottom: 0px;
+    }
+
+    .brandingwork {
+        padding: 30px 25px 30px;
+    }
+
+    .work_con h4 {
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .work_con p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .work_con {
+        padding: 20px;
+    }
+
+    /* work page ends */
+
+    /* about page start */
+    .squardslider .slick-dots {
+        left: 45px;
+        bottom: -25px;
+        display: none !important;
+    }
+
+    .about_banner h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .about_banner p {
+        font-size: 16px;
+        line-height: 25px;
+        padding-top: 15px;
+    }
+
+/*
+    .skew {
+        width: 115px;
+        height: 35px;
+        top: 5px;
+        right: 3px;
+    }
+*/
+
+    .who_rht h1 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .who_rht p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .whoweare {
+        padding: 40px 40px 40px;
+    }
+
+    .s_head h1 {
+        top: -10px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .suard_inner {
+        padding: 40px 40px;
+    }
+
+    .teamimg {
+        height: 400px;
+    }
+
+    .p_social_links a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .p_social_links a img {
+        width: 20px;
+    }
+
+    .person_name h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .person_name p {
+        font-size: 15px;
+        line-height: 14px;
+    }
+
+    .space_head a,
+    .commit_heading a {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .space {
+        padding: 65px 25px 0px 25px;
+    }
+
+    .space ul li {
+        padding: 10px 5px;
+    }
+
+    .commit_content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .commit_content h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .commit_anchor {
+        padding-left: 15px;
+    }
+
+    .squardslider .slick-next {
+        top: initial;
+        bottom: -9%;
+    }
+
+    /* about page ends */
+
+    .banner {
+        padding: 50px 40px 40px;
+    }
+
+    .brandpara p {
+        font-size: 14px;
+    }
+
+    .scratch p {
+        font-size: 14px;
+    }
+
+    .contacthead h1 {
+        font-size: 24px;
+    }
+
+    .Contact {
+        min-height: 837px;
+    }
+
+    .banner {
+        padding: 50px 40px 0px;
+    }
+
+    .work_con p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .work_con h4 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
+    .contact_s {
+        min-height: 833px;
+    }
+    
+     .skew {
+        height: 40px;
+        top: -38px;
+    }
+    
+    .procontent {
+        margin-top:0;
+    }
+    
+    .p_banner {
+        padding-bottom:15px;
+    }
+}
+
+@media(max-width:414px) {
+    .logo a {
+        padding: 7px 15px;
+    }
+
+    .header {
+        padding: 0px 20px;
+    }
+
+    .frht a {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 11px 0px;
+    }
+
+    .banner {
+        margin-top: 40px;
+    }
+
+    .report a {
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    .banner3 {
+        padding: 40px 20px 80px;
+    }
+
+    .banner_content h2 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .banner_content p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 15px;
+    }
+
+    .proslider {
+        padding: 0px 20px;
+    }
+
+    .procon_inner h4 {
+        font-size: 21px;
+    }
+
+    .procon_inner p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .proslider .slick-next {
+        top: 70%;
+    }
+
+    .caselisting li a {
+        padding: 15px 20px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .case_rht {
+        padding: 0px 20px;
+    }
+
+    .case_rht h3 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    /*
+    .color, .packing {
+        height: 522px;
+    }
+*/
+    .talk label {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .talk .form-control {
+        height: 34px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .talk button {
+        padding: 12px 25px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .related_head a {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .repro {
+        padding: 60px 20px 0px 20px;
+    }
+
+    .related_con h6 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .related_con h4 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .related_con p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .conatctheading a {
+        font-size: 30px;
+    }
+
+    .Contact {
+        padding: 60px 0px 30px 0px;
+    }
+
+    .contact_inner {
+        padding: 0px 5px;
+    }
+
+    .contacthead h1 {
+        font-size: 21px;
+        padding-bottom: 21px;
+    }
+
+    .line {
+        width: 120px;
+        height: 3px;
+    }
+
+    .scratch {
+        padding-top: 20px;
+    }
+
+    .scratch h4 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .scratch p,
+    .scratch a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .contact_form {
+        padding: 0px 20px;
+    }
+
+    .forflex {
+        min-height: 691px;
+    }
+
+    .contactform h1 {
+        font-size: 21px;
+        line-height: 21px;
+    }
+
+    .form_inner label {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .form_inner .form-control {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .form_button a {
+        width: 160px;
+        padding: 12px 0px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    /* index page start */
+    .banner {
+        padding: 30px 20px 40px;
+    }
+
+    .product {
+        padding: 0px 20px;
+    }
+
+    .product_inner h4 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .product_inner {
+        padding: 15px 20px;
+    }
+
+    .product_inner h6 {
+        font-size: 13px;
+    }
+
+    .product_inner p {
+        font-size: 12px;
+        line-height: 17px;
+        min-height: 90px;
+        padding: 10px 0px;
+    }
+
+    .product_inner a {
+        font-size: 13px;
+    }
+
+    .between {
+        margin: 5px 0px;
+    }
+
+    .zerotwo p {
+        font-size: 14px;
+    }
+
+    .viewall a,
+    .getquote a {
+        font-size: 12px;
+        width: 170px;
+        padding: 10px 0px;
+    }
+
+    .viewall {
+        bottom: -15px;
+    }
+
+    .service a,
+    .methodology a,
+    .test_heading a {
+        font-size: 30px;
+    }
+
+    .service {
+        top: 20px;
+    }
+
+    .branding {
+        padding: 60px 0px 30px;
+    }
+
+    .brand_out {
+        padding: 0px 5px;
+    }
+
+    .brand a {
+        font-size: 14px;
+        padding: 10px 0px;
+        line-height: 21px;
+    }
+
+    .brandheading h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .brand_con {
+        padding: 0px 10px;
+    }
+
+    .test {
+        padding: 50px 0px;
+    }
+
+    .testimo_img img {
+        height: 250px;
+        margin-top: 15px;
+    }
+
+    .testimonial {
+        padding-right: 0px;
+        padding: 0px 5px;
+    }
+
+    .testimo_content h5 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .testimo_content p {
+        font-size: 12px;
+        line-height: 17px;
+        min-height: 185px;
+    }
+
+    .testimo_content h6 {
+        font-size: 14px;
+    }
+
+    .testimo_content h6 span {
+        font-size: 12px;
+    }
+
+    .list {
+        padding-top: 0px;
+    }
+
+    .methodology {
+        top: 20px;
+    }
+
+    .getquote {
+        margin-top: -80px;
+    }
+
+    .method_rht {
+        padding: 60px 20px 30px;
+    }
+
+    .method_content h4 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .method_content p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* index page ends */
+    /* work page start */
+    .brandingwork {
+        padding: 30px 0px 30px;
+    }
+
+    .banner2 {
+        padding-bottom: 0px;
+    }
+
+    .work_con h4 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .work_con p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .work_con a {
+        font-size: 13px;
+    }
+
+    .work_con {
+        margin-top: -90px;
+    }
+
+    /* work page ends */
+
+    /* about page start */
+    .banner_about {
+        margin-top: 40px;
+    }
+
+    .about_banner h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+/*
+    .skew {
+        width: 100px;
+        height: 30px;
+        top: 5px;
+        right: 6px;
+    }
+*/
+
+    .about_banner p br {
+        display: none;
+    }
+
+    .about_banner {
+        margin: 0px;
+        padding: 0px 5px;
+    }
+
+    .about_banner p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+
+    .banner_about {
+        padding: 30px 0px 100px;
+    }
+
+    .team_img {
+        margin-top: -70px;
+        padding: 0px 5px;
+    }
+
+    .whoweare {
+        padding: 40px 20px 40px;
+    }
+
+    .who_rht h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .s_head h1 {
+        top: -15px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .suard_inner {
+        padding: 20px 20px;
+    }
+
+    .teamimg {
+        height: 340px;
+    }
+
+    .method_content2 {
+        padding-left: 0px !important;
+        padding-right: 0px;
+    }
+
+    .space_head a,
+    .commit_heading a {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .space {
+        padding: 50px 5px 0px 5px;
+    }
+
+    .space ul li {
+        width: 100%;
+    }
+
+    .commit {
+        padding: 60px 5px 30px;
+    }
+
+    /* about page ends */
+
+    .fixedTab {
+        top: 40px;
+    }
+
+    .Contact {
+        min-height: 687px;
+    }
+    
+    .skew {
+        height: 40px;
+        top: -35px;
+    }
+}
+
+@media(max-width:320px) {}

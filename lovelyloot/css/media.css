@@ -1,0 +1,611 @@
+@media(min-width:1366px){
+
+}
+@media(max-width:1366px){
+
+}
+@media(max-width:1199px){
+    .product {
+        padding: 130px 0px;
+        position: relative;
+    }
+    .truly_padding {
+        padding: 0px 200px;
+    }
+    .footer_padding {
+        padding: 0px 0px;
+    }
+    /*10things page start*/
+    .thingsbanner {
+        padding: 80px 0px;
+    }
+    .thingsheading h2 {
+        font-size: 46px;
+        line-height: 58px;
+        margin-bottom: 20px;
+    }
+    .bannerimg img{
+        width: 80%;
+    }
+    .reasonslist h3 {
+        font-size: 32px;
+    }
+    .reasonslist p {
+        font-size: 14px;
+        line-height: 24.5px;
+    }
+    .reasonsmain h1{
+        width: 160px;
+        height: 160px;
+    }
+    .reasonslist {
+        margin-bottom: 80px;
+    }
+    .reasonsheading {
+        margin-bottom: 60px;
+    }
+    /*10things page end*/
+    /*advertisemnet page start*/
+    .advertise{
+        padding-top: 58px;
+    }
+    .add_banner h2{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .add_banner p{
+        font-size: 14px;
+    }
+    .features{
+        padding-top: 80px; 
+    }
+    .f_list p{
+        font-size: 14px;
+    }
+    .f_list h3 {
+        font-size: 23px;
+        line-height: 72px;
+    }
+    .whylovely h4{
+        font-size: 23px;
+        line-height: 72px;   
+    }
+    .connect{
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .c_heading h3 {
+        font-size: 23px;
+    }
+    .c_heading p{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+    .c_form .form-control {
+        height: 42px;
+        padding: 8px 25px;
+    }
+    .c_form .btnsubmit{
+        padding: 7px 0px;
+    }
+    /*advertisemnet page end*/
+
+}
+@media(max-width:991px){
+    /*header start*/
+    .header .navbar ul li {
+        margin-left: 8px;
+    }
+    /*header End*/
+    /*index page*/
+    .heading_class {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .paragraph_class {
+        font-size: 16px;
+    }
+    .section3 p {
+        font-size: 16px;
+    }
+    .meet_lovely p {
+        padding-right: 55px;
+    }
+    .ceter_btn{
+        font-size: 12px;
+    }
+    .sec3_padding {
+        padding: 0px 100px;
+    }
+    /*    .save_side {
+            padding-left: 35px;
+        }*/
+    .truly_padding {
+        padding: 0px 150px;
+    }
+    .main_menu ul li {
+        margin: 0px 12px;
+    }
+    .about_padd {
+        text-align: center;
+        padding: 50px 100px;
+    }
+    .about_padd h2 {
+        font-size: 24px;
+    }
+    /*End*/
+    .footer_nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    .footer .col-sm-9{
+        width: 100%;
+    }
+    .footer .col-sm-3{
+        width: 100%;
+    }
+    .footer_nav p, .footer_nav a {
+        text-align: center;
+    }
+    .f_media_icon {
+        margin-top: 15px;
+    }
+    /*about page start*/
+    .about_padding {
+        padding: 0px 100px;
+    }
+    .about_padding p {
+        font-size: 18px;
+        line-height: 35px;
+        padding-top: 15px;
+    }
+    /*about page End*/
+    /*10things page start*/
+    .thingsbanner {
+        padding: 60px 0px;
+    }
+    .thingsheading h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .thingsheading p {
+        font-size: 14px;
+        line-height: 26.5px;
+    }
+    .reasonsheading {
+        margin-bottom: 40px;
+    }
+    .reasonslist {
+        margin-bottom: 60px;
+    }
+
+    /*10things page end*/
+    /*advertisemnet page start*/
+    .add_banner h2 {
+        font-size: 34px;
+        line-height: 40px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .add_banner p {
+        margin-bottom: 30px;
+    }
+    .add_banner a{
+        padding: 11px 40px;
+    }
+    .f_list h3 {
+        font-size: 17px;
+        line-height: 42px;
+    }
+    .features {
+        padding-top: 60px;
+    }
+    .f_list {
+        margin-bottom: 10px;
+    }
+    .whylovely{
+        padding: 30px 40px 88px;
+    }
+    .connect {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    /*advertisemnet page end*/
+}
+@media(max-width:767px){
+    .about_flex{
+        display: block;
+    }.about_side {
+        padding-left: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .about_side img {
+        padding-top: 40px;
+        margin: 0 auto 30px;
+    }
+    .about_there {
+        margin-top: 80px;
+    }
+    .noleft{
+        padding-right: 0px 
+    }
+    .noleft{
+        padding-left: 0px;
+    }
+    /*header start*/
+    .header .hamburger{
+        display: block;
+    }
+    .ri_side{
+        display: none;
+    }
+    .f_side{
+        display: none;
+    }
+    .navbar-header {
+        float: right;
+    }
+    .fixed_header {
+        padding: 15px 0px;
+    }
+    .nav_paddi{
+        padding: 0;
+    }
+    /*header End*/
+    .sec2_bg {
+        background: url(../img/sec2_bg.png)no-repeat center bottom;
+        padding: 20px 0px 260px 0px;
+        background-size: contain;
+    }
+    .upgrad_flex {
+        display: block;
+    }
+    .product {
+        padding: 415px 0px 50px 0px;
+        position: relative;
+    }
+    .product,.upgrade,.notice,.shopping{
+        text-align: center;
+    }
+    .upgrade h2 ,.notice h2,.shopping h2{
+        text-align: center; 
+        padding-top: 50px;
+    }
+    .meet_lovely {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .meet_lovely p {
+        padding-right: 0px;
+    }
+    .phone_img img{
+        width: 45%;
+    }
+    .section2 {
+        margin-top: 100px;
+    }
+    .sec3_padding {
+        padding: 0px 0px;
+    }
+    .shopping {
+        padding-bottom: 0px;
+    }
+    .truly_padding {
+        padding: 0px 0px;
+    }
+    .main_menu ul li{
+        margin: 20px 20px;
+        width: 20%;
+    }
+    .about_padd h2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .footer_nav ul {
+        display:block; 
+        align-items: center;
+    }
+    .footer_nav ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    .footer_nav ul li img{
+        margin: 0 auto;
+    }
+    .footer_nav p, .footer_nav a{
+        line-height: 20px;
+    }
+    .upgrade img,.notice img,.shopping img{
+        margin: 0 auto;
+    }
+    /*10things page start*/
+    .thingsbanner {
+        padding: 40px 0px;
+    }
+    .thingsheading h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .bannerimg img{
+        margin-top: 30px;   
+    }
+    .reasonsmain h1 {
+        width: 140px;
+        height: 140px;
+    }
+    .reasonsmain h1 span{
+        font-size: 76px;        
+    }
+    .reasonslist h3 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+    /*10things page end*/
+
+    /*advertisemnet page start*/
+    .advertise {
+        padding-top: 40px;
+    }
+    .add_img img{
+        margin-top: 30px;
+    }
+    .features {
+        padding-top: 40px;
+    }
+    .f_list h3 {
+        font-size: 22px;
+        line-height: 62px;
+    }
+    .f_list p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .f_img img {
+        margin-top: 30px;
+    }
+    .c_heading h3 {
+        font-size: 26px;
+    }
+    .c_heading p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .advertise {
+        margin-top: 80px;
+    }
+    .things {
+        margin-top: 80px;
+    }
+    /*advertisemnet page end*/
+
+}
+@media(max-width:560px){
+    .lovely_app a img {
+        width: 35px;
+    }
+    .main_menu ul li {
+        width: 34%;
+        margin: 10px 20px;
+    }
+    .pro_img img {
+        width: 60%; 
+    }
+    .product {
+        padding: 380px 0px 50px 0px;
+    }
+    .about_padd {
+        padding: 0px 0px 25px;
+    }
+    .heading_class {
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 0px;
+    }
+    .paragraph_class {
+        font-size: 14px;
+    }
+    .section3 p {
+        font-size: 14px;
+    }
+    .sec2_bg {    
+        padding: 20px 0px 125px 0px;
+    }
+    .section3 {
+        padding: 70px 0px;
+    }
+    .section3 h3 {
+        font-size: 16px;
+    }
+    .lovely_truly {
+        padding: 65px 0px;
+    }
+    .lovely_app a {
+        font-size: 22px;
+    }
+    .heart a {
+        font-size: 14px;
+    }
+    .heart a i {
+        padding: 0px 3px;
+    }
+    .upgrade h2, .notice h2, .shopping h2 {
+        padding-top: 20px;
+    }
+    .meet_lovely p span{
+        display: block;
+    }
+    /*about page start*/
+    .about_padding {
+        padding: 0px 0px;
+    }
+    .about_padding p {
+        font-size: 16px;
+    }
+    /*about page End*/
+    /*10things page start*/
+    .thingsheading h2 {
+        font-size: 26px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    .reasonslist h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .reasonsmain h1 {
+        width: 95px;
+        height: 95px;
+    }
+    .reasonsmain h1 span{
+        font-size: 66px;        
+    }
+    .reasonslist {
+        margin-bottom: 40px;
+    }
+    /*10things page end*/
+
+    /*advertisemnet page start*/
+    .advertise {
+        padding-top: 20px;
+    }
+    .add_banner h2 {
+        font-size: 32px;
+    }
+    .f_list h3 {
+        font-size: 19px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    .f_list p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .whylovely {
+        padding: 30px 30px 30px;
+    }
+    .whylovely h4 {
+        font-size: 23px;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+    .whylovely p {
+        line-height: 24px;
+    }
+    .connect {
+        padding-top: 40px;
+    }
+    .c_heading h3 {
+        font-size: 22px;
+    }
+    .c_heading p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    /*advertisemnet page end*/
+}
+@media(max-width:414px){
+    .pro_img img {
+        width:76%;
+    }
+    /*10things page start*/
+    .thingsbanner {
+        padding: 40px 0px;
+    }
+    .thingsheading h2 {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0px;
+    }
+    .reasonsheading h4{
+        font-size: 14px;
+        line-height: 34px;
+    }
+    .widthmargin{
+        /*width: 100%;*/
+        margin: 0;
+    }
+    .reasonslist{
+        /*padding-left: 100px;*/
+        margin-bottom: 30px;
+    }
+    .reasonsmain h1 {
+        width: 80px;
+        height: 80px;
+    }
+    .reasonsmain h1 span{
+        font-size: 46px;        
+    }
+    .reasonslist h3 {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 10px;
+        letter-spacing: 0px;
+    }
+    .reasonsheading {
+        margin-bottom: 20px;
+    }
+    /*10things page end*/
+    /*advertisemnet page start*/
+    .add_banner h2 {
+        font-size: 28px;
+        line-height: 34px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .add_banner p {
+        line-height: 24.5px;
+    }
+    .add_banner a {
+        padding: 8px 30px;
+    }
+    .features {
+        padding-top: 30px;
+    }
+    .f_list h3 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    .f_list {
+        margin-bottom: 20px;
+    }
+    .whylovely {
+        padding: 15px 15px 15px;
+    }
+    .whylovely h4{
+        margin-bottom: 15px;
+    }
+    .connect {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .c_heading h3 {
+        font-size: 20px;
+    }
+    .c_form .form-control {
+        height: 34px;
+        padding: 6px 15px;
+        font-size: 13px;
+    }
+    .c_form .form-group:first-child{
+        margin-bottom: 10px;
+    }
+    .c_form .btnsubmit {
+        padding: 8px 0px;
+        font-size: 13px;
+    }
+    .c_form select option {
+        font-size: 13px;
+        padding: 7px 0px;
+    }
+    /*advertisemnet page end*/
+
+}
+@media(max-width:320px){
+
+}

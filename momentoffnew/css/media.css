@@ -1,0 +1,3307 @@
+@media screen and (min-width: 768px) and (max-width:1199px){
+    .list label{
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .checklistsection .tasks label i{
+        font-size: 11px;
+        margin-left: 9px;
+    }
+    .checklistsection .tasks label{
+        font-size: 12px;
+    }
+    /*budget*/
+    .Bprogressleft .progress{
+        width: 87px;
+        height: 87px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:992px){
+    .dashboard_outer.height {
+        margin-top: 142px;
+    }
+}
+@media screen and (min-width: 992px){
+    .Budgettableboxbottom:hover,.checklistsection .tasklist .tasks:hover,.weddinglist:hover{
+        transform: scale(1.04);
+        transition: all .2s ease-in-out;
+        box-shadow: 0 0 5px 0 rgba(38, 42, 73, 0.2);
+        border-radius: 4px;
+        z-index: 9;
+    }
+    .Budgettableboxbottom:hover .column1:first-child{
+        padding-left: 50px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width:1199px){
+    .Budgettableboxbottom:hover{
+        transform: scale(1.01);
+    }
+    .Budgettableboxbottom:hover .column1:first-child{
+        padding-left: 22px;
+    }
+
+}
+@media screen and (max-width: 1199px){
+    .sidenav a{
+        padding: 15px 0px 15px 20px;
+        margin: 10px 0px;
+        font-size: 16px;
+    }
+    .notification_bar .upgrade h2{
+        font-size: 14px;
+    }
+    .dashboard_inner {
+        padding: 15px 0px;
+    }
+    .dashboard_view{
+        background-position: center right -185px;
+        padding: 30px 15px;
+    }
+    .content h3{
+        font-size: 12px;
+    }
+    .content h2{
+        font-size: 26px;
+    }
+    .dashboard_details{
+        padding: 10px;
+    }
+    .dashboard_taskleft{
+        padding: 15px 15px 15px;
+    }
+    .checklist_heading h2{
+        font-size: 13px;
+    }
+
+    .checklist{
+        padding: 10px;
+    }
+    .social_share{
+        padding: 15px 0px;
+    }
+    .social_guest{
+        padding: 30px 20px 20px 90px;
+    }
+    /*.social_guest:before{
+            left: 30px;
+            top: 60px;
+    }*/
+    .guest_para{
+        margin-top: 10px;
+    }
+    .header{
+
+        padding-left: 230px;
+        padding-right: 30px;
+    }
+    .header .navbar {
+        padding-left: 20px;
+    }
+
+
+    .header .navbar-nav > li > a{
+        margin: 0px 10px;
+        font-size: 12px;
+    }
+    i.info{
+        margin-right: 10px;
+    }
+    .congo p{
+        font-size: 16px;
+    }
+    .congo h2{
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+    .dashboard_details{
+        margin-top: 20px;
+    }
+    .icons{
+        margin-bottom: 12px;
+    }
+    .content h3{
+        margin-bottom: 6px;
+    }
+    .icons .icon_left{
+        width: 40px;
+        height: 40px;
+    }
+    /*gagn*/
+    /*======couple info start======*/
+    .widthcol{
+        width: 100%;
+    }
+    .couple_form form .btn3{
+        margin-top: 80px;
+    }
+    .story .col-md-9.noleft{
+        padding-right: 0;
+    }
+    .story .col-md-3.noright{
+        padding-left: 0;
+    }
+    .coupleinfo_inner{
+        padding: 50px 30px;
+    }
+    .coupleinfo_inner2 {
+        padding: 35px 30px;
+    }
+    .pagelist a{
+        margin: 0px 8px;
+    }
+    .pagelist .width1 img{
+        margin-top: 4px;
+    }
+    .previewsection{
+        margin-top: 30px;
+    }
+    .widthcol3{
+        width: 50%;
+    }
+    /*======couple info end======*/
+    /*divya guest*/
+    /*divya guest*/
+    .filterdataD .right .btn span img {
+        margin-left: 11px;
+    }
+    .WidthD1,.WidthD2{
+        width:100%;
+    }
+    .filterdataD .right{
+        margin-top: 30px;
+    }
+    .TabletopD, .TablemiddleD {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .gueststabledata,.guesttableD .gtlink{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .filterdataD .WidthD1,.filterdataD .WidthD2{
+        padding: 0px;
+    }
+    .TablemiddleD .TableleftimgD {
+        width: 28px;
+    }
+    .Guestwedding{
+        padding-bottom: 10px;
+    }
+    /*budget*/
+
+    .Budgetsection .Btoprightinner {
+        padding: 30px 30px;
+    }
+    .Budgetsection .Btopleft, .Budgetsection .Btoprightinner {
+        min-height: 185px;
+    }
+    .Budgetsection .Budgettop h6{
+        font-size: 10px;
+    }
+    .Budgetsection .Budgettop h5{
+        font-size: 14px;
+    }
+    .Budgetsection .Btopright h5{
+        font-size: 17px;
+    }
+    .Bprogressleft .progress .progress-value{
+        font-size: 17px;
+    }
+    .colbottom{
+        font-size: 13px;
+    }
+    .tasklist .tasks span.dot, .Budgettablebox span.dot {
+        width: 8px;
+        height: 8px;
+    }
+    .Budgettablebox .column1 {
+        padding: 15px 19px;
+    }
+    .coltop{
+        font-size: 10px;
+    }
+    .Budgettablebox b {
+        margin-left: 6px;
+        width: 8px;
+    }
+    .Budgetsection .Btoprightinner{
+        border-top:1px solid #dddde1;
+    }
+    /*budget end*/
+    /*message page start*/
+    .padding_col{
+        padding: 0px 15px 0px 15px;
+    }
+    /*--priyank message right section page start--*/
+    .message_right_section{
+        width: 100%;
+    }
+    .message-right_sec_box_inner {
+        padding: 0px 15px 30px 15px;
+    }
+    /*--priyank message right section page end--*/
+    .sendbox .file{
+        width: 110px;
+    }
+    .sendbox .photo {
+        width: 47%;
+    }
+    .send_confirmation h2{
+        width: 15%;
+    }
+    .send_confirmation .tick{
+        width: 11%;
+    }
+    #msg1, #msg2{
+        padding-left: 17%;
+    }
+    .receipt{
+        margin: 40px 0px 20px;
+    }
+    .recentmsgs{
+        margin: 20px 0px 20px;
+    }
+    .message-right_sec_box{
+        margin: 0px 0px 0px;
+    }
+    /*message page start*/
+
+
+    /*social page start*/
+    .social_comment_main{
+        padding: 0px 15px;
+    }
+    .social_chat {
+        padding: 0px 15px;
+        margin-top: 30px;
+    }
+    .social_comment p{
+        padding: 30px 30px 30px 30px;
+    }
+    .scroll {
+        max-height: 280px;
+    }
+    .widthcolsocial{
+        width: 50%;
+    }
+    .widthcolsocial.paddingright{
+        padding-right: 15px;
+    }
+    .widthcolsocial.paddingleft{
+        padding-left: 15px;
+    }
+    .lv_cmnt_box{
+        margin-bottom: 0;
+    }
+    /*social page end*/
+
+    /*registery page start*/
+    .addregdetail_box{
+        padding-top: 0;
+    }
+    .addregistery .tooltip-inner{
+        font-size: 12px;
+        width: 120px;
+    }
+    .registery {
+        padding: 30px 30px 380px;
+    }
+    .detail_box{
+        padding: 15px 5px;
+    }
+    .detail_box h3{
+        font-size: 10px;
+        min-height: 26px;
+    }
+    .detail_box h2{
+        font-size: 16px;
+    }
+
+    .addregdetail_box .regimg{
+        min-height: 35px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .addregdetail_box h3{
+        font-size: 12px;
+        padding: 0px 5px;
+        min-height: 46px;
+    }
+    .addregdetail_box{
+        min-height: 148px;
+    }
+    .width35{
+        width: 35%;
+    }
+    /*registery page end*/
+    /*settings page start*/
+    .settings{
+        padding: 34px 15px 15px;
+    }
+    .settingwidth{
+        width: 100%;
+        margin: 0;
+    }
+    .widthSetinner3{
+        width: 100%;
+    }
+    .preference_notification .tick label{
+        font-size: 12px;
+    }
+    .preference_notification .tick label span{
+        top: 0;
+    }
+    .settings .settingsbtns a{
+        padding: 10px 40px;
+    }
+    /*settings page start*/
+    .profilesetting form a{
+        top: initial;
+        right: initial;
+        bottom: -25px;
+        left: 286px;
+        /* left: 0; */
+        /*        top: -37px;*/
+        /*        right: 10px;*/
+        /* right: -17px; */
+    }
+
+    /*index page start*/
+    .createanchor a{
+        font-size: 16px;
+    }
+    .createanchor a img{
+        float: left;
+        margin-right: 10px;
+        margin-top: 2px;
+    }
+    .index_main{
+        padding: 30px 30px;
+    }
+    .indexwidth{
+        width: 100%;
+    }
+    .searchwedding .form-control{
+        height: 38px;
+        padding: 10px 15px;
+    }
+    .weddinglist .width.width1 {
+        width: 35%;
+    }
+    .weddinglist .width.width2 {
+        width: 15%;
+    }
+    .weddinglist .width.width3 {
+        width: 35%;
+    }
+    .paddinglft {
+        padding-left: 20px;
+    }
+    .paddingrgt {
+        padding-right: 20px;
+    }
+    .searchcall .input-group{
+        width: 85%;
+    }
+    .calltodo{
+        padding: 12px 15px;
+    }
+    .calllist .tasks label{
+        margin-left: 5px;
+    }
+    .calllist .tasks label img.flag {
+        margin-top: 7px;
+    }
+    .calllist .tasks .file-upload.btn.flagattach {
+        margin-left: 4px;
+    }
+    /*.calllist .tasks i{
+        margin-left: 23px;
+    }*/
+    /*index modal start*/
+    .indexmodal .modal-body .weddingnames {
+        margin-top: 40px;
+    }
+    .indexmodal .modal-header h4 span{
+        margin: 10px auto; 
+    }
+    .indexmodal .notes form {
+        margin-top: 20px;
+    }
+    .indexmodal .weddingdates {
+        margin-top: 0px;
+    }
+    /*index modal end*/
+    /*index page end*/
+
+    /*eventpage start*/
+    .eventpadright{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .eventpadleft{
+        width: 50%;
+        padding: 0px 30px;
+    }
+    .eventsearch{
+        padding: 0px 15px;
+    }
+    .calenderboxs{
+        margin-top: 30px;
+/*        height: auto;*/
+    }
+    /*event modal start*/
+    .agendainner .width2.clock:after{
+        right: 30px;
+    }
+
+    .hotelreview .width2 .form-group .form-control {
+        width: 350px;
+    }
+    .accomowidth.width1{
+        width: 33%;
+    }
+    .accomowidth.width2 {
+        width: 53%;
+    }
+    .addaccmo{
+        padding-right: 100px;
+    }
+    /*event modal end*/
+    /*eventpage end*/
+}
+
+@media screen and (max-width: 991px){
+    .header .navbar{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .congo p {
+        font-size: 17px;
+    }
+    .header .avtarbox.nav.navbar-nav.navbar-right{
+        display: none;
+    }
+    /*.header .nav.navbar-nav.navbar-left{
+            padding: 0;
+    }*/
+    .header .hamburger{
+        display: block;
+    }
+    .sidenav{
+        top: 127px;
+        left: -230px;
+    }
+    .header{
+        padding: 10px 0px;
+
+    }
+    .header ul{
+        padding: 11px 0px;
+    }
+    .notification_bar{
+        padding: 13px 0px;
+    }
+    .notification_bar .col-sm-10,.notification_bar .col-sm-2{
+        padding: 0;
+    }
+    .notification_bar .upgrade {
+        padding-left: 0px; 
+    }
+    .notification_bar .upgrade a.upbtn{
+        padding: 4px 14px;
+        display: block;
+        width: max-content;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .notification_bar .upgrade h2 {
+        font-size: 12px;
+        margin-right: 0;
+        text-align: center;
+        display: block;
+    }
+    .dashboard_outer{
+        margin-top: 71px;
+    }
+    /*.dashboard_outer.height {
+        margin-top: 126px;
+    }*/
+    .header .navbar-nav > li > a{
+        font-size: 12px;
+    }
+    .header ul{
+        padding: 3px 0px;
+    }
+    /*.header .hamburger{
+            height: 27px;
+        padding: 12px 0px;
+            width: 27px;
+    }*/
+
+    .sidenav a{
+        padding: 10px 50px 10px 20px;
+        display: block;
+    }
+    .dashboard_outer{
+        padding-left: 0;
+    }
+    .sidenav .logo{
+        margin: 0;
+        padding: 10px 0px 20px 45px;
+    }
+    .height2{
+        margin-top: 65px;
+    }
+    .header{
+        top: 68px;
+    }
+
+    .navbar-header{
+        display: none;
+    }
+    /*.social_guest:before {
+            left: 40px;
+            top: 60px;
+        }*/
+    /*.social_guest {
+        padding: 30px 20px 20px 100px;
+    }*/
+    /*gagn*/
+    /*======couple info start======*/
+    .sidenav_info {
+        top: 73px;
+        width: 240px;
+        left: -240px;
+    }
+    .header_info{
+        top: 0;
+    }
+    .coupleinfo_outer{
+        padding: 0;
+    }
+    .couple_form form .btn3 {
+        margin-top: 40px;
+    }
+    .pagelist .width3 {
+        width: 40%!important;
+    }
+
+    /*======couple info end======*/
+    /*======couple info popups start======*/
+    #myModal2 .modal-body {
+        padding: 20px 0px;
+    }
+    #myModal2 .form-group {
+        margin-bottom: 24px;
+    }
+    /*======couple info popups end======*/
+    /*divya guest start*/
+    .TablemiddleD .Tablemiddlewidth{
+        padding: 10px 0px;
+        width: 100%;
+    }
+    /*divya end*/
+    /*tde*/
+    .tde.modal {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .widthcol3D{
+        width:100%;
+    }
+    .slider_imgs img{
+        width:auto;
+        margin: 0 auto;
+    }
+    .slider_imgs h3,.slider_imgs p{
+        text-align: center;
+    }
+    .previewmodalclass .modal-body .slick h3{
+        text-align: left;
+    }
+    .header_info{
+        height: auto;
+    }
+    /*budget*/
+    .ForTableScroll {
+        overflow-x: scroll;
+        overflow-y: auto;
+        box-shadow: 0 2px 5px 0 rgba(56, 49, 93, 0.1)
+    }
+    .ForTableScroll::-webkit-scrollbar-thumb{
+        background-color: #e57b93;
+    }
+    .ForTableScroll::-webkit-scrollbar{
+        height: 7px;
+    }
+    .Budgettable{
+        min-width: 820px;
+        height: auto;
+    }
+    .Budgettablebox b,.Budgettableboxbottom .deletewidth, .Budgettableboxbottom .EditD{
+        opacity: 1;
+    }
+
+    /*index page start*/
+    .index_main {
+        padding: 30px 30px;
+    }
+    .createanchor a {
+        font-size: 14px;
+    }
+    .widthinner{
+        width: 26%;
+    }
+    .widthinner2{
+        width: 48%;
+    }
+    .widthactive{
+        width: 100%;
+    }
+    .widthactive50{
+        width: 50%;
+    }
+    .paddingrgt {
+        padding-right: 0px;
+    }
+    .paddinglft {
+        padding-left: 0px;
+    }
+    .searchcall .input-group {
+        width: 85%;
+    }
+
+    /*index modal start*/
+    .indexmodal .modal-content{
+        padding: 20px 40px;
+    }
+    /*index modal end*/
+    /*index page end*/
+
+    /*eventpage start*/
+    /*event modal start*/
+    .eventmodal .modal-dialog {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .eventmodal .modal-header h4{
+        padding: 0px 15px 0px 15px;
+    }
+    .eventmodal .modal-title{
+        margin-top: 30px;
+    }
+    .eventmodal .modal-header h3 span{
+        font-size: 20px;
+    }
+    .eventtabs a{
+        font-size: 12px;
+    }
+    .eventinfo .widthmodal{
+        width: 40%;
+    }
+    .padleft {
+        padding-left: 60px;
+        width: 60%;
+    }
+    .eventattachment {
+        margin-top: 15px;
+    }
+    .agendaleft{
+        width: 100%; 
+        padding-left: 0;
+    }
+    .agendainner .form-group .form-control{
+        width: 100%;
+    }
+    .agendainner .width2.clock:after {
+        right: 15px;
+        top: 10px;
+    }
+    .agendaright {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 30px;
+        padding-right: 70px;
+    }
+    .addtimeslot a{
+        margin-right: 55px;
+    }
+    .hotelreview .width1 .form-group .form-control {
+        width: 197px;
+    }
+    .eventinfo{
+        padding: 0px 35px 0px 35px;
+    }
+    .eventtabs{
+        margin-top: 20px;
+    }
+    .eventmodal .btn1{
+        margin-top: 20px;
+    }
+    .eventmodal .modal-content{
+        padding: 15px 0px 0px;
+    }
+    .eventmodal .modal-header h3{
+        padding: 15px 0px; 
+    }
+    .eventmodal .form-group .form-control, 
+    .eventmodal .form-group textarea.form-control{
+        height: 40px;
+    }
+    .eventmodal .select-items div, 
+    .eventmodal .select-selected{
+        padding: 9px 13px;
+    }
+    .minheightbody {
+        min-height: 590px;
+    }
+    .agenda {
+        padding: 0px 35px 0px 35px;
+    }
+    .agendawidth.width1 {
+        width: 46.5%;
+        padding-right: 15px;
+    }
+    .hotelreview .width2 .form-group .form-control {
+        width: 288px;
+    }
+    .accomowidth.width1 {
+        width: 37%;
+    }
+    .accomowidth.width2 {
+        width: 52%;
+    }
+    .eventattendeesinner {
+        padding: 0px 15px 0px 15px;
+    }
+    .eventattendees .tableguest .forrelative{
+        padding: 8px 20px;
+    }
+    .eventattendeswidth.width2 {
+        width: 22%;
+    }
+    .addaccmo {
+        padding-right: 60px;
+    }
+    /*event modal end*/
+    /*eventpage end*/
+    .accomodationinner {
+        padding: 0px 15px 0px 15px;
+    }
+    .agendascroll {
+        min-height: 119px;
+    }
+}
+@media screen and (max-width: 767px){
+
+    .collapse {
+        display: block;
+    }
+    .header ul , .nav>li , .nav>li>a{
+        display: inline-block;
+    }
+    /*.header{
+            padding: 15px;
+    }*/
+    .header ul{
+        margin: 0;
+    }
+    .sidenav{
+        top: 155px;
+    }
+    .dashboard_outer.height{
+        margin-top: 155px;
+    }
+    .dashboard_outer {
+        margin-top: 72px;
+    }
+    .notification_bar {
+        padding: 14px 0px;
+        /*z-index: -1;*/
+    }
+
+    .header {
+        top: 84px;
+    }
+    .header .navbar-nav > li > a {
+        font-size: 14px;
+        margin: 0px 15px;
+    }
+    .cross{
+        margin: 15px 0px;
+    }
+    .content h2 {
+        font-size: 36px;
+    }
+    .content h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .icons {
+        margin-bottom: 20px;
+    }
+    .icons .icon_left {
+        width: 50px;
+        height: 50px;
+    }
+    .checklist_heading h2 {
+        font-size: 16px;
+    }
+    .list label {
+        font-size: 14px;
+    }
+    .social_share{
+        padding: 30px 0px 0px;
+    }
+    .guest_para {
+        margin-top: 20px;
+    }
+    /*.social_guest {
+        padding: 30px 20px 30px 100px;
+    }*/
+    /*.social_guest:before {
+        left: 50px;
+    }*/
+    .checklist {
+        padding: 15px;
+        margin-top: 15px;
+    }
+    .dashboard_details {
+        padding: 15px;
+    }
+    .congo h2 {
+        font-size: 18px;
+    }
+    .congo p {
+        font-size: 24px;
+    }
+    /*divya start*/
+    .overviewmodal .noleft,.overviewmodal .noright{
+        padding: 0px;
+    }
+    .btn2 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .modal-dialog{
+        width:94%!important;
+        margin: 10px auto;
+    }
+    .map {
+        padding-top: 50px;
+    }
+    .permi_inner .width3 {
+        width: 52%;
+    }
+    /*divya end*/
+    /*gagan*/
+    /*======couple info start======*/
+    .sidenav_info {
+        top: 73px;
+    }
+    .header_info{
+        top: 0;
+    }
+    .couple_form form .form-control{
+        height: 35px;
+    }
+    /*gagan change*/
+    .book label{
+        width: 55px;
+        height: 55px;
+        /*        margin: 15px 43px 0px;*/
+        margin-right: 10px;
+    }
+    .book label span{
+        left: initial;
+        right: 0;
+    }
+    .pagelist .width2 {
+        width: 50%!important;
+    }
+    .pagelist .width3 {
+        width: 50%!important;
+    }
+
+    .pagelist .width1 {
+        width: 100%;
+    }
+    .pagelist .width1 img {
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+    .pagelist a {
+        margin: 10px 10px 0px;
+        float: unset;
+    }
+
+    .pagelist p{
+        margin: 5px 0px;
+    }
+
+    #myModal2 .modal-content{
+        padding-bottom: 15px;
+    }
+    #myModal2.CoupleAddPageModal .modal-content {
+        padding: 30px 30px;
+    }
+    #myModal2 .previewbox_inner{
+        min-width: 208px;
+        min-height: 248px;
+    }
+    #fileuploadurl, #fileuploadurl2{
+        font-size: 14px;
+        width: 170px;
+    }
+    #myModal2 .previewbox_inner p{
+        line-height: 18px;
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    #myModal2 .previewbox_inner{
+        padding: 20px 20px 20px;
+        text-align: center;
+        min-height: initial;
+    }
+    #myModal2 .previewbox_inner img{
+        margin: 0 auto;
+        width:auto;
+    }
+    #myModal2 .modal-footer{
+        padding: 15px 0px;
+    }
+    #myModal2 .modal-footer .btn1{
+        margin-right: 0;
+    }
+    #myModal2 .modal-body form label{
+        font-size: 14px;
+    }
+    /*======couple info end======*/
+    /*divya guest*/
+    .TabletopD .middletext{
+        padding-left: 10px;
+    }
+    .TabletopD, .TablemiddleD {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .coupleinfo_viewbox p span{
+        display: inline;
+    }
+    .Guestwedding {
+        padding-bottom: 0px;
+    }
+    .noleft,.noright{
+        padding: 0px;
+    }
+    .guestsDboxslast{
+        width: 30%;
+    }
+    .guestsDboxs{
+        width: 17%;
+    }
+    .filterdataD .guestdropdown{
+        right:0;
+    }
+    .Groupdropdown .guestdropdown{
+        left:initial;
+        right:0;
+    }
+    /*divya end*/
+    /*tde start*/
+    /*tde End*/
+    /*======priyank start======*/
+
+    .form_guest_popup2 .form_left_padding {
+        padding: 0px 120px;
+    }
+    #myModal_guest .table_row {
+        padding: 0px 90px;
+    }
+    .form_guest_popup {
+        padding: 18px 50px;
+    }
+    #myModal_guest .modal-body_guest_popup {
+        padding: 35px 50px;
+    }
+
+    /*======priyank end======*/
+    #myModal_guest .col-sm-6{
+        padding: 0px 15px;
+    }
+    #myModal_guest .form_guest_popup2 .form_preview .col-sm-6{
+        padding: 0px;
+    }
+    .modal-title img {
+        width: 50px;
+    }
+    .padright0{
+        padding-right: 0px!important;
+    }
+    .guestlistaddedmessage{
+        right:10px;
+        width:300px;
+    }
+    /*feedback*/
+    .feedbackmodal1 .modal-content {
+        height: 700px;
+    }
+    .feedbackpagelist{
+        height: initial;
+    }
+    .pagelist .feedbackIcona{
+        float: left;
+    }
+    .feedbackpagelist .normalhide, .feedbackpagelist .EditD, .feedbackpagelist .delete{
+        display: inline-block;
+    }
+    .feedbackItemJ .noleft{
+        padding-right: 15px;
+    }
+    .previewmodalclass .modal-body .slick h3,.previewmodalclass .modal-body p{
+        text-align: center;
+    }
+    #ADDGUEST .ModalBottom .slidebottom {
+        min-height: 600px;
+    }
+
+    .deletewidth{
+        opacity: 1!important;
+    }
+    /*bootstrap slider*/
+    .previewmodalclass .carousel-control.left{
+        left:24%;
+    }
+    .previewmodalclass .carousel-control.right{
+        right:24%;
+    }
+    .checklistform .bootstrap-datetimepicker-widget {
+        left: 0px!important;
+    }
+    .addtaskmodal .checklistform {
+        padding: 20px 20px 0px 20px;
+    }
+    .checklistform .myDropdown2 .dropdown2 dd ul{
+        top:64px;
+    }
+    .checklistform  #fileuploadurl{
+        width:230px;
+    }
+    /*budget*/
+    .Budgettableboxbottom .deletewidth{
+        right: 30px;
+        margin-top: -5px;
+    }
+    .Budgettableboxbottom .EditD{
+        top: 6px;
+        right: 2px;
+    }
+    .BudgetTick{
+        width: 100%;
+    }
+    .categoryD{
+        width: 49%;
+        margin-left: 6%;
+    }
+    .Budgetsection .filtersectionD .SearchD{
+        width:45%;
+    }
+    #Budgetonload .modal-body {
+        padding: 15px 15px;
+    }
+    #Budgetonload .checklistform {
+        padding: 10px 20px 0px 20px;
+    }
+    #Budgetonload form {
+        padding: 0px 5px;
+    }
+    /*budget end*/
+    /*message page start*/
+
+    .sendbox .file,.sendbox .photo,.sendbox .Schedulebox{
+        width: 33.33%;
+    }
+    .sendbox{
+        padding: 0px 20px;
+    }
+    /*.sendbox .Schedulebox{
+        width: 35%;
+    }*/
+    /*--priyank  message start--*/
+
+    .message_sheduled_box2_one {
+        padding: 15px;
+    }
+    /*--priyank  message end--*/
+    /*==deepak datetimer page start==*/
+    .p_rt{
+        padding-right:0px;
+    }
+    .p_lt{
+        padding-left: 0px;
+    } 
+    .model_datetimer h1 {
+        padding-left: 0px;
+    }
+    /*==deepak datetimer page End==*/
+    #msg1, #msg2{
+        padding-left: 21%;
+    }
+    .receiptuser img{
+        margin-right: 5px;
+    }
+    .receiptuser .tag-sel-ctn{
+        width: 100% !important;
+    }
+
+    .send_confirmation h2{
+        width: 20%;
+    }
+    .send_confirmation .tick {
+        width: 15%;
+    }
+    /*message page end*/
+    /*social page start*/
+
+    .widthcolsocial{
+        width: 100%;
+    }
+    .widthcolsocial.paddingright{
+        padding-right: 0;
+    }
+    .widthcolsocial.paddingleft{
+        padding-left: 0;
+    }
+    .search .input-group .form-control{
+        width: 90%;
+    }
+    .msg_heading h2{
+        margin-bottom: 20px;
+    }
+    .social_msg{
+        margin-bottom: 30px;
+    }
+    .scroll {
+        max-height: 425px;
+    }
+
+    /*social page end*/
+    /*registery page start*/
+    .width100{
+        width: 100%;
+        border-bottom: 1px solid #dddde1;
+    }
+    .registery_details .col-xs-3:last-child .detail_box{
+        border: none;
+    }
+    .printreg {
+        width: 100%;
+        margin: 10px 0px 20px;
+    }
+    .printreg a{
+        float: left;
+        margin-left: 10px;
+    }
+    .addreg_details .paddingright{
+        margin-right: 0px;
+    }
+    .addreg_details a{
+        margin: 8px;
+    }
+    /*reg modal start*/
+    .regstoreModal.modal-dialog {
+        width: 94%;
+        margin: 0 auto;
+    }
+    .register_store .storecol p{
+        font-size: 12px;
+    }
+    .regstoreModal .modal-header p span{
+        font-size: 14px;
+    }
+    .register_store .storecol .colwidth p{
+        width: 100%;
+    }
+    .regstoreModal .regitems_heading h3{
+        font-size: 12px;
+    }
+    .regstoreModal .regitems_heading .tick{
+        margin-left: 40px;
+    }
+    .modal-body .tick label{
+        font-size: 12px;
+    }
+    .tick label span{
+        top: 5px;
+        left: 20px;
+    }
+    .sendbox .btnsend{
+        float: unset;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #regModal .modal-dialog{
+        width: 94%;
+        margin: 0 auto;
+    }
+    #regModal .modal-body h3:after,#regModal .modal-body h3:before{
+        width: 120px;
+    }
+    #regModal .modal-body h2{
+        margin-bottom: 15px;
+    }
+    #regModal .modal-body h3{
+        margin: 20px 0px; 
+    }
+    .custom-select{
+        width: 150px;
+    }
+    .select-items div, .select-selected{
+        font-size: 14px;
+        padding: 12px 16px; 
+    }    
+    .select-selected:after{
+        top: 18px;
+    }
+    #regModal .storeselect .form-control{
+        height: 46px;
+    }
+    #regModal .downloadbtn{
+        font-size: 14px;
+        padding: 8px 22px;
+        margin-top: 30px;
+    }
+    .content_datertimer .bootstrap-datetimepicker-widget{
+        margin-top: 0;
+    }
+    /*reg modal end*/
+    /*registery page end*/
+    .chat_inner .chat_content{
+        display: block;
+    }
+    .sender .chattime{
+        position: absolute;
+        bottom:0;
+    }
+    .reciever .chattime{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .chatinput  .input-group{
+        width:100%;
+    }
+    /*settings page start*/
+    .wedpermission .col-xs-10{
+        width: 100%;
+    }
+    .wedpermission .permi_inner .width3{
+        width: 50%;
+    }
+    .settings .settingsbtns a {
+        padding: 10px 30px;
+    }
+    .wedsettings .myDropdown{
+        margin: 10px 0px 80px 0px;
+    }
+    .plan h5.minheight {
+        min-height: 88px;
+    }
+    /*settings page start*/
+    .floatright {
+        float:initial;
+    }
+
+
+    /*index page start*/
+    .widthinner {
+        width: 50%;
+    }
+    .widthinner2 {
+        width: 65%;
+    }
+    .widthinner3 {
+        width: 35%;
+    }
+    .searchwedding .form-control {
+        padding: 10px 10px;
+    }
+    .weddinglist .listheading h3 span {
+        font-size: 14px;
+    }
+    .listheading {
+        padding-left: 65px;
+    }
+    .weddinglist .width.width1 {
+        width: 40%;
+    }
+    .widthactive50 {
+        width: 60%;
+    }
+    /*index modal start*/
+    .indexmodal .select-items div, 
+    .indexmodal .select-selected {
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+    .indexmodal .weddingnames .form-control{
+        font-size: 14px;
+        padding: 12px 16px;
+        height: 46px;
+    }
+    .indexmodal .weddingattachments {
+        margin: 15px 0px 30px;
+    }
+    .indexmodal .btn1{
+        font-size: 14px;
+    }
+    /*index modal end*/
+    /*index page end*/
+    #mediaModal .scroll {
+        max-height: 228px;
+    }
+
+    /*eventpage start*/
+
+    .eventbox{
+        padding: 10px 0px;
+    }
+    .eventwidth1,.eventwidth2{
+        width: 25%;
+    }
+    .eventwidth3 {
+        width: 35%;
+    }
+    .eventbox .deletewidth{
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    .eventwidth3 h4 span{
+        margin-bottom: 5px;
+        margin-right: 8px;
+    }
+    .eventwidth3 h4{
+        padding: 10px 0px 5px;
+    }
+    .Budgetsection .filtersectionD .SearchD.eventsearch {
+        margin-bottom: 0;
+    }
+    /*event modal start*/
+    .eventtabs{
+        margin-top: 20px;
+    }
+    .eventtabs a{
+        padding: 5px 6px;
+    }
+    /*.eventinfo .widthmodal {
+        width: 50%;
+    }*/
+    .padleft {
+        padding-left: 15px;
+        width: 55%;
+    }
+    /*.eventinfo {
+        padding: 0px 30px 0px 30px;
+    }*/
+    .eventmodal #eventfileuploadurl{
+        font-size: 14px;
+    }
+    .eventattachment .file-upload img {
+        margin-right: 10px;
+    }
+    .eventmodal .modal-title{
+        display: block;
+        margin-top: 0px;
+    }
+    .eventmodal .modal-header h4{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .eventmodal .modal-header h4 span{
+        margin: 0 auto;   
+    }
+    .eventmodal .modal-header h3{
+        font-size: 11px;
+        width: 24%;
+        margin-top: 15px;
+    }
+    .eventmodal .modal-header h3 span {
+        font-size: 18px;
+    }
+    .agendawidth.width1 {
+        width: 43%;
+        padding-right: 15px;
+    }
+    .agendawidth.width2 {
+        width: 43%;
+        padding-left: 15px;
+    }
+    .agendaleft{
+        padding-right: 0;
+    }
+    /*.addtimeslot a {
+        margin-right: 0px;
+    }*/
+    .hotelreview .width2 .form-group .form-control {
+        width: 100%;
+    }
+    .hotelreview .width1 .form-group .form-control {
+        width: 100%;
+    }
+    .accomopadright {
+        padding-right: 15px;
+    }
+    .accomopadleft {
+        padding-left: 15px;
+    }
+    .inviteattendee{
+        width: 100%;
+    }
+    .eventattendeswidth.width2 h6{
+        font-size: 14px;
+    }
+    .eventattendeswidth.width2 {
+        width: 20%;
+    }
+    .eventattendees .myDropdown2 dl {
+        width: 130px;
+    }
+    .eventattendeswidth.width3 {
+        width: 52%;
+    }
+    .eventattendees .tableguest .forrelative {
+        padding: 10px 15px;
+    }
+    .inviteattendee .guestdropdown{
+        right: unset;
+        left: 0;
+        top: 40px;
+    }
+    .eventinfoinner {
+        padding: 0px 15px 0px 15px;
+    }
+    .eventinfo .widthmodal{
+        width: 45%;
+    }
+    .eventmodal .select-selected:after{
+        top: 15px;
+    }
+    .accomowidth.width1 {
+        width: 35%;
+    }
+    .eventattendees .filtersectionD .SearchD.Searchupper {
+        width: 190px;
+    }
+    .inviteattendee a{
+        margin-top: 15px;
+    }
+    .inviteattendee .dropdown-menu>li>a{
+        margin-top: 0;
+    }
+    .inviteattendee .SearchD{
+        width: 177px;
+    }
+    .eventattendees a.resend{
+        margin-top: 6px;
+    }
+    .eventmodal .form-group .form-control, .eventmodal .form-group textarea.form-control{
+        font-size: 12px;
+    }
+    .agendainner a.deletechoice{
+        display: block;
+    }
+    .hotelreview a{
+        display: block;
+    }
+    .attendesanchor{
+        display: block;
+    }
+    /*event modal end*/
+    /*eventpage end*/
+
+
+}
+@media screen and (max-width: 560px){
+    /*.header {
+        top: 95px;
+    }*/
+    .sidenav{
+        width: 240px;
+        left: -240px;
+        /* top: 167px;*/
+    }
+    .dashboard_outer.height {
+        margin-top: 167px;
+    }
+    .content h2 {
+        font-size: 24px;
+    }
+    .content h3 {
+        font-size: 12px;
+    }
+    .icons .icon_left {
+        width: 40px;
+        height: 40px;
+    }
+    .congo h2{
+        font-size: 12px;
+    }
+    .congo p {
+        font-size: 16px;
+    }
+    .dashboard_details{
+        margin-top: 20px;
+    }
+    .tasks label{
+        font-size: 14px;
+    }
+    .social_guest {
+        padding: 30px 15px 30px 90px;
+    }
+    /*.social_guest:before {
+        left: 30px;
+    }*/
+    .guest_para p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .guest_para {
+        margin-top: 10px;
+    }
+    .guest_heading h3{
+        margin-bottom: 4px;
+    }
+    .guest_heading h2{
+        font-size: 14px;
+    }
+    .tasklist .tasks{
+        padding: 15px 15px;
+    }
+    .tasks label span{
+        /*        left: 15px;*/
+        top: 28px;
+    }
+    .dashboard_view{
+        background-position: center center;
+    }
+    .header .navbar-nav > li > a {
+        font-size: 12px;
+        margin: 0px 6px;
+    }
+    .dashboard_taskleft .social_share {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .dashboard_view{
+        padding-bottom: 15px;
+    }
+    .overviewmodal .modal-content{
+        padding: 30px 15px;
+    }
+
+    /*.header {
+        top: 95px;
+    }*/
+    /*.dashboard_outer.height {
+        margin-top: 152px;
+    }*/
+    /*.sidenav {
+        top: 154px;
+    }*/
+    .overviewmodal .modal-header h4{
+        margin-left: 0px;
+    }
+    .overviewmodal .modal-title{
+        font-size: 16px;
+    }
+    .overviewmodal .modal-header h4 span{
+        font-size: 12px;
+    }
+    .permi_inner .width3{
+        width:50%;
+    }
+    .permi_inner .deletewidth{
+        width:30px;
+        height: 30px;
+    }
+    .overviewmodal .items {
+        padding: 10px 0px;
+    }
+    /*    .permi_heading h4 a{
+            display: block;
+        }*/
+    .permi_heading h4 a i{
+        margin-top: 13px;
+        margin-left: 0;
+    }
+    .permi_heading .tooltip-inner{
+        width:200px;
+        max-width: 200px;
+    }
+    /*gagan*/
+    /*======couple info start======*/
+    .sidenav_info {
+        top: 73px;
+    }
+    .header_info{
+        top: 0;
+    }
+    .coupleinfo_viewbox p span{
+        display: inline;
+    }
+    .couple_border form .col-xs-6{
+        width: 100%;
+    }
+    .couple_border form .col-xs-6.noleft{
+        padding: 0;
+    }
+    .couple_border form .col-xs-6.noright{
+        padding: 0;
+    }
+    .couple_form .form-group {
+        margin-bottom: 20px;
+    }
+    .couple_form form h4{
+        margin-bottom: 8px;
+    }
+    .coupleinfo_inner2 .couplebtns a{
+        padding: 10px 25px;
+    }
+
+    .widthcol3 {
+        width: 100%;
+    }
+    #myModal2 .modal-body .col-xs-6{
+        width: 100%;
+    }
+    #myModal2 .modal-body .col-xs-6.noleft{
+        padding-right: 0;
+    }
+    #myModal2 .modal-body .col-xs-6.noright{
+        padding-left: 0;
+    }
+    #myModal2 .previewbox_inner {
+        min-width: 90%;
+
+    }
+    #myModal2 .previewbox {
+        margin-top: 20px;
+    }
+    /*======couple info end======*/
+    /*divya guest*/
+    .TablebottomD .btn{
+        font-size: 8px;
+    }
+    .TablewidthD{
+        width:100%;
+        margin: 0px;
+    }
+    .TablemiddleD .Tablemiddlewidth{
+        width:50%;
+    }
+    .guestsDboxs p{
+        font-size: 8px;
+    }
+    .guestsDboxs h6{
+        font-size: 15px;
+    }
+    .tableguest .RowD h6{
+        font-size: 12px;
+    }
+    .tableguest .RowD a {
+        margin-right: 4px;
+    }
+    .tableguest .deletewidth{
+        right:0;
+    }
+    .tableguest .columnD{
+        font-size: 8px;
+        padding: 13px 0px;
+        height: 34px;
+    }
+    .tableguest .Fortableimage{
+        width: 30px;
+        height: 30px;
+        margin-top: 7px;
+    }
+    .tableguest .RowD a img,.Fortabledropdown img,.guestsDboxs img{
+        width:17px;
+    }
+    .filtersectionD .SearchD{
+        width:172px;
+    }
+    .guestsDboxslast a{
+        padding-left: 27px;
+    }
+    .guestsDboxs{
+        width:25%;
+    }
+    .guestsDboxslast {
+        width: 100%;
+        padding-left: 20px;
+        border-bottom: 1px solid #dddde1;
+    }
+    .FiltersD{
+        margin-left: 10px;
+    }
+    /*divya end*/
+    /*tde start*/
+    .tde .form_class form {
+        width: 100%; 
+        margin: 0 auto;
+    }
+    /*tde end*/
+    /*======priyank start======*/
+    .heading_timeline p {
+        font-size: 12px;
+    }
+    #myModal_guest .form_guest_popup {
+        background: #f9f8f8;
+        padding: 20px 15px;
+    }
+    .form_guest_popup2 .form_left_padding {
+        padding: 0px 15px;
+    }
+    #myModal_guest .table_row {
+        padding: 0px 15px;
+    }
+    /*======priyank end======*/
+    .book label {
+        width: 35px;
+        height: 35px;
+        margin-right: 9px;
+    }
+    .pagelist .width2,.pagelist .width3 {
+        width: 100%!important;
+    }
+    .slider .slick {
+        padding: 0px 15px;
+    }
+    .coupleinfo_inner2 .couple_border, .coupleinfo_inner2 .story_border{
+        padding: 20px 15px;
+    }
+    .tasklist .tasks a{
+        display: block;
+        width: 100%;
+        text-align: right;
+    }
+    .tasklist .tasks span.dot{
+        right: 65px;
+        bottom: 33px;
+        top:initial;
+    }
+
+    #myModal_guest .modal-content{
+        height: 700px;
+    }
+    #ADDGUEST .ModalTop {
+        padding: 10px 10px 30px 10px;
+    }
+    #ADDGUEST .ModalTop .left img {
+        width: 50px;
+    }
+    #ADDGUEST .ModalTop .textrightsec{
+        margin-top: 11px;
+        margin-left: 9px;
+    }
+    .Budgetsection .filtersectionD .SearchD{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .categoryD{
+        width:65%;
+        margin-left: 0;
+    }
+    .BudgetTick {
+        width: 35%;
+    }
+    .BudgetTick .tick{
+        float:right;
+        width:initial;
+    }
+    /*budget end*/
+    /*message page start*/
+
+    .send_confirmation h2{
+        font-size: 12px;
+        width: 28%;
+
+    }
+    .send_confirmation .tick label{
+        font-size: 12px;
+
+    }
+    .sendbox #fileuploadurlfile, .sendbox #fileuploadurlphoto{
+        font-size: 12px;
+    }
+    .sendbox .Schedulebox a{
+        font-size: 12px;
+    }
+    /*.sendbox .Schedulebox{
+        width: 51%;
+    }*/
+    .sendbox .btnsend{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .sendbox .btnsend img{
+        margin-left: 15px;
+    }
+    .send_confirmation .tick{
+        width: 22%;
+    }
+    .msg_content_links a{
+        font-size: 12px;
+        margin: 5px 25px 5px 0px;
+    }
+    /*--priyank message page start--*/
+
+    .message-right_anchors li:nth-child(3) a,.message-right_anchors li:nth-child(2) a {
+        margin: 0px 0px;
+    }
+    .message-right_anchors li a{
+        font-size: 12px;
+    }
+    .message-right_anchors ul li{
+        margin: 5px 0px;
+        margin-right: 20px;
+    }
+    .message-right_anchors ul li:first-child{
+        float: unset;
+        text-align: right;
+    }  
+    .message-right_anchors .message_right_dropdown .message_right_dropdown-content a{
+        text-align: left;
+        float: left;
+    }
+    /*--priyank message end--*/
+    /*==deepak datetimer page start==*/
+    .content_datertimer {
+        background-color: #f9f8f8;
+        padding: 30px 0px; 
+    }
+    .close img {
+        position: relative;
+        left: -30px;
+        bottom: 0px;
+    }
+    #schedulemodal .deletetime{
+        margin: 0px 40px 0px 0px;
+    }
+    .model_datetimer h1{
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    #schedulemodal .content_datertimer .datertimer_body {
+        padding-top: 30px;
+    }
+    #schedulemodal .timepicker {
+        margin-left: 0px;
+    }
+    #schedulemodal .content_datertimer{
+        padding: 30px;
+    }
+    /*==deepak datetimer page End==*/
+    /*voter modal start*/
+    #votermodal .modal-dialog{
+        width: 90%;
+    }
+    .voterslist ul li{
+        padding-left: 68px;
+    }
+    .voterslist ul li span{
+        font-size: 14px;
+    }
+    #votermodal .modal-content{
+        padding: 20px 15px 20px 15px;
+    }
+    /*voter modal end*/
+    .polls .progress{
+        width: 56%;
+    }
+    .polls .progress.progress2 {
+        width: 30%;
+    }
+    .polls .progress.progress3 {
+        width: 40%;
+    }
+    #msg1, #msg2{
+        width: 100% !important;
+    }
+    .receiptuser img{
+        margin-right: 5px;
+    }
+    .receiptuser .tag-sel-ctn{
+        width: 100% !important;
+    }
+    /*message page end*/
+    /*social page start*/
+    .social_comment p{
+        padding: 20px 20px 20px 20px;
+    }
+    .add_comment_inner h3:before{
+        left: 20px;
+
+    }
+    .add_comment_inner h3,.add_comment_inner p,.add_comment_inner iframe,.add_comment_inner .comment_videos,.add_comment_inner .play_button{
+        padding-left: 100px;
+        padding-right: 20px;
+    }
+    /*.add_comment_inner{
+        padding-left: 100px;
+        padding-right: 20px;
+    }*/
+    .add_comment .social_options{
+        padding: 15px 20px 0px 0px;
+    }
+    /*.add_comment_inner iframe{
+        width: 100%;
+        height: 96%;
+    }*/
+    .add_comment_inner .comment_videos{
+        min-height: 216px;
+    }
+    .add_commentbtns a{
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    .add_commentbtns a.leave_cmnt_hide{
+        margin: 15px 0px 0px;
+    }
+    .search .input-group .form-control {
+        width: 85%;
+    }
+    #mediaModal .social_media a img{
+        width: 50%;
+    }
+    #mediaModal .social_media a{
+        text-align: center;
+    }
+    #mediaModal .modal-body .tasks label span{
+        width: 15px;
+        height: 15px;
+    }
+    #mediaModal .close img {
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+    }
+    #mediaModal .modal-header .close {
+        margin-top: 0px;
+    }
+    #mediaModal .modal-content{
+        padding: 15px 15px 15px 15px;
+    }
+    #mediaModal button.popupcross{
+        top: 10px;
+        right: 10px;
+    }
+    #mediaModal .tick label{
+        font-size: 14px;
+    }
+    .downloadbtn{
+        font-size: 12px;
+    }
+    /*social page end*/
+    /*registery page start*/
+    .registery_details .col-xs-3{
+        width: 50%;
+    }
+    .registery_details .col-xs-3:nth-child(1) .detail_box{
+        border-bottom: 1px solid #dddde1;
+    }
+    .registery_details .col-xs-3:nth-child(2) .detail_box{
+        border-bottom: 1px solid #dddde1;
+        border-right: none;
+    }
+    .addregdetail_box .imgright{
+        margin-top: 10px;
+    }
+    .addregdetail_box {
+        min-height: 159px;
+    }
+    .addregistery{
+        padding-bottom: 40px;
+    }
+    .registery {
+        padding: 30px 15px 380px;
+    }
+    /*reg Modal start*/
+    .colwidth {
+        width: 30%;
+    }  
+    .colwidth3 {
+        width: 10%;
+    } 
+    .regstoreModal .regitems_heading .tick{
+        float: right;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .regitems_heading .input-group{
+        width: 100%;
+    }
+    .regitems_heading .input-group .form-control{
+        width: 100%;
+    }
+    button.popupcross2 img{
+        left: 0;
+        top: 0;
+    }
+    button.popupcross img{
+        left: 0;
+        top: 0;
+    }
+    #regModal .modal-content{
+        padding: 30px 15px;
+    }
+    #regModal .modal-body h3:after, #regModal .modal-body h3:before{
+        width: 65px;
+    }
+    .custom-select{
+        width: 105px;
+    }
+    .select-items div, .select-selected{
+        padding: 10px;
+    }
+    .select-selected:after{
+        top: 16px;
+        right: 12px;
+    }
+    #regModal .storeselect .form-control{
+        height: 42px;
+    }
+    /*reg Modal end*/
+    /*registery page end*/
+    .modal-body .column {
+        width: 50%;
+    }
+    .modal-body .social_media{
+        padding-top: 15px;
+    }
+    /*settings page start*/
+    .wedsettings dl{
+        width: 100%;
+    }
+    .Setinner2 .wedsettings, .Setinner2 .wedpermission{
+        padding: 15px;
+    }
+    .wedpermission .permi_inner .width1 {
+        width: 10%;
+    }
+    .wedpermission .permi_inner .width2 {
+        width: 28%;
+    }
+    .wedpermission .items {
+        padding: 5px 0px;
+    }
+    .profilesetting, .preference{
+        padding: 15px;
+    }
+    .profilesetting{
+        padding-bottom: 30px;
+    }
+    .profilesetting form .input-group{
+        width: 100%;
+    }
+    .profilesetting form .input-group .form-control{
+        font-size: 14px;
+        height: 40px;
+    }    
+
+    .lang #myDropdown,
+    .dd-select{
+        width: 100% !important;
+    }
+    .preference .myDropdown2 dl{
+        width: 100%;
+    }
+    .plan h3{
+        min-height: 30px;
+    }
+    .plan h5.minheight {
+        min-height: initial !important;
+        font-size: 12px;
+    }
+    .plan{
+        padding: 15px; 
+    }
+    /*settings page end*/
+    .WidthSET{
+        width:100%;
+    }
+
+    /*index page start*/
+    .searchwedding .input-group {
+        width: 66%;
+    }
+    .widthinner2 {
+        width: 100%;
+    }
+    .widthinner3 {
+        width: 55%;
+    }
+    .weddinglist{
+        padding: 30px 15px 15px;
+    }
+    /*.listheading:before {
+        top: 0px;
+    }*/
+    /*.weddinglist .listheading h3{
+        line-height: 27px;
+    }*/
+    .weddinglist .listheading h3{
+        margin-bottom: 10px;
+    }
+    .weddinglist .width.width1 {
+        width: 100%;
+    }
+    .weddinglist .width.width2 {
+        width: 20%;
+        margin-top: 10px;
+    }
+    .weddinglist .width.width3 {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .weddingmenu{
+        position: relative;
+    }
+
+    .widthactive50 {
+        width: 100%;
+    }
+
+    /*index modal start*/
+    .indexmodal .modal-content {
+        padding: 15px;
+    }
+    .indexmodal .select-items div, .indexmodal .select-selected {
+        font-size: 12px;
+        padding: 12px 16px;
+    }
+    .indexmodal .weddingnames .form-control {
+        font-size: 12px;
+        padding: 12px 16px;
+        height: 43px;
+    }
+    .indexmodal .modal-body .weddingnames h4,
+    .indexmodal .weddingnames .form-group label,
+    .indexmodal .notes label,
+    .indexmodal .modal-body .weddingdates h4,
+    .indexmodal .weddingdates .Budgetclock label{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .indexmodal .notes form {
+        margin-top: 15px;
+    }
+    .indexmodal .notes textarea.form-control{
+        padding: 15px;
+    }
+    .indexmodal dl a {
+        padding: 12px 16px;
+    }
+    .indexmodal .weddingdates .Budgetclock .form-control{
+        padding: 12px 16px;
+        height: 46px;
+        font-size: 14px;
+    }
+    .indexmodal dl b{
+        font-size: 14px;
+    }
+    /*.indexmodal .bootstrap-datetimepicker-widget{
+        top: 75px!important;
+    }*/
+    .indexmodal .btn1{
+        font-size: 12px;
+    }
+    /*index modal end*/
+    /*index page end*/
+    #msg1, #msg2 {
+        padding-left: 0%;
+    }
+    .ForRgistryWidth {
+        width: 100%;
+        text-align: center;
+    }
+    .addreg_details a {
+        margin: 8px auto;
+        width: 200px;
+    }
+    .checklistsection .ForEditPopup{
+        width: 72%;
+        height: 50%;
+    }
+    .modal-body .tasks label span:after{
+        height: 6px;
+        left: 2px;
+        width: 8px;
+        top: 2px;
+    }
+    .modal-header #gallery_tabs{
+        margin-top: 30px;
+    }
+    .modal-header .gallerybtn2{
+        padding-left:25px;
+        padding-right: 25px;
+    }
+    .sender .chatdata h4{
+        margin-left: 60px;
+    }
+    .reciever .chatdata h4{
+        margin-right: 60px;
+    }
+    .weddingmenu a.message_right_dropbtn{
+        top: -41px;
+    }
+    .message_right_dropdownIndex .message_right_dropdown-content{
+        top: 23px;
+    }
+    .profilesetting form a{
+        left:initial;
+        right:0;
+    }
+    #mediaModal .scroll {
+        max-height: 208px;
+    }
+
+    /*eventpage start*/
+
+    .eventwidth1 h3{
+        font-size: 14px;
+    }
+    .eventwidth3 {
+        width: 85%;
+    }
+    .eventwidth1, .eventwidth2 {
+        width: 50%;
+    }
+    .eventboxheading .eventwidth1,
+    .eventboxheading .eventwidth2,
+    .eventboxheading .eventwidth3{
+        width: 33.33%;
+    }
+    .eventbox .deletewidth{
+        margin-top: 0;
+    }
+    /*event modal start*/
+    .eventmodal .modal-header h3{
+        width: 49%;
+        padding: 10px 0px;
+    }
+    .eventtabs a{
+        width: 44%;
+        text-align: center;
+        margin: 5px 6px;
+    }
+    .eventtabs a img{
+        float: unset;
+        display: inline-block;
+    }
+    .eventinfo .widthmodal {
+        width: 100%;
+    }
+    .eventinfo .widthmodal.widthmodal2 {
+        width: 100%;
+    }
+    .eventinfo .padleft.widthmodal2 {
+        width: 100%;
+    }
+
+    .padleft {
+        width: 100%;
+    }
+    .eventmodal .custom-select{
+        margin-bottom: 20px;
+    }
+    .agendawidth.width1 {
+        width: 75%;
+        padding-right: 0px;
+    }
+    .agendawidth.width2 {
+        width: 75%;
+        padding-left: 0px;
+    }
+    .agendainnerwidth .agendawidth.width1,
+    .agendainnerwidth .agendawidth.width2{
+        width: 50%;
+        text-align: center;
+    }
+    .rehersaldinner {
+        width: 100%;
+        min-height: 180px;
+        margin-bottom: 30px;
+    }
+    .hotelreviewlabels .accomowidth.width1,
+    .hotelreviewlabels .accomowidth.width2{
+        width: 50%;
+    }
+    .accomowidth.width1 {
+        width: 75%;
+        padding-right: 0px;
+    }
+    .accomowidth.width2 {
+        width: 75%;
+        padding-left: 0px;
+    }
+    .hotelreview .width1 .form-group .form-control {
+        width: 100%;
+    }
+    .eventattendees .filtersectionD .SearchD {
+        width: 100%;
+    }
+    .eventattendees .FiltersD{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .inviteattendee a{
+        margin-top: 15px;
+    }
+    .eventattendeswidth.width2 {
+        width: 40%;
+    }
+    .eventattendeswidth.width3 {
+        width: 65%;
+        margin-top: 15px;
+    }
+    .eventattendees .myDropdown2 dl {
+        width: 145px;
+    }
+    .eventattendees .filtersectionD .SearchD.Searchupper{
+        width: 100%;
+    }
+    /*.inviteattendee .guestdropdown{
+        top: 125px;
+    }*/
+    .eventattendees a.resend {
+        margin-top: 0px;
+    }
+    .eventattendeswidth .dd-select{
+        width: 132px !important;
+    }
+    .eventattendeswidth .dd-container {
+        width: 135px !important;
+    }
+    .eventattendeswidth .dd-selected-text{
+        font-size: 12px;
+    }
+    .dd-image-right{
+        margin-right: 10px !important;
+    }
+    .eventattendeswidth .dd-image-right {
+        margin-top: 3px;
+    }
+    .eventattendeswidth .dd-option-text{
+        font-size: 12px;
+    }
+    .eventattendeswidth .dd-option{
+        width: 125px !important;
+    }
+    .eventattendeswidth .dd-options{
+        width: 130px !important;
+    }
+    .guestdropdownevent{
+        left: unset;
+        right: 0;
+    }
+    /*event modal end*/
+    /*eventpage end*/
+
+
+}
+@media screen and (max-width: 414px){
+    .header {                                       /*gagan change*/
+        top: 95px;
+    }
+    .header_info{
+        top: 0;
+    }
+    .dashboard_outer.height {
+        margin-top: 168px;
+    }
+    .sidenav {                                      
+        top: 168px;
+    }
+    .sidenav_info {                                /*gagan change*/
+        top: 73px;
+    }
+    .notification_bar .cross {
+        padding-right: 0px;
+    }
+    .dashboard_view .col-xs-6{
+        width: 100%;
+    }
+    .tasks label{
+        display: inline-block;
+        width: 80%;
+    }
+    .congo p {
+        font-size: 16px;
+    }
+    .header .hamburger{
+        width: 27px;
+        height: 52px;
+        padding: 13px 0px;
+    }
+    .overviewmodal .modal-header h4 img{
+        margin-right: 5px;
+        width: 19px;
+    }
+    .overviewmodal .modal-header h4 span {
+        font-size: 11px;
+        margin-top: 4px;
+    }
+    .permi_inner .width1,.permi_inner .width2 {
+        width: 50%;
+    }
+    .permi_inner .width3{
+        width:80%;
+    }
+    .permi_inner .deletewidth{
+        margin-top: -3px;
+    }
+    .overviewmodal dl{
+        width:100%;
+    }
+    /*gagan*/
+    /*======couple info start======*/
+    .coupleinfo_inner2 .couplebtns{
+        margin: 0px auto 30px;
+    }
+    .couple_form form .btn3{
+        float: unset;
+        margin: 30px auto 0px; 
+        display: block;
+    }
+    #myModal2 .previewbox_inner {
+        min-width: 90%;
+        min-height: 265px;
+    }
+    .coupleinfo_viewbox p {
+        font-size: 14px;
+    }
+    .coupleinfo_viewbox p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+
+    /*======couple info end======*/
+    /*divya guest*/
+    .gusetWidth1,.gusetWidth2{
+        width:100%; 
+    }
+    .guestD .guestDrightinner{
+        position: static;
+    }
+    .guestD{
+        padding: 30px 15px;
+    }
+    .FiltersD{
+        margin-left: 10px;
+    }
+    .gueststabledata, .guesttableD .gtlink {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .filtersectionD .SearchD ,.FiltersD{
+        width: 130px;
+
+    }
+    .tableguest .RowD a img, .Fortabledropdown img, .guestsDboxs img,.tableguest .deletewidth img {
+        width: 13px;
+    }
+    .tableguest .deletewidth {
+        margin-top: 0px;
+    }
+    .tableguest .Fortableimage {
+        width: 24px;
+        height: 24px;
+        margin-top: 13px;
+    }
+    .tableguest .Fortableimage .fortoptext{
+        font-size: 7px;
+        width: 10px;
+        height: 10px;
+    }
+    .tableguest .RowD p{
+        font-size: 7px;
+    }
+    .tableguest .RowD h6 {
+        font-size: 9px;
+    }
+    .filterdataD h6{
+        font-size: 10px;
+    }
+    .filterdataD .right a,.filterdataD .right .btn{
+        font-size: 11px;
+    }
+    /*divya end*/
+    /*tde start*/
+    .tde .form_class .btn_de {
+        margin: 40px auto 20px;
+    }
+    /*tde end*/
+    /*gagan change*/
+    .book label {
+        width: 40px;
+        height: 40px;
+        margin: 0px 11px;
+        margin-top: 15px;
+    }
+    .book label span {
+        width: 20px;
+        height: 20px;
+        top: 6px;
+    }
+    .book label span:after{
+        left: 6px;
+        top: 6px;
+    }
+    /*======priyank start======*/
+    .heading_timeline p {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    #myModal_guest .modal-body_guest_popup {
+        padding: 30px 20px;
+    }
+    #myModal_guest .heading_timeline1 {
+        left: -30px;
+    }
+    #myModal_guest .heading_timeline3 {
+        right: -34px;
+    }
+    #myModal_guest .heading_timeline2 {
+        left: -54px;
+    }
+    #myModal_guest .table_row {
+        padding: 0px 5px;
+    }
+    #myModal_guest .numbers_box {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+    #myModal_guest .form_guest_popup {
+        padding: 10px 15px;
+    }
+    .form_guest_popup2 .form_left_padding {
+        padding: 0px 5px;
+    }
+    .form_guest_popup2 .mail_box {
+        padding: 15px 10px 15px 10px;
+        min-height: 94px;
+    }
+    #myModal_guest .modal-footer {
+        padding: 0px 15px 30px;
+    }
+    .modal-footer .next_popupbuttn .fa {
+        margin-left: 10px;
+    }
+    .modal-footer .next_popupbuttn {
+        float: right;
+        padding: 6px 25px;
+        font-size: 12px;
+    }
+    .modal-footer_box a {
+        font-size: 13px;
+    }
+    .form_guest_popup2 .mail_box .form-group .form-control {
+        font-size: 10px;
+    }
+    .checkmark {
+        left: 6px;
+    }
+    #myModal_guest .table>thead>tr>th {
+        font-size: 9px;
+    }
+    #myModal_guest .table>tbody>tr>td {
+        font-size: 10px;
+    }
+    .file_input_pop a {
+        font-size: 12px;
+    }
+    #filedrag .btn {
+        font-size: 12px;
+    }
+    #myModal_guest .form_guest_popup .file_input_pop {
+        padding: 20px 10px 20px 10px;
+    }
+    #myModal_guest .form_guest_popup h3 {
+        font-size: 12px;
+    }
+    /*======priyank end======*/
+    #myModal_guest .heading_timeline{
+        top: -34px;
+    }
+    #filedrag h6 {
+        font-size: 12px;
+    }
+    #myModal_guest .modal-body{
+        padding: 15px 2px;
+    }
+    button.popupcross{
+        right: 15px;
+    }
+    .overviewmodal .modal-body .text2{
+        margin-top: 10px;
+    }
+    .overviewmodal .permi_inner .deletewidth{
+        margin-top: 7px;
+    }
+    /*deepak*/
+    .bootstrap-datetimepicker-widget table td span{
+        margin: 2px 0.5px;
+    }
+    .addtablebtnsecD {
+        width: 151px;
+    }
+    .feedbackadminanchor{
+        margin-top: 10px;
+    }
+    .width414{
+        width:100%;
+    }
+    #ADDGUEST .ModalBottom .slidebottom1, #ADDGUEST .ModalBottom .slidebottom3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #ADDGUEST .fixBottom ul li a{
+        padding: 20px 8px 10px 8px;
+        font-size: 10px;
+    }
+    #ADDGUEST .fixBottom ul li{
+        padding-right: 3px;
+    }
+    #ADDGUEST .fixBottom ul li a img{
+        width:12px;
+    }
+    #ADDGUEST .ModalBottom .slidebottom label{
+        font-size: 12px;
+    }
+    #ADDGUEST .ModalBottom .slidebottom2 .InputBoxs:before{
+        top:18%;
+        margin-top: 0px;
+    }
+    #ADDGUEST .ModalBottom .slidebottom2 .InputBoxsj:before {
+        top: 7%;
+    }
+    #ADDGUEST .ModalBottom .slidebottom2 .InputBoxs .deletewidth{
+        top:24%;
+        opacity: 1;
+    }
+    /*radio*/
+    .radiobtns .inputchoice{
+        margin-left: 20px;
+        width: 180px;
+    }
+    .checklistsection .ckecklisttaskbox1 b{
+        width:auto;
+    }
+    .checklistsection .checklistinput{
+        left: -42px;
+
+        /*        width: 16px;*/
+    }
+    .checklistsection .tasks label{
+        font-size: 12px;
+        line-height: 2;
+    }
+    .checklistsection .tasks label i{
+        margin-left: 13px;
+        font-size: 12px;
+    }
+    .checklistRight .bottom span{
+        margin-right: 6px;
+    }
+    .checklistRight p{
+        font-size: 11px;
+    }
+    .checklistRight .bottom{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    /*budget*/
+    .categoryD {
+        width: 100%;
+    }
+    .BudgetTick {
+        width: 100%;
+    }
+    .BudgetTick .tick {
+        float: left;
+    }
+    .Budgetsection .Btoprightinner{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #Budgetonload h3{
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    #Budgetonload .input-group .form-control{
+        font-size: 13px;
+    }
+    #Budgetonload .input-group .input-group-addon{
+        padding: 6px 17px;
+        font-size: 18px;
+    }
+    /*budget end*/
+    /*message page start*/
+
+    .send_confirmation h2{
+        width: 100%;
+    }
+    .send_confirmation .tick{
+        width: 40%;
+    }
+    .send_confirmation a{
+        margin-top: -20px;
+    }
+    /*.sendbox .btnsend{
+        padding: 14px 21px;
+    }*/
+    /*.sendbox .Schedulebox{
+        padding: 10px 0px;
+    }*/
+    /*.msg_content_links a{
+        margin: 5px 0px;
+    }*/
+    .msg_content_links a{
+        margin: 5px 8px 5px 0px;
+    }
+    .recentsent{
+        padding: 15px 10px 15px 85px;
+    }
+    .msg_content_links {
+        margin-top: 10px;
+    }
+    .padding_col{
+        padding: 0px;
+    }
+    .sendbox .file, .sendbox .photo, .sendbox .Schedulebox{
+        width: 100%;
+    }
+    .msg_content p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .message-right_paragraph p{
+        font-size: 12px;
+    }
+    /*.sendbox .Schedulebox a{
+        float: right;
+    }*/
+    .sendbox .btnsend img {
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    /*voter modal start*/
+    .voterslist ul li{
+        width: 100%;
+        border-bottom: 1px solid #dddde1;
+        padding-left: 80px;
+        padding: 30px 0px 30px 80px;
+        margin: 0;
+    }
+    .voterslist ul{
+        border-bottom: none;
+    }
+    .voterslist ul li span{
+        font-size: 16px;
+    }
+    .voterslist ul li:before{
+        top: 20px;
+    }
+    #votermodal h4.modal-title{
+        text-align: center;
+    }
+    #votermodal .close{
+        margin-top: 0;
+    }
+    #votermodal .close img{
+        left: 0;
+    }
+    /* #votermodal .modal-content{
+         padding: 20px 15px 20px 15px;
+     }*/
+    /*voter modal end*/
+    .polls .progress{
+        width: 45%;
+        height: 30px;
+    }
+    .polls_Content_bars a{
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .polls .progress .progress-bar{
+        line-height: 20px;
+        padding: 6px 12px;
+        font-size: 12px; 
+    }
+    .choicebox .tasks label{
+        width: unset;
+    }
+    .choicebox .tasks .form-control{
+        width: 203px;
+    }
+    /*.sendbox .file, .sendbox .photo{
+        width: 50%;
+    }*/
+    /*.sendbox .Schedulebox{
+        width: 51%;
+    }*/
+    /*message page start*/
+    /*social page start*/
+    .attachments .social_btn{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .social_comment_main {
+        padding: 0px 0px;
+    }
+    .social_comment p {
+        padding: 15px 15px 15px 15px;
+    }
+    .attachments{
+        padding: 0px 0px 0px 15px;
+    }
+    .attachments .file-upload.btn, .attachments .file-upload.btn:hover{
+        padding: 13px 0px;
+    }
+    .attachments .social_btn img {
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    .add_comment_inner h3{
+        line-height: 60px;
+    }
+    .add_comment_inner p,.add_comment_inner iframe,.add_comment_inner .comment_videos,.add_comment_inner .play_button{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .add_comment_inner .comment_videos {
+        min-height: 149px;
+    }
+    .add_comment_inner .play_button img{
+        width: 20%;
+    }
+    .search .input-group .form-control {
+        width: 75%;
+        font-size: 10px;
+    }
+    .gallerybtn{
+        width: 28%;
+    }
+    #mediaModal .tasks label {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+    }
+    #mediaModal .modal-header .gallerybtn {
+        width: unset;
+        text-align: center;
+        padding: 8px 20px;
+    }
+    .downloadbtn{
+        display: block;
+        float: unset;
+        margin: 0 auto;
+    }
+    #mediaModal .modal-footer .tick {
+        padding: 8px 0px;
+        width: 100%;
+        /*display: block; */
+        /*width: max-content;*/
+        /*margin: 0 auto;*/
+        /*display: block; */
+    }
+    .subcomment .add_comment_inner h3:before {
+        top: 0px;
+    }
+    .add_comment .social_options {
+        padding: 10px 15px 0px 0px;
+    }
+    .add_commentbtns a {
+        margin-right: 10px;
+    }
+    /*social page end*/
+
+    /*registery page start*/
+    .addreg_details .col-xs-4{
+        width: 100%;
+    }
+    .addreg_details a{
+        /*        width: 160px;*/
+        margin: 15px auto;
+        display: block;
+    }
+    .addreg {
+        padding-top: 15px;
+    }
+
+    /*reg Modal start*/
+    .regstoreModal .modal-content{
+        padding: 15px;
+    }
+    .regstoreModal .modal-header p span{
+        font-size: 12px;
+    }
+    .colwidth {
+        width: 40%;
+    }
+    .colwidth2 {
+        width: 60%;
+    }
+    .colwidth3 {
+        width: 30%;
+    }
+
+    button.popupcross2{
+        right: 55px;
+    }
+    .regstoreModal .modal-footer .downloadbtn{
+        font-size: 14px;
+        padding: 8px 20px;
+        margin-top: 20px;
+        float: right;
+    }
+    .regstoreModal .modal-footer a{
+        margin-top: 34px;
+    }
+    #regstorecloseModal .modal-footer .downloadbtn{
+        font-size: 14px;
+        padding: 6px 35px;
+    }
+    #regModal .modal-body h2{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #regModal .modal-body h3{
+        font-size: 12px;
+    }
+    #regModal .modal-body h3:after, #regModal .modal-body h3:before{
+        width: 40px;
+    }
+    #regModal .storeselect h4{
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+    /*.storeselect .col-xs-4{
+        width: 100%;
+    }*/
+    #regModal .pdright{
+        padding-right: 0;
+        width: 100%;
+    }
+    #regModal .pdleft{
+        padding-left: 0;
+        width: 100%;
+    }
+    .custom-select {
+        width: 100%;
+    }
+    .select-items div, .select-selected {
+        padding: 10px 14px;
+    }
+    .select-selected:after {
+        top: 16px;
+        right: 16px;
+    }
+
+    /*reg Modal end*/
+    /*registery page end*/
+    .add_commentbtns{
+        padding-left: 30px;
+    }
+    /*settings page start*/
+    .settings .settingsbtns a {
+        padding: 10px 18px;
+        font-size: 12px;
+    }
+    .profilesetting form .input-group .form-control {
+        font-size: 12px;
+        height: 30px;
+        padding: 6px 12px;
+    }
+    .profilesetting form .input-group {
+        width: 100%;
+    }
+    .dd-select{
+        height: 35px !important;
+    }
+    .lang .dd-selected label, 
+    .lang .dd-option .dd-option-text{
+        font-size: 12px;
+    }
+    .dd-selected{
+        padding: 6px 12px !important;
+    }
+    .preference .myDropdown2 dl a {
+        padding: 6px 12px;
+    }
+    .dd-option-image, 
+    .dd-selected-image{
+        margin-left: 2px !important;
+    }
+    .preference .myDropdown2 dl b {
+        font-size: 12px;
+        padding-left: 0px;
+    }
+    .preference_notification .tick label span {
+        top: 20px;
+    }
+    .wedsettings dl b{
+        font-size: 12px;
+    }
+    .wedsettings dl a{
+        padding: 6px 12px;
+    }
+    .wedsettings .dropdown dd ul li a span:first-child, 
+    .wedsettings .dropdown dt a span span:first-child{
+        margin: 0;
+    }
+    .wedsettings .dropdown dd ul{
+        top: 31px;
+    }
+    .wedsettings .myDropdown {
+        margin: 10px 0px 65px 0px;
+    }
+    .Setinner2 .wed_heading h2,
+    .wedpermission .permi_heading h4{
+        margin-bottom: 15px;
+    }
+    .wedpermission .permi_inner .width1 {
+        width: 40%;
+    }
+    .wedpermission .permi_inner .width3 {
+        width: 70%;
+    }
+    .plan h3 {
+        min-height: 26px;
+        font-size: 12px;
+    }
+    .plan h5 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .plan h5 a{
+        float: unset;
+        display: block;
+        margin: 10px;
+    }
+    .plan h5.minheight {
+        min-height: 138px;
+    }
+    .history_detail i{
+        font-size: 12px;
+    }
+    .history_detail {
+        padding: 6px 12px;
+    }
+    .historydwnload a {
+        font-size: 12px;
+    }
+    .plan .payment h3{
+        min-height: 0;
+    }
+    .wedpermission .feedbackadminanchor{
+        margin-top: 2px;
+    }
+    /*settings page start*/
+
+    /*index page start*/
+    .widthinner {
+        width: 100%;
+    }
+    .searchwedding .input-group {
+        width: 100%;
+    }
+    .widthinner3 {
+        width: 100%;
+    }
+    .createanchor a{
+        margin-bottom: 5px;
+    }
+    .weddinglist .width.width2 {
+        width: 30%;
+    }
+    .weddinglist .width.width3 {
+        width: 70%;
+    }
+    /*.listheading:before {
+        top: -15px;
+    }*/
+    .weddinglist .listheading h3 {
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .weddinglist {
+        padding: 30px 15px 15px;
+    }
+
+    .userlist h6, .weddingdate h6 {
+        font-size: 12px;
+    }
+    .activeweddings h4{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .createwedding .tick label {
+        font-size: 12px;
+    }
+    .momentoplan h4, .todolist h4{
+        margin-top: 10px;
+    }
+    .curntplan{
+        padding: 15px;
+    }
+    .createwedding .tick{
+        margin: 10px 0px;
+    }
+    .index_main {
+        padding: 30px 15px;
+    }   
+    /*index modal start*/
+    .widthmodal{
+        width: 100%;
+    }
+    .indexmodal .modal-body .weddingnames{
+        margin-top: 20px;
+    }
+    .indexmodal .modal-body .weddingnames h4, 
+    .indexmodal .weddingnames .form-group label, 
+    .indexmodal .notes label, 
+    .indexmodal .modal-body .weddingdates h4, 
+    .indexmodal .weddingdates .Budgetclock label {
+        margin: 10px 0px 5px;
+    }
+    .indexmodal .notes form {
+        margin-top: 0px;
+    }
+    .indexmodal .notes textarea.form-control{
+        height: 85px;
+    }
+    .indexmodal .notes .form-group {
+        margin-bottom: 0px;
+    }
+    .indexmodal #fileuploadurl, 
+    .indexmodal #fileuploadurl2 {
+        width: 190px;
+    }
+    .indexmodal .file-upload input.upload {
+        left: 0;
+        width: 215px;
+    }
+
+    /*index modal end*/
+    /*index page end*/
+    .checklistsection .ForEditPopup {
+        width: 80%;
+    }
+    #SettingTask form{
+        width:100%;
+    }
+    .weddingmenu a.message_right_dropbtn {
+        top: -90px;
+    }
+    #mediaModal .scroll {
+        max-height: 150px;
+    }
+
+    /*eventpage start*/
+
+    .eventwidth3 {
+        width: 70%;
+    }
+    .eventbox .deletewidth {
+        margin-top: 15px;
+    }
+    .eventpadleft {
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .eventwidth3 h4 span{
+        font-size: 12px;
+    }
+    .eventwidth2 h4{
+        font-size: 12px;
+    }
+    .eventwidth3 h4 span {
+        margin-right: 40px;
+    }
+    /*event modal start*/
+
+    .eventtabs a{
+        width: max-content;
+        display: block;
+        margin: 5px auto;
+    }
+    .eventinfo .widthmodal {
+        width: 100%;
+    }
+    .padleft {
+        width: 100%;
+    }
+    .eventmodal #eventfileuploadurl{
+        width: 160px;
+    }
+    .eventmodal .file-upload input.upload {
+        width: 190px;
+    }
+    .agendawidth.width1 {
+        width: 90%;
+    }
+    .agendawidth.width2 {
+        width: 90%;
+    }
+    .agendaright {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .rehersaldinner {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .accomowidth.width1 {
+        width: 75%;
+        padding-right: 0px;
+    }
+    .accomowidth.width2 {
+        width: 75%;
+        padding-left: 0px;
+    }
+    .hotelreview .width1 .form-group .form-control {
+        width: 180px;
+    }
+    .hotelreview .width2 .form-group .form-control {
+        width: 180px;
+    }
+    .eventmodal .modal-footer .btn1{
+        padding: 6px 20px 6px 20px;
+    }
+    .eventattendees .tableguest .Fortableimage {
+        margin-top: 0px;
+    }
+    .eventattendeswidth.width3 {
+        width: 65%;
+    }
+    .eventattendees .myDropdown2 a.resend{
+        margin-left: 0px;
+    }
+    /*event modal end*/
+    /*eventpage end*/
+
+
+}
+@media screen and (max-width: 320px){
+
+}

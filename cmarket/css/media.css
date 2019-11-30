@@ -1,0 +1,6037 @@
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .h_btm .width45 {
+        width: 45%;
+    }
+
+    .h_btm .width55 {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .navlinks li {
+        margin: 0px 4px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .store2 {
+        margin-top: 135px;
+    }
+
+    .brows_store.res_mg {
+        margin-top: 30px;
+    }
+
+    /*header start*/
+    .h_btm {
+        padding: 15px 30px;
+        height: 82px;
+    }
+
+    .navlinks {
+        display: none;
+    }
+
+    .header .hamburgerres {
+        display: block;
+    }
+
+    /*header end*/
+
+    /*modal start*/
+    .register .modal-dialog {
+        width: 660px;
+    }
+
+    .reg_ryt {
+        padding: 30px 30px;
+    }
+
+    .formbox h6 {
+        margin-bottom: 20px;
+    }
+
+    .formbox .form-control {
+        height: 42px;
+    }
+
+    .registerbtns {
+        margin-top: 10px;
+    }
+
+    .regbtn {
+        padding: 10px 40px;
+    }
+
+    /*modal end*/
+
+    /*index page start*/
+    .banner {
+        margin-top: 125px;
+        padding: 160px 0px 140px;
+    }
+
+    .banner_inner h3 {
+        font-size: 18px;
+    }
+
+    .banner_inner h2 {
+        font-size: 60px;
+    }
+
+    .searchboxindex {
+        width: 300px;
+    }
+
+    .searchbox2 {
+        width: 650px;
+    }
+
+    .d_item {
+        min-height: 242px;
+    }
+
+    .services {
+        padding: 30px 0px 70px;
+    }
+
+    .s_head {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .courier {
+        padding: 50px 0px;
+    }
+
+    .cou_inner h3 {
+        font-size: 30px;
+    }
+
+    .cou_inner p {
+        margin-bottom: 20px;
+    }
+
+    .partner {
+        padding: 50px 0px;
+    }
+
+    .part_content h4 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .part_content p {
+        margin: 15px 0px;
+    }
+
+    /*index page end*/
+
+    /*store page*/
+    .store_banner_in h2 {
+        font-size: 40px;
+        top: 28%;
+        left: 55px;
+    }
+
+    .store_banner {
+        padding-top: 0;
+    }
+
+    .filDrop_content {
+        left: 99px;
+    }
+
+    .storeType .col-sm-3 {
+        width: 25%;
+    }
+
+    .storeBox {
+        margin-bottom: 20px;
+    }
+
+    .rowSec {
+        padding-top: 0;
+    }
+
+    .categories h3 {
+        padding: 15px 0 15px 20px;
+    }
+
+    .categories_btm {
+        padding: 10px 15px 5px;
+    }
+
+    .browsAll_str_rht {
+        width: 40%;
+    }
+
+    .browsAll_str_lft {
+        width: 60%;
+    }
+
+    .storeBox_bottom p span {
+        font-size: 12px;
+    }
+
+    .storeBox_top span {
+        font-size: 11px;
+    }
+
+    .storeTyp .storeBox_bottom h2 {
+        font-size: 12px;
+    }
+
+    .storeTyp .storeBox_bottom {
+        padding: 10px 8px 10px;
+    }
+
+    .storeTyp .storeBox_bottom {
+        min-height: 138px;
+    }
+
+    /* store page end */
+
+    /* store listing page */
+    .set > a {
+        padding: 20px 0;
+        font-size: 18px;
+    }
+
+    .bread_crumb {
+        padding: 20px 0 20px;
+    }
+
+    .pd_zero {
+        padding: 0;
+        position: relative;
+    }
+
+    .pd_zero .res_breadCrumb_in {
+        padding-bottom: 30px;
+    }
+
+    .item_boxs {
+        position: absolute;
+        right: 0;
+        top: -20px;
+    }
+
+    .s_notice {
+        padding: 20px 0px;
+    }
+
+    .s_notice p {
+        font-size: 14px;
+    }
+
+    .search_sec .form-control {
+        padding-left: 12px;
+    }
+
+    .storeType {
+        padding: 30px 0 0px;
+    }
+
+    .browsAll_store_lft {
+        padding-left: 0px;
+    }
+
+    .shop_store {
+        padding: 0 15px 22px;
+    }
+
+    .shop_store img {
+        width: 80%;
+        margin-bottom: 0;
+    }
+
+    .shop_store h2 {
+        font-size: 16px;
+    }
+
+    .shop_store h4 {
+        margin: 15px 0 15px;
+    }
+
+    .shop_store h5 {
+        font-size: 20px;
+    }
+
+    .shop_store h3 {
+        margin: 10px 0 0px;
+    }
+
+    .chat {
+        padding: 10px 0;
+        font-size: 14px;
+        margin: 15px 0;
+    }
+
+    .cart_p li {
+        font-size: 14px;
+    }
+
+    .cart_p li strike {
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    .storeBox_bottom {
+        padding: 10px 10px 10px;
+    }
+
+    .store_lists .colWidth1 {
+        width: 30%;
+    }
+
+    .store_lists .colWidth2 {
+        width: 70%;
+    }
+
+    .storeBox_bottom_f h2 {
+        font-size: 13px;
+    }
+
+    /* store listing page end */
+
+    /* restaurent listing page */
+    .restoBox .storeBox_bottom {
+        min-height: 142px;
+    }
+
+    .restoBox .storeBox_bottom h3 {
+        font-size: 10px;
+    }
+
+    .restoBox .storeBox_bottom h2 {
+        font-size: 12px;
+    }
+
+    .rest_curmb {
+        padding: 20px 0 10px;
+    }
+
+    .restaurant_store {
+        padding-top: 15px;
+    }
+
+    /* restaurent listing page end */
+
+    /* restaurent detail page */
+    .slide_img {
+        width: 75%;
+    }
+
+    .slides {
+        height: 361px;
+    }
+
+    .item_boxs h2 {
+        font-size: 20px;
+    }
+
+    .txt_top h4 {
+        font-size: 14px;
+    }
+
+    .txt_mid h2 {
+        font-size: 24px;
+    }
+
+    .txt_mid h2 span {
+        font-size: 16px;
+    }
+
+    .txt_top p {
+        margin: 10px 0;
+    }
+
+    .txt_bot {
+        padding: 15px 0;
+    }
+
+    .txt_bot p {
+        font-size: 12px;
+    }
+
+    .txt_bot .readBtn {
+        font-size: 12px;
+        margin: 10px 0 10px;
+    }
+
+    .txt_bot img {
+        width: 100px;
+    }
+
+    .txt_bot h5 {
+        margin: 15px 0 10px;
+    }
+
+    .txt_bot h5,
+    .txt_bot h6 {
+        font-size: 13px;
+    }
+
+    .bread_crumb_menu li a {
+        font-size: 13px;
+    }
+
+    .filter_menu a {
+        font-size: 14px;
+        margin-right: 28px;
+    }
+
+    .tabs_menu {
+        margin-bottom: 25px;
+    }
+
+    .tabs_menu a {
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+
+    .restFood p {
+        font-size: 18px;
+    }
+
+    .id_lft p span {
+        font-size: 16px;
+    }
+
+    .restFood h6 {
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+
+    .itemDet .id_ryt {
+        padding-top: 22px;
+    }
+
+    .cart_lft {
+        padding: 20px 20px 20px !important;
+    }
+
+    .couponbox h5 {
+        font-size: 22px;
+    }
+
+    .couponbox {
+        padding: 20px 20px;
+    }
+
+    .your_order h5 {
+        margin-bottom: 15px;
+    }
+
+    .your_order h5 {
+        font-size: 22px;
+    }
+
+    .your_order {
+        margin-top: 30px;
+        padding: 20px 20px;
+    }
+
+    .bd_btm {
+        margin: 20px 0px;
+    }
+
+    .your_order h6 {
+        font-size: 14px;
+    }
+
+    .your_order h5 {
+        font-size: 20px;
+    }
+
+    .tick label {
+        padding-left: 4px;
+    }
+
+    .no_padd {
+        padding-left: 0;
+    }
+
+    .continuebtn a {
+        font-size: 13px;
+    }
+
+    .procucts_rest {
+        padding: 30px 0 30px;
+    }
+
+    /* restaurent detail page end */
+
+    /* fashion page */
+    .brows_store {
+        margin-top: 125px;
+        padding-bottom: 0;
+    }
+
+    /* fashion page end */
+
+    /* terms page start */
+    .privacy {
+        padding: 30px 0px 30px;
+        margin-top: 125px;
+    }
+
+    .privacy_inner h3 {
+        margin-bottom: 15px;
+    }
+
+    .privacy_inner h4 {
+        margin: 20px 0px 20px;
+    }
+
+    .privacy_inner p {
+        margin-bottom: 12px;
+    }
+
+    /* terms page End */
+
+    /* aboutus page start */
+    .aboutus_detail {
+        padding: 50px 0px 50px;
+    }
+
+    .ad_inner p {
+        line-height: 21px;
+        margin-bottom: 14px;
+    }
+
+    .aboutus_detail {
+        padding: 40px 0px 40px;
+    }
+
+    .aboutus_banner {
+        padding: 130px 0px 130px;
+        margin-top: 125px;
+    }
+
+    .banner_inner h2 {
+        font-size: 60px;
+    }
+
+    /* aboutus page end */
+
+    /* help page start */
+    .myaccount {
+        margin-top: 125px;
+        padding: 30px 0px 50px;
+    }
+
+    .myacc_ryt {
+        padding: 30px 30px 40px;
+    }
+
+    .points p {
+        margin-bottom: 12px;
+    }
+
+    /* help page end */
+
+    /* myaccount page */
+    .sidenav2 {
+        top: 125px;
+    }
+
+    /* myaccount page end */
+
+    /* career page start */
+    .career {
+        margin-top: 125px;
+    }
+
+    .archivesbar .searchbar {
+        width: 95%;
+    }
+
+    .cate_dropbtn {
+        width: 90%;
+    }
+
+    .cate_drop_menu {
+        min-width: 144px;
+    }
+
+    .career_head h2 {
+        font-size: 25px;
+    }
+
+    /* career page end */
+
+    /* careerdetails page */
+    .career_head h2 {
+        padding-top: 0px;
+        font-size: 26px;
+    }
+
+    .career_details {
+        padding-bottom: 60px;
+        margin-top: 125px;
+    }
+
+    /* careerdetails page end */
+
+    /* order history page */
+    .order_tabs a {
+        padding: 5px 11px !important;
+    }
+
+    .orderitem {
+        padding: 20px;
+    }
+
+    .orderid a {
+        font-size: 12px;
+    }
+
+    .id_lft h5 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .item_details .id_lft {
+        padding-left: 15px;
+    }
+
+    p.deldeatil {
+        font-size: 14px;
+    }
+
+    .id_lft h6 {
+        margin-bottom: 15px;
+    }
+
+    .rateitem {
+        font-size: 11px;
+    }
+
+    /* order history page end */
+
+    /* cart page start */
+    .shipping {
+        margin-top: 125px;
+        padding-bottom: 50px;
+    }
+
+    .shipping_process {
+        padding: 30px 0px;
+    }
+
+    .ship_head h2 {
+        font-size: 34px;
+    }
+
+    .id_lft p {
+        font-size: 18px;
+    }
+
+    .apply_coupons .form-control {
+        font-size: 13px;
+    }
+
+    .apply_coupons a {
+        font-size: 12px;
+    }
+
+    /* cart page end */
+
+    /* product details page */
+    .color_opt a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .addCart_btn {
+        padding: 10px 38px;
+        font-size: 13px;
+    }
+
+    .related_prod_in h3 {
+        color: #181818;
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .col_sm {
+        margin-left: 16px;
+        margin-right: 22px;
+        width: 16%;
+    }
+
+    .related_prod {
+        padding-bottom: 30px;
+    }
+
+    .descipt {
+        padding: 0 0px 0;
+    }
+
+    .productdetails {
+        margin-top: 125px;
+    }
+
+    /* product details page end */
+
+    /* become a courier page start */
+    .become_details .d_item {
+        min-height: 202px;
+    }
+
+    .signup_top h3 {
+        margin-top: 80px;
+        font-size: 40px;
+    }
+
+    .formWrap_inn {
+        margin-top: -300px;
+        padding: 30px 30px;
+    }
+
+    .formWrap_inn form label {
+        font-size: 14px;
+    }
+
+    .formWrap_inn form .form-control {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        height: 42px;
+    }
+
+    .submit_btn {
+        padding: 12px 65px;
+    }
+
+    .signUpform {
+        padding: 30px 0 100px;
+    }
+
+    /* become a courier page end */
+
+    /* partner with us page start */
+    .partner_details .d_item {
+        min-height: 302px;
+    }
+
+    /* partner with us page end */
+
+    /* shipping page start */
+    .ship_head h2 {
+        font-size: 32px;
+    }
+
+    .ship_lft {
+        padding: 30px 30px 30px;
+    }
+
+    .ship_lft h3 {
+        font-size: 20px;
+    }
+
+    .ship_lft .form-control {
+        height: 42px;
+    }
+
+    .carddropbtn {
+        height: 42px;
+    }
+
+    .ship_lft .form-group {
+        margin-bottom: 20px;
+    }
+
+    /* shipping page end */
+
+    /* giftcard page start */
+    .giftCard_main {
+        padding: 30px 0 50px;
+        margin-top: 125px;
+    }
+
+    .gifrCart_top h2 {
+        font-size: 30px;
+    }
+
+    .upperLinks span {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .accordianBox .set {
+        margin: 30px 0 30px;
+    }
+
+    .accordianBox .set a {
+        padding: 23px 23px;
+    }
+
+    .markGiftCard h2 {
+        font-size: 30px;
+    }
+
+    .personal_gift h3 {
+        padding-bottom: 21px;
+        margin-bottom: 21px;
+        font-size: 22px;
+    }
+
+    .prsnl_gft_lft .form-control {
+        height: 40px;
+    }
+
+    .giftSelect button {
+        height: 40px;
+    }
+
+    .buygift_btn {
+        margin-top: 10px;
+    }
+
+    .personal_gift {
+        padding: 30px 30px 40px;
+    }
+
+    /* giftcard page end */
+
+    /* confirm order start */
+    .order_placed {
+        margin-top: 125px;
+        padding: 80px 0px;
+    }
+
+    .op_inner {
+        padding: 50px;
+    }
+
+    .op_message h2 {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+    .op_message p {
+        margin-bottom: 25px;
+    }
+
+    .op_message img {
+        margin-bottom: 30px;
+    }
+
+    /* confirm order end */
+
+    .box_drop {
+        padding: 0px 90px;
+    }
+
+    .your_order.res_mgtop_order {
+        margin-top: 40px;
+    }
+
+    .restaurantsdetail_main {
+        margin-top: 125px;
+    }
+
+    .item_boxs h2 {
+        font-size: 20px;
+    }
+
+    .item_boxs p {
+        font-size: 12px;
+    }
+
+    .item_boxs {
+        width: 50px;
+        padding: 5px 5px 5px;
+    }
+
+    .restaurantsdetail_main .slide_sec_in {
+        margin-top: 30px;
+    }
+
+    .restaurant_store {
+        padding-top: 0;
+    }
+
+    .storelisting {
+        margin-top: 125px;
+    }
+
+    .mapview a,
+    .mapview a img {
+        height: 250px;
+    }
+
+    /*tracking page start*/
+    /*.delivery_details{
+        width: 250px;
+    }*/
+    /*.dd_head h4{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }*/
+    /*.dd_head h6{
+        font-size: 13px;
+    }*/
+    /*.dd_head{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }*/
+    .order_list p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .mapview a iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    /*tracking page end*/
+
+    /*10/5/19*/
+
+    .slideLogo_img {
+        width: 100%;
+    }
+
+
+    /*--------*/
+    .size_wrpr .fb_list {
+        margin-right: 11px;
+    }
+
+
+    /*    02-7-19*/
+    .prdct_rvw {
+        padding: 0;
+    }
+
+    .commn {
+        padding: 0 30px 38px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .store2 {
+        margin-top: 110px;
+    }
+
+    /*header start*/
+    .h_btm {
+        height: 68px;
+        padding: 10px 30px;
+    }
+
+    .brand_logo {
+        width: 133px;
+    }
+
+    .myaccountdrop {
+        display: none;
+    }
+
+    .sidenav a.res_showbtn {
+        display: block;
+    }
+
+    .h_top .width40 {
+        width: 40%;
+    }
+
+    .h_top .width60 {
+        width: 60%;
+    }
+
+    .chat_box_header,
+    .dropbox {
+        margin: 0px 5px;
+    }
+
+    .dropbtn img.changFlg {
+        width: 15px;
+    }
+
+    .drop_menu li a {
+        font-size: 13px;
+    }
+
+    .h_btm_ryt a {
+        font-size: 13px;
+    }
+
+    .searchboxindex {
+        width: auto;
+    }
+
+    .sidenav2 {
+        top: 109px;
+    }
+
+    /*header end*/
+
+    /*footer start*/
+    .f_logo {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .f_links ul li {
+        margin-bottom: 10px;
+    }
+
+    .f_links ul li:first-child a {
+        margin-bottom: 5px;
+    }
+
+    .copyright {
+        font-size: 13px;
+    }
+
+    .f_lft,
+    .f_ryt {
+        padding: 30px 0px;
+    }
+
+    .f_lft .width40 {
+        width: 40%;
+    }
+
+    .f_lft .width60 {
+        width: 60%;
+    }
+
+    .fryt_inner {
+        width: 180px;
+    }
+
+    .subscribebtn {
+        width: 180px;
+        height: 34px;
+    }
+
+    .subscribebtn .form-control {
+        height: 34px;
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .subscribebtn a {
+        height: 34px;
+        padding: 8px 0px;
+    }
+
+    .f_ryt h3 {
+        font-size: 18px;
+    }
+
+    /*footer end*/
+
+    /*modal start*/
+    .register .modal-dialog {
+        width: 82%;
+    }
+
+    /*modal end*/
+
+    /*index page start*/
+    .banner {
+        margin-top: 109px;
+        padding: 140px 0px 120px;
+    }
+
+    .banner_inner h2 {
+        font-size: 50px;
+    }
+
+    .searchbox2 {
+        width: 580px;
+    }
+
+    .searchbox2 .locationbtn,
+    .locationbtn .form-control,
+    .locationbtn .input_group button {
+        height: 48px;
+    }
+
+    .locationbtn .input_group button,
+    .locationbtn .form-control {
+        font-size: 16px;
+    }
+
+    .searchbox2 .locationbtn img.locicon {
+        top: 15px;
+    }
+
+    .d_item {
+        min-height: 302px;
+    }
+
+    .details {
+        padding: 55px 0px 30px;
+    }
+
+    .services {
+        padding: 30px 0px 50px;
+    }
+
+    .s_head {
+        font-size: 24px;
+    }
+
+    .s_item p.posdown,
+    .s_item p.postop {
+        font-size: 20px;
+    }
+
+    .s_item p.postop {
+        top: 50px;
+    }
+
+    .s_item p.posdown {
+        bottom: 20px;
+    }
+
+    .ribn {
+        font-size: 12px;
+        line-height: 30px;
+        height: 30px;
+        top: 15px;
+        left: -45px;
+    }
+
+    .courier {
+        padding: 30px 0px;
+    }
+
+    .cou_inner h3 {
+        font-size: 24px;
+    }
+
+    .cou_inner p {
+        padding: 0px 40px;
+        line-height: 20px;
+    }
+
+    .rowflexinitial {
+        align-items: initial;
+    }
+
+    .part_content p {
+        font-size: 13px;
+        min-height: 88px;
+    }
+
+    .part_content a {
+        font-size: 13px;
+    }
+
+    .cards_content img {
+        width: 100px;
+        margin-right: 10px;
+    }
+
+    .cards_content h4 {
+        font-size: 13px;
+    }
+
+    /*index page end*/
+
+    /* store page */
+    .browsAll_store_lft {
+        padding-left: 0;
+    }
+
+    .store_banner_in h2 {
+        font-size: 30px;
+        left: 35px;
+        top: 15%;
+    }
+
+    .brows_head h2 {
+        font-size: 26px;
+    }
+
+    .browsAll_str_lft {
+        width: 63%;
+        margin-right: 10px;
+    }
+
+    .browsAll_str_rht {
+        width: 35%;
+    }
+
+    .filDrop_content {
+        left: 7px;
+    }
+
+    .categories h3 {
+        font-size: 14px;
+        padding: 15px 0 15px 20px;
+    }
+
+    .categories_btm a {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .categories_btm {
+        padding: 10px 15px 5px;
+    }
+
+    .search_sec .form-control {
+        padding: 7px 40px 7px 10px;
+    }
+
+    .browsAll_store {
+        margin-bottom: 30px;
+    }
+
+    .storeType {
+        padding-top: 30px;
+    }
+
+    .storeType {
+        padding-bottom: 0;
+    }
+
+    .storeType .col-sm-3 {
+        width: 50%;
+    }
+
+    .storeTyp .storeBox_bottom h2 {
+        font-size: 14px;
+    }
+
+    .storeBox_top span {
+        font-size: 12px;
+    }
+
+    .bread_crumb {
+        margin-top: 125px;
+    }
+
+    /* store page end */
+
+    /* store listing page */
+    .pagination_route ul li {
+        margin: 0 5px;
+    }
+
+    .shop_store {
+        padding: 0 10px 22px;
+    }
+
+    .shop_store h2 {
+        font-size: 14px;
+    }
+
+    .shop_store h3 {
+        font-size: 12px;
+    }
+
+    .review_sec ul li:nth-child(1) {
+        padding: 8px 8px;
+    }
+
+    .review_sec ul li a:nth-child(1) {
+        font-size: 12px;
+    }
+
+    .review_sec ul li a i {
+        font-size: 12px;
+    }
+
+    /*.review_sec ul li a:nth-child(2) {
+        padding-left: 5px;
+    }
+    .review_sec ul li a:nth-child(3) {
+        padding-left: 8px;
+    }
+    .review_sec .review_box li:nth-child(2) {
+        padding: 8px 0 7px;
+    }*/
+    .shop_store h3 {
+        margin: 5px 0 0px;
+    }
+
+    .shop_store h3 span g {
+        line-height: 21px;
+    }
+
+    .review_sec {
+        padding-bottom: 15px;
+    }
+
+    .shop_store h4 {
+        font-size: 12px;
+    }
+
+    .shop_store h5 {
+        font-size: 16px;
+    }
+
+    .shop_store h6 {
+        font-size: 12px;
+    }
+
+    .browsStore_inner .colWidth1 {
+        width: 40%;
+    }
+
+    .browsStore_inner .colWidth2 {
+        width: 60%;
+    }
+
+    .colWidth2 .browsAll_str_lft,
+    .colWidth2 .browsAll_str_rht {
+        width: 100%;
+    }
+
+    .colWidth2 .browsAll_str_rht button {
+        width: 100%;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .colWidth2 .browsAll_str_rht button img {
+        float: right;
+        margin-top: 7px;
+    }
+
+    .colWidth2 .browsAll_str_rht .filDrop_content {
+        width: 100%;
+        left: 0;
+        top: 58px;
+    }
+
+    .colWidth2 .browsAll_store {
+        margin-bottom: 8px;
+    }
+
+    .colWidth2 .s_notice p {
+        font-size: 12px;
+    }
+
+    .s_notice {
+        padding-top: 12px;
+    }
+
+    .pagination_route ul li a {
+        font-size: 14px;
+        padding: 5px 9px;
+    }
+
+    .pagination_route ul li a.commControl {
+        padding-top: 8px;
+        padding-bottom: 6px;
+    }
+
+    .pagination_route {
+        padding: 30px 0;
+    }
+
+    .storeBox_bottom_f h2 {
+        font-size: 14px;
+    }
+
+    /* store listing page end */
+
+    /* restaurent listing page */
+    .colWidth2 .restAll_s {
+        margin-bottom: 20px;
+    }
+
+    .colWidth2 .brows_store_box {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .resto_in {
+        padding-top: 20px;
+    }
+
+    .rest_head h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .restoBox .storeBox_bottom h2 {
+        font-size: 14px;
+    }
+
+    .restoBox .storeBox_bottom h3 {
+        font-size: 11px;
+    }
+
+    .restoBox .storeBox_bottom {
+        padding: 12px 10px 15px;
+    }
+
+    .restoBox .storeBox_bottom {
+        min-height: initial;
+    }
+
+    .restaurant_store {
+        padding-top: 0px;
+    }
+
+    /* restaurent listing page end */
+
+    /* restaurent detail page */
+    .slide_img {
+        width: 74%;
+    }
+
+    .slides {
+        height: 271px;
+    }
+
+    .txt_mid h2 {
+        font-size: 20px;
+    }
+
+    .filter_menu a {
+        font-size: 13px;
+        margin-right: 13px;
+    }
+
+    .tabs_menu {
+        margin-bottom: 10px;
+    }
+
+    .tabs_menu a {
+        font-size: 13px;
+        padding: 12px 20px;
+    }
+
+    .item_details .id_lft {
+        padding-left: 10px;
+    }
+
+    .quantity .add_btn {
+        font-size: 12px;
+        padding: 6px 20px;
+    }
+
+    .removeitem {
+        font-size: 12px;
+    }
+
+    .id_lft h5 {
+        margin-bottom: 5px;
+    }
+
+    .vaulebox {
+        width: 98px;
+    }
+
+    .vaulebox input {
+        width: 30%;
+    }
+
+    .slides {
+        padding: 55px 8px;
+    }
+
+    .couponbox h5 {
+        font-size: 18px;
+    }
+
+    .couponbox {
+        padding: 15px 15px;
+    }
+
+    .apply_coupons .form-control {
+        width: 55%;
+        font-size: 12px;
+    }
+
+    .apply_coupons a {
+        width: 45%;
+        font-size: 12px;
+    }
+
+    .your_order h5 {
+        font-size: 18px;
+    }
+
+    .deliveryboxs h5 {
+        font-size: 16px;
+    }
+
+    .fil_drop_main {
+        display: initial;
+    }
+
+    .fil_drop_main .tickcol {
+        width: 100%;
+    }
+
+    .fil_drop_main .filDrop_btn {
+        display: block;
+        margin-top: 10px;
+        float: left;
+    }
+
+    .deliveryboxs .col-sm-4 {
+        width: 100%;
+    }
+
+    .calcul .form-control {
+        margin-bottom: 15px;
+    }
+
+    .no_padd {
+        padding-left: 15px;
+    }
+
+    .bd_btm {
+        margin: 15px 0px;
+    }
+
+    .totalpay p {
+        font-size: 16px;
+    }
+
+    .continuebtn a {
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+
+    /* restaurent detail page end */
+
+    /* fashion page */
+    .brows_store {
+        margin-top: 109px;
+        padding-bottom: 20px;
+    }
+
+    .fil_drop .marketSort {
+        left: 20px;
+    }
+
+    .browsAll_store_lft .fashion_str {
+        margin-bottom: 20px;
+    }
+
+    .browsStore_inner .colWidth1_2 {
+        width: 30%;
+    }
+
+    .browsStore_inner .colWidth2_1 {
+        width: 70%;
+    }
+
+    /* fashion page end */
+
+    /* market place page */
+    .market_search_sec {
+        margin-bottom: 0px;
+    }
+
+    .colWidth2_1 .market_allstr {
+        margin-bottom: 20px;
+    }
+
+    /* market place page end */
+
+    /* terms page start */
+    .privacy_inner h3 {
+        margin-bottom: 9px;
+    }
+
+    .privacy_inner h4 {
+        margin: 17px 0px 17px;
+    }
+
+    .privacy_inner p {
+        margin-bottom: 7px;
+    }
+
+    .privacy {
+        margin-top: 109px;
+        padding: 30px 0px 30px;
+    }
+
+    .cards_content img {
+        width: 33%;
+    }
+
+    .cards_content h4 {
+        margin-bottom: 6px;
+    }
+
+    /* terms page End */
+    /* aboutus page start */
+    .ad_inner p {
+        margin-bottom: 9px;
+    }
+
+    .aboutus_detail {
+        padding: 30px 0px 30px;
+    }
+
+    .ad_inner p {
+        letter-spacing: 0.4px;
+        line-height: 19px;
+    }
+
+    /* about us page end */
+    /* help page start */
+    .myaccount {
+        padding: 30px 0px 70px;
+        margin-top: 190px;
+    }
+
+    .myacc_ryt {
+        padding: 30px 40px 30px;
+    }
+
+    .myacc_lft {
+        margin-top: 30px;
+    }
+
+    .browsetopics h5 {
+        padding: 15px 12px;
+    }
+
+    .helptopics ul li {
+        padding: 4px 0px;
+    }
+
+    /* help page end */
+
+    /* career page start */
+    .career {
+        margin-top: 109px;
+        padding: 0px 0px 50px;
+    }
+
+    .archivesbox {
+        padding: 17px;
+        margin-bottom: 40px;
+    }
+
+    .archivesbox .width2,
+    .archivesbox .width3,
+    .archivesbox .width4 {
+        width: 135px;
+    }
+
+    .categorybox {
+        width: 140px;
+    }
+
+    .cate_drop_menu {
+        min-width: 126px;
+    }
+
+    .cate_drop_menu li a {
+        font-size: 13px;
+    }
+
+    .viewdetailbtn a {
+        padding: 10px 19px;
+    }
+
+    .jobflex {
+        display: initial;
+    }
+
+    .jobdata h5 {
+        margin: 15px 0px 15px;
+    }
+
+    .jobdata p {
+        margin-bottom: 15px;
+    }
+
+    .jobdata h4 {
+        font-size: 18px;
+    }
+
+    /* career page end */
+
+    /* careerdetails page */
+    .career_details {
+        margin-top: 109px;
+        padding-bottom: 50px;
+    }
+
+    .career_head h2 {
+        padding-top: 0px;
+        font-size: 24px;
+    }
+
+    .jobdata h5 {
+        margin: 15px 0px 15px;
+        font-size: 15px;
+    }
+
+    .jobdata h4 {
+        font-size: 18px;
+    }
+
+    .C_deatils h4 {
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .C_deatils p {
+        line-height: 20px;
+    }
+
+    .jobdetail {
+        margin-bottom: 20px;
+    }
+
+    .cjobfeatures {
+        margin-top: 15px;
+    }
+
+    .jb_lft h4,
+    .jb_ryt h4 {
+        margin-bottom: 15px;
+    }
+
+    .subbtn {
+        margin-top: 25px;
+    }
+
+    /* careerdetails page end */
+
+    /* myaccount page */
+    .ship_inner .col-sm-3 {
+        width: 35%;
+    }
+
+    .ship_inner .col-sm-9 {
+        width: 65%;
+    }
+
+    .myaccount {
+        padding: 20px 0px 50px;
+        margin-top: 109px;
+    }
+
+    .myacc_ryt {
+        padding: 25px 25px 28px;
+    }
+
+    .ship_lft h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    .ship_lft .form-control {
+        height: 42px;
+        font-size: 13px;
+    }
+
+    .ship_lft .form-group {
+        margin-bottom: 20px;
+    }
+
+    .mgbtm {
+        margin-bottom: 20px;
+    }
+
+    .savebtn2 {
+        padding: 11px 80px;
+    }
+
+    .user_details h4 {
+        font-size: 18px;
+    }
+
+    /* myaccount page end */
+
+    /* order history page */
+    .orderhistory_main {
+        padding-top: 0;
+    }
+
+    .order_tabs {
+        display: block;
+        text-align: center;
+    }
+
+    .order_tabs a {
+        margin-bottom: 8px;
+    }
+
+    .orderdetails {
+        display: block;
+    }
+
+    .orderdetails .orderid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .orderhelp {
+        padding-top: 10px;
+    }
+
+    .cart_items .item_img {
+        width: 30%;
+        float: left;
+    }
+
+    .cart_items .item_details {
+        width: 70%;
+        float: left;
+    }
+
+    .id_lft p span {
+        font-size: 13px;
+    }
+
+    .item_details .id_lft {
+        width: 100%;
+    }
+
+    .item_details .id_ryt {
+        width: 100%;
+    }
+
+    .productrate {
+        display: block;
+        min-height: initial;
+        float: none;
+    }
+
+    .id_lft h5 {
+        font-size: 14px;
+    }
+
+    .id_lft h6 {
+        margin-bottom: 8px;
+    }
+
+    .productrate p {
+        float: left;
+    }
+
+    .cancelitem {
+        float: none;
+    }
+
+    .rateitem {
+        margin-right: 44px;
+    }
+
+    /* order history page end */
+
+    /* tracking page */
+    .referoptions .tick {
+        margin-right: 12px;
+    }
+
+    /* tracking page end */
+
+    /* cart page */
+    .shipping {
+        margin-top: 109px;
+        padding: 0px 0px 50px;
+    }
+
+    .shipping_process {
+        padding: 30px 0px;
+    }
+
+    .ship_head h2 {
+        font-size: 28px;
+        padding: 15px 0px;
+    }
+
+    .ship_lft,
+    .coupon_box {
+        margin-top: 30px;
+    }
+
+    .your_order {
+        margin-top: 20px;
+    }
+
+    .quantity {
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .removeitem {
+        margin-top: 0;
+    }
+
+    .item_details .id_ryt {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    /* cart page end */
+
+    /* product details page */
+    .productdetails {
+        margin-top: 109px;
+    }
+
+    .item_boxs h2 {
+        font-size: 20px;
+    }
+
+    .item_boxs p {
+        font-size: 13px;
+    }
+
+    .txt_mid p {
+        font-size: 13px;
+    }
+
+    .txt_bot2 h4 {
+        font-size: 24px;
+    }
+
+    .color_opt a {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .descipt h4 {
+        margin: 16px 0 20px;
+    }
+
+    .descipt h2 {
+        font-size: 22px;
+    }
+
+    .descipt {
+        padding: 0 20px 28px;
+    }
+
+    .procucts_rest {
+        padding: 30px 0 30px;
+    }
+
+    .related_prod_in h3 {
+        font-size: 30px;
+    }
+
+    .col_sm {
+        margin-left: 12px;
+        margin-right: 8px;
+        width: 17%;
+    }
+
+    .col_sm .storeBox_bottom_f h2 {
+        font-size: 12px;
+    }
+
+    .col_sm .cart_p li {
+        font-size: 12px;
+    }
+
+    .col_sm .storeBox_bottom {
+        padding: 10px 8px 10px;
+    }
+
+    .slide_sec {
+        padding-bottom: 0px;
+    }
+
+    .txt_midInn a {
+        font-size: 12px;
+    }
+
+    /* product details page end */
+
+    /* account uplaod page */
+    .accupload {
+        margin-top: 20px;
+    }
+
+    .dropBox {
+        padding: 30px 0 0 0;
+    }
+
+    .dropimgbox {
+        width: 150px;
+        height: 150px;
+    }
+
+    .box_drop label {
+        padding: 12px 14px;
+    }
+
+    .take_btn {
+        padding: 12px 40px;
+    }
+
+    /* account uplaod page end */
+
+    /* become a courier page start */
+    .become_details .d_item {
+        min-height: 262px;
+        padding-bottom: 10px;
+    }
+
+    .become_details .d_item h5 {
+        min-height: 59px;
+    }
+
+    .signUpform {
+        padding: 20px 0 50px;
+    }
+
+    .form_wrpaer {
+        padding: 0 50px;
+    }
+
+    .signup_top h3 {
+        margin-top: 100px;
+        font-size: 30px;
+    }
+
+    .formWrap_inn {
+        margin-top: -220px;
+        padding: 30px 30px;
+    }
+
+    /* become a courier page end */
+
+    /* partner with us page start */
+
+    .partner_details .d_item {
+        min-height: 419px;
+    }
+
+    /* partner with us page end */
+
+    /* shipping page start */
+
+    .couponbox {
+        margin-top: 30px;
+    }
+
+    /* shipping page end */
+
+    /* payment page start */
+    .your_order {
+        margin-top: 30px;
+    }
+
+    .reswidth100 {
+        width: 100%;
+    }
+
+    .cash label {
+        font-size: 18px;
+    }
+
+    .cash .tick span {
+        top: 6px;
+    }
+
+    .cardstype label {
+        font-size: 20px;
+    }
+
+    .cardstype .tick span {
+        top: 7px;
+    }
+
+    .your_order.res_mgtop_order {
+        margin-top: 30px;
+    }
+
+    /* payment page end */
+
+    /* giftcard page start */
+    .giftCard_main {
+        margin-top: 109px;
+    }
+
+    .gifrCart_top h2 {
+        font-size: 24px;
+    }
+
+    .markGiftCard h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .accordianBox .set a {
+        padding: 18px 18px;
+    }
+
+    .personal_gift h3 {
+        padding-bottom: 18px;
+        margin-bottom: 18px;
+        font-size: 20px;
+    }
+
+    .prsnl_gft_lft .form-control {
+        margin: 10px 0 15px;
+        height: 35px;
+    }
+
+    .giftSelect button {
+        height: 35px;
+    }
+
+    .prsnl_gft_lft textarea.form-control {
+        height: 100px;
+    }
+
+    .giftSelect .filDrop_content {
+        top: 55px;
+    }
+
+    .buygift_btn {
+        margin-top: 18px;
+    }
+
+    .prsnl_gft_rht {
+        padding-left: 0px;
+    }
+
+    /* giftcard page end */
+
+    /* confirm order start */
+    .order_placed {
+        margin-top: 109px;
+        padding: 50px 0px;
+    }
+
+    .op_inner {
+        width: 726px;
+        padding: 30px;
+    }
+
+    .op_message img {
+        width: 15%;
+        margin-bottom: 20px;
+    }
+
+    .op_message h2 {
+        font-size: 29px;
+        margin-bottom: 13px;
+    }
+
+    .op_message p {
+        font-size: 20px;
+    }
+
+    .opbtns a {
+        padding: 15px 40px
+    }
+
+    /* confirm order end */
+    .box_drop {
+        padding: 0px 0px;
+    }
+
+    .box_drop label,
+    .take_btn {
+        font-size: 13px;
+    }
+
+    .box_drop label {
+        width: 50%;
+    }
+
+    .take_btn {
+        width: 50%;
+    }
+
+    .restaurantsdetail_main {
+        margin-top: 109px;
+    }
+
+    .rest_catelog {
+        margin-top: 0;
+    }
+
+    .storelisting {
+        margin-top: 109px;
+    }
+
+    .res_chat2 span {
+        display: none;
+    }
+
+    .res_chat2 img {
+        width: 20px;
+    }
+
+    /*10/5/19*/
+
+    .slideLogo_img {
+        width: 100%;
+    }
+
+    /*---------------*/
+    .size_wrpr .fb_list {
+        margin-right: 5px;
+    }
+
+    .size_wrpr .fb_list label {
+        width: 40px;
+        height: 40px;
+    }
+
+    .size_wrpr .fb_list label h4 {
+        font-size: 18px;
+    }
+
+    /*    2-7-19*/
+    .commn {
+        padding: 15px 30px 38px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .store2 {
+        padding-top: 30px;
+    }
+
+    .brows_store.mgtop0 {
+        margin-top: 0px;
+    }
+
+    /*header start*/
+    /*.header{
+        min-height: 113px;
+    }*/
+    .header .hamburger {
+        display: block;
+    }
+
+    .h_btm {
+        padding: 10px 20px;
+    }
+
+    .h_top {
+        padding: 10px 20px;
+    }
+
+    .h_btm .rowflex {
+        display: block;
+    }
+
+    .h_btm_lft {
+        justify-content: initial;
+    }
+
+    .brand_logo {
+        float: left;
+        margin-right: 0;
+    }
+
+    .dnone {
+        display: none;
+    }
+
+    a.basket img {
+        width: auto;
+        margin-top: 15px;
+    }
+
+    a.basket::before {
+        width: 0;
+    }
+
+    .searchboxindex {
+        width: 300px;
+        float: right;
+        margin-top: 8px;
+    }
+
+    .h_top .rowflex {
+        display: block;
+    }
+
+    .h_top .width40,
+    .h_top .width60 {
+        width: 100%;
+    }
+
+    .h_top_lft {
+        text-align: center;
+    }
+
+    .h_top_ryt {
+        justify-content: center;
+    }
+
+    .chat_box_header,
+    .dropbox {
+        margin: 0px 10px;
+    }
+
+    .h_btm_lft {
+        display: block;
+    }
+
+    .h_top_lft {
+        display: none;
+    }
+
+    .h_top_ryt {
+        text-align: center;
+    }
+
+    .sidenav {
+        top: 110px;
+    }
+
+    .sidenav2 {
+        top: 110px;
+    }
+
+    /*header end*/
+
+    /* footer start */
+    .f_lft .width40,
+    .f_lft .width60 {
+        float: left;
+    }
+
+    .f_lft {
+        position: relative;
+    }
+
+    .f_ryt {
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0px 30px 30px 0px;
+    }
+
+    .fryt_inner {
+        width: 100%;
+    }
+
+    .subscribebtn {
+        width: 60%;
+    }
+
+    .subscribebtn a {
+        padding: 8px 0px;
+    }
+
+    /* footer end */
+
+    /*modal start*/
+    .register .modal-dialog {
+        display: flex;
+        min-height: calc(100% - 30px);
+        align-items: center;
+    }
+
+    .register_inner.modalflex {
+        display: block;
+    }
+
+    .register .modal-content {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    .modalflex {
+        display: block;
+    }
+
+    .reg_lft .reshide {
+        display: none;
+    }
+
+    .reg_lft .resshow {
+        display: block;
+        width: 100%;
+        height: 300px;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    /*modal end*/
+
+    /* index page start */
+    .banner {
+        margin-top: 110px;
+    }
+
+    .searchbox2 {
+        width: 90%;
+    }
+
+    .searchbox2 .locationbtn {
+        margin-top: 20px;
+    }
+
+    .banner_inner h2 {
+        font-size: 40px;
+    }
+
+    .banner_inner h3 {
+        letter-spacing: 2px;
+    }
+
+    .details {
+        padding-bottom: 0;
+    }
+
+    .d_item {
+        min-height: initial;
+        margin-bottom: 50px;
+    }
+
+    .services {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .s_head {
+        font-size: 28px;
+    }
+
+    .slider .row {
+        margin-left: -7px;
+        margin-right: -7px;
+    }
+
+    .slider .col-sm-3 {
+        width: 25%;
+        float: left;
+        padding: 0px 7px;
+    }
+
+    .slick-initialized .slick-slide {
+        padding: 0px 7px;
+    }
+
+    .slick-initialized .slick-slide.delivery_details {
+        padding: 15px 15px 30px;
+    }
+
+    .s_item p.posdown,
+    .s_item p.postop {
+        font-size: 14px;
+    }
+
+    .s_item {
+        margin-top: 15px;
+    }
+
+    .cou_inner h3 {
+        font-size: 28px;
+    }
+
+    .cou_inner p {
+        padding: 0px 20px;
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .cou_inner a {
+        font-size: 13px;
+    }
+
+    .partner {
+        padding: 30px 0px;
+    }
+
+    .partner_inner .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .part_content p {
+        margin: 10px 0px 15px;
+    }
+
+    .cards {
+        padding: 30px 0px 10px;
+    }
+
+    .cards_content {
+        margin-bottom: 20px;
+    }
+
+    /* index page end */
+
+    /* store page start */
+    .store_banner_in h2 {
+        top: 25%;
+    }
+
+    .slider2 .slick-dots {
+        bottom: 50px;
+        left: 0px;
+    }
+
+    .slider2 {
+        height: 200px;
+    }
+
+    .slider2 .slick-slide img {
+        height: 200px;
+    }
+
+    .filDrop_content a {
+        font-size: 13px;
+    }
+
+    .browsAll_str_lft {
+        width: 50%;
+    }
+
+    .browsAll_str_rht {
+        width: 48%;
+    }
+
+    .filDrop_content {
+        left: 74px;
+    }
+
+    .storeType .col-sm-3 {
+        float: left;
+    }
+
+    .store_banner .slick-initialized .slick-slide {
+        padding: 0 0;
+    }
+
+    .res_w_100 {
+        width: 100%;
+    }
+
+    /* store page end */
+
+    /* store listing page */
+    .browsStore_inner .colWidth2,
+    .browsStore_inner .colWidth1 {
+        width: initial;
+    }
+
+    .browsStore_inner .colWidth1.dnone2 {
+        display: none;
+    }
+
+    .browsStore_inner .dnone2 {
+        display: none;
+    }
+
+    .categories_d_none {
+        display: none;
+    }
+
+    .shop_store img {
+        width: 35%;
+    }
+
+    .review_sec .review_box li {
+        width: 49%;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .review_sec .review_box li:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .shop_store h4 {
+        font-size: 14px;
+    }
+
+    .shop_store h5 {
+        font-size: 20px;
+    }
+
+    .shop_store h6 {
+        font-size: 14px;
+    }
+
+    .shop_store h3 {
+        font-size: 13px;
+    }
+
+    /* store listing page end */
+
+    /* restaurent listing page */
+    .restoBox_top img {
+        width: 100%;
+    }
+
+    .restaurant_store {
+        padding-top: 0px;
+    }
+
+    .restaurant_store .brows_head h2 {
+        margin-top: 20px;
+    }
+
+    /* restaurent listing page end */
+
+    /* restaurent details page */
+    .txt_wraper {
+        padding-top: 30px;
+    }
+
+    .txt_bot p {
+        font-size: 14px;
+    }
+
+    .txt_bot .readBtn {
+        font-size: 14px;
+    }
+
+    .txt_mid h2 {
+        font-size: 24px;
+    }
+
+    .txt_top h4 {
+        font-size: 16px;
+    }
+
+    .txt_bot h5,
+    .txt_bot h6 {
+        font-size: 14px;
+    }
+
+    .slide_sec {
+        margin-top: 125px;
+        padding: 30px 0px;
+    }
+
+    .procucts_rest {
+        padding: 20px 0 40px;
+    }
+
+    .about_txt h2 {
+        font-size: 24px;
+    }
+
+    .tabs_menu a {
+        font-size: 14px;
+        padding: 15px 28px;
+    }
+
+    .filter_menu a {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+
+    .apply_coupons .form-control {
+        width: 75%;
+        font-size: 14px;
+    }
+
+    .apply_coupons a {
+        width: 25%;
+        font-size: 14px;
+    }
+
+    .couponbox {
+        padding: 20px 15px;
+    }
+
+    .fil_drop_main .filDrop_btn {
+        display: flex;
+        float: right;
+    }
+
+    .fil_drop_main {
+        display: flex;
+    }
+
+    .deliveryboxs .col-sm-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+    /* restaurent details page end */
+
+    /* fashion page*/
+    .brows_store {
+        margin-top: 110px;
+    }
+
+    .brows_head h2 {
+        margin-top: 30px;
+    }
+
+    /* fashion page end*/
+
+    /* terms page start */
+    .privacy {
+        margin-top: 110px;
+        padding: 30px 0px 30px;
+    }
+
+    .privacy_inner p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .cards_content img {
+        width: 60px;
+        float: initial;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .cards_content h4 {
+        text-align: center;
+    }
+
+    .cards_content p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* terms page end */
+
+    /* aboutus page start */
+    .aboutus_banner {
+        padding: 120px 0px 120px;
+        margin-top: 110px;
+    }
+
+    .banner_inner h2 {
+        font-size: 50px;
+    }
+
+    /* aboutus page end */
+
+    /* help page start */
+    .myaccount {
+        padding: 30px 0px 50px;
+        margin-top: 217px;
+    }
+
+    .ship_lft h3 {
+        padding-bottom: 15px;
+        margin-bottom: 18px;
+    }
+
+    .points p {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    /* help page end */
+
+    /* career page start */
+    .career {
+        padding: 30px 0px 10px;
+        margin-top: 110px;
+    }
+
+    .archivesbox {
+        display: inline-block;
+    }
+
+    .archivesbar .searchbar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .archivesbox .width1 {
+        width: 100%;
+    }
+
+    .categorybox {
+        width: 100%;
+    }
+
+    .archivesbox .width2,
+    .archivesbox .width3,
+    .archivesbox .width4 {
+        width: 100%;
+    }
+
+    .cate_dropbtn {
+        padding: 11px 20px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .cate_drop_menu {
+        min-width: 100%;
+        top: 90%;
+    }
+
+    .archivesbar .searchbar {
+        height: 40px;
+    }
+
+    .searchbtn {
+        padding: 10px 30px;
+    }
+
+    .jobimg {
+        padding-right: 10px;
+    }
+
+    .jobdata h5 {
+        margin: 12px 0px 12px;
+    }
+
+    .viewdetailbtn a {
+        padding: 8px 14px;
+    }
+
+    .jobdetail {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    /* career page end */
+
+    /* careerdetails page */
+    .career_details {
+        margin-top: 110px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    .career_head h2 {
+        font-size: 22px;
+    }
+
+    .jobimg {
+        width: 18%;
+        padding-right: 15px;
+    }
+
+    .jobcontent {
+        width: 82%;
+    }
+
+    .jobdata h4 {
+        font-size: 17px;
+    }
+
+    .jobdata h5 {
+        margin: 10px 0px 10px;
+        font-size: 14px;
+    }
+
+    .jobdata p {
+        font-size: 13px;
+    }
+
+    .career_details_inner {
+        padding: 25px 20px;
+    }
+
+    .cjobfeatures {
+        margin-top: 8px;
+        padding: 25px 20px;
+    }
+
+    .cjobfeatures .col-sm-12 {
+        float: left;
+        display: block;
+        width: 100%;
+    }
+
+    .jb_lft h4,
+    .jb_ryt h4 {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .jb_ryt {
+        margin-top: 15px;
+    }
+
+    .cjobfeatures form label {
+        display: block;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .cjobfeatures form label i {
+        position: relative;
+        top: -10px;
+    }
+
+    .jobdetailcareer {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    /* careerdetails page end */
+
+    /* myaccount page start*/
+    .ship_inner .col-sm-9,
+    .ship_inner .col-sm-3 {
+        width: initial;
+    }
+
+    .myaccount {
+        padding: 30px 0px 40px;
+        margin-top: 110px;
+    }
+
+    .myacc_lft {
+        margin-top: 0;
+    }
+
+    /* myaccount page end */
+
+    /* order history page */
+    .orderhistory_main {
+        padding-top: 0;
+    }
+
+    .order_tabs {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    .productrate {
+        padding-top: 10px;
+        padding-left: 8px;
+    }
+
+    .id_lft p span {
+        font-size: 12px;
+    }
+
+    .productrate p {
+        margin-right: 20px;
+    }
+
+    /*    .orderitem:last-child{
+        margin-bottom: 0;
+    }*/
+    .myacc_ryt {
+        padding: 25px 30px 0px;
+        margin-top: 30px;
+    }
+
+    .or_his_ryt {
+        padding: 20px 20px 0px !important;
+    }
+
+    /* order history page end */
+
+    /* cart page */
+
+    .shipping {
+        margin-top: 110px;
+        padding: 20px 0px 40px;
+    }
+
+    .ship_head h2 {
+        font-size: 24px;
+    }
+
+    .ship_lft {
+        margin-top: 20px;
+    }
+
+    .ship_ryt {
+        margin-top: 30px;
+    }
+
+    .delivery_ryt {
+        margin-top: 0;
+    }
+
+    .res_coupon767 {
+        display: none;
+    }
+
+    .mgbtm0 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .coupon_box {
+        margin-top: 0px;
+    }
+
+    /* cart page end */
+
+    /* product details page */
+
+    .productdetails {
+        margin-top: 110px;
+    }
+
+    .rest_catelog {
+        margin-top: 0px;
+        padding: 20px;
+    }
+
+    .descipt {
+        padding: 0;
+    }
+
+    .col_sm {
+        margin-left: 0;
+        margin-right: 0;
+        width: 29.2%;
+        margin: 0% 2%;
+    }
+
+    .related_prod_in h3 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .procucts_rest {
+        padding: 0px 0 30px;
+    }
+
+    .related_prod {
+        padding-bottom: 30px;
+    }
+
+    .slide_wraper {
+        padding: 0px 0px;
+    }
+
+    .slide_img {
+        width: 76%;
+        margin-left: 2%;
+        overflow: unset;
+    }
+
+    .slides {
+        height: 425px;
+        margin-right: 2%;
+    }
+
+    .slide_img img {
+        width: 403px;
+    }
+
+    /* product details page end */
+
+    /* account upload page */
+    .accupload {
+        padding-bottom: 30px;
+    }
+
+    /* account upload page end */
+
+    /* become a courier page start */
+    .become_details .d_item {
+        min-height: initial;
+        padding-bottom: 20px;
+    }
+
+    .become_details .d_item h5 {
+        min-height: initial;
+    }
+
+    .signup_top h3 {
+        margin-top: 70px;
+    }
+
+    .formWrap_inn {
+        margin-top: -150px;
+    }
+
+    .signUpform {
+        padding: 0px 0 30px;
+    }
+
+    /* become a courier page end */
+
+    /* partner with us page start */
+    .partner_details .d_item {
+        min-height: initial;
+        padding-bottom: 15px;
+    }
+
+    /* partner with us page end */
+
+    /*shipping page start*/
+    .continuebtn a {
+        font-size: 13px;
+        padding: 14px 0px;
+    }
+
+    /*shipping page end*/
+
+    /*payment page start*/
+    .ship_lft .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .ship_lft .col-sm-6.width40 {
+        width: 40%;
+        float: left;
+    }
+
+    .ship_lft .col-sm-12 {
+        display: block;
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .cash .tick span {
+        top: 5px;
+    }
+
+    .cash .tick {
+        margin-right: 0;
+    }
+
+    .cash {
+        text-align: left;
+    }
+
+    .payment_lft_btm p {
+        margin: 10px 0px;
+    }
+
+    .readaggre .tick {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+
+    .your_order.res_mgtop_order {
+        margin-top: 0px;
+    }
+
+    /*payment page start*/
+
+    /* giftcard page start */
+    .giftCard_main {
+        margin-top: 110px;
+        padding: 30px 0 50px;
+    }
+
+    .gifrCart_top h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .markGiftCard h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .buygift_btn {
+        margin-bottom: 20px;
+        margin-top: 25px;
+    }
+
+    .accordianBox .set {
+        margin: 25px 0 30px;
+    }
+
+    .accordianBox .set a {
+        padding: 15px 15px;
+    }
+
+    .personal_gift h3 {
+        padding-bottom: 13px;
+        margin-bottom: 14px;
+        font-size: 18px;
+    }
+
+    .prsnl_gft_lft label {
+        font-size: 14px;
+    }
+
+    .buygift_btn {
+        margin-bottom: 25px;
+        margin-top: 15px;
+        padding: 12px 20px;
+        font-size: 13px;
+    }
+
+    .personal_gift {
+        padding: 26px 15px 30px;
+    }
+
+    .gifrCart_top {
+        display: block;
+    }
+
+    .prsnl_gft_rht img {
+        margin: 0 auto;
+    }
+
+    /* giftcard page end */
+
+    /* confirm order start */
+    .order_placed {
+        margin-top: 110px;
+        padding: 30px 0px;
+    }
+
+    .op_inner {
+        width: 518px;
+        padding: 20px;
+    }
+
+    .op_message h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .op_message p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .opbtns a {
+        margin: 0px 5px;
+        padding: 12px 30px;
+        font-size: 13px;
+    }
+
+    /* confirm order end */
+    .res_slider_show {
+        display: block;
+    }
+
+    .rest_ryt .couponbox {
+        margin-top: 30px;
+    }
+
+    .bread_crumb {
+        display: none;
+    }
+
+    .search_sec .form-control {
+        height: 36px;
+        border: 1px solid #e8e8e8;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .search_sec img {
+        top: 10px;
+    }
+
+    .acc_details {
+        display: none;
+    }
+
+    .set_d_none {
+        display: none;
+    }
+
+    .set_d_block {
+        display: block;
+        margin-top: 20px;
+        background-color: #fff;
+    }
+
+    .res_prod_cat {
+        display: block;
+    }
+
+    .colWidth2 .browsAll_str_rht.res_prod_sort {
+        float: left;
+        width: 48%;
+    }
+
+    .browsAll_str_rht.res_prod_sort {
+        float: left;
+        width: 48%;
+    }
+
+    .browsAll_str_rht.res_prod_sort button {
+        width: 100%;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .browsAll_str_rht.res_prod_sort button img {
+        float: right;
+        margin-top: 7px;
+    }
+
+    .browsAll_str_rht.res_prod_sort .filDrop_content {
+        width: 100%;
+        left: 0;
+        top: 58px;
+    }
+
+    .userprofile {
+        display: none;
+    }
+
+    .order_tabs a {
+        margin-bottom: 8px;
+        margin: 0px 6px 8px;
+    }
+
+    .continuebtn2 {
+        display: block;
+    }
+
+    .rateitem {
+        font-size: 12px;
+    }
+
+    .res_myaccpa {
+        margin-top: 0;
+        padding-bottom: 30px;
+    }
+
+    .restaurantsdetail_main {
+        margin-top: 110px;
+        padding: 20px 0px 10px;
+    }
+
+    .storelisting {
+        margin-top: 110px;
+    }
+
+    .brows_store.brows_store2 {
+        margin-top: 0px;
+    }
+
+    .s_notice2 {
+        padding-bottom: 0;
+    }
+
+    .brows_head_Res h2 {
+        margin-top: 20px;
+    }
+
+    .brows_store_box_res {
+        margin-bottom: 30px;
+    }
+
+    .colWidth2 .brows_store_box {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container2 {
+        width: 100%
+    }
+
+    .tracking_ryt {
+        margin-top: 0px;
+    }
+
+    /*.mapmain .slick-initialized .slick-slide{
+        padding: 0;
+    }*/
+    .slider2.slick-dotted.slick-slider.restaurantslider {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .restaurantslider .store_banner_in {
+        padding: 0;
+    }
+
+    .restab a {
+        float: left;
+        width: 25%;
+        padding: 9px 9px;
+    }
+
+    .restab a.active {
+        color: #fff;
+        background: #fa6304;
+        border-bottom: 0px solid transparent;
+    }
+
+    .rest_details_res p.font2 {
+        margin-bottom: 0;
+    }
+
+    .rest_details_res p.font3 {
+        margin-top: 15px;
+    }
+
+    .res_timebox {
+        display: block;
+    }
+
+
+    /*--------------*/
+
+    .size_wrpr .fb_list label {
+        width: 50px;
+        height: 50px;
+    }
+
+    /*    2-7-19*/
+    .commn {
+        padding: 15px 30px 38px;
+    }
+
+    .prdct_rvw {
+        padding: 0;
+    }
+
+    .messag_wrp textarea.form-control {
+        height: 155px;
+    }
+
+    .reviewbx h4 {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    /* header start */
+    .carticon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+
+    .drop_menu {
+        text-align: left;
+        min-width: initial;
+        width: 100%;
+    }
+
+    .drop_menu li a img {
+        margin-left: 0;
+    }
+
+    .drop_menu li a {
+        padding: 6px 10px;
+    }
+
+    .chat_box_header .chat span {
+        display: none;
+    }
+
+    .res_logo_show {
+        display: block;
+        margin: 0 auto;
+        width: 47px;
+    }
+
+    .res_logo_hide {
+        display: none;
+    }
+
+    .brand_logo {
+        float: initial;
+        margin: 0 auto;
+        display: block;
+        width: 120px;
+    }
+
+    .h_btm {
+        height: 78px;
+        padding: 10px 20px;
+    }
+
+    .chat_box_header,
+    .dropbox {
+        margin: 0px 3px;
+    }
+
+    .h_top {
+        padding: 10px 15px;
+    }
+
+    .searchboxindex {
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .sidenav {
+        top: 120px;
+    }
+
+    /* header end */
+
+    /* footer start */
+    .f_logo {
+        width: 120px;
+    }
+
+    .f_ryt {
+        padding-right: 0;
+    }
+
+    .f_lft .width60 {
+        width: 100%;
+    }
+
+    .f_lft .width40 {
+        width: 200px;
+    }
+
+    .res_dnone {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .subscribebtn a {
+        padding: 8px 0px;
+    }
+
+    .f_links ul li:first-child a {
+        margin-bottom: 0px;
+    }
+
+    .subscribebtn {
+        margin: 15px auto;
+    }
+
+    .fryt_inner {
+        width: 80%;
+    }
+
+    /* footer end */
+
+    /*modal start*/
+    .reg_lft .resshow {
+        height: 200px;
+    }
+
+    .reg_lft_heading h3 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .reg_lft_heading {
+        left: 5%;
+    }
+
+    .reg_lft_heading p {
+        font-size: 13px;
+    }
+
+    .reg_ryt {
+        padding: 20px 20px;
+    }
+
+    .btnclose {
+        width: 35px;
+        height: 35px;
+        top: -20px;
+        right: -20px;
+    }
+
+    .time .modal-dialog {
+        width: 82%;
+    }
+
+    .time_inner ul li {
+        width: 45px;
+        height: 45px;
+    }
+
+    .time_inner ul li a {
+        font-size: 12px;
+    }
+
+    /*modal start*/
+
+    /* index page start */
+    .banner {
+        margin-top: 120px;
+    }
+
+    .locationbtn .input_group button,
+    .locationbtn .form-control {
+        font-size: 14px;
+    }
+
+    .searchbox2 .locationbtn,
+    .locationbtn .form-control,
+    .locationbtn .input_group button {
+        height: 40px;
+    }
+
+    .locationbtn .input_group button {
+        padding: 6px;
+    }
+
+    .searchbox2 .locationbtn img.locicon {
+        top: 10px;
+    }
+
+    .slider .col-sm-3 {
+        width: 50%;
+        float: left;
+        padding: 0px 7px;
+    }
+
+    .s_item p.postop {
+        top: 30px;
+    }
+
+    .s_head,
+    .cou_inner h3 {
+        font-size: 22px;
+    }
+
+    .cou_inner h3 {
+        margin-bottom: 15px;
+    }
+
+    .cou_inner a {
+        padding: 9px 28px;
+    }
+
+    .part_content p {
+        min-height: 198px;
+    }
+
+    /* index page end */
+
+    /* store page */
+    .store_banner_in h2 {
+        font-size: 30px;
+        top: 30px;
+        left: 20px;
+    }
+
+    .slider2 .slick-dots {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .slider2 .store_banner_in img.storeimghide {
+        display: none;
+    }
+
+    .slider2 .store_banner_in img.storeimgshow {
+        display: block;
+        width: 100%;
+    }
+
+    .slick-dots li button:before {
+        width: 20px;
+        height: 20px;
+    }
+
+    .slick-dots li button:after {
+        top: 10px;
+        left: 10px;
+    }
+
+    .brows_head h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .brows_head h2 span {
+        font-size: 14px;
+        margin-left: 6px;
+    }
+
+
+
+    .brows_store_box {
+        margin-top: 20px;
+    }
+
+    .browsAll_str_lft {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .browsAll_str_rht,
+    .filDrop_btn {
+        width: 100%;
+    }
+
+    .filDrop_btn {
+        margin-top: 20px;
+        text-align: initial;
+    }
+
+    .filDrop_btn img {
+        float: right;
+        margin-top: 6px;
+    }
+
+    .filDrop_content {
+        left: 0;
+        top: 56px;
+        width: 100%;
+    }
+
+
+
+    .browsAll_store {
+        margin-bottom: 25px;
+    }
+
+    .storeType {
+        padding-top: 20px;
+    }
+
+    .storeBox_bottom {
+        min-height: initial;
+        padding: 15px 8px 15px;
+    }
+
+
+    .bread_crumb {
+        padding: 15px 0 20px;
+        margin-top: 105px;
+    }
+
+    /* store page end */
+
+    /* store listing page */
+    .review_sec .review_box li {
+        width: 48%;
+    }
+
+    .set > a {
+        font-size: 16px;
+    }
+
+    /* store listing page end */
+
+    /* restaurent listing page */
+    .rest_head h2 {
+        font-size: 18px;
+    }
+
+    .pagination_route ul li {
+        margin: 0 4px;
+    }
+
+    .restoBox .storeBox_bottom {
+        padding: 5px 8px 12px;
+    }
+
+    .restoBox .storeBox_bottom h2 {
+        font-size: 13px;
+    }
+
+    .restaurant_store {
+        padding-top: 0px;
+    }
+
+    /* restaurent listiong page end */
+
+    /* restaurent details page */
+    .tabs_menu a {
+        font-size: 14px;
+        padding: 13px 15px;
+    }
+
+    .filter_menu a {
+        font-size: 12px;
+        margin-right: 7px;
+    }
+
+    /*.cart_items .item_img {
+        width: 100%;
+        float: initial;
+    }*/
+
+    /*.cart_items .item_details {
+        width: 100%;
+        float: none;
+    }*/
+
+    .item_details .id_lft {
+        /*padding-top: 20px;*/
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .quantity {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /*.item_img img {
+        margin: 0 auto;
+    }*/
+
+    .itemDet .id_ryt {
+        width: 100%;
+    }
+
+    .valuebox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .removeitem {
+        margin-top: 0;
+    }
+
+    .quantity {
+        float: none;
+    }
+
+    .quantity .add_btn {
+        font-size: 12px;
+        padding: 5px 19px;
+    }
+
+    .procucts_rest {
+        padding: 0px 0 20px;
+    }
+
+    .item_boxs {
+        width: 63px;
+        padding: 5px 5px 5px;
+    }
+
+    .item_boxs h2 {
+        font-size: 20px;
+    }
+
+    /* restaurent details page end */
+
+
+    /*    fashion page */
+    .brows_store {
+        margin-top: 120px;
+    }
+
+    /*    fashion page end*/
+
+    /* terms page start */
+    .privacy {
+        margin-top: 120px;
+    }
+
+    .cards_content h4 {
+        line-height: 13px;
+        margin-bottom: 2px;
+    }
+
+    .cards_content img {
+        width: 27%;
+    }
+
+    /* terms page end */
+
+    /* aboutus page start */
+    .aboutus_banner {
+        margin-top: 120px;
+        padding: 100px 0px 100px;
+    }
+
+    .banner_inner h2 {
+        font-size: 40px;
+    }
+
+    .ad_inner p {
+        text-align: left;
+    }
+
+    /* aboutus page end */
+
+    /* help page start */
+    .browsetopics {
+        margin-top: 30px;
+        box-shadow: 0px 0px 4px 1px #ececec;
+    }
+
+    .myacc_ryt {
+        margin-top: 30px;
+        padding: 20px 25px 20px;
+    }
+
+    /* help page end */
+
+    /* career page start */
+    .career {
+        margin-top: 120px;
+        padding: 0px 0px 0px;
+    }
+
+    .bread_crumb_menu li a {
+        font-size: 14px;
+    }
+
+    .bread_crumb_menu li {
+        margin-right: 8px;
+    }
+
+    .bread_crumb {
+        padding: 10px 0 10px;
+        margin-top: 116px;
+    }
+
+    .jobimg {
+        width: 25%;
+        float: unset;
+    }
+
+    .jobcontent {
+        width: 100%;
+    }
+
+    .jobdata h4 {
+        font-size: 16px;
+    }
+
+    .jobdata h5 {
+        font-size: 14px;
+    }
+
+    .jobdata p {
+        font-size: 13px;
+    }
+
+    .jobdata p span {
+        margin-right: 10px;
+    }
+
+    .viewdetailbtn a {
+        font-size: 14px;
+    }
+
+    .jobimg img {
+        margin-bottom: 15px;
+    }
+
+    /* career page end */
+
+    /* careerdetails page */
+    .career_details {
+        margin-top: 120px;
+    }
+
+    .career_details .bread_crumb {
+        padding-bottom: 15px;
+    }
+
+    .career_head h2 {
+        font-size: 18px;
+        padding: 0px 0px 20px;
+    }
+
+    .jobdata h4 {
+        font-size: 16px;
+    }
+
+    .jobimg {
+        width: 25%;
+        padding-right: 12px;
+    }
+
+    .jobcontent {
+        width: 75%;
+    }
+
+    .jobdata p span {
+        margin-right: 15px;
+    }
+
+    .jobdetailcareer {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .cjobfeatures form .form-control {
+        height: 42px;
+    }
+
+    /* careerdetails page end */
+
+    /* myaccount page */
+    .myaccount {
+        padding: 0px 0px 30px;
+        margin-top: 120px;
+    }
+
+    .myacc_ryt.res_mg_top {
+        margin-top: 30px;
+    }
+
+    .acc_details {
+        margin-bottom: 15px;
+    }
+
+    .savebtn2 {
+        padding: 10px 70px;
+        font-size: 13px;
+    }
+
+    /* myaccount page end */
+
+    /* order history page */
+    .order_tabs {
+        text-align: initial;
+    }
+
+    /* order history page end */
+
+    /* tracking page */
+    .referoptions .tick {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    /*responsive tracking*/
+    .trackingmain {
+        display: none;
+    }
+
+    .res_trackmain {
+        display: block;
+    }
+
+    /*responsive tracking*/
+    /* tracking page end */
+
+    /* cart page */
+    .shipping {
+        padding: 20px 0px 30px;
+        margin-top: 120px;
+    }
+
+    .shipping_process ul li {
+        margin: 0px 35px;
+    }
+
+    .dashedline::before {
+        left: -69px;
+        width: 64px;
+    }
+
+    .dashedline::after {
+        right: -67px;
+        width: 61px;
+    }
+
+    /* cart page end */
+
+    /* product details page */
+    .productdetails {
+        margin-top: 120px;
+    }
+
+    .addCart_btn {
+        padding: 7px 25px;
+    }
+
+    .descipt h2 {
+        font-size: 20px;
+    }
+
+    .descipt p {
+        font-size: 13px;
+    }
+
+    .descipt h4 {
+        margin: 15px 0 15px;
+    }
+
+    .related_prod_in h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .col_sm {
+        margin-left: 0;
+        margin-right: 0;
+        width: 42%;
+        margin: 0% 4%;
+    }
+
+    .related_prod {
+        padding-bottom: 15px;
+    }
+
+    .slide_img img {
+        width: 100%;
+    }
+
+    .slides {
+        height: 308px;
+    }
+
+    /* product details page end */
+
+    /* account upload page */
+    .ship_lft h3 {
+        font-size: 18px;
+    }
+
+    .accupload {
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .box_drop {
+        display: block;
+        text-align: center;
+    }
+
+    .box_drop label {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    #userActions p {
+        font-size: 16px;
+        margin: 15px 0 20px;
+    }
+
+    .dropBox {
+        padding: 35px 0 0 0;
+    }
+
+    /* account upload page end */
+
+    /* become a courier page start */
+    .form_wrpaer {
+        padding: 0 0px;
+    }
+
+    .signup_top h3 {
+        margin-top: 40px;
+        font-size: 24px;
+    }
+
+    .formWrap_inn {
+        margin-top: -120px;
+    }
+
+    .formWrap_inn form .form-control {
+        height: 36px;
+    }
+
+    .formWrap_inn form label {
+        font-size: 13px;
+    }
+
+    .submit_btn {
+        padding: 10px 55px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    /* become a courier page end */
+
+    /* shipping page start */
+    .shipping {
+        padding-bottom: 30px;
+        margin-top: 120px;
+    }
+
+    .shipping_process ul li {
+        margin: 0px 35px;
+    }
+
+    .dashedline::before {
+        left: -65px;
+        width: 55px;
+    }
+
+    .dashedline::after {
+        right: -65px;
+        width: 55px;
+    }
+
+    .apply_coupons a {
+        font-size: 13px;
+    }
+
+    .ship_lft .form-control {
+        font-size: 13px;
+    }
+
+    .deliveryboxs .tick label {
+        font-size: 13px;
+    }
+
+    .your_order h6 {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* shipping page end */
+
+    /* payment page start */
+    .ship_lft .col-sm-6.reswidth100 {
+        width: 100%;
+    }
+
+    .ship_lft .col-sm-6.width40 {
+        width: 60%;
+    }
+
+    .cvvexamp {
+        top: 30px;
+    }
+
+    /* payment page end */
+
+    /* giftpage page start */
+    .giftCard_main {
+        margin-top: 120px;
+    }
+
+    /* giftpage end */
+
+    /* confirm order start */
+    .order_placed {
+        margin-top: 120px;
+    }
+
+    .op_inner {
+        width: 100%;
+    }
+
+    .op_message h2 {
+        font-size: 21px;
+    }
+
+    .op_message img {
+        width: 105px;
+    }
+
+    .op_message p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .opbtns a {
+        width: 50%;
+        margin: 0px 0px 10px;
+        padding: 12px 0px;
+    }
+
+    /* confirm order end */
+
+    /* search new */
+    #demo-2 {
+        display: block;
+    }
+
+    #demo-2 input[type="search"]:focus {
+        width: 260px;
+    }
+
+    .h_btm_lft {
+        position: relative;
+    }
+
+    .head_search {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 15px;
+    }
+
+    /* search new */
+
+    /* responsive sections start*/
+    .notice h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .take_btn {
+        padding: 12px 30px;
+    }
+
+    .archivesbox {
+        margin-bottom: 30px;
+    }
+
+    .cards {
+        display: none;
+    }
+
+    .f_links,
+    .f_ryt h3,
+    .subscribebtn,
+    .f_logo {
+        display: none;
+    }
+
+    .f_lft {
+        padding: 0;
+    }
+
+    .f_ryt {
+        padding: 0;
+        display: block;
+    }
+
+    .f_inner {
+        position: relative;
+        padding: 30px 0px;
+    }
+
+    .copyright {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .continuebtn2 {
+        width: 40%;
+    }
+
+    .restick {
+        margin-right: 17px;
+    }
+
+    .rescatelog {
+        box-shadow: none;
+        border: 0;
+        padding: 0;
+    }
+
+    .rescatelog .cart_lft {
+        padding: 0 !important;
+    }
+
+    .restab a {
+        float: left;
+        width: 25%;
+        padding: 9px 9px;
+    }
+
+    .restab a.active {
+        color: #fff;
+        background: #fa6304;
+        border-bottom: 0px solid transparent;
+    }
+
+    .rescatelog .filter_menu {
+        margin-bottom: 20px;
+    }
+
+    .rescatelog .cartlist a {
+        display: inline-block;
+    }
+
+    .rescatelog2 {
+        margin-top: 0px;
+    }
+
+    .rescatelog2 .couponbox {
+        margin-top: 20px;
+    }
+
+    .about_txt h2 {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .storelisting {
+        margin-top: 120px;
+    }
+
+    .chatshow {
+        display: block;
+        position: relative;
+        top: -5px;
+    }
+
+    .chatshow img {
+        width: 25px;
+    }
+
+    .chathide {
+        display: none;
+    }
+
+    .store2 {
+        margin-top: 120px;
+    }
+
+    .tracking_ryt .orderitem {
+        margin-bottom: 10px;
+    }
+
+    .tracking_ryt .rateitem {
+        margin-right: 0px;
+    }
+
+    .tracking_ryt .item_details .id_ryt {
+        padding-top: 0;
+    }
+
+    .tracking_ryt .productrate {
+        padding-top: 0;
+    }
+
+    .id_lft h5 span {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    .id_lft h6 {
+        font-size: 13px;
+    }
+
+    .restaurantsdetail_main {
+        margin-top: 120px;
+        padding: 20px 0px 10px;
+    }
+
+    .review_sec ul li:nth-child(1) {
+        box-shadow: none;
+    }
+
+    .res_chat span {
+        display: none;
+    }
+
+    .res_chat img {
+        margin-right: 0;
+    }
+
+    .review_sec.res_review_sec {
+        padding: 15px 0px 0px;
+    }
+
+    .set_d_block {
+        margin-top: 10px;
+    }
+
+    .txt_bot {
+        border-top: none;
+    }
+
+    /* responsive sections end*/
+
+    .top i {
+        font-size: 28px;
+    }
+
+    /*------------*/
+    .size_wrpr .fb_list label {
+        width: 45px;
+        height: 45px;
+    }
+
+
+    /*    2-7-19*/
+    .commn {
+        padding: 15px 15px 25px;
+    }
+
+    .messag_wrp textarea.form-control {
+        height: 125px;
+    }
+
+    .reviewbx h4 span {
+        margin: 0 20px;
+    }
+
+    .messag_wrp {
+        padding-left: 66px;
+    }
+
+    .btn_submit {
+        padding: 12px 0;
+        font-size: 13px;
+    }
+
+    .reviewbx h4 {
+        margin: 12px 0 5px;
+    }
+
+    .reviewbx p {
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    /*header start*/
+    .carticon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+
+    /*humburger start*/
+    .header .hamburger {
+        width: 25px;
+        height: 15px;
+        padding: 0;
+        margin-top: 12px;
+    }
+
+    .hamburger-box {
+        width: 25px;
+        height: 15px;
+    }
+
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        width: 25px;
+        height: 2px;
+    }
+
+    .hamburger-inner::after {
+        width: 18px;
+    }
+
+    .hamburger-inner::after {
+        bottom: -6px;
+    }
+
+    .hamburger-inner::before {
+        top: -6px;
+    }
+
+    /*humburger end*/
+    .res_logo_show {
+        width: 30px;
+    }
+
+    .dropbtn img {
+        margin: 0px 6px;
+    }
+
+    .chat_box_header,
+    .dropbox {
+        margin: 0px 0px;
+    }
+
+    .drop_menu li a img {
+        margin-left: 0;
+    }
+
+    .drop_menu li a {
+        text-align: left;
+    }
+
+    .drop_menu2 li a {
+        padding: 6px 8px;
+    }
+
+    .drop_menu_s {
+        min-width: 80px;
+    }
+
+    .drop_menu_s2 {
+        min-width: 90px;
+    }
+
+    .drop_menu_s3 {
+        min-width: 70px;
+    }
+
+    .drop_menu_s3 li a {
+        padding: 6px 8px;
+    }
+
+    .h_btm {
+        height: 57px;
+        padding: 10px 15px;
+    }
+
+    .h_top {
+        padding: 5px 15px;
+    }
+
+    .sidenav {
+        top: 89px;
+    }
+
+    /*header end*/
+
+    /*footer start*/
+    .f_inner {
+        position: relative;
+        padding: 20px 0px;
+    }
+
+    .f_ryt {
+        padding-right: 0;
+    }
+
+    .fryt_inner {
+        width: 100%;
+    }
+
+    .f_lft .width40 {
+        width: 100%;
+    }
+
+    .f_logo {
+        margin-bottom: 0;
+    }
+
+    .subscribebtn {
+        width: 100%;
+    }
+
+    .subscribebtn a {
+        padding: 8px 0px;
+    }
+
+    /*footer end*/
+
+    /*modal start*/
+    .register .modal-dialog {
+        width: 85%;
+    }
+
+    .reg_lft .resshow {
+        height: 170px;
+    }
+
+    .reg_lft_heading h3 {
+        font-size: 30px;
+    }
+
+    .formbox h6 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .formbox label {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+
+    .formbox .form-control {
+        height: 36px;
+        font-size: 13px;
+    }
+
+    .formbox .form-group {
+        margin-bottom: 15px;
+    }
+
+    p.modalfont {
+        float: left;
+        display: block;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .formbox .tick {
+        margin: 15px 0px 10px 0px;
+    }
+
+    .regbtn {
+        padding: 8px 30px;
+    }
+
+    .registerbtns .social_links {
+        margin-bottom: 0;
+    }
+
+    .time_inner ul li {
+        width: 35px;
+        height: 35px;
+    }
+
+    .time_inner ul li a {
+        font-size: 10px;
+    }
+
+    /*modal end*/
+
+    /*index page start*/
+    .banner {
+        margin-top: 89px;
+    }
+
+    .banner_inner h3 {
+        font-size: 16px;
+    }
+
+    .banner_inner h2 {
+        font-size: 30px;
+    }
+
+    .locationbtn .input_group button {
+        width: 20%;
+    }
+
+    .locationbtn .form-control {
+        width: 80%;
+        padding: 10px 12px 10px 30px;
+    }
+
+    .locationbtn .input_group button,
+    .locationbtn .form-control {
+        font-size: 13px;
+    }
+
+    .searchbox2 .locationbtn img.locicon {
+        left: 10px;
+    }
+
+    .d_item {
+        padding: 20px 15px;
+    }
+
+    .slider .col-sm-3 {
+        width: 100%;
+    }
+
+    .res_slickshow {
+        display: block;
+    }
+
+    .res_slickhide {
+        display: none;
+    }
+
+    .s_item {
+        min-height: 131px;
+    }
+
+    .ditem_res_mgbtm {
+        margin-bottom: 30px;
+    }
+
+    .s_item p.postop {
+        top: 50px;
+    }
+
+    .s_item p.posdown {
+        bottom: 60px;
+    }
+
+    .courier {
+        padding: 30px 0px 10px;
+    }
+
+    .partner {
+        padding: 30px 0px 10px;
+    }
+
+    .rowflexinitial {
+        display: block;
+    }
+
+    .partner_inner .col-sm-6 {
+        width: 100%;
+    }
+
+    .part_content p {
+        min-height: initial;
+    }
+
+    .part_items {
+        margin-bottom: 20px;
+    }
+
+    /* index page end */
+
+    /* store page */
+    .store_banner_in h2 {
+        font-size: 18px;
+    }
+
+    .slider2 .slick-dots {
+        width: 30%;
+    }
+
+    .slick-dots li {
+        width: 16px;
+        height: 16px;
+        margin: 0px 5px;
+    }
+
+    .slick-dots li button {
+        width: 16px;
+        height: 16px;
+    }
+
+    .slick-dots li button:before {
+        width: 16px;
+        height: 16px;
+        top: 0;
+        left: 0;
+    }
+
+    .slick-dots li button:after {
+        width: 8px;
+        height: 8px;
+        top: 8px;
+        left: 8px;
+    }
+
+    .slick-dots {
+        bottom: -40px;
+    }
+
+    .store_banner_in h2 {
+        left: 57px;
+    }
+
+    .categories h3 {
+        padding: 10px 0 10px 20px;
+    }
+
+    .brows_head h2 span {
+        font-size: 12px;
+    }
+
+    .brows_head h2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .brows_store_box {
+        margin-top: 15px;
+    }
+
+    .storeType .col-sm-3 {
+        width: 100%;
+        float: initial;
+    }
+
+    .storeBox_top {
+        padding: 5px 20px 5px;
+    }
+
+    .storeBox_top img {
+        width: 100%;
+    }
+
+    .storeBox {
+        margin-bottom: 30px;
+    }
+
+    .pagination_route {
+        padding: 0px 0px 30px;
+    }
+
+    .storeBox_top .ribben_cm {
+        font-size: 12px;
+    }
+
+    .storeBox_bottom h6 {
+        min-height: initial;
+    }
+
+    .brows_store {
+        margin-top: 89px;
+        padding-bottom: 0px;
+    }
+
+    .storeBox_bottom p span {
+        font-size: 12px;
+    }
+
+    .bread_crumb {
+        padding: 15px 0 15px;
+        margin-top: 90px;
+    }
+
+    .browsAll_str_rht.res_prod_sort {
+        width: 100%;
+    }
+
+    /* store page end */
+
+    /* store listing page */
+    .pagination_route ul li a {
+        font-size: 12px;
+        padding: 3px 4px;
+    }
+
+    .pagination_route ul li a.commControl {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .review_sec .review_box li {
+        width: 100%;
+    }
+
+    .set > a {
+        font-size: 14px;
+        padding: 15px 0;
+    }
+
+    .shop_store img {
+        width: 52%;
+    }
+
+    /* store listing page end */
+
+    /* restaurent listing page */
+    .restoBox_top {
+        padding: 0;
+    }
+
+    .restoBox_top img {
+        width: 100%;
+    }
+
+    .browsAll_store .brows_store_box {
+        margin-top: 20px;
+    }
+
+    .restoBox .storeBox_bottom {
+        padding: 10px 8px 12px;
+    }
+
+    .restoBox .storeBox_top span {
+        bottom: 0px;
+    }
+
+    .categories_btm a {
+        margin-bottom: 5px;
+    }
+
+    /* restaurent listing page end */
+
+    /* restaurent details page */
+    .slide_img {
+        width: 73%;
+        margin-left: 0;
+    }
+
+    .slide_img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slides {
+        height: 298px;
+    }
+
+    .txt_top h4 {
+        font-size: 14px;
+    }
+
+    .txt_mid h2 {
+        font-size: 18px;
+    }
+
+    .txt_mid p {
+        font-size: 13px;
+    }
+
+    .txt_bot p {
+        font-size: 12px;
+    }
+
+    .txt_bot .readBtn {
+        font-size: 12px;
+    }
+
+    .txt_bot h5,
+    .txt_bot h6 {
+        font-size: 12px;
+    }
+
+    .tabs_menu a {
+        font-size: 12px;
+        padding: 10px 8px;
+    }
+
+    .item_details .id_lft {
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+
+    .tabs_menu {
+        margin-bottom: 0px;
+    }
+
+    .cart_lft {
+        padding: 15px 9px 20px !important;
+    }
+
+    .restFood h5 {
+        font-size: 16px;
+    }
+
+    .restFood p {
+        font-size: 14px;
+    }
+
+    .id_lft p strike {
+        font-size: 16px;
+    }
+
+    .no_padd {
+        padding-left: 0;
+    }
+
+    .apply_coupons .form-control {
+        width: 60%;
+        font-size: 12px;
+    }
+
+    .apply_coupons a {
+        width: 40%;
+        font-size: 12px;
+    }
+
+    .procucts_rest {
+        padding: 0px 0 20px;
+    }
+
+    /* restaurent details page end */
+
+    /* terms page start */
+    .privacy_inner h3 {
+        font-family: 'RalewaySemiBold';
+        font-size: 18px;
+    }
+
+    .cards_content img {
+        width: 35%;
+    }
+
+    .privacy {
+        margin-top: 89px;
+        padding: 20px 0px 20px;
+    }
+
+    .privacy_inner p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .cards {
+        padding: 22px 0px;
+    }
+
+    .cards_content {
+        margin-bottom: 12px;
+    }
+
+    .cards_content h4 {
+        margin-bottom: 5px;
+    }
+
+    /* terms page end */
+
+    /* aboutus page start */
+    .aboutus_banner {
+        margin-top: 89px;
+        padding: 85px 0px 85px;
+    }
+
+    .banner_inner h2 {
+        font-size: 35px;
+    }
+
+    /* aboutus page end */
+
+    /* help page start */
+    .ship_lft h3 {
+        font-size: 18px;
+    }
+
+    .myacc_ryt {
+        padding: 20px 20px 20px;
+    }
+
+    .helptopics ul li a {
+        font-size: 14px;
+    }
+
+    /* help page end */
+
+    /* career page start */
+    .career {
+        margin-top: 89px;
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+
+    .searchbtn {
+        padding: 8px 20px;
+    }
+
+    .jobimg {
+        width: 30%;
+    }
+
+    .viewdetailbtn a {
+        font-size: 12px;
+    }
+
+    .searchbtn {
+        font-size: 12px;
+    }
+
+    /* career page end */
+
+    /* careerdetails page */
+    .career_details {
+        margin-top: 89px;
+    }
+
+    .career_head h2 {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .career_details_inner {
+        padding: 20px 15px;
+    }
+
+    .jobimg {
+        padding-left: 0;
+    }
+
+    .jobimg,
+    .jobcontent {
+        width: 100%;
+    }
+
+    .jobimg img {
+        width: 60px;
+        float: left;
+        margin-bottom: 0;
+    }
+
+    .jobdata {
+        margin-top: 15px;
+    }
+
+    .C_deatils h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .C_deatils p br {
+        display: none;
+    }
+
+    .cjobfeatures {
+        margin-top: 0px;
+        padding: 20px 15px;
+    }
+
+    .jb_lft h4,
+    .jb_ryt h4 {
+        font-size: 14px;
+    }
+
+    .cate_drop_down p {
+        font-size: 12px;
+    }
+
+    .file-upload .file-select .file-select-button {
+        padding: 0px 20px;
+        height: 37px;
+        line-height: 37px;
+    }
+
+    .file-upload .file-select {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .file-upload .file-select .file-select-name {
+        line-height: 37px;
+    }
+
+    .cate_dropbtn {
+        padding: 9px 20px;
+    }
+
+    .subbtn {
+        margin-top: 18px;
+    }
+
+    .career_details {
+        padding-bottom: 20px;
+    }
+
+    .cjobfeatures form .form-control {
+        height: 40px;
+    }
+
+    /* careerdetails page end */
+
+    /* myaccount page */
+    .myaccount {
+        padding: 0px 0px 30px;
+        margin-top: 89px;
+    }
+
+    .userimg img {
+        width: 70%;
+    }
+
+    .user_details h4 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .userprofile ul li {
+        padding: 8px 0px;
+    }
+
+    .ship_lft h3 {
+        font-size: 16px;
+    }
+
+    .ship_lft .form-group {
+        margin-bottom: 15px;
+    }
+
+    .myacc_ryt {
+        padding: 20px 15px 20px;
+    }
+
+    .savebtn2 {
+        width: 100%;
+        padding: 9px 80px;
+    }
+
+    .userprofile a {
+        font-size: 12px;
+    }
+
+    /* myaccount page end */
+
+    /* order history page */
+    .orderdetails .orderid {
+        display: block;
+        text-align: left;
+    }
+
+    .productrate p {
+        margin-bottom: 0;
+        margin-right: 0;
+        float: initial;
+        text-align: center;
+    }
+
+    .rateitem {
+        margin-right: 0;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .productrate {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .cancelitem {
+        font-size: 12px;
+    }
+
+    .orderid a {
+        padding: 6px 12px;
+    }
+
+    .orderhelp a {
+        font-size: 12px;
+    }
+
+    .orderid span {
+        margin-left: 0;
+        margin-top: 8px;
+        float: right;
+        font-size: 12px;
+    }
+
+    .orderitem {
+        padding: 10px;
+    }
+
+    .order_tabs a {
+        font-size: 12px !important;
+        margin: 0px 3px 8px;
+    }
+
+    /* order history page end */
+
+    /* cart page */
+    /*.item_img img {
+        margin: 0 auto;
+    }*/
+    .cart_items .item_img {
+        width: 100%;
+        float: initial;
+    }
+
+    .cart_items .item_img img {
+        margin: 0 auto;
+    }
+
+
+    .cart_items .item_details {
+        width: 100%;
+        float: initial;
+        text-align: center;
+    }
+
+    .item_details .id_lft {
+        padding-top: 20px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .item_details .id_ryt {
+        padding: 10px 0px;
+    }
+
+    .vaulebox button {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .vaulebox {
+        width: 70px;
+    }
+
+    .vaulebox input {
+        height: 20px;
+    }
+
+    .shipping {
+        margin-top: 89px;
+        padding: 20px 0px 30px;
+    }
+
+    .shipping_process ul li {
+        margin: 0px 15px;
+    }
+
+    .dashedline::before {
+        left: -29px;
+        width: 24px;
+    }
+
+    .dashedline::after {
+        right: -30px;
+        width: 25px;
+    }
+
+    .ship_head h2 {
+        font-size: 20px;
+    }
+
+    .ship_ryt {
+        margin-top: 20px;
+    }
+
+    .mgbtm0 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .your_order {
+        margin-top: 20px;
+    }
+
+    /* cart page end */
+
+    /* product details page */
+    .productdetails {
+        margin-top: 89px;
+    }
+
+    .col_sm {
+        margin-left: 0;
+        margin-right: 0;
+        width: 41.7%;
+        margin: 0% 4%;
+    }
+
+    .descipt {
+        padding: 15px 15px 20px;
+    }
+
+    .prod_des_tab a {
+        padding: 10px 15px;
+    }
+
+    .descipt h2 {
+        font-size: 16px;
+    }
+
+    .related_prod_in h3 {
+        font-size: 20px;
+    }
+
+    .color_opt a {
+        margin-right: 8px;
+    }
+
+    .addCart_btn {
+        font-size: 12px;
+    }
+
+    .item_boxs h2 {
+        font-size: 16px;
+    }
+
+    .item_boxs p {
+        font-size: 12px;
+    }
+
+    .res_breadCrumb_in {
+        display: block;
+        position: relative;
+        padding-right: 65px;
+    }
+
+    .item_boxs {
+        margin-top: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .bread_crumb_menu li {
+        margin-right: 4px;
+    }
+
+    /* product details page end */
+
+    /* account upload page */
+    .dropimgbox {
+        width: 110px;
+        height: 110px;
+    }
+
+    .box_drop label {
+        font-size: 12px;
+    }
+
+    .take_btn {
+        font-size: 12px;
+    }
+
+    #userActions p span {
+        margin-top: 8px;
+    }
+
+    /* account upload page end */
+
+    /* become a courier page start */
+    .formWrap_inn {
+        padding: 20px 15px;
+    }
+
+    .d_item h5 {
+        margin-top: 10px;
+    }
+
+    .formWrap_inn {
+        margin-top: -80px;
+    }
+
+    .signup_top h3 {
+        font-size: 20px;
+    }
+
+    /* become a courier page end */
+
+    /* shipping page start */
+    .continuebtn a {
+        padding: 10px 0px;
+    }
+
+    .your_order h5 {
+        font-size: 16px;
+    }
+
+    .couponbox h5 {
+        font-size: 16px;
+    }
+
+    .totalpay p {
+        font-size: 14px;
+    }
+
+    .shipping_process ul li {
+        margin: 0px 20px;
+    }
+
+    .dashedline::before {
+        left: -40px;
+        width: 35px;
+    }
+
+    .dashedline::after {
+        right: -40px;
+        width: 35px;
+    }
+
+    .ship_head h2 {
+        font-size: 20px;
+    }
+
+    .shipping_process {
+        padding: 20px 0px;
+    }
+
+    .ship_lft .form-control {
+        height: 36px;
+        font-size: 12px;
+    }
+
+    /*shipping page end*/
+
+    /*payment page start*/
+    .cardstype label {
+        font-size: 18px;
+    }
+
+    .carddropbtn {
+        height: 36px;
+        font-size: 13px;
+        top: 5px;
+        padding: 5px 12px;
+    }
+
+    .card_drop_menu li a {
+        font-size: 13px;
+        padding: 5px 12px;
+    }
+
+    .ship_lft .col-sm-6 {
+        width: 100%;
+    }
+
+    .ship_lft .form-group {
+        margin-bottom: 15px;
+    }
+
+    .savebtn {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .cash label {
+        font-size: 16px;
+    }
+
+    .cash .tick span {
+        top: 4px;
+    }
+
+    .cash .tick {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .cardstype .tick span {
+        top: 5px;
+    }
+
+    /*payment page end*/
+
+    /* giftcard page start */
+    .giftCard_main {
+        margin-top: 89px;
+        padding: 30px 0 30px;
+    }
+
+    .upperLinks span {
+        margin-left: 10px;
+    }
+
+    .gifrCart_top a {
+        font-size: 13px
+    }
+
+    .giftSelect button {
+        margin-bottom: 15px;
+    }
+
+    .buygift_btn {
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+
+    /* giftcard page end */
+
+    /* confirm order start */
+    .op_message img {
+        width: 85px;
+    }
+
+    .order_placed {
+        margin-top: 89px;
+        padding: 50px 0px;
+    }
+
+    .opbtns a {
+        width: 70%;
+        font-size: 12px;
+    }
+
+    .op_message p {
+        font-size: 14px;
+    }
+
+    .op_message h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    /* confirm order end */
+
+    /* search new */
+    .head_search {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 0px;
+    }
+
+    #demo-2 input[type="search"] {
+        width: 10px;
+        padding-left: 15px;
+    }
+
+    #demo-2 input[type="search"]:focus {
+        width: 180px;
+    }
+
+    /* search new */
+
+    /* responsive sections start*/
+    .rest_details_res h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .rest_details_res button {
+        font-size: 13px;
+    }
+
+    .rest_details_res h5 {
+        font-size: 13px;
+    }
+
+    .rest_details_res h6 {
+        font-size: 13px;
+    }
+
+    .rest_details_res p.font3 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .rest_details_res p.font2 {
+        font-size: 13px;
+    }
+
+    .rest_details_res p {
+        font-size: 13px;
+    }
+
+    .notice h4 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .resta_img img {
+        width: 150px;
+    }
+
+    .box_drop label,
+    .take_btn {
+        width: 70%;
+    }
+
+    .res_prod_cat,
+    .colWidth2 .browsAll_str_rht.res_prod_sort {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .bread_crumb_menu li a {
+        font-size: 13px;
+    }
+
+    .continuebtn2 {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .delivery_lft {
+        padding: 20px;
+    }
+
+    .payment_lft {
+        padding: 20px;
+    }
+
+    .cardstype label img {
+        width: 85px;
+    }
+
+    .pad_ryt_zer0 {
+        padding-right: 0;
+    }
+
+    .delivery_ryt {
+        margin-top: 0;
+    }
+
+    .rescatelog .filter_menu {
+        margin-top: 15px;
+    }
+
+    .restab a {
+        padding: 6px 3px;
+    }
+
+    .rescatelog2 .couponbox {
+        margin-top: 0;
+    }
+
+    .rescatelog2 {
+        margin-top: 0;
+    }
+
+    .about_txt h2 {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .storelisting {
+        margin-top: 89px;
+    }
+
+    .slider3 .slick-dots {
+        bottom: 30px;
+    }
+
+    .store_banner_in h2 {
+        left: 20px;
+        font-size: 24px;
+    }
+
+    /* responsive sections end*/
+    .slider2 .slick-slide img {
+        height: 140px;
+    }
+
+    .slider2 {
+        height: 140px;
+    }
+
+    .product_descipt {
+        padding: 15px 0px 0px;
+    }
+
+    .restab2 a {
+        float: left;
+        width: 33.33%;
+    }
+
+    .restab2 a {
+        padding: 6px 3px;
+    }
+
+    .restab2 a.active {
+        color: #fff;
+        background: #fa6304;
+        border-bottom: 0px solid transparent;
+    }
+
+    .chatshow img {
+        width: 20px;
+    }
+
+    .store2 {
+        margin-top: 89px;
+    }
+
+    .dd_head h4 {
+        margin-bottom: 10px;
+    }
+
+    .dd_head h6 {
+        min-height: 26px;
+    }
+
+    .mapview {
+        margin-top: 0;
+    }
+
+    .tracking_ryt .orderitem {
+        margin-bottom: 0;
+    }
+
+    .restaurantsdetail_main {
+        margin-top: 89px;
+        padding: 20px 0px 10px;
+    }
+
+    .rest_details_res .notice h4 {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .rest_details_res h2 img {
+        width: 50px;
+    }
+
+    /*----6/5/19---*/
+
+    .accordianBox .set a {
+        text-align: center;
+    }
+
+    .notice,
+    .fastFood {
+        border-bottom: 1px solid #e8e8e8;
+        margin-bottom: 10px;
+    }
+
+    .fastFood {
+        padding-bottom: 8px;
+    }
+
+    .rating {
+        border-right: 1px solid #d7d7d7;
+        padding-right: 10px;
+    }
+
+    .sidenav2 {
+        padding-top: 5px;
+    }
+
+    /*.review_sec.res_review_sec .review_box li.review_width_w  {
+        margin-top: 0;
+    }*/
+    /* .review_sec.resSS_review {
+        padding-bottom: 2px;
+    }*/
+    .res_slickshow .s_item a img {
+        min-height: 200px;
+    }
+
+    .res_slickshow .s_item p.posdown img {
+        min-height: auto;
+    }
+
+    /*responsive tracking start*/
+    .res_trackmain {
+        margin-top: 89px;
+    }
+
+    .res_tracking h3 {
+        font-size: 18px;
+    }
+
+    .notification_slider {
+        width: 300px;
+        right: 10px;
+    }
+
+    .slick-initialized .slick-slide.delivery_details {
+        padding: 15px 15px 40px;
+    }
+
+    .review_box li a.reviewss {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .review_box li a.hearticon {
+        padding-left: 5px;
+        padding-right: 2px;
+    }
+
+    .review_box li a.shareIcon {
+        padding-left: 2px;
+        padding-right: 5px;
+    }
+
+    .res_chat {
+        padding-left: 5px;
+    }
+
+    .rating {
+        padding-right: 5px;
+    }
+
+    .rating_sdd {
+        padding-left: 5px;
+    }
+
+    .review_sec ul li span.starRe {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .res_chat img {
+        margin-right: 0;
+        width: 20px;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+    /*responsive tracking end*/
+
+    .resBottombdr {
+        border-bottom: 1px solid #e8e8e8;
+        padding-bottom: 8px !important;
+    }
+
+    .quantity {
+        width: 100%;
+    }
+
+    .brows_head_Res h2 span {
+        display: none;
+    }
+
+    .brows_head_Res h2 {
+        text-align: center;
+    }
+
+    .itmcnt {
+        display: block;
+    }
+
+    .browsAll_store .respSort {
+        margin-bottom: 8px;
+    }
+
+    .notice,
+    .fastFood {
+        text-align: center;
+    }
+
+    .rest_details_res h2 {
+        text-align: center;
+    }
+
+    .rest_details_res p {
+        text-align: center;
+    }
+
+    .readBtn,
+    .rest_details_res h5,
+    .rest_details_res h6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .stickyBar {
+        position: fixed;
+        width: 90%;
+        top: 89px;
+    }
+
+    .coupnhide,
+    .hideOrder {
+        display: none;
+    }
+
+    .checkoutbtn a {
+        margin: 0;
+    }
+
+    .yourOrderbx {
+        margin-top: 0;
+    }
+
+    .rest_details_res h2 span {
+        display: block;
+    }
+
+    /*10/5/19*/
+
+    .res_slickshow .s_item p.posdown img {
+        display: none;
+    }
+
+    .s_item p.postop {
+        top: initial;
+        bottom: 58px;
+    }
+
+    .useracclink a {
+        border-bottom: none;
+    }
+
+    .useracclink a:last-child {
+        border-bottom: 1px solid #e8e8e8;
+        padding-bottom: 10px;
+    }
+
+    .pro_drop_menu {
+        top: 88%;
+    }
+
+    /*------------*/
+    .size_wrpr .fb_list label {
+        width: 32px;
+        height: 32px;
+    }
+
+    .size_wrpr .fb_list label h4 {
+        font-size: 14px;
+    }
+
+    /*    02-07-19*/
+    .commn {
+        padding: 15px 15px 20px;
+    }
+
+    .messag_wrp {
+        padding-left: 0px;
+    }
+
+    .reviewbx h4 {
+        margin: 12px 0 15px;
+    }
+
+    .messag_wrp textarea.form-control {
+        height: 105px;
+    }
+
+    .reviewbx h4 span {
+        margin: 0 15px;
+    }
+
+    .storInfo h4 {
+        font-size: 14px;
+    }
+
+    .storInfo p {
+        line-height: 20px;
+    }
+
+    .reviewbx h4 img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {}

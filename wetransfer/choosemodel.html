@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+        
+        <title>Phenocase | Choose Model</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+        <link rel="stylesheet" type="text/css" href="css/nice-select.css">        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        
+    </head>
+    <body>
+        <!-- Header Start -->
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="navbar-header">
+                        <button class="hamburger hamburger_rm hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-responsive" alt="logo"></a>
+                        <a href="checkout.html" class="cart"><img src="img/cart.png" alt="cart" class="img-responsive"></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- sidenav start -->
+        <div class="sidenav" id="mySidenav">
+            <!-- <a href="javascript:void(0)" class="logo"><img src="img/logo.png" class="img-responsive" alt="logo"></a> -->
+            <button class="hamburger hamburger2 hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <a href="javascript:void(0)" class=""></a>
+            <a href="javascript:void(0)" class=""></a>
+            <a href="javascript:void(0)" class=""></a>
+            <a href="javascript:void(0)" class=""></a>
+        </div>
+        <!-- sidenav start -->
+        
+        <!-- manufacturer section start -->
+        <section class="manufacturer boxs choosemd">
+            <div class="container">
+                <div class="boxs">
+                    <div class="row bflex2">
+                        <div class="col-sm-7 col-sm-push-5">
+                            <div class="modelimg boxs">
+                                <ul class="min">
+                                    <li><img src="img/model1.png" alt="modal1" class="img-responsive center-block"><span>iPhone X</span></li>
+                                    <li><img src="img/model2.png" alt="modal1" class="img-responsive center-block"><span>iPhone 8</span></li>
+                                    <li><img src="img/model3.png" alt="modal1" class="img-responsive center-block"><span>iPhone 7</span></li>
+                                </ul>
+                                
+                                <ul class="dnone">
+                                    <li><img src="img/model4.png" alt="modal1" class="img-responsive center-block"></li>
+                                    <li><img src="img/model5.png" alt="modal1" class="img-responsive center-block"></li>
+                                    <li><img src="img/model6.png" alt="modal1" class="img-responsive center-block"></li>
+                                </ul>
+                                <p><img src="img/reschoosemodel.png" alt="reschoosemodel" class="img-responsive center-block"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 col-sm-pull-7">
+                            <div class="bannertxt boxs modelselect">
+                                <h1 class="txtshow">Please select your <span class="thin">model</span></h1>
+                                <p class="txthide">We found out that your phone is an:</p>
+                                <select>
+                                    <option value="1">iPhone SE</option>
+                                    <option value="2">iPhone X</option>
+                                    <option value="3">iPhone 8</option>
+                                    <option value="4">iPhone 7</option>
+                                </select>
+                                <a href="javascript:void(0)" class="anchorred">Select</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- manufacturer section end -->
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.nice-select.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            $(document).ready(function() {
+              $('select').niceSelect();      
+            });    
+        </script>
+    </body>
+</html>

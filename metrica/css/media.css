@@ -1,0 +1,152 @@
+@media(min-width:1600px){
+    .map{
+        background-size: cover;
+    }
+}
+@media(max-width:1198px){
+    .container{
+        width: 100%;
+    }
+    .map .address{
+        width: 100%;
+    }
+} 
+@media(max-width:991px){
+    .map{
+        background-size: cover;
+    }
+}
+@media(max-width:768px){
+
+}
+@media(max-width:767px){
+    .container{
+        padding: 0 15px;
+    }
+    .noleft, .noright{
+        padding: 0;
+    }
+    .box1 .imgbox{
+        margin-top: 30px;
+        min-height: 90px;
+    }
+    .mlanding .box1 {
+        margin-top: 50px;
+    }
+    .landing1.first .noleft, .landing1.second .noleft, .landing1.second .noleft{
+        float: left;
+        width: 100%;
+    }
+    .landing1 .window{
+        float: left !important;
+        width:auto !important;
+        position: unset;
+        max-width: 100%;
+    }
+    .landing2 .row{
+        display: block;
+    }
+    .landing2 .data{
+        margin-top: 15px;
+        padding: 40px 15px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .landing3 .col-sm-4{
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .header {
+        background: rgba(27, 39, 49, 0.9) none repeat scroll 0 0;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+        padding: 12px 0 6px;
+        position: fixed;
+        top:0
+    }
+    .header .navbar-brand {
+        margin-top: 8px;
+    }
+    .header .navbar-default .navbar-nav > li a{
+        width: 140px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .header .navbar-collapse{
+        border: none;
+        box-shadow: none;
+    }
+    .footer .top{
+        text-align: center;
+    }
+    .footer .top h1{
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .header .navbar-toggle{
+        margin-top: 4px;
+    }
+}
+@media(max-width:560px){
+    .main h1{
+        font-size: 25px;
+    }
+    .main a, .box2 a{
+        padding: 12px;
+    }
+    .main p,.box1 h2, .box2 p, .landing3 .item p,.map h2, .terms .bottom p{
+        font-size: 15px;
+    }
+    .mlanding .box1 .col-sm-3{
+        width: 100%;
+    }
+    .mlanding .box1 {
+        margin-top: 15px;
+    }
+    .box1 img{
+        width: 65px;
+    }
+    .mlanding .box1 .imgbox {
+        min-height: 75px;
+    }
+    .vector{
+        min-height: 120px;
+    }
+    .box2 h4 span, .formmessge p span{
+        display: inline;
+    }
+    .box2 h4,.heading{
+        font-size: 20px;
+    }
+    .map h3{
+        font-size: 13px;
+    }
+    .map .address{
+        margin: 90px 0 70px;
+    }
+    .landing5 .col-sm-6{
+        padding: 0;
+    }
+    .box5 .price{
+        padding: 0;
+    }
+    .terms .bottom h2 {
+        font-size: 20px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .terms .top{
+        padding-bottom: 60px;
+        padding-top: 150px;
+    }
+}
+@media(max-width:414px){
+
+}
+@media(max-width:320px){
+
+}

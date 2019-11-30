@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+
+    <title>Comentorate | Live</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/nice-select.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                
+                <div class="navbar-header">
+                    <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="logo"></a>
+                </div>
+                <div class="header_inner boxs">
+                    <div class="col-sm-4 nopadding">
+                        <div class="head_left boxs">
+                            <a href="index_not_login.html"><img src="img/logo.svg" alt="logo" class="img-responsive"></a>
+                            <a href="index_not_login.html" class="active">browse</a>
+                            <!-- <a href="token.html">Buy Tokens</a>
+                             <a href="token.html">Upload</a> -->
+                        </div>
+                    </div>
+                    <div class="col-sm-4 nopadding">
+                        <div class="search search-login_input boxs">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Find lessons or mentor" id="myInput">
+                                <span class="input-group-addon serach_addon"><img src="img/search.svg" alt="serach_icon"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 nopadding">
+                        <div class="head_rht boxs">
+                            <!-- <div class="head_rht_inn2">
+                                <a href="login.html">Following</a>
+                                <a href="profile.html">Go Live</a>
+                                <a href="login.html">My Profile</a>
+                                <a href="profile.html" class="img_right_login"><img src="img/oval2.svg" alt="oval2"></a>
+                            </div> -->
+                            <div class="head_rht_inn">
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal" class="loginstrip">Log in </a>
+                                <a href="signup.html">Sign up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+
+    <!-- sidenav start -->
+    <div class="sidenavmain boxs" id="mySidenav">
+        <div class="sidenav" id="mySidenav">
+            <!-- <a href="index_login.html" class="logo"><img src="img/logo.svg" class="img-responsive" alt="logo"></a> -->
+            <a href="index_login.html" class="active">browse</a>
+            <a href="gettoken.html">Get Tokens</a>
+            <a href="following.html">Following</a>
+            <a href="myprofile.html">My Profile</a>
+            <!-- <a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal">Log in </a> -->
+            <!-- <a href="signup.html">Sign up</a> -->
+        </div>
+    </div>
+    <!-- sidenav start -->
+
+    <section class="main boxs">
+        <div class="container">
+            <div class="main_inner boxs">
+                <div class="live boxs">
+                    <div class="live_up boxs width85">
+                        <div class="width_50 boxs live_lft">
+                            <img src="img/mentor5.png" alt="mentor" class="img-responsive">
+                            <p>Stephen Olson</p>
+                        </div>
+                        <div class="width_50 boxs live_rht">
+                            <button type="button" class="advance foll">1.5K Followers<span><img src="img/plus.svg"></span></button>
+                            <button type="button" class="advance subs" data-toggle="modal" data-target="#purchaseModal">100K Subscribers<span><img src="img/right.svg"></span></button>
+                        </div>
+                    </div>
+                    <div class="live_row boxs">
+                        <div class="col-sm-8 nopadding">
+                            <div class="stream_lft boxs">
+                                <div class="streaming boxs">
+                                    <img src="img/stream.png" alt="video" class="img-responsive">
+                                    <div class="live_icon">
+                                        <img src="img/live_img.png" alt="live" class="img-responsive">
+                                    </div>
+                                    <div class="controls">
+                                        <div class="control_lft">
+                                            <a href="javascript:vooid(0)"> <img src="img/videoicon1.svg" alt="icon"
+                                                    class="img-responsive"></a>
+                                            <a href="javascript:vooid(0)"><img src="img/videoicon2.svg" alt="icon"
+                                                    class="img-responsive"></a>
+                                        </div>
+                                        <div class="control_lft">
+                                            <a href="javascript:vooid(0)"><img src="img/videoicon3.svg" alt="icon"
+                                                    class="img-responsive"></a>
+                                            <a href="javascript:vooid(0)"><img src="img/videoicon4.svg" alt="icon"
+                                                    class="img-responsive"></a>
+                                            <a href="javascript:vooid(0)"><img src="img/videoicon5.svg" alt="icon"
+                                                    class="img-responsive"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 nopadding">
+                            <div class="stream_rht boxs">
+                                <div class="chat_box boxs">
+                                    <div class="chat_head boxs">
+                                        <p><a href="javascript:void(0)">Live Chat</a></p>
+                                        <!-- data-toggle="modal" data-target="#promentor" -->
+                                    </div>
+                                </div>
+                                <div class="chat_area boxs">
+                                    <div class="chatboxs boxs">
+                                        <p><span class="red">Ryan</span> : Hi, stephen one question?</p>
+                                        <p><span class="green">David</span> : Hi, stephen really happy to see you live again</p>
+                                    </div>
+                                    <div class="chat_bottom">
+                                        <div class="free_chat boxs">
+                                            <p>Welcome to free chat. Subscribing removes 60 second chat delay.</p>
+                                        </div>
+                                        <textarea class="form-control" placeholder="Type your message here"></textarea>
+                                        <div class="chat_button boxs">
+                                            <div class="smiley_div">
+                                                <img src="img/smileys.png" alt="smiley" class="img-responsive">
+                                            </div>
+                                            <a href="javascript:void(0)" class="smiley_popup"><img src="img/smiley.svg" alt="smiley" class="img-responsive"></a>
+                                            <div class="smiley_div2">
+                                                <div class="streaming2">
+                                                    <p>Send tokens to streamer</p>
+                                                    <div class="token_stream boxs">
+                                                        <div class="tok">
+                                                            <p>10<span>tokens</span></p>
+                                                        </div>
+                                                        <div class="tok">
+                                                            <p>15<span>tokens</span></p>
+                                                        </div>
+                                                        <div class="tok">
+                                                            <p>20<span>tokens</span></p>
+                                                        </div>
+                                                        <div class="tok tok2">
+                                                            <p><i>0</i><span>Custom Amount</span></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="boxs">
+                                                        <a href="javascript:void(0)" class="send_token">Send Tokens</a>
+                                                    </div>
+                                                </div>
+                                                <div class="onstreaming">
+                                                   <img src="img/Subtract.svg" alt="tick" class="img-responsive center-block">
+                                                   <p>30 Tokens has been sent to Stephen Olson</p>
+                                                   <a href="javascript:void(0)">done</a>
+                                                </div>
+                                            </div>
+                                            <a href="javascriipt:void(0)" class="streamer streamer2">Support Streamer</a>
+                                            <a href="javascriipt:void(0)" class="streamer send">Send</a>
+                                            <!-- data-toggle="modal" data-target="#setupgolive" -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="viewing boxs">500 now viewing</p>
+                    <div class="tabs_main tab2_main boxs">
+                        <ul class="tabs">
+                            <li><a href="#tab1">Shop</a></li>
+                            <li><a href="#tab2">Lessons</a></li>
+                        </ul>
+                        <div class="tab_container tab_content2 boxs">
+                            <div id="tab1" class="tab_content tab_content2 boxs">
+                                <div class="shop_items boxs">
+                                    <h2>Mentoring Packages</h2>
+                                    <div class="shop_items_top boxs">
+                                        <div class="mins">
+                                            <h4>15 Mins</h4>
+                                            <p>1 on 1 Mentoring</p>
+                                            <h6>100 Tokens</h6>
+                                            <a href="#" class="btn buy_btn" data-toggle="modal" data-target="#purchaseModal">Buy</a>
+                                        </div>
+
+                                        <div class="mins mins2">
+                                            <h4>30 Mins</h4>
+                                            <p>1 on 1 Mentoring</p>
+                                            <h6>200 Tokens</h6>
+                                            <a href="#" class="btn buy_btn" data-toggle="modal" data-target="#purchaseModal">Buy</a>
+                                        </div>
+                                    </div>
+                                    <div class="shop_items_bott boxs">
+                                        <h2>Merchandise</h2>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="merchandise_box">
+                                                    <img src="img/Mask_Group1.png" class="img-responsive" alt="mask_img">
+                                                    <h3>Yellow Hoodie</h3>
+                                                    <div class="merchandise_bottom">
+                                                        <h5>70 Tokens</h5>
+                                                        <a href="#" class="btn buy_btn" data-toggle="modal" data-target="#purchaseModal">Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="merchandise_box">
+                                                    <img src="img/Mask_Group2.png" class="img-responsive" alt="mask_img">
+                                                    <h3>Fashion Hat</h3>
+                                                    <div class="merchandise_bottom">
+                                                        <h5>30 Tokens</h5>
+                                                        <a href="#" class="btn buy_btn" data-toggle="modal" data-target="#purchaseModal">Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="merchandise_box">
+                                                    <img src="img/Mask_Group3.png" class="img-responsive" alt="mask_img">
+                                                    <h3>Wood Book</h3>
+                                                    <div class="merchandise_bottom">
+                                                        <h5>20 Tokens</h5>
+                                                        <a href="#" class="btn buy_btn" data-toggle="modal" data-target="#purchaseModal">Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="merchandise_box">
+                                                    <img src="img/Mask_Group4.png" class="img-responsive" alt="mask_img">
+                                                    <h3>Travel Bag</h3>
+                                                    <div class="merchandise_bottom">
+                                                        <h5>100 Tokens</h5>
+                                                        <a href="#" class="btn buy_btn" data-toggle="modal" data-target="#purchaseModal">Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab2" class="tab_content tab_content2 boxs">
+                                <div class="lesson boxs">
+                                    <div class="row">
+                                        <div class="col-sm-4 nopadding">
+                                            <div class="tutorial boxs">
+                                                <div class="tutorial_img boxs">
+                                                    <img src="img/startup.png" alt="startup_lesson" class="img-responsive">
+                                                    <div class="timing">
+                                                        <p>04:50</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tutorial_detail boxs">
+                                                    <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How
+                                                        to build
+                                                        Startup - Episode 1<span>Stephen Olson</span></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 nopadding">
+                                            <div class="tutorial boxs">
+                                                <div class="tutorial_img boxs">
+                                                    <img src="img/startup1.png" alt="startup_lesson" class="img-responsive">
+                                                    <div class="timing">
+                                                        <p>04:50</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tutorial_detail boxs">
+                                                    <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How
+                                                        to build
+                                                        Startup - Episode 2<span>Stephen Olson</span></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 nopadding">
+                                            <div class="tutorial boxs">
+                                                <div class="tutorial_img boxs">
+                                                    <img src="img/startup2.png" alt="startup_lesson" class="img-responsive">
+                                                    <div class="timing">
+                                                        <p>04:50</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tutorial_detail boxs">
+                                                    <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How
+                                                        to build
+                                                        Startup - Episode 3<span>Stephen Olson</span></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4 nopadding">
+                                            <div class="tutorial boxs">
+                                                <div class="tutorial_img boxs">
+                                                    <img src="img/startup3.png" alt="startup_lesson" class="img-responsive">
+                                                    <div class="timing">
+                                                        <p>04:50</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tutorial_detail boxs">
+                                                    <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How
+                                                        to build
+                                                        Startup - Episode 4<span>Stephen Olson</span></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 nopadding">
+                                            <div class="tutorial boxs">
+                                                <div class="tutorial_img boxs">
+                                                    <img src="img/startup4.png" alt="startup_lesson" class="img-responsive">
+                                                    <div class="timing">
+                                                        <p>04:50</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tutorial_detail boxs">
+                                                    <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How
+                                                        to build
+                                                        Startup - Episode 5<span>Stephen Olson</span></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 nopadding">
+                                            <div class="tutorial boxs">
+                                                <div class="tutorial_img boxs">
+                                                    <img src="img/startup5.png" alt="startup_lesson" class="img-responsive">
+                                                    <div class="timing">
+                                                        <p>04:50</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tutorial_detail boxs">
+                                                    <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How
+                                                        to build
+                                                        Startup - Episode 6<span>Stephen Olson</span></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer start -->
+    <section class="footer boxs">
+        <div class="container">
+            <div class="foot boxs">
+                <div class="boxs">
+                    <a href="index_login.html" class="flogo"><img src="img/logo.svg" alt="logo" class="img-responsive center767"></a>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12 noleft">
+                <ul>
+                    <li><a href="index_login.html">Home</a></li>
+                    <li><a href="javascript:void(0)" data-toggle="modal" data-target="#faqmodal">Support</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    
+                </ul>
+               </div>
+               <div class="col-md-4 col-sm-4 col-xs-12 noright">
+                <ul class="right_footer">
+                    <li><a href="https://www.facebook.com/CoMentorate/?modal=admin_todo_tour" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/comentorateofficial/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/bkapp802" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
+
+    <!-- promentor Modal start-->
+    <div id="promentor" class="modal fade promentor" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="promentor_inner boxs">
+                        <h2>Be A Pro Mentor</h2>
+                        <p class="mgntm">By signing up as a pro mentor you&apos;ll be avaliable do 
+                            <br>some special feature when go live.</p>
+                        <p class="padlftryt">- Pro mentors can set custom subscribe prices.</p>
+                        <p class="padlftryt">- Offer subscriber only broadcasts.</p>
+                        <div class="prolinks boxs">
+                            <a href="javascript:void(0)" class="notpro" data-dismiss="modal">No Thanks</a>
+                            <a href="javascript:void(0)" class="probtn" data-dismiss="modal">Be a Pro Mentor</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- promentor Modal end-->
+
+    <!-- setupgolive Modal start-->
+    <div id="setupgolive" class="modal fade setupgolive" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="setupgolive_inner boxs">
+                        <h2>Setup &amp; Go Live</h2>
+                        <div class="selectbox boxs">
+                            <label>What topic are you mentoring in?</label>
+                            <select>
+                                <option value="1">Select Topic</option>
+                                <option value="2">Another option</option>
+                                <option value="3">A disabled option</option>
+                                <option value="4">Potato</option>
+                            </select>
+                        </div>
+
+                        <div class="choosewatch boxs">
+                            <label>Who can watch this live session?</label>
+                            <div class="check_live choose_inner boxs">
+                                <div class="radiobox boxs">
+                                    <input type="radio" id="modaltest1" name="radio-group">
+                                    <label for="modaltest1">Subscribers Only (Upgrade)</label>
+                                </div>
+                                <div class="radiobox boxs">
+                                    <input type="radio" id="modaltest2" name="radio-group">
+                                    <label for="modaltest2">Everyone</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="golive boxs">
+                            <a href="javascript:void(0)" data-dismiss="modal">Go Live Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- setupgolive Modal end-->
+
+
+    <!-- Purchase Item start modal-->
+    <div class="modal purchase_mod fade" id="purchaseModal" role="dialog" style="padding-right: 0px;">
+        <div class="modal-dialog">
+            <div class="modal-content purmodal_content boxs orderdonehide">
+                <div class="modal-body purmodal_body boxs">
+                    <div class="purItem_top">
+                        <h3>Purchase Item</h3>
+                        <h4>Your Tokens</h4>
+                        <p>400</p>
+                        <a href="#" class="btn pay_btn">Pay With Tokens <span>200</span></a>
+                    </div>
+                    <div class="un_line_container">
+                        <div class="und_line"></div>
+                        <h4>Or pay with credit card</h4>
+                    </div>
+                    <div class="purItem_bottom">
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="setup_pay">
+                                        <h2>Setup Payment</h2>
+                                        <p>Choose payment method</p>
+                                        <ul class="card_type">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/Visa-dark.svg" class="img-responsive" alt="visa">
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/MasterCard-dark.svg" class="img-responsive" alt="master_card">
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/Paypal-dark.svg" class="img-responsive" alt="paypal">
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <div class="form-group">
+                                            <label>Card Number</label>
+                                            <input type="text" class="form-control" placeholder="Card Number" value="0123 2345 4567 6789">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 noright Rmargin">
+                                                <div class="form-group">
+                                                    <label>Expiry Date</label>
+                                                    <input type="text" class="form-control" placeholder="Expiry Date" value="10/2022">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 noleft Lmargin">
+                                                <div class="form-group">
+                                                    <label>CVC</label>
+                                                    <input type="password" class="form-control" placeholder="CVC" value="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Cardholder Name </label>
+                                            <input type="text" class="form-control" placeholder="Cardholder Name " value="Bernice Vaughn">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="process_pay">
+                                        <h2>Process Payment</h2>
+                                        <h4>Detail Purchase</h4>
+                                        <p>30 mins 1 on 1 mentoring with <span>$ 50</span> Stephen Olson</p>
+                                        <button type="button" class="btn payNow_btn btn-block orderdone">Pay Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-content mentorDmodal boxs orderdoneshow">
+                <div class="modal-body mentorDe_body boxs">
+                    <img src="img/checkmark.svg" class="img-responsive" alt="comentorate">
+                    <p>Order has been placed succesfully</p>
+                    <button type="button" class="btn btn_done orderclose" data-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Purchase Item end modal-->
+
+    <!-- purchase done start modal -->
+    <!-- <div class="purchase_done_modal">
+        <div class="modal mentorDmodal fade" id="pdonemodal" role="dialog">
+            <div class="modal-dialog mentModal_dialog">
+                <div class="modal-content mentorDmodal boxs">
+                    <div class="modal-body mentorDe_body boxs">
+                        <img src="img/checkmark.svg" class="img-responsive" alt="comentorate">
+                        <p>Order has been placed succesfully</p>
+                        <button type="button" class="btn btn_done" data-dismiss="modal">Done</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- purchase done end modal -->
+
+    <!-- login modal start -->
+    <!-- Modal -->
+    <div id="loginModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="boxs">
+        <!-- Modal content-->
+        <div class="modal-content boxs loginModal hidelogin">
+          <div class="modal-body boxs">
+            <div class="log boxs">
+                <div class="log_inner boxs log_inner2">
+                    <div class="heding_ofform boxs">
+                        <h6 id="email_down2">Please login to follow this Mentor<span><a href="javascript:void(0)" class="closemsg"><img src="img/closemodal.svg" alt="closemodal"></a></span></h6>
+                    </div>
+                    
+                    <div class="login boxs">
+
+                        <h1>Log in</h1>
+                        <form action="index_login.html">
+                            <div class="form-group">
+                                <label>Username or Email</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" class="form-control" required>
+                            </div>
+                            <a href="javascript:void(0)" class="forgot">Forgot password?</a>
+                            <button type="submit">Log in</button>
+                            <p>Don't have an account?<span> <a href="signup.html">Sign up here</a></span></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-content boxs resetloginmodal showreset">
+            <div class="modal-header boxs">
+                <h6 id="email_down">An email has been sent to the account on file <span><img src="img/sucees_ryt.svg" alt="sucees_ryt"></span></h6>
+              <h4 class="modal-title">Forgot Password</h4>
+            </div>
+            <div class="modal-body boxs">
+                <div class="modal-body_inner boxs">
+                    <p>Please input username or email associated with your CoMentorate account</p>
+                </div>
+                <div class="login login_reset boxs">   
+                    <form>
+                        <div class="form-group">
+                            <label>Username or Email</label>
+                            <input type="email" class="form-control" placeholder="">
+                        </div>
+                        <button type="button" id="reset_password">Reset Password</button>
+                        <p><span> <a href="javascript:void(0)" class="loginagain">Log in here</a></span></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- login modal end -->
+
+    <!-- faq modal start -->
+    <div id="faqmodal" class="modal fade faqmodal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-header boxs">
+                    <h4 class="modal-title">Ask Your Question</h4>
+                </div>
+                <div class="modal-body boxs">
+                    <p>Question</p>
+                    <textarea class="form-control" placeholder="Your question"></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <!-- faq modal ends -->
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('select').niceSelect();
+        });    
+    </script>
+    <script>
+        $("#reset_password").click(function () {
+            $("#email_down").fadeIn();
+        });
+        $('.forgot').click(function() {
+            $('.hidelogin').hide();
+            $('.showreset').show();
+        });
+        $('.loginagain').click(function() {
+            $('.showreset').hide();
+            $('.hidelogin').show();
+        });
+        
+        $('.loginstrip').click(function(){
+             $('#email_down2').hide();
+        });
+        $('.follow').click(function() {
+            $('#email_down2').show();
+        });
+        $('.closemsg').click(function(){
+           $('#email_down2').slideUp(); 
+        });
+        $('.orderdone').click(function(){
+           $('.orderdonehide').hide(); 
+           $('.orderdoneshow').show(); 
+        });
+        $('.orderclose').click(function(){
+           $('.orderdoneshow').hide(); 
+           $('.orderdonehide').show(); 
+        });
+        
+    </script>
+
+</body>
+
+</html>

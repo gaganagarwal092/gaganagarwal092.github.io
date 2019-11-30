@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+
+    <title>Restaurants Details | Canadian E Market</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="h_top">
+                <div class="row rowflex">
+                    <div class="col-sm-6 width40">
+                        <div class="h_top_lft">
+                            <a href="javascript:void(0)">Welcome to canadianemarket.ca</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 width60">
+                        <div class="h_top_ryt">
+                            <div class="chat_box chat_box_header">
+                                <a href="javascript:void(0)" class="chat">
+                                    <img src="img/chat_03.png" alt="chat">
+                                    <span>Support</span>
+                                </a>
+                            </div>
+                            <div class="dropbox">
+                                <div class="drop_down">
+                                    <button class="dropbtn dropbtn1" type="button"><img src="img/country.png" alt="country" class="img-responsive changFlg"><span>Canada</span> <img src="img/arrowdwn.png" alt="arrowdwn" class="img-responsive rotate"></button>
+                                    <ul class="drop_menu drop_menu_s ">
+                                        <li><a href="javascript:void(0)"><img src="img/indFlg.png" alt="country" class="img-responsive">India</a></li>
+                                        <li><a href="javascript:void(0)"><img src="img/country.png" alt="country" class="img-responsive">USA</a></li>
+                                        <li><a href="javascript:void(0)"><img src="img/country.png" alt="country" class="img-responsive">France</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropbox">
+                                <div class="drop_down">
+                                    <button class="dropbtn dropbtn2" type="button"><span>Winnipeg</span> <img src="img/arrowdwn.png" alt="arrowdwn" class="img-responsive rotate"></button>
+                                    <ul class="drop_menu drop_menu2 drop_menu_s2">
+                                        <li><a href="javascript:void(0)">Winnipeg1</a></li>
+                                        <li><a href="javascript:void(0)">Winnipeg2</a></li>
+                                        <li><a href="javascript:void(0)">Winnipeg3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropbox">
+                                <div class="drop_down">
+                                    <button class="dropbtn dropbtn3" type="button"><img src="img/lang.png" alt="lang" class="img-responsive changFlg"><span>EN</span> <img src="img/arrowdwn.png" alt="arrowdwn" class="img-responsive rotate"></button>
+                                    <ul class="drop_menu drop_menu_s3">
+                                        <li><a href="#"><img src="img/lang.png" alt="lang" class="img-responsive">FN</a></li>
+                                        <li><a href="#"><img src="img/lang.png" alt="lang" class="img-responsive">EN</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h_btm">
+                <div class="row rowflex">
+                    <div class="col-sm-6">
+                        <div class="h_btm_lft">
+                            <button class="hamburger hamburger--squeeze hamburgerres" type="button" aria-label="Menu" aria-controls="navigation">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                            <a class="brand_logo" href="index"><img src="img/logo.png" class="img-responsive res_logo_hide" alt="logo"><img src="img/res_logo.png" class="img-responsive res_logo_show" alt="logo"></a>
+                            <div class="searchbox searchboxindex">
+                                <div class="input_group">
+                                    <input id="search" type="text" class="form-control" name="search" placeholder="Restaurents, grocery, fashion">
+                                    <a href="javascript:void(0)"><img src="img/searchicon.png" alt="searchicon" class="img-responsive"></a>
+                                </div>
+                            </div>
+                            <form id="demo-2" class="searchrespon head_search">
+                                <input type="search" placeholder="Search">
+                            </form>
+                            <div class="carticon">
+                                <a href="javascript:void(0)"><img src="img/cart2.png" alt="cart"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 dnone">
+                        <div class="h_btm_ryt">
+                            <ul class="navlinks">
+                                <li><a href="stores" class="active">stores</a></li>
+                                <li><a href="restaurantslisting">Restaurants</a></li>
+                                <li><a href="marketplace">Marketplace</a></li>
+                            </ul>
+                            <p><a href="javascript:void(0)" class="login" data-toggle="modal" data-target="#login">login</a> / <a href="javascript:void(0)" class="login" data-toggle="modal" data-target="#register">Register</a></p>
+                            <p>
+                                <a href="javascript:void(0)" class="basket"><img src="img/basket.png" alt="basket" class="img-responsive"></a>
+                                <a href="javascript:void(0)" class="detectbtn"><img src="img/detectloc.png" alt="detectloc" class="img-responsive">Detect Location</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- sidenav start -->
+    <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="morebtn">Detect Location</a>
+        <a href="javascript:void(0)" data-toggle="modal" data-target="#login" class="morebtn lgn">Login</a>
+        <a href="javascript:void(0)" ata-toggle="modal" data-target="#register" class="morebtn ">Register</a>
+        <a href="cart" class="morebtn ">Cart</a>
+
+        <a href="stores" class="morebtn lgn">Stores</a>
+        <a href="marketplace" class="morebtn lgn">Marketplace</a>
+        <a href="restaurantslisting" class="morebtn">Restaurants</a>
+        <a href="javascript:void(0)" class="more_btn">More <img src="img/arrowdwn.png" class="rotate"></a>
+        <div class="more_Links">
+            <a href="terms" class="morebtn">Terms and Conditions</a>
+            <a href="privacy" class="morebtn">Privacy Policy</a>
+            <a href="help" class="morebtn">Help</a>
+            <a href="javascript:void(0)" class="morebtn">Refer a Friend</a>
+            <a href="partnerwithus" class="morebtn">Partner with Us</a>
+        </div>
+    </div>
+    <!-- sidenav start -->
+
+    <!--breadcrumb navigation section-->
+
+    <!--breadcrumb navigation section end-->
+
+    <!--slider seciton-->
+    <section class="slide_sec restaurantsdetail_main topScrl">
+        <div class="container">
+            <div class="bread_crumb bread_crumb_rest_deta breadcrumb_shipping">
+                <div class="bread_crumb_in res_breadCrumb_in boxs">
+                    <ul class="bread_crumb_menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a> <i class="fa fa-angle-right"></i></a></li>
+                        <li><a href="#">Restaurant Offers </a></li>
+                        <li><a> <i class="fa fa-angle-right"></i></a></li>
+                        <li><a href="#" class="active"> CHICAGO PIZZA KARKAR DUMA</a></li>
+                    </ul>
+                    <div class="item_boxs">
+                        <h2>50</h2>
+                        <p>Items</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide_sec_in boxs dnone">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="slide_wraper boxs">
+                            <!--<div class="slides">-->
+                            <!--    <button type="button" class="arrow_up">-->
+                            <!--        <img src="img/arrowdwn.png" alt="icon">-->
+                            <!--    </button>-->
+                            <!--    <button type="button" class="arrow_down">-->
+                            <!--        <img src="img/arrowdwn.png" alt="icon">-->
+                            <!--    </button>-->
+                            <!--    <ul class="slides_food">-->
+                            <!--        <li><img src="img/food1.png" class="img-responsive" alt="slide1"></li>-->
+                            <!--        <li><img src="img/food1.png" class="img-responsive" alt="slide1"></li>-->
+                            <!--        <li><img src="img/food1.png" class="img-responsive" alt="slide1"></li>-->
+                            <!--        <li><img src="img/food1.png" class="img-responsive" alt="slide1"></li>-->
+                            <!--        <li><img src="img/food1.png" class="img-responsive" alt="slide1"></li>-->
+                            <!--    </ul>-->
+                            <!--</div>-->
+                            <div class="slide_img slideLogo_img">
+                                <img src="img/pizzalogo.png" class="" alt="foods">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="txt_wraper boxs">
+                            <div class="txt_top boxs">
+                                <h4>Store notice: store will be closed for online orders on Mother’s day</h4>
+                                <p>Fast Food</p>
+                            </div>
+                            <div class="txt_mid boxs">
+                                <h2>Chicago Pizza, Karkar Duma,New Delhi <span>(20% OFF)</span></h2>
+                                <p>Green Capsicum, Onion, Paneer, Red Paprika, Tomato</p>
+                                <p>Sector 63 - <span>1.8 km away</span></p>
+                            </div>
+                            <div class="review_sec boxs res_review_sec resSS_review">
+                                <ul class="review_box">
+                                    <li class="width100 mgzer0">
+                                        <span class="starRe">3.8 <i class="fa fa-star"></i></span>
+                                        <span class="rating rating_sdd">381 Ratings</span>
+                                        <a href="javascript:void(0)" class="reviewss">4 Reviews</a>
+                                        <a href="javascript:void(0)" class="hearticon"><i class="fa fa-heart"></i></a>
+                                        <a href="javascript:void(0)" class="shareIcon"><i class="fa fa-share-alt"></i></a>
+                                        <a href="javascript:void(0)" class="res_chat res_chat2"><img src="img/chat_032.png" alt="chat"><span>Chat with Us</span></a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="txt_bot boxs">
+                                <div class="readmoremain boxs">
+                                    <p class="font3">Set up in 2008, Chicago Pizza is passionate about creating heavenly pizzas that capture all your senses and take you on a gastronomical journey like no other!...</p>
+                                    <p class="font3 moretext">Set up in 2008, Chicago Pizza is passionate about creating heavenly pizzas that capture all your senses and take you on a gastronomical journey like no other!...Set up in 2008, Chicago Pizza is passionate about creating heavenly pizzas that capture all your senses and take you on a gastronomical journey like no other!...</p>
+                                    <button type="button" class="readBtn">READ MORE</button>
+                                </div>
+                                <img src="img/restaurantsLogo.png" class="img-responsive" alt="logo">
+                                <h5>Opening Hours: <span>Open Now</span></h5>
+                                <h6>11am – 11pm</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="res_slider_show boxs">
+                <div class="rest_details_res boxs">
+                    <div class="notice boxs">
+                        <h4>Store notice: store will be closed for online orders on Mother’s day</h4>
+                    </div>
+                    <h2><img src="img/restaurantsLogo.png" class="img-responsive" alt="logo">Chicago Pizza, Karkar Duma,New Delhi <span>(20% OFF)</span></h2>
+                    <p class="fastFood">Fast Food</p>
+
+                    <p class="font2">Green Capsicum, Onion, Paneer, Red Paprika, Tomato</p>
+                    <p class="font2">Sector 63 - <span>1.8 km away</span></p>
+                    <div class="review_sec boxs res_review_sec resSS_review resBottombdr">
+                        <ul class="review_box">
+                            <li class="width100 mgzer0">
+                                <span class="starRe">3.8 <i class="fa fa-star"></i></span>
+                                <span class="rating rating_sdd">381 Ratings</span>
+                                <a href="javascript:void(0)" class="reviewss">4 Reviews</a>
+                                <a href="javascript:void(0)" class="hearticon"><i class="fa fa-heart"></i></a>
+                                <a href="javascript:void(0)" class="shareIcon"><i class="fa fa-share-alt"></i></a>
+                                <a href="javascript:void(0)" class="res_chat"><img src="img/chat_032.png" alt="chat"><span>Chat with Us</span></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="readmoremain boxs">
+                        <p class="font3">Set up in 2008, Chicago Pizza is passionate about creating heavenly pizzas that capture all your senses and take you on a gastronomical journey like no other!...</p>
+                        <p class="font3 moretext">Set up in 2008, Chicago Pizza is passionate about creating heavenly pizzas that capture all your senses and take you on a gastronomical journey like no other!...Set up in 2008, Chicago Pizza is passionate about creating heavenly pizzas that capture all your senses and take you on a gastronomical journey like no other!...</p>
+                        <button type="button" class="readBtn">READ MORE</button>
+                    </div>
+                    <!-- <img src="img/restaurantsLogo.png" class="img-responsive" alt="logo"> -->
+                    <h5>Opening Hours : <span>Open Now</span></h5>
+                    <h6>11am – 11pm</h6>
+                </div>
+                <!-- <div class="resta_img boxs">
+                    <img src="img/food1.png" alt="food" class="img-responsive center-block">
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <!--slider seciton end-->
+
+    <!-- middle section-->
+    <section class="procucts_rest">
+        <div class="container">
+            <div class="prod_rest_in">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="ship_lft boxs rest_catelog rescatelog resScrolrr" id="resScrl_t">
+                            <div class="tabs_menu boxs restab">
+                                <a href="javascript:void(0)" class="active" data-tag="secOne">Menu</a>
+                                <a href="javascript:void(0)" data-tag="secTwo">About</a>
+                                <a href="javascript:void(0)" data-tag="secThree">Speciality</a>
+                                <a href="javascript:void(0)" data-tag="secFour">Reviews <span>(4)</span></a>
+                            </div>
+                            <div class="cartlist cart_lft products_typ commTabC resScroll boxs" id="secOne">
+                                <div class="filter_menu boxs">
+                                    <div class="fil_menu_inr boxs">
+                                    <a href="javascript:void(0)">Appetizer</a>
+                                    <a href="javascript:void(0)">Curry</a>
+                                    <a href="javascript:void(0)">Rice</a>
+                                    <a href="javascript:void(0)" class="active">Ice Cream</a>
+                                    <a href="javascript:void(0)">Salad</a>
+                                    <a href="javascript:void(0)">Drink</a>
+                                    <a href="javascript:void(0)">Extras</a>
+                                    </div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item1.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>bueno Cold Mocha</h5>
+                                            <h6>Delectable combination of iced coffee + chocolate made from roasted espresso beans, chocolate & milk. Served in a bottle</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <!--
+                                                <div class="vaulebox">
+                                                    <button type="button" class="minus_btn">-</button>
+                                                    <input type="text" value="0" class="qty">
+                                                    <button type="button" class="plus_btn">+</button>
+                                                </div>
+-->
+                                                <div class="quantity">
+                                                    <button type="button" class="add_btn" data-toggle="modal" data-target="#myModal">Add</button>
+                                                    <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                                </div>
+                                                <!--                                                <a href="javascript:void(0)" class="removeitem">Remove</a>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item2.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Garden Veggies & Cheese</h5>
+                                            <h6>Garden fresh cucumbers, juicy tomatoes & cheese dolloped with our signature grain mustard sauce on the bed of crunchy green lettuce served in freshly baked bread. For a nutritious turbo charge anytime of the day</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item3.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Veg Keema & Cheese</h5>
+                                            <h6>Protein packed soya chunks minced & cooked with aromatic spices, ensembled with cool burst of mint sauce & topped with fresh onions & cheese served in freshly baked bread. Your all time nutrilicious meal</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item4.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Grilled Chicken & Cheese</h5>
+                                            <h6>Tender grilled chicken & soft cheese with our classic grain mustard sauce & crunchy green lettuce served in freshly baked bread. Irresistible</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item1.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>bueno Cold Mocha</h5>
+                                            <h6>Delectable combination of iced coffee + chocolate made from roasted espresso beans, chocolate & milk. Served in a bottle</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item2.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Garden Veggies & Cheese</h5>
+                                            <h6>Garden fresh cucumbers, juicy tomatoes & cheese dolloped with our signature grain mustard sauce on the bed of crunchy green lettuce served in freshly baked bread. For a nutritious turbo charge anytime of the day</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item3.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Veg Keema & Cheese</h5>
+                                            <h6>Protein packed soya chunks minced & cooked with aromatic spices, ensembled with cool burst of mint sauce & topped with fresh onions & cheese served in freshly baked bread. Your all time nutrilicious meal</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item4.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Grilled Chicken & Cheese</h5>
+                                            <h6>Tender grilled chicken & soft cheese with our classic grain mustard sauce & crunchy green lettuce served in freshly baked bread. Irresistible</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                            </div>
+                            <div class="about_txt cart_lft hideSec commTabC resScroll boxs" id="secTwo">
+                                <h2>About</h2>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item4.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Grilled Chicken & Cheese</h5>
+                                            <h6>Tender grilled chicken & soft cheese with our classic grain mustard sauce & crunchy green lettuce served in freshly baked bread. Irresistible</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item1.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>bueno Cold Mocha</h5>
+                                            <h6>Delectable combination of iced coffee + chocolate made from roasted espresso beans, chocolate & milk. Served in a bottle</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item2.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Garden Veggies & Cheese</h5>
+                                            <h6>Garden fresh cucumbers, juicy tomatoes & cheese dolloped with our signature grain mustard sauce on the bed of crunchy green lettuce served in freshly baked bread. For a nutritious turbo charge anytime of the day</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item3.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Veg Keema & Cheese</h5>
+                                            <h6>Protein packed soya chunks minced & cooked with aromatic spices, ensembled with cool burst of mint sauce & topped with fresh onions & cheese served in freshly baked bread. Your all time nutrilicious meal</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item4.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Grilled Chicken & Cheese</h5>
+                                            <h6>Tender grilled chicken & soft cheese with our classic grain mustard sauce & crunchy green lettuce served in freshly baked bread. Irresistible</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                            </div>
+                            <div class="about_txt cart_lft hideSec commTabC resScroll boxs" id="secThree">
+                                <h2>Speciality</h2>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item1.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>bueno Cold Mocha</h5>
+                                            <h6>Delectable combination of iced coffee + chocolate made from roasted espresso beans, chocolate & milk. Served in a bottle</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item4.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Grilled Chicken & Cheese</h5>
+                                            <h6>Tender grilled chicken & soft cheese with our classic grain mustard sauce & crunchy green lettuce served in freshly baked bread. Irresistible</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item2.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Garden Veggies & Cheese</h5>
+                                            <h6>Garden fresh cucumbers, juicy tomatoes & cheese dolloped with our signature grain mustard sauce on the bed of crunchy green lettuce served in freshly baked bread. For a nutritious turbo charge anytime of the day</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item3.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Veg Keema & Cheese</h5>
+                                            <h6>Protein packed soya chunks minced & cooked with aromatic spices, ensembled with cool burst of mint sauce & topped with fresh onions & cheese served in freshly baked bread. Your all time nutrilicious meal</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item4.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Grilled Chicken & Cheese</h5>
+                                            <h6>Tender grilled chicken & soft cheese with our classic grain mustard sauce & crunchy green lettuce served in freshly baked bread. Irresistible</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                            </div>
+                            <div class="about_txt cart_lft hideSec commTabC resScroll boxs" id="secFour">
+                                <h2>Reviews</h2>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item2.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Garden Veggies & Cheese</h5>
+                                            <h6>Garden fresh cucumbers, juicy tomatoes & cheese dolloped with our signature grain mustard sauce on the bed of crunchy green lettuce served in freshly baked bread. For a nutritious turbo charge anytime of the day</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item1.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>bueno Cold Mocha</h5>
+                                            <h6>Delectable combination of iced coffee + chocolate made from roasted espresso beans, chocolate & milk. Served in a bottle</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item4.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Grilled Chicken & Cheese</h5>
+                                            <h6>Tender grilled chicken & soft cheese with our classic grain mustard sauce & crunchy green lettuce served in freshly baked bread. Irresistible</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item3.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Veg Keema & Cheese</h5>
+                                            <h6>Protein packed soya chunks minced & cooked with aromatic spices, ensembled with cool burst of mint sauce & topped with fresh onions & cheese served in freshly baked bread. Your all time nutrilicious meal</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                                <div class="cart_items boxs">
+                                    <div class="item_img">
+                                        <img src="img/item4.png" alt="itemimg" class="img-responsive">
+                                    </div>
+                                    <div class="item_details itemDet">
+                                        <div class="id_lft restFood boxs">
+                                            <h5>Grilled Chicken & Cheese</h5>
+                                            <h6>Tender grilled chicken & soft cheese with our classic grain mustard sauce & crunchy green lettuce served in freshly baked bread. Irresistible</h6>
+                                            <p><strike>$652</strike>$652<span class="d_off">20% OFF</span></p>
+                                        </div>
+                                        <div class="id_ryt boxs">
+                                            <div class="quantity">
+                                                <button type="button" class="add_btn">Add</button>
+                                                <a href="javascript:void(0)" class="removeitem">Remove</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd_btm boxs"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="ship_ryt ship_ryt_s rest_ryt boxs rescatelog2">
+                            <div class="couponbox coupnhide boxs">
+                                <h5>Coupons</h5>
+                                <div class="apply_coupons boxs">
+                                    <input type="text" class="form-control" placeholder="Coupon code">
+                                    <a href="javascript:void(0)">APPLY NOW</a>
+                                </div>
+                            </div>
+
+                            <div class="your_order yourOrderbx boxs">
+                                <div class="hideOrder boxs">
+                                <h5>Your Order</h5>
+                                <div class="bd_btm"></div>
+                                <h6>Subtotal (2 items) <span>$53.89</span></h6>
+                                <div class="deliveryboxs boxs">
+                                    <h5>Delivery</h5>
+                                    <div class="fil_drop_main">
+                                        <div class="tickcol">
+                                            <div class="boxs mgbtm15">
+                                                <div class="tick">
+                                                    <input type="checkbox" class="tick_input" id="tick3">
+                                                    <label for="tick3"><span></span><i>Delivery : </i>$7.99</label>
+                                                </div>
+                                            </div>
+                                            <div class="boxs">
+                                                <div class="tick">
+                                                    <input type="checkbox" class="tick_input" id="tick4">
+                                                    <label for="tick4"><span></span>Pick Up</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="fil_drop">
+                                            <button type="button" class="filDrop_btn divFil_btn cart_fillbtn" data-toggle="modal" data-target="#time">
+                                                <g>ASAP </g>
+                                                <!-- <img src="img/arrowdwn.png" alt="arrow"> -->
+                                            </button>
+                                            <!-- <div class="filDrop_content filDrop_content2">
+                                                <a href="javascript:void(0)">Most Recent</a>
+                                                <a href="javascript:void(0)">Most Recent</a>
+                                                <a href="javascript:void(0)">Most Recent</a>
+                                                <a href="javascript:void(0)">Most Recent</a>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="deliveryboxs boxs">
+                                    <div class="bd_btm"></div>
+                                    <h5>Tip</h5>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="calmain">
+                                                <div class="tick">
+                                                    <input type="checkbox" class="tick_input" id="tick5">
+                                                    <label for="tick5"><span></span>$2.00</label>
+                                                </div>
+                                                <div class="calcul">
+                                                    <input type="text" class="form-control" placeholder="10">
+                                                    <span>%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="calmain">
+                                                <div class="tick">
+                                                    <input type="checkbox" class="tick_input" id="tick6">
+                                                    <label for="tick6"><span></span>$4.00</label>
+                                                </div>
+                                                <div class="calcul">
+                                                    <input type="text" class="form-control" placeholder="6">
+                                                    <span>$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 no_padd">
+                                            <div class="calmain">
+                                                <div class="tick">
+                                                    <input type="checkbox" class="tick_input" id="tick7">
+                                                    <label for="tick7"><span></span>$7.00</label>
+                                                </div>
+                                                <div class="calcul">
+                                                    <p>Total : <span>$2.50</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="servicefee boxs">
+                                    <div class="bd_btm"></div>
+                                    <p>Service Fee<span>$1.50</span></p>
+                                    <div class="bd_btm"></div>
+                                </div>
+                                <div class="servicefee boxs">
+                                    <p>Tax<span>$7.00</span></p>
+                                    <div class="bd_btm"></div>
+                                </div>
+                                <div class="servicefee boxs">
+                                    <div class="tick">
+                                        <input type="checkbox" class="tick_input" id="tick8">
+                                        <label for="tick8"><span></span>Use E-Markets Credits</label>
+                                    </div>
+                                    <p class="fryt"><span>$8.00</span></p>
+                                </div>
+                                <div class="totalpay boxs">
+                                    <div class="bd_btm"></div>
+                                    <p>Total Payable<span>$68.88</span></p>
+                                </div>
+                            </div>    
+                                <div class="continuebtn checkoutbtn boxs">
+                                    <a href="javascript:void(0)" class="slidehover">PROCEED TO CHECKOUT</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- middle section end-->
+
+    <section class="cards">
+        <div class="container">
+            <div class="card_inner boxs">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="cards_content boxs">
+                            <img src="img/cardimg1.png" alt="cardimg" class="img-responsive">
+                            <h4>Gift Cards</h4>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="cards_content boxs">
+                            <img src="img/cardimg2.png" alt="cardimg" class="img-responsive">
+                            <h4>100% ORIGINAL </h4>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="cards_content boxs">
+                            <img src="img/cardimg3.png" alt="cardimg" class="img-responsive">
+                            <h4>Easy Returns</h4>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="f_inner boxs">
+                <div class="row">
+
+                    <div class="col-sm-8 bd_ryt">
+                        <div class="f_lft boxs">
+                            <div class="row">
+                                <div class="col-sm-6 width40 res_dnone">
+                                    <div class="lft_item boxs">
+                                        <a href="index" class="f_logo"><img src="img/logo.png" alt="logo" class="img-responsive"></a>
+                                        <p class="copyright">Canadian Markets <br>&copy; 2019 Canadiane Market</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 width60">
+                                    <div class="f_links boxs">
+                                        <ul>
+                                            <li><a>Categories</a></li>
+                                            <li><a href="stores">Stores</a></li>
+                                            <li><a href="marketplace">Marketplace</a></li>
+                                            <li><a href="restaurants">Restaurants</a></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <div class="f_links boxs">
+                                        <ul>
+                                            <li><a>Quick Links</a></li>
+                                            <li><a href="terms">Terms and Conditions</a></li>
+                                            <li><a href="privacy">Privacy Policy</a></li>
+                                            <li><a href="help">Help</a></li>
+                                            <li><a href="javascript:void(0)">Refer a Friend</a></li>
+                                            <li><a href="partnerwithus">Partner with Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="f_ryt boxs">
+                            <div class="fryt_inner boxs">
+                                <h3>Subscribe Now</h3>
+                                <div class="subscribebtn boxs">
+                                    <div class="input_group">
+                                        <input id="subscribe" type="text" class="form-control" name="subscribe" placeholder="Enter Your email address">
+                                        <a href="javascript:void(0)" class="slidehover"><img src="img/subicon.png" alt="subicon" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                                <div class="social_links boxs">
+                                    <a href="javascript:void(0)"><img src="img/sicon.png" alt="sicon" class="img center-block"></a>
+                                    <a href="javascript:void(0)"><img src="img/sicon2.png" alt="sicon" class="img-responsive center-block"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- register modal start -->
+    <div id="register" class="modal fade register" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btnclose" data-dismiss="modal"><img src="img/cross2.png" alt="cross2" class="img-responsive center-block"></button>
+                    <div class="register_inner modalflex">
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_lft boxs">
+                                <img src="img/regimg.png" alt="regimg" class="img-responsive center-block reshide">
+                                <img src="img/res_signupBanner.png" alt="regimg" class="img-responsive center-block resshow">
+                                <div class="reg_lft_heading">
+                                    <h3>Register</h3>
+                                    <p>Join Canadian E Market</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_ryt boxs">
+                                <form>
+                                    <div class="formbox boxs">
+                                        <h6>Fill the form</h6>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="email">Email address <sup>*</sup></label>
+                                                    <input type="email" class="form-control" id="email">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="uname">User Name <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="uname">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="pswd">Password <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="pswd">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="registerbtns boxs">
+                                                    <button class="regbtn slidehover">Register</button>
+                                                    <p>or</p>
+                                                    <div class="social_links">
+                                                        <a href="javascript:void(0)"><img src="img/sicon.png" alt="sicon" class="img center-block"></a>
+                                                        <a href="javascript:void(0)"><img src="img/sicon2.png" alt="sicon" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <p class="modalfont">Already a member? <a href="javascript:void(0)">Sign In.</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- register modal end -->
+
+    <!-- login modal start -->
+    <div id="login" class="modal fade register" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btnclose" data-dismiss="modal"><img src="img/cross2.png" alt="cross2" class="img-responsive center-block"></button>
+                    <div class="register_inner modalflex">
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_lft boxs">
+                                <img src="img/regimg.png" alt="regimg" class="img-responsive center-block reshide">
+                                <img src="img/res_signupBanner.png" alt="regimg" class="img-responsive center-block resshow">
+                                <div class="reg_lft_heading">
+                                    <h3>Login</h3>
+                                    <p>Login into Canadian E Market</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_ryt boxs">
+                                <form>
+                                    <div class="formbox boxs">
+                                        <h6>Fill the form</h6>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="uname">User Name <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="uname" placeholder="Enter your name">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="pswd">Password <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="pswd" placeholder="********">
+                                                </div>
+                                                <div class="forgotpass boxs">
+                                                    <a href="javascript:void(0)" class="forgotbtn">Forgot Password?</a>
+                                                    <div class="tick">
+                                                        <input type="checkbox" class="tick_input" id="tick1">
+                                                        <label for="tick1"><span></span>Create an account?</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="registerbtns boxs">
+                                                    <button class="regbtn slidehover">LOGIN</button>
+                                                    <p>or</p>
+                                                    <div class="social_links">
+                                                        <a href="javascript:void(0)"><img src="img/sicon.png" alt="sicon" class="img center-block"></a>
+                                                        <a href="javascript:void(0)"><img src="img/sicon2.png" alt="sicon" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <p class="modalfont">Not a member? <a href="javascript:void(0)">Register Now!</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- login modal end -->
+
+    <!-- ordertimepopup modal start -->
+    <div id="time" class="modal fade time" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <!-- <button type="button" class="btnclose" data-dismiss="modal"><img src="img/cross2.png" alt="cross2" class="img-responsive center-block"></button> -->
+                    <div class="time_inner boxs">
+                        <h5>Select Order Time</h5>
+                        <ul>
+                            <li class="active"><a href="javascript:void(0)">Today</a></li>
+                            <li><a href="javascript:void(0)">THU <span>18</span></a></li>
+                            <li><a href="javascript:void(0)">FRI <span>19</span></a></li>
+                            <li><a href="javascript:void(0)">SAT <span>20</span></a></li>
+                            <li><a href="javascript:void(0)">SUN <span>21</span></a></li>
+                            <li><a href="javascript:void(0)">MON <span>22</span></a></li>
+                            <li><a href="javascript:void(0)">TUE <span>22</span></a></li>
+                        </ul>
+
+                        <div class="timelist boxs">
+                            <div class="tick">
+                                <input type="radio" class="tick_input" id="tick01" name="tick1">
+                                <label for="tick01"><span></span>As Soon As Possible</label>
+                            </div>
+                            <div class="tick">
+                                <input type="radio" class="tick_input" id="tick02" name="tick1">
+                                <label for="tick02"><span></span>3:15 AM - 3:45 AM</label>
+                            </div>
+                            <div class="tick">
+                                <input type="radio" class="tick_input" id="tick03" name="tick1">
+                                <label for="tick03"><span></span>3:15 AM - 3:45 AM</label>
+                            </div>
+                            <div class="tick">
+                                <input type="radio" class="tick_input" id="tick04" name="tick1">
+                                <label for="tick04"><span></span>3:15 AM - 3:45 AM</label>
+                            </div>
+                            <div class="tick">
+                                <input type="radio" class="tick_input" id="tick05" name="tick1">
+                                <label for="tick05"><span></span>3:15 AM - 3:45 AM</label>
+                            </div>
+                            <div class="tick">
+                                <input type="radio" class="tick_input" id="tick06" name="tick1">
+                                <label for="tick06"><span></span>3:15 AM - 3:45 AM</label>
+                            </div>
+                            <div class="tick">
+                                <input type="radio" class="tick_input" id="tick08" name="tick1">
+                                <label for="tick07"><span></span>3:15 AM - 3:45 AM</label>
+                            </div>
+                            <div class="tick">
+                                <input type="radio" class="tick_input" id="tick08" name="tick1">
+                                <label for="tick08"><span></span>3:15 AM - 3:45 AM</label>
+                            </div>
+                            <div class="tick">
+                                <input type="radio" class="tick_input" id="tick09" name="tick1">
+                                <label for="tick09"><span></span>3:15 AM - 3:45 AM</label>
+                            </div>
+                            <div class="tick">
+                                <input type="radio" class="tick_input" id="tick010" name="tick1">
+                                <label for="tick010"><span></span>3:15 AM - 3:45 AM</label>
+                            </div>
+                            <div class="tick">
+                                <input type="radio" class="tick_input" id="tick011" name="tick1">
+                                <label for="tick011"><span></span>3:15 AM - 3:45 AM</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ordertimepopup modal end -->
+
+    <div class="downPop boxs">
+        <div class="container">
+            <div class="innerDownp boxs">
+                <div class="innerDownp_lft innerContnt">
+                    <p><span>0</span> Item | <g>$.</g> <span>00</span></p>
+                </div>
+                <div class="innerDownp_rht innerContnt">
+                    <a href="javascript:void(0)"><i class="fa fa-cart-plus"></i>View Cart <span>0</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--ordertype modal-->
+
+    <div class="resModal" id="mdl">
+        <div class="modal_dialog">
+            <!-- Modal content-->
+            <div class="modal_content">
+                <div class="modal_body boxs">
+                    <h3>How many orders</h3>
+                    <div class="vaulebox">
+                        <button type="button" class="minus_btn">-</button>
+                        <input type="text" value="0" class="qty">
+                        <button type="button" class="plus_btn">+</button>
+                    </div>
+                    <div class="fil_drop">
+                        <button type="button" class="filDrop_btn popFil_btn">
+                            <span>Select</span>
+                            <img src="img/arrowdwn.png" alt="arrow">
+                        </button>
+                        <div class="filDrop_content popularity">
+                            <a href="javascript:void(0)">Spicy</a>
+                            <a href="javascript:void(0)">Not Spicy</a>
+
+                        </div>
+                    </div>
+                    <div class="fil_drop fil_drop_2">
+                        <button type="button" class="filDrop_btn popFil_btn">
+                            <span>Select Topping</span>
+                            <img src="img/arrowdwn.png" alt="arrow">
+                        </button>
+                        <div class="filDrop_content popularity">
+                            <a href="javascript:void(0)">Pepperoni</a>
+                            <a href="javascript:void(0)">Mushrooms</a>
+                            <a href="javascript:void(0)">Onions</a>
+                            <a href="javascript:void(0)">Bacon</a>
+                            <a href="javascript:void(0)">Extra cheese</a>
+                            <a href="javascript:void(0)">Sausage</a>
+                            <a href="javascript:void(0)">Black olives</a>
+                            <a href="javascript:void(0)">Green peppers</a>
+                            <a href="javascript:void(0)">Pineapple</a>
+                            <a href="javascript:void(0)">Spinach</a>
+                        </div>
+                    </div>
+
+                    <div class="btn_sectn boxs">
+                        <a href="javascript:void(0)" class="submit_btn">Submit</a>
+                        <a href="javascript:void(0)" class="submit_btn cncl_btn">Cancel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--ordertype modal end-->
+
+    <!--    top button-->
+    <div class="top">
+        <i class="fa fa-arrow-circle-up"></i>
+    </div>
+    <!--    top button-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Comentorate | Login</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/hamburgers.css" rel="stylesheet">
+        <link href="css/slick-theme.css" rel="stylesheet">
+        <link href="css/slick.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+
+    </head>
+    <body>
+       
+        <section class="section1 boxs">
+            <div class="container">
+                <div class="log">
+                    <div class="log_inner boxs">
+                        <div class="log_inner_anchor boxs">
+                           <a href="index.html"><img src="img/logo2.svg" alt="logo" class="img-responsive"></a>
+                        </div>
+                        <div class="heding_ofform boxs">
+                            <h4>Collaborate, Be Mentored, Learn</h4>
+                        </div>
+                        <div class="login boxs">
+                            <h1>Log in</h1>
+                            <form action="index_login.html">
+                                <div class="form-group">
+                                    <label>Username or Email</label>
+                                    <input type="text" class="form-control" required="required">
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control" required="required">
+                                </div>
+                                <a href="javascript:void(0)" class="forgot" data-toggle="modal" data-target="#myModal">Forgot password?</a>
+                                <button type="submit">Log in</button>
+                                <p>Don't have an account?<span><a href="signup.html">Sign up here</a></span></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+       <!--  modal form -->
+       <div class="modal_resetpaswword boxs">
+            <div class="container">
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+            
+                <!-- Modal content-->
+                <div class="modal-content boxs">
+                    <div class="modal-header boxs">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h6 id="email_down">An email has been sent to the account on file <span><img src="img/sucees_ryt.svg" alt="sucees_ryt"></span></h6>
+                      <h4 class="modal-title">Forgot Password</h4>
+                    </div>
+                    <div class="modal-body boxs">
+                        <div class="modal-body_inner boxs">
+                            <p>Please input username or email associated with your CoMentorate account</p>
+                        </div>
+                        <div class="login login_reset boxs">   
+                            <form action="resetpassword.html">
+                                <div class="form-group">
+                                    <label>Username or Email</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                                <button type="submit">Reset Password</button>
+                                <p><span> <a href="login.html">Log in here</a></span></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+       </div>
+       <!--  modal form -->
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/custom.js"></script>
+        <!-- <script>
+            function indexfunction(){
+                window.open('index_login.html');
+            }
+        </script> -->
+    </body>
+</html>

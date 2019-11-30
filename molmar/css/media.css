@@ -1,0 +1,1003 @@
+/*divya*/
+@media screen and (min-width:1460px){
+    .service1 .servicerightimg{
+        width:47%;
+    }
+    .chooseservice .leftimg{
+        width:40%;
+    }
+    .chooseservice .outerbox{
+        min-height: 600px;
+    }
+}
+@media screen and (min-width:1560px){
+    .chooseservice .outerbox{
+        min-height: 700px;
+    }
+}
+@media screen and (min-width:1860px){
+    .chooseservice .outerbox{
+        min-height: 800px;
+    }
+}
+/*divya end*/
+@media screen and (min-width:1960px){
+    .service1 .servicerightimg{
+        width:40%;
+    }
+    /*divya*/
+    .chooseservice .outerbox{
+        min-height: 704px;
+    }
+}
+@media screen and (max-width:2100px){
+    /*---priyank start---*/
+    /*---home start---*/
+    .homesection4 .homesection4row1 .homesection4_content {
+        padding-top: 349px;
+        padding-bottom: 300px;
+    }
+    .homesection4 .homesection4row2 .homesection4_content {
+        padding-top: 380px;
+        padding-bottom: 420px;
+    }
+    .homesection4 {
+        padding: 40px 0px 280px;
+    }
+    /*---homee end---*/
+    /*---priyank end---*/
+
+}
+@media screen and (max-width:1920px){
+    /*---priyank start---*/
+    /*---home start---*/
+
+    .homesection4 .homesection4row1 .homesection4_content {
+        padding-top: 320px;
+        padding-bottom: 300px;
+    }
+    .homesection4 .homesection4row2 .homesection4_content {
+        padding-top: 340px;
+        padding-bottom: 340px;
+    }
+    .homesection4 {
+        padding: 40px 0px 240px;
+    }
+    /*---home end---*/
+    /*---priyank end---*/
+
+
+}
+@media screen and (max-width:1560px){
+    /*---priyank start---*/
+    /*---home start---*/
+
+    .homesection4 .homesection4row1 .homesection4_content {
+        padding-top: 231px;
+        padding-bottom: 126px;
+    }
+    .homesection4 .homesection4row2 .homesection4_content {
+        padding-top: 240px;
+        padding-bottom: 230px;
+    }
+    /*---home end---*/
+    /*---priyank end---*/
+}
+@media screen and (max-width:1366px){
+    /*---priyank start---*/
+    /*---home start---*/
+    .homesection4 .homesection4row1 .homesection4_content {
+        padding-top: 210px;
+        padding-bottom: 60px;
+    }
+    .homesection4 .homesection4row2 .homesection4_content {
+        padding-top: 253px;
+        padding-bottom: 200px;
+    }
+    .homesection4 {
+        padding: 40px 0px 100px;
+    }
+    /*---home end---*/
+    /*---priyank end---*/
+
+}
+/*gagan*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .accounting_services .acc_ser_heading h1,
+    .tax_services .tax_ser_heading h1,
+    .asssurance_services .asssurance_ser_heading h1{
+        font-size: 28px;
+    }
+    .accounting_services .acc_ser_heading .acc_border,
+    .tax_services .tax_ser_heading .tax_border,
+    .asssurance_services .asssurance_ser_heading .asssurance_border{
+        margin: 10px auto;
+    }
+    .accounting_services .acc_ser_heading p{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    .accounting_services .acc_ser_inner_main .acc_inner h2,
+    .tax_services .tax_ser_inner_main .tax_inner h2,
+    .asssurance_services .asssurance_ser_inner_main .asssurance_inner h2{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width:991px) and (min-width:768px){
+    .service1kind .kindboxs .kindboxsinner .bottom{
+        font-size: 17px;
+    }
+    .accounting_services .acc_ser_heading h1,
+    .tax_services .tax_ser_heading h1,
+    .asssurance_services .asssurance_ser_heading h1{
+        font-size: 26px;
+    }
+    .accounting_services .acc_ser_heading .acc_border,
+    .tax_services .tax_ser_heading .tax_border,
+    .asssurance_services .asssurance_ser_heading .asssurance_border{
+        margin: 10px auto;
+    }
+    .accounting_services .acc_ser_heading p{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .accounting_services .acc_ser_inner_main .acc_inner h2,
+    .tax_services .tax_ser_inner_main .tax_inner h2,
+    .asssurance_services .asssurance_ser_inner_main .asssurance_inner h2{
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+    .asssurance_services .asssurance_ser_inner_main .asssurance_inner img{
+        width: 70px;
+    }
+    .accounting_services .acc_ser_inner_main .acc_inner,  
+    .tax_services .tax_ser_inner_main .tax_inner,
+    .asssurance_services .asssurance_ser_inner_main .asssurance_inner {
+        margin: 20px 0px;
+    }
+    /*    .tax_services .tax_ser_inner_main .tax_inner h2{
+            margin: 0px;
+        }*/
+}
+
+@media screen and (max-width: 1199px){
+    /*---priyank start---*/
+    /*--home start--*/
+
+    .header .navbar-nav > li > a {
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+    .homesection2box1 span {
+        display: inline;
+    }
+    .homesection2box1 p {
+        font-size: 25px;
+        padding: 85px 0px 0px;
+    }
+    .mediaconsultancy .mediaconsultancybox1 h3 {
+        font-size: 22px;
+    }
+    .homesection3 .headquarterbox p {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    .homesection4 .homesection4row4 .homesection4_content h2 {
+        font-size: 30px;
+    }
+    .homesection4 .homesection4row4:nth-child(odd) .homesection4_content p{
+        font-size: 20px;
+        padding-left: 150px;
+        padding-top: 30px;
+    }
+    .homesection4 .homesection4row4:nth-child(even) .homesection4_content p {
+        font-size: 20px;
+        padding-right: 150px;
+        padding-top: 30px;
+    }
+    .homesection4 .homesection4row1 .homesection4_content {
+        padding-top: 200px;
+        padding-bottom: 143px;
+    }
+    .homesection4 .homesection4row2 .homesection4_content {
+        padding-top: 230px;
+        padding-bottom: 180px;
+    }
+    .homesection5 .homesection5_content h3, .homesection5 .homesection5_content_form h3 {
+        font-size: 25px;
+    }
+    .homesection5 .homesection5_content_form .form-group .form-control {
+        font-size: 13px;
+    }
+    /*--home end--*/
+    /*---priyank end---*/
+    /*divya*/
+    .heading {
+        font-size: 24px;
+    }
+    .service1 .left {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    /*divya end*/
+    /*pankaj start section*/
+    .molmar_offer .molmar_offer_middle .consultion p span{
+        display: inline;
+    }
+    .molmar_offer .molmar_offer_middle .consultion p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .molmar_offer .molmar_offer_middle .consultion h2 {
+        font-size: 16px;
+        padding: 24px 0px 10px 0px;
+    }
+    .molmar_offer .molmar_offer_middle .consultion {
+        padding: 31px 25px 15px 25px;
+        min-height: 292px;
+    }
+    .molmar_offer h1 {
+        font-size: 26px;
+    }
+    .molmar_offer p {
+        font-size: 16px;
+        padding: 30px 0px 55px 0px;
+    }
+    .molmar_offer .molmar_offer_middle .consultion {
+        padding: 31px 15px 0px 15px;
+        min-height: 294px;
+    }
+    .molmar_offer h1 {
+        font-size: 24px;
+    }
+    .molmar_offer p {
+        font-size: 14px;
+        padding: 30px 0px 55px 0px;
+    }
+
+    /*pankaj end section*/
+}
+@media screen and (max-width: 991px){
+
+    /*---priyank start---*/
+    /*--home start--*/
+
+    .header .navbar ul li {
+        padding: 10px 8px;
+    }
+    .header .navbar-nav > li > a {
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+    .homesection2box1 p {
+        font-size: 20px;
+        padding: 10px 0px 0px;
+    }
+    .homesection3 .mediaconsultancy {
+        padding: 0px 0px 0px;
+    }
+    .mediaconsultancy .mediaconsultancybox1 h3 {
+        font-size: 20px;
+    }
+    .homesection3 .headquarterbox p {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .homesection4 .homesection4row4 .homesection4_content h2 {
+        font-size: 24px;
+    }
+    .homesection4 .homesection4row1 .homesection4_content {
+        padding-top: 120px;
+        padding-bottom: 91px;
+    }
+    .homesection4 .homesection4row4:nth-child(odd) .homesection4_content p {
+        font-size: 18px;
+        padding-left: 115px;
+        padding-top: 30px;
+    }
+    .homesection4 .homesection4row4:nth-child(even) .homesection4_content p {
+        font-size: 18px;
+        padding-right: 115px;
+        padding-top: 30px;
+    }
+    .homesection4 .homesection4row2 .homesection4_content {
+        padding-top: 130px;
+        padding-bottom: 160px;
+    }
+    .homesection4 .homesection4row3 .homesection4_content {
+        padding-top: 54px;
+        padding-bottom: 55px;
+    }
+    .homesection5 .homesection5_content h3, .homesection5 .homesection5_content_form h3 {
+        font-size: 20px;
+    }
+    .homesection5 .homesection5_content p, .homesection5 .homesection5_content a {
+        font-size: 20px;
+    }
+    .homesection5 .homesection5_content_form form {
+        padding: 50px 20px 30px;
+    }
+    .homesection5 .homesection5_content_form .spanborder {
+        margin: 10px auto;
+        margin-bottom: 26px;
+    }
+    .homesection6 {
+        padding: 50px 0px 70px;
+    }
+    /*--home end--*/
+    /*---priyank end---*/
+    /*divya*/
+    .service1 .servicerightimg,.chooseservice .leftimg{
+        width:585px;
+    }
+    .service1 .left {
+        padding-top: 383px;
+    }
+
+    .chooseservice .right {
+        margin-top: 35px;
+    }
+    .service1 .left p{
+        padding-right: 0px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .service1kind .servicetxt{
+        padding: 30px;
+    }
+    .service1kind .servicetxt p, .chooseservice p{
+        font-size: 19px; 
+    }
+    .service1 .noleft{
+        padding: 0px;
+    }
+    .chooseservice .leftimg{
+        position: static;
+    }
+    /* divya*/
+    /*pankaj start section*/
+    .molmar_offer .molmar_offer_middle .consultion {
+        padding: 31px 15px 0px 15px;
+        min-height: 330px;
+    }
+
+    /*pankaj end section*/
+    /*deepak page start*/
+    .banner_text p span{
+        display:inline;
+    }
+    .contact_banner_image {
+        padding: 115px 0px 4px;
+        -webkit-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 17%, 100% 100%, 0 100%);
+    }
+
+    /*deepak page End*/
+    .homesection5 .touch p span{
+        display: inline;
+    }
+    .homesection5 .touch h1,.homesection5 .touch p{
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px){
+    /*---priyank start---*/
+    /*---home start---*/
+    .mediaconsultancy .mediaconsultancybox1 img {
+        width: 135px;
+    }
+    .mediaconsultancy .mediaconsultancybox1 {
+        padding: 50px 0px 50px;
+    }
+    .mediaconsultancy .mediaconsultancybox1 h3 {
+        font-size: 18px;
+    }
+    /*---home start---*/
+    /*---priyank end---*/
+}
+@media screen and (max-width: 767px){
+    /*---priyank start---*/
+    /*--home start--*/
+    .header .hamburger{
+        display: block;
+    }
+    .homesection2 {
+        padding: 87px 70px 0px;
+    }
+    .homesection2 {
+        background-image: linear-gradient(to right, #19c3b1 0%, #19c3b1 35%, #266cb3 100%);
+        background-size:cover;
+        padding-top: 80px;
+    }
+    .header{
+        background: #fff;
+        background-size: 10% 100%;
+    }
+    .fixed_header .hamburger-inner,.fixed_header .hamburger-inner::before,
+    .fixed_header .hamburger-inner::after {
+        background-image: linear-gradient(to right, #19c3b1 0%, #19c3b1 35%, #266cb3 100%);
+    } 
+    .header .hamburger-inner,.header .hamburger-inner::before,
+    .header .hamburger-inner::after {
+        background-image: linear-gradient(to right, #19c3b1 0%, #19c3b1 35%, #266cb3 100%);
+    } 
+    .homesection2 .noright{
+        padding-right: 15px;
+    }
+    .homesection2box1 .btn1,.homesection5 .homesection5_content_form .btn1{
+        border: 2px solid #fff;
+    }
+    .homesection5 .homesection5_content_form .btn1 {
+        padding: 10px 80px;
+    }
+    .homesection2box1{
+        text-align: center;
+    }
+    .homesection2box1 p {
+        font-size: 22px;
+        padding: 35px 0px 0px;
+        color: #fff;
+    }
+    .homesection2box1 .btn1, .homesection5 .homesection5_content_form .btn1 {
+        font-size: 15px;
+        padding: 9px 17px;
+    }
+    .homesection5 .homesection5_content_form .btn1 {
+        padding: 10px 40px;
+    }
+    /*.homesection2box2{
+   padding-left: 0px;
+   }*/
+    .homesection2box2 img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .homesection3 {
+        padding: 118px 60px 20px;
+        margin-top: -78px;
+    }
+    .mediaconsultancy .mediaconsultancybox1 {
+        padding: 50px 0px 50px;
+        margin: 20px 0px 20px;
+    }
+    .mediaconsultancy .mediaconsultancybox1 h3 {
+        font-size: 25px;
+    }
+    .homesection3 .headquarterbox {
+        padding: 53px 0px 0px;
+    }
+    .homesection4 {
+        padding: 40px 0px 40px;
+    }
+    .homesection4 .homesection4row2 .homesection4_content {
+        padding-top: 76px;
+        padding-bottom: 55px;
+    }
+    .homesection5 .homesection5_content_form form {
+        right: 20px;
+    }
+    .homesection5 .homesection5_content h3, .homesection5 .homesection5_content_form h3 {
+        font-size: 30px;
+    }
+    .homesection5 .homesection5_content p, .homesection5 .homesection5_content  a {
+        font-size: 24px;
+    }
+    .homesection5 .homesection5_content p .buttonlinkedin .fa {
+        font-size: 29px;
+    }
+    .homesection5 .homesection5_content_form form {
+        position: static;
+        display:block;
+        margin-top: 40px;
+    }
+    .homesection4 .homesection4row4:nth-child(odd)  .homesection4row1img img,
+    .homesection4 .homesection4row4:nth-child(even)  .homesection4row1img img{
+        position:static;
+        top: 0;
+        left: 0;
+        width: 60%;
+    }
+    .homesection4 .homesection4row4:nth-child(even)  .homesection4row1img img{
+        right: 0;
+        float: right;
+    }
+    .homesection4 .homesection4row3 .homesection4row1img img{
+        width: 70% !important;
+    }
+    .homesection4 .homesection4row1 .homesection4_content {
+        padding-top: 53px;
+        padding-bottom: 53px;
+    }
+    .homesection4 .homesection4row4 .homesection4_content h2 {
+        font-size: 26px;
+    }
+    .homesection4 .homesection4row4:nth-child(odd) .homesection4_content p {
+        font-size: 20px;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .homesection4 .homesection4row4:nth-child(even) .homesection4_content p {
+        font-size: 20px;
+        padding-right: 0px;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .homesection5 .homesection5_content .location1 {
+        margin: 7px 0px 0px;
+    }
+    .homesection5 .homesection5_content_form .form-group .form-control {
+        font-size: 15px;
+    }
+    .homesection6 {
+        padding: 35px 0px 35px;
+    }
+    .homesection5 .homesection5_content .link .fa-linkedin {
+        padding: 10px 10px;
+        margin-right: 8px;
+        font-size: 22px;
+    }
+    .homesection5 .homesection5_content .link a {
+        padding:11px 2px;
+        padding-right: 16px;
+        border-radius: 6px;
+        border:2px solid transparent;
+        font-size: 14px;
+    }
+    .homesection5 .homesection5_content_form form {
+        padding: 32px 20px 100px;
+    }
+    .contact_form_center .homesection5_content_form form {
+        padding-bottom: 45px;
+    }
+    .homesection5_content_form .firstname {
+        padding-right: 15px;
+    }
+    .homesection5_content_form .secondname {
+        padding-left: 15px;
+    }
+
+    /*--home end--*/  
+    /*---priyank end---*/ 
+    /*divya*/
+    .serviceheader {
+        background: linear-gradient(to right, #19c3b1 0%, #19c3b1 10%, #266cb3 100%)!important;
+    }
+    .heading {
+        font-size: 21px;
+    }
+    .service1kind .kindboxs{
+        margin-top: 0px;
+    }
+    .Servicepage {
+        margin-top: 72px;
+    }
+    .serviceheader .hamburger-inner, .serviceheader .hamburger-inner::before, .serviceheader .hamburger-inner::after{
+        background: #fff!important;
+    }
+    /*    .serviceheader .fixed_header {
+            background: #fff url(../img/fixedbackground.png) no-repeat right;
+            background-size: 66% 100%;
+            position: fixed;
+        }*/
+    .service1kind .servicetxt {
+        padding: 30px 15px;
+    }
+    /*divya end*/
+    /*pankaj start section*/
+    .molmar_offer .molmar_offer_middle .integration{
+        padding: 0px;
+    }
+    .molmar_offer p {
+        padding: 30px 0px 30px 0px;
+    }
+    .molmar_offer .molmar_offer_middle .consultion {
+        padding: 31px 15px 25px 15px;
+        min-height: auto;
+        margin: 20px 0px;
+    }
+    .molmar_offer .molmar_offer_middle .consultion p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .molmar_offer .molmar_offer_middle .consultion h2 {
+        font-size: 19px;
+    }
+    .molmar_offer h1 {
+        font-size: 26px;
+    }
+    .molmar_offer p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /*pankaj end section*/
+    /*gagan*/
+    .accounting_services .acc_ser_heading h1,
+    .tax_services .tax_ser_heading h1,
+    .asssurance_services .asssurance_ser_heading h1{
+        font-size: 25px;
+    }
+    .accounting_services .acc_ser_heading p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .accounting_services .acc_ser_heading .acc_border,
+    .tax_services .tax_ser_heading .tax_border,
+    .asssurance_services .asssurance_ser_heading .asssurance_border{
+        margin: 10px auto;
+        width: 43px;
+    }
+    .accounting_services .acc_ser_inner_main .acc_inner h2,
+    .tax_services .tax_ser_inner_main .tax_inner h2,
+    .asssurance_services .asssurance_ser_inner_main .asssurance_inner h2{
+        font-size: 19px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+    /*    .tax_services .tax_ser_inner_main .tax_inner h2{
+            margin-top: 0px
+        }*/
+    .accounting_services .acc_ser_inner_main .acc_inner, 
+    .tax_services .tax_ser_inner_main .tax_inner, 
+    .asssurance_services .asssurance_ser_inner_main .asssurance_inner{
+        margin: 20px 0px;
+    }
+    .asssurance_services .asssurance_ser_inner_main{
+        margin-top: 20px;
+    }
+    /*deepak page start*/
+    .banner_text h2{
+        font-size: 35px;
+    }
+    .banner_text p{
+        font-size: 18px;
+    }
+    .contact_banner_image {    
+        padding: 23px 0px 4px;
+        -webkit-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    }
+    .contact_section .contact_banner {
+        padding: 132px 0px 0px;
+    }
+    .google_mep{
+        margin-top: 50px;
+    }
+    .homesection5 .touch{
+        margin-bottom: 35px;
+    }
+    .footer_contact img{
+        margin: 0 auto;
+    }
+    .footer_contact .text-right{
+        text-align: center;
+    }
+    /*deepak page End*/
+}
+@media screen and (max-width: 560px){
+    /*---priyank start---*/
+    /*--home start--*/
+
+    .homesection2box1 p {
+        font-size: 22px;
+        padding: 35px 0px 0px;
+    }
+    .mediaconsultancy .mediaconsultancybox1 img{
+        width: 135px;
+    }
+    .fixed_header{
+        background-image:unset;
+        background-size: 100% 100%;
+        background-color: #fff;
+    }
+    .header .hamburger-inner,.header .hamburger-inner::before,.header .hamburger-inner::after {
+        background:#fff;
+    }
+    .fixed_header .hamburger-inner,.fixed_header .hamburger-inner::before,
+    .fixed_header .hamburger-inner::after {
+        background-image: linear-gradient(to right, #19c3b1 0%, #19c3b1 35%, #266cb3 100%);
+    }
+    .header .hamburger-inner,.header .hamburger-inner::before,
+    .header .hamburger-inner::after {
+        background-image: linear-gradient(to right, #19c3b1 0%, #19c3b1 35%, #266cb3 100%);
+    } 
+    .homesection2 {
+        padding: 87px 0px 0px;
+    }
+    .homesection2box2 {
+        padding-left: 0px;
+    }
+    .homesection2box2 img {
+        width: 90%;
+        margin-top: 50px;
+    }
+    .homesection3 {
+        padding: 118px 0px 20px;
+        margin-top: -78px;
+    }
+    .homesection4 .homesection4row4 .homesection4_content h2 {
+        font-size: 25px;
+    }
+    .homesection4 .homesection4row4:nth-child(odd) .homesection4_content p {
+        font-size: 18px;
+        padding-left: 80px;
+        padding-top: 30px;
+    }
+    .homesection4 .homesection4row4:nth-child(even) .homesection4_content p {
+        font-size: 18px;
+        padding-right: 20px;
+        padding-top: 30px;
+    }
+    .homesection4 {
+        padding: 0px 0px 30px;
+    }
+    .homesection4 .homesection4row2 .homesection4_content,
+    .homesection4 .homesection4row1 .homesection4_content {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .homesection4_content h2 .adtech {
+        display:block;
+    }
+    .homesection4 .homesection4row3 .homesection4_content {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .homesection4 .homesection4row4:nth-child(odd)  .homesection4row1img img{
+        float: left;
+        width: 100%;
+    }
+    .homesection4 .homesection4row4:nth-child(even)  .homesection4row1img img{
+        width: 100%;
+        float: right;
+    }
+    .homesection4 .homesection4row3 .homesection4row1img img{
+        width: 100% !important;
+    }
+    .homesection4 .homesection4row4:nth-child(odd) .homesection4_content p,
+    .homesection4 .homesection4row4:nth-child(even) .homesection4_content p {
+        padding-left: 0px;
+    }
+    /*.homesection4 .homesection4row4:nth-child(even) .homesection4_content p {
+       padding-right: 0px;
+   }*/
+    .homesection5 .homesection5_content p, .homesection5 .homesection5_content a {
+        font-size: 17px;
+    }
+    .homesection5 .homesection5_content .link .fa-linkedin {
+        font-size: 19px;
+    }
+    .homesection5 .homesection5_content_form .btn1 {
+        padding: 10px 42px;
+    }
+    .homesection6 .homesection6_content p {
+        padding-top: 9px;
+    }
+
+    /*--home end--*/
+    /*---priyank end---*/
+    /*divya*/
+    .service1 .servicerightimg, .chooseservice .leftimg {
+        width:90%;
+    }
+    .service1 .left {
+        padding-top: 326px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .service1kind .servicetxt p, .chooseservice p {
+        font-size: 18px;
+    }
+    .chooseservice{
+        margin-top: 50px;
+    }
+    /* divya end*/
+    /*pankaj start section*/
+
+    .molmar_offer h1 {
+        font-size: 20px;
+    }
+    .molmar_offer h1 span {
+        padding: 5px 0px;
+    }
+    .molmar_offer p {
+        padding: 23px 0px 17px 0px;
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .molmar_offer .molmar_offer_middle .consultion {
+        margin: 12px 0px;
+    }
+    .molmar_offer .molmar_offer_middle .col-sm-4 {
+        padding: 0px 5px;
+    }
+    .molmar_offer h1 span::before {
+        width: 50px;
+        bottom: -8px;
+    }
+    .molmar_offer .molmar_offer_middle .consultion h2 {
+        font-size: 16px;
+    }
+    .molmar_offer .molmar_offer_middle .consultion p {
+        font-size: 14px;
+    }
+    /*pankaj end section*/
+    /*gagn*/
+    .accounting_services,
+    .tax_services,
+    .asssurance_services{
+        padding: 40px 0px;
+    }
+    .accounting_services .acc_ser_heading h1, 
+    .tax_services .tax_ser_heading h1, 
+    .asssurance_services .asssurance_ser_heading h1{
+        font-size: 22px;
+    }
+    .accounting_services .acc_ser_heading p{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .accounting_services .acc_ser_inner_main .acc_inner, 
+    .tax_services .tax_ser_inner_main .tax_inner, 
+    .asssurance_services .asssurance_ser_inner_main .asssurance_inner{
+        margin: 15px 0px;
+    }
+    .accounting_services .acc_ser_inner_main .acc_inner h2, 
+    .tax_services .tax_ser_inner_main .tax_inner h2, 
+    .asssurance_services .asssurance_ser_inner_main .asssurance_inner h2{
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+
+    /*deepak page start*/
+    .contact_banner_image {    
+        padding: 30px 0px 4px;
+        -webkit-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
+    }
+    /*deepak page End*/
+    .homesection5 .touch h1, .homesection5 .touch p {
+        font-size: 17px;
+    }
+    .banner_text h2 {
+        font-size: 30px;
+    }
+    .homesection4 .homesection4row1, .homesection4 .homesection4row2{
+        margin-bottom: 40px;
+    }
+    .homesection4 .homesection4row3.homesection4row41  .homesection4row1img img{
+
+        width:400px!important;
+    }
+}
+@media screen and (max-width: 414px){
+    /*---priyank start---*/
+    /*--home start--*/
+
+    .homesection2box1 p {
+        font-size: 18px;
+        padding: 26px 0px 0px;
+    }
+    .homesection2box2 img {
+        width: 90%;
+        margin-top: 50px;
+    }
+    .fixed_header{
+        background-image:unset;
+        background-size: 100% 100%;
+        background-color: #fff;
+    }
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+        background-image: linear-gradient(to right, #19c3b1 0%, #19c3b1 35%, #266cb3 100%);
+    }  
+    .mediaconsultancy .mediaconsultancybox1 h3 {
+        font-size: 20px;
+        padding: 20px 0px 0px;
+    }
+    .mediaconsultancy .mediaconsultancybox1 {
+        padding: 30px 0px 30px;
+    }
+    .homesection3 .headquarterbox p {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .homesection4 .homesection4row1 .homesection4_content,
+    .homesection4 .homesection4row2 .homesection4_content,
+    .homesection4 .homesection4row3 .homesection4_content {    
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .homesection4 .homesection4row4 .homesection4_content h2 {
+        font-size: 20px;
+    }
+    .homesection4 .homesection4row4:nth-child(odd) .homesection4_content p {
+        font-size: 18px;
+        padding-left: 0px;
+        padding-top: 24px;
+    }
+    .homesection4 .homesection4row4:nth-child(even) .homesection4_content p {
+        font-size: 18px;
+        padding-left: 0px;
+        padding-top: 24px;
+    }
+    .homesection4 .homesection4row4:nth-child(odd) .homesection4_content p {
+        font-size: 16px;
+        padding-left: 0px;
+        padding-top: 24px;
+    }
+    .homesection4 .homesection4row4:nth-child(even) .homesection4_content p {
+        font-size: 16px;
+        padding-right: 0px;
+        padding-top: 24px;
+    }
+    .homesection5 {
+        padding: 50px 0px 45px;
+    }
+    .homesection5 .homesection5_content h3, .homesection5 .homesection5_content_form h3 {
+        font-size: 25px;
+    }
+    .homesection5 .homesection5_content p, .homesection5 .homesection5_content a {
+        font-size: 15px;
+    }
+    .homesection5 .homesection5_content p .buttonlinkedin .fa {
+        font-size: 21px;
+    }
+    .homesection5 .homesection5_content_form form {
+        padding: 20px 12px 100px;
+    }
+    .contact_form_center .homesection5_content_form form {
+        padding-bottom: 50px;
+    }
+    .homesection5 .homesection5_content_form .form-group .form-control {
+        font-size: 13px;
+    }
+    .homesection6 {
+        padding: 30px 0px 30px;
+    }
+    /*--home end--*/
+    /*---priyank end---*/
+    /*divya*/
+
+    .service1 .servicerightimg, .chooseservice .leftimg {
+        width: 100%;
+    }
+    .service1 .left {
+        padding-top: 300px;
+    }
+    .service1kind .servicetxt p, .chooseservice p ,.service1 .left p{
+        font-size: 16px;
+    }
+    /* divya end*/
+    /*pankaj start section*/
+    .molmar_offer h1 {
+        font-size: 16px;
+    }
+    .molmar_offer p {
+        padding: 20px 0px 5px 0px;
+        font-size: 13px;
+    }
+    .molmar_offer h1 span::before {
+        width: 37px;
+        bottom: -8px;
+        height: 3px;
+    }
+    .molmar_offer .molmar_offer_middle .consultion h2 {
+        padding: 15px 0px 5px 0px;
+    }
+    /*pankaj end section*/
+    .asssurance_services .asssurance_ser_inner_main .asssurance_inner img{
+        width: 85px;
+    }
+    .homesection4 .homesection4row3.homesection4row41  .homesection4row1img img{
+
+        width:300px!important;
+    }
+
+}
+@media screen and (max-width: 320px){
+
+}

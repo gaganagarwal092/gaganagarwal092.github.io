@@ -1,0 +1,217 @@
+@media screen and (max-width: 1199px){
+	.container_funnel {
+	    width: 770px;
+	}
+	.funnelmain{
+		padding-top: 30px;
+	}
+	.funnelbox {
+	    padding: 0px 125px 225px;
+	}
+	
+	.imgcenter button{
+		font-size: 20px;
+	}
+	.funnelbtnstyle.continuebtn h4{
+		font-size: 20px;
+	}
+	.personalinfo2 {
+	    padding: 0px 55px 0px;
+	}
+	
+
+}
+@media screen and (max-width: 991px){
+	.container_funnel {
+	    width: 750px;
+	}
+	.funnelbox {
+		padding: 0px 100px 225px;
+	}
+	.funnelbtns ul{
+	    padding: 30px 130px 0px;
+	}
+	.imgcenter{
+		margin-top: 30px;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.container_funnel {
+	    width: 460px;
+	}
+	.funnelmain{
+		margin-top: 71px;
+	}
+	.header .navbar-brand img{
+		width: 150px;
+	}
+	.funnelbtns ul {
+	    padding: 30px 80px 0px;
+	}
+	.funnelbox{
+        padding: 0px 0px 225px;
+	    min-height: 560px;
+	}
+	.padzero{
+		padding: 0;
+	}
+	.funnelbtns ul.continueul {
+	    padding: 0px 80px 0px;
+	}
+	.formbox{
+	    padding: 20px 80px 0px;
+	}
+	.personalinfo {
+    	margin-top: 0px;
+	}
+	.imgcenter {
+	    margin-top: 20px;
+	}
+	.personalinfo2 {
+	    padding: 0px 70px 0px;
+	}
+	.modal-dialog{
+		width: 90%;
+		margin: 30px auto;
+	}
+	.formbox .form-control{
+		font-size: 17px;
+		height: 50px;
+	}
+	.funnelbtnstyle.continuebtn h4 {
+	    font-size: 17px;
+	}
+	.funnelbtnstyle h4 i {
+    	font-size: 17px;
+	}
+	.header .navbar{
+		min-height: 25px;
+	}
+	.header .tele{
+		line-height: 43px;
+	}
+
+}
+@media screen and (max-width: 560px){
+	
+	.container_funnel {
+	    width: 100%;
+	}
+	.funnel{
+		height: 100%;
+	}
+	.header .navbar-brand{
+		padding-left: 0;
+	}
+	.header .tele{
+		line-height: 43px;
+	}
+	.funnelmain{
+		padding-top: 20px;
+	}
+	.funnelbox {
+	    min-height: auto;
+	}
+	.funnel_heading h1 {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.funnelbtnstyle h4{
+		font-size: 18px;
+	}
+	.funnel_heading p {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 15px 0px 0px;
+	}
+	.funnelbtns ul {
+	    padding: 30px 60px 0px;
+	}
+	.formbox {
+    	padding: 20px 60px 0px;
+	}
+	.formbox .form-control {
+	    font-size: 17px;
+	    height: 47px;
+	}
+	.funnelbtnstyle.continuebtn{
+		padding: 10px 0px;
+	}
+	.formbox .form-group{
+		margin-bottom: 10px;
+	}
+	.funnelbtns ul.continueul {
+	    padding: 0px 60px 0px;
+	}
+	.personalinfo2 {
+        padding: 0px 30px 0px;
+	}
+	.imgcenter button {
+	    font-size: 18px;
+	}
+	.footer{
+		padding: 20px 0px;
+	}
+		
+}
+@media screen and (max-width: 414px){
+	.header .navbar-brand img {
+    	width: 130px;
+	}
+	.header .tele {
+	    line-height: 37px;
+	    letter-spacing: 1.3px;
+	    font-size: 16px;
+	}
+	.funnelmain{
+	    margin-top: 65px;
+	}
+	.funnelbtns ul {
+       padding: 25px 20px 0px;
+	}
+	.funnel_heading h1 {
+	    font-size: 26px;
+    	line-height: 30px;
+	}
+	.funnelbtnstyle.continuebtn {
+	    padding: 12px 0px;
+	}
+	.funnelbox {
+	    min-height: auto;
+	    padding-bottom: 30px;
+	}
+	.formbox {
+		padding: 20px 0px 0px;
+	}
+	.formbox .form-control {
+		font-size: 16px;
+		padding: 6px 12px;
+		height: 46px;
+	}
+	.funnelbtnstyle.continuebtn h4 {
+	    font-size: 18px;
+	}
+	.funnelbtns ul.continueul {
+	    padding: 0px 0px 0px;
+	}
+	.personalinfo2 {
+	    padding: 0px 0px 0px;
+	}
+	.privacy_para {
+	    margin-top: 15px;
+	}
+	.privacy_para p{
+		margin-bottom: 10px;
+	}
+	.modal-body {
+	    padding: 20px;
+	}
+	.funnelbox {
+	    min-height: 560px;
+	}
+	
+}
+@media screen and (max-width: 320px){
+
+}

@@ -1,0 +1,471 @@
+@media(max-width:1350px) {
+    .container {
+        width: 992px;
+    }
+
+    .workinner .top .right {
+        padding-left: 60px;
+    }
+
+    .aboutus .bottominner {
+        padding-left: 0px;
+    }
+
+    .d2_inner .bottom .threeimg {
+        top: 465px;
+    }
+
+    #instafeed {
+        padding-right: 50px;
+    }
+
+    .aboutus .top,
+    .services .top {
+        padding-right: 100px;
+    }
+
+    .countboxw {
+        margin-top: 50px;
+    }
+
+    .email_text,
+    .messagewidth {
+        width: 90%;
+    }
+
+    .load_btn {
+        margin-right: 0;
+    }
+
+    .bottomouter {
+        padding-top: 100px;
+    }
+
+    .scrolldown {
+    bottom: -110px; 
+   }
+}
+
+@media(max-width: 1199px) {
+    .scrolldown {
+    bottom: 12px;
+   }
+
+   .scrolldown {
+    bottom: -190px;
+}
+
+   .hireus {
+    margin-top: 38px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media(max-width:995px) {
+    .container {
+        width: 765px;
+    }
+
+    .pdl2 {
+        padding-left: 10px;
+    }
+
+    .delivery h3 {
+        font-size: 65px;
+    }
+
+    .pdr {
+        padding-right: 0px;
+    }
+
+    .d2_inner .bottom .threeimg {
+        display: none;
+    }
+
+    .workinner .top {
+        display: block;
+    }
+
+    .workinner .top .right {
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+
+    .workinner .bottom {
+        margin-top: 20px;
+    }
+
+    #instafeed {
+        padding-right: 0px;
+    }
+
+    /*#instafeed a {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    #instafeed a:nth-child(2) {
+        width: 41%;
+        margin-right: 3%;
+    }
+
+    #instafeed a:nth-child(3) {
+        width: 56%;
+    }
+
+    #instafeed a:nth-child(4) {
+        width: 58%;
+        margin-right: 2%;
+    }
+
+    #instafeed a:nth-child(5) {
+        width: 40%;
+    }*/
+
+    .aboutus {
+        margin-top: 150px;
+    }
+
+    .aboutus .bottominner {
+        margin-top: 50px;
+        margin-bottom: 128px;
+    }
+
+    .countboxmgt {
+        margin-top: 0px;
+    }
+
+    .countboxmgtres {
+        position: absolute;
+        left: 20%;
+        top: 151px;
+    }
+
+    /*    .countboxpdlr{
+            margin-top: 67px;
+        }*/
+    .countboxpdlr {
+        padding: 0px;
+    }
+
+    .countboxpdlr h1 {
+        font-size: 95px;
+        top: 100px;
+        position: absolute;
+    }
+
+    .countimg {
+        margin-top: 98px;
+        padding-left: 89px;
+    }
+
+    .countboxone {
+        padding-right: 95px;
+    }
+
+    .circleimg {
+        display: none;
+    }
+
+    .forresinline {
+        display: inline;
+    }
+
+    h2 {
+        font-size: 99px;
+    }
+
+    .believeservice {
+        background-position: top left;
+    }
+
+    .believe h2 {
+        padding-top: 184px;
+    }
+
+    .services {
+        padding-bottom: 0px;
+    }
+
+    .emailbox {
+        margin: 70px 0px;
+    }
+
+    .email_text,
+    .messagewidth {
+        width: 100%;
+    }
+
+    .email_text {
+        padding-right: 30px;
+    }
+
+    .aboutus .top h4,
+    .sendmessage h4 {
+        font-size: 65px;
+    }
+
+    .sendmessage {
+        margin-bottom: 120px;
+    }
+
+    .footerlogo {
+        left: initial;
+        margin-left: 0px;
+        right: 0;
+    }
+
+    .footerinner .left,
+    .footerinner .right {
+        width: initial;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+/*@media(max-width:767px){
+
+}*/
+@media(max-width:767px) {
+
+    .header .middle,
+    .headrinner .rightw {
+        display: none;
+    }
+
+    .header .hamburger {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .headrinner .leftw img {
+        display: none;
+    }
+
+    .logoresponsive {
+        display: block;
+        float: right;
+        margin-top: -50px;
+    }
+
+    .container {
+        padding: 0px 15px;
+    }
+
+    .mgt {
+        margin-top: 150px;
+    }
+
+    .delivery {
+        padding-top: 150px;
+    }
+
+    .delivery_txt p .forblock {
+        display: inline;
+    }
+
+    .scrolldown {
+        margin-bottom: 70px;
+        margin-top: 30px;
+    }
+
+    .delivery h3 {
+        font-size: 45px;
+        padding-top: 50px;
+    }
+
+    .socialicon li {
+        padding-right: 20px;
+    }
+
+    .d2_inner .bottom h1 {
+        font-size: 52px;
+    }
+
+    .delivery .bottom p {
+        font-size: 12px;
+    }
+
+    .delivery {
+        /*        padding-bottom: 60px;*/
+        padding-bottom: 22px;
+    }
+
+    .aboutus {
+        margin-top: 70px;
+    }
+
+    h2,
+    .aboutus .top h4 {
+        font-size: 45px;
+    }
+
+    .work {
+        padding-top: 71px;
+        position: relative;   /*--new add--*/
+        z-index: 9;
+    }
+
+    .aboutus .top p {
+        font-size: 15px;
+    }
+
+    .aboutus .bottominner {
+        display: block;
+    }
+
+    .countboxmgtres {
+        position: static;
+    }
+
+    .countboxpdlr h1,
+    .countimg {
+        display: none;
+    }
+
+    .aboutus .top,
+    .chatbox {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .services .top {
+        padding-right: 0px;
+        padding-left: 20px;
+    }
+
+    .countboxone {
+        padding-right: 0px;
+    }
+
+    .believeservice {
+        margin-top: -371px;
+    }
+
+    .believe h2 {
+        padding-top: 274px;
+        padding-left: 20px;
+    }
+
+    .services {
+        margin-top: 0px;
+        padding-top: 50px;
+
+    }
+
+    .services .bottominner {
+        display: block;
+    }
+
+    .countboxw {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #instafeed a {
+        margin-bottom: 20px;
+    }
+
+    .subscribebox .btn {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sendmessage h4 {
+        font-size: 24px;
+    }
+
+    .message_form {
+        padding-right: 0px;
+        margin-top: 30px;
+    }
+
+    .inputwidthhalf {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .socialIcon .socialicon li svg {
+        margin: 10px 0px;
+    }
+
+    .footerinner {
+        display: block;
+    }
+
+    .footerinner .right span {
+        float: left;
+        margin-top: 20px;
+    }
+
+    .footer {
+        padding-top: 40px;
+    }
+
+    .sendmessage {
+        margin-bottom: 75px;
+    }
+
+    .load_btn {
+        margin-top: 0px;
+    }
+    #instafeed a {
+        /*margin-right: 0px;*/
+        width: 50%;
+        float: left;
+        display: inline-block;
+        margin: 5px 0px;
+        padding: 0px 5px;
+    }
+
+    .load_btn {
+        margin-top: 10px;
+    }
+
+    .scrolldown {
+        bottom: -210px;
+    }
+
+    .d2_inner {
+    padding-bottom: 190px;
+}
+
+}
+
+@media(max-width:560px) {
+    .d2_inner {
+    padding-bottom: 110px;
+   }
+
+   .workinner .top .right {
+    padding-top: 25px;
+   }
+
+   .scrolldown {
+    bottom: -320px;
+}
+}
+
+@media(max-width:414px) {
+    .hireus .btn {
+        width: 100%;
+    }
+
+    .d2_inner .bottom {
+        margin-top: 185px;
+    }
+
+    .footerlogo {
+    top: -45px;
+ }
+
+ .scrolldown {
+    bottom: -420px;
+}
+}
+
+@media(max-width:320px) {}

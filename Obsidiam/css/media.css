@@ -1,0 +1,541 @@
+@media screen and (max-width: 1199px){
+	.taskCounts p.tasknumber{
+		font-size: 22px;
+		width: 45%;
+	}
+	.taskCounts p.blue {
+	    width: 40px;
+	    height: 40px;
+	}
+	.taskCounts p.darkblue{
+		width: 40px;
+		height: 40px;
+	}
+	.taskCounts p.green {
+    	width: 40px;
+    	height: 40px;
+	}
+	.taskCounts{
+	    padding: 10px 15px;
+	    margin-bottom: 20px;
+	}
+	.taskCounts p.tasknumber sup{
+	    font-size: 14px;
+        line-height: 14px;
+	}
+	.TL_inner td.width1,
+	.TL_inner td.width2,
+	.TL_inner td.width3,
+	.TL_inner td.width4{
+	    font-size: 14px;
+	}
+	.TL_inner{
+	    padding: 10px 15px;
+	}
+	.taskCounts p span.symbol{
+		font-size: 18px;
+	}
+	.taskLinks a{
+		padding: 15px 0px;
+		margin-right: 20px;
+	    font-size: 14px;
+	}
+	.graph {
+    	height: 190px;
+	}
+	.searchbox p .form-control{
+	    padding: 10px 30px 10px 15px;
+	}
+	.searchbox p i {
+    	top: 15px;
+	}
+	.taskNewList td.width1 {
+    	width: 68%;
+	}
+	.taskNewList td.width2 {
+    	width: 16%;
+	}
+	.taskNewList td.width3 {
+	    width: 5%;
+	}
+	.taskNewList td.width4 {
+    	width: 11%;
+	}
+	.taskNewList td.width1,.taskNewList td.width2,.taskNewList td.width3,.taskNewList td.width4{
+	    font-size: 14px;
+	}
+	.taskNewList tr:hover td.width2,.taskNewList tr:hover td.width3 {
+    	font-size: 16px;
+	}
+	.upload_outer {
+    	width: 155px;
+	    padding: 10px 0px;
+	}
+	.form_sdbox h2{
+		font-size: 20px;
+	}
+	.form_bx {
+        padding: 45px 50px;
+        width: 470px;
+        height: 470px;
+    }
+    .verif_box {
+        width: 512px;
+        height: 375px;
+        padding: 55px 78px;
+    }
+
+
+
+}
+@media screen and (max-width: 991px){
+	
+	.header_inner h2{
+		font-size: 18px;
+	}
+	.taskList .col-sm-8,.taskList .col-sm-4{
+		width: 100%;
+	}
+	.taskCounts{
+		float: left;
+		width: 48%;
+	}
+	.taskCounts:first-child{
+		margin-right: 4%;
+	}
+	.taskCounts p.tasknumber {
+	    width: 60%;
+	}
+	.TL_ryt {
+		margin-top: 20px;
+	}
+	.graph {
+	    height: 150px;
+	}
+	.task h3 {
+    	font-size: 22px;
+	}
+	.searchbox p {
+    	width: 250px;
+	}
+	.noTask {
+	    padding: 50px 0px 100px;
+	}
+	.taskNewList td.width1 {
+	    width: 55%;
+	}
+	.taskNewList td.width2 {
+    	width: 25%;
+	}
+	.taskNewList td.width3 {
+    	width: 6%;
+	}
+	.taskNewList td.width4 {
+    	width: 14%;
+	}
+	.form_sdbox{
+		width: 500px;
+	}
+	.form_bx {
+        padding: 40px 35px;
+        width: 455px;
+        height: 455px;
+    }
+    .verif_box .form-control {
+        width: 53px;
+        height: 45px;
+
+    }
+    .verif_box h2 {
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+    .verif_box {
+		width: 400px;
+		height: auto;
+		padding: 40px 40px;
+    }
+    
+     .modal {
+        width: 100%;
+    }
+    
+    .modal-dialog {
+        display: block;
+        padding: 0 15px;
+        width: 80%;
+    }
+    
+    .modal-backdrop {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px){
+	.header .hamburger{
+        display: block;
+    }
+    .header_inner{
+	    padding: 18.5px 60px 18.5px 30px;
+    }
+    .sidenav{
+	    display: none;
+    }
+    .header_main{
+    	padding-left: 0px;
+    }
+    .dashboardmain{
+    	padding-left: 0px;
+    }
+    .d_inner{
+    	padding: 20px 15px;
+    }
+    .TL_inner {
+	    padding: 10px 0px;
+	}
+	.taskCounts p.tasknumber {
+	    width: 55%;
+	}
+	.taskCounts:first-child {
+    	margin-right: 0%;
+	}
+	.taskCounts {
+	    float: left;
+	    width: 60%;
+	}
+	.taskCounts p.blue,.taskCounts p.darkblue,.taskCounts p.green {
+	    width: 50px;
+	    height: 50px;
+	}
+	.TL_inner td.width1 {
+    	width: 62%;
+	}
+	.TL_inner td.width2 {
+    	width: 16%;
+	}
+	.TL_inner td.width3 {
+    	width: 6%;
+	}
+	.TL_inner td.width4 {
+    	width: 16%;
+	}
+	.noTaskmsg p{
+		font-size: 16px;
+		padding: 0px 50px;
+		line-height: 20px;
+	}
+	.taskNewList td.width1 {
+	    width: 52%;
+	}
+	.taskNewList td.width2 {
+    	width: 25%;
+	}
+	.taskNewList td.width3 {
+    	width: 6%;
+	}
+	.taskNewList td.width4 {
+    	width: 17%;
+	}
+	.frans_form .col-sm-6{
+		float: left;
+		width: 50%;
+	}
+	.header .hamburger{
+        display: block;
+    }
+    .bg_image {
+        padding: 0px 0px 80px;
+    }
+    .form_bx {
+        padding: 33px 30px;
+        width: 400px;
+        height: 400px;
+    }
+    .form_bx .form-control {
+        height: 43px;
+    }
+    .form-group {
+        margin-bottom: 12px;
+    }
+    .sign_btn button {
+        font-size: 16px;
+    }
+    .verif_box {
+        width: 385px;
+        /*height: 320px;*/
+        /*padding: 55px 42px;*/
+    }
+    .verif_box h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .verif_box .form-control {
+    	width: 50px;
+    	height: 45px;
+	}
+	.box_fom {
+    	margin-top: 130px;
+	}
+	.posabs{
+		position: relative;
+		right: 0%;
+	}
+    
+/*
+     .modal {
+        width: 100%;
+    }
+    
+    .modal-dialog {
+        display: block;
+        padding: 0 15px;
+        width: 100%;
+    }
+*/
+}
+@media screen and (max-width: 560px){
+	.task p{
+	    padding: 8px 15px;
+	}
+	.task h3 {
+	    font-size: 20px;
+	}
+	.task h3 span {
+    	font-size: 12px;
+	}
+	.taskNewList .scroll{
+	    overflow-x: scroll;
+	    max-height: unset;
+	    min-width: 530px;
+	    padding-right: 10px;
+	}
+	.scroll {
+		overflow-x: scroll;
+		max-height: unset;
+		min-width: 530px;
+		padding-right: 10px;
+	}
+	.scroll::-webkit-scrollbar {
+  		width: 0px;
+	}
+	.scroll::-webkit-scrollbar-track{
+		background-color: transparent;
+	}
+	.scroll2{
+		overflow-y: auto;
+	}
+	/* width */
+	.scroll2::-webkit-scrollbar {
+	  	height: 4px;
+	}
+
+	/* Track */
+	.scroll2::-webkit-scrollbar-track {
+	  background: #f1f1f1; 
+	}
+
+	/* Handle */
+	.scroll2::-webkit-scrollbar-thumb {
+	  background: #4d7cfe; 
+	}
+
+	/* Handle on hover */
+	.scroll2::-webkit-scrollbar-thumb:hover {
+	  background: #555; 
+	}
+	.shadow{
+		display: none;
+	}
+	.graph img{
+		min-height: 150px;
+	}
+	.header_inner {
+	    padding: 18.5px 60px 18.5px 15px;
+	}
+	.header_inner h2 {
+	    font-size: 16px;
+	}
+	.taskCounts {
+	    float: left;
+	    width: 100%;
+	}
+	.noTaskmsg p {
+    	padding: 0px 20px;
+	}
+	.noTask {
+	    padding: 50px 0px 60px;
+	}
+	.searchbox p {
+	    width: 200px;
+	}
+	.searchbox p .form-control {
+    	padding: 7px 30px 7px 10px;
+	}
+	.searchbox p i {
+	    top: 10px;
+	}
+	.taskNewList {
+    	padding: 10px 15px;
+	}
+	.form_sdbox {
+    	width: 100%;
+    	margin-left: 0;
+	    padding: 15px 15px;
+	}
+	.check_list label{
+		padding-left: 30px;
+	}
+	.check_list label:before{
+		position: absolute;
+		left: 0;
+	}
+	.bg_image {
+        padding: 0px 0px 0px;
+        height: 100vh;
+    }
+    .form_bx {
+        padding: 33px 10px;
+        width: 380px;
+        height: 400px;
+    }
+    .form_bx h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+   
+    .form_bx {
+        padding: 33px 15px;
+        width: 386px;
+        height: 340px;
+    }
+	.box_fom {
+    	margin-top: 130px;
+    }
+    
+    .modal {
+        width: 100%;
+    }
+    
+    .modal-dialog {
+        display: block;
+        padding: 0 15px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 414px){
+	.header_inner h2 {
+	    font-size: 13px;
+	}
+	.hamburger-box {
+    	width: 20px;
+	}
+	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+		width: 20px;
+		height: 2px;
+	}
+	.hamburger-inner::before {
+	    top: -6px;
+	}
+	.hamburger-inner::after {
+	    bottom: -6px;
+	}
+	.sidenav2 a span{
+		font-size: 13px;
+	}
+	.sidenav2 a{
+	    padding: 10px 15px 10px 28px;
+	}
+	.header_inner {
+	    padding: 18.5px 45px 18.5px 15px;
+	}
+	.TL_inner td.width4 span.Verification,.TL_inner td.width4 span.dispute{
+	    padding: 5px 0px;
+	}
+	.taskNewList td.width4 span.Verification,.taskNewList td.width4 span.dispute,.taskNewList td.width4 span.Verificationdone{
+		padding: 5px 0px;
+	}
+	.task p {
+	    padding: 6px 10px;
+	}
+	.taskCounts p.blue,.taskCounts p.darkblue,.taskCounts p.green {
+	    width: 40px;
+	    height: 40px;
+	}
+	.noTaskmsg h4 {
+    	font-size: 18px;
+	}
+	.noTaskmsg p {
+    	padding: 0px 0px;
+    	font-size: 14px;
+    	line-height: 18px;
+	}
+	.taskLinks a{
+		margin-right: 6px;
+	}
+	.searchbox p {
+	    width: 150px;
+	}
+	.searchbox p i {
+	    top: 12px;
+	}
+	.noTask {
+	    padding: 30px 0px 60px;
+	}
+	.frans_form .col-sm-6 {
+    	float: left;
+    	width: 100%;
+	}
+	.form_sdbox h2 {
+    	font-size: 18px;
+    	width: 60%;
+	}
+	.upload_outer {
+    	width: 100%;
+	    margin-right: 0px;
+	    margin-bottom: 15px
+	}
+	.upload_btn {
+    	margin-bottom: 5px;
+	}
+	.form_bx {
+        padding: 30px 20px;
+        width: 90%;
+    	height: auto;
+    }
+    .verif_box {
+        width: 90%;
+        height: auto;
+        padding: 30px 20px;
+    }
+    .verif_box .form-control {
+        width: 16.6%;
+        height: 40px;
+    }
+    .box_fom {
+    	margin-top: 150px;
+	}
+	.header .navbar-brand img {
+    	width: 80px;
+	}	
+	.date_title{
+		display: block;
+	}
+	.daterangepicker .drp-selected{
+		display: block;
+		text-align: left;
+	    margin-bottom: 15px;
+	}
+	.daterangepicker .drp-buttons .btn{
+		display: inline-block;
+		width: 46%;
+	}
+	.deny_section{
+		text-align: left;
+	}
+
+    .photo_sec {
+        height: 170px;
+    }
+}
+@media screen and (max-width: 320px){
+
+}

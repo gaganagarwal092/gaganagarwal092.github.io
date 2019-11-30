@@ -1,0 +1,927 @@
+@media screen and (max-width:1199px) {
+    .pack_inner .newwidth {
+        padding: 0% 3%;
+    }
+
+    .posstrip2 {
+        left: -90px;
+    }
+
+    .s_data p {
+        padding: 15px 0px;
+    }
+
+    .story_img {
+        padding: 40px 0px;
+    }
+
+    .storybox {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+        padding: 50px;
+    }
+
+    .c_head h3:after {
+        width: 122.5%;
+    }
+
+    .w_head h2 {
+        margin-bottom: 30px;
+    }
+
+    .width5.posab {
+        top: 498px;
+    }
+
+    .work {
+        padding: 80px 0px 20px;
+    }
+
+    .testimonial {
+        padding: 80px 0px;
+    }
+
+    .test_para p {
+        padding: 30px 150px;
+    }
+
+    .test_para p span {
+        line-height: 30px;
+    }
+
+    .counter_det p {
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+    }
+
+    .design_content {
+        padding: 10px 20px 20px;
+    }
+
+    .design_content h4 {
+        margin-bottom: 15px;
+    }
+
+    .team {
+        padding: 0px 0px 50px;
+    }
+
+    .legacy {
+        padding: 40px 0px 150px;
+    }
+
+    .legacy_main {
+        background: url(../img/legacy_bg.jpg) no-repeat -200px -150px;
+        background-size: cover;
+    }
+
+    .posabbox {
+        bottom: -70px;
+    }
+
+    .l_head {
+        padding: 40px 50px 40px 50px;
+    }
+
+    .l_head h2 {
+        margin-bottom: 20px;
+    }
+
+    .news_headline a {
+        font-size: 16px;
+    }
+
+    .news_date {
+        min-height: 116px;
+    }
+
+    .logoBx {
+        padding: 20px 30px;
+    }
+
+    .contact {
+        padding: 40px 0 40px;
+    }
+
+    .contact_det h2 {
+        font-size: 26px;
+    }
+
+    .contact_det p {
+        margin: 15px 0 20px;
+        font-size: 16px;
+    }
+
+    .loc_wrpr {
+        padding: 30px 0 0px;
+    }
+
+    .loc_wrpr a {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .footer_top {
+        padding: 50px 30px;
+    }
+
+    .footer_btm_in p {
+        font-size: 15px;
+    }
+
+    .footer_top .commstyl ul li a {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+
+    .footer_top .logo_sec p {
+        line-height: 24px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .footer_top .rwork ul li:nth-last-child(2),
+    .footer_top .rwork ul li:last-child {
+        display: none;
+    }
+
+    .footer_top .commstyl h2 {
+        margin-top: 12px;
+    }
+
+    .footer_top .rwork ul {
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .pack_btn a{
+            width: 100%;
+            padding: 10px 0px;
+    }
+    .pack_content{
+            padding: 30px 20px;
+    }
+    .posstrip2 {
+        left: -60px;
+    }
+    .pack_head h3 span{
+            padding-top: 20px;
+    }
+    .social_icon {
+        display: none;
+    }
+
+    .banner_inner {
+        padding: 180px 0px;
+    }
+
+    .s_inner {
+        padding: 40px 0px;
+    }
+
+    .s_head h2 {
+        padding-bottom: 30px;
+    }
+
+    .s_data h3 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .s_data p {
+        padding: 15px 10px;
+        line-height: 24px;
+        font-size: 15px;
+    }
+
+    .storybox {
+        margin: 20px 50px 0px 50px;
+        padding: 30px 30px;
+    }
+
+    .c_details {
+        padding-top: 0px;
+    }
+
+    .c_head h3:after {
+        width: 124%;
+    }
+
+    .c_head h3 {
+        padding-left: 0;
+        font-size: 30px;
+    }
+
+    .c_head h3 span {
+        font-size: 18px;
+    }
+
+    .story_img {
+        padding: 40px 0px 80px;
+    }
+
+    .c_para {
+        padding-top: 20px;
+        padding-right: 30px;
+    }
+
+    .c_details2 .c_head h3 {
+        padding-left: 50px;
+    }
+
+    .c_details2 .c_para {
+        padding-left: 50px;
+    }
+
+    .work {
+        padding: 0px 0px 20px;
+    }
+
+    .w_head h2 {
+        font-size: 30px;
+    }
+
+    .w_head h2:after {
+        width: 170px;
+        left: 250px;
+    }
+
+    .hovereffect p a {
+        text-align: center;
+    }
+
+    .width5.posab {
+        top: 382px;
+    }
+
+    .test_para p {
+        padding: 30px 60px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+    .counter_det h2 {
+        font-size: 30px;
+    }
+
+    .counter_det p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .p_inner {
+        padding: 170px 0px;
+    }
+
+    .design_content p {
+        line-height: 22px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .member_deatil a,
+    .member_deatil h3 {
+        font-size: 16px;
+    }
+
+    .member_deatil h3 {
+        padding-top: 20px;
+    }
+
+    .legacy {
+        padding: 40px 0px 80px;
+    }
+
+    .legacy_main {
+        background: url(../img/legacy_bg.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    .posabbox {
+        width: 100%;
+        bottom: 0;
+    }
+
+    .news_headline a span {
+        font-size: 12px;
+    }
+
+    .news_date {
+        min-height: 152px;
+    }
+
+    .contact_det p {
+        font-size: 14px;
+    }
+
+    .loc_wrpr h3 {
+        font-size: 20px;
+    }
+
+    .contact {
+        padding: 0px 0 40px;
+    }
+
+    .footer_top .rwork ul li {
+        width: 61px;
+    }
+
+    .footer_btm {
+        padding: 20px 30px 20px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .pack_btn a {
+    width: 50%;
+    padding: 10px 0px;
+}
+    .header .hamburger {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: -10px;
+    }
+
+    .header .navbar-nav {
+        display: none;
+    }
+
+    .s_inner .col-sm-4 {
+        float: left;
+        width: 33.33%;
+    }
+
+    .counter_inner .col-sm-3 {
+        float: left;
+        width: 25%;
+    }
+
+    .p_inner2 .col-sm-4 {
+        float: left;
+        width: 100%;
+    }
+
+    .team_inner .col-sm-3 {
+        float: left;
+        width: 50%;
+    }
+
+    .news_inner .col-sm-4 {
+        float: left;
+        width: 100%;
+    }
+
+    .contact {
+        overflow-x: hidden;
+    }
+
+    .posabbox {
+        position: relative;
+        bottom: initial;
+    }
+
+    .legacy_main {
+        overflow-x: hidden;
+    }
+
+    .concept {
+        overflow-x: hidden;
+    }
+
+    .banner_inner h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .s_inner {
+        padding: 30px 0px;
+    }
+
+    .s_head h2 {
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .storybox h4 {
+        font-size: 28px;
+        padding-left: 60px;
+        margin-bottom: 10px;
+    }
+
+    .storybox h4 span {
+        font-size: 16px;
+    }
+
+    .storybox h4 img {
+        width: 45px;
+    }
+
+    .fryt,
+    .flft {
+        float: initial;
+    }
+
+    .c_details {
+        margin-top: 30px;
+    }
+
+    .pdleft0 {
+        padding-right: 0;
+    }
+
+    .pdright0 {
+        padding-left: 0;
+    }
+
+    .c_details2 .c_head h3 {
+        padding-left: 0;
+    }
+
+    .c_details2 .c_para {
+        padding-left: 0;
+    }
+
+    .w_head h2 {
+        font-size: 28px;
+        padding-left: 0;
+    }
+
+    .w_head h2:after {
+        width: 110px;
+        left: 155px;
+    }
+
+    .w_head h2 a {
+        font-size: 14px;
+    }
+
+    .width2 {
+        width: 100%;
+    }
+
+    .width1,
+    .width3,
+    .width4,
+    .width5 {
+        display: none;
+    }
+
+    .test_head h2 {
+        font-size: 26px;
+    }
+
+    .test_para p span {
+        font-size: 80px;
+    }
+
+    .test_para p {
+        padding: 30px 30px;
+        margin-bottom: 0;
+    }
+
+    .test_author p {
+        font-size: 20px;
+    }
+
+    .test_author p span {
+        font-size: 16px;
+    }
+
+    .counters {
+        padding: 30px 0;
+    }
+
+    .design_content {
+        padding: 20px 30px 30px;
+        margin-bottom: 20px;
+    }
+
+    .p_inner2 {
+        top: 0;
+        padding-bottom: 40px;
+    }
+
+    .l_head h2 {
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+
+    .l_head {
+        padding: 30px 30px 30px 30px;
+    }
+
+    .l_head p {
+        line-height: 24px;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .legacy_inner {
+        padding: 80px 0px;
+        height: auto;
+    }
+
+    .legacy {
+        padding: 0px 0px 40px;
+    }
+
+    .news {
+        padding: 40px 0px 60px;
+    }
+
+    .news_date {
+        min-height: auto;
+        padding: 30px 0px 10px;
+    }
+
+    .news_headline a {
+        font-size: 18px;
+    }
+
+    .news {
+        padding: 40px 0px 40px;
+    }
+
+    .logo_wpr {
+        padding: 30px 0;
+    }
+
+    .logoBx {
+        padding: 20px 20px;
+    }
+
+    .contact {
+        background: url(../img/contact-lamp.jpg) 30% center;
+        background-size: cover;
+    }
+
+    .loc_lft,
+    .loc_rht {
+        width: 100%;
+    }
+
+    .contact_det p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px 0 10px;
+    }
+
+    .loc_wrpr {
+        padding: 20px 0 0px;
+    }
+
+    .footer_top {
+        padding: 30px 30px;
+    }
+
+    .reswidth {
+        float: left;
+        width: 50%;
+    }
+
+    .footer_top .commstyl h2 {
+        margin-top: 30px;
+    }
+
+    .footer_top .rwork ul li:nth-last-child(2),
+    .footer_top .rwork ul li:last-child {
+        display: inline-block;
+    }
+
+    .footer_btm_in p {
+        line-height: 15px;
+    }
+
+    .pack_inner .newwidth {
+        padding: 0% 15%;
+    }
+
+    .posstrip2 {
+        left: -150px;
+    }
+
+}
+
+@media screen and (max-width:560px) {
+    .custmheight {
+        height: auto;
+    }
+
+    .c_details {
+        margin-bottom: 0px;
+    }
+
+    .banner_inner {
+        height: 476px;
+    }
+
+    .packages {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .pack_inner .newwidth {
+        padding: 0% 10%;
+    }
+
+    .pack_content {
+        margin-top: 30px;
+    }
+
+    .posstrip2 {
+        left: -120px;
+    }
+
+    .pack_content:hover {
+        transform: scaleX(1.1);
+    }
+
+    .banner_inner h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        padding: 0px 50px;
+    }
+
+    .s_inner .col-sm-4 {
+        float: left;
+        width: 100%;
+    }
+
+    .s_content {
+        margin-bottom: 20px;
+    }
+
+    .storybox {
+        margin: 20px 20px 20px 20px;
+        padding: 20px 20px;
+    }
+
+    .storybox p {
+        line-height: 24px;
+        font-size: 15px;
+    }
+
+    .story_img {
+        padding: 40px 0px 40px;
+    }
+
+    .w_head h2:after {
+        width: 50px;
+        left: 135px;
+        bottom: 8px;
+    }
+
+    .width6,
+    .width7 {
+        width: 50%;
+    }
+
+    .width8 {
+        width: 100%;
+    }
+
+    .counter_det h2 {
+        font-size: 24px;
+    }
+
+    .counter_det p {
+        font-size: 12px;
+        margin-top: 5px;
+        letter-spacing: 0px;
+    }
+
+    .p_inner2 {
+        top: 0;
+        padding-bottom: 30px;
+    }
+
+    .team_content {
+        margin-bottom: 20px;
+    }
+
+    .team {
+        padding: 0px 0px 20px;
+    }
+
+    .l_head p {
+        font-size: 15px;
+    }
+
+    .l_head {
+        padding: 20px 20px 10px 20px;
+    }
+
+    .contact {
+        background: #fff;
+    }
+
+    .contact_det {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_top {
+        padding: 30px 0px;
+    }
+
+    .footer_top .rwork ul li {
+        width: 115px;
+    }
+
+    .footer_btm_in ul {
+        float: initial;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .footer_btm_in p {
+        float: initial;
+        text-align: center;
+    }
+
+    .login .modal-dialog {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:414px) {
+    .posstrip2 {
+        left: -80px;
+    }
+    .pack_btn a {
+    width: 80%;
+    }
+
+    .login_head h4 img.normallogo {
+        width: 150px;
+    }
+
+    .loginbox {
+        padding: 20px 20px;
+        min-height: 400px;
+    }
+
+    .login_head h4 {
+        font-size: 20px;
+    }
+
+    .loginsub_head h5 {
+        font-size: 17px;
+    }
+
+    .login_head h4 img {
+        width: 30px;
+    }
+
+    .close2 {
+        right: 10px;
+        top: 0px;
+    }
+
+    .sl-wrapper .sl-navigation button.sl-prev {
+        left: 0px;
+    }
+
+    .sl-wrapper .sl-navigation button.sl-next {
+        right: 0px;
+    }
+
+    .pack_btn a {
+        font-size: 13px;
+    }
+
+    .header .navbar-brand {
+        width: 180px;
+    }
+
+    .banner_inner h2 {
+        padding: 0px 20px;
+    }
+
+    .banner_inner {
+        padding: 140px 0px;
+        height: 400px;
+    }
+
+    .story_img {
+        padding: 40px 0px 20px;
+    }
+
+    .c_inner {
+        padding: 0px 20px;
+    }
+
+    .c_head h3 {
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+
+    .c_para p {
+        font-size: 15px;
+        margin-bottom: 10px;
+        line-height: 24px;
+    }
+
+    .c_head h3:after {
+        width: 100%;
+    }
+
+    .c_para {
+        padding-top: 15px;
+    }
+
+    .concept {
+        padding: 0px 0px 20px;
+    }
+
+    .w_head h2 a {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .test_para p {
+        padding: 20px 15px;
+        line-height: 26px;
+        font-size: 16px;
+    }
+
+    .testimonial {
+        padding: 50px 0px;
+    }
+
+    .test_author p {
+        font-size: 18px;
+    }
+
+    .test_author p span {
+        font-size: 15px;
+    }
+
+    .author_img_box {
+        width: 45px;
+        height: 45px;
+    }
+
+    .counter_inner .col-sm-3 {
+        float: left;
+        width: 50%;
+    }
+
+    .counter_det {
+        margin-bottom: 15px;
+    }
+
+    .counters {
+        padding: 30px 0 15px;
+    }
+
+    .p_inner2 {
+        top: -100px;
+        padding-bottom: 0px;
+    }
+
+    .team {
+        position: relative;
+        top: -35px;
+    }
+
+    .member_deatil h3 span {
+        font-size: 14px;
+        padding: 10px 0px 15px;
+    }
+
+    .logo_wpr_inner {
+        padding: 0 0px;
+    }
+
+    .service {
+        display: none;
+    }
+
+    .reswidth {
+        float: left;
+        width: 100%;
+    }
+
+    .footer_top .rwork ul li {
+        width: 46.5%;
+        float: left;
+    }
+
+    .footer_btm_in p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .contact_det {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:320px) {}

@@ -1,0 +1,2481 @@
+
+@media(min-width:1687px) and (max-width:1791px){
+    .wana_hire [type="radio"]:checked + label,
+    .wana_hire [type="radio"]:not(:checked) + label, .wana_hire [type="radio"]:checked + label:before,
+    .wana_hire [type="radio"]:not(:checked) + label:before , .wana_hire [type="radio"]:checked + label:after,
+    .wana_hire [type="radio"]:not(:checked) + label:after , .wana_hire .select_div, .wana_hire [type="radio"]:checked + label:before, .wana_hire [type="radio"]:not(:checked) + label:before {
+        width: 240px;
+        height: 180px;
+    }
+    .wana_hire .select_div2 {
+        margin-left: 20px;
+    }
+    .wana_hire [type="radio"]:checked + label, .wana_hire [type="radio"]:not(:checked) + label{
+        padding: 40px;
+    }
+}
+@media(min-width:1441px) and (max-width:1639px){
+    .wana_hire [type="radio"]:checked + label,
+    .wana_hire [type="radio"]:not(:checked) + label, .wana_hire [type="radio"]:checked + label:before,
+    .wana_hire [type="radio"]:not(:checked) + label:before , .wana_hire [type="radio"]:checked + label:after,
+    .wana_hire [type="radio"]:not(:checked) + label:after , .wana_hire .select_div, .wana_hire [type="radio"]:checked + label:before, .wana_hire [type="radio"]:not(:checked) + label:before {
+        width: 200px;
+        height: 180px;
+    }
+    .wana_hire .select_div2 {
+        margin-left: 20px;
+    }
+    .wana_hire [type="radio"]:checked + label, .wana_hire [type="radio"]:not(:checked) + label{
+        padding: 40px;
+    }
+}
+@media(min-width:1367px) and (max-width:1686px){
+    .service_width .service_content p{
+        font-size: 15px;
+    }
+    .service_width .service_per p {
+        font-size: 12px;
+    }
+    .home_lft{
+        padding: 30px 15px;
+    }
+    .msg{
+        /*height: 597px;*/
+    }
+}
+@media(min-width:1499px) and (max-width:1575px){
+    .work{
+        min-height: 360px;
+    }
+}
+@media(max-width:1686px){
+    /*.slick-dots li button:before{
+        left: -439px;
+    }*/
+    
+    .services2 .service_per p{
+        font-size: 12px;
+    }
+    .services2 .service_per span{
+        font-size: 20px;
+    }
+    .sign2_lft {
+         padding: 140px;
+    }
+    .wana_hire [type="radio"]:checked + label,
+    .wana_hire [type="radio"]:not(:checked) + label,
+    .wana_hire [type="radio"]:checked + label:before,
+    .wana_hire [type="radio"]:not(:checked) + label:before , 
+    .wana_hire [type="radio"]:checked + label:after,
+    .wana_hire [type="radio"]:not(:checked) + label:after , 
+    .wana_hire .select_div, .wana_hire [type="radio"]:checked + label:before, 
+    .wana_hire [type="radio"]:not(:checked) + label:before {
+        width: 260px;
+        height: 180px;
+    }
+    .wana_hire .select_div2 {
+        margin-left: 20px;
+    }
+    .wana_hire [type="radio"]:checked + label, .wana_hire [type="radio"]:not(:checked) + label{
+        padding: 30px;
+    }
+    .width20 {
+        width: 22%;
+    }
+    .services2{
+        min-height: 365px;
+    }
+}
+@media(max-width:1920px){
+    /*.container {
+        width: 1575px;
+    }*/
+
+    /*.navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 0;
+    }*/
+}
+@media(max-width:1680px){
+    .sign_lft_down h6::before,
+    .sign_lft_down h6:after    {
+        width: 180px;
+    }
+    .sign_lft h3{
+        font-size: 30px;
+    }
+    .tick label span{
+        width: 20px;
+        height: 20px;
+        top: -4px;
+    }
+    .tick label{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .tick label span:after{
+        height: 6px;
+        left: 3px;
+        width: 12px;
+        top: 5px;
+    }
+    .sign_lft_down .google{
+        padding: 9px 0px;
+        margin-bottom: 15px;
+    }
+    .sign_lft_down .google a img{
+        width: 20px;
+    }
+    .sign_lft_down .google a {
+        font-size: 18px;
+    }
+    .sign_lft_down h6 {
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+    .tickinner {
+        margin: 20px 0px;
+    }
+    .sign_lft button{
+        font-size: 20px;
+        padding: 11px 0px;
+    }
+    .tickinner a{
+        font-size: 18px;
+    }
+    .sign_lft .form-control{
+        height: 50px;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .sign_lft {
+        padding: 30px 160px;
+        height: 100vh;
+    }
+    .banner{
+        background-size: 70%;
+    }
+    .banner_left h2{
+        font-size: 44px;
+    }
+    .work{
+        padding: 30px 0 30px 30px;
+    }
+    .work {
+        min-height: 340px;
+    }
+    .explore p, .feature p, .invite p{
+            font-size: 28px;
+
+            padding-top: 20px;
+    }
+    .explore_top h2, .feature h2, .invite h2{
+            font-size: 40px;
+    }
+    .work_bottom h3{
+        padding: 25px 0 20px;
+    }
+    .work_bottom p{
+        font-size: 20px;
+        padding-top: 0;
+    }
+    .jobs_mid, .jobs_bottom {
+        padding: 20px 30px 0px 20px;
+    }
+    .jobs_mid h4 {
+        font-size: 24px;
+    }
+    .jobs_bottom {
+        padding: 0px 20px 0px 20px;
+    }
+    .jobs_bottom h6 {
+        font-family: 'OpenSansSemibold';
+        font-size: 34px;
+    }
+    .jobs_bottom h3{
+        font-size: 18px;
+    }
+    .jobbt {
+        min-height: 230px;
+    }
+}
+@media(max-width:1440px){
+    .header {
+        padding: 40px 0px;
+    }
+    .banner{
+        padding: 246px 0px 80px; 
+    }
+    .wana_hire [type="radio"]:checked + label,
+    .wana_hire [type="radio"]:not(:checked) + label, .wana_hire [type="radio"]:checked + label:before,
+    .wana_hire [type="radio"]:not(:checked) + label:before , .wana_hire [type="radio"]:checked + label:after,
+    .wana_hire [type="radio"]:not(:checked) + label:after , .wana_hire .select_div, .wana_hire [type="radio"]:checked + label:before, .wana_hire [type="radio"]:not(:checked) + label:before {
+        width: 190px;
+        height: 180px;
+    }
+    .wana_hire .select_div2 {
+        margin-left: 20px;
+    }
+    .tickinner a{
+        font-size: 18px;
+    }
+    .tick label{
+        font-size: 18px;
+    } 
+    .sign_lft {
+        padding: 150px 90px;
+    }
+    .header.fixed_header {
+        padding-bottom: 0px;
+    }
+
+    .img_cont img {
+        width: 50%;
+        top: 210px;
+    }
+    .bot_image img{
+        bottom: -120px;
+        width: 15%;
+    }
+
+    .banner_right img {
+        width: 80%;
+        margin-top: 0px;
+    }
+
+    .banner_left .form-control {
+        height: 75px;
+    }
+
+    .search_box {
+        right: 8px;
+        top: 6px;
+    }
+
+    .banner_left {
+        padding-top: 100px;
+        padding-left: 80px;
+    }
+    .explore_inner {
+        padding: 20px 110px 0px;
+    }
+    .feature_inner {
+        padding: 50px 110px 0px;
+    }
+
+    .banner_left h2 {
+        font-size: 42px;
+    }
+    .banner_left p{
+        font-size: 22px;
+    }
+    .explore_top h2,.feature h2,.invite h2{
+        font-size: 36px;
+        letter-spacing: 1.8px;
+    }
+    .explore p,.feature p,.invite p{
+        font-size: 24px;
+        letter-spacing: 1.2px;
+        padding-top: 10px;
+    }
+    .invite p{
+        padding-bottom: 50px;
+    }
+    .invite {
+        padding-bottom: 107px;
+    }
+    .invite_btn{
+        padding: 10px 93px;
+    }
+
+    .jobs_bottom h6 {
+        display: flex;
+        align-items: center;
+    }
+
+    .jobs_bottom h6 {
+        font-size: 26px;
+    }
+
+    .menu_wraper h4 {
+        font-size: 22px;
+    }
+    .f_menu li{
+        padding-bottom: 10px;
+    }
+    .footer a {
+        font-size: 36px;
+    }
+    .header .navbar ul li {
+        padding: 10px 10px;
+    }
+    .header .menu li:nth-child(3) {
+        padding-right: 60px;
+    }
+
+    .f_menu li a {
+        font-size: 18px;
+    }
+
+    .social_link li {
+        margin-right: 5px;
+    }
+/*    .slick-dots li button:before{
+        left:-345px;
+    }*/
+    .category p{
+        font-size: 19px;
+    }
+    .work{
+        min-height: 360px;
+    }  
+    .service_per p{
+        font-size: 12px;
+    }
+    .home_mid {
+        padding: 20px;
+        margin-left: 15%;
+        width: 67%;
+    }
+    .msg p span svg{
+        height: 15px;
+    }
+    .msg{
+        /*height:491px;*/
+        overflow-y: scroll;
+        position: fixed;
+        right: 0;
+        width: 18%;
+    } 
+    .forscroll{
+        width: 15%;
+        /*height:491px;*/
+        overflow-y: scroll;
+        position: fixed;
+        left: 0;
+    } 
+    .search_home{
+        width: 85%;
+        margin-left: 15%;
+    }
+    .service_width .service_per p img{
+        height: 25px;
+    }
+    .work{
+        padding: 20px 0 20px 20px;
+    }
+    .work {
+        min-height: 330px;
+    }
+    .work_bottom h3{
+        padding: 25px 0 15px;
+    }
+    .work_bottom p{
+        font-size: 18px;
+        padding-top: 0;
+        letter-spacing: 1.1px;
+    }
+    .l_img img{
+        top: 40px;
+        width: 32%;
+    }
+    .bot_img img{
+        bottom: -10px;
+        width: 14%;
+    }
+    .explore {
+        padding: 0px 0 175px;
+    }
+    .jobs_mid, .jobs_bottom {
+        padding: 20px 20px 0px 20px;
+    }
+    .jobs_mid h4{
+        font-size: 22px;
+    }
+    .jobs_bottom h3 img{
+        width: 50px;
+        height: 50px;
+    }
+    .jobs_bottom h3{
+        padding-left: 60px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+    .jobs_mid h5{
+        font-size: 18px;
+        padding: 15px 0;
+    }
+    .jobs_bottom{
+        padding: 10px 20px 0px 20px;
+    }
+    .jobbt {
+        min-height: 200px;
+    }
+    .footer {
+        padding: 130px 0 77px;
+    }
+    .work{
+        min-height: 270px;
+        margin-top: 40px;
+    }
+    .header .menu li a{
+        font-size: 14px;
+    }
+    .header .navbar ul li:last-child{
+        padding-top: 4px;
+    }
+    .head_logo{
+        font-size: 20px;
+    }
+    .head_logo img{
+        width: 36px;
+        height: 36px;
+        margin-top: 2px;
+    }
+    .work_top svg{
+        height: 70px;
+    }
+    .work_bottom h3{
+        font-size: 20px;
+    }
+
+
+}
+@media(min-width:1500px){
+    .slick-dots li button:before {
+    left: -370px;
+    }
+}
+@media(max-width:1498px){
+    .service_per span{
+        font-size: 18px;
+    }
+    .sign2_lft {
+        padding: 120px;
+    }
+    .wana_hire [type="radio"]:checked + label,
+    .wana_hire [type="radio"]:not(:checked) + label, .wana_hire [type="radio"]:checked + label:before,
+    .wana_hire [type="radio"]:not(:checked) + label:before , .wana_hire [type="radio"]:checked + label:after,
+    .wana_hire [type="radio"]:not(:checked) + label:after , .wana_hire .select_div, .wana_hire [type="radio"]:checked + label:before, .wana_hire [type="radio"]:not(:checked) + label:before {
+        width: 230px;
+        height: 180px;
+    }
+    .wana_hire .select_div2 {
+        margin-left: 20px;
+    }
+    
+}
+@media(max-width:1366px){
+    
+    .header {
+        padding: 30px 0px;
+    }
+    .header .navbar ul li {
+        padding: 10px 20px;
+    }
+    .header .menu li:nth-child(3) {
+        padding-right: 60px;
+    }
+    .banner{
+        padding: 176px 0px 140px;
+    }
+    .banner_left {
+        padding-top: 90px;
+        padding-left: 90px;
+    }
+    .header .navbar-nav > li > a{
+        padding: 10px 2px;
+    }
+    .container {
+        width: 1170px;
+    }
+    .banner_left h2 {
+        font-size: 38px;
+    }
+    .banner_left p{
+        font-size: 20px;
+        padding: 21px 0 41px;
+    }
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
+    .head_logo {
+        font-size: 20px;
+    }
+    .head_logo img{
+        width: 36px;
+        height: 36px;
+        margin-top: 2px;
+    }
+    .header .menu li a {
+        font-size: 12px;
+    }
+    .header .menu li a#sign_up {
+        padding: 15px 20px;
+    }
+    .header .navbar ul li:last-child{
+        padding-top: 0;
+    }
+    .header.fixed_header {
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .banner_left .form-control {
+        height: 60px;
+        letter-spacing: 1.2px;
+        font-size: 14px;
+        padding-left: 30px;
+    }
+    .search_box {
+        width: 45px;
+        height: 45px;
+        right: 9px;
+        top: 9px
+    }
+    .search_box::after{
+        width: 45px;
+        height: 45px;
+    }
+    .explore_top h2 {
+        font-size: 36px;
+    }
+    .explore_top p {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+    .l_img img {
+        position: absolute;
+        left: 0;
+        top: 50px;
+        width: 30%;
+    }
+    .work{
+        padding: 20px;
+        min-height: 220px;
+        margin-top: 40px;
+    }
+    .padleftryt{
+        padding: 0px 15px;
+    }
+    .work_row2 {
+        padding-top: 40px;
+    }
+    .work_bottom {
+        padding-right: 0;
+    }
+    .work_top svg{
+        width: 25%;
+        height: 60px;
+    }
+    .work_bottom h3 {
+        padding: 15px 0px 0px;
+        font-size: 18px;
+    }
+    .bot_img img{
+        bottom: -100px;
+        right: 0;
+        width: 15%;
+    }
+    .explore {
+        padding: 0px 0px 140px;
+    }
+    .explore_inner{
+        padding: 20px 90px 0px;
+    }
+
+    .feature h2 {
+        font-size: 36px;
+    }
+   
+    .feature_inner {
+        padding: 50px 90px 0px;
+    }
+    .jobs_mid h4 {
+        font-size: 18px;
+    }
+    .jobbt{
+        min-height: 160px;
+    }
+    .jobs_bottom img{
+        width: 50px;
+        height: 50px;
+    }
+    .jobs_bottom h3 {
+        font-size: 16px;
+        padding-left: 60px;
+        line-height: 50px;
+    }
+    .jobs_bottom h6 {
+        font-size: 28px;
+    }
+    .jobs_bottom h6 {
+        font-size: 18px;
+    }
+    .jobs_mid{
+        padding: 15px 15px 0px 15px;
+    }
+    .jobs_bottom{
+        padding: 0px 15px 15px 15px;
+    }
+    .jobs_mid h5 {
+        font-size: 16px;
+        padding: 10px 0 5px 0px;
+    }
+    .jobs_bottom h6 {
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .jobs_bottom h6 span{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .img_cont img {
+        width: 50%;
+        position: absolute;
+        right: 0;
+        top: 200px;
+    }
+    .banner {
+        background-size: 64%;
+    }
+    .feature {
+        padding-bottom: 240px;
+    }
+    .bot_image img {
+        width: 15%;
+        position: absolute;
+        bottom: -200px;
+    }
+    .invite h2 {
+        font-size: 36px;
+    }
+    .invite p {
+        padding-top: 10px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 40px;
+    }
+    .invite {
+        padding-bottom: 240px;
+    }
+
+    .invite_btn {
+        padding: 10px 80px;
+        font-size: 24px;
+    }
+
+    .footer{
+        padding: 130px 0px 70px;
+    }
+    .footer a.flogo {
+        font-size: 24px;
+        padding-left: 100px;
+    }
+    .menu_wraper {
+        padding-top: 0;
+    }
+    .menu_wraper h4 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .f_menu li a {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .social_link li {
+        margin-right: 5px;
+    }   
+    /* home page media */
+
+    .spread {
+        padding: 20px;
+    }
+    .love_img {
+        padding-right: 20px;
+    }
+    .search{
+        padding: 0px 15px;
+    }
+    .home_lft ul li{
+        padding-bottom: 20px;
+    }
+    .home_lft button{
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    .homehead{
+        padding: 15px 15px;
+    }
+    .homehead_lft h3{
+        font-size: 16px;
+    }
+    .homehead_rht a .oval {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: #7ed321;
+        position: absolute;
+        top: 1px;
+        right: -2px;
+    }
+    .main_home {
+        margin-top: 70px;
+    }
+    .category{
+        padding: 40px 0px;
+        border-radius: 8px;
+    }
+    .category p{
+        font-size: 16px;
+    }
+    /*.service_width .col-sm-3 {
+        width: 33%;
+    }*/
+    .service_per p br{
+        display: block;
+    }
+    .service_content {
+        padding: 12px;
+    }
+    .service_per p img{
+        height: 30px;
+    }
+    .service_content p {
+        font-size: 15px;
+    }
+    .service_per p{
+        font-size: 13px;
+    }
+    .service_per span{
+        font-size: 18px;
+    }
+    .service_per span sub{
+        bottom: 1px;
+        font-size: 12px;
+    }
+    .service_content i{
+        padding: 5px 0px 10px;
+        font-size: 12px;
+    }
+    .msg p{
+        font-size: 15px;
+    }
+    .msg {
+        padding: 30px 15px 60px 15px;
+    }
+    .messages_list img {
+        margin-right: 5px;
+        height: 30px;
+    }
+    .messages_list h6{
+        font-size: 12px;
+    }
+    .messages_list p{
+      font-size: 12px;
+    }
+    /* home page media ends */
+
+    /* search page */
+    .width20{
+        width: 17.4%;
+    }
+    .services2{
+        min-height: 265px;
+    }
+    .services2 .service_content p{
+       font-size: 13px;
+    }
+    .services2 .service_per p {
+    font-size: 12px;
+    }
+    .refine_category{
+        padding: 20px;
+    }
+    .tick2 label{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .tick2 label span{
+        width: 15px;
+        height: 15px;
+            top: 0px;
+    }
+    .tick2 label span:after {
+        height: 5px;
+        left: 2px;
+        top: 2px;
+        width: 8px;
+    }
+    /* search page ends */
+    .sign_lft {
+        padding: 30px 150px;
+        height: 100vh;
+    }
+    .sign_lft h3 {
+        font-size: 28px;
+        line-height: 31px;
+        margin-bottom: 10px;
+    }
+    .tick label {
+        font-size: 14px;
+    }
+    .tickinner a {
+        font-size: 14px;
+    }
+    .sign_lft_down h6::before,.sign_lft_down h6::after{
+        width: 135px;
+    }
+    .tick label span {
+        width: 18px;
+        height: 18px;
+        top: -2px;
+    }
+    .sign_lft_down p{
+        font-size: 14px;
+    }
+    .sign_lft_down p a{
+        font-size: 14px;
+    }
+    .sign_lft .form-control{
+        height: 46px;
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+    .sign_lft .form-group {
+        margin-top: 0px;
+    }
+    .tick label{
+        margin-left: 10px;
+    }
+    .tickinner {
+        margin: 0px 0px 10px;
+    }
+    .tick label span:after{
+        height: 5px;
+        left: 2px;
+        top: 3px;
+        width: 10px;
+    }
+    .sign_lft button {
+        padding: 12px 0px;
+        font-size: 16px;
+    }
+    .sign_rht{
+        height: 993px;
+    }
+    .sign_lft_down .google{
+        padding: 10px 0px;
+        margin-bottom: 15px;
+    }
+    .sign_lft_down h6{
+        padding: 20px 0px;
+        font-size: 14px;
+    }
+    .sign_lft_down .google a {
+        font-size: 14px;
+    }
+    .sign_lft_down .google a img {
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .sign_lft_down a{
+        font-size: 18px;
+    }
+    .wana_hire [type="radio"]:checked + label,
+    .wana_hire [type="radio"]:not(:checked) + label, .wana_hire [type="radio"]:checked + label:before,
+    .wana_hire [type="radio"]:not(:checked) + label:before , .wana_hire [type="radio"]:checked + label:after,
+    .wana_hire [type="radio"]:not(:checked) + label:after , .wana_hire .select_div, .wana_hire [type="radio"]:checked + label:before, .wana_hire [type="radio"]:not(:checked) + label:before {
+        width: 230px;
+        height: 160px;
+    }
+    .wana_hire [type="radio"]:checked + label, .wana_hire [type="radio"]:not(:checked) + label{
+        padding: 30px;
+    }
+    .wana_hire .select_div2 {
+        margin-left: 14px;
+    }
+    .sign2_lft {
+        padding: 63px;
+    }
+    .home_lft ul li a{
+        font-size: 14px;
+    }
+    .home_lft ul li a span {
+        width: 40px;
+    }
+    .home_lft {
+        padding: 20px 20px 70px 20px;
+    }
+    .messages_list{
+        margin-top: 15px;
+    }
+    .msg {
+        padding: 20px 15px 20px 15px;
+    }
+    
+    .categories h4{
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    .service_width .services{
+        min-height: initial;
+    }
+    .home_lft ul li a img {
+        float: left;
+        height: 20px;
+    }
+    .home_mid {
+        padding: 20px;
+        margin-left: 15%;
+        width: 67%;
+    }
+    .msg p span svg{
+        height: 15px;
+    }
+    .msg{
+        /*height:491px;*/
+        overflow-y: scroll;
+        position: fixed;
+        right: 0;
+        width: 18%;
+    } 
+    .forscroll{
+        width: 15%;
+        overflow-y: scroll;
+        position: fixed;
+        left: 0;
+    } 
+    .search_home{
+        width: 85%;
+        margin-left: 15%;
+    }
+    .services2 .service_per span {
+        font-size: 16px;
+    }
+    .sign_lft_down a {
+        font-size: 16px;
+    }
+    .slickres .col-xs-4 {
+        padding: 0px 15px;
+    }
+    .explore p, .feature p, .invite p{
+        padding-top: 10px;
+        font-size: 24px;
+        letter-spacing: 1.2px;
+    }
+    .work_bottom p {
+        font-size: 15px;
+    }
+    .invite p{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .home_mid .slick-dots {
+        bottom: 35px;
+        left: 15px;
+    }
+}
+@media(max-width:1199px){
+    .container {
+        width: 970px;
+    }
+    .header .menu li:nth-child(3) {
+        padding-right: 40px;
+    }
+    .banner {
+        background-size: 70%;
+        padding: 150px 0 115px;
+    }
+    .banner_left {
+        padding-top: 135px;
+    }
+    .banner_left h2 {
+        font-size: 32px;
+    }
+    .banner_left p {
+        font-size: 18px;
+        padding: 20px 0 30px;
+    }
+    .banner_left .form-control{
+        font-size: 16px;
+        padding-left: 20px;
+        letter-spacing: 1.2px;
+        padding-right: 55px;
+    }
+    .banner_right img {
+        width: 90%;
+    }
+    .explore_top h2 {
+        font-size: 32px;
+        letter-spacing: 1.8px;
+    }
+    .explore_top p {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .explore_inner {
+        padding: 20px 80px 0px;
+    }
+    .search_box {
+        width: 45px;
+        height: 45px;
+    }
+    .work_top svg{
+        height: 50px;
+    }
+    .work {
+        padding: 20px;
+        min-height: 200px;
+        margin-top: 30px;
+    }
+
+    .work_row2 {
+        padding-top: 40px;
+    }
+    .l_img img{
+        top: 30px;
+        width: 30%;
+    }
+    .bot_img img {
+        bottom: -130px;
+        width: 17%;
+    }
+    .explore {
+        padding: 0px 0 115px;
+    }
+
+    .feature {
+        padding-bottom: 160px;
+    }
+    .feature_inner{
+        padding: 40px 80px 0px;
+    }
+    .feature h2{
+        font-size: 32px;
+        letter-spacing: 1.8px;
+    }
+    .feature p{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .jobs_bottom {
+        padding: 0px 20px 20px 20px;
+    }
+    .jobs_bottom h3 img{
+        width: 42px;
+    }
+    .jobs_bottom h6 {
+        font-size: 30px;
+    }
+    .jobs_bottom h3 {
+        font-size: 14px;
+        padding-left: 52px;
+        line-height: normal;
+    }
+    .jobbt {
+        min-height: 145px;
+    }
+    .jobs_bottom h3 br{
+        display: block;
+    }
+    .img_cont img{
+        width: 52%;
+        top: 174px;
+    }
+    .bot_image img {
+        width: 11%;
+        bottom: -80px;
+    }
+    .jobs_bottom h6 sup {
+        position: relative;
+        top: -17px;
+        left: -8px;
+        font-size: 20px;
+    }
+    .invite {
+        padding-bottom: 160px;
+    }
+    .invite h2 {
+        font-size: 32px;
+        letter-spacing: 1.8px;
+    }
+    .invite p {
+        padding-top: 10px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 30px;
+    }
+    .invite_btn {
+        padding: 10px 70px;
+        font-size: 22px;
+    }
+
+    .footer {
+        padding: 130px 0 60px;
+    }
+    .footer .col-sm-4 {
+        width: 100%;
+        text-align: center;
+    }
+    .footer .col-sm-2 {
+        width: 25%;
+    }
+    .menu_wraper {
+        padding-top: 30px;
+    }
+    .footer a.flogo {
+        padding-left: 0px;
+    }
+    .f_menu li{
+       padding-bottom: 10px;
+    }
+    /* home page media */
+    .main_home {
+        margin-top: 72px;
+    }
+    .notify {
+        height: 40px;
+    }
+    .homehead_rht a .oval {
+        width: 14px;
+        height: 14px;
+        top: 2px;
+    }
+    .home_lft {
+        padding: 20px 15px 50px 15px;
+    }
+    
+    .service_width .col-sm-3 {
+        width: 50%;
+    }
+    .service_width .service_content p{
+        font-size: 14px;
+        min-height: 40px;
+    }
+    .spread h4{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .spread p{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .home_mid .slick-dots {
+        bottom: 20px;
+        left: 15px;
+    }
+    .slick-dots li button:before {
+        width: 9px;
+        height: 9px;
+        top: -50px;
+        left: -200px;
+    }
+    .categories h4{
+        font-size:20px;
+        padding-top: 20px;
+    }
+    .category {
+        padding: 50px 0px;
+    }
+    .home_lft button {
+        font-size: 15px;
+        padding: 7px 15px;
+    }
+    /* home page media */
+
+    /* search page media */
+    .related {
+        padding: 20px;
+    }
+    
+    .width20 {
+        width: 21.5%;
+    }
+    .services2 {
+        min-height: 285px;
+    }
+    .services2 .service_content p {
+        min-height: 54px;
+    }
+    .sub_category{
+        width: 33.33%;
+    }
+    /* search page media ends */
+    .sign_lft {
+        padding: 30px 70px;
+    }
+    .sign_lft h3{
+        font-size: 24px;
+    }
+    .sign_lft .form-control{
+        height: 40px;
+    }
+    .tickinner {
+        margin: 15px 0px;
+    }
+    .tickinner a{
+        font-size: 15px;
+    }
+    .tick label{
+        font-size: 15px;
+    }
+    .sign_lft button{
+        padding: 11px 0px;
+    }
+    .sign_lft_down h6::before, .sign_lft_down h6::after {
+        width: 156px;
+    }
+    .sign_lft_down .google{
+        padding: 10px 0px;
+    }
+    .tick label span:after{
+        left: 2px;
+        top: 4px;
+    }
+    .sign_lft p{
+        padding: 15px 0px;
+            font-size: 14px;
+        
+    }
+    .sign_lft p.pdtopzero{
+        padding-top: 0;
+    }
+    .sign_rht {
+        padding-left: 23px;
+        height: 800px;
+    }
+    .sign_lft_down a {
+        font-size: 14px;
+    }
+    .wana_hire [type="radio"]:checked + label, 
+    .wana_hire [type="radio"]:not(:checked) + label, 
+    .wana_hire [type="radio"]:checked + label:before, 
+    .wana_hire [type="radio"]:not(:checked) + label:before, 
+    .wana_hire [type="radio"]:checked + label:after, 
+    .wana_hire [type="radio"]:not(:checked) + label:after, 
+    .wana_hire .select_div, .wana_hire [type="radio"]:checked + label:before, 
+    .wana_hire [type="radio"]:not(:checked) + label:before {
+        width: 171px;
+        height: 160px;
+    }
+    .msg{
+        height:474px;
+    } 
+    .padleftryt {
+        padding: 0px 15px;
+    }
+    .slickres .col-xs-4 {
+        padding: 0px 15px;
+    }
+    .work_bottom p{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .sign_lft_down h6 {
+        padding: 10px 0px;
+        font-size: 14px;
+    }
+    /*home page start*/
+    .homehead_lft a img {
+        width: 28px;
+    }
+    .homehead_lft h3 {
+        font-size: 14px;
+    }
+    .input-group .form-control{
+        height: 34px;
+        font-size: 14px;
+    }
+    .homehead_rht button{
+       font-size: 14px; 
+    }
+    /*home page end*/
+
+
+}
+@media(max-width:991px){
+    .homehead_rht a span{
+        top: 0;
+        right: 3px;
+    }
+    .padleftryt {
+        padding: 0px 15px;
+    }
+    .container {
+        width: 750px;
+    }
+
+    .header .navbar ul li {
+        padding: 10px 8px;
+    }
+    .header .menu li:nth-child(3) {
+        padding-right: 20px;
+    }
+    .header .navbar-nav > li > a {
+        padding: 10px 0px;
+    }
+
+    .banner{
+        padding: 150px 0 65px;
+    }
+    .banner_left {
+        padding-left: 0;
+    }
+    .banner_left h2 {
+        font-size: 29px;
+    }
+    .banner_left p {
+        font-size: 16px;
+        padding: 15px 0 25px;
+    }
+    .banner_right img {
+        width: 85%;
+    }
+    .invite {
+        margin-top: 0;
+    }
+    .banner_left {
+        padding-top: 105px;
+    }
+    .explore_top h2,
+    .feature h2,
+    .invite h2 {
+        font-size: 30px;
+    }
+
+    .explore_top p,
+    .feature p,
+    .invite p {
+        padding-top: 10px;
+    }
+    .explore_inner {
+        padding: 0px 0px 0px;
+    }
+    .search_box {
+        width: 40px;
+        height: 40px;
+        top: 5px;
+    }
+    .banner_left .form-control {
+        height: 50px;
+        font-size: 12px;
+    }
+    .l_img img {
+        top: 50px;
+        width: 20%;
+    }
+    .work_bottom h3 {
+        font-size: 16px;
+        padding: 10px 0px 0px;
+    }
+    .work {
+        min-height: 190px;
+    }
+    .work_top img {
+        width: 35%;
+    }
+    .bot_img img {
+        bottom: 50px;
+        width: 13%;
+        right: 0;
+    }
+    .jobs_mid h5{
+        padding: 10px 0 0px 0px;
+        font-size: 12px;
+    }
+    .explore {
+        padding: 0px 0 80px;
+        overflow-x: hidden;
+    }
+    .feature_inner {
+        padding: 40px 0px 0px;
+    }
+    .jobs_bottom {
+        padding-left: 15px;
+    }
+
+    .jobs_bottom h3 {
+        font-size: 14px;
+    }
+    .jobs_bottom h3 img {
+        width: 40px;
+        height: 40px;
+    }
+    .jobs_bottom h6 span {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .bot_image img {
+        width: 13%;
+        bottom: -110px;
+        left: -0px;
+    }
+    .img_cont img {
+        width: 50%;
+        top: 215px;
+    }
+    .invite p{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .jobs_bottom {
+        padding-bottom: 28px;
+    }
+
+    .jobs_bottom img {
+        width: 25%;
+    }
+
+    .invite {
+        padding-bottom: 120px;
+    }
+
+    .footer {
+        padding: 120px 0 60px;
+    }
+    
+    .copyright p{
+        padding-top: 30px;
+    }
+    .social_link li {
+        margin-right: 2px;
+    }
+
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 0;
+    }
+    .jobs_mid h4 {
+        font-size: 16px;
+    }
+
+    .jobs_bottom h6 {
+        font-size: 22px;
+        padding-right: 0px;
+    }
+    .jobs_bottom {
+        padding: 5px 15px 15px 15px;
+    }
+
+    .jobs_bottom h3.teanC {
+        padding-right: 0px;
+    }
+
+    .feature {
+        padding-bottom: 130px;
+    }
+    .invite p{
+        padding: 10px 50px 30px;
+    }
+    /* home page media */
+    .homehead_lft img{
+        width: 40px;
+    } 
+    .homehead_lft h3 {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    .input-group {
+        width: 70%;
+    }
+    .msg{
+        display: none;
+    }
+    /* home page media ends */
+    .message_fixed{
+        display: block;
+    }
+    .chat{
+        display: block;
+        position: fixed;
+        display: flex;
+        right: 0;
+        top: 162px;
+    }
+    .width20 {
+        width: 28.7%;
+    }
+    .sub_category {
+        width: 50%;
+    }
+    .services2 .service_content p {
+        font-size: 14px;
+    }
+    .services2 .service_per p{
+        font-size: 12px;
+    }
+    .services2 {
+        min-height: 295px;
+    }
+    .sign_lft {
+        padding: 30px 50px;
+    }
+    .sign_lft h3 {
+        font-size: 24px;
+        padding-bottom: 0px;
+    }
+    .sign_lft .form-control {
+        height: 40px;
+        padding: 8px 12px;
+    }
+    .tickinner a {
+        font-size: 15px;
+    }
+    .sign_rht {
+        padding-left: 23px;
+        height: 672px;
+    }
+    .wana_hire [type="radio"]:checked + label, .wana_hire [type="radio"]:not(:checked) + label, .wana_hire [type="radio"]:checked + label:before, .wana_hire [type="radio"]:not(:checked) + label:before, .wana_hire [type="radio"]:checked + label:after, .wana_hire [type="radio"]:not(:checked) + label:after, .wana_hire .select_div, .wana_hire [type="radio"]:checked + label:before, .wana_hire [type="radio"]:not(:checked) + label:before {
+        width: 150px;
+        height: 140px;
+    }
+    .wana_hire [type="radio"]:checked + label, .wana_hire [type="radio"]:not(:checked) + label {
+        padding: 15px;
+    }
+    .msg2{
+        width: 250px;
+        overflow-x: scroll;
+        height: 370px;;
+        display: none;
+    }
+    .msg2::-webkit-scrollbar-thumb{
+        background-color: #25a2ff;
+    }
+    .msg2::-webkit-scrollbar{
+        width: 2px;
+    }
+    .forscroll{
+        width: 20%;
+    }
+    .home_mid{
+        width: 80%;
+        margin-left: 20%;
+    }
+    .homehead_rht button{
+        width: 70px;
+        font-size: 13px;
+    }
+    .main_home{
+        margin-top: 72px;
+    }
+    .search_home{
+        width: 80%;
+        margin-left: 20%;
+    } 
+    .relate p {
+        font-size: 14px;
+    }
+    .related{
+        padding: 14px;
+    }
+    .relateanchor a{
+        font-size: 13px;
+        margin-left: 9px;
+    }
+    .homesearch {
+        padding: 0px 15px 30px;
+    }
+    .sign_lft button {
+        padding: 12px 0px;
+        font-size: 16px;
+        line-height: 16px;
+        border-radius: 6px;
+    }
+    .sign_lft_down h6{
+        font-size: 14px;
+    }
+    .sign_lft_down h6::before, .sign_lft_down h6::after {
+        width: 126px;
+    }
+    .sign_lft_down .google {
+        padding: 8px 0px;
+            margin-bottom: 15px;
+    }
+    .sign_lft_down .google a {
+        font-size: 14px;
+    }
+    .head_logo {
+        font-size: 18px;
+    }
+    .header .navbar-brand.head_logo{
+        padding-top: 15px;
+    }
+    .head_logo img {
+        width: 26px;
+        height: 26px;
+    }
+    .header .navbar ul li:last-child {
+        padding-top: 4px;
+    }
+    .spread {
+        padding: 0px 20px;
+    }
+    .love_img img{
+        height: 150px;
+    }
+}
+@media(max-width:767px){
+    .headersignup{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .headmain{
+        position: relative;
+    }
+    .head_search{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+    .header .navbar-header{
+        padding: 0px 15px;
+    }
+    .banner{
+        background: none;
+        padding: 150px 0 65px;
+    }
+    .header .navbar-brand{
+        display: none;
+    }
+    .header .head_logo2{
+        display: block;
+        width: max-content;
+        margin: 0 auto;
+    }
+    .header .head_logo2 img{
+        margin: 0 auto;
+    }
+    .container {
+        width: 100%;
+    }
+    .jobs_mid h5 img{
+        width: initial;
+    }
+    .jobs_bottom h6 {
+        display: block;
+    }
+
+    .header .hamburger {
+        display: block;
+        padding-top: 12px;
+        padding-right: 40px;
+    }
+
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 12px;
+    }
+
+    .head_logo img {
+        margin-top: 3px;
+        width: 25%;
+    }
+
+    .banner_left {
+        padding-top: 75px;
+    }
+    .banner_right img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        top: 150px;
+        right: -170px;
+    }
+
+    .banner_right {
+        padding-top: 30px;
+    }
+
+    .banner {
+        padding-bottom: 80px;
+        overflow: hidden;
+    }
+
+    .l_img img {
+        width: 25%;
+        top: 70px;
+    }
+    .bot_img img {
+        bottom: -40px;
+        width: 26%;
+        right: 0;
+    }
+    .work_top svg {
+        /*display: block;*/
+        /*margin: 0 auto;*/
+        width: 25%;
+    }
+
+    .work_top2 svg {
+        width: 25%;
+    }
+
+    .work_bottom h3,
+    .work_bottom p {
+        /*text-align: center;*/
+    }
+    .work_bottom h3 {
+        font-size: 18px;
+    }
+    .explore p, .feature p, .invite p{
+        font-size: 15px;
+    }
+
+    .explore {
+        padding-bottom: 80px;
+        overflow-x: initial; 
+    }
+
+    .jobs_bottom img {
+        width: auto;
+    }
+
+    .jobs_top img {
+        width: 100%;
+    }
+
+    .f_jobs {
+        margin-bottom: 40px;
+        transition: all 0.3s ease;
+    }
+    .f_jobs a{
+        display: inline-block;
+        width: 100%;
+    }
+    .feature_inner .slick-current .f_jobs{
+        transform: translateY(-10px);
+        transition: all 0.3s ease;
+    }
+    .feature_inner .slick-slider .slick-track {
+        padding: 40px 0px 0px;
+    }
+
+    .jobs_mid h4 {
+        font-size: 18px;
+    }
+
+    .jobs_mid h5 {
+        font-size: 15px;
+    }
+
+    .jobs_bottom h3 {
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+   .jobs_bottom h6 span {
+        font-size: 14px;
+    }
+
+    .jobs_bottom h6 sup {
+        font-size: 34px;
+    }
+
+    .jobs_bottom {
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    .jobs_bottom h6 {
+        position: absolute;
+        right: 9px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .bot_image {
+        position: absolute;
+        bottom: -85px;
+        z-index: -1;
+    }
+
+    .bot_image img {
+        width: 25%;
+        bottom: -60px;
+        left: -60px;
+    }
+    .feature {
+        padding-bottom: 40px;
+    }
+
+    .invite {
+        padding-top: 0px;
+        z-index: 99;
+        position: relative;
+    }
+
+    .invite_btn {
+        padding: 7px 65px;
+        font-size: 21px;
+    }
+
+    .invite {
+        padding-bottom: 50px;
+    }
+
+    .footer .col-xs-6 {
+        width: 50%;
+    }
+
+    .work_row1 .col-sm-4 {
+        width: 50%;
+    }
+    .hwid {
+        height: 34px;
+    }
+    .m_work2 {
+        margin-top: 30px;
+    }
+    .work {
+        min-height: 210px;
+    }
+    .jobbt {
+        min-height: 140px;
+    }
+
+    .search_cont {
+        width: 68%;
+        margin: 0 auto;
+        display: none;
+    }
+    .resimg{
+        display: block;
+    }
+    .resimg img{
+        width: 100%;
+        height: 740px;
+    }
+    .banner_left {
+        padding-top: 0px;
+    }
+    .banner_left h2 {
+        font-size: 40px;
+        text-align: left;
+    }
+    .banner_left p {
+        font-size: 23px;
+        letter-spacing: 1.15px;
+        color: #171717;
+        padding: 25px 0 15px;
+    }
+    .explore_top h2, .feature h2, .invite h2 {
+        font-size: 30px;
+    }
+    .explore_top p, .feature p, .invite p {
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: #000000;
+        padding-top: 12px;
+    }
+    .invite p {
+        padding: 12px 50px 30px;
+    }
+    .l_img{
+        display: none;
+    }
+    .work_bottom h3{
+        padding: 15px 0px 0px;
+    }
+    .img_cont img {
+        width: 52%;
+        top: 58px;
+    }
+    .jobs_bottom h3 br {
+        display: none;
+    }
+    .footer {
+        padding: 100px 0 50px;
+    }
+    /* home page media */
+    .head_inner, .home_lft{
+        display: none;
+    }
+   .media_head, .side_menu {
+        display: block;
+    }
+    .media_head .hamburger{
+        float: right;
+        padding: 0;
+        padding-top: 10px;
+    }
+    .media_logo, .sidenav2 .media_logo{
+        float: left;
+        display: flex;
+        align-items: center;
+        font-family: 'OpenSansLight';
+        font-size: 20px;
+        color: #222222;
+        letter-spacing: 0.9px;
+        /*margin-left: 10px;*/
+    }
+    .media_logo img{
+        width: 36px;
+        margin-right: 10px;
+    }
+    .homehead {
+        padding: 15px 0px;
+    }
+    .main_home{
+        margin-top: 71px;
+    }
+    .spread h4 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .spread p {
+        font-size: 14px;
+    }
+    .category p {
+        font-size: 18px;
+    }
+    .categories h4 {
+        font-size: 22px;
+    }
+    .service_width .col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+    .service_width .services{
+        min-height: 320px;
+    }
+    .service_content p {
+        font-size: 20px;
+    }
+    .service_per p {
+        font-size: 20px;
+    }
+    .service_per p img {
+        height: 40px;
+    }
+    .service_per span {
+        font-size: 25px;
+    }
+    .media_search{
+        display: block;
+        padding-top: 20px;
+    }
+    .input-group{
+        width: 100%;
+    }
+    .search {
+        padding: 0px;
+    }
+    .serach_addon{
+        padding-right: 20px;
+    }
+    /* home page media */
+
+    .width20 {
+        width: 45%;
+    }
+    .services2 .service_content p {
+        font-size: 16px;
+    }
+    .services2 .service_per p {
+        font-size: 14px;
+    }
+    .services2 .service_per p br{
+        display: none;
+    }
+    .signup_inner{
+        display: block;
+    } 
+    .sign_rht{
+        display: none;
+    }
+    .wana_hire [type="radio"]:checked + label, .wana_hire [type="radio"]:not(:checked) + label, .wana_hire [type="radio"]:checked + label:before, .wana_hire [type="radio"]:not(:checked) + label:before, .wana_hire [type="radio"]:checked + label:after, .wana_hire [type="radio"]:not(:checked) + label:after, .wana_hire .select_div, .wana_hire [type="radio"]:checked + label:before, .wana_hire [type="radio"]:not(:checked) + label:before {
+        width: 100%;
+        height: 140px;
+    }
+    .wana_hire .select_div2 {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .home_mid{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .love_img img{
+        height: 200px;
+    }
+    .service_width .service_content p {
+        font-size: 16px;
+    }
+    .service_width .service_per p{
+        font-size: 14px;
+    }
+    .service_width .service_per p br{
+        display: none;
+    }
+    .search_home {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .services2{
+        min-height: 336px;
+    }
+    .services2 .service_per span {
+        font-size: 20px;
+    }
+    .sign_lft {
+        padding: 30px 100px;
+    }
+    .sign_lft .form-control {
+        height: 46px;
+    }
+    .sign_lft button {
+        padding: 13px 0px;
+    }
+    .sign_lft_down h6::before, .sign_lft_down h6::after {
+        width: 160px;
+    }
+    .sign_lft_down .google {
+        padding: 10px 0px;
+    }
+    .img_cont{
+        display: none;
+    }
+    .bot_image{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .footer2{
+        display: block;
+    }
+    .copyright{
+        display: none;
+    }
+    .footer2{
+        position: relative;
+        padding-top: 110px;
+        padding-bottom: 30px;
+    }
+    .footer2 img{
+        width: 82px;
+        height: 170px;
+        position: absolute;
+        left: -10px;
+        top: 0;
+    }
+    .footer2 p{
+        font-family: "OpenSansLight";
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: #000000;
+    }
+    .tickinner a {
+        font-size: 14px;
+    }
+    .tick label {
+        font-size: 14px;
+    }
+
+}
+@media(max-width:560px){
+    .width20 {
+        width: 100%;
+        margin: 0px 0px;
+        padding: 15px;
+    }
+    .services2 {
+        min-height: initial;
+        margin-top: 10px;
+    }
+    .services2 .service_content p {
+        min-height: 34px;
+    }
+    .feature_inner .slick-slider .slick-track {
+        padding: 20px 0px;
+    }
+    .banner_right img{
+        top: 240px;
+        right: -120px;
+    }
+    .resimg img {
+        height: 640px;
+    }
+    .banner_left .form-control {
+        height: 48px;
+    }
+    .search_box {
+        right: 5px;
+        top: 4px
+    }
+/*    .jobbt {
+        min-height: 155px;
+    }
+*/    .jobs_mid {
+        padding: 10px 20px 20px 20px;
+    }
+    .explore_inner {
+        padding-top: 0px;
+    }
+
+    .explore {
+        padding-bottom: 60px;
+    }
+
+    .work_row2 {
+        padding-top: 0px;
+    }
+
+    .feature_inner {
+        padding-top: 40px;
+    }
+    .jobs_bottom h6 sup {
+        font-size: 24px;
+    }
+
+    .work_row1 .col-sm-4,
+    .work_row2 .col-sm-4 {
+        width: 100%;
+    }
+    .search_cont {
+        width: 100%;
+    }
+    .spread h4 {
+        font-size: 30px;
+    }
+    .spread p {
+        font-size: 18px;
+    }
+    .slick-dots li button:before{
+        left: -110px;
+    }
+    .category p {
+        font-size: 18px;
+    }
+     .chat{
+        width: 50px;
+        height: 50px;
+    }
+    .chat a{
+        font-size: 30px;
+        color: #fff;
+    }
+    .message_fixed{
+        top:212px;
+    }
+    .sub_category {
+        width: 100%;
+    }
+    .circle {
+        width: 50px;
+        height: 50px;
+    }
+    .sub_inn {
+        padding-top: 40px;
+    }
+    .sign_lft {
+        padding: 30px 70px;
+    }
+    .sign_lft .form-control {
+        height: 40px;
+    }
+    .sign_lft_down h6::before, .sign_lft_down h6::after {
+        width: 120px;
+    }
+    .sign_lft button {
+        padding: 10px 0px;
+    }
+    /*.sign_lft_down h6 {
+        padding: 15px 0px;
+    }*/
+    .sign_lft_down .google {
+        padding: 8px 0px;
+    }
+    .explore_top p, .feature p, .invite p {
+        font-size: 16px;
+    }
+    .invite p {
+        padding: 10px 20px 30px;
+    }
+    .jobs_bottom h6{
+        right: 15px;
+    }
+    .work_bottom h3 {
+        padding: 15px 0px 10px;
+    }
+    .explore_top h2, .feature h2, .invite h2 {
+        font-size: 26px;
+    }
+    #demo-2 input[type="search"]:focus {
+        width: 110px;
+    }
+    .service_width .col-sm-3 {
+        width: 100%;
+    }
+    .service_width .services {
+        min-height: initial;
+    }
+    .flexx{
+        display: block;
+    }
+    .love_img img{
+        margin: 0 auto;
+    }
+    .spread{
+        padding: 20px 20px;
+    }
+    .categories h4 {
+        font-size: 20px;
+    }
+    .category{
+        min-height: 150px;
+    }
+}
+@media(max-width:414px){
+    .resimg img {
+        height: 450px;
+    }
+    .banner_left .form-control {
+        padding-left: 18px;
+    }
+    .search_box {
+        width: 30px;
+        height: 30px;
+        top: 10px;
+    }
+    .search_box img {
+        width: 50%;
+    }
+    .menu_wraper h4 {
+        font-size: 20px;
+    }
+    .work {
+        padding: 25px 10px 25px 10px;
+    }
+    .jobs_bottom h6 sup {
+        font-size: 20px;
+    }
+    .invite {
+        padding-top: 0px;
+    }
+    .banner_right {
+        padding-top: 10px;
+    }
+    .footer {
+        padding: 66px 0 20px;
+    }
+    .footer a {
+        font-size: 30px;
+    }
+    .invite p {
+        padding-bottom: 35px;
+    }
+    .invite_btn {
+        padding: 4px 60px;
+        font-size: 20px;
+    }
+    .menu_wraper h4 {
+        font-size: 18px;
+    }
+    .f_menu li a {
+        font-size: 14px;
+    }
+    .f_menu li {
+        padding-bottom: 0px;
+    }
+    .social_link li a {
+        width: 27px;
+        height: 27px;
+    }
+    .social_link li {
+        margin-right: 0px;
+    }
+    .menu_wraper {
+        padding-top: 20px;
+    }
+    .footer a {
+        font-size: 25px;
+    }
+    .menu_wraper2 {
+        padding-top: 0;
+    }
+    .header {
+        padding: 10px 0px;
+    }
+    .explore {
+        padding-bottom: 40px;
+    }
+    .img_cont img {
+        width: 50%;
+        top: 100px;
+    }
+    .l_img img {
+        width: 25%;
+        top: 100px;
+    }
+    .bot_image img {
+        width: 25%;
+        bottom: 0;
+        left: -60px;
+    }
+    .feature {
+        padding-bottom: 30px;
+    }
+    .invite p br{
+        display: none;
+    }
+    .footer a.flogo {
+        font-size: 26px;
+    }
+    .input-group{
+        min-height: 36px;
+    }
+    .input-group .form-control {
+        height: 36px;
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .serach_addon {
+        padding-right: 10px;
+    }
+    .homehead_rht button {
+        width: 54px;
+        font-size: 12px;
+    }
+    .spread h4 {
+        font-size: 20px;
+    }
+    .spread p {
+        font-size: 13px;
+    }
+    .categories h4 {
+        font-size: 18px;
+    }
+    .slick-dots li button:before {
+        left: -66px;
+        top: -45px;
+    }
+    .categories .col-xs-6 {
+        width: 100%;
+    }
+    .service_content p {
+        font-size: 18px;
+    }
+    .service_per p img {
+        height: 30px;
+    }
+    .service_per p {
+        font-size: 16px;
+    }
+    .service_per span {
+        font-size: 20px;
+    }
+    .relate p {
+        font-size: 14px;
+    }
+    .relateanchor {
+        float: initial;
+    }
+    .relateanchor a {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .services2 .service_content p {
+        font-size: 16px;
+    }
+    .services2 .service_per p {
+        font-size: 16px;
+    }
+    .sign_lft h3 {
+        font-size: 30px;
+    }
+    .sign_lft .form-control {
+        height: 50px;
+        font-size: 17px;
+        padding: 15px 20px;
+    }
+    .tick label span {
+        top: -4px;
+        width: 20px;
+        height: 20px;
+    }
+    .tick label {
+        font-size: 14px;
+        margin-left: 7px;
+    }
+    .tickinner a {
+        font-size: 14px;
+    }
+    .tick label span:after {
+        height: 6px;
+        left: 6px;
+        top: 5px;
+        width: 10px;
+    }
+    .sign_lft_down .google a {
+        font-size: 17px;
+    }
+    .sign_lft_down p {
+        font-size: 16px;
+    }
+    .sign_lft_down a {
+        font-size: 16px;
+    }
+    .sign_lft p{
+        font-size: 14px;
+    }
+    .relateanchor {
+        float: right;
+        display: block;
+        padding-top: 10px;
+    }
+    .sign_lft {
+        padding: 50px 30px;
+    }
+    .sign_lft .form-control {
+        height: 40px;
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    .sign_lft h3 {
+        font-size: 20px;
+    }
+    .sign_lft_down a {
+        font-size: 14px;
+    }
+    .sign_lft_down h6::before, .sign_lft_down h6::after {
+        width: 112px;
+    }
+    .sign_lft_down .google a {
+        font-size: 14px;
+    }
+    .sign_lft_down p a {
+        font-size: 14px;
+    }
+    .tick label span {
+        top: 0;
+        width: 15px;
+        height: 15px;
+    }
+    .tick label span:after {
+        height: 4px;
+        left: 2px;
+        top: 3px;
+        width: 8px;
+    }
+    .sign_lft_down h6 {
+        font-size: 12px;
+    }
+    #demo-2 input[type="search"]:focus {
+        width: 70px;
+    }
+    .footer_white {
+        background: #fff;
+        padding: 10px 0px;
+    }
+}
+@media(max-width:320px){
+}

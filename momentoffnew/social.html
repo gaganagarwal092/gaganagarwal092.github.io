@@ -1,0 +1,888 @@
+<html lang="en">
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="icon" href="img/favicon/favicon.ico" type="image/ico" sizes="16x16">
+
+            <title>Momento | Social</title>
+
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+            <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+            <link rel="stylesheet" type="text/css" href="css/slick.css">
+            <link rel="stylesheet" type="text/css" href="css/chosen.css">
+            <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
+            <link rel="stylesheet" type="text/css" href="css/media.css">
+
+        </head>
+        <body >
+            <div class="sidenav sidenav_info" id="mySidenav">
+                <a href="#" class="logo">Momento</a>
+                <a href="MomentoOverview.html" class=""><img src="img/home.svg" alt="icon">Overview</a>
+                <a href="MomentoOverviewcoupleinfo.html" class=""><img src="img/group.svg" alt="icon">Couple Info</a>
+                <a href="guest.html" class=""><img src="img/users.svg" alt="icon">Guests</a>
+                <a href="events.html" class=""><img src="img/calendar.svg" alt="icon">Events</a>
+                <a href="message.html" class=""><img src="img/message.svg" alt="icon">Message</a>
+                <a href="social.html" class="active"><img src="img/chats.svg" alt="icon">Social</a>
+                <a href="checklist.html" class=""><img src="img/list.svg" alt="icon">Checklist</a>
+                <a href="budget.html" class=""><img src="img/moneynotes.svg" alt="icon">Budget</a>
+                <a href="registery.html" class=""><img src="img/gift.svg" alt="icon">Registery</a>
+                <a href="settings.html" class=""><img src="img/settings.svg" alt="icon">Settings</a>
+            </div>
+
+
+            <div class="coupleinfo_outer height2 boxs ">
+
+                <!-- Header Start -->
+                <header class="header header_info">
+                    <div class="container-fluid">
+                        <nav class="navbar">
+                            <div class="container-fluid">
+                                <div class="">
+                                    <ul class="nav navbar-nav navbar-left">
+                                        <li><a href="#">Audiences</a></li>
+                                        <li><a href="#">Leads</a></li>
+                                        <li><a href="#">Registeration</a></li>
+                                    </ul>
+                                    <ul class="avtarbox nav navbar-nav navbar-right">
+                                        <h3>
+                                            <!-- <img src="img/avatar.png" alt="avatar"> -->
+                                            Hello,<br><span>Julia Sandler</span>
+                                            <div class="dropdown dropdowndiv boxs trigger11">
+                                                <a href="javascript:void(0)" class="btn Fortabledropdown dropdown-toggle right boxs" type="button" id="dropdownMenu" data-toggle="dropdown"> <img src="img/avatar.png" class="img-responsive" alt="avatar"></a>
+                                                <ul class="dropdown-menu guestdropdown guestdropdown11" aria-labelledby="dropdownMenu">
+                                                    <div class="drop_inner boxs">
+                                                        <img class="inner_img img-responsive" src="img/avatar.png" alt="avatar">
+                                                        <h1>Julian & Veronica </h1>
+                                                        <p>davidjburgos@gmail.com</p>
+                                                        <li><a href="javascript:void(0)" class="DropDown first">
+                                                                <img class="switch img-responsive" src="img/switch_circle.png" alt="switch_circle"> 
+                                                                <img class="shover img-responsive" src="img/switch_hover.png" alt="switch_hover">  Switch Wedding </a></li>
+                                                    </div>
+
+                                                    <li><a href="javascript:void(0)" class="DropDown">
+                                                            Upgrade Plan </a></li>
+                                                    <li><a href="javascript:void(0)" class="DropDown">
+                                                            Account Settings </a></li>
+                                                    <li><a href="javascript:void(0)" class="DropDown">Log out </a></li>
+                                                </ul>
+                                            </div>
+                                        </h3>
+                                    </ul>
+                                    <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner"></span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+                <!-- Header End -->
+
+                <div class="coupleinfo_inner boxs guestD">
+                    <div class="col-xs-8 noleft gusetWidth1">
+                        <div class="coupleinfo_viewbox Guestwedding boxs">
+                            <h2>Social</h2>
+                            <p>
+                                Here, you will see feed of your guests all social news about 
+                                <span> them and what they say about your wedding.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 noright gusetWidth2">
+                        <div class="guestDright boxs reg_viewsend">
+                            <div class="guestDrightinner boxs">
+                                <p><i data-toggle="modal" data-target="#myModal4"><a href="javascript:void(0)" data-toggle="tooltip" data-placement="bottom" title="Add a post" class="messageFlash"><span class="guestimg"><img src="img/social_plus.svg" alt="guest"></span></a></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- social section start -->
+                <div class="social boxs"> 
+
+                    <!-- left section social comment start -->
+                    <div class="col-md-8 widthcol social_commentpad">
+                        <div class="social_comment_main boxs">
+                            <!-- comment section start -->
+                            <div class="social_comment boxs">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" id="comment1" placeholder="I really don’t know how much I love you guys,you are the best thing that happened to me and I don’t imagine my life without you."></textarea>
+                                </div>
+                                <div class="attachments boxs">
+                                    <div class="file-upload btn labelfont padding1 Clip1">
+                                        <!--                                        <img src="img/paperclip.svg" alt="paperclip" class="img-responsive" id="imgchangefile">-->
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
+                                        <path fill="#AFB0BF" fill-rule="nonzero" d="M12.824 9.028L8.712 4.916l-1.21-1.21-1.21-1.21a2.29 2.29 0 0 0-3.246-.006 2.29 2.29 0 0 0 .006 3.247l2.99 2.99 2.36 2.36 3.388 3.388a3.674 3.674 0 0 0 5.192.007 3.667 3.667 0 0 0-.007-5.192l-3.387-3.388-3.735-3.734A.916.916 0 1 1 11.15.872L18.28 8a5.5 5.5 0 0 1-7.779 7.778L1.425 6.704l.018-.018A4.126 4.126 0 0 1 7.241.888L7.26.87l9.075 9.075a2.75 2.75 0 0 1-3.89 3.889L5.317 6.705A.916.916 0 1 1 6.612 5.41l4.916 4.915 2.213 2.213a.914.914 0 0 0 1.296 0 .914.914 0 0 0 0-1.296l-2.213-2.213z"/>
+                                        </svg>
+                                        <input type="file" name="File" id="File" class="upload">
+                                        <input type="text" id="fileupload" readonly="">
+                                    </div>
+                                    <a href="javascript:void(0)" class="filedelete" id="filecross"><img src="img/cross.svg" alt="cross"></a>
+                                    <div class="file-upload btn labelfont padding1 Clip2">
+                                        <!--                                        <img src="img/camera_msg.svg" alt="camera_msg" class="img-responsive" id="imgchangephoto">-->
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
+                                        <g fill="none" fill-rule="evenodd" stroke="#AFB0BF" stroke-width="2" transform="translate(1 1)">
+                                        <path stroke-linejoin="round" d="M14.248 2.455L12.033.24l-.24-.24H6.207l-.24.24-2.215 2.215H2.455A2.452 2.452 0 0 0 0 4.91v7.36a2.45 2.45 0 0 0 2.447 2.456h13.106A2.456 2.456 0 0 0 18 12.27V4.911a2.454 2.454 0 0 0-2.455-2.456h-1.297z"/>
+                                        <circle cx="9" cy="8.182" r="3.273"/>
+                                        </g>
+                                        </svg>
+                                        <input type="file" name="Photo" id="Photo" class="upload">
+                                        <input type="text" id="photoupload" readonly="">
+                                    </div>
+                                    <a href="javascript:void(0)" class="photodelete" id="photocross"><img src="img/cross.svg" alt="cross"></a>
+                                    <button type="submit" class="social_btn">POST<img src="img/arrowright_msg.svg" alt="arrowright_msg" class="img-responsive img_hide"><img src="img/arrowright_msg_hover.svg" alt="arrowright_msg_hover" class="img-responsive img_show"></button>
+                                </div>
+                            </div>
+                            <!-- comment section start -->
+                            <!-- ADD comment section start -->
+                            <div class="add_comment boxs ">
+                                <div class="AddCommentD message_right_dropdownIndex">
+                                    <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                    <div class="message_right_dropdown-content" id="dropdown_click">
+                                        <a href="#">Edit</a>
+                                        <a href="#">Delete</a>
+                                    </div>
+                                </div>
+                                <div class="add_comment_inner boxs">
+                                    <h3>Adam Sandler<span>10AM</span></h3>
+                                    <p>
+                                        I really can’t say how happy I am becasue how happy I am becasue  how happy 
+                                        I am becasue how happy I am becasue how happy I am becasue how happy I am 
+                                        becasue how happy I am how happy I am becasue
+                                    </p>
+                                    <div class="comment_videos boxs">
+                                        <iframe src="https://player.vimeo.com/video/246154269?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; encrypted-media" id="vimeo-player"></iframe>
+                                        <div class="play_button box" id="play">
+                                            <img src="img/social_video_icon.svg" alt="social_video_icon_hover" class="playbtn onnormal">
+                                            <img src="img/social_video_icon_hover.svg" alt="social_video_icon_hover" class="playbtn onhover">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add_commentbtns boxs">
+                                    <a href="javascript:void(0)" class="likecmnt"><img src="img/social_heart.svg" alt="social_heart" class="img-responsive img_show"><img src="img/social_heart_hover.svg" alt="social_heart_hover" class="img-responsive img_hide">35</a>
+                                    <a href="javascript:void(0)" class="leave_cmnt" data-type="bb"><img src="img/social_chat.svg" alt="social_chat" class="img-responsive img_show"><img src="img/social_chat_hover.svg" alt="social_chat_hover" class="img-responsive img_hide">22</a>
+                                    <a class="leave_cmnt_hide">Leave a comment</a>
+                                </div>
+                                <!-- add subcomment section start -->
+                                <div class="SubCommentD boxs feedbackscrollcomment feedbackscroll typeAA" id="typesbb">
+                                    <div class="subcomment boxs">
+                                        <div class="AddCommentD message_right_dropdownIndex">
+                                            <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                <a href="#">Edit</a>
+                                                <a href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Adam Sandler<span>11AM</span></h3>
+                                            <p>
+                                                Glad that you liked it, thanks a lot for the gift.
+                                            </p>
+                                        </div>  
+                                    </div>
+                                    <!-- add subcomment section end -->
+                                    <!-- add subcomment section start -->
+                                    <div class="subcomment boxs">
+                                        <a href="javascript:void(0)" class="social_options"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Julia Roberts<span>11AM</span></h3>
+                                            <p>
+                                                Haha :) Really like it, wish I was there hope you are doing good!
+                                            </p>
+                                        </div>  
+                                    </div>
+                                    <div class="subcomment boxs">
+                                        <a href="javascript:void(0)" class="social_options"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Julia Roberts<span>11AM</span></h3>
+                                            <p>
+                                                Haha :) Really like it, wish I was there hope you are doing good!
+                                            </p>
+                                        </div>  
+                                    </div>
+                                    <div class="subcomment boxs">
+                                        <div class="AddCommentD message_right_dropdownIndex">
+                                            <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                <a href="#">Edit</a>
+                                                <a href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Julia Roberts<span>11AM</span></h3>
+                                            <p>
+                                                Haha :) Really like it, wish I was there hope you are doing good!
+                                            </p>
+                                        </div>  
+                                    </div>
+                                    <div class="subcomment boxs">
+                                        <div class="AddCommentD message_right_dropdownIndex">
+                                            <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                <a href="#">Edit</a>
+                                                <a href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Julia Roberts<span>11AM</span></h3>
+                                            <p>
+                                                Haha :) Really like it, wish I was there hope you are doing good!
+                                            </p>
+                                        </div>  
+                                    </div>
+                                    <div class="subcomment boxs">
+                                        <div class="AddCommentD message_right_dropdownIndex">
+                                            <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                <a href="#">Edit</a>
+                                                <a href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Julia Roberts<span>11AM</span></h3>
+                                            <p>
+                                                Haha :) Really like it, wish I was there hope you are doing good!
+                                            </p>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <!-- add subcomment section end -->
+                            </div>
+
+                            <!-- ADD comment section end -->
+
+
+
+                            <div class="lv_cmnt_box boxs">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" id="comment" placeholder="Write your comment…"></textarea>
+                                </div>
+                                <!-- <img src="img/social_oval.svg" alt="social_oval" class="img-responsive"> -->
+                                <div class="lv_cmnt_btns">
+                                    <a href="javascript:void(0)" class="cmnt_close" >Cancel</a>
+                                    <a href="javascript:void(0)" class="cmnt_btn cmnt_close">Comment</a>
+                                </div>
+                            </div>
+                            <!-- ADD comment section start -->
+                            <div class="add_comment boxs">
+                                <div class="AddCommentD message_right_dropdownIndex">
+                                    <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                    <div class="message_right_dropdown-content" id="dropdown_click">
+                                        <a href="#">Edit</a>
+                                        <a href="#">Delete</a>
+                                    </div>
+                                </div>
+                                <div class="add_comment_inner boxs">
+                                    <h3>Adam Sandler<span>10AM</span></h3>
+                                    <p>
+                                        I really can’t say how happy I am becasue how happy I am becasue  how happy 
+                                        I am becasue how happy I am becasue how happy I am becasue how happy I am 
+                                        becasue how happy I am how happy I am becasue
+                                    </p>
+                                </div>
+                                <div class="add_commentbtns boxs">
+                                    <a href="javascript:void(0)" class="likecmnt"><img src="img/social_heart.svg" alt="social_heart" class="img-responsive img_show"><img src="img/social_heart_hover.svg" alt="social_heart_hover" class="img-responsive img_hide">35</a>
+                                    <a href="javascript:void(0)" class="leave_cmnt" data-type="aa"><img src="img/social_chat.svg" alt="social_chat" class="img-responsive img_show"><img src="img/social_chat_hover.svg" alt="social_chat_hover" class="img-responsive img_hide">22</a>
+                                    <a  class="leave_cmnt_hide">Leave a comment</a>
+                                </div>
+                                <div class="SubCommentD boxs feedbackscrollcomment feedbackscroll typeAA" id="typesaa">
+                                    <!-- add subcomment section start -->
+                                    <div class="subcomment boxs">
+                                        <div class="AddCommentD message_right_dropdownIndex">
+                                            <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                <a href="#">Edit</a>
+                                                <a href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Adam Sandler<span>11AM</span></h3>
+                                            <p>
+                                                Glad that you liked it, thanks a lot for the gift.
+                                            </p>
+                                        </div>  
+                                    </div>
+                                    <!-- add subcomment section end -->
+                                    <!-- add subcomment section start -->
+                                    <div class="subcomment boxs">
+                                        <div class="AddCommentD message_right_dropdownIndex">
+                                            <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                <a href="#">Edit</a>
+                                                <a href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Julia Roberts<span>11AM</span></h3>
+                                            <p>
+                                                Haha :) Really like it, wish I was there hope you are doing good!
+                                            </p>
+                                        </div>  
+                                    </div>
+                                    <div class="subcomment boxs">
+                                        <div class="AddCommentD message_right_dropdownIndex">
+                                            <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                <a href="#">Edit</a>
+                                                <a href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Julia Roberts<span>11AM</span></h3>
+                                            <p>
+                                                Haha :) Really like it, wish I was there hope you are doing good!
+                                            </p>
+                                        </div>  
+                                    </div>
+                                    <div class="subcomment boxs">
+                                        <div class="AddCommentD message_right_dropdownIndex">
+                                            <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                <a href="#">Edit</a>
+                                                <a href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Julia Roberts<span>11AM</span></h3>
+                                            <p>
+                                                Haha :) Really like it, wish I was there hope you are doing good!
+                                            </p>
+                                        </div>  
+                                    </div>
+                                    <div class="subcomment boxs">
+                                        <div class="AddCommentD message_right_dropdownIndex">
+                                            <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                <a href="#">Edit</a>
+                                                <a href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Julia Roberts<span>11AM</span></h3>
+                                            <p>
+                                                Haha :) Really like it, wish I was there hope you are doing good!
+                                            </p>
+                                        </div>  
+                                    </div>
+                                    <div class="subcomment boxs">
+                                        <div class="AddCommentD message_right_dropdownIndex">
+                                            <a href="javascript:void(0)" class="social_options message_right_dropbtn"><img src="img/social_cmnt.svg" alt="social_cmnt" class="img_show"><img src="img/social_cmnt_hover.svg" alt="social_cmnt_hover" class="img_hide"></a>
+                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                <a href="#">Edit</a>
+                                                <a href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                        <div class="add_comment_inner boxs">
+                                            <h3>Julia Roberts<span>11AM</span></h3>
+                                            <p>
+                                                Haha :) Really like it, wish I was there hope you are doing good!
+                                            </p>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <!-- add subcomment section end -->
+                            </div>
+                            <!-- ADD comment section end -->
+
+                            <div class="lv_cmnt_box boxs">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" id="comment" placeholder="Write your comment…"></textarea>
+                                </div>
+                                <!-- <img src="img/social_oval.svg" alt="social_oval" class="img-responsive"> -->
+                                <div class="lv_cmnt_btns">
+                                    <a href="javascript:void(0)" class="cmnt_close" >Cancel</a>
+                                    <a href="javascript:void(0)" class="cmnt_btn cmnt_close">Comment</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- left section social comment end -->
+
+                    <!-- right section social message start -->
+                    <div class="col-md-4 widthcol social_chatpad">
+                        <div class="social_chat boxs">
+                            <div class="widthcolsocial paddingright boxs">
+                                <div class="msg_heading boxs">
+                                    <h2>MESSAGES</h2>
+                                </div>
+                                <div class="social_msg boxs">   
+                                    <div class="chats boxs chat1">
+                                        <div class="search">
+                                            <form>
+                                                <div class="input-group">
+                                                    <div class="input-group-btn">
+                                                        <button class="searchbtn" type="submit">
+                                                            <img src="img/chat_search.svg" alt="chat_search" class="img-responsive">
+                                                        </button>
+                                                    </div>
+                                                    <input type="text" class="form-control" placeholder="Search or start new chat">
+                                                    <a href="javascript:void(0)"><img src="img/chat_pencil.svg" alt="chat_pencil" class="img-responsive img_show"><img src="img/chat_pencil_hover.svg" alt="chat_pencil_hover" class="img-responsive img_hide"></a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="chatheight feedbackscroll scroll3 boxs">
+                                            <a href="javascript:void(0)" class="chat_open">
+                                                <div class="chat_prsn boxs">
+                                                    <div class="chat_prsn_inner boxs">
+                                                        <h3>Mama <span>16:16</span></h3>
+                                                        <h4><img src="img/chat_doubletick.svg" alt="chat_doubletick" class="img-responsive">site amet dolor</h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0)" class="chat_open">
+                                                <div class="chat_prsn boxs">
+                                                    <div class="chat_prsn_inner boxs">
+                                                        <h3>Paul CSR <span>16:16</span></h3>
+                                                        <h4><img src="img/chat_doubletick.svg" alt="chat_doubletick" class="img-responsive">niceeee</h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0)" class="chat_open">
+                                                <div class="chat_prsn boxs">
+                                                    <div class="chat_prsn_inner boxs">
+                                                        <h3>Papa <span>16:16</span></h3>
+                                                        <h4><img src="img/chat_doubletick.svg" alt="chat_doubletick" class="img-responsive">lorem ipsum</h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0)" class="chat_open">
+                                                <div class="chat_prsn boxs">
+                                                    <div class="chat_prsn_inner boxs">
+                                                        <h3>Papa <span>16:16</span></h3>
+                                                        <h4><img src="img/chat_doubletick.svg" alt="chat_doubletick" class="img-responsive">lorem ipsum</h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0)" class="chat_open">
+                                                <div class="chat_prsn boxs">
+                                                    <div class="chat_prsn_inner boxs">
+                                                        <h3>Papa <span>16:16</span></h3>
+                                                        <h4><img src="img/chat_doubletick.svg" alt="chat_doubletick" class="img-responsive">lorem ipsum</h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0)" class="chat_open">
+                                                <div class="chat_prsn boxs">
+                                                    <div class="chat_prsn_inner boxs">
+                                                        <h3>Papa <span>16:16</span></h3>
+                                                        <h4><img src="img/chat_doubletick.svg" alt="chat_doubletick" class="img-responsive">lorem ipsum</h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="chats boxs chat2">
+                                        <div class="chat_inner_heading boxs">
+                                            <a href="javascript:void(0)" class="chat_close"><img src="img/chat_arrowleft.svg" alt="chat_arrowleft" class="img-responsive arrow_show"><img src="img/chat_arrowleft_hover.svg" alt="chat_arrowleft_hover" class="img-responsive arrow_hide"></a>
+                                            <img src="img/chat_prsn.png" alt="chat_prsn" class="img-responsive chatimgD">
+                                            <h3>Paul CSR</h3>
+                                        </div>
+                                        <div class="chat_inner border_top boxs">
+                                            <div class="chatsheight feedbackscroll scroll2 boxs ">
+                                                <div class="chat_content sender boxs">
+                                                    <div class="chattime">
+                                                        <h3>20:40</h3>
+                                                    </div>
+                                                    <div class="chatdata">
+                                                        <h4>I could change my choice. I change my mind hahah </h4>
+                                                        <img src="img/chatdata.png" alt="chatdata" class="img-responsive">
+                                                    </div>
+                                                </div>
+                                                <div class="chat_content reciever boxs">
+                                                    <div class="chatdata">
+                                                        <h4>Sure Claudio! But please Wait a few minute … </h4>
+                                                        <img src="img/chatdata.png" alt="chatdata" class="img-responsive">
+                                                    </div>
+                                                    <div class="chattime">
+                                                        <h3>20:40</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="chat_content sender boxs">
+                                                    <div class="chattime">
+                                                        <h3>20:40</h3>
+                                                    </div>
+                                                    <div class="chatdata">
+                                                        <h4>I could change my choice. I change my mind hahah </h4>
+                                                        <img src="img/chatdata.png" alt="chatdata" class="img-responsive">
+                                                    </div>
+                                                </div>
+                                                <div class="chat_content reciever boxs">
+                                                    <div class="chatdata">
+                                                        <h4>Sure Claudio! But please Wait a few minute … </h4>
+                                                        <img src="img/chatdata.png" alt="chatdata" class="img-responsive">
+                                                    </div>
+                                                    <div class="chattime">
+                                                        <h3>20:40</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="chat_content sender boxs">
+                                                    <div class="chattime">
+                                                        <h3>20:40</h3>
+                                                    </div>
+                                                    <div class="chatdata">
+                                                        <h4>I could change my choice. I change my mind hahah </h4>
+                                                        <img src="img/chatdata.png" alt="chatdata" class="img-responsive">
+                                                    </div>
+                                                </div>
+                                                <div class="chat_content reciever boxs">
+                                                    <div class="chatdata">
+                                                        <h4>Sure Claudio! But please Wait a few minute … </h4>
+                                                        <img src="img/chatdata.png" alt="chatdata" class="img-responsive">
+                                                    </div>
+                                                    <div class="chattime">
+                                                        <h3>20:40</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="chatinput boxs">
+                                                <div class="input-group">
+                                                    <input id="chat" type="text" class="form-control" name="chat" placeholder="Hello! How are you?">
+                                                    <span class="input-group-addon chatimg"><a href="javascript:void(0)"><img src="img/chatsend.svg" alt="chatsend" class="img-responsive img_show"><img src="img/chatsend_hover.svg" alt="chatsend_hover" class="img-responsive img_hide"></a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widthcolsocial paddingleft   boxs">    
+                                <div class="msg_heading boxs msg_headingmedia">
+                                    <h2>MEDIA</h2>
+                                </div>
+
+                                <div class="social_media boxs ">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mediaModal"><img src="img/social_share.svg" alt="social_share" class="img-responsive imgshow"><img src="img/social_share_hover.svg" alt="social_share_hover" class="img-responsive imghide"></a>
+                                    <div id="gallery_tabs">
+                                        <button class="gallerybtn active" data-type='all'> All</button>
+                                        <button class="gallerybtn" data-type='images'>Images</button>
+                                        <button class="gallerybtn" data-type='videos'> Video</button>
+                                    </div>
+
+                                    <div class="feedbackscroll scroll">
+                                        <!-- Portfolio Gallery Grid -->
+                                        <div class="col-xs-6 images column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 images column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 images column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 images column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 images column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 images column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-6 videos column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                <div class="play_button box" id="play">
+                                                    <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/small_video_icon.svg" alt="small_video_icon" class="playbtn onnormal">
+                                                        <img src="img/small_video_icon_hover.svg" alt="small_video_icon_hover" class="playbtn onhover"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 videos column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                <div class="play_button box" id="play">
+                                                    <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/small_video_icon.svg" alt="small_video_icon" class="playbtn onnormal">
+                                                        <img src="img/small_video_icon_hover.svg" alt="small_video_icon_hover" class="playbtn onhover"></a>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 videos column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                <div class="play_button box" id="play">
+                                                    <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/small_video_icon.svg" alt="small_video_icon" class="playbtn onnormal">
+                                                        <img src="img/small_video_icon_hover.svg" alt="small_video_icon_hover" class="playbtn onhover"></a>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 videos column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                <div class="play_button box" id="play">
+                                                    <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/small_video_icon.svg" alt="small_video_icon" class="playbtn onnormal">
+                                                        <img src="img/small_video_icon_hover.svg" alt="small_video_icon_hover" class="playbtn onhover"></a>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 videos column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                <div class="play_button box" id="play">
+                                                    <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/small_video_icon.svg" alt="small_video_icon" class="playbtn onnormal">
+                                                        <img src="img/small_video_icon_hover.svg" alt="small_video_icon_hover" class="playbtn onhover"></a>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 videos column">
+                                            <div class="content">
+                                                <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                <div class="play_button box" id="play">
+                                                    <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/small_video_icon.svg" alt="small_video_icon" class="playbtn onnormal">
+                                                        <img src="img/small_video_icon_hover.svg" alt="small_video_icon_hover" class="playbtn onhover"></a>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                        <!-- END GRID -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right section social message end -->
+
+                </div>
+                <!-- social section end -->
+            </div>
+
+
+
+
+
+            <!-- Trigger the modal with a button -->
+            <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mediaModal">Open Modal</button> -->
+
+            <!-- Modal start -->
+            <div id="mediaModal" class="modal fade" role="dialog">
+                <div class="modal-dialog overviewmodalinner">
+
+                    <!-- Modal content start -->
+                    <div class="modal-content boxs">
+                        <div class="modal-header boxs">
+                            <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                            <button type="button" class="close popupcross" data-dismiss="modal"><img src="img/cross.svg" alt="cross" class="img-responsive"></button>
+                            <div id="gallery_tabs">
+                                <button class="gallerybtn2 active" data-type='alltab'> All</button>
+                                <button class="gallerybtn2" data-type='image'>Images</button>
+                                <button class="gallerybtn2" data-type='video'> Video</button>
+                            </div>
+                        </div>
+                        <div class="modal-body boxs">
+
+                            <div class="social_media boxs">
+                                <div class="feedbackscroll scroll">
+                                    <!-- Portfolio Gallery Grid -->
+                                    <div class="col-xs-6 image columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask1" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask1"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 image columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask2" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask2"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 image columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask3" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask3"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 video columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask4" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask4"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="play_button box" id="play">
+                                                        <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/social_video_icon.svg" alt="social_video_icon_hover" class="playbtn onnormal">
+                                                            <img src="img/social_video_icon_hover.svg" alt="social_video_icon_hover" class="playbtn onhover"></a>
+                                                    </div>
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 video columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask5" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask5"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="play_button box" id="play">
+                                                        <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/social_video_icon.svg" alt="social_video_icon_hover" class="playbtn onnormal">
+                                                            <img src="img/social_video_icon_hover.svg" alt="social_video_icon_hover" class="playbtn onhover"></a>
+                                                    </div>
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 video columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask6" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask6"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="play_button box" id="play">
+                                                        <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/social_video_icon.svg" alt="social_video_icon_hover" class="playbtn onnormal">
+                                                            <img src="img/social_video_icon_hover.svg" alt="social_video_icon_hover" class="playbtn onhover"></a>
+                                                    </div>
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 image columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask7" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask7"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-6 image columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask8" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask8"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-6 image columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask9" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask9"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 video columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask10" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask10"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="play_button box" id="play">
+                                                        <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/social_video_icon.svg" alt="social_video_icon_hover" class="playbtn onnormal">
+                                                            <img src="img/social_video_icon_hover.svg" alt="social_video_icon_hover" class="playbtn onhover"></a>
+                                                    </div>
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 video columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask11" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask11"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="play_button box" id="play">
+                                                        <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/social_video_icon.svg" alt="social_video_icon_hover" class="playbtn onnormal">
+                                                            <img src="img/social_video_icon_hover.svg" alt="social_video_icon_hover" class="playbtn onhover"></a>
+                                                    </div>
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 video columnmodal">
+                                        <div class="tasks boxs">
+                                            <input type="checkbox" id="socialtask12" value="second_checkbox" class="check checkBoxClass"> 
+                                            <label for="socialtask12"><span></span>
+                                                <div class="content">
+                                                    <img src="img/social_media.png" alt="social_media" style="width:100%">
+                                                    <div class="play_button box" id="play">
+                                                        <a id="youtube_link" href="http://www.youtube.com/embed/L9szn1QQfas? autoplay=1"><img src="img/social_video_icon.svg" alt="social_video_icon_hover" class="playbtn onnormal">
+                                                            <img src="img/social_video_icon_hover.svg" alt="social_video_icon_hover" class="playbtn onhover"></a>
+                                                    </div>
+                                                    <div class="content_opacity"></div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <!-- END GRID -->
+                                </div>                         
+                            </div>
+
+                        </div>
+                        <div class="modal-footer boxs">
+                            <div class="tick widthtick boxs">
+                                <input type="checkbox" id="socialtick1" value="second_checkbox">
+                                <label for="socialtick1"><span></span>Select All Media</label>
+                            </div>
+                            <button type="button" class="downloadbtn">Download Selection</button>
+                        </div>
+                    </div>
+                    <!-- Modal content end -->
+
+                </div>
+            </div>
+            <!-- Modal end -->
+            <script src="js/jquery.min.js"></script>
+            <script src='js/choosen3min.js'></script>
+            <script src="js/choosen1.js"></script> 
+            <script src="js/choosen.js"></script>
+            <script src="js/choosenmsg.js"></script> 
+            <script src="https://secure-a.vimeocdn.com/js/froogaloop2.min.js"></script>
+            <script src="js/filedrag.js"></script>
+            <script src="js/dragdrop.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/moment.js"></script>
+            <script src="js/bootstrap-datetimepicker.min.js"></script>
+            <script src="js/slick.js"></script>
+            <script src="js/jquery.fancybox.js"></script>
+            <script src="js/jquery.ddslick.min.js"></script>
+            <script src="js/custom.js"></script> 
+        </body>
+    </html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Registery-(Shops)" transform="translate(-1322.000000, -174.000000)">
+            <g id="Icons" transform="translate(1277.000000, 161.000000)">
+                <g id="Group-3" transform="translate(32.000000, 0.000000)">
+                    <g id="Group-2" transform="translate(14.000000, 14.000000)">
+                        <g id="gift">
+                            <rect id="Rectangle-21" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" x="0" y="6.56716418" width="20" height="4.47761194" rx="1"></rect>
+                            <rect id="Rectangle-22" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" x="1.21212121" y="11.0447761" width="17.8823527" height="8.95522388" rx="1"></rect>
+                            <rect id="Rectangle-23" fill="#FFFFFF" fill-rule="nonzero" x="9.39393939" y="6.86567164" width="1.17647059" height="12.8358209"></rect>
+                            <path d="M11.4141414,6.56716418 L13.6363636,6.56716418 C15.4773127,6.56716418 16.969697,5.0970544 16.969697,3.28358209 C16.969697,1.47010978 15.4773127,0 13.6363636,0 C11.7954145,0 10.3030303,1.47010978 10.3030303,3.28358209 L10.3030303,5.47263682 L10.3030303,6.56716418 L11.4141414,6.56716418 Z" id="Oval-19" stroke="#FFFFFF" stroke-width="2"></path>
+                            <path d="M4.44444444,6.56716418 L6.66666667,6.56716418 C8.50761578,6.56716418 10,5.0970544 10,3.28358209 C10,1.47010978 8.50761578,0 6.66666667,0 C4.8257175,0 3.33333333,1.47010978 3.33333333,3.28358209 L3.33333333,5.47263682 L3.33333333,6.56716418 L4.44444444,6.56716418 Z" id="Oval-19" stroke="#FFFFFF" stroke-width="2" transform="translate(6.666667, 3.283582) scale(-1, 1) translate(-6.666667, -3.283582) "></path>
+                        </g>
+                        <g id="add" transform="translate(14.000000, 14.000000)">
+                            <circle id="Oval-1" stroke="#3b345f" fill="#FFFFFF" cx="5" cy="5" r="5.5"></circle>
+                            <g id="Group" transform="translate(3.000000, 3.000000)" fill="#3b345f" fill-rule="nonzero">
+                                <rect id="Rectangle-1" x="1.6" y="0" width="1" height="4" rx="0.5"></rect>
+                                <rect id="Rectangle-1" x="0" y="1.6" width="4" height="1" rx="0.5"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

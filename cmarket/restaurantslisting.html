@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+
+    <title>Restaurants Listing | Canadian E Market</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="h_top">
+                <div class="row rowflex">
+                    <div class="col-sm-6 width40">
+                        <div class="h_top_lft">
+                            <a href="javascript:void(0)">Welcome to canadianemarket.ca</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 width60">
+                        <div class="h_top_ryt">
+                            <div class="chat_box chat_box_header">
+                                <a href="javascript:void(0)" class="chat">
+                                    <img src="img/chat_03.png" alt="chat">
+                                    <span>Support</span>
+                                </a>
+                            </div>
+                            <div class="dropbox">
+                                <div class="drop_down">
+                                    <button class="dropbtn dropbtn1" type="button"><img src="img/country.png" alt="country" class="img-responsive changFlg"><span>Canada</span> <img src="img/arrowdwn.png" alt="arrowdwn" class="img-responsive rotate"></button>
+                                    <ul class="drop_menu drop_menu_s ">
+                                        <li><a href="javascript:void(0)"><img src="img/indFlg.png" alt="country" class="img-responsive">India</a></li>
+                                        <li><a href="javascript:void(0)"><img src="img/country.png" alt="country" class="img-responsive">USA</a></li>
+                                        <li><a href="javascript:void(0)"><img src="img/country.png" alt="country" class="img-responsive">France</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropbox">
+                                <div class="drop_down">
+                                    <button class="dropbtn dropbtn2" type="button"><span>Winnipeg</span> <img src="img/arrowdwn.png" alt="arrowdwn" class="img-responsive rotate"></button>
+                                    <ul class="drop_menu drop_menu2 drop_menu_s2">
+                                        <li><a href="javascript:void(0)">Winnipeg1</a></li>
+                                        <li><a href="javascript:void(0)">Winnipeg2</a></li>
+                                        <li><a href="javascript:void(0)">Winnipeg3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropbox">
+                                <div class="drop_down">
+                                    <button class="dropbtn dropbtn3" type="button"><img src="img/lang.png" alt="lang" class="img-responsive changFlg"><span>EN</span> <img src="img/arrowdwn.png" alt="arrowdwn" class="img-responsive rotate"></button>
+                                    <ul class="drop_menu drop_menu_s3">
+                                        <li><a href="#"><img src="img/lang.png" alt="lang" class="img-responsive">FN</a></li>
+                                        <li><a href="#"><img src="img/lang.png" alt="lang" class="img-responsive">EN</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h_btm">
+                <div class="row rowflex">
+                    <div class="col-sm-6">
+                        <div class="h_btm_lft">
+                            <button class="hamburger hamburger--squeeze hamburgerres" type="button" aria-label="Menu" aria-controls="navigation">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                            <a class="brand_logo" href="index"><img src="img/logo.png" class="img-responsive res_logo_hide" alt="logo"><img src="img/res_logo.png" class="img-responsive res_logo_show" alt="logo"></a>
+                            <div class="searchbox searchboxindex">
+                                <div class="input_group">
+                                    <input id="search" type="text" class="form-control" name="search" placeholder="Restaurents, grocery, fashion">
+                                    <a href="javascript:void(0)"><img src="img/searchicon.png" alt="searchicon" class="img-responsive"></a>
+                                </div>
+                            </div>
+                            <form id="demo-2" class="searchrespon head_search">
+                                <input type="search" placeholder="Search">
+                            </form>
+                            <div class="carticon">
+                                <a href="javascript:void(0)"><img src="img/cart2.png" alt="cart"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 dnone">
+                        <div class="h_btm_ryt">
+                            <ul class="navlinks">
+                                <li><a href="stores" class="active">stores</a></li>
+                                <li><a href="restaurantslisting">Restaurants</a></li>
+                                <li><a href="marketplace">Marketplace</a></li>
+                            </ul>
+                            <p><a href="javascript:void(0)" class="login" data-toggle="modal" data-target="#login">login</a> / <a href="javascript:void(0)" class="login" data-toggle="modal" data-target="#register">Register</a></p>
+                            <p>
+                                <a href="javascript:void(0)" class="basket"><img src="img/basket.png" alt="basket" class="img-responsive"></a>
+                                <a href="javascript:void(0)" class="detectbtn"><img src="img/detectloc.png" alt="detectloc" class="img-responsive">Detect Location</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- sidenav start -->
+    <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="morebtn">Detect Location</a>
+        <a href="javascript:void(0)" data-toggle="modal" data-target="#login" class="morebtn lgn">Login</a>
+        <a href="javascript:void(0)" ata-toggle="modal" data-target="#register" class="morebtn ">Register</a>
+        <a href="cart" class="morebtn ">Cart</a>
+
+        <a href="stores" class="morebtn lgn">Stores</a>
+        <a href="marketplace" class="morebtn lgn">Marketplace</a>
+        <a href="restaurantslisting" class="morebtn">Restaurants</a>
+        <a href="javascript:void(0)" class="more_btn">More <img src="img/arrowdwn.png" class="rotate"></a>
+        <div class="more_Links">
+            <a href="terms" class="morebtn">Terms and Conditions</a>
+            <a href="privacy" class="morebtn">Privacy Policy</a>
+            <a href="help" class="morebtn">Help</a>
+            <a href="javascript:void(0)" class="morebtn">Refer a Friend</a>
+            <a href="partnerwithus" class="morebtn">Partner with Us</a>
+        </div>
+    </div>
+    <!-- sidenav start -->
+
+    <!--brows stores section-->
+    <section class="brows_store restaurant_store topScrl">
+        <div class="container">
+            <div class="bread_crumb breadcrumb_shipping">
+                <ul class="bread_crumb_menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a><i class="fa fa-angle-right"></i></a></li>
+                    <li><a href="#" class="active">Restaurants</a></li>
+                </ul>
+            </div>
+            <div class="slider2 slick restaurantslider">
+                <div class="store_banner_in boxs">
+                    <img src="img/storeBanner.png" class="img-responsive storeimghide" alt="banner_image">
+                    <img src="img/storeBanner2.png" class="img-responsive storeimgshow" alt="banner_image">
+
+                    <h2>Canadian Footwear</h2>
+                </div>
+                <div class="store_banner_in boxs">
+                    <img src="img/storeBanner.png" class="img-responsive storeimghide" alt="banner_image">
+                    <img src="img/storeBanner2.png" class="img-responsive storeimgshow" alt="banner_image">
+
+                    <h2>Canadian Footwear</h2>
+                </div>
+                <div class="store_banner_in boxs">
+                    <img src="img/storeBanner.png" class="img-responsive storeimghide" alt="banner_image">
+                    <img src="img/storeBanner2.png" class="img-responsive storeimgshow" alt="banner_image">
+
+                    <h2>Canadian Footwear</h2>
+                </div>
+            </div>
+            <div class="browsStore_inner boxs">
+                <div class="row">
+                    <div class="col-sm-3 colWidth1 dnone2">
+                        <div class="brows_store_lft boxs">
+                            <div class="categories boxs">
+                                <h3>Categories</h3>
+                                <div class="categories_btm boxs">
+                                    <a href="#">All <span>(100)</span></a>
+                                    <a href="#">Dinner <span>(38)</span></a>
+                                    <a href="#">Lunch <span>(31)</span></a>
+                                    <a href="#">Cafe <span>(31)</span></a>
+                                    <a href="#">Desserts and Bakeries <span>(28)</span></a>
+                                    <a href="#">Fast Food <span>(24)</span></a>
+                                    <a href="#">Clubs & Bars <span>(18)</span></a>
+                                    <a href="#">Breakfast <span>(6)</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 colWidth2">
+                        <div class="browsAll_store_lft boxs">
+                            <div class="browsAll_store restAll_s boxs">
+                                <div class="brows_head boxs">
+                                    <h2>Restaurants <span>(250)</span></h2>
+                                </div>
+                                <div class="brows_store_box boxs">
+                                    <div class="browsAll_str_lft">
+                                        <div class="search_sec search_stick boxs">
+                                            <input type="text" class="form-control" placeholder="Search restaurants name etc.">
+                                            <img src="img/searchicon.png" alt="search">
+                                        </div>
+                                    </div>
+                                    <div class="res_prod_cat boxs">
+                                        <div class="categories catResStck boxs">
+                                            <a href="javascript:void(0)" class="pro_drop">Categories<img src="img/arrowdwn.png" alt="arrowdwn" class="img-responsive rotate"></a>
+                                            <div class="pro_drop_menu boxs">
+                                                <a href="#">All <span>(100)</span></a>
+                                                <a href="#">Dinner <span>(38)</span></a>
+                                                <a href="#">Lunch <span>(31)</span></a>
+                                                <a href="#">Cafe <span>(31)</span></a>
+                                                <a href="#">Desserts and Bakeries <span>(28)</span></a>
+                                                <a href="#">Fast Food <span>(24)</span></a>
+                                                <a href="#">Clubs & Bars <span>(18)</span></a>
+                                                <a href="#">Breakfast <span>(6)</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="browsAll_str_rht res_prod_sort">
+                                        <div class="fil_drop">
+                                            <button type="button" class="filDrop_btn">
+                                                Sort By : <span>Most Recent</span>
+                                                <img src="img/arrowdwn.png" alt="arrow">
+                                            </button>
+                                            <div class="filDrop_content">
+                                                <a href="javascript:void(0)">Most viewed</a>
+                                                <a href="javascript:void(0)">Price (hi-low)</a>
+                                                <a href="javascript:void(0)">Price (Low - hi)</a>
+                                                <a href="javascript:void(0)">New products</a>
+                                                <a href="javascript:void(0)">E Market review score</a>
+                                                <a href="javascript:void(0)">Most ordered</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="storeType resto_in boxs">
+                                <div class="rest_head boxs">
+                                    <h2>Open Restaurants</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <a href="#">
+                                            <div class="storeBox restoBox boxs">
+                                                <div class="storeBox_top  restoBox_top boxs">
+                                                    <img src="img/restaurants1.png" class="img-responsive" alt="store">
+                                                    <span>Open till <g>5pm</g></span>
+                                                </div>
+                                                <div class="storeBox_bottom boxs">
+                                                    <h4>H block, sec 62 noida</h4>
+                                                    <h2>Cafe Coffee Day</h2>
+                                                    <h3><span>1.8 km away </span> | <span>Cafe</span></h3>
+                                                    <h6>30-45 mins</h6>
+                                                    <p>
+                                                        <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                        <span id="discount">(20% OFF)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <a href="#">
+                                            <div class="storeBox restoBox boxs">
+                                                <div class="storeBox_top  restoBox_top boxs">
+                                                    <img src="img/restaurants2.png" class="img-responsive" alt="store">
+                                                    <span>Open till <g>5pm</g></span>
+                                                </div>
+                                                <div class="storeBox_bottom boxs">
+                                                    <h4>Sector 63, Noida</h4>
+                                                    <h2>Asia Kitchen</h2>
+                                                    <h3><span>1.8 km away </span> | <span>Restaurant</span></h3>
+                                                    <h6>30-45 mins</h6>
+                                                    <p>
+                                                        <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                        <span id="discount">(15% OFF)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <a href="#">
+                                            <div class="storeBox restoBox boxs">
+                                                <div class="storeBox_top  restoBox_top boxs">
+                                                    <img src="img/restaurants3.png" class="img-responsive" alt="store">
+                                                    <span>Open till <g>5pm</g></span>
+                                                </div>
+                                                <div class="storeBox_bottom boxs">
+                                                    <h4>Sector 63, Noida</h4>
+                                                    <h2>Black Bottle + Kitchen</h2>
+                                                    <h3><span>1.8 km away </span> | <span>Restaurant</span></h3>
+                                                    <h6>30-45 mins</h6>
+                                                    <p>
+                                                        <span id="rating">3.8<i class="fa fa-star"></i></span>
+
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <a href="#">
+                                            <div class="storeBox restoBox boxs">
+                                                <div class="storeBox_top  restoBox_top boxs">
+                                                    <img src="img/restaurants4.png" class="img-responsive" alt="store">
+                                                    <span>Open till <g>5pm</g></span>
+                                                </div>
+                                                <div class="storeBox_bottom boxs">
+                                                    <h4>Sector 63, Noida </h4>
+                                                    <h2>KFC</h2>
+                                                    <h3><span>1.8 km away </span> | <span>Fast Food</span></h3>
+                                                    <h6>30-45 mins</h6>
+                                                    <p>
+                                                        <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                        <span id="discount">(10% OFF)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="rowSec boxs">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <a href="javascript:void(0)">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants5.png" class="img-responsive" alt="store">
+                                                        <span>Opening at <g>11am</g></span>
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>Sector 62, Noida</h4>
+                                                        <h2>Pizza Hut</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Fast Food</span></h3>
+                                                        <h6>Pre-Order Now</h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a href="javascript:void(0)">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants6.png" class="img-responsive" alt="store">
+                                                        <span>Open till <g>5pm</g></span>
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>Sector 63, Noida</h4>
+                                                        <h2>Masala Junction</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Restaurant</span></h3>
+                                                        <h6>30-45 mins</h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                            <span id="discount">(15% OFF)</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a href="javascript:void(0)">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants7.png" class="img-responsive" alt="store">
+                                                        <span>Open till <g>5pm</g></span>
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>Sector 63, Noida</h4>
+                                                        <h2>Chili's</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Restaurant</span></h3>
+                                                        <h6>30-45 mins</h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a href="javascript:void(0)">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants8.png" class="img-responsive" alt="store">
+                                                        <!--<span>Open till <g>5pm</g></span>-->
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>Sector 63, Noida </h4>
+                                                        <h2>Chicago Pizza</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Fast Food</span></h3>
+                                                        <h6></h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                            <span id="discount">(10% OFF)</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rowSec boxs">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <a href="#">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants1.png" class="img-responsive" alt="store">
+                                                        <span>Open till <g>5pm</g></span>
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>H block, sec 62 noida</h4>
+                                                        <h2>Cafe Coffee Day</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Cafe</span></h3>
+                                                        <h6>30-45 mins</h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                            <span id="discount">(20% OFF)</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a href="#">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants2.png" class="img-responsive" alt="store">
+                                                        <span>Open till <g>5pm</g></span>
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>Sector 63, Noida</h4>
+                                                        <h2>Asia Kitchen</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Restaurant</span></h3>
+                                                        <h6>30-45 mins</h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                            <span id="discount">(15% OFF)</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a href="#">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants3.png" class="img-responsive" alt="store">
+                                                        <span>Open till <g>5pm</g></span>
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>Sector 63, Noida</h4>
+                                                        <h2>Black Bottle + Kitchen</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Restaurant</span></h3>
+                                                        <h6>30-45 mins</h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a href="#">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants4.png" class="img-responsive" alt="store">
+                                                        <span>Open till <g>5pm</g></span>
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>Sector 63, Noida </h4>
+                                                        <h2>KFC</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Fast Food</span></h3>
+                                                        <h6>30-45 mins</h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                            <span id="discount">(10% OFF)</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="rowSec boxs">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <a href="javascript:void(0)">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants5.png" class="img-responsive" alt="store">
+                                                        <span>Opening at <g>11am</g></span>
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>Sector 62, Noida</h4>
+                                                        <h2>Pizza Hut</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Fast Food</span></h3>
+                                                        <h6>Pre-Order Now</h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a href="javascript:void(0)">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants6.png" class="img-responsive" alt="store">
+                                                        <span>Open till <g>5pm</g></span>
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>Sector 63, Noida</h4>
+                                                        <h2>Masala Junction</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Restaurant</span></h3>
+                                                        <h6>30-45 mins</h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                            <span id="discount">(15% OFF)</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a href="javascript:void(0)">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants7.png" class="img-responsive" alt="store">
+                                                        <span>Open till <g>5pm</g></span>
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>Sector 63, Noida</h4>
+                                                        <h2>Chili's</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Restaurant</span></h3>
+                                                        <h6>30-45 mins</h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a href="javascript:void(0)">
+                                                <div class="storeBox restoBox boxs">
+                                                    <div class="storeBox_top  restoBox_top boxs">
+                                                        <img src="img/restaurants8.png" class="img-responsive" alt="store">
+                                                        <!--<span>Open till <g>5pm</g></span>-->
+                                                    </div>
+                                                    <div class="storeBox_bottom boxs">
+                                                        <h4>Sector 63, Noida </h4>
+                                                        <h2>Chicago Pizza</h2>
+                                                        <h3><span>1.8 km away </span> | <span>Fast Food</span></h3>
+                                                        <h6></h6>
+                                                        <p>
+                                                            <span id="rating">3.8<i class="fa fa-star"></i></span>
+                                                            <span id="discount">(10% OFF)</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination_route boxs">
+                                <ul>
+                                    <li><a href="javascript:void(0)" class="prev commControl">Previous</a></li>
+                                    <li><a href="javascript:void(0)">1</a></li>
+                                    <li><a href="javascript:void(0)" class="active">2</a></li>
+                                    <li><a href="javascript:void(0)">3</a></li>
+                                    <li><a href="javascript:void(0)">4</a></li>
+                                    <li><a href="javascript:void(0)">5</a></li>
+                                    <li><a class="dots">...</a></li>
+                                    <li><a href="javascript:void(0)">119</a></li>
+                                    <li><a href="javascript:void(0)" class="next commControl">Next</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--brows stores section end-->
+
+    <section class="cards">
+        <div class="container">
+            <div class="card_inner boxs">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="cards_content boxs">
+                            <img src="img/cardimg1.png" alt="cardimg" class="img-responsive">
+                            <h4>Gift Cards</h4>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="cards_content boxs">
+                            <img src="img/cardimg2.png" alt="cardimg" class="img-responsive">
+                            <h4>100% ORIGINAL </h4>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="cards_content boxs">
+                            <img src="img/cardimg3.png" alt="cardimg" class="img-responsive">
+                            <h4>Easy Returns</h4>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="f_inner boxs">
+                <div class="row">
+
+                    <div class="col-sm-8 bd_ryt">
+                        <div class="f_lft boxs">
+                            <div class="row">
+                                <div class="col-sm-6 width40 res_dnone">
+                                    <div class="lft_item boxs">
+                                        <a href="index" class="f_logo"><img src="img/logo.png" alt="logo" class="img-responsive"></a>
+                                        <p class="copyright">Canadian Markets <br>&copy; 2019 Canadiane Market</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 width60">
+                                    <div class="f_links boxs">
+                                        <ul>
+                                            <li><a>Categories</a></li>
+                                            <li><a href="stores">Stores</a></li>
+                                            <li><a href="marketplace">Marketplace</a></li>
+                                            <li><a href="restaurants">Restaurants</a></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <div class="f_links boxs">
+                                        <ul>
+                                            <li><a>Quick Links</a></li>
+                                            <li><a href="terms">Terms and Conditions</a></li>
+                                            <li><a href="privacy">Privacy Policy</a></li>
+                                            <li><a href="help">Help</a></li>
+                                            <li><a href="javascript:void(0)">Refer a Friend</a></li>
+                                            <li><a href="partnerwithus">Partner with Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="f_ryt boxs">
+                            <div class="fryt_inner boxs">
+                                <h3>Subscribe Now</h3>
+                                <div class="subscribebtn boxs">
+                                    <div class="input_group">
+                                        <input id="subscribe" type="text" class="form-control" name="subscribe" placeholder="Enter Your email address">
+                                        <a href="javascript:void(0)" class="slidehover"><img src="img/subicon.png" alt="subicon" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                                <div class="social_links boxs">
+                                    <a href="javascript:void(0)"><img src="img/sicon.png" alt="sicon" class="img center-block"></a>
+                                    <a href="javascript:void(0)"><img src="img/sicon2.png" alt="sicon" class="img-responsive center-block"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- register modal start -->
+    <div id="register" class="modal fade register" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btnclose" data-dismiss="modal"><img src="img/cross2.png" alt="cross2" class="img-responsive center-block"></button>
+                    <div class="register_inner modalflex">
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_lft boxs">
+                                <img src="img/regimg.png" alt="regimg" class="img-responsive center-block reshide">
+                                <img src="img/res_signupBanner.png" alt="regimg" class="img-responsive center-block resshow">
+                                <div class="reg_lft_heading">
+                                    <h3>Register</h3>
+                                    <p>Join Canadian E Market</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_ryt boxs">
+                                <form>
+                                    <div class="formbox boxs">
+                                        <h6>Fill the form</h6>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="email">Email address <sup>*</sup></label>
+                                                    <input type="email" class="form-control" id="email">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="uname">User Name <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="uname">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="pswd">Password <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="pswd">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="registerbtns boxs">
+                                                    <button class="regbtn slidehover">Register</button>
+                                                    <p>or</p>
+                                                    <div class="social_links">
+                                                        <a href="javascript:void(0)"><img src="img/sicon.png" alt="sicon" class="img center-block"></a>
+                                                        <a href="javascript:void(0)"><img src="img/sicon2.png" alt="sicon" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <p class="modalfont">Already a member? <a href="javascript:void(0)">Sign In.</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- register modal end -->
+
+    <!-- login modal start -->
+    <div id="login" class="modal fade register" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btnclose" data-dismiss="modal"><img src="img/cross2.png" alt="cross2" class="img-responsive center-block"></button>
+                    <div class="register_inner modalflex">
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_lft boxs">
+                                <img src="img/regimg.png" alt="regimg" class="img-responsive center-block reshide">
+                                <img src="img/res_signupBanner.png" alt="regimg" class="img-responsive center-block resshow">
+                                <div class="reg_lft_heading">
+                                    <h3>Login</h3>
+                                    <p>Login into Canadian E Market</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_ryt boxs">
+                                <form>
+                                    <div class="formbox boxs">
+                                        <h6>Fill the form</h6>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="uname">User Name <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="uname" placeholder="Enter your name">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="pswd">Password <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="pswd" placeholder="********">
+                                                </div>
+                                                <div class="forgotpass boxs">
+                                                    <a href="javascript:void(0)" class="forgotbtn">Forgot Password?</a>
+                                                    <div class="tick">
+                                                        <input type="checkbox" class="tick_input" id="tick1">
+                                                        <label for="tick1"><span></span>Create an account?</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="registerbtns boxs">
+                                                    <button class="regbtn slidehover">LOGIN</button>
+                                                    <p>or</p>
+                                                    <div class="social_links">
+                                                        <a href="javascript:void(0)"><img src="img/sicon.png" alt="sicon" class="img center-block"></a>
+                                                        <a href="javascript:void(0)"><img src="img/sicon2.png" alt="sicon" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <p class="modalfont">Not a member? <a href="javascript:void(0)">Register Now!</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- login modal end -->
+
+    <!--    top button-->
+    <div class="top">
+        <i class="fa fa-arrow-circle-up"></i>
+    </div>
+    <!--    top button-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

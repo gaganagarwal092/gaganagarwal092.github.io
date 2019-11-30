@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_row_" width="687" height="285" data-name="&lt;row&gt;" viewBox="0 0 687 285">
+    <defs>
+        <style>
+            .cls-1,.cls-4,.cls-7,.cls-9{fill:none}.cls-2{fill:#757680;font-size:12px;font-family:MercurySSm-Book}.cls-3,.cls-6{fill:#4e4f5c;font-size:18px;font-family:SofiaPro-Medium,Sofia Pro;font-weight:500}.cls-3{letter-spacing:.01em}.cls-4{stroke:#fff}.cls-4,.cls-7,.cls-9{stroke-miterlimit:10;stroke-width:3px}.cls-5{fill:#fff;stroke:#707070}.cls-7{stroke:#e1e0e0}.cls-8{fill:#e1e0e0}.cls-9{stroke:#000}
+        </style>
+    </defs>
+    <g id="_.col-sm-2" data-name=".col-sm-2" transform="translate(251)">
+        <g id="background">
+            <path id="Rectangle" d="M0 0h185v285H0z" class="cls-1"/>
+        </g>
+        <g id="_p_" data-name="&lt;p&gt;" transform="translate(34 183)">
+            <text id="R:239_·_G:183_·_B:60" class="cls-2" data-name="R:239 · G:183 · B:60" transform="translate(59 12)">
+                <tspan x="-60.792" y="0">R: 255, G: 255, B: 255</tspan><tspan x="-56.232" y="15">C: 0, M: 0, Y: 0, K: 0</tspan>
+            </text>
+        </g>
+        <g id="_h4_" data-name="&lt;h4&gt;" transform="translate(55 147)">
+            <text id="_EFB73C" class="cls-3" data-name="#EFB73C" transform="translate(38 18)">
+                <tspan x="-25.344" y="0">#ffffff</tspan>
+            </text>
+        </g>
+        <g id="_figure_" data-name="&lt;figure&gt;" transform="translate(63 75)">
+            <circle id="Oval" cx="30" cy="30" r="30" class="cls-4"/>
+            <circle id="Oval-2" cx="15" cy="15" r="15" class="cls-5" data-name="Oval" transform="translate(15 15)"/>
+        </g>
+    </g>
+    <g id="_.col-sm-2-2" data-name=".col-sm-2" transform="translate(502)">
+        <g id="background-2" data-name="background">
+            <path id="Rectangle-2" d="M0 0h185v285H0z" class="cls-1" data-name="Rectangle"/>
+        </g>
+        <g id="_p_2" data-name="&lt;p&gt;" transform="translate(24 183)">
+            <text id="R:68_·_G:42_·_B:116" class="cls-2" data-name="R:68 · G:42 · B:116" transform="translate(69 12)">
+                <tspan x="-59.028" y="0">R: 255, G: 244 B: 244</tspan><tspan x="-59.712" y="15">C: 10, M: 8, Y: 8, K: 0</tspan>
+            </text>
+        </g>
+        <g id="_h4_2" data-name="&lt;h4&gt;" transform="translate(56 147)">
+            <text id="_442A74" class="cls-6" data-name="#442A74" transform="translate(37 18)">
+                <tspan x="-34.965" y="0">#e1e0e0</tspan>
+            </text>
+        </g>
+        <g id="_figure_2" data-name="&lt;figure&gt;" transform="translate(63 75)">
+            <circle id="Oval-3" cx="30" cy="30" r="30" class="cls-7" data-name="Oval"/>
+            <circle id="Oval-4" cx="15" cy="15" r="15" class="cls-8" data-name="Oval" transform="translate(15 15)"/>
+        </g>
+    </g>
+    <g id="_.col-sm-2-3" data-name=".col-sm-2">
+        <g id="background-3" data-name="background">
+            <path id="Rectangle-3" d="M0 0h185v285H0z" class="cls-1" data-name="Rectangle"/>
+        </g>
+        <g id="_p_3" data-name="&lt;p&gt;" transform="translate(24 183)">
+            <text id="R:0_·_G:63_·_B:34_C:" class="cls-2" data-name="R:0 · G:63 · B:34 C:" transform="translate(69 12)">
+                <tspan x="-39.912" y="0">R: 0, G: 0, B: 0</tspan><tspan x="-70.152" y="15">C: 75, M: 68, Y: 67, K: 90</tspan>
+            </text>
+        </g>
+        <g id="_h4_3" data-name="&lt;h4&gt;" transform="translate(56 147)">
+            <text id="_003F22" class="cls-6" data-name="#003F22" transform="translate(37 18)">
+                <tspan x="-38.682" y="0">#000000</tspan>
+            </text>
+        </g>
+        <g id="_figure_3" data-name="&lt;figure&gt;" transform="translate(63 75)">
+            <circle id="Oval-5" cx="30" cy="30" r="30" class="cls-9" data-name="Oval"/>
+            <circle id="Oval-6" cx="15" cy="15" r="15" data-name="Oval" transform="translate(15 15)"/>
+        </g>
+    </g>
+</svg>

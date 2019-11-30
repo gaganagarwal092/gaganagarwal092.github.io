@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+
+    <title>Career Details | Canadian E Market</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="h_top">
+                <div class="row rowflex">
+                    <div class="col-sm-6 width40">
+                        <div class="h_top_lft">
+                            <a href="javascript:void(0)">Welcome to canadianemarket.ca</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 width60">
+                        <div class="h_top_ryt">
+                            <div class="chat_box chat_box_header">
+                                <a href="javascript:void(0)" class="chat">
+                                    <img src="img/chat_03.png" alt="chat">
+                                    <span>Support</span>
+                                </a>
+                            </div>
+                            <div class="dropbox">
+                                <div class="drop_down">
+                                    <button class="dropbtn dropbtn1" type="button"><img src="img/country.png" alt="country" class="img-responsive changFlg"><span>Canada</span> <img src="img/arrowdwn.png" alt="arrowdwn" class="img-responsive rotate"></button>
+                                    <ul class="drop_menu drop_menu_s ">
+                                        <li><a href="javascript:void(0)"><img src="img/indFlg.png" alt="country" class="img-responsive">India</a></li>
+                                        <li><a href="javascript:void(0)"><img src="img/country.png" alt="country" class="img-responsive">USA</a></li>
+                                        <li><a href="javascript:void(0)"><img src="img/country.png" alt="country" class="img-responsive">France</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropbox">
+                                <div class="drop_down">
+                                    <button class="dropbtn dropbtn2" type="button"><span>Winnipeg</span> <img src="img/arrowdwn.png" alt="arrowdwn" class="img-responsive rotate"></button>
+                                    <ul class="drop_menu drop_menu2 drop_menu_s2">
+                                        <li><a href="javascript:void(0)">Winnipeg1</a></li>
+                                        <li><a href="javascript:void(0)">Winnipeg2</a></li>
+                                        <li><a href="javascript:void(0)">Winnipeg3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropbox">
+                                <div class="drop_down">
+                                    <button class="dropbtn dropbtn3" type="button"><img src="img/lang.png" alt="lang" class="img-responsive changFlg"><span>EN</span> <img src="img/arrowdwn.png" alt="arrowdwn" class="img-responsive rotate"></button>
+                                    <ul class="drop_menu drop_menu_s3">
+                                        <li><a href="#"><img src="img/lang.png" alt="lang" class="img-responsive">FN</a></li>
+                                        <li><a href="#"><img src="img/lang.png" alt="lang" class="img-responsive">EN</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h_btm">
+                <div class="row rowflex">
+                    <div class="col-sm-6">
+                        <div class="h_btm_lft">
+                            <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                            <a class="brand_logo" href="index"><img src="img/logo.png" class="img-responsive res_logo_hide" alt="logo"><img src="img/res_logo.png" class="img-responsive res_logo_show" alt="logo"></a>
+                            <div class="searchbox searchboxindex">
+                                <div class="input_group">
+                                    <input id="search" type="text" class="form-control" name="search" placeholder="Restaurents, grocery, fashion">
+                                    <a href="javascript:void(0)"><img src="img/searchicon.png" alt="searchicon" class="img-responsive"></a>
+                                </div>
+                            </div>
+                            <form id="demo-2" class="searchrespon head_search">
+                                <input type="search" placeholder="Search">
+                            </form>
+                            <div class="carticon">
+                                <a href="javascript:void(0)"><img src="img/cart2.png" alt="cart"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 dnone">
+                        <div class="h_btm_ryt">
+                            <p><a href="javascript:void(0)" class="login" data-toggle="modal" data-target="#login">login</a> / <a href="javascript:void(0)" class="login" data-toggle="modal" data-target="#register">Register</a></p>
+                            <p>
+                                <a href="javascript:void(0)" class="basket"><img src="img/basket.png" alt="basket" class="img-responsive"></a>
+                                <a href="javascript:void(0)" class="detectbtn"><img src="img/detectloc.png" alt="detectloc" class="img-responsive">Detect Location</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- sidenav start -->
+    <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="morebtn">Detect Location</a>
+        <a href="javascript:void(0)" data-toggle="modal" data-target="#login" class="morebtn lgn">Login</a>
+        <a href="javascript:void(0)" ata-toggle="modal" data-target="#register" class="morebtn ">Register</a>
+        <a href="cart" class="morebtn ">Cart</a>
+
+        <a href="stores" class="morebtn lgn">Stores</a>
+        <a href="marketplace" class="morebtn lgn">Marketplace</a>
+        <a href="restaurantslisting" class="morebtn">Restaurants</a>
+        <a href="javascript:void(0)" class="more_btn">More <img src="img/arrowdwn.png" class="rotate"></a>
+        <div class="more_Links">
+            <a href="terms" class="morebtn">Terms and Conditions</a>
+            <a href="privacy" class="morebtn">Privacy Policy</a>
+            <a href="help" class="morebtn">Help</a>
+            <a href="javascript:void(0)" class="morebtn">Refer a Friend</a>
+            <a href="partnerwithus" class="morebtn">Partner with Us</a>
+        </div>
+    </div>
+    <!-- sidenav start -->
+
+    <section class="career_details topScrl">
+        <div class="container">
+            <div class="bread_crumb breadcrumb_shipping">
+                <ul class="bread_crumb_menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a><i class="fa fa-angle-right"></i></a></li>
+                    <li><a href="#" class="active">Career</a></li>
+                </ul>
+            </div>
+            <div class="career_inner boxs">
+                <div class="career_head boxs">
+                    <h2>Photography Intern – collaboration / Unpaid</h2>
+                </div>
+
+                <div class="career_details_inner boxs">
+                    <div class="jobdetail boxs jobdetailcareer">
+                        <div class="jobimg">
+                            <img src="img/jobimg3.png" alt="jobimg" class="img-responsive center-block">
+                        </div>
+                        <div class="jobcontent">
+                            <div class="jobflex">
+                                <div class="jobdata">
+                                    <h4>Photography Intern – collaboration / Unpaid</h4>
+                                    <h5>Collaboration, Internship - Unpaid</h5>
+                                    <p><span><img src="img/career_loc.png" alt="career_loc" class="img-responsive">Winnipeg</span>
+                                        <span><img src="img/career_calender.png" alt="career_calender" class="img-responsive">Posted 3 weeks ago</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="C_deatils boxs">
+                        <p>Want to be a part of something that will change the way people Shop? Are you highly organized, a strong communicator, a people’s person and an upcoming photographer? Above all, are you willing to sacrifice the short-term for the long-term?</p>
+                        <p>If yes, then we would like to hear from you. Canadian E Market (SkipTheMall), a local On-Demand Online shopping and Delivery Service startup is looking to hire a Photography Intern in an unpaid collaboration role (either for experience, School Credit or fun), to help take quality product photos, event photos, and social media/Ads/banner photos.</p>
+
+                        <h4>Canadian E Market (SkipTheMall)</h4>
+                        <p>Canadian E Market has created a way for shoppers to Skip the Mall, traffic, long drives or checkout queues on busy days, and do all their shopping from either a single local store or multiple local stores in one order, from the comfort of their homes or offices or from anywhere in the city and have their orders delivered in minutes or at a time of their choosing. You can call us “The Uber for shopping”. We run errands, so shoppers can be more productive with their precious time. Through the Canadian E Market App and platform, local stores now have the opportunity to reach customers at all ends of the city, making it possible for shoppers and local stores within the same city, to access each other more easily by eliminating the factors that affect shopping, like distance, weather, busy schedules, shipping wait time (having to wait up to 2 days for your orders to be delivered, when you shop online with major online retail giants) etc.</p>
+
+                        <h4>Company Objective</h4>
+                        <p>Our Objective is to simplify shopping for Canadians and to help local brick and mortar retail stores increase their city-wide reach and provide them with tools and a very seamless way to fully participate in the constantly growing online shopping industry in Canada, while being able to maintain their physical, local locations.</p>
+
+                        <div class="careerPoints boxs">
+                            <p>Creative and possess excellent communication skills</p>
+                            <p>Strong eye for design and visual content</p>
+                            <p>Very interested in trends</p>
+                            <p>Passionate</p>
+                            <p>Team player</p>
+                            <p>Confident about connecting with people and can confidently express an idea</p>
+                            <p>Confident in answering questions and inquiries.</p>
+                        </div>
+                        <p class="notepoint"><sup>*</sup> Having a prior background in photography, content creation or social media is an asset, but not required.</p>
+
+
+                        <h4>Disclaimer</h4>
+                        <p>This is a 4-6 months unpaid internship/collaborations, and has the potential for renewal and/or full-time/part-time paid employment status in a management position, at the end of this period. You must be willing to attend the Company’s strategy meeting, at least once a week and work remotely with you own flexible schedules. <br>Requirement <br>This position requires you to have your own laptop.</p>
+
+                        <h4>How to Apply</h4>
+                        <p>Please send your resume and cover letter to admin@canadianemarket.ca , using the subject “PHOTOGRAPHY INTERN – COLLABORATION / UNPAID”. OR Apply Online by submitting your resume on the company’s website: https://canadianemarket.ca/ca/jobs</p>
+
+                        <h4>Job Type</h4>
+                        <p>Collaboration <br>Internship – Unpaid</p>
+
+                        <p class="notepoint"><sup>*</sup> Apply only if you have the zeal to learn, excel and grow. Experience a startup without the frills!</p>
+                    </div>
+
+                    <div class="cjobfeatures boxs">
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="jb_lft boxs">
+                                        <h4>Apply Online</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>First Name <i class="fa fa-asterisk"></i></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>Last Name <i class="fa fa-asterisk"></i></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>Email <i class="fa fa-asterisk"></i></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>Cover Letter <i class="fa fa-asterisk"></i></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="jb_lft boxs">
+                                        <div class="archivesbar width width2">
+                                            <div class="categorybox">
+                                                <div class="cate_drop_down">
+                                                    <p>Job Category</p>
+                                                    <button class="cate_dropbtn cate_dropbtn1" type="button"><span>Media</span> <img src="img/arrowdwn.png" alt="arrowdwn" class="img-responsive rotate"></button>
+                                                    <ul class="cate_drop_menu cate_drop_menu_s1">
+                                                        <li><a href="javascript:void(0)">Media 1</a></li>
+                                                        <li><a href="javascript:void(0)">Media 2</a></li>
+                                                        <li><a href="javascript:void(0)">Media 3</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="jb_ryt boxs">
+                                        <!-- <h4>Apply Online</h4> -->
+                                        <div class="archivesbar width width3">
+                                            <div class="categorybox">
+                                                <div class="cate_drop_down">
+                                                    <p>Attach Resume<i class="fa fa-asterisk"></i></p>
+                                                    <div class="file-upload">
+                                                        <div class="file-select">
+                                                            <div class="file-select-name" id="noFile">No file chosen...</div>
+                                                            <div class="file-select-button" id="fileName">Browse</div>
+                                                            <input type="file" name="chooseFile" id="chooseFile">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <a href="javascript:void(0)" class="slidehover subbtn">SUBMIT</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards">
+        <div class="container">
+            <div class="card_inner boxs">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="cards_content boxs">
+                            <img src="img/cardimg1.png" alt="cardimg" class="img-responsive">
+                            <h4>Gift Cards</h4>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="cards_content boxs">
+                            <img src="img/cardimg2.png" alt="cardimg" class="img-responsive">
+                            <h4>100% ORIGINAL </h4>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="cards_content boxs">
+                            <img src="img/cardimg3.png" alt="cardimg" class="img-responsive">
+                            <h4>Easy Returns</h4>
+                            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="f_inner boxs">
+                <div class="row">
+
+                    <div class="col-sm-8 bd_ryt">
+                        <div class="f_lft boxs">
+                            <div class="row">
+                                <div class="col-sm-6 width40 res_dnone">
+                                    <div class="lft_item boxs">
+                                        <a href="index" class="f_logo"><img src="img/logo.png" alt="logo" class="img-responsive"></a>
+                                        <p class="copyright">Canadian Markets <br>&copy; 2019 Canadiane Market</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 width60">
+                                    <div class="f_links boxs">
+                                        <ul>
+                                            <li><a>Categories</a></li>
+                                            <li><a href="stores">Stores</a></li>
+                                            <li><a href="marketplace">Marketplace</a></li>
+                                            <li><a href="restaurants">Restaurants</a></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <div class="f_links boxs">
+                                        <ul>
+                                            <li><a>Quick Links</a></li>
+                                            <li><a href="terms">Terms and Conditions</a></li>
+                                            <li><a href="privacy">Privacy Policy</a></li>
+                                            <li><a href="help">Help</a></li>
+                                            <li><a href="javascript:void(0)">Refer a Friend</a></li>
+                                            <li><a href="partnerwithus">Partner with Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="f_ryt boxs">
+                            <div class="fryt_inner boxs">
+                                <h3>Subscribe Now</h3>
+                                <div class="subscribebtn boxs">
+                                    <div class="input_group">
+                                        <input id="subscribe" type="text" class="form-control" name="subscribe" placeholder="Enter Your email address">
+                                        <a href="javascript:void(0)" class="slidehover"><img src="img/subicon.png" alt="subicon" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                                <div class="social_links boxs">
+                                    <a href="javascript:void(0)"><img src="img/sicon.png" alt="sicon" class="img center-block"></a>
+                                    <a href="javascript:void(0)"><img src="img/sicon2.png" alt="sicon" class="img-responsive center-block"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- register modal start -->
+    <div id="register" class="modal fade register" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btnclose" data-dismiss="modal"><img src="img/cross2.png" alt="cross2" class="img-responsive center-block"></button>
+                    <div class="register_inner modalflex">
+
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_lft boxs">
+                                <img src="img/regimg.png" alt="regimg" class="img-responsive center-block">
+                                <div class="reg_lft_heading">
+                                    <h3>Register</h3>
+                                    <p>Join Canadian E Market</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_ryt boxs">
+                                <form>
+                                    <div class="formbox boxs">
+                                        <h6>Fill the form</h6>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="email">Email address <sup>*</sup></label>
+                                                    <input type="email" class="form-control" id="email">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="uname">User Name <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="uname">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="pswd">Password <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="pswd">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="registerbtns boxs">
+                                                    <button class="regbtn slidehover">Register</button>
+                                                    <p>or</p>
+                                                    <div class="social_links">
+                                                        <a href="javascript:void(0)"><img src="img/sicon.png" alt="sicon" class="img center-block"></a>
+                                                        <a href="javascript:void(0)"><img src="img/sicon2.png" alt="sicon" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <p class="modalfont">Already a member? <a href="javascript:void(0)">Sign In.</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- register modal end -->
+
+    <!-- login modal start -->
+    <div id="login" class="modal fade register" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btnclose" data-dismiss="modal"><img src="img/cross2.png" alt="cross2" class="img-responsive center-block"></button>
+                    <div class="register_inner modalflex">
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_lft boxs">
+                                <img src="img/regimg.png" alt="regimg" class="img-responsive center-block">
+                                <div class="reg_lft_heading">
+                                    <h3>Login</h3>
+                                    <p>Login into Canadian E Market</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 modalflex nopadding">
+                            <div class="reg_ryt boxs">
+                                <form>
+                                    <div class="formbox boxs">
+                                        <h6>Fill the form</h6>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="uname">User Name <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="uname" placeholder="Enter your name">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="pswd">Password <sup>*</sup></label>
+                                                    <input type="text" class="form-control" id="pswd" placeholder="********">
+                                                </div>
+                                                <div class="forgotpass boxs">
+                                                    <a href="javascript:void(0)" class="forgotbtn">Forgot Password?</a>
+                                                    <div class="tick">
+                                                        <input type="checkbox" class="tick_input" id="tick1">
+                                                        <label for="tick1"><span></span>Create an account?</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="registerbtns boxs">
+                                                    <button class="regbtn slidehover">LOGIN</button>
+                                                    <p>or</p>
+                                                    <div class="social_links">
+                                                        <a href="javascript:void(0)"><img src="img/sicon.png" alt="sicon" class="img center-block"></a>
+                                                        <a href="javascript:void(0)"><img src="img/sicon2.png" alt="sicon" class="img-responsive center-block"></a>
+                                                    </div>
+                                                </div>
+                                                <p class="modalfont">Not a member? <a href="javascript:void(0)">Register Now!</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- login modal end -->
+
+    <!--    top button-->
+    <div class="top">
+        <i class="fa fa-arrow-circle-up"></i>
+    </div>
+    <!--    top button-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        // choose file career deatil page
+
+        $('#chooseFile').bind('change', function() {
+            var filename = $("#chooseFile").val();
+            if (/^\s*$/.test(filename)) {
+                $(".file-upload").removeClass('active');
+                $("#noFile").text("No file chosen...");
+            } else {
+                $(".file-upload").addClass('active');
+                $("#noFile").text(filename.replace("C:\\fakepath\\", ""));
+            }
+        });
+
+        // choose file career deatil page
+
+    </script>
+</body>
+
+</html>

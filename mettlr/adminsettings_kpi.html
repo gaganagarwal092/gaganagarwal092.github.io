@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+
+    <title>Mettlr | Admin Settigs | KPI</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="header_lft">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="javascript:void(0)">
+                                Mettlr
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="nav navbar-nav menu">
+                                <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                                <li><a href="timeline.html">Timeline</a></li>
+                                <li><a href="kpi.html">KPI</a></li>
+                                <li><a href="challenges.html">Challenges</a></li>
+                                <li><a href="adminsettings_users.html">Admin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="anchorhover">
+                    <a href="javascript:void(0)" class="notfication"><img src="img/ball.svg" alt="notifications"></a>
+                    <div class="notifybox">
+                        <span class="triangle"></span>
+                        <div class="noti_content boxs">
+                            <div class="noti_data boxs">
+                                <h3>New question<span>47 Minutes ago</span></h3>
+                                <p>Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out</p>
+                            </div>
+                            <div class="bdr_btm"></div>
+                            <div class="noti_data boxs">
+                                <h3>New question<span>59 Minutes ago</span></h3>
+                                <p>Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out</p>
+                            </div>
+                            <div class="bdr_btm"></div>
+                            <div class="noti_data boxs">
+                                <h3>New question<span>1 day ago</span></h3>
+                                <p>Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out</p>
+                            </div>
+                        </div>
+                        <div class="boxs">
+                            <a href="notifications.html" class="viewallbtn">View all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_rht">
+                <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="profileBox">
+                    <a href="javascirpt:void(0)" class="dropbox">
+                        <img src="img/user.png" class="img-responsive" alt="user">
+                        <h4>Johny doe <img src="img/arrowdwn.svg" alt="arrow" class="rotate"></h4>
+                    </a>
+                    <div class="dropmenu">
+                        <span class="triangle"></span>
+                        <a href="profile.html">Profile</a>
+                        <a href="javascript:void(0)" data-toggle="modal" data-target="#help">Help</a>
+                        <a href="index.html">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- adminmenu start -->
+    <div class="adminmenu" id="adminmenu">
+        <a href="dashboard.html" class="">
+            <img src="img/dashboard.png" alt="dashboard" class="imghide">
+            <img src="img/dashboard2.png" alt="dashboard" class="imgshow">
+            Dashboard</a>
+        <a href="reporting.html" class="">
+            <img src="img/reporting.png" alt="reporting" class="imghide">
+            <img src="img/reporting2.png" alt="reporting" class="imgshow">
+            Reporting</a>
+        <a href="content.html" class="">
+            <img src="img/content.png" alt="content" class="imghide">
+            <img src="img/content2.png" alt="content" class="imgshow">
+            Content</a>
+        <a href="adminsettings_users.html" class="active">
+            <img src="img/adminsetting.png" alt="adminsetting" class="imghide">
+            <img src="img/adminsetting2.png" alt="adminsetting" class="imgshow">
+            Admin Settings</a>
+    </div>
+    <!-- adminmenu end -->
+
+    <section class="admin boxs">
+        <div class="container-fluid">
+            <div class="admin_iner boxs">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="admintabs boxs">
+                            <ul>
+                                <li><a href="adminsettings_users.html">Users</a></li>
+                                <li><a href="adminsettings_usergroup.html">Usergroups</a></li>
+                                <li><a href="adminsettings_kpi.html" class="active">KPI upload</a></li>
+                                <li><a href="adminsettings_api.html">App images</a></li>
+                                <li><a href="adminsettings_lang.html">Language</a></li>
+                                <li><a href="adminsettings_msg.html">Welcome message</a></li>
+                            </ul>
+                        </div>
+                        <div class="entries boxs">
+                            <div class="entries_lft">
+                                <div class="EntryList boxs">
+                                    <span>show</span>
+                                    <select>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                        <option value="">6</option>
+                                        <option value="">7</option>
+                                        <option value="">8</option>
+                                        <option value="">9</option>
+                                        <option value="">10</option>
+                                    </select>
+                                    <span>entries</span>
+                                </div>
+                            </div>
+                            <div class="entries_ryt">
+                                <div class="fryt">
+                                    <a href="javascript:void(0)" class="addcntnt">Upload KPI file</a>
+                                    <div class="FileExport boxs">
+                                        <a href="javascript:void(0)"><img src="img/export.png" alt="import" class="img-responsive">Export</a>
+                                    </div>
+                                    <div class="searchbox boxs">
+                                        <div class="SearchItm">
+                                            <input type="text" class="form-control" placeholder="Search"><a href="javascript:void(0)"><span><img src="img/search.png" alt="search" class="img-responsive"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="entriesDtls_wrp boxs">
+                            <div class="EntriesDetails boxs">
+                                <ul class="ASU_Head boxs">
+                                    <li class="width1">File name <img src="img/arrowdown.png" alt="arrowdown" class="img-responsive"></li>
+                                    <li class="width2">Records <img src="img/arrowdown.png" alt="arrowdown" class="img-responsive"></li>
+                                    <li class="width3">Uploaded <img src="img/arrowdown.png" alt="arrowdown" class="img-responsive"></li>
+                                    <li class="width4">Actions</li>
+                                </ul>
+                                <div class="ASU_Lists boxs">
+                                    <ul>
+                                        <li class="width1">Evert 42 fuel.csv</li>
+                                        <li class="width2">6</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Pilot data.csv</li>
+                                        <li class="width2">5</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Pilot data.csv</li>
+                                        <li class="width2">4</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Pilot wk48.csv</li>
+                                        <li class="width2">6</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Evert 42 fuel.csv</li>
+                                        <li class="width2">5</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Evert 42 fuel.csv</li>
+                                        <li class="width2">6</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Pilot data.csv</li>
+                                        <li class="width2">5</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Pilot data.csv</li>
+                                        <li class="width2">4</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Pilot wk48.csv</li>
+                                        <li class="width2">6</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Evert 42 fuel.csv</li>
+                                        <li class="width2">5</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Evert 42 fuel.csv</li>
+                                        <li class="width2">6</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Pilot data.csv</li>
+                                        <li class="width2">5</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Pilot data.csv</li>
+                                        <li class="width2">4</li>
+                                        <li class="width3">2017-10-20 12:54:56</li>
+                                        <li class="width4">
+                                            <a href="javascript:void(0)"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#delete"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pagination_main boxs">
+                                    <div class="showEntr">
+                                        <p>Showing <span>1</span> to <span>13</span> of <span>13</span> entries</p>
+                                    </div>
+                                    <ul class="pagination">
+                                        <li><a href="#">Prev</a></li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">Next</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer class="footer boxs">
+        <div class="container-fluid">
+            <div class="f_inner boxs">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="f_logo boxs">
+                            <a href="javascript:void(0)">Mettlr</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="f_links boxs">
+                            <a href="javascript:void(0)">Dashboard</a>
+                            <a href="javascript:void(0)">Timeline</a>
+                            <a href="javascript:void(0)">KPI</a>
+                            <a href="javascript:void(0)">Challenges</a>
+                            <a href="javascript:void(0)" class="active">Admin</a>       
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="copyright boxs">
+                            <p>Copyright © 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- delete modal start -->
+    <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#confirmorder">Open Modal</button> -->
+
+    <div id="delete" class="modal fade confirmorder" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><img src="img/cross.png" alt="cross" class="img-responsive"></button>
+                    <div class="confirmorderbox">
+                        <h2>Are you sure want to delete this content?</h2>
+                        <div class="orderbtns">
+                            <a href="javascript:void(0)" class="cncl">Cancel</a>
+                            <a href="javascript:void(0)" class="cnfrm">Save</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- delete modal end -->
+
+    <!-- successful modal start -->
+    <div id="success" class="modal fade success" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="successbox">
+                        <div class="success_smiley">
+                            <img src="img/smiley.png" alt="smiley" class="img-responsive center-block">
+                        </div>
+                        <div class="success_coins">
+                            <h2>Nice try</h2>
+                            <p>But the correct answer is <span>“ NO ”</span></p>
+                            <div class="starcoins boxs">
+                                <p><img src="img/star.png" alt="star" class="img-responsive"><span>2/20</span></p>
+                            </div>
+                            <a href="javascript:void(0)" class="conti">Countinue</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- successful modal end -->
+
+    <!-- unsuccessful modal start -->
+    <div id="failed" class="modal fade success" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="successbox">
+                        <div class="failed_smiley">
+                            <img src="img/sad.png" alt="sad" class="img-responsive center-block">
+                        </div>
+                        <div class="success_coins">
+                            <h2>Nice try</h2>
+                            <p>But the correct answer is <span>“ NO ”</span></p>
+                            <div class="starcoins boxs">
+                                <p><img src="img/star.png" alt="star" class="img-responsive"><span>2/20</span></p>
+                            </div>
+                            <a href="javascript:void(0)" class="conti">Countinue</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- unsuccessful modal end -->
+
+    <!-- help modal start -->
+    <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#help">Open Modal</button> -->
+
+    <div id="help" class="modal fade help" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><img src="img/cross.png" alt="cross" class="img-responsive"></button>
+                    <div class="helpbox">
+                        <div class="help_head">
+                            <h1>Help</h1>
+                        </div>
+                        <div class="help_para">
+                            <p>If you have any questions or suggestions for us, you can send an email to <a href="mailto:helpdesk@mettlr.nl">helpdesk@mettlr.nl</a> and we’ll get in touch with you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- help modal end -->
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

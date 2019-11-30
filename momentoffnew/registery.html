@@ -1,0 +1,751 @@
+<html lang="en">
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="icon" href="img/favicon/favicon.ico" type="image/ico" sizes="16x16">
+
+            <title>Momento | Registery</title>
+
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+            <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+            <link rel="stylesheet" type="text/css" href="css/slick.css">
+            <link rel="stylesheet" type="text/css" href="css/chosen.css">
+            <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
+            <link rel="stylesheet" type="text/css" href="css/media.css">
+
+        </head>
+        <body >
+            <div class="sidenav sidenav_info" id="mySidenav">
+                <a href="#" class="logo">Momento</a>
+                <a href="MomentoOverview.html" class=""><img src="img/home.svg" alt="icon">Overview</a>
+                <a href="MomentoOverviewcoupleinfo.html" class=""><img src="img/group.svg" alt="icon">Couple Info</a>
+                <a href="guest.html" class=""><img src="img/users.svg" alt="icon">Guests</a>
+                <a href="events.html" class=""><img src="img/calendar.svg" alt="icon">Events</a>
+                <a href="message.html" class=""><img src="img/message.svg" alt="icon">Message</a>
+                <a href="social.html" class=""><img src="img/chats.svg" alt="icon">Social</a>
+                <a href="checklist.html" class=""><img src="img/list.svg" alt="icon">Checklist</a>
+                <a href="budget.html" class=""><img src="img/moneynotes.svg" alt="icon">Budget</a>
+                <a href="registery.html" class="active"><img src="img/gift.svg" alt="icon">Registery</a>
+                <a href="settings.html" class=""><img src="img/settings.svg" alt="icon">Settings</a>
+            </div>
+
+
+            <div class="coupleinfo_outer height2 boxs ">
+
+                <!-- Header Start -->
+                <header class="header header_info">
+                    <div class="container-fluid">
+                        <nav class="navbar">
+                            <div class="container-fluid">
+                                <div class="">
+                                    <ul class="nav navbar-nav navbar-left">
+                                        <li><a href="javascript:void(0)">Audiences</a></li>
+                                        <li><a href="#">Leads</a></li>
+                                        <li><a href="#">Registeration</a></li>
+                                    </ul>
+                                    <ul class="avtarbox nav navbar-nav navbar-right">
+                                        <h3>
+                                            <!-- <img src="img/avatar.png" alt="avatar"> -->
+                                            Hello,<br><span>Julia Sandler</span>
+                                            <div class="dropdown dropdowndiv boxs trigger11">
+                                                <a href="javascript:void(0)" class="btn Fortabledropdown dropdown-toggle right boxs" type="button" id="dropdownMenu" data-toggle="dropdown"> <img src="img/avatar.png" class="img-responsive" alt="avatar"></a>
+                                                <ul class="dropdown-menu guestdropdown guestdropdown11" aria-labelledby="dropdownMenu">
+                                                    <div class="drop_inner boxs">
+                                                        <img class="inner_img img-responsive" src="img/avatar.png" alt="avatar">
+                                                        <h1>Julian & Veronica </h1>
+                                                        <p>davidjburgos@gmail.com</p>
+                                                        <li><a href="javascript:void(0)" class="DropDown first">
+                                                                <img class="switch img-responsive" src="img/switch_circle.png" alt="switch_circle"> 
+                                                                <img class="shover img-responsive" src="img/switch_hover.png" alt="switch_hover">  Switch Wedding </a></li>
+                                                    </div>
+
+                                                    <li><a href="javascript:void(0)" class="DropDown">
+                                                            Upgrade Plan </a></li>
+                                                    <li><a href="javascript:void(0)" class="DropDown">
+                                                            Account Settings </a></li>
+                                                    <li><a href="javascript:void(0)" class="DropDown">Log out </a></li>
+                                                </ul>
+                                            </div>
+                                        </h3>
+                                    </ul>
+                                    <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner"></span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+                <!-- Header End -->
+
+                <div class="coupleinfo_inner boxs guestD">
+                    <div class="col-xs-8 noleft gusetWidth1">
+                        <div class="coupleinfo_viewbox Guestwedding boxs">
+                            <h2>Registery</h2>
+                            <p>
+                                Here, you will manage your registery items, an overview of
+                                <span> what you are going to do and what’s done.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 noright gusetWidth2">
+                        <div class="guestDright boxs msg_viewsend addregistery">
+                            <div class="guestDrightinner boxs reg">
+                                <p><i data-toggle="modal" data-target="#regstorecloseModal"><a href="javascript:void(0)" data-toggle="tooltip" data-placement="bottom" title="Add New Registry"><span class="guestimg"><img src="img/reg_gift.svg" alt="guest" class="normalimg"><img src="img/reg_gift2.svg" alt="guest" class="hoverimg"></span></a></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- registery section start -->
+                <div class="registery boxs">
+                    <div class="registery_inner boxs">
+                        <!-- left section registery start -->
+                        <div class="col-xs-8 nopadding width100">
+                            <div class="registery_details boxs">
+                                <div class="col-xs-3 nopadding">
+                                    <div class="detail_box boxs">
+                                        <img src="img/reg_money.svg" alt="reg_money" class="img-responsive center-block">
+                                        <h3>MONEY COLLECTED</h3>
+                                        <h2>$1,223</h2>
+                                    </div>
+                                    <div class="detail_box boxs divhide">
+                                        <img src="img/reg_money.svg" alt="reg_money" class="img-responsive center-block">
+                                        <h3>$ COLLECTED</h3>
+                                        <h2>Not Connected</h2>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 nopadding">
+                                    <div class="detail_box boxs">
+                                        <img src="img/reg_help.svg" alt="reg_help" class="img-responsive center-block">
+                                        <h3>TOTAL ITEMS</h3>
+                                        <h2>224</h2>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 nopadding">
+                                    <div class="boxs">
+                                        <i><a href="javascript:void(0)" class="reg_share" data-toggle="tooltip" data-placement="top" title="GO TO XXX"><img src="img/reg_share.svg" alt="reg_share" class="img-responsive"></a></i>
+                                        <div class="detail_box boxs positionshare">
+                                            <img src="img/reg_tick.svg" alt="reg_tick" class="img-responsive center-block">
+                                            <h3>ITEM BOUGHT</h3>
+                                            <h2>23</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 nopadding">
+                                    <div class="detail_box boxs">
+                                        <img src="img/reg_help1.svg" alt="reg_help1" class="img-responsive center-block">
+                                        <h3>ITEM REMAINING</h3>
+                                        <h2>54</h2>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                        <!-- left section registery end --> 
+
+                        <!-- right section registery start -->
+                        <div class="col-sm-4 nopadding">
+                            <div class="printreg boxs">
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#regstoreModal"><img src="img/reg_printer.svg" alt="reg_printer" class="img-responsive printershow"><img src="img/reg_printer_hover.svg" alt="reg_printer_hover" class="img-responsive printerhide">Print Registry List</a>
+                            </div>
+                        </div>
+                        <!-- right section registery end -->
+                    </div>
+
+                    <div class="addreg boxs">
+                        <div class="col-lg-8 col-xs-12 nopadding">
+                            <div class="addreg_details boxs">
+                                <div class="col-sm-3 col-xs-4 nopadding paddingright ForRgistryWidth">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#regModal" class="openmodal">
+                                        <div class="addregdetail_box boxs empty">
+                                            <div class="regimg boxs">
+                                                <img src="img/addreg_icon.svg" alt="addreg_icon" class="img-responsive center-block normalimg"><img src="img/addreg_icon2.svg" alt="addreg_icon" class="img-responsive center-block hoverimg">
+                                            </div>
+                                            <div class="imgtags boxs">
+                                                <h3>Add New Registry</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-3 col-xs-4 nopadding paddingright ForRgistryWidth">
+                                    <a href="javascript:void(0)" class="disablebtn Hovereffect">
+                                        <div class="addregdetail_box boxs">
+                                            <img src="img/reg_help2.svg" alt="reg_help2" class="img-responsive imgright active" >
+                                            <div class="regimg boxs">
+                                                <img src="img/reg_paypal.svg" alt="reg_paypal" class="img-responsive center-block" >
+                                            </div>
+                                            <div class="imgtags bgcolor boxs">
+                                                <h3 class="visible">$1,223 collected <span>Paypal</span></h3>
+                                            </div>
+                                        </div>
+                                        <div class="addregdetail_box boxs divhide">
+                                            <img src="img/reg_help2.svg" alt="reg_help2" class="img-responsive imgright" data-toggle="tooltip" data-placement="top" title="GO TO XXX" > 
+                                            <div class="regimg boxs">
+                                                <img src="img/reg_paypal_disabled.svg" alt="reg_paypal_disabled" class="img-responsive center-block">
+                                            </div>
+                                            <div class="imgtags bgcolor boxs">
+                                                <h3 class="disableh3">Not Connected</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-3 col-xs-4 nopadding ForRgistryWidth">
+                                    <a href="javascript:void(0)" class="disablebtn Hovereffect">
+                                        <div class="addregdetail_box boxs">
+                                            <img src="img/reg_help2.svg" alt="reg_help2" class="img-responsive imgright active"> 
+                                            <div class="regimg boxs">
+                                                <img src="img/reg_amazon.png" alt="reg_amazon" class="img-responsive center-block">
+                                            </div>
+                                            <div class="imgtags bgcolor boxs">
+                                                <h3>2/5 items remaining <span>Amazon</span></h3>
+                                            </div>
+                                        </div>
+                                        <div class="addregdetail_box boxs divhide">
+                                            <img src="img/reg_help2.svg" alt="reg_help2" class="img-responsive imgright" data-toggle="tooltip" data-placement="top" title="GO TO XXX"> 
+                                            <div class="regimg boxs">
+                                                <img src="img/reg_paypal_disabled.svg" alt="reg_paypal_disabled" class="img-responsive center-block">
+                                            </div>
+                                            <div class="imgtags bgcolor boxs">
+                                                <h3 class="disableh3">Not Connected</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- registery section end -->
+            </div>
+
+
+
+
+
+            <!-- Trigger the modal with a button -->
+            <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#regModal">Open Modal</button> -->
+
+            <!-- Modal start -->
+            <div id="regModal" class="modal fade" role="dialog">
+                <div class="modal-dialog overviewmodalinner">
+
+                    <!-- Modal content start -->
+                    <div class="modal-content boxs">
+                        <div class="modal-header boxs">
+                            <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                            <button type="button" class="close popupcross" data-dismiss="modal"><img src="img/cross.svg" alt="cross" class="img-responsive"></button>
+                            <div class="regstore boxs">
+                                <div class="imgregstore">
+                                    <img src="img/reg_store.svg" alt="reg_store" class="img-responsive center-block">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-body boxs">
+                            <h2>START A RETAIL REGISTRY</h2>
+                            <div class="regslider boxs">
+                                <div class="regmodalslick">
+                                    <div class="regsliderimg">
+                                        <img src="img/regslickimg1.png" alt="regslickimg1" class="img-responsive center-block">
+                                    </div>
+                                    <div class="regsliderimg">
+                                        <img src="img/regslickimg1.png" alt="regslickimg1" class="img-responsive center-block">
+                                    </div>
+                                    <div class="regsliderimg">
+                                        <img src="img/regslickimg1.png" alt="regslickimg1" class="img-responsive center-block">
+                                    </div>
+                                    <div class="regsliderimg">
+                                        <img src="img/regslickimg1.png" alt="regslickimg1" class="img-responsive center-block">
+                                    </div>
+                                    <div class="regsliderimg">
+                                        <img src="img/regslickimg1.png" alt="regslickimg1" class="img-responsive center-block">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="import boxs">
+                                <h3>If you have one already</h3>
+                                <h2>IMPORT A RETAIL REGISTRY</h2>
+                                <div class="storeselect boxs">
+                                    <div class="col-xs-4 nopadding pdright">
+                                        <h4>Store</h4>
+                                        <div class="custom-select">
+                                            <select>
+                                                <option value="0">Amazon</option>
+                                                <option value="1">PayPal</option>
+                                            </select>
+                                        </div>    
+                                    </div>
+                                    <div class="col-xs-8 nopadding pdleft">
+                                        <h4>URL</h4>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="url">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer boxs">
+                            <button type="button" class="downloadbtn">Add Store</button>
+                        </div>
+                    </div>
+                    <!-- Modal content end -->
+
+                </div>
+            </div>
+            <!-- Modal end -->
+
+            <!-- Trigger the modal with a button -->
+            <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#regModal">Open Modal</button> -->
+
+            <!-- Modal start -->
+            <div id="regstoreModal" class="modal fade" role="dialog">
+                <div class="modal-dialog overviewmodalinner regstoreModal">
+
+                    <!-- Modal content start -->
+                    <div class="modal-content boxs">
+                        <div class="modal-header boxs">
+                            <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                            <button type="button" class="close popupcross" data-dismiss="modal"><img src="img/cross.svg" alt="cross" class="img-responsive"></button>
+                            <img src="img/reg_amazon.png" alt="reg_amazon" class="img-responsive center-block mgtop">
+                            <p><span>https://amazon.com/randomregisteryurl</span><b class="RedModalP"><a href="javascript:void(0)" class="editp"><img src="img/reg_editmodal.svg" alt="reg_editmodal"><i class="fa fa-check" aria-hidden="true"></i></a></b></p>
+                        </div>
+                        <div class="modal-body boxs">
+                            <div class="regitems boxs">
+                                <div class="regitems_heading boxs">
+                                    <div class="col-sm-4 nopadding">
+                                        <h3>ITEMS</h3>
+                                    </div>
+                                    <div class="col-sm-8 nopadding">
+                                        <div class="tick widthtick boxs">
+                                            <input type="checkbox" id="socialtick1" value="second_checkbox">
+                                            <label for="socialtick1"><span></span>Show only remainings</label>
+                                        </div>
+                                        <form>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Search by Name..">
+                                                <div class="input-group-btn">
+                                                    <button class="searchbtn" type="submit">
+                                                        <img src="img/chat_search.svg" alt="chat_search" class="img-responsive">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="register_store boxs feedbackscroll">
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x1</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth remain">
+                                            <p>1 Remain </p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer boxs">
+                            <a href="javascript:void(0)">Delete registry</a>
+                            <button type="button" class="downloadbtn stepnext">Add Store</button>
+                        </div>
+                    </div>
+                    <!-- Modal content end -->
+
+                </div>
+            </div>
+            <!-- Modal end -->
+            <div class="guestlistaddedmessage guestlistaddedmessage1">
+                <p><img src="img/guestmessage.svg" alt="added" class="GuestaddD">something has been deleted<a href="#" class="CrossD"><img src="img/guestcross.svg" alt="cross" ></a></p>
+            </div>
+
+            <!-- Trigger the modal with a button -->
+            <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#regstorecloseModal">Open Modal</button> -->
+
+            <!-- Modal start -->
+            <div id="regstorecloseModal" class="modal fade" role="dialog">
+                <div class="modal-dialog overviewmodalinner regstoreModal">
+
+                    <!-- Modal content start -->
+                    <div class="modal-content boxs">
+                        <div class="modal-header boxs">
+                            <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                            <button type="button" class="close editregmodal popupcross popupcross2 ADDGuestDelete" data-dismiss="modal"><img src="img/reg_delete.svg" alt="reg_delete" class="img-responsive center-block"></button>
+                            <button type="button" class="close popupcross" data-dismiss="modal"><img src="img/cross.svg" alt="cross" class="img-responsive"></button>
+                            <img src="img/reg_amazon.png" alt="reg_amazon" class="img-responsive center-block mgtop">
+                            <p><span>https://amazon.com/randomregisteryurl</span><b class="RedModalP"><a href="javascript:void(0)" class="editp"><img src="img/reg_editmodal.svg" alt="reg_editmodal"><i class="fa fa-check" aria-hidden="true"></i></a></b></p>
+                        </div>
+                        <div class="modal-body boxs">
+                            <div class="regitems boxs">
+                                <div class="regitems_heading boxs">
+                                    <div class="col-sm-4 nopadding">
+                                        <h3>ITEMS</h3>
+                                    </div>
+                                    <div class="col-sm-8 nopadding">
+                                        <div class="tick widthtick boxs">
+                                            <input type="checkbox" id="socialtick2" value="second_checkbox">
+                                            <label for="socialtick2"><span></span>Show only remainings</label>
+                                        </div>
+                                        <form>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Search by Name..">
+                                                <div class="input-group-btn">
+                                                    <button class="searchbtn" type="submit">
+                                                        <img src="img/chat_search.svg" alt="chat_search" class="img-responsive">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="register_store boxs feedbackscroll">
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x1</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth remain">
+                                            <p>1 Remain </p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+                                    <div class="storecol boxs">
+                                        <div class="widthS colwidth">
+                                            <p>Bought <img src="img/reg_modaltick.svg" alt="reg_modaltick"></p>
+                                        </div>
+                                        <div class="widthS colwidth2">
+                                            <p>Work out your budget</p>
+                                        </div>
+                                        <div class="widthS colwidth3">
+                                            <p>x3</p>
+                                        </div>
+                                        <div class="widthS colwidth4">
+                                            <p>$24.99</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer boxs">
+                            <button type="button" class="downloadbtn" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    <!-- Modal content end -->
+
+                </div>
+            </div>
+            <!-- Modal end -->
+            <script src="js/jquery.min.js"></script>
+            <script src='js/choosen3min.js'></script>
+            <script src="js/choosen1.js"></script> 
+            <script src="js/choosen.js"></script>
+            <script src="js/choosenmsg.js"></script> 
+            <script src="js/filedrag.js"></script>
+            <script src="js/dragdrop.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/moment.js"></script>
+            <script src="js/bootstrap-datetimepicker.min.js"></script>
+            <script src="js/slick.js"></script>
+            <script src="js/jquery.fancybox.js"></script>
+            <script src="js/jquery.ddslick.min.js"></script>
+            <script src="js/custom.js"></script> 
+        </body>
+    </html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+        
+        <title>Comentorate | Theatre</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/hamburgers.css" rel="stylesheet">
+        <link href="css/slick-theme.css" rel="stylesheet">
+        <link href="css/slick.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <!--Theatre page start-->
+        <div class="theatre boxs">
+            <div class="startup_left" id="startup_left">
+                <div class="follow_box_inner2_icon">
+                    <div class="fkex_boxs">
+                        <div class="leftmeicon">
+                            <div class="leftmeicon2">
+                                <img src="img/followicon1.svg" alt="followicon1">
+                            </div>
+                        </div>
+                        <div class="rightmetext">
+                            <p>Stephen Olson</p>
+                        </div>
+                    </div>
+
+                </div>
+                <img src="img/startup_bg.png" alt="startup" class="img-responsive startup_bg">
+
+                <div class="ftr_sec boxs">
+                    <img src="img/speakers.svg" alt="speakers" class="img-responsive">
+                     <a href="javascript:void(0)" class="comment"><i class="fa fa-comment" aria-hidden="true"></i></a>
+                    <div class="zoom_img">
+                        <a href="javascript:void(0)" id="zoom"><i class="fa fa-joomla iconshow" aria-hidden="true"></i><i class="fa fa-arrows-alt iconhide" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="startup_right" id="startup_right">
+                <div class="startup_padd boxs">
+                    <h2>Live Chat</h2>
+                    <div class="startup_para boxs">
+                        <div class="chatboxs chatboxs2 boxs">
+                            <p><span>Ryan :</span> Hi, stephen one question?</p>
+                            <p><span>David :</span> Hi, stephen really happy to see you live again</p>
+                        </div>
+                        <div class="form_class boxs">
+                            <form>
+                                <div class="form-group">
+                                    <textarea class="form-control"  placeholder="Type your message here"></textarea>
+                                </div>
+                                <!-- <div class="chat_button boxs">
+                                    <a href="javascript:void(0)"><img src="img/smiley.svg" alt="smiley" class="img-responsive"</a>
+                                    <a href="javascriipt:void(0)" class="streamer">Support Streamer</a>
+                                    <a href="javascriipt:void(0)" class="streamer send" data-toggle="modal" data-target="#setupgolive">Send</a>
+                                </div> -->
+                                <div class="chat_button boxs">
+                                    <div class="smiley_div smiley_div_theater">
+                                        <img src="img/smileys.png" alt="smiley" class="img-responsive">
+                                    </div>
+                                    <a href="javascript:void(0)" class="smiley_popup"><img src="img/smiley.svg"
+                                            alt="smiley" class="img-responsive">
+                                    </a>
+                                    <div class="smiley_div2 smiley_div_theater2">
+                                        <div class="streaming2">
+                                            <p>Send tokens to streamer</p>
+                                            <br>
+                                            <div class="token_stream boxs">
+                                                <div class="tok">
+                                                    <p>10<span class="color2">tokens</span></p>
+                                                </div>
+                                                <div class="tok">
+                                                    <p>15<span class="color2">tokens</span></p>
+                                                </div>
+                                                <div class="tok">
+                                                    <p>20<span class="color2">tokens</span></p>
+                                                </div>
+                                                <div class="tok tok2">
+                                                    <p><i>0</i><span class="color2">Custom Amount</span></p>
+                                                </div>
+                                            </div>
+                                            <div class="boxs">
+                                                <a href="javascript:void(0)" class="send_token">Send Tokens</a>
+                                            </div>
+                                        </div>
+                                        <div class="onstreaming">
+                                           <img src="img/Subtract.svg" alt="tick" class="img-responsive center-block">
+                                           <p>30 Tokens has been sent to Stephen Olson</p>
+                                           <a href="javascript:void(0)">done</a>
+                                        </div>
+                                    </div>
+                                    <a href="javascriipt:void(0)" class="streamer streamer2">Support
+                                        Streamer</a>
+                                    <a href="javascriipt:void(0)" class="streamer send">Send</a>
+                                    <!-- data-toggle="modal" data-target="#setupgolive" -->
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Theatre page End-->
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/custom.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $("#myInput").on("keyup", function () {
+                    var value = $(this).val().toLowerCase();
+                    $("#myTable .follow_box_search").filter(function () {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > 4)
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

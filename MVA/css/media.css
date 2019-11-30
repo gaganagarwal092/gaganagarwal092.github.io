@@ -1,0 +1,217 @@
+@media screen and (max-width: 1199px){
+	.funnel_heading h1{
+	    font-size: 28px;
+	}
+	.funnelbtns ul{
+		padding: 30px 160px 30px;
+	}
+	.funnelbtnstyle h4{
+		font-size: 16px;
+	}
+
+}
+@media screen and (max-width: 991px){
+	.container_funnel {
+	    width: 750px;
+	}
+	.funnelbox {
+		padding: 30px 60px;
+	}
+	.funnelmain{
+	    padding-bottom: 60px;
+	    padding-top: 0;
+	}
+	.header .call{
+	    font-size: 16px;
+	}
+	.formbox .form-control{
+		font-size: 16px;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.container_funnel {
+	    width: 450px;
+	}
+	.funnel_heading h1 {
+	    font-size: 22px;
+	}
+	.funnelbox {
+    	padding: 30px 30px;
+	}
+	.funnelbtns ul {
+	    padding: 20px 40px 20px;
+	}
+	.funnelbtnstyle{
+		padding: 10px 0px;
+	}
+	.funnelbox{
+	    min-height: 560px;
+	}
+	.funnel_heading p{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.header .call {
+	    font-size: 18px;
+	}
+	/*.header .navbar-brand>img {
+    	width: 180px;
+	}*/
+	.header .navbar{
+		min-height: 28px;
+	}
+	.funnelmain {
+	    margin-top: 112px;
+        padding-bottom: 20px;
+	}
+	.header{
+		background-color: transparent;
+		padding: 0;
+	}
+	.header .call{
+		float: initial;
+		background-color: #2e3d62;
+		padding: 10px 0px;
+	}
+	.header .navbar-brand {
+    	float: initial;
+	    background-color: #345a94;
+        padding-left: 0px;
+        padding: 10px 0px;
+	}
+	.header .navbar-header a{
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	    text-align: center;
+	}
+	.padzero{
+		padding: 0;
+	}
+	.formbox{
+	    padding: 20px 40px 0px;
+	}
+	.formbox .form-control{
+		height: 41px;
+	}
+	.points {
+    	margin-top: 20px;
+    	padding: 0px 30px;
+	}
+	.license {
+    	padding: 0px 20px;
+	}
+	.license p{
+		font-size: 20px;
+	}
+
+}
+@media screen and (max-width: 560px){
+	.container_funnel {
+	    width: 100%;
+	}
+	.funnelbox {
+	    padding: 20px 20px;
+	}
+	.funnelmain {
+	    padding-bottom: 40px;
+	}
+	.header .call {
+		font-size: 16px;
+	    padding: 7px 0px;
+	}
+	.header .navbar-brand>img {
+    	width: 220px;
+	}
+	.funnelmain{
+		margin-top: 101px;
+	}
+	.footer{
+		padding: 10px 0px;
+	}
+	.imgcenter button{
+		padding: 6px 18px;
+		font-size: 14px;
+	}
+	.points{
+		padding: 0px 30px;
+	}
+	.license {
+    	padding: 0px 20px;
+	}
+	.points p{
+		font-size: 18px;
+	}
+	.license p{
+		font-size: 18px;
+	}
+
+}
+@media screen and (max-width: 414px){
+	.header .navbar {
+    	min-height: 101px;
+	}
+	.funnelmain {
+	    margin-top: 101px;
+	}
+	.funnelbtns ul {
+	    padding: 20px 0 10px;
+	}
+	.funnel_heading h1 {
+	    font-size: 20px;
+	}
+	.funnelbtnstyle {
+	    padding: 8px 8px;
+	}
+	.funnelbtnstyle h4 {
+	    font-size: 14px;
+	}
+	.funnel_heading p {
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+	.funnelbox {
+	    min-height: 490px;
+	        padding: 20px 5px;
+	}
+	.f_inner p {
+    	font-size: 14px;
+	}
+	.f_inner a{
+		font-size: 14px;	
+	}
+	.f_inner2 p{
+		font-size: 14px;
+	}
+	.formbox {
+		padding: 20px 20px 0px;
+	}
+	.formbox .form-control {
+    	font-size: 14px;
+    	padding: 6px 12px;
+    	height: 35px;
+	}
+	.points{
+		padding: 0;
+	    margin-top: 20px;
+	}
+	.points p{
+		font-size: 16px;
+	}
+	.license {
+    	padding: 0px 0px;
+    	margin-top: 10px;
+	}
+	.license p {
+    	font-size: 16px;
+	}
+.header .navbar-header a {
+    letter-spacing: 1.3px;
+    font-size: 17px;
+}
+
+}
+@media screen and (max-width: 320px){
+
+}

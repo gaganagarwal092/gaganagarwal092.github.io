@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+        
+        <title>Obsidiam</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/line-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/line-awesome-font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+    </head>
+    <body>
+
+<!-- sidenav start -->
+<div class="sidenav" id="mySidenav">
+    <a href="index.html" class="logo"><img src="img/logosmall.png" class="img-responsive hideimg" alt="logo"> <img src="img/sidelogo.png" class="img-responsive showimg" alt="logo"></a>
+    <a href="index.html" class=""><img src="img/icon1.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon1_hover.png" alt="icon" class="img-responsive hovershow"><span>Dashboard</span></a>
+    <a href="task.html" class=""><img src="img/icon2.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon2_hover.png" alt="icon" class="img-responsive hovershow"><span>Tasks</span></a>
+    <a href="dispute.html" class=""><img src="img/icon3.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon3_hover.png" alt="icon" class="img-responsive hovershow"><span>Disputes</span></a>
+    <a href="verification.html" class=""><img src="img/icon4.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon4_hover.png" alt="icon" class="img-responsive hovershow"><span>Verification</span></a>
+    <a href="javascript:void(0)" class=""><img src="img/icon5.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon5_hover.png" alt="icon" class="img-responsive hovershow"><span>Users</span></a>
+    <a href="javascript:void(0)" class=""><img src="img/icon6.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon6_hover.png" alt="icon" class="img-responsive hovershow"><span>Calendar</span></a>
+    <a href="signin.html" class=""><img src="img/icon7.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon7_hover.png" alt="icon" class="img-responsive hovershow"><span>Logout</span></a>
+</div>
+<!-- sidenav start -->
+
+<!-- sidenav2 start -->
+<div class="sidenav2" id="mySidenav2">
+    <a href="index.html" class="logo"><img src="img/sidelogo.png" class="img-responsive" alt="logo"></a>
+    <a href="index.html" class=""><img src="img/icon1.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon1_hover.png" alt="icon" class="img-responsive hovershow"><span>Dashboard</span></a>
+    <a href="task.html" class=""><img src="img/icon2.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon2_hover.png" alt="icon" class="img-responsive hovershow"><span>Tasks</span></a>
+    <a href="dispute.html" class=""><img src="img/icon3.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon3_hover.png" alt="icon" class="img-responsive hovershow"><span>Disputes</span></a>
+    <a href="verification.html" class=""><img src="img/icon4.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon4_hover.png" alt="icon" class="img-responsive hovershow"><span>Verification</span></a>
+    <a href="javascript:void(0)" class=""><img src="img/icon5.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon5_hover.png" alt="icon" class="img-responsive hovershow"><span>Users</span></a>
+    <a href="javascript:void(0)" class=""><img src="img/icon6.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon6_hover.png" alt="icon" class="img-responsive hovershow"><span>Calendar</span></a>
+    <a href="signin.html" class=""><img src="img/icon7.png" alt="icon" class="img-responsive hoverhide"><img src="img/icon7_hover.png" alt="icon" class="img-responsive hovershow"><span>Logout</span></a>
+</div>
+<!-- sidenav2 start -->
+
+
+<!-- Header Start -->
+<header class="header">
+    <nav class="">
+        <div class="container-fluid">
+            <div class="hamburgerpos">
+                <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="header_main">
+                    <div class="header_inner">
+                        <h2>Welcome Back! Francisco Uzcategui</h2>
+                        <div class="notification_bell">
+                            <a href="javascript:void(0)" class="notficationopen"><img src="img/bellicon.png" alt="bellicon" class="img-responsive"><span></span></a>
+                            <div class="notification_panel">
+                                <span class="triangle"></span>
+                                <div class="noti_list boxs">
+                                    <div class="noti_img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="noti_text boxs">
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Ut enim ad minima veniam, quis </p>
+                                    </div>
+                                </div>
+                                <div class="noti_list boxs">
+                                    <div class="noti_img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="noti_text boxs">
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Ut enim ad minima veniam, quis </p>
+                                    </div>
+                                </div>
+                                <div class="noti_list boxs">
+                                    <div class="noti_img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="noti_text boxs">
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Ut enim ad minima veniam, quis </p>
+                                    </div>
+                                </div>
+                                <div class="noti_list boxs">
+                                    <div class="noti_img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="noti_text boxs">
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Ut enim ad minima veniam, quis </p>
+                                    </div>
+                                </div>
+                                <div class="noti_list boxs">
+                                    <div class="noti_img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="noti_text boxs">
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Ut enim ad minima veniam, quis </p>
+                                    </div>
+                                </div>
+                                <div class="allnoti boxs">
+                                    <a href="javascript:void(0)">ALL NOTIFICATION</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- Header End -->
+
+<div class="dashboardmain boxs">
+    <div class="d_inner boxs">
+        <div class="task boxs">
+            <h3>1480 <span>Tasks done</span></h3>
+            <div class="timeperiods">
+                <p>
+                    <span class="date_title"><img src="img/icon5.png" alt="icon">PERIOD</span>
+                    <span class="date"><input type="text" name="daterange"></span>
+                </p>
+            </div>
+        </div>
+		<!-- <section class="chartWrpr boxs">
+			<div class="inner boxs">
+				<div class="chartscroll">
+					<canvas id="bar-chart" width="800" height="250"></canvas>
+				</div>
+			</div>
+		</section> -->
+        <div class=" boxs graph_box chartWrpr inner ">
+        <ul class="chart  chartscroll ">
+            <li class="tooltip1">
+
+                <span class="day1 " title="1">
+                <p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p>
+                </span>
+
+            </li>
+            <li class="tooltip1">
+                <span class="day2" title="2"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day3" title="3"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day4" title="4"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day5" title="5"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day6" title="6"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day7" title="7"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day8" title="8"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day9" title="9"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day10" title="10"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day11" title="11"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day12" title="12"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day13" title="13"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day14" title="14"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day15" title="15"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day16" title="16"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day17" title="17"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day18" title="18"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day19" title="19"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day20" title="20"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day21" title="21"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day22" title="22"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day23" title="23"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day24" title="24"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day25" title="25"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day26" title="26"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day27" title="27"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day28" title="28"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day29" title="29"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day30" title="30"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day31" title="31"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+
+
+            <li class="tooltip1">
+
+                <span class="day1 " title="1"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+
+            </li>
+            <li class="tooltip1">
+                <span class="day2" title="2"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day3" title="3"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day4" title="4"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day5" title="5"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day6" title="6"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day7" title="7"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day8" title="8"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1 ">
+                <span class="day9" title="9"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day10" title="10"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day11" title="11"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day12" title="12"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day13" title="13"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day14" title="14"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day15" title="15"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day16" title="16"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day17" title="17"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day18" title="18"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day19" title="19"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day20" title="20"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day21" title="21"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day22" title="22"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day23" title="23"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day24" title="24"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day25" title="25"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day26" title="26"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day27" title="27"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day28" title="28"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day29" title="29"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day30" title="30"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day31" title="31"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+
+                <span class="day1 " title="1"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+
+            </li>
+            <li class="tooltip1">
+                <span class="day2" title="2"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day3" title="3"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day4" title="4"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day5" title="5"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day6" title="6"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day7" title="7"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day8" title="8"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day9" title="9"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day10" title="10"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day11" title="11"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+            <li class="tooltip1">
+                <span class="day12" title="12"><p class="tooltiptext">25 Tasks done<i>1 March 2019</i></p></span>
+            </li>
+        </ul>
+
+    </div>
+        <div class="taskBox boxs">
+            <div class="taskLinks boxs">
+                <a href="javascript:void(0)" class="clickme active" data-type="a">All tasks</a>
+                <a href="javascript:void(0)" class="clickme" data-type="b">Disputes</a>
+                <a href="javascript:void(0)" class="clickme" data-type="c">Verification</a>
+            </div>
+            <div class="taskList boxs">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="TL_lft boxs">
+                            <div class="TL_inner boxs typeA typesa">
+                                <div class="scroll2">
+                                    <div class="scroll">
+                                        <table cellpadding="0" cellspacing="0" bgcolor="#ffffff"  border="0" style="margin: 0 auto;">
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="Verification">Verification</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="Verification">Verification</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="Verification">Verification</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                        </table>
+                                        <div class="shadow"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="TL_inner boxs typeA typesb">
+                                <div class="scroll2">
+                                    <div class="scroll">
+                                        <table cellpadding="0" cellspacing="0" bgcolor="#ffffff"  border="0" style="margin: 0 auto;">
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="dispute">Dispute</span></td>
+                                            </tr>
+                                        </table>
+                                        <div class="shadow"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="TL_inner boxs typeA typesc">
+                                <div class="scroll2">
+                                    <div class="scroll">
+                                        <table cellpadding="0" cellspacing="0" bgcolor="#ffffff"  border="0" style="margin: 0 auto;">
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="Verification">Verification</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="Verification">Verification</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="width1">D-14524 Wire Transfer - Time Runout</td>
+                                                <td class="width2">1 min</td>
+                                                <td class="width3">S</td>
+                                                <td class="width4"><span class="Verification">Verification</span></td>
+                                            </tr>
+                                        </table>
+                                        <div class="shadow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="TL_ryt boxs">
+                            <div class="taskCounts boxs">
+                                <p class="blue"><span class="symbol">T</span></p>
+                                <p class="tasknumber">345 <sup>22 new</sup> <span>Unresolved tasks</span></p>
+                                <p><span class="percent">+5.10%</span></p>
+                            </div>
+                            <div class="taskCounts boxs">
+                                <p class="darkblue"><span class="symbol">D</span></p>
+                                <p class="tasknumber">22 <sup>2 new</sup> <span>Unresolved disputes</span></p>
+                                <p><span class="percent">+5.10%</span></p>
+                            </div>
+                            <div class="taskCounts boxs">
+                                <p class="green"><span class="symbol">V</span></p>
+                                <p class="tasknumber">11 <sup>5 new</sup> <span>Unresolved verifications</span></p>
+                                <p><span class="percent">+5.10%</span></p>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        
+
+
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+        <script src="js/custom.js"></script> 
+    </body>
+</html>

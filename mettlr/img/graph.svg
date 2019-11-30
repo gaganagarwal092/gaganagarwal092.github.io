@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="356" height="293" viewBox="0 0 356 293">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="64.472%" y2="100%">
+            <stop offset="0%" stop-color="#4E8BFC"/>
+            <stop offset="100%" stop-color="#ABC8FD"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="0" y="267">0 stars</tspan>
+        </text>
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="81" y="293">W18</tspan>
+        </text>
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="130" y="293">W19</tspan>
+        </text>
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="178" y="293">W20</tspan>
+        </text>
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="226" y="293">W21</tspan>
+        </text>
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="275" y="293">W22</tspan>
+        </text>
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="324" y="293">W23</tspan>
+        </text>
+        <path stroke="#979797" stroke-linecap="square" d="M40.152 264.212h9.696"/>
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="0" y="217">1 stars</tspan>
+        </text>
+        <path stroke="#F4F2F2" stroke-linecap="square" d="M51.094 214.212H354.98M51.094 164.212H354.98M51.094 114.212H354.98M51.094 64.212H354.98M51.094 14.212H354.98"/>
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="0" y="167">2 stars</tspan>
+        </text>
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="0" y="117">3 stars</tspan>
+        </text>
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="0" y="67">4 stars</tspan>
+        </text>
+        <text fill="#828996" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" transform="translate(0 -1)">
+            <tspan x="0" y="17">5 stars</tspan>
+        </text>
+        <path stroke="#979797" stroke-linecap="square" d="M51.094 0L50.5 264.212M50.332 264.212H351.35"/>
+        <path fill="url(#a)" d="M51 114.984C58.037 62.994 74.392 37 100.067 37s43.25 29.645 52.725 88.934c14.317 68.7 40.244 81.718 77.781 39.055 56.306-63.994 121.425-77.049 121.425 48.293 0 24.528 0 41.767.002 51.718H51V114.984z" opacity=".2" transform="translate(0 -1)"/>
+        <path stroke="#6A9EFD" stroke-linecap="round" stroke-width="6" d="M53 113.859C58.773 61.953 74.493 36 100.158 36c25.666 0 43.234 29.597 52.706 88.792 14.312 68.59 40.23 81.587 77.753 38.992C286.902 99.892 351.997 86.858 352 212"/>
+    </g>
+</svg>

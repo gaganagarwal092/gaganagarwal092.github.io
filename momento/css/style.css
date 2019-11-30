@@ -1,0 +1,3347 @@
+/*fonts*/
+@font-face{
+    font-family:"FaktSoftPro-Normal";
+    src:url(../fonts/FaktSoftPro-Normal.woff);
+}
+@font-face{
+    font-family:"FaktSoftPro-Medium";
+    src:url(../fonts/FaktSoftPro-Medium.ttf);
+}
+@font-face{
+    font-family:"FaktSoftPro-Bold";
+    src:url(../fonts/FaktSoftPro-Bold.ttf);
+}
+body{
+    font-family:"FaktSoftPro-Normal";
+}
+.noleft{
+    padding-left: 0;
+}
+.noright{
+    padding-right: 0;
+}
+.nopadding{
+    padding: 0 !important;
+}
+button, a {
+    transition: all 0.35s ease 0s;
+}
+a {
+    outline: medium none !important;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+.width1{
+    width:100%;
+}
+.container{
+
+}
+.header{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top:0;
+    left:0;
+    /*box-shadow:1px 1px 2px #E6E6E7;*/
+    padding: 50px 0px;
+}
+
+.header .container-fluid{
+    padding:0;
+}
+.header .navbar-brand, .sidenav .logo{
+    height: auto;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #262a49;
+    font-family:"FaktSoftPro-Bold";
+    width: 175px;
+    margin-top: -15px;
+}
+.header .navbar{
+    background: rgba(0,0,0,0);
+    border: none;
+    margin-bottom: 0;
+    min-height: auto;
+}
+
+.header .navbar-default .navbar-nav > li > a, .sidenav a,.dropdown-btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #262a49;
+    padding: 0px;
+    font-family:"FaktSoftPro-Normal";
+}
+/*--changes by priyank--*/
+.header .navbar-default .navbar-nav{
+    padding-left: 80px;
+}
+.header .navbar-default .navbar-nav > li{
+    margin: 0px 20px;
+}
+.header .navbar-default .navbar-right .navbar-right_2 a{
+    background:#e57b93;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: -7px;
+    border: 2px solid transparent;
+}
+.header .navbar-default .navbar-right .navbar-right_2 a:hover{
+    color: #e57b93;
+    border: 2px solid #e57b93;
+    background:#fff;
+    padding: 5px 20px;
+}
+
+.header .navbar-default .navbar-nav .dropbtn:hover,.header .navbar-default .navbar-nav .dropbtn:focus {
+    background: transparent;
+}
+
+.header .navbar-default .navbar-nav .dropdown {
+    position: relative;
+    display: inline-block;
+}
+.header .navbar-default .navbar-nav .dropdown i{
+    margin-left: 5px;
+    position: absolute;
+    right: -20px;
+    top: 3px;
+}
+
+.header .navbar-default .navbar-nav .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background-color: #fff;
+    box-shadow: 0 2px 18px 0 rgba(56, 49, 93, 0.3);
+    border-radius: 4px;
+    z-index: 9999;
+    right: -50px;
+    top:40px;
+    padding: 10px 30px;
+    font-family:"FaktSoftPro-Normal";
+    /*transition: all 0.1s ease 0s;*/
+}
+
+.header .navbar-default .navbar-nav .dropdown-content a {
+    color: black;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    background: #fff;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    font-size: 16px;
+    padding: 10px 0px 0;
+}
+.header .navbar-default .navbar-nav .dropdown-content a:hover {
+    color: #e57b93; 
+
+}
+.header .navbar-default .navbar-nav .show {
+    display: block;
+}
+/*--changes end by priyannk--*/
+.header .navbar-default .navbar-nav > li > a:hover, .header .navbar-default .navbar-nav > li > a.active, .header .navbar-default .navbar-nav > li > a:focus{
+    color: #000;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #e57b93;
+}
+.header .navbar-default .navbar-nav > li > a{
+    border-bottom: 2px solid #fff;
+}
+.header .navbar-default .navbar-nav > li > a.fa-arrow-right{
+    color :#e57b93;
+}
+.header .navbar-default .navbar-nav > li > a:hover{
+    color: #e57b93;
+    border-bottom: 2px solid #e57b93;
+}
+.navbar-nav li a .arow_right{
+    padding-left: 5px;
+}
+.sidenav a:hover{
+    color: #e57b93;
+}
+.sidenav a .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+.sidenav .dropdown-container {
+    display: none;
+    background-color: transparent;
+    padding: 0px 0px;
+}
+.dropdown-btn {
+    text-decoration: none;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    padding-bottom: 8px;
+}
+.fixed_header{
+    z-index: 999;
+    position:fixed;
+    background-color: #fff;
+    padding: 26px 0 15px;
+    box-shadow: 0 0 1px 1px rgba(34,45,57,.15);
+}
+.header .hamburger {
+    display: none;
+    float: right;
+    height: 24px;
+    padding: 0px 15px 0px 9px;
+    width: 49px;
+}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+    background: #e57b93;
+    border-radius: 0;
+    width: 25px;
+    height: 3px;
+}
+.header button:focus{
+    outline:0px;
+}
+.hamburger-box{
+    width: 25px;
+}
+.hamburger-inner::before {
+    top: -8px;
+}
+.sidenav {
+    background-color: #e9d6dd;
+    height: 100%;
+    left: -250px;
+    overflow-x: hidden;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 250px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    padding: 15px;
+}
+.hamburger-inner::after {
+    bottom: -8px;
+}
+.sidenav a{
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+}
+.sidenav .logo{
+    padding-left: 0;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+.boxs{
+    display: block;
+    float: left;
+    width: 100%;
+}
+.plan-wendding{
+    padding: 40px 0px;
+    margin-top: 145px;
+    //background: url(../img/vector.png) no-repeat right bottom;
+    background-size: 40%;
+    position: relative;
+    z-index: 1;
+}
+.plan-wendding .planimg{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    top:0;
+    z-index: -1;
+}
+.modal .plan-wendding{
+    margin-top: 15px!important;
+}
+.plan-wendding img:first-child{
+    padding-right: 50px;
+}
+.plan-wendding .phone{
+    position: absolute;
+    top: 16%;
+    right: 0%;
+}
+.plan-wendding h1{
+    font-size: 42px;
+    line-height: 1.29;
+    color: #262a49;
+    font-family:"FaktSoftPro-Medium";
+    padding-bottom: 20px;
+}
+.plan-wendding a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #e57b93;
+    padding: 17px 100px 15px;
+    text-decoration: underline;
+}
+.plan-wendding a:hover{
+    color: #37305C;
+}
+.plan-wendding a.active, .home_button a.btn{
+    border-radius: 32.5px;
+    background-color: #e57b93;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: inline-block;
+    font-family:"FaktSoftPro-Bold";
+    position: relative;
+}
+.plan-wendding h3 a{
+    text-align: center;
+    background-color: transparent;
+    display: block;
+    padding: 0px;
+    color: #38315d;
+    font-family:"FaktSoftPro-Normal";
+    font-size: 14px;
+}
+.plan-wendding h3 a:hover{
+    color: #e57b93;
+    transform: none;
+
+}
+
+.plan-wendding a.active:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.mobile-apps{
+    padding: 60px 0 70px;
+}
+.mobile-apps h1{
+    font-size: 28px;
+    text-align: center;
+    color: #38315d;
+    font-family:"FaktSoftPro-Medium";
+    padding-bottom: 25px;
+}
+.mobile-apps h1 span{
+    display: block;
+}
+.mobile-apps h2{
+    padding-bottom: 75px;
+}
+.mobile-apps h2, .mobile-apps p{
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #38315d;
+    font-family:"FaktSoftPro-Normal";
+}
+.mobile-apps p{
+    font-size: 16px;
+    color: #696b84;
+    line-height: 26px;
+
+}
+.mobile-apps .heightfull .whitebox .img_border{
+    width: max-content;
+    width: -moz-max-content;
+    float: unset;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    padding: 16px 12px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.mobile-apps .heightfull .whitebox.comm .img_border{
+    padding: 12px;
+}
+.mobile-apps .heightfull .whitebox .img_border2,.manage ul li .img_border2{
+    display: none;
+}
+.manage ul li:hover .hide_img{
+    display: none;
+}
+.manage ul li:hover .img_border2{
+    display: block;
+}
+.mobile-apps .heightfull .whitebox:hover .img_border2{
+    display: block;
+    transform: scale(1.1);
+}
+.mobile-apps .heightfull .whitebox:hover .img_border{
+    display: none;
+}
+.mobile-apps .heightfull .whitebox.active .img_border{
+    display: none;
+}
+.mobile-apps .heightfull .whitebox:hover .img_border2, .mobile-apps .heightfull .whitebox.active .img_border2{
+    display: block;
+    background-color: #d8d3e6;
+    border: 1px solid #d8d3e6;
+    transform: scale(1.1);
+}
+.mobile-apps .heightfull .whitebox img{
+    margin: 0 auto;
+}
+.mobile-apps .heightfull .whitebox:hover img{
+    fill:#000;
+}
+.plan-wendding .col-sm-5 img{
+    margin:  40px auto 8px;
+
+}
+.mobile-apps .box h2{
+    font-size: 16px;
+    color: #38315d;
+    padding: 9px 0px 9px 0px;
+    font-family:"FaktSoftPro-Medium";
+}
+.whitebox{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 4px;
+    position: relative;
+}
+.whitebox:hover, .whitebox.active {
+    cursor: pointer;
+}
+/*.whitebox:hover h2, .whitebox:hover p, .whitebox.active h2, .whitebox.active p{
+    color: #fff;
+}*/
+.box, .flex_weding, .signin, .flex_build{
+    display: flex;
+}
+.nomrg{
+    margin: 0 !important;
+}
+.box .heightfull, .flex_weding, .signin .forms, .flex_build1{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.forms .log_sign  h3{
+    width:180px;
+}
+.path:before{
+    content: url(../img/path.png);
+    left: -52%;
+    top: 90%;
+    position: absolute;
+}
+.slider .slick .item{
+    background: url(../img/left-quote2.png) no-repeat right 9% top 26%;
+    background-size: 7%;
+    background-color: #fff;
+    padding: 50px 70px 50px 66px;
+    position: relative;
+    margin: 75px 6px 140px;
+    outline: medium none;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+}
+/*.slider .slick .item.slick-active{
+    background-color: #e57b93;
+}*/
+.slider .slick .item h2{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family:"FaktSoftPro-Normal";
+}
+.slider .slick .item h1{
+    text-align: center;
+    font-size: 24px;
+    font-family:"FaktSoftPro-Medium";
+    color: #262a49;
+}
+.slider .slick .item p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #696b84;
+    font-family:"FaktSoftPro-Normal";
+    padding-top: 70px;
+}
+
+.slider{
+    background-color:  #f9f8f8;
+    height: 270px;
+    margin-bottom: 100px;
+}
+.slider .slick .slick-list{
+    // margin: 0 17.5%;
+}
+.slider .slick .slick-next {
+    right: -70px;
+}
+.slider .slick-prev:before {
+    content: url(../img/img_8.svg);
+    padding: 4px 5px 0px 0px;
+}
+.slider .slick-next::before {
+    content: url(../img/img_9.svg);
+    padding: 5px 0px 0px 5px;
+}
+.slick-prev, .slick-next {
+    top:35%;
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+}
+.slider .slick-prev, .slider .slick-next {
+    top:28%;
+    padding-top: 2px;
+    z-index: 2;
+}
+.slider .slick-prev {
+    left: -70px;
+}
+.download{
+    background-color: #fbf6f8;
+    padding: 60px 40px 0px 60px;
+    margin-bottom: 80px;
+}
+.download h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #131531;
+    font-family:"FaktSoftPro-Medium";
+}
+.download p{
+    font-size: 20px;
+    line-height: 1.56;
+    color: #4d4e58;
+    font-family:"FaktSoftPro-Normal";
+    padding: 40px 0 45px;
+}
+.download a{
+    border-radius: 35.5px;
+    background-color: #e57b93;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    padding: 17px 50px 15px;
+    transition: all 0.7s;
+    display: inline-block;
+    text-decoration: none;
+    font-family:"FaktSoftPro-Bold";
+    letter-spacing: 1px;
+}
+.download a i{
+    font-style: normal;
+}
+.download a:hover i{
+    color: #fff;
+    text-decoration: none;
+}
+.downlosset{
+    padding-left: 80px;
+}
+.downlosset .iphone,.downlosset .android{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.downlosset .iphone{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #94acbc;
+    min-height: 300px;
+    width: 60%;
+}
+.downlosset .android{
+    background-color: #131531;
+    border-top-right-radius: 10px;
+    min-height: 240px;
+    margin-top: 60px;
+    width: 40%;
+}
+.downlosset .android h1{
+    color: #fff;
+    padding-left: 20px;
+}
+.downlosset .android{
+    justify-content: end;
+}
+footer{
+    padding: 100px 0 30px;
+    background-color: #131531;
+}
+footer h1, footer p, footer ul li a{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #dbd6e9;
+    font-family:"FaktSoftPro-Bold";
+}
+footer h1{
+    padding-bottom: 30px;
+
+}
+footer h1 a img{
+    margin-top: -25px;
+    width: 160px;
+}
+footer .footer_font h1{
+    color:#fff;
+}
+footer p{
+    line-height: 1.71;
+    text-transform: capitalize;
+    padding-right: 50px;
+    font-family: "FaktSoftPro-Normal";
+    color: #fff;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer ul li{
+    padding-bottom: 10px;
+}
+footer ul li a img{
+    display: inline-block !important;
+    visibility:hidden;
+    color: #e57b93;
+    width: 12px;
+}
+footer ul li a:hover{
+    color: #e57b93;
+}
+footer ul li a:hover img{
+    display:inline-block;
+    visibility:visible;
+}
+.footer_font .col-xs-6{
+    padding-right: 0;
+}
+.guests{
+    padding: 90px 0px 120px;
+}
+.guests .rsvp img{
+    margin-bottom: 65px;
+}
+.guests .rsvp h1{
+    font-size: 28px;
+    color: #262a49;
+    font-family:"FaktSoftPro-Bold";
+    padding: 14px 0px;
+}
+.guests .rsvp p{
+    font-size: 18px;
+    color: #262a49;
+    line-height: 28px;
+    font-family:"FaktSoftPro-Normal";
+}
+.capture{
+    background: url(../img/vector1.png) no-repeat left 0%;
+    padding: 76px 0px 140px 0px;
+    margin: 50px 0px;
+}
+.capture .right_side{
+    padding: 40px 0px 0px 20px;
+
+}
+.capture .right_side_inner{
+    padding: 25px 95px 25px 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.capture .right_side_inner:hover{
+    background-color: #37305C;
+}
+.capture .right_side_inner:hover h2, .capture .right_side_inner:hover p{
+    color: #fff;
+}
+.capture .right_side_inner.active:hover h2, .capture .right_side_inner.active:hover p{
+    color: #262a49;
+}
+.capture .right_side_inner.active, .capture .right_side_inner.active:hover{
+    background-color: #e9d6dd;
+}
+.capture .right_side_inner h2{
+    margin: 0;
+    font-size: 16px;
+    color: #262a49;
+    font-family:"FaktSoftPro-Medium";
+}
+.capture .right_side_inner p{
+    margin: 0;
+    padding-top: 17px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #262a49;
+    font-family:"FaktSoftPro-Normal";
+} 
+.capture1{
+    background: url(../img/vector2.png) no-repeat right 0%;
+}
+.capture1 .right_side1{
+    padding: 40px 20px 0px 0px;
+}
+.setactive, .setactive1, .setactive2, setactive3{
+    display: none;
+}
+.setactive2{
+    margin-top: 0px !important;
+}
+.setactive.active, .setactive1.active, .setactive2.active, .setactive3.active{
+    margin-top: 30px;
+    display: block;
+}
+
+/*for how it work page*/
+.plan-wendding.product{
+    background: none;
+    text-align: center;
+}
+.border_btm{
+    border-bottom: 2px solid #f9f8f8;
+}
+.add_weding_detail .border_btm:last-child{
+    border-bottom: none;
+}
+.product p{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 16px;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #696b84;
+}
+.product p span, .signup .download p span{
+    display: block;
+}
+.signup h2{
+    color: #38315d;
+    font-size: 20px;
+    font-family:"FaktSoftPro-Normal"; 
+}
+.signup h2 span a{
+    border-bottom: 2px solid #e57b93;
+    background-color: #fff;
+    margin: 30px 0px 0px ;
+    border-radius: 0;
+    padding: 0;
+    margin-left: 5px;
+    color: #e57b93;
+    font-family:"FaktSoftPro-Medium";
+    font-size: 20px;
+}
+.signup h2 span a:hover{
+    color: #131531;
+    border-bottom: 2px solid #131531;
+    transform: none;
+}
+.product .top_wed p{
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+.product h1{
+    font-size: 28px;
+    line-height: normal;
+    color: #38315d;
+    padding: 0px 0px 20px 0;
+}
+.product_btns{
+    background: #fff;
+    border-radius: 36px;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);         
+    width: fit-content;
+    margin: 58px auto 0;
+}
+.product .product_btns a.active{
+    font-family:"FaktSoftPro-Normal";
+    font-size: 14px;
+    background-color: #e57b93;
+    border-radius: 30px;
+    margin: 7px;
+    color: #fff;
+}
+.product .product_btns a{
+    background-color:  #f9f8f8;
+    color: #38315d;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.product .change.focus{
+    background-color: #e57b93;
+
+}
+.product_btns a.active.planers_btn{
+    background-color: #fff;
+    color: #38315d;
+    position: relative;
+}
+.product_btns a.active.planers_btn:hover{
+    background-color: #f9f8f8;
+}
+.product_btns a.active.planers_btn i{
+    position: absolute;
+    top: -20px;
+    right: -157px;
+    font-family: "FaktSoftPro-Medium";
+    font-size: 24px;
+    line-height: 1.58;
+    text-align: center;
+    color: #38315d;
+    font-style: normal;
+    display: inline-block;
+}
+.product_btns a.active.planers_btn i img{
+    display: inline-block;
+    top: 7px;
+    position: absolute;
+    right: 115px;
+    padding-right: 10px;
+}
+.product_btns a.active.planers_btn.colorchange2{
+    background-color: #38315d;
+    color: #fff;
+}
+.product .product_btns a.active.colorchange{
+    background-color: #fff;
+    color: #696b84;
+}
+.product .product_btns a.active.colorchange:hover{
+    background-color: #f9f8f8;
+}
+.add_weding img{
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    float:right;
+    height: 320px;
+}
+.add_weding_detail{
+    padding: 0 !important;
+}
+.add_weding_detail .rsvp h1{
+    font-size: 24px;
+    padding: 20px 0;
+}
+.add_weding_detail .rsvp p{
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #696b84;
+}
+.count_num p{
+    position: relative;
+    border: solid 3px #e57b93;
+    color: #e57b93;
+    font-family: "FaktSoftPro-Normal";
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 50%;
+    height:51px;
+    width:50px;
+    padding: 0 12px;
+    margin-bottom: 10px;
+}
+.count_num p span{
+    position: absolute;
+    bottom: -3px;
+}
+.add_weding_detail .padd_right{
+    padding-right: 30px;
+    margin-top: -15px;
+}
+.add_weding_detail .box {
+    padding: 110px 0 90px;
+}
+.signup{
+    border-top: 1px solid #dddde1;
+}
+.signup .download{
+    background: none;
+    text-align: center;
+    padding: 90px 0 20px;
+}
+.signup .download h1{
+    /*    font-family:"FaktSoftPro-Bold";*/
+}
+.signup .download p{
+    color: #696b84;
+}
+.plan-wendding.product.trusted{
+    padding: 40px 0px;
+    margin-top: 145px;
+}
+.weding_couple {
+    margin-bottom: 95px;
+}
+.weding_couple .slick  img{
+    border-radius: 0;
+    margin: 0 auto;
+    width: 96%;
+}
+.weding_couple .slick .item_disc .item{
+    position: absolute;
+    margin: 0px 15px 0px;
+    outline: medium none;
+    z-index: 9;
+    bottom: 40px;
+    padding:0 0px 62px;
+    width:88%;
+    margin-left: 6%;
+    background-color: #fff;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+}
+.weding_couple .slick .item_disc .item .item_inner{
+    padding: 15px 30px 0;
+}
+.weding_couple .slick .item h1{
+    color:#262a49;
+}
+.weding_couple .slick .item p{
+    line-height: 1.78;
+    color: #696b84;
+    padding-bottom: 20px;
+}
+.weding_couple .slick .item_disc a.full_case{
+    background: #f9f8f8;
+    color:#696b84;
+    font-size: 16px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    font-family: "FaktSoftPro-Normal";
+}
+.weding_couple.slider .slick .item img{
+    position: static;
+}
+.weding_couple .slick .item_disc a.full_case span{
+    display:inline-block;
+    padding-left: 10px;
+}
+.wed_plan{
+    margin: 0 30px;
+    position: relative;
+    padding-bottom: 200px;
+}
+.fullcase_link{
+    position: relative;
+}
+.add_weding_detail .box:nth-child(2n+0) .wed_right{
+    float:left;
+}
+.add_weding_detail .box:nth-child(2n+0) .wed_left{
+    float:right;
+}
+.add_weding_detail .box:nth-child(2n+0) .wed_right .add_weding img{
+    float:left;
+}
+/*for signIn page*/
+.signin{
+    height:100%;
+
+}
+.signin .forms{
+    padding: 0 100px;
+    float:left;
+}
+.signin .forms a.join{  
+    color: #f088a0;
+    float: right;
+    padding-top: 15px;
+}
+.signin .forms a span{
+    color: #38315d;
+    text-decoration: underline;
+}
+.signin .forms h3{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 36px;
+    color: #262a49;
+}
+.signin .forms a{
+    font-family:"FaktSoftPro-Normal";
+    font-size: 16px;
+    font-weight: 500;
+    color: #38315d; 
+}
+.signin .forms form label{
+    font-size: 16px;
+    color: #262a49;
+    font-weight: 500;
+}
+.signin .forms form label, .signin .forms form input{
+    width:100%;
+    font-family: "FaktSoftPro-Normal";
+}
+.signin .forms form input{
+    padding: 10px 10px 15px;  
+    border-radius: 2px;
+    background-color: #fff;
+    border: solid 1px #dddde1;
+    font-size: 16px;
+    position: relative;
+}
+.signin .forms input::placeholder{
+    color: #dddde1;
+    margin-top: 10px;
+}
+
+.signin .forms form input:focus{
+    border-color: #e57b93;
+    outline: none !important;
+    background: transparent;
+}
+.signin .forms form img{
+    position: absolute;
+    top:40px;
+    right:37px;
+}
+.signin .forms form  .inner_content_form{
+    margin-bottom: 40px;
+}
+.only_Weding{
+    height: 100%;
+    position: relative;
+}
+.only_Weding img{
+    width:100%;
+}
+.signin .forms form{
+    padding: 60px  0 0px;
+    float: left;
+}
+.signin .forms form .forgotpaswrd a{
+    text-decoration: underline;
+    float: right;
+    font-size: 14px;
+    color: #38315d;
+    font-family:"FaktSoftPro-Normal";
+    padding-top: 20px;
+}
+.signin .forms form .forgotpaswrd a:hover{
+    color:#e57b93;
+}
+.inner_content_form .download{
+    width:100%;
+    background: none;
+    padding: 0;
+    margin-bottom: 45px;
+}
+.inner_content_form .download a{
+    width:100%;
+    color:#fff;
+    font-size: 18px;
+    font-family: "FaktSoftPro-Normal";
+}
+.inner_content_form .download a:hover i{
+    -webkit-transform: scale(12);
+    transform: scale(12);
+}
+.continue_form, .only_Weding{
+    text-align: center;
+
+}
+.continue_form .border_continue a{
+    position: absolute;
+    top: -12px;
+    z-index: 99;
+    background: #fff;
+    text-align: center;
+    left: 38%;
+    padding: 0 8px;
+}
+.continue_form .border_continue{
+    border-top: 2px solid  #38315d;
+    position: relative;
+    z-index: -1;
+}
+.slick-initialized .slick-slide{
+    outline: none !important;
+}
+/*signin slider part*/
+.only_Weding h1, .only_Weding p{
+    color: #fff;
+}
+.only_Weding h1{
+    font-size: 19px;
+    font-family:"FaktSoftPro-Medium";
+    line-height: normal;
+    padding-bottom: 20px;
+}
+.only_Weding p{
+    font-size: 15px;
+    font-family:"FaktSoftPro-Normal";
+    font-weight: 500;
+    line-height: 1.58;
+    padding: 15px 0 0;
+}
+.only_wed_content p span, .signup .download p span{
+    display:block;
+}
+.only_wed_content{
+    position: absolute;
+    bottom: 90px;
+    text-align: left;
+    padding: 0 20px 0 70px;
+    left: 0;
+}
+.slick2.slick-slider .slick-list{
+    padding: 0;   
+}
+.slick_btn .slick-dots{
+    text-align: center;
+    bottom: 53px;
+    left:-6px;
+
+}
+.adam_slider .slick3.slick_btn .slick-dots{
+    bottom: 101px;
+}
+.slick2 .slick-dots li, .adam_slider .slick3.slick_btn .slick-dots li{
+    background-color: rgba(255, 255, 255, 0.5);
+    height:11px;
+    border-radius: 5.5px;
+    width:45px;
+}
+.slick2 .slick-dots li, .adam_slider .slick3.slick_btn .slick-dots li{
+    width:20px;
+    height: 5px;
+}
+.slick2 .slick-dots li.slick-active, .adam_slider .slick3.slick_btn .slick-dots li.slick-active{
+    background:#fff;
+}
+.slick-dots li button:before{
+    content:none;
+}
+.signup_already{
+    text-align: center;
+    font-size: 14px;
+}
+.signup_already a{
+    font-size: 14px;
+    color: #38315d;
+}
+.signin .forms .signup_already p{
+    color: #4d506a;
+    padding-bottom: 10px;
+}
+.signin .forms form .inner_content_form.signup_cont{
+    margin-bottom: 0;
+}
+.inner_content_form.signup_cont .download{
+    margin: 10px 0 30px;
+}
+.signup_already a.join{
+    float:unset !important;
+}
+/*apps section Momento | PricingWeddingPlanners and PricingCouples start*/
+.plan-wendding h1{
+    padding-left: 0px !important;
+}
+.apps{
+    width: 100%;
+    background: url(../img/multipleapps_bg.png) no-repeat center center;
+    background-size: cover;
+}
+.apps .apps_inner_main{
+    padding: 0px 85px;
+}
+.apps .apps_inner{
+    background-color: #fff;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    border-radius: 4px;
+}
+.apps .appleft .left_heading h4{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 12px;
+    color: #38315d;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.apps .appleft .left_heading h3{
+    font-family: "FaktSoftPro-Medium";
+    font-size: 24px;
+    color: #38315d;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.apps .appleft .left_list ul{
+    list-style-type: none;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+.apps .appleft .left_list ul li{
+    margin-bottom: 20px;
+}
+.apps .appleft .left_list ul li a{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 16px;
+    color: #38315d;
+    display: inline-block;
+}
+.apps .appleft .left_list a.btn1{
+    width: 253px;
+    border-radius: 4px;
+    background-color: #38315d;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 0px;
+    border: 2px solid #38315d;
+    font-family: "FaktSoftPro-Medium";
+    margin-top: 20px;
+}
+.apps .appleft .left_list a.btn1.single{
+    background-color: #e57b93;
+    border: 2px solid #e57b93;
+}
+.apps .appleft .left_list a.btn1:hover{
+    background-color: #fff;
+    color: #38315d;
+}
+.apps .appleft .left_list a.btn1.single:hover{
+    background-color: #fff;
+    color: #e57b93;
+}
+.apps .appright .img_box{
+    width: 50px;
+    height: 50px;
+    background-color: #38315d;
+    margin: 0px 0px 20px;
+    border-radius: 50%;
+}
+.apps .appright .img_box.single{
+    background-color: #e57b93;
+}
+.apps .appright h2{
+    font-family: "FaktSoftPro-Medium";
+    font-size: 12px;
+    color: #38315d;
+}
+.apps .appright p{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 14px;
+    line-height: 22px;
+    color: #696b84;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.apps .appright p span{
+    display: block;
+}
+/*apps section Momento | PricingWeddingPlanners and PricingCouples end*/
+
+/*questions section Momento | PricingWeddingPlanners and PricingCouples start*/
+/*.font p{
+    color: #38315d;
+    line-height: 38px;
+}
+.questions{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0 0px 130px;
+}
+.questions .questions_inner .content{
+    border-bottom: 2px solid #dddde1;
+    padding: 40px 0px;
+}
+.questions .questions_inner .content.noborder{
+    border: none;
+}
+
+.questions .questions_inner .content h2{
+    font-family: "Rubik-Regular";
+    font-size: 22px;
+    color: #38315d;
+    margin-bottom: 25px;
+}
+.questions .questions_inner .content p{
+    font-family: "Rubik-Regular";
+    font-size: 16px;
+    line-height: 28px;
+    color: #696b84;
+}
+.questions .questions_inner .content p span{
+    display: block;
+}*/
+/*questions section Momento | PricingWeddingPlanners and PricingCouples end*/
+
+/*customers case study page start*/
+
+.slick3 .slick-list{
+    padding: 0;
+}
+.slick3 .slick-dots li button:before {
+    font-size: 3px;
+    position: absolute;
+    top: -50px;
+    width: 17px;
+    height: 4px;
+    background: #fff;
+    opacity: 0.5;
+    border-radius: 6.5px;
+}
+.slick3 .slick-dots li.slick-active button:before{
+    opacity: 1;
+    background: #fff;
+    color: transparent;
+}
+.slick3 .slick-dots li button:before{
+    color: transparent;
+}
+.story{
+    padding: 110px 0px 60px 0px;
+}
+.story .story_left h1{
+    color: #38315d;
+    font-size: 28px;
+    font-family: "FaktSoftPro-Bold";
+}
+.story .story_left{
+    padding: 25px 23px 33px 65px;
+}
+.story .story_left p{
+    padding: 20px 0px 5px 0px;
+    line-height: 26px;
+    color: #696b84;
+    font-size: 16px;
+    font-family: "FaktSoftPro-Normal";
+}
+.story .story_right .location{
+    background-color:  #f9f8f8;
+    padding: 18px 30px;
+    margin-top: 15px;
+}
+.story .story_right .location.active{
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    background-color: #fff;
+}
+.story .story_right .location p{
+    letter-spacing: 1px;
+    line-height: 37px;
+    color: #696b84;
+    font-size: 16px;
+    font-family: "FaktSoftPro-Normal";
+}
+.story .story_right .location p span{
+    font-size: 28px;
+    display: block;
+    letter-spacing: 0px;
+    color: #262a49;
+    font-family: "FaktSoftPro-Medium";
+}
+.goal{
+    background-color: #f9f8f8;
+    padding: 80px 0px;
+}
+.goal .goal_left img{
+    float: right;
+    position: relative;
+    right: 11px;
+}
+.goal .goal_left1 img{
+    position: absolute;
+    top: 46%;
+    left:-9px;
+}
+.goal .goal_right{
+    padding: 50px 0px 20px 35px;
+}
+
+.goal .goal_right h1{
+    color: #262a49;
+    font-size: 28px;
+    font-family:"FaktSoftPro-Bold";
+} 
+.goal .goal_right p{
+    color: #696b84;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 20px 0px 20px 0px;
+    font-family:"FaktSoftPro-Normal";
+}
+.goal .goal_right p span{
+    display: block;
+}
+.goal .goal_right .android{
+    padding: 40px 0px 0px 0px
+}
+.goal .goal_right .android h2{
+    color: #262a49;
+    font-size: 16px;
+    font-family:"FaktSoftPro-Medium";
+}
+.goal .goal_right .android p{
+    padding: 8px 0px;
+}
+.goal .goal_right .android p span{
+    display: block;
+}
+.result{
+    padding: 110px 0px 85px 0px;
+}
+.result .story_left{
+    padding:45px 23px 18px 65px;
+}
+.result .story_left h1{
+    color: #262a49;
+}
+.result .story_right{
+    padding-left: 50px; 
+}
+.result .result_right img{
+    position: relative;
+    z-index: 9;
+}
+.result .result_right h1{
+    position: absolute;
+    font-size: 32px;
+    color: #fff;
+    z-index: 99;
+    top: 45%;
+    left: 23%;
+    font-family:"FaktSoftPro-Medium";
+
+}
+.result .result_right2 img{
+    position: absolute;
+    left: 15%;
+    top: 8%;
+
+}
+.result .result2_right3 img {
+    width: 83%;
+    position: absolute;
+    left: 17%;
+    top: 16%;
+}
+/*customers case study page end*/
+
+/*customer_2 page start*/
+.container1{
+    width: 919px;
+    padding: 0px;
+}
+.product2 p{
+    color: #38315d;
+}
+.adam_julia{
+    padding: 30px 0px 100px;
+}
+.adam_julia .adam_inner h1{
+    color: #262a49;
+    font-size: 24px;
+    padding: 25px 0px;
+    font-family:"FaktSoftPro-Bold";
+}
+.adam_julia .adam_inner p{
+    color: #696b84;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "FaktSoftPro-Normal";
+}
+.about .about_inner h1{
+    font-size: 20px;
+    font-family: "FaktSoftPro-Medium";
+}
+/*.sandlar{
+    position: absolute;
+}*/
+
+.sandlar{
+    margin: -125px 0px 105px 0px;
+    z-index: 99;
+    position: relative;
+}
+.sandlar .sandlar_inner{
+    padding: 45px 20px 25px 20px;
+
+}
+.sandlar .sandlar_middle{
+    background-color: #fff;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);  
+}
+.sandlar h2{
+    color: #696b84;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family:"FaktSoftPro-Normal";
+}
+.sandlar h1{
+    color: #262a49;
+    padding: 8px 0px;
+    font-size: 28px;
+    font-family:"FaktSoftPro-Bold";
+}
+.sandlar p{
+    font-size: 16px;
+    color: #696b84;
+    line-height: 32px;
+    padding-top: 15px;
+    font-family:"FaktSoftPro-Normal";
+}
+.julia_slider{
+    position: relative;
+}
+.slick3 .slick_btn .slick-dots li button:before{
+    top: -120px;
+}
+.sandlar a,.read_case .adam_wedding a{
+    color: #696b84;
+    display: inline-block;
+    width: 100%;
+    background-color: #f9f8f8;
+    font-size: 16px;
+    text-align: center;
+    padding: 25px 0px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-family:"FaktSoftPro-Bold";
+    letter-spacing: 0.5px;
+}
+.sandlar a:hover,.read_case .adam_wedding a:hover{
+    background-color: #fbebf0;
+}
+.sandlar a img,.read_case .adam_wedding img{
+    display: inline-block;
+    margin-left: 10px;
+}
+.read_case .adam_wedding img{
+    margin-bottom: 5px;
+}
+.sandlar .sandlar_right h3{
+    color: #696b84;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family:"FaktSoftPro-Normal";
+}
+.sandlar .sandlar_right h3 span{
+    display: block;
+    font-size: 38px;
+    color: #262a49;
+    padding-top: 6px;
+    font-family:"FaktSoftPro-Bold";
+}
+.sandlar .right_space{
+    padding-top: 43px;
+}
+/*customer_2 page end*/
+.appleft{
+    padding: 40px 40px  40px 20px;
+    border-right: 2px solid #f9f8f8;
+}
+.appright {
+    padding:40px 20px 0 0;
+}
+.adam_slider{
+    margin-top: 120px;
+}
+/*customers page start*/
+
+.signup .download2{
+    background-color: #f9f8f8;
+    padding-bottom: 90px;
+}
+.wedding{
+    background: url(../img/bg1.png) no-repeat right;
+    padding: 40px 0px 90px 0px;
+}
+.wedding .container{
+    padding: 0px 120px;
+}
+
+.wedding .wedding_right,.wedding .wedding_left2{
+    background-color: #fff;
+    width: 540px;
+    padding: 50px 45px;
+    float: right;
+    margin: -170px 0px 90px 0px;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+}
+.wedding .wedding_left2{
+    margin-top: -175px;
+    float: left;
+}
+.wedding .wedding_right h1,.wedding .wedding_left2 h1{
+    color: #262a49;
+    font-size: 24px;
+    font-family:"FaktSoftPro-Bold";
+}
+.wedding .wedding_right p,.wedding .wedding_left2 p{
+    color: #696b84;
+    font-size: 18px;
+    line-height: 32px;
+    padding-top: 18px;
+    font-family: "FaktSoftPro-Normal";
+}
+.wedding .wedding_right2 img{
+    float: right;
+}
+.wedding .wedding_left2 .wedding_left2_bg,.wedding .wedding_right .wedding_left2_bg{
+    background: url(../img/left-quote.png) no-repeat right 0%;
+}
+
+.adam_inner .wedding_left2_bg{
+    background: url(../img/left-quote.png) no-repeat right 28%;
+    background-size: 20%;
+}
+.wedding .wedding_bg{
+    background: url(../img/bg2.png) no-repeat left bottom 0;
+}
+.wedding2{
+    padding-bottom: 0px
+}
+
+/*customers page end*/
+.adam_julia_bg{
+    background: url(../img/bg1.png) no-repeat right 38%;
+}
+.adam_julia_bg2{
+    background: url(../img/bg2.png) no-repeat left 80%;
+}
+
+
+/*change page start*/
+.google a{
+    text-decoration: none;
+    display: block;
+    color: rgba(0, 0, 0, 0.54) !important;
+    width: max-content;
+    padding: 9px 55px 9px 10px;
+    font-size: 14px !important;
+    letter-spacing: 0.2px;
+    margin: 35px auto 18px;
+    font-family:"FaktSoftPro-Medium" !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+}
+.google a img,.facebook a img{
+    float: left;
+    margin-right: 15px;
+}
+
+.facebook a{
+    text-decoration: none;
+    color: #fff !important;
+    background-color: #2553b4;
+    display: block;
+    font-size: 14px !important;
+    letter-spacing: 0.2px;
+    width: max-content;
+    margin: 0 auto;
+    font-family:"FaktSoftPro-Medium" !important;
+    padding: 9px 40px 9px 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+}
+.facebook a:hover,.google a:hover{
+    transform: scale(1.03);
+}
+/*customer case study2 start*/
+.images ul li,.images2 ul li{
+    list-style: none;
+    float: right;
+    width: 18%;
+}
+.case_images ul li img, .case_images ul li img{
+    width:130px;
+}
+.case_images.images2{
+    padding-bottom: 30px 
+}
+.images{
+    padding-top: 30px;
+}
+.case_images.images{
+    padding-top: 0px;   
+}
+.images2{
+    padding: 30px 0px 60px 0px;
+}
+.images2 ul li{
+    float: left;
+
+}
+.adam_middle{
+    background-color: #f9f8f8;
+
+}
+.slick4 .slick-list{
+
+    padding: 0 30px;
+}
+.read_case{
+    background: url(../img/path-5.png) no-repeat right 32%;
+    background-size: 42%;
+    padding: 0px;
+}
+.read_case2{
+    background: url(../img/path-6.png) no-repeat left 69%;
+    padding: 50px 0px 100px 0px;
+    background-size: 44%;
+}
+.read_case .adam_inner{
+    padding: 0px 30px;
+}
+.read_case .adam_inner h1{
+    padding-top: 7px;
+}
+.read_case .adam_wedding{
+    margin-top: 55px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+}
+.read_case .wedding_left2_bg{
+    background: url(../img/left-quote.png) no-repeat right 10% top 56%;
+    padding: 40px 40px 10px;
+}
+.read_case .wedding_left2_bg h2{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #696b84;
+    letter-spacing: 1px;
+    font-family:"FaktSoftPro-Normal";
+}
+.read_case .adam_wedding a{
+    background-color: #f9f8f8;
+    font-family:"FaktSoftPro-Normal";
+}
+
+/*change customer case study 2 page end*/
+
+/*about page start*/
+.about{
+    background: none;
+}
+.about .adam_julia_bg2{
+    background: none;
+}
+.about .about_inner{
+    text-align: center;
+}
+
+.about .about_inner img{
+
+}
+.Forimgwidth1{
+    width: 63px;
+    height: 63px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.the_best_thing{
+    background-color: #f9f8f8;
+    padding: 30px 0px 20px 0px;
+    border-top: 1px solid #dddde1;
+    border-bottom: 1px solid #dddde1;
+}
+.the_best_thing h1{
+    font-size: 36px;
+    color: #38315d;
+    padding: 15px 0px 25px 0px;
+    text-align: center;
+    font-family:"FaktSoftPro-Medium";
+}
+.the_best_thing h1 span{
+    display: block;
+}
+.the_best_thing .the_best_left{
+    background: url(../img/left-quote3.png) no-repeat left 8% top 0;
+}
+.the_best_thing .the_best_right{
+    background: url(../img/left-quote4.png) no-repeat right 8% bottom 0;
+}
+.mission{
+    padding: 60px 0px 100px;
+}
+.mission .story_left{
+    padding: 15px 0px 15px 15px;
+}
+.mission .story_left h1{
+    color: #262a49;
+    font-family: "FaktSoftPro-Medium";
+}
+.mission .story_right .location{
+    padding: 18px 26px;
+}
+.mission .story_left p{
+    font-family:"FaktSoftPro-Normal"; 
+}
+.mission .story_right .location p{
+    font-size: 16px;
+}
+.mission .top_img img{
+    margin: 0 auto;
+    position: relative;
+}
+.mission .left_img img {
+    position: absolute;
+    left: 0;
+    top: 69%;
+}
+.mission .right_img img{
+    position: absolute;
+    right: 7%;
+    top: 69%;
+}
+.mission .mission_left{
+    padding-top: 70px;
+}
+/*about page end*/
+
+/*ladnding page start*/
+.helping{
+    padding: 22px 0px 33px;
+    background-color: #f9f8f8;
+}
+.helping .help_middle{
+    padding: 0px 66px;
+}
+.helping p{
+    text-align: center;
+    color: #38315d;
+    font-size: 20px;
+    padding-bottom: 25px;
+    font-family:"FaktSoftPro-Normal"; 
+}
+.helping h2{
+    color: #696b84;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family:"FaktSoftPro-Normal"; 
+}
+.helping .helping_inner{
+    padding: 20px 28px 25px 28px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+}
+.helping h2 span{
+    display: block;
+    padding-top: 10px;
+    color: #262a49;
+    font-size: 36px;
+}
+.manage{
+    padding-bottom: 80px;
+    border-bottom: solid 1px #dddde1;
+}
+.manage ul{
+    padding-left: 0px;
+}
+.manage ul li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.manage ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #38315d;
+    letter-spacing: 1px;
+    font-family:'FaktSoftPro-Bold';
+}
+.manage ul li img{
+    margin: 0 auto;
+}
+.manage ul li:hover a{
+    color: #e57b93;
+}
+.manage ul li a.active2{
+    color: #e57b93;
+}
+
+.manage ul li:hover i{
+    border: 1px solid #dbd6e9;
+    background-color: #dbd6e9;
+}
+.manage .bottom_image{
+    margin-top: 70px;
+    padding: 65px 0px;
+    background: url(../img/packages.png) no-repeat center center;
+    background-size: 77%;
+}
+.manage .bottom_image img{
+    margin: 0 auto;
+}
+.manage .heightfull img{
+    margin: 0 auto;
+    display: block;
+}
+.manage i{
+    display: block;
+    padding:  11px 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: max-content;
+    margin: 0 auto 20px;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    width: 60px;
+    height: 60px;
+}
+.manage li.comm i{
+    padding:  15px 11px;  
+}
+.manage ul li a.active2 i{
+    background-color: #d8d3e6;
+    border: 1px solid #d8d3e6;
+}
+.demo{
+    width: 100%;
+    padding:50px 0px 60px;   
+}
+.demo h1{
+    font-family: "FaktSoftPro-Medium";
+    font-size: 28px;
+    line-height: normal;
+    color: #38315d;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.demo .demo_inner_main {
+    padding: 0px 85px;
+}
+.demo .demo_inner{
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    border-radius: 4px;
+    padding: 30px;
+}
+.demo .demo_inner h2{
+    font-family: "FaktSoftPro-Medium";
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #38315d;
+    text-align: center;
+    text-transform: uppercase;
+}
+.demo .demo_inner h2 img{
+    display: inline;
+    margin-right: 15px;
+}
+.demo .demo_inner a{
+    width: 90%;
+    border-radius: 4px;
+    font-family: "FaktSoftPro-Medium";
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #262a49;
+    border: 2px solid #262a49;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 0px;
+    margin-top: 30px;  
+    text-decoration: none;
+    margin-left: 5%;
+}
+.demo .demo_inner a:hover{
+    color: #262a49;
+    background-color: #ffffff;
+
+}
+.demo .demo_inner a.activeanchor{
+    background-color: #e57b93;
+    border: 2px solid #e57b93;
+}
+.demo .demo_inner a.activeanchor:hover{
+    background-color: #ffffff;
+    color: #e57b93;
+}
+/*landing page end*/
+
+/*contact page start*/
+.contact{
+    padding: 40px 0px;
+    margin-top: 145px;
+    border-bottom: solid 1px #dddde1;
+}
+.contact h1{
+    text-align: center;
+    color: #262a49;
+    font-size: 28px;
+    padding-bottom: 23px;
+    font-family: "FaktSoftPro-Medium";
+}
+.contact p{
+    text-align: center;
+    font-size: 16px;
+    color: #696b84;
+    font-family:"FaktSoftPro-Normal";
+}
+.contact_middle{
+    padding: 0px 110px;
+}
+.contact_inner{
+    background-color: #fff;
+    padding: 50px 65px 50px 90px;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+}
+.contactus{
+    background: url(../img/path-5.png) no-repeat right 92%;
+    padding: 25px 0px 100px;
+}
+.contact_bg{
+    background: url(../img/path-6.png) no-repeat left 0%;
+    padding: 30px 0px 0px 0px;
+}
+.contact .contact_inner h2{
+    color: #696b84;
+    font-size: 16px;
+    padding-bottom: 18px;
+    font-family:"FaktSoftPro-Normal";
+}
+.contact .contact_inner textarea{
+    width: 100%;
+    resize: none;
+    margin-bottom: 40px;
+    border: solid 1px #dddde1;
+    outline: medium;
+    font-size: 16px;
+    padding: 17px 17px;
+    font-family:"FaktSoftPro-Normal";
+}
+.contact .contact_inner textarea:focus,.contact .contact_inner input:focus{
+    border: 1px solid #e57b93;
+}
+.contact .contact_inner textarea::placeholder{
+    color: #a4a5ab;
+}
+.contact .contact_inner input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 35px;
+    border: solid 1px #dddde1;
+    outline: medium;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.contact .contact_inner button{
+    border-radius: 25px;
+    background-color: #e57b93;
+    padding: 13px 88px 11px;
+    outline: medium;
+    display: inline-block;
+    color:#fff;
+    font-size: 14px;
+    border: 2px solid #e57b93;
+    margin: 0 auto;
+    display: block;
+    font-family:"FaktSoftPro-Bold";   
+    position: relative;
+    transition: padding 250ms cubic-bezier(.645,.045,.355,1);
+}
+.home_button{
+    position: relative;
+}
+.hero__btn {
+    margin-top: 40px;
+    max-width: 278px;
+    width: 100%;
+}
+.btn:active {
+    transform: scale(.9);
+}
+.btn:hover span, .home_button .btn:hover span {
+    padding-right: 16px;
+    transition: padding 300ms cubic-bezier(.18,1.17,.73,1.65);
+}
+.btn img{
+    position: absolute;
+    top: 50%;
+    right:70px;
+    margin-top: -7px;
+    font-size: 12px;
+    stroke: #338de9;
+    transition: right 250ms cubic-bezier(.645,.045,.355,1),opacity .2s linear;
+    z-index: 3;
+    opacity: 0;
+    display: inline-block;
+    fill: currentColor;
+}
+.contact_inner .btn img{
+    right:80px;
+}
+.home_button .btn img{
+    top:-32%;
+}
+.home_button .btn:hover span{
+    padding-right: 16px;
+}
+.btn:hover img, .home_button .btn:hover img, .home_button a.active:hover img{
+    right: 65px;
+    opacity: 1;
+    transition: right 300ms cubic-bezier(.18,1.17,.73,1.65),opacity .2s ease-in;
+    transition-delay: .05s;
+}
+.home_button .btn:hover img, .home_button .btn.active img, .home_button .btn:focus img{
+    right:43px;
+}
+.home_button .btn img{
+    right:50px;
+}
+.contact_inner .btn:hover img{
+    right:80px;
+}
+/*.contact .contact_inner button img{
+    display:none;
+    margin: -3px 0px 0px 12px;
+}*/
+
+/*.contact .contact_inner button:hover img{
+display: inline;
+}*/
+.form-group {
+    display: block;
+    margin-top: 45px;
+}
+
+.form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+}
+
+.form-group label {
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    color: #696b84;
+    font-family:"FaktSoftPro-Normal";
+}
+.contactus .form-group label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #e57b93;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 15px;
+    border-radius: 3px;
+}
+
+.form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    width: 6px;
+    height: 12px;
+    border: solid #e57b93;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+/*contact page end*/
+footer .get_satrted a{
+    padding: 9px 25px 7px;
+    background: #e57b93;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 20px;
+    font-family:"FaktSoftPro-Bold";
+    border: 2px solid #e57b93;
+}
+footer .get_satrted a:hover{
+    color: #e57b93;
+    border: 2px solid #e57b93;
+    background:transparent;
+}
+footer .social_media li a i{
+    visibility: visible;
+    color: #131531;
+    margin-top: 7px;
+    font-size: 16px;
+}
+footer .social_media li a i.fa-twitter{
+    margin-left: 2px;
+}
+footer .social_media li a i.fa-linkedin{
+    margin-top: 6px;
+    margin-left: 1px;
+}
+footer .social_media li a i.fa-pinterest-p{
+    margin-left: 2px;
+    margin-top: 7.5px;
+}
+
+footer .social_media li a{
+    background: #fff;
+    border-radius: 100%;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    margin:30px 17px;
+}
+.google_box{
+    text-align: right;
+    padding-right: 25px;
+}
+.google_box  img{
+    margin-right: 15px;
+
+}
+footer .social_media li a:hover{
+    background: #e57b93;
+}
+footer .social_media li a:hover i{
+    color: #fff;
+}
+.last_rowfoot i{
+    color: #e57b93;
+}
+.last_rowfoot h6{
+    color: #fff;
+    font-size: 14px;
+    font-family: "FaktSoftPro-Normal";
+}
+.last_rowfoot{
+    padding: 90px 0px 0px;
+}
+.last_rowfoot ul li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+/*--footer end change priyank--*/
+
+/*pricing page start*/
+.question{
+    width: 100%;
+    padding: 50px 0px;  
+}
+.question .question_inner h1{
+    font-family: "FaktSoftPro-Medium";
+    font-size: 28px;
+    color: #38315d;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.question .question_inner .question_content{
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    border-radius: 4px;
+    padding: 30px;
+    padding-top: 0;
+    position: relative;
+}
+.content_right h2{
+    font-size: 30px;
+    color: #37305c;
+    letter-spacing: 1px;
+    margin: 14px 0px 30px;
+    padding-left: 15px;
+
+}
+.content_right .panel a{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 18px;
+    line-height: 22px;
+    color: #38315d;
+    padding: 25px 0px;
+    text-decoration: none;
+}
+.content_right .panel .panel-body p{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 16px;
+    line-height: 28px;
+    color: #696b84;
+    padding: 10px 0px;
+}
+
+.page-section {
+    min-height: 335px;
+    margin-top: -150px;
+    padding-top: 150px;
+
+}
+
+.question_content .col-sm-4{
+    position: static;
+}
+.question_content .navigation.fixed1{
+    position: absolute;
+    bottom: 35px;
+}
+.question_content .navigation.fixed{
+    position: fixed;
+    top:60px;
+}
+.content_right{
+    margin-top: 30px;
+}
+.question_content .navigation {
+    position: relative;
+    margin-top: 30px;
+}
+.navigation__link {
+    display: block;
+    font-family: "FaktSoftPro-Normal";
+    font-size: 18px;
+    color: #38315d;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 5px 0px;
+    text-decoration: none;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 0 18px;
+    padding-left: 8px;
+    height: 48px;
+    line-height: 55px;
+    border-radius: 5px;
+}
+.navigation__link:hover, .navigation__link.active{
+    color: #e57b93;
+    background: #f7f7f7;
+    padding-left: 20px;
+}
+/*pricing page end*/
+/*apps section Momento | PricingWeddingPlanners and PricingCouples start*/
+.apps{
+    width: 100%;
+    background: url(../img/multipleapps_bg.png) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 45px;
+}
+.apps .apps_inner_main{
+    padding: 0px 85px;
+}
+.apps .apps_inner{
+    background-color: #fff;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    border-radius: 4px;
+}
+.apps .appleft .left_heading{
+    text-align: center;
+}
+.apps .appleft .left_heading h4{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 16px;
+    color: #38315d;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.apps .appleft .left_heading h5{
+    font-size: 14px;
+    margin-top: 30px;
+    font-family: "FaktSoftPro-Normal";
+}
+.apps .appleft .left_heading h3{
+    font-family: "FaktSoftPro-Medium";
+    font-size: 64px;
+    color: #38315d;
+    letter-spacing: 0px;
+    position: relative;  
+}
+.apps .appleft .left_heading h3 i{
+    font-size: 36px;
+    margin-top: -5px;
+    position: absolute;
+    margin-left: -25px;
+    font-family: "FaktSoftPro-Normal";
+    font-style: normal;
+}
+.apps .appleft .left_heading h3 span{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 10px;
+    font-family: "FaktSoftPro-Normal";
+    position: absolute;
+    bottom: 0;
+}
+.apps .appleft .left_list ul{
+    list-style-type: none;
+    margin-top: 40px;
+    padding: 0;
+    text-align: center;
+}
+.apps .appleft .left_list ul li{
+    margin-bottom: 20px;
+}
+.apps .appleft .left_list ul li a{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 16px;
+    color: #38315d;
+    display: inline-block;
+}
+.apps .appleft .left_list a.btn1{
+    width: 253px;
+    border-radius: 4px;
+    background-color: #38315d;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 0px;
+    border: 2px solid #38315d;
+    font-family: "FaktSoftPro-Medium";
+    margin-top: 20px;
+}
+.apps .appleft .left_list a.btn1.single{
+    background-color: #e57b93;
+    border: 2px solid #e57b93;
+}
+.apps .appleft .left_list a.btn1:hover{
+    background-color: #fff;
+    color: #38315d;
+}
+.apps .appleft .left_list a.btn1.single:hover{
+    background-color: #fff;
+    color: #e57b93;
+}
+.apps .appright .img_box{
+    width: 50px;
+    height: 50px;
+    background-color: #38315d;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    margin: 0px 0px 20px;
+    border-radius: 50%;
+    position: relative;
+}
+.apps .appright .img_box img{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.apps .appright .img_box.single{
+    background-color: #ffffff;
+}
+.apps .appright h2{
+    font-family: "FaktSoftPro-Bold";
+    font-size: 12px;
+    color: #38315d;
+    text-transform: uppercase;
+}
+.apps .appright p{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 14px;
+    line-height: 22px;
+    color: #696b84;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.apps .appright p span{
+    display: block;
+}
+/*apps section Momento | PricingWeddingPlanners and PricingCouples end*/
+/*questions section Momento | PricingWeddingPlanners and PricingCouples start*/
+.font h1{
+    font-size: 28px;
+    text-align: center;
+}
+.font p{
+    color: #38315d;
+    line-height: 28px;
+    font-family: "FaktSoftPro-Normal";
+    font-size: 16px;
+}
+.questions{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0 0px 130px;
+}
+.questions .questions_inner .content{
+    border-bottom: 2px solid #dddde1;
+    padding: 40px 0px;
+}
+.questions .questions_inner .content.noborder{
+    border: none;
+}
+
+.questions .questions_inner .content h2{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 22px;
+    color: #38315d;
+    margin-bottom: 25px;
+}
+.questions .questions_inner .content p{
+    font-family: "FaktSoftPro-Normal";
+    font-size: 16px;
+    line-height: 28px;
+    color: #696b84;
+}
+.questions .questions_inner .content p span{
+    display: block;
+}
+/*questions section Momento | PricingWeddingPlanners and PricingCouples end*/
+
+/*partners page start*/
+.partners_wedding{
+    padding: 40px 0px;
+    margin-top: 145px;
+}
+.partners{
+    padding: 0px 110px;
+
+}
+.partners_wedding h1{
+    color: #38315d;
+    font-size: 28px;
+    text-align: center;
+    font-family:"FaktSoftPro-Medium";
+    padding-bottom: 25px;
+}
+.partners_wedding p{
+    color: #38315d;
+    font-size: 18px;
+    text-align: center;
+    font-family:"FaktSoftPro-Normal";
+}
+.partners_wedding_inner{
+    margin-top: 70px;
+    text-align: center;
+    background-color: #fff;
+    padding: 30px 0px 0px 0px;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+}
+.partners_wedding_inner img{
+    margin: 18px auto;
+}
+.partners_wedding_inner h3{
+    color: #696b84;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family:"FaktSoftPro-Medium";
+
+}
+.partners_wedding_inner h4{
+    color: #696b84;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 18px 30px 0px 20px;
+    font-family:"FaktSoftPro-Normal";
+}
+.partners_wedding_inner a{
+    color: #696b84;
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 18px 0px;
+    background-color: #f9f8f8;
+    margin-top: 50px;
+    font-family:"FaktSoftPro-Medium";
+}
+.partners_wedding_inner a:hover{
+    background-color:  #fbebf0;
+}
+.partners_wedding_inner a img{
+    display: inline-block;
+    margin:-3px 0px 0px 13px;
+}
+.partners_with{
+    margin-top: 0px;
+}
+.partners_with .partners_with_inner{
+    padding: 65px 0px 30px 0px;
+}
+.partners_with .partners_with_inner img{
+    margin: 20px auto 10px;
+}
+.partners_with .partners_with_inner .future{
+    padding: 10px 20px 15px;
+    text-align: center;
+    border-right: 2px solid #d8d8d8;
+    border-bottom: 2px solid #d8d8d8;
+    min-height: 175px;
+}
+.partners_with .partners_with_inner .future h2{
+    color: #38315d;
+    line-height: 25px;
+    font-size: 18px;
+    font-family:"FaktSoftPro-Normal";
+}
+.partners_with .partners_with_inner .future h2 span{
+    display: block;
+}
+.partners_with .partners_with_inner .future1{
+    border-right: none;
+}
+.partners_with .partners_with_inner .future2{
+    border-bottom: none;
+}
+.partner_lern{
+    margin-top: 0px;
+    padding: 0;
+}
+.partner_lern .partner_bg,.partner_lern .partner_bg2{
+    background: none;
+    padding-top: 0px;
+}
+.partner_lern .partner_bg h1{
+    padding: 0 50px 50px;
+}
+/*partners page end*/
+/*codess*/
+.get_satrted{
+    margin-bottom: 15px;
+}
+.only_wed_content .slick-dots{
+    bottom: -70px;
+    text-align: left;
+}
+
+/*popup packages start*/
+/*--checkuot popup page start--*/
+.package_popup{
+    background: url(../img/checkout_img1.png) no-repeat right bottom 305px;
+    background-color: #fff;
+    padding-bottom: 100px;
+
+}
+.package_popup2{
+    background: url(../img/checkout_img2.png) no-repeat left bottom 55px;
+    padding-bottom: 50px;
+
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: auto; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.package_modal .package_content {
+    background-color: #fff;
+    margin: auto;
+    padding: 0px;
+    border: 1px solid #888;
+    width: 100%;
+    border: none;
+}
+.package_modal .package_content .modal-box{
+    background-color: transparent;
+    box-shadow: none;
+}
+.package_modal .package_content .modal-box .modal-content{
+    border: none;
+    border-radius: unset;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+/* The Close Button */
+.package_content .package_popup2 .close {
+    height: 46px;
+    width: 46px;
+    border-radius: 100%;
+    opacity: 1;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    background-color: #ffffff;
+    position: relative;
+    right: 5%;
+    top: 45px;
+}
+
+.package_content .package_popup2 .close img{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.package_content .package_popup2 .play.close img{
+    top: 47%;
+    left: 47%;
+}
+.package_content .close:hover,
+.package_content .close:focus {
+
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+}
+.package_content{
+    padding-bottom: 50px;
+}
+.package1{
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    padding: 30px 40px 30px 40px;
+    margin-top: 60px;
+}
+.package1 .package_img{
+    min-height: 135px;
+}
+.package1 .package_price{
+    text-align: center;
+}
+.package1 .package_price h4{
+    font-family: "FaktSoftPro-Medium";
+    font-size: 16px;
+    color: #38315d;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.package1 .package_price h3{
+    font-family: "FaktSoftPro-Medium";
+    font-size: 64px;
+    color: #38315d;
+    letter-spacing: 0px;
+    margin-top: 30px;
+    position: relative;
+
+    transition: all .75s ease-in-out;
+    transform-style: preserve-3d;
+    transform-origin: 50% 50%;
+
+
+}
+.package1 .package_price h3 i{
+    font-size: 36px;
+    margin-top: -5px;
+    position: absolute;
+    margin-left: -25px;
+    font-family: "FaktSoftPro-Normal";
+    font-style: normal;
+}
+.package1 .package_price h3 span{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 10px;
+    font-family: "FaktSoftPro-Normal";
+    position: absolute;
+    bottom: 10px;
+}
+.package1 .package_price h3.yearChange{
+    display: none;
+    transform: rotateY(90deg);
+}
+.package1 .package_price h5{
+    font-size: 16px;
+    font-family: "FaktSoftPro-Bold";
+    color: #38315d;
+    margin-top: 15px;
+}
+.package1 .package_plans ul{
+    list-style-type: none;
+    margin-top: 40px;
+    padding: 0;
+    text-align: center;
+    min-height: 120px;
+}
+.package1 .package_plans ul li{
+    margin-bottom: 20px;
+}
+.package1 .package_plans ul li a{
+    font-family: "FaktSoftPro-Medium";
+    font-size: 16px;
+    color: #38315d;
+    display: inline-block;
+}
+.package1 .package_plans a.btn1{
+    width: 253px;
+    border-radius: 4px;
+    background-color: #38315d;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 0px;
+    border: 2px solid #38315d;
+    font-family: "FaktSoftPro-Medium";
+    margin: 20px auto 0px;
+    display: block;
+}
+.package1 .package_plans a.btn1.start_btn{  
+    background-color: #262a49;
+}
+.package1 .package_plans a.btn1.single{
+    background-color: #e57b93;
+    border: 2px solid #e57b93;
+}
+.package1 .package_plans a.btn1:hover{
+    background-color: #fff;
+    color: #38315d;
+}
+.package1 .package_plans a.btn1.single:hover{
+    background-color: #fff;
+    color: #e57b93;
+}
+.package1 .package_plans a.start_clr{
+    background-color: #262a49;
+    border: 2px solid #262a49;
+}
+.package1 .package_plans a.start_clr:hover{
+    background-color: #fff;
+    color: #262a49;
+}
+.package1 .package_plans a.start_clr2{
+    background-color: #37305c;
+    border: 2px solid #37305c;
+}
+.package1 .package_plans a.start_clr2:hover{
+    background-color: #fff;
+    color: #37305c;
+}
+.package_modal_2 .plan-wendding.product.font{
+    padding-bottom: 80px;
+}
+.package_modal_2 .plan-wendding.product{
+    background: none;
+    text-align: center;
+}
+.package_modal_2 .product h1 {
+    font-size: 28px;
+    line-height: normal;
+    color: #38315d;
+    padding: 0px 0px 15px 0;
+}
+.package_modal_2 .product p {
+    font-family: "FaktSoftPro-Medium";
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: normal;
+    color: #38315d;
+}
+.package_modal_2 .product_btns {
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    width: fit-content;
+    text-align: center;
+}
+.package_modal_2 .product .product_btns a.active {
+    font-family: "FaktSoftPro-Medium";
+    font-size: 16px;
+    background-color: #e57b93;
+    border-radius: 30px;
+    margin: 7px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: inline-block;
+    font-weight: 500;
+    padding: 17px 115px 15px;
+}
+.package_modal_2 .product_btns a.active.planers_btn {
+    background-color: #fff;
+    color: #38315d;
+}
+.package_modal_2 .product_btns a.active.planers_btn:hover{
+    background-color: #f9f8f8;
+}
+.package_modal_2 .product .product_btns a.active.colorchange{
+    background-color: #fff;
+    color: #696b84;
+}
+.package_modal_2 .product .product_btns a.active.colorchange:hover{
+    background-color: #f9f8f8;
+}
+.package_modal_2 .product_btns a.active.planers_btn.colorchange2 {
+    background-color: #38315d;
+    color: #fff;
+}
+.package_modal_2 .product_btns a.active.planers_btn.colorchange2 i
+{
+    display: none;
+}
+.flip .item{
+    position: absolute;
+    backface-visibility: hidden; 
+}
+#package2{
+    transform: rotateY(-180deg); 
+}
+.package_content .flip{
+    position: relative;
+    transition: all .75s ease-in-out;
+    transform-style: preserve-3d;
+    transform-origin: 50% 50%;
+}
+
+/*popup packages end*/
+.footer_font ul li a{
+    font-family:"FaktSoftPro-Normal";
+}
+.pro_relative{
+    position: relative;
+}
+.pro_button{
+    position: absolute;
+    right: 10px;
+    top: 22px;
+}
+.pro_button a{
+    border-radius: 30px;
+    background-color: #38315d;
+    padding: 7px 28px 3px;
+    font-family: "FaktSoftPro-Medium";
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.pro_button a:hover{
+    color: #38315d;
+    border: 1px solid #38315d;
+    background-color: #fff;
+}
+/*priyank popup start*/
+/*--checkuot popup page start--*/
+.checkout_popup{
+    background: url(../img/checkout_img1.png) no-repeat right bottom 145px;
+
+    background-color: #fff;
+
+}
+.checkout_box2{
+    background: url(../img/checkout_img2.png) no-repeat left bottom -25px;
+
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999999; /* Sit on top */
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: auto; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /*    background-color: rgb(0,0,0);  Fallback color 
+        background-color: rgba(0,0,0,0.4);  Black w/ opacity */
+    background: #fff;
+}
+
+/* Modal Content */
+.modal1_checkup .modal-content {
+    background-color: #fff;;
+    margin: auto;
+    padding: 0px;
+    border: 1px solid #888;
+    width: 100%;
+    box-shadow: none!important;
+    border: none;
+}
+.modal1_checkup .modal-content .modal-box{
+    background: #fff;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    margin-top: 10px;
+
+}
+.modal1_checkup .checkout_box2 .play {
+    color: #000;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:#fff;
+    height: 46px;
+    width: 46px;
+    border-radius: 100%;
+    text-align: center;
+    opacity: 1;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    position: absolute;
+    left: 5%;
+    top: 45px;
+}
+.modal1_checkup .checkout_box2 .play i{
+    margin-top: 6px;
+    transform: rotate(300deg);
+}
+
+/* The Close Button */
+/*.modal1_checkup .checkout_box2 .close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight:400;
+    background-color:#fff;
+    border-radius: 100%;
+    text-align: center;
+    opacity: 1;
+    box-shadow: 0 2px 10px 2px rgba(56, 49, 93, 0.1);
+    position: absolute;
+    right: 5%;
+    top: 45px;
+}*/
+
+.modal1_checkup .close:hover,
+.modal1_checkup .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.checkout_popup{
+    padding-bottom: 50px;
+}
+.modal1_checkup .modal-content2{
+    padding: 50px 0px 80px;
+}
+.modal-content2 h3{
+    font-size: 28px;
+    padding: 10px 0px 20px;
+    color: #38315d;
+    font-family:"FaktSoftPro-Medium";
+}
+.modal-content2 p{
+    font-size:16px;
+    color: #38315d;
+}
+.modal-content3_right h6{
+    font-size: 16px;
+    color: #38315d;
+    font-family:"FaktSoftPro-Bold";
+    padding-bottom: 15px;
+}
+.modal-content3_right a{
+    display: block;
+    font-size: 16px;
+    color: #38315d;
+    margin: 5px 0px;
+}
+.modal-content3_left form{
+    width: 80%;
+}
+.modal-content3_left{
+    border-right: 1px solid #dddde1;
+    padding: 40px 0px 40px 20px;
+}
+.modal-content3_right{
+    padding: 30px 20px 0px 0px;
+}
+.modal-content3_left label{
+    display: block;
+    padding-bottom: 10px;
+    color: #262a49;
+    font-size: 16px;
+    font-family:"FaktSoftPro-Normal";   
+    font-weight: 400;
+}
+#sel1,#sel2{
+    width: 40%;
+    display: inline-block;
+}
+
+/*#cvv{
+    width: 50%;
+    float: right;
+}*/
+#sel1{
+    margin-right: 20px;
+}
+.modal-content3_left input, .form-group select{
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #fff;
+    background-image: none;
+    border: solid 1px #dddde1;
+    border-radius: 0px;
+    display: block;
+    width: 100%;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    font-family:"FaktSoftPro-Normal";
+}
+.modal-content3_left input:placeholder, .modal-content3_left .form-control, .form-group select.form-control, .form-group select option.disable{
+    color: #dddde1;
+}
+.modal-content3_left .form-control:hover,.modal-content3_left .form-control:focus{
+    border-color: #e57b93;
+    outline: medium none !important;
+    box-shadow: none;
+}
+
+.credit_card{
+    position: relative;
+}
+.credit_card .form-control{
+    padding-right: 44px;
+    display: block;
+    width: 100%;
+}
+.credit_card img{
+    position: absolute;
+    right: 20px;
+    top: 53px;
+}
+.save_box{
+    border: 1px solid #dddde1;
+    margin-top: 45px;
+    padding: 17px 15px 10px;
+}
+.save_box h6{
+    padding-top:5px;
+    font-size: 13px;
+    color: #262a49;
+    font-family:"FaktSoftPro-Normal";
+}
+.save_box p{
+    font-size: 13px;
+    margin-top: 10px;
+    color: #a4a5ab;
+    font-family:"FaktSoftPro-Normal";
+}
+.save_box p a{
+    display: inline;
+    font-size: 13px;
+    color: #e57b93;
+    text-decoration: underline !important;
+}
+.sup_box{
+    position: relative;
+}
+.sup_box h2{
+    color: #38315d;
+    font-size: 40px;
+    padding: 15px 0px 0;
+    font-family:"FaktSoftPro-Medium";
+}
+.sup_box a{
+    font-size: 10px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #38315d;
+    padding: 6px 11px 4px;
+    position: absolute;
+    top: -26px;
+    left: 26px;
+    font-family:"FaktSoftPro-Medium";
+    text-align: center;
+}
+.sup_box h2 span{
+    position: absolute;
+    font-size: 12px;
+    padding: 5px 0px 0px 5px;
+}
+.upgrade_section a{
+    font-size: 18px;
+    border-radius: 27.5px;
+    background-color: #e57b93;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 45px 10px;
+    display: inline-block;
+    margin: 30px 0px;
+    font-family:"FaktSoftPro-Normal";
+}
+.upgrade_section h6{
+    color: #665f8a;
+    font-size: 16px;
+    font-family:"FaktSoftPro-Normal";
+}
+
+.upgrade_section h6 img{
+    margin: -6px 10px 0 0;
+}
+.last_rowfoot .footer_font{
+    float: right;
+}
+.signin .slick2 .slick-dots{
+    left:65px;
+    bottom: 30px;
+}
+.signin .slick2 .slick-dots li{
+    width:35px;
+    height:10px;
+    float: left;
+
+}
+.signin .slick2.slick-dotted.slick-slider{
+    margin: 0;
+    overflow: hidden;
+}
+.flex_build1 h4{
+    padding-top: 25px;
+}
+.plan-wendding.signup_what a.signnow:hover{
+    font-size: 18.5px;
+}
+/*.signup.signup_what .download a.signnow, .plan-wendding.signup_what a.signnow{
+    height: 56px;
+    width: 240px;
+}*/
+.plan-wendding.signup_what a.signnow{
+    width:328px;
+    margin-left: 0;
+}
+.plan-wendding.signup_what a.signnow i{
+    font-style: normal;
+}
+.read_case_price{
+    width: 100%;
+    background: url(../img/pricing-bg.png) no-repeat center center;
+    background-size: 100% 100%;
+    padding-bottom: 45px;
+}
+.demo .demo_inner a.speak_Clr{
+    background-color: #37305c;
+    border: 2px solid #37305c;
+}
+.demo .demo_inner a.speak_Clr:hover{
+    background-color: #fff;
+    border: 2px solid #37305c;
+    color:#37305c;
+}
+.slider .item img{
+    width:130px;
+}
+.home_center{
+    float:left;
+    text-align: center;
+}
+.google_box a svg:hover path, .google_box a svg:hover text,  .home_button .play_butn svg:hover path:last-child{ 
+    fill:#e57b93;
+}
+.google_box a svg:hover rect, .home_button .play_butn svg:hover path{ 
+    stroke:#e57b93;
+}
+.google_box a{
+    margin-right: 15px;
+}
+.home_button .play_butn{
+    margin-top: 20px;
+}
+.plan-wendding .home_center a{
+    padding: 17px 85px 15px;
+}
+.plan-wendding .home_center a.getBTN:hover{
+    padding-left: 75px;
+}
+.slick-dotted.slick-slider {
+    overflow: hidden;
+}
+:focus{
+    outline: medium none !important;
+}
+.home_plan h1{
+    padding-top: 30px;
+}
+.mission.about_mission{
+    padding: 95px 0px 160px;
+}
+.forms.signup_page{
+    padding-top: 0;
+}
+.getBTN{
+    position: relative;
+}
+.getBTN img{
+    right:10px!important;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    font-size: 12px;
+    stroke: #338de9;
+    transition: right 250ms cubic-bezier(.645,.045,.355,1),opacity .2s linear;
+    z-index: 3;
+    opacity: 0;
+}
+.getBTN:hover img,.getBTN:focus img,.getBTN.ctive img{
+    right:25px!important;
+    opacity: 1;
+    transition: right 300ms cubic-bezier(.18,1.17,.73,1.65),opacity .2s ease-in;
+    transition-delay: .05s;
+}
+
+#myDropdown:before{
+    font-family: 'FontAwesome';
+    content: "\f0d8";
+    position: absolute;
+    font-size: 40px;
+    top: -33px;
+    color: #fff;
+    left: 37%;
+    text-shadow: 0 -6px 9px rgba(163, 157, 193, 0.5);
+    transition: all 0.0005s ease 0s;
+}
+
+/*.planweddinginner{
+    position: relative;
+}*/
+.plan-wenddinghome{
+    z-index: 0;
+}
+.bg-image {
+    width: 505px;
+    height:500px;
+    background-image: url(../img/vector.png);
+    top: 0;
+    margin-left: 64px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    /*    z-index: 0;*/
+    left: 55%;
+}
+.lazyload.loaded {
+    opacity: 1;
+}
+.lazyload {
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+
+.showitems{
+    position: relative;
+    z-index: 9;
+}
+.planimg1{
+    display: none;
+}
+#myModal{
+    padding: 0!important;
+}
+.plan-wenddingindex{
+z-index:0;
+}

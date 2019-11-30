@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="89" viewBox="0 0 116 89">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#9B9B9B" fill-rule="nonzero" d="M0 56h16v14H0zM80 62h16v8H80zM100 66h16v4h-16z" opacity=".501"/>
+        <path fill="#5DCFD0" fill-rule="nonzero" d="M20 9h16v61H20zM40 0h16v70H40z"/>
+        <path fill="#9B9B9B" fill-rule="nonzero" d="M60 40h16v30H60z" opacity=".501"/>
+        <g fill="#424241" font-family="Montserrat-Regular, Montserrat" font-size="14">
+            <text transform="translate(0 73)">
+                <tspan x="3.366" y="15">0</tspan>
+            </text>
+            <text transform="translate(0 73)">
+                <tspan x="25.473" y="15">1</tspan>
+            </text>
+            <text transform="translate(0 73)">
+                <tspan x="44.024" y="15">2</tspan>
+            </text>
+            <text transform="translate(0 73)">
+                <tspan x="64.052" y="15">3</tspan>
+            </text>
+            <text transform="translate(0 73)">
+                <tspan x="83.373" y="15">4</tspan>
+            </text>
+            <text transform="translate(0 73)">
+                <tspan x="104.038" y="14">5</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

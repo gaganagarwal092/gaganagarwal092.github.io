@@ -1,0 +1,130 @@
+@media screen and (max-width: 1199px){
+	.funnel_heading h1{
+	    font-size: 32px;
+	    line-height: 42px;
+	    letter-spacing: -1px;
+	}
+	.funnelbtns ul{
+		padding: 30px 160px 30px;
+	}
+	.funnelbtnstyle h4{
+		font-size: 18px;
+	}
+
+}
+@media screen and (max-width: 991px){
+	.container_funnel {
+	    width: 750px;
+	}
+	.funnelbox {
+		padding: 30px 60px;
+	}
+	.funnelmain{
+	    padding-bottom: 60px;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.container_funnel {
+	    width: 480px;
+	}
+	.funnel_heading h1 {
+		font-size: 28px;
+		line-height: 38px;
+		letter-spacing: -1px;
+
+	}
+	.funnelbox {
+    	padding: 30px 30px;
+	}
+	.funnelbtns ul {
+	    padding: 20px 40px 20px;
+	}
+	.funnelbtnstyle{
+		padding: 10px 0px;
+	}
+	.funnelbox{
+	    min-height: 560px;
+	}
+	.funnel_heading p{
+	    font-size: 18px;
+	    line-height: 24px;
+	}
+	.header .navbar-brand>img {
+    	width: 180px;
+	}
+	.header .navbar{
+		min-height: 28px;
+	}
+	.funnelmain {
+    	margin-top: 64px;
+	}
+
+}
+@media screen and (max-width: 560px){
+	.funnel_heading h1 {
+    	font-size: 24px;
+    	line-height: 34px;
+	}
+	.container_funnel {
+	    width: 100%;
+	}
+	.funnelbox {
+	    padding: 20px 20px;
+	}
+	.funnelmain {
+	    padding-bottom: 40px;
+	}
+	.funnel{
+		height: 100%;
+	}
+	.funnelmain{
+		height: 100%;
+	}
+	.funnelbox {
+	    min-height: auto;
+	}
+
+}
+@media screen and (max-width: 414px){
+	/*.header .navbar-brand>img {
+    	width: 150px;
+	}*/
+	.header .navbar {
+    	min-height: 24px;
+	}
+	.header{
+		padding: 5px 0px;
+	}
+	.funnelmain {
+	    margin-top: 60px;
+	}
+	.funnelbtns ul {
+	    padding: 20px 0px 20px;
+	}
+	.funnel_heading h1 {
+	    font-size: 22px;
+	    line-height: 28px;
+	}
+	/*.funnel_heading h1 br{
+		display: block;
+	}*/
+	/*.funnel_heading h1 br{
+		display: block;
+	}*/
+	.funnelbtnstyle {
+	    padding: 10px 0px;
+	}
+	.funnelbtnstyle h4 {
+	    font-size: 16px;
+	}
+	.funnel_heading p {
+	    font-size: 16px;
+	    line-height: 18px;
+	}
+	
+
+}
+@media screen and (max-width: 320px){
+
+}

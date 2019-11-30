@@ -1,0 +1,536 @@
+@media screen and (max-width: 1199px){
+	.navleft{
+	    margin-left: 28px;
+	}
+	.header .navbar-brand{
+		padding: 30px 30px;
+	}
+	.header .navbar-nav li.bellpadding a{
+		padding: 33px 26px;
+	}
+	.header .nav.navbar-nav.navbar-right li.bellpadding2 a {
+    	padding: 24px 26px;
+	}
+	.monthsexp h2{
+		font-size: 20px;
+	}
+	.monthsexp h3{
+		font-size: 14px;
+		margin-bottom: 18px;
+	}
+	.monthsexp .monthsexp_inner{
+	    padding: 25px 0px;
+	}
+	.dashboard{
+        padding: 28px 30px;
+	}
+	.incomedetails{
+        padding: 25px 12px 25px 15px;
+	}
+	.scroll{
+		padding-right: 13px;
+	}
+	.detaillist p span{
+	    font-size: 14px;
+	}
+	.detaillist p{
+		font-size: 12px;
+	}
+	.monthsexpchart{
+	    height: 301px;
+	}
+	.transaction_tabs a{
+		font-size: 14px;
+		padding: 25px 25px;
+	}
+	.transaction_tabs a.add img{
+		margin-top: 0;
+	}
+    .transaction-s{
+        width: 800px;
+    }
+    .trans_details .width1{
+        width: 32%
+    }
+    .trans_details .width5{
+        width: 23%
+    }
+
+}
+@media screen and (max-width: 991px){
+	.transaction_tabs ul{
+	    padding: 20px 0px;
+	    width: 100%;
+	}
+	.transitems .width1 {
+    	width: 20%;
+	}
+	.transitems .width3 {
+    	width: 20%;
+	}
+	.transitems .width4 {
+	    width: 20%;
+	}
+	.dashboard{
+	    margin-top: 66px;
+	}
+	.incomedetailsshadow{
+		bottom: 0;
+	}	
+	.monthsexpchart{
+		padding: 20px 15px;
+	}
+	.monthsexp{
+		margin-top: 30px;
+	}
+	.monthsexp h3{
+		font-size: 16px;
+	}
+	.monthsexp h2{
+		font-size: 30px;
+	}
+	.transaction_inner{
+		padding: 0px 12px 0px 15px;
+	}
+	.detaillist p{
+		font-size: 14px;
+	}
+	.detaillist p span {
+    	font-size: 18px;
+	}
+	.transaction_tabs a{
+		padding: 20px 10px;
+	}
+	.transaction_tabs{
+	    padding: 0px 15px;
+	}
+	.detailitems {
+	    padding: 0px 15px 0px;
+	}
+    .transaction_head, .transaction_body {
+        padding: 30px 40px;
+    }
+    .transaction_head h3{
+        font-size: 28px;
+    }
+    .spent h4,.remaining h4, .trans h4 {
+        font-size: 27px;
+        padding-top: 15px;
+    }
+    #transaction-s{
+    	width: 100%;
+    }
+    .navbar-nav{
+		margin: 0;
+	}
+	.navleftdrop{
+		float: left;
+	}
+	.transaction-s {
+	    width: 620px;
+	}
+	.header .nav.navbar-nav.navbar-right li{
+		float: left;
+	}
+	.header .navbar-brand {
+	    padding: 21px 15px;
+	}
+	.navleft{
+		margin-left: 15px;
+	    padding: 23px 15px 22px 0px;
+	}
+	.navleftdrop li a{
+		font-size: 14px;
+	}
+	.navleftdrop li a img{
+		margin-left: 10px;
+	}
+	.header .navbar-nav li.bellpadding a{
+		padding: 24px 15px;
+	}
+	.header .navbar-nav li a{
+		font-size: 12px;
+		padding: 8px 15px;
+	}
+	.header .nav.navbar-nav.navbar-right li {
+	    padding: 15px 15px 15px 0px;
+	}
+	.header .navbar-nav li.dropdown2 {
+        padding: 13px 0px 13px 15px !important;
+	}
+	.dot{
+		right: 24%;
+		top: 32%;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.dropdown .mutliSelect label{
+	    font-size: 14px;
+	}
+	.dropdown dt a span, .multiSel span{
+		font-size: 14px;
+	}
+	.dropdown dt a{
+		padding-left: 14px;
+	}
+	.dropdown dd ul li{
+	    padding: 5px 13px 5px 14px !important;
+	}
+	.transitems .width1 {
+	    width: 40%;
+	}
+	.transitems .width2{
+		display: none;
+	}
+	.transitems .width4 {
+	    display: none;
+	}
+	.transitems .width3 {
+	    width: 20%;
+	}
+	.trans_details .width3{
+		display: none;
+	}
+	.trans_details .width4{
+		display: none;
+	}
+	.trans_details .width5 {
+	    width: 25%;
+	    float: right;
+	}
+	.trans_details .width2{
+	    width: 25%;
+	    text-align: center;
+	}
+	.trans_details .width1 {
+	    width: 50%;
+	}
+	.navbar-header{
+		width: 100%;
+	}
+	.header .hamburger{
+        display: block;
+    }
+	.block{
+		display: block;
+		position: absolute;
+	    top: 0;
+	    right: 60px;
+	    padding: 0;
+	}
+	.header .nav.navbar-nav.navbar-right li.first{
+		display: none;
+	}
+	.header .nav.navbar-nav.navbar-right li.second{
+		display: none;
+	}
+	.header .nav.navbar-nav.navbar-right li.forth{
+		display: none;
+	}
+	.header .nav.navbar-nav.navbar-right li.fifth{
+		display: none;
+	}
+	.detailitems p{
+	    padding: 18px 36px 18px 20px;
+	}
+	.imgcircle{
+		top: 10px;
+	}
+	.transaction .modal-dialog{
+		width: 90%;
+	}
+	.expense .modal-dialog{
+		width: 90%;
+	}
+	.transaction .modal-header{
+	    padding: 20px 26px;
+	}
+	.transaction .modal-body {
+	    padding: 10px 26px 26px;
+	}
+	.transaction_form{
+		padding: 10px 14px;
+	}
+	.form-control{
+		padding: 10px 0px 0px 0px;
+		outline: none;
+		height: 30px;
+	}
+	.transaction_form.bills .form-control {
+    	padding-left: 14px;
+    	padding-right: 14px;
+	}
+	.transaction_form.bills label, .transaction_form.bills select {
+    	padding-left: 14px;
+	}
+	.form-group button{
+	    margin-top: 28px;
+        padding: 12px;
+	}
+	.expense .modal-header{
+		padding: 20px 26px;
+	}
+	.dd-selected{
+	    padding: 12px 14px !important;
+	}
+	.dd-select{
+		height: 60px !important;
+	}	
+    .transaction-s{
+        width: 100%;
+    }
+    .transaction_tabs ul li a{
+	    padding: 0px 25px;
+    }
+    .transaction_tabs ul.dropdown-menu li a{
+	    padding: 8px 16px;
+    }
+	
+}
+@media screen and (max-width: 560px){
+	.widthfull2{
+		width: 100%;
+		padding: 0;
+	}
+	.transaction_tabs ul li a{
+	    padding: 0px 6px;
+        font-size: 14px;
+	}
+	/*.transaction_tabs ul li:nth-child(2) {
+	    width: 71%;
+	}
+	.transaction_tabs ul li:nth-child(3){
+		width: 37%;
+	}*/
+	.transaction_tabs a.add {
+    	padding: 22px 10px 10px;
+    }
+	.transaction_tabs ul{
+		padding: 0px 0px 10px;
+	}
+	/*.dropdown dt a{
+		padding-left: 14px;
+	}
+	.dropdown dd ul li{
+	    padding: 5px 13px 5px 14px !important;
+	}*/
+	.trans_details .width1 {
+    	width: 60%;
+	}
+	.trans_details .width2 {
+	    width: 21%;
+	}
+	.trans_details .width5 {
+	    width: 19%;
+	}
+	.tick label span{
+		width: 20px;
+		height: 20px;
+	}
+	.tick label span:after {
+	    height: 6px;
+	    left: 3px;
+	    top: 3px;
+	    width: 11px;
+	}
+	.tick label span{
+	    top: -2px;
+	}
+	.tick label{
+	    font-size: 14px;
+	}
+	.transitems{
+	    padding: 15px 16px;
+	}
+	.transitems .width3 {
+	    width: 25%;
+	}
+	.transitems .width1 {
+	    width: 30%;
+	}
+	.transitems a{
+		font-size: 12px;
+	}
+	.transitems p.day{
+		font-size: 14px;
+	}
+
+	.transitems p span{
+		margin-bottom: 5px;
+	}
+	.dashboard {
+	    padding: 28px 10px;
+	}
+	.navleft {
+	    margin-left: 18px;
+	}
+	.monthsexp h2 {
+	    font-size: 20px;
+	}
+	.monthsexp h3 {
+	    font-size: 14px;
+	}
+	.detaillist p span{
+		font-size: 16px;
+	}
+	.monthsexpchart{
+	    height: 221px;
+	}
+	.incomedetailsshadow{
+	    bottom: 18px;
+	}
+    .transaction_head, .transaction_body {
+        padding: 20px 30px;
+    }
+    .transaction_head h3{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .transaction_head img{
+        top:45px;
+    }
+    .spent p, .remaining p, .trans p{
+        letter-spacing: 0px;
+        font-size: 11px;
+        text-align: center;
+    }
+    .spent, .remaining, .trans {
+        padding: 20px 15px;
+    }
+    .spent h4, .remaining h4, .trans h4 {
+        font-size: 20px;
+        padding-top: 12px;
+        text-align: center;
+    }
+    .spent h4 span, .remaining h4 span {
+	    font-size: 14px;
+	}
+	.select2-container{
+		width: 140px !important;
+	}
+	.select2-dropdown{
+		font-size: 14px;
+	}
+	.select2-results__option {
+	    padding: 5px 10px;
+	}
+	.cost a{
+		font-size: 12px;
+	    margin-left: 20px;
+	}
+	.detailitems p {
+	    padding: 18px 15px 18px 15px;
+	}
+	.text {
+	    font-size: 14px;
+	    padding-left: 50px;
+	}
+	.imgcircle{
+		left: 15px;
+	}
+	.total p {
+   	 	padding: 28px 22px 28px 36px;
+   	}
+}
+@media screen and (max-width: 414px){
+	.transaction_tabs a.add {
+	    padding: 19px 10px 20px;
+	}
+	.total p{
+	    padding: 28px 36px 28px 36px;
+	}
+	.transitems .width3 {
+    	width: 31%;
+	}
+	.details_head p{
+	    padding: 6px 24px;
+	}
+	.transaction_tabs a.clickme {
+    	padding-right: 0;
+	}
+	.select2-container {
+	    width: 230px !important;
+	}
+	.transaction_form .form-control{
+		font-size: 14px;
+	}
+	.nice-select:after{
+	    right: 10px;
+	}
+	.widthfull{
+		width: 100%;
+		padding: 0;
+	}
+    .transaction_head, .transaction_body{
+        padding: 20px;
+    }
+    .transaction_head p{
+        font-size: 14px;
+    }
+    .transaction_head h3{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .transaction_head img {
+        top: 40px;
+    }
+    .spent, .remaining, .trans {
+        padding: 15px 0px;
+    }
+    /*.trans_details .width1,  .trans_details .width2,  .trans_details .width3,  .trans_details .width4,  .trans_details .width5 {
+        width: 20%;
+    }*/
+    .tick label, .detail_list p span:nth-child(2), .detail_list p span:nth-child(3), .detail_list p span:nth-child(4){
+        font-size: 13px;
+    }
+    .dd-selected-text{
+    	margin-top: 10px;
+    	margin-left: 5px;
+    }
+    .spent h4, .remaining h4, .trans h4{
+		font-size: 18px;
+		padding-top: 10px;
+    }
+    .tick label span{
+		width: 20px;
+		height: 20px;
+	    top: -2px;
+    }
+    .tick label span:after{
+    	height: 6px;
+		left: 3px;
+		top: 3px;
+		width: 11px;
+    }
+    .dashboard {
+    	padding: 28px 0px;
+	}
+	.detaillist p i{
+    	display: block;
+	}
+	.monthsexpchart {
+	    height: 161px;
+	}
+	.detail_list{
+		padding: 15px 15px;
+	}
+	.details_head {
+	    margin-top: 10px;
+	}
+	.sidenavdrop .dropdown-menu a,.navleftdrop .dropdown-menu li a,.transaction_tabs ul.dropdown-menu li a{
+	    font-size: 14px;
+	}
+	.tick label{
+	    margin-left: 12px;
+	}
+	.detail_list p span:nth-child(2){
+	    padding: 4px 0px;
+	}
+	.monthsexp .monthsexp_inner {
+	    padding: 20px 0px;
+	}
+}
+@media screen and (max-width: 320px){
+
+}

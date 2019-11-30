@@ -1,0 +1,325 @@
+@media screen and (max-width: 1199px){
+	.container_funnel {
+	    width: 770px;
+	}
+	.funnel_heading h1{
+	    font-size: 32px;
+	    line-height: 42px;
+	}
+	.funnelbtns ul{
+	    padding: 45px 120px 0px;
+	}
+	.funnelbtnstyle h4{
+		font-size: 20px;
+	}
+	.formbox {
+	    padding: 30px 100px 0px;
+	}
+	.formbox .form-control{
+		font-size: 20px;
+		height: 51px;
+	}
+	.funnelbox {
+	    padding: 0px 125px 225px;
+	}
+	.points{
+	    padding: 0px 90px;
+	}
+	.funnelbtns ul.continueul {
+	    padding: 0px 100px 0px;
+	}
+	.funnelbtnstyle.continuebtn h4{
+		font-size: 20px;
+	}
+	.personalinfo2 {
+	    padding: 0px 80px 0px;
+	}
+	.funnel_heading p{
+		font-size: 22px;
+	}
+
+}
+@media screen and (max-width: 991px){
+	.container_funnel {
+	    width: 750px;
+	}
+	.funnelbox {
+		padding: 0px 115px 225px;
+	}
+	.header .call{
+	    font-size: 18px;
+	}
+
+	.points {
+    	padding: 0px 130px;
+	}
+	.license {
+    	padding: 0px 110px;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.container_funnel {
+	    width: 460px;
+	}
+	.funnel_heading h1 {
+	    font-size: 40px;
+	    line-height: 48px;
+	}
+	.funnelbtns ul {
+		padding: 45px 50px 0px;
+	}
+	.funnelbtnstyle{
+		padding: 12px 0px;
+	}
+	.funnelbox{
+	    min-height: 560px;
+        padding: 0px 0px 225px;
+	}
+	.padzero{
+		padding: 0;
+	}
+	.formbox{
+	    padding: 20px 60px 0px;
+	}
+	.formbox .form-control{
+		/*height: 49px;*/
+	}
+	.points {
+    	margin-top: 20px;
+    	padding: 0px 50px;
+	}
+	.license {
+    	padding: 0px 30px;
+	}
+	.license p{
+		font-size: 20px;
+	}
+	.funnelbtns ul.continueul {
+	    padding: 0px 60px 0px;
+	}
+	.personalinfo2 {
+	    padding: 0px 50px 0px;
+	}
+	.modal-dialog{
+		width: 90%;
+		margin: 30px auto;
+	}
+	.funnelbtnstyle h4 {
+	    font-size: 33px;
+	}
+	.funnelbtnstyle{
+		width: 140px;
+		height: 140px;
+	}
+	.formbox .form-control{
+		font-size: 17px;
+		height: 50px;
+	}
+	.funnel_heading p {
+	    font-size: 29px;
+	}
+	.funnelbtnstyle.continuebtn h4 {
+	    font-size: 17px;
+	}
+	.header .navbar{
+		min-height: 25px;
+	}
+	.header{
+	    padding: 25px 0px 35px;
+	}
+	.header .logopos img{
+		width: 250px;
+	}
+	.header .logopos{
+	    bottom: -50px;
+	}
+
+}
+@media screen and (max-width: 560px){
+	
+	.container_funnel {
+	    width: 100%;
+	}
+	.funnel{
+		height: 100%;
+	}
+	/*.funnelmain{
+		height: 100%;
+	}*/
+	.funnelbox {
+	    min-height: auto;
+	}
+	.points{
+		padding: 0px 30px;
+	}
+	.license {
+    	padding: 0px 20px;
+	}
+	.points p{
+		font-size: 18px;
+	}
+	.license p{
+		font-size: 18px;
+	}
+	.funnelbtns ul {
+	    padding: 45px 25px 0px;
+	}
+	.formbox {
+    	padding: 20px 40px 0px;
+	}
+	
+	.f_inner p.copyright{
+	    margin-top: 20px;
+	}
+	.formbox .form-group{
+		margin-bottom: 10px;
+	}
+	.funnelbtns ul.continueul {
+	    padding: 0px 40px 0px;
+	}
+	.personalinfo2 {
+	    padding: 0px 20px 0px;
+	}
+	.funnel_heading h1 {
+	    font-size: 30px;
+	    line-height: 38px;
+	}
+	.funnelmain{
+		padding-top: 35px;
+	}
+	.funnelbtnstyle h4 {
+	    font-size: 28px;
+	}
+	.funnelbtnstyle {
+    	width: 130px;
+    	height: 130px;
+	}	
+	.funnel_heading p {
+    	font-size: 26px;
+    	line-height: 30px;
+    	margin: 20px 0px;
+	}
+	.header{
+		padding: 25px 0px 85px;
+	}
+	.header {
+    	padding: 25px 0px 85px;
+	}
+	.header .navbar {
+	    min-height: 0px;
+	}
+	.header .logopos img {
+	    width: 300px;
+	}
+	.header .logopos{
+		bottom: -100px;
+	}
+		
+
+}
+@media screen and (max-width: 414px){
+	.header{
+		background: url(../img/headerbgres.png) no-repeat center center;
+		background-size: cover;
+        padding: 25px 0px 95px;
+	}
+	.header .navbar {
+	    min-height: 0px;
+	}
+	.header .logopos2 img {
+	    width: auto;
+	}
+	.header .logopos{
+		display: none;
+	}
+	.header .logopos2{
+	    display: block;
+	    position: absolute;
+	    right: 0;
+	    left: 0;
+        bottom: -105px;
+	}
+	.footer{
+		background: url(../img/footerbgres.png) no-repeat center center;
+		background-size: cover;
+	    padding: 30px 0px 20px;
+	}
+	.funnelmain{
+	    padding-top: 25px;
+	}
+	.funnelbtns ul {
+       padding: 30px 0px 0px;
+	}
+
+	.funnelbtnstyle {
+	    width: 120px;
+	    height: 120px;
+	}
+	.funnel_heading h1 {
+	    font-size: 26px;
+    	line-height: 30px;
+	}
+	/*.funnelbtnstyle.continuebtn {
+	    padding: 10px 10px;
+	}*/
+	
+	.funnel_heading p {
+	    font-size: 22px;
+    	line-height: 26px;
+    	margin: 15px 0px;
+	}
+	.funnelbox {
+	    min-height: auto;
+	    padding-bottom: 30px;
+	}
+	.formbox {
+		padding: 20px 0px 0px;
+	}
+	.formbox .form-control {
+		font-size: 18px;
+		padding: 6px 12px;
+		height: 46px;
+	}
+	.funnelbtnstyle.continuebtn h4 {
+	    font-size: 18px;
+	}
+	.header .navbar-header a {
+	    letter-spacing: 1.3px;
+	    font-size: 16px;
+	}
+	.funnelbtns ul.continueul {
+	    padding: 0px 0px 0px;
+	}
+	.personalinfo2 {
+	    padding: 0px 0px 0px;
+	}
+	.privacy_para {
+	    margin-top: 15px;
+	}
+	.modal-body {
+	    padding: 20px;
+	}
+	.funnelmain{
+		margin-top: 110px;
+	}
+	.imgcenter{
+	    margin-top: 30px;
+	}
+	.funnelbox {
+	    min-height: 560px;
+	}
+	.funnelbtnstyle h4 {
+	    font-size: 24px;
+	}
+	button.close{
+		height: 40px;
+		width: 40px;
+		right: -20px;
+		top: -20px;
+		padding: 6px 6px 6px 6px;
+	}
+}
+@media screen and (max-width: 320px){
+
+}

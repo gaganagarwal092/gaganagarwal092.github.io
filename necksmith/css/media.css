@@ -1,0 +1,110 @@
+@media screen and (max-width: 1199px){
+	.funnel_heading h1{
+	    font-size: 28px;
+	}
+	.funnelbtns ul{
+		padding: 30px 160px 30px;
+	}
+	.funnelbtnstyle h4{
+		font-size: 16px;
+	}
+
+}
+@media screen and (max-width: 991px){
+	.container_funnel {
+	    width: 750px;
+	}
+	.funnelbox {
+		padding: 30px 60px;
+	}
+	.funnelmain{
+	    padding-bottom: 60px;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.container_funnel {
+	    width: 450px;
+	}
+	.funnel_heading h1 {
+	    font-size: 22px;
+	}
+	.funnelbox {
+    	padding: 30px 30px;
+	}
+	.funnelbtns ul {
+	    padding: 20px 40px 20px;
+	}
+	.funnelbtnstyle{
+		padding: 10px 0px;
+	}
+	.funnelbox{
+	    min-height: 560px;
+	}
+	.funnel_heading p{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.header .navbar-brand>img {
+    	width: 180px;
+	}
+	.header .navbar{
+		min-height: 28px;
+	}
+	.funnelmain {
+    	margin-top: 64px;
+	}
+
+}
+@media screen and (max-width: 560px){
+	.container_funnel {
+	    width: 100%;
+	}
+	.funnelbox {
+	    padding: 20px 20px;
+	}
+	.funnelmain {
+	    padding-bottom: 40px;
+	}
+	.funnelmain{
+		height: 100%;
+	}
+
+}
+@media screen and (max-width: 414px){
+	.header .navbar-brand>img {
+    	width: 150px;
+	}
+	.header .navbar {
+    	min-height: 24px;
+	}
+	.header{
+		padding: 15px 0px;
+	}
+	.funnelmain {
+	    margin-top: 54px;
+	}
+	.funnelbtns ul {
+	    padding: 20px 20px 20px;
+	}
+	.funnel_heading h1 {
+	    font-size: 20px;
+	}
+	.funnelbtnstyle {
+	    padding: 8px 0px;
+	}
+	.funnelbtnstyle h4 {
+	    font-size: 14px;
+	}
+	.funnel_heading p {
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+	.funnelbox {
+	    min-height: 490px;
+	}
+
+}
+@media screen and (max-width: 320px){
+
+}

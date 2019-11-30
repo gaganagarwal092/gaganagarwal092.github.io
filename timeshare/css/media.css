@@ -1,0 +1,305 @@
+@media(max-width:1199px){
+    .legal_lft h1 {
+        font-size: 62px;
+        line-height: 62px;
+        padding: 25px 0px;
+    }
+    .timeshare1 {
+        padding-top: 70px;
+    }
+    .endless {
+        padding: 80px 40px;
+    }
+    .endless h1, .sleep_lft h1, .review_inner h1{
+        font-size: 50px;
+    }
+    .sleep {
+        padding: 80px 40px;
+    }
+    .list ul li{
+        padding-left: 60px;
+    }
+    .list ul li img{
+        left: 20px;
+    }
+	.modal-dialog {
+        width: 90%;
+    }
+    .review_inner {
+        padding: 160px 40px;
+    }
+    .sleep_rht {
+        bottom: -100px;
+    }
+    .eightfive_inner {
+        padding: 80px 40px;
+    }
+    /* .legal_rht img{
+        width: 500px;
+    } */
+    .footer_inner {
+        padding: 40px 40px;
+    }
+}
+
+@media(max-width:991px){
+    .modal-body {
+        padding: 0px 40px;
+    }
+    .legal_lft h1 {
+        font-size: 52px;
+        line-height: 52px;
+        padding: 10px 0px;
+    }
+    .legal_rht img {
+        width: 78%;
+    }
+    .hotline p{
+        font-size: 16px;
+    }
+    .hotline p a {
+        font-size: 20px;
+    }
+    .timeshare1{
+        margin-top: 68px;
+    }
+    .legal_lft h3{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .eligibility a{
+        margin-top: 40px;
+    }
+    .endless {
+        padding: 60px 30px;
+    }
+    .endless h1, .sleep_lft h1, .review_inner h1 {
+        font-size: 40px;
+    }
+    .endless h1, .sleep_lft h1, .review_inner h1 {
+        font-size: 40px;
+    }
+    .list {
+        padding: 40px 0px;
+    }
+    .sleep {
+        padding: 60px 30px;
+    }
+    .sleep_rht img{
+        width: 300px;
+    }
+    .list ul li{
+        font-size: 20px;
+        padding-right: 30px;
+    }
+    .sleep_rht {
+      right: -24px;
+    }
+    .review_inner {
+        padding: 160px 30px 120px 30px;
+    }
+    .eightfive_inner {
+        padding: 60px 30px;
+    }
+    .footer_inner {
+        padding: 30px 30px;
+    }
+}
+
+@media(max-width:767px){
+   .header {
+       padding: 0px;
+    }
+    .header_inner {
+        display: block
+    }
+    .logo{
+        width: 100%;
+        display: block;
+        padding: 20px 0px;
+    }
+    .logo img{
+        margin: 0px auto;
+    }
+    .hotline {
+        background-color: #2b2b2b;
+        padding: 5px 0px;
+    }
+    .hotline p{
+        text-align: center;
+    }
+    .timeshare1 {
+        background: linear-gradient(to bottom, #fff , #eafbfe);
+        margin-top: 105px;
+        padding-bottom: 0px;
+      
+    }
+    .legal_rht{
+        position: relative;
+    }
+    .legal_rht img{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .legal_lft {
+        text-align: center;
+    }
+    .eligibility a{
+        margin: 40px auto 0px;
+    }
+    .sleep{
+        padding-bottom: 500px;
+    }
+    .sleep_rht {
+        right: 0px;
+        left: 0;
+        width: 100%;
+    }
+    .sleep_rht img{
+        margin: 0px auto;
+    }
+    .creviews {
+        margin-top: 20px;
+    }
+    .review_inner {
+        padding: 160px 30px 80px 30px;
+    }
+    .address{
+        text-align: center;
+        padding-top: 20px;
+    } 
+    .copyright {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .content h6 {
+        padding: 20px 0px 30px;
+    }
+    .eightfive {
+        background: url(../img/background2.png)no-repeat center center;
+        background-size: cover;
+        padding: 230px 0px;
+    }
+
+}
+@media(max-width:560px){
+    .modal-body h4{
+        font-size: 24px;
+    }
+    .modal_inner {
+        padding: 20px 0px;
+    }
+    .modal-body {
+        padding: 0px 20px;
+    }
+    .modal_inner p{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .timeshare1 {
+        padding-top: 40px;
+    }
+    .legal_lft h1 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .legal_lft h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .endless h1, .sleep_lft h1, .review_inner h1 {
+        font-size: 38px;
+    }
+    .endless p{
+        padding-top: 20px;
+    }
+    .list ul li {
+        padding-left: 40px;
+        padding-right: 0px;
+        font-size: 18px;
+    }
+    .list ul li img {
+        left: 0px;
+    }
+    .sleep {
+        padding-bottom: 465px;
+    }
+    .sleep_rht {
+        right: 0px;
+        left: 0;
+        bottom: -120px;
+    }
+    .eligibility a {
+        margin: 30px auto 0px;
+    }
+    .eightfive_inner h3{
+        font-size: 35px;
+    }
+}
+@media(max-width:414px){
+    .modal_inner p{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .hotline p a {
+        font-size: 16px;
+    }
+    .hotline p {
+        font-size: 14px;
+    }
+    .timeshare1 {
+        margin-top: 99px;
+    }
+    .endless {
+        padding: 60px 10px;
+    }
+    .endless p{
+        font-size: 16px;
+        font-family: 'SourceSansProRegular';
+        line-height: 24px;
+    }
+    .sleep {
+        padding: 60px 0px 370px 0px;
+    }
+    .list ul li{
+        font-size: 16px;
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+    .list ul li img {
+        left: 15px;
+    }
+    .review_inner {
+        padding: 160px 10px 40px 10px;
+    }
+    .eightfive_inner {
+        padding: 60px 10px;
+    }
+    .modal_inner p.dot::before{
+        top: 9px;
+    }
+    .endless h1, .sleep_lft h1, .review_inner h1 {
+        font-size: 31px;
+    }
+    .endless {
+        padding: 60px 0px 80px;
+    }
+    .sleep_rht img {
+        width: 250px;
+    }
+    .eightfive_inner {
+        padding: 0px 0px;
+    }
+    .eightfive_inner h3{
+        font-size: 32px;
+    }
+}
+@media(max-width:320px){
+    .legal_lft h5{
+        font-size: 20px;
+    }
+    .legal_lft h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}

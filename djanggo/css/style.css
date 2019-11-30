@@ -1,0 +1,1532 @@
+@font-face{
+    font-family:'SourceSansProRegular';
+    src:url(../fonts/SourceSansProRegular.ttf);
+}
+@font-face{
+    font-family:'SourceSansProSemiBold';
+    src:url(../fonts/SourceSansProSemiBold.ttf);
+}
+@font-face{
+    font-family:'SFProDisplayRegular';
+    src:url(../fonts/SFProDisplayRegular.ttf);
+}
+@font-face{
+    font-family:'SFProTextBold';
+    src:url(../fonts/SFProTextBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #f7f8fa;
+    -webkit-font-smoothing: antialiased;
+    font-family: "SourceSansProRegular";
+}
+body.bg_white{
+    background-color: #ffffff;
+}
+label{
+    font-weight: normal;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.noleft{
+    padding-left: 0;
+}
+
+.noright{
+    padding-right: 0;
+}
+
+.nopadding{
+    padding: 0;
+}
+
+a{
+    outline: medium none !important;
+    text-decoration:none;
+    transition: all 0.35s ease 0s;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+button {
+    transition: all 0.35s ease 0s;
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+button:focus{
+    outline:0px;
+}
+
+.width1{
+	width:100%;
+}
+.boxs{
+	width: 100%;
+	display: block;
+	float: left;
+}
+.main{
+    position: relative;
+    /*width: 320px;*/
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.outerheader{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+}
+.header{
+    width: 480px;   
+/*    position: fixed;
+    z-index: 9;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header .container-fluid{
+	padding:0;
+}
+.header .navbar-brand{
+    height: auto;
+    padding: 0;
+    padding-right: 15px;
+    padding-top: 10px;
+    float: right;
+}
+.header .navbar{
+    background-color: #1fb6db;
+    border: none;
+    margin-bottom: 0;
+    border-radius: 0px;
+}
+.header.home_header .navbar{
+    width: 480px;
+    transition: all 0.35s ease 0s;
+}
+.header .navbar.home2_navbar{
+    min-height: 80px;
+    width: 480px;
+    transition: all 0.35s ease 0s;
+}
+.header .navbar-header{
+    width: 100%;
+}
+.fixed_header{
+	position:fixed;
+}
+.fixed_header .top{
+	display:none;
+	border:none;
+}
+.fixed_header .bottom{
+	padding:10px 0;
+}
+.header .hamburger{
+    float: left;
+    height: 52px;
+    padding: 0px;
+    width: 52px;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+    background: #fff;
+    border-radius: 0;
+    width: 25px;
+    height: 3px;
+}
+.hamburger-box{
+    width: 25px;
+}
+.hamburger-inner::before {
+    top: -8px;
+}
+.hamburger-inner::after {
+    bottom: -8px;
+}
+
+.sidenav {
+    background-color: #fff;
+    height: 100vh;
+    left: -270px;
+    overflow-x: hidden;
+    padding-top: 0px;
+    position: absolute;
+    top: 0;
+    transition: all 0.35s ease 0s;
+    width: 270px;
+    box-shadow: inset 0 -1px 0 0 #ececec;
+    z-index: 999;
+}
+.sidenav a {
+    font-family: "SourceSansProRegular";
+    font-size: 18px;
+    color: #000;
+    display: block;
+    padding: 15px 10px 15px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    box-shadow: inset 0 -1px 0 0 #ececec;
+}
+.sidenav a:hover{
+    color: #1fb6db;
+}
+.sidenav a:first-child:hover{
+    color: #fff;
+}
+.sidenav a img{
+    float: left;
+    margin-right: 15px;
+}
+.sidenav .logo {
+    background-color: #1fb6db;
+    font-family: "SourceSansProRegular";
+    font-size: 18px;
+    color: #fff;
+    min-height: 65px;
+    padding: 40px 0px 40px 90px;
+    position: relative;
+}
+.sidenav .logo:before{
+    content: url(../img/dummy_user.png);
+    position: absolute;
+    left: 15px;
+    top: 30px;
+}
+.sidenav .logo span{
+    display: block;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.sidenav .logo img{
+    margin: 0 auto;
+}
+
+.djanggo{
+    width: 480px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    overflow:hidden;
+    transition: all 0.35s ease 0s;
+}
+.djanggoinner{
+    width: 480px;
+    transition: all 0.35s ease 0s;
+}
+
+/*splash screen start*/
+.djanggo_splash{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #1fb6db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*splash screen end*/
+
+.header2{
+    width: 480px;
+    background-color: #1fb6db;
+    padding: 20px 0px;
+    position: fixed;    
+    z-index: 9;
+}
+.header2 p{
+    font-family: "SourceSansProRegular";
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.header2 p a{
+    position: absolute;
+    left: 15px; 
+}
+.header2 p a img{
+    margin-top: 5px;
+}
+
+/*send confirmation page start*/
+.send_confirm{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.send_confirm p{
+    font-family: "SourceSansProRegular";
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+}
+.send_confirm p span{
+    display: block;
+}
+/*send confirmation page end*/
+
+/*home page start*/
+.header .navbar-brand.home2_brand{
+    position: absolute;
+    left: 0;
+    right: 0; 
+    padding-right: 0px;
+    padding-top: 10px;   
+}
+.header .navbar-brand.home2_brand img{
+    width: 50%;
+}
+.header .hamburger.home2_hamburger{
+    position: relative;
+    z-index: 9;
+}
+.home{
+    width: 100%;
+    margin-top: 80px;
+}
+.home.homemain{
+    width: 100%;
+    /*margin-top: 0;*/
+    margin-top: 121px;
+}
+.home_inner{
+
+}
+.homeitem{
+    padding: 27px 0px;
+    min-height: 159px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg{
+    background-color: #f7f8fa;
+    box-shadow: inset -1px -1px 0 0 #ececec;
+}
+.bg2{
+    background-color: #fff;
+    box-shadow: inset -1px -1px 0 0 #ececec;
+}
+
+.homeitem a{
+    display:block;
+    font-size: 22px;
+    color: #000;
+    letter-spacing: 0.4px;
+    text-align: center;
+    width: 100%;
+    
+}
+.homeitem a img{
+    margin-bottom: 10px;
+    width: 44px;
+}
+/*home page end*/
+
+/*scanning page start*/
+.scanning{
+    background-color: rgba(0, 0, 0, .3);
+    height: 100vh;
+    position: relative;
+}
+.scanning p{
+    font-family: "SourceSansProRegular";
+    font-size: 24px;
+    color: #ffffff;
+    text-align:center;
+    padding-top: 35px;
+}
+.icons{
+    position: absolute;
+    top: 7%;
+    right: -78%;
+}
+.icons a{
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.scan{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scanning_inner{
+    position: relative;
+}
+.scanner{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    background-color: #000;
+    top: 4.5%;
+    left: 4.5%;
+}
+/*scanning page end*/
+
+/*Bank Acc page start*/
+.account{
+    padding: 20px;
+    margin-top: 74px;
+    background-color: #fff;
+}
+.account label,
+.request label,
+.send_money label,
+.payment_details label,
+.withdraw label{
+    
+    font-size: 20px;
+    color: #969fa9;
+}
+.account .form-control::placeholder,
+.request .form-control::placeholder,
+.send_money .form-control::placeholder,
+.payment_details .form-control::placeholder,
+.withdraw .form-control::placeholder{
+    color: #000000;
+}
+.account .form-control,
+.request .form-control,
+.send_money .form-control,
+.payment_details .form-control,
+.withdraw .form-control{
+    
+    font-size: 24px;
+    color: #000;
+    border:none;
+    border-radius: 0px;
+    border-bottom:  solid 2px #969fa9;
+    box-shadow: none;
+    outline: none;
+    padding: 0px 0px;
+    height: 44px;
+}
+.account .form-control option{
+    
+    font-size: 24px;
+    color: #000000;
+}
+.account button,
+.request button,
+.send_money button,
+.send_money_outer button,
+.withdraw button{
+    width: 100%;
+    font-size: 22px;
+    font-family:'SourceSansProSemiBold';
+    border-radius: 30px;
+    background-color: #1fb6db;
+    box-shadow: 0 2px 10px 0 rgba(31, 182, 219, 0.5);
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    outline: none;
+    margin: 20px 0px;
+    letter-spacing: 1px;
+}
+.account button:focus, .account button:active:focus,
+.request button:focus, .request button:active:focus,
+.send_money button:focus, .send_money button:active:focus,
+.send_money_outer button:focus, .send_money_outer button:active:focus,
+.withdraw button:focus, .withdraw button:active:focus{
+    outline: none;
+    color: #ffffff;
+}
+.account button:hover,
+.request button:hover,
+.send_money button:hover,
+.withdraw button:hover{
+    color:#fff;
+    outline: none;
+}
+/*Bank Acc page start*/
+
+/*QR popup start*/
+.modal-dialog{
+    width: 320px;
+    /*margin: 104px auto;*/
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 30px); 
+    margin: 60px auto;
+}
+.modal-content{
+    box-shadow: none;
+    border-radius:0px;
+    border: none;
+}
+.modal-header{
+    border: none;
+    box-shadow: inset 0 -1px 0 0 #dfe5eb;
+}
+.modal-header .close{
+    opacity: 1;
+}
+.modal-header p{
+    
+    font-size: 22px;
+    color: #000000;
+}
+.modal-body{
+    padding: 50px 0px;
+}
+.modal-body img{
+    width: 150px;
+    margin: 0 auto;
+}
+.modal-body p{
+    
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    padding: 13px 0px;
+}
+.modal-body p span{
+    display: block;
+}
+/*QR popup end*/
+
+/*home2 page start*/
+.header.home_header .hamburger{
+    float: unset;
+}
+.header.home_header .navbar-brand {
+    height: auto;
+    padding: 0;
+    margin: 0 auto 20px;
+    float: unset;
+    display: block;
+}
+.header.home_header .navbar-brand img{
+    margin-bottom: 20px;
+    width: 240px;
+}
+.headeritems{
+    background-color: #1fb6db;
+}
+.headeritems a{
+    display: block;
+    font-family: "SourceSansProRegular";
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin: 10px 0px 20px;
+}
+.headeritems a img{
+    margin-bottom: 10px;
+}
+.headeritems a img.img_hide{
+    display: none;
+}
+/*home2 page end*/
+
+/*settings page start*/
+.acc_setting{
+    width: 100%;
+    background-color: #f7f8fa;
+    padding-bottom: 50px;
+    margin-top: 74px;
+}
+.acc_setting.myacc{
+    padding-bottom: 300px;
+    margin-top: 74px;
+}
+.setting_inner ul{
+    list-style-type: none;
+}
+.setting_inner ul li{
+    border-bottom: 1px solid #dfe5eb;
+    display: block;
+}
+.acc_setting h2{
+    font-family: "SourceSansProRegular";
+    font-size: 20px;
+    color: #969fa9;
+    padding: 15px 15px;
+    background-color: #f7f8fa;
+    text-transform: uppercase;
+    border-bottom: 1px solid #dfe5eb;
+}
+.acc_setting a{
+    display: block;
+    padding: 14px 15px;
+    font-family: "SourceSansProRegular";
+    font-size: 22px;
+    color: #000;
+    background-color: #fff;
+}
+.acc_setting a span{
+    display: block;
+    font-size: 20px;
+    color: #969fa9;
+}
+.acc_setting a img{
+    float: right;
+    margin-top: 3px;
+}
+.acc_setting a img.margin_top{
+    margin-top: -10px;
+}
+.notifyitems{
+    background-color: #fff;
+    border-bottom: 1px solid #dfe5eb;
+}
+.notify{
+    float: right;
+    width: max-content;
+    padding-right: 15px;
+}
+.notifyitems a{
+    box-shadow: none;
+}
+.notify a{
+    box-shadow: none;
+    display: inline-block;
+    padding: 14px 15px;
+}
+.notify a img{
+    display: inline-block;
+}
+.notify a img.img_hide{
+    display: none;
+}   
+/*.notify a:hover .img_hide{
+    display: inline-block;
+}
+.notify a:hover .img_show{
+    display: none;
+}*/
+.notify a.active .img_hide{
+    display: inline-block;
+}
+.notify a.active .img_show{
+    display: none;
+}
+.notify a.active2 .img_hide{
+    display: inline-block;
+}
+.notify a.active2 .img_show{
+    display: none;
+}
+.notifyitems h3{
+    float: left;
+    width: max-content;
+    padding: 14px 15px;
+    font-family: "SourceSansProRegular";
+    font-size: 22px;
+    color: #000;
+    background-color: #fff;
+}
+.switchitems{
+    background-color: #fff;
+    /*border-bottom: 1px solid #dfe5eb;*/   
+    border-top: 1px solid #dfe5eb;
+}
+.switchitems:last-child{
+    border-bottom: 1px solid #dfe5eb;
+}
+.switchitems h3{
+    float: left;
+    width: max-content;
+    padding: 14px 15px;
+    font-family: "SourceSansProRegular";
+    font-size: 22px;
+    color: #000;  
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 30px;
+    float: right;
+    margin: 14px 15px;
+}
+
+.switch input {display:none;}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 15px;
+    border: solid 0.5px rgba(0, 0, 0, 0.1);
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 27px;
+    width: 27px;
+    left: 0;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 1px 0 rgba(0, 0, 0, 0.05);
+    border: solid 0.5px rgba(0, 0, 0, 0.1);
+}
+
+.switchitems input:checked + .slider {
+    background-color: #4cd964;
+}
+
+.switchitems input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.switchitems input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.switchbox{
+    margin: 25px 0px;
+}
+.acc_setting .closecolor{
+    color: #ff6073;
+     border-top: 1px solid #dfe5eb;
+     border-bottom: 1px solid #dfe5eb;
+}
+.setting_inner p{
+    font-family: "SourceSansProRegular";
+    font-size: 20px;
+    color: #969fa9;
+    line-height: 28px;
+    padding: 10px 15px; 
+}
+/*settings page end*/
+
+/*transaction page start*/
+.transaction{
+    width: 100%;
+    background-color: #f7f8fa;
+    padding-bottom: 100px;
+    margin-top: 74px;
+}
+.trans_items{
+    padding: 10px 0px 0px;
+    position: relative;
+    padding-left: 80px;
+    background-color: #fff;
+    /*border-bottom: 1px solid #dfe5eb;*/
+}
+.border{
+    border-bottom: 1px solid #dfe5eb;
+    padding-bottom: 10px;
+}
+.bordernone{
+    border: none;
+}
+.bodertopbottom{
+    border-top: 1px solid #dfe5eb;
+    border-bottom: 1px solid #dfe5eb;
+}
+.trans_inner h3{
+    font-family: "SourceSansProRegular";
+    font-size: 20px;
+    color: #969fa9;
+    padding: 15px 15px;
+    /*border-bottom: 1px solid #dfe5eb;*/
+}
+.trans_inner h3 span{
+    float: right;
+}
+.imgcircle{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: #dfe5eb;
+    display: inline-block;
+    float: left;
+    margin: 3px 15px 0px 15px;
+    position: absolute;
+    left: 0;
+}
+.trans_items h4{
+    font-family: "SourceSansProRegular";
+    font-size: 22px;
+    color: #000000;
+    float: left;
+}
+.trans_items h4 span:first-child{
+    font-size: 20px;
+    color: #969fa9;
+    display: block;
+    margin-top: 3px;
+}
+.trans_items h5{
+    font-family: "SourceSansProRegular";
+    font-size: 22px;
+    color: #000;
+    float: right;
+    margin-top: 5px;
+    padding-right: 15px;
+}
+/*transaction page end*/
+
+/*my profile page start*/
+.header2.profileheader a{
+    position: unset;
+    margin-left: 15px;
+    display: block;
+    width: max-content;
+}
+.header2.profileheader h2{
+    font-family: "SourceSansProRegular";
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header2.profileheader h2 img{
+    margin-bottom: 10px;
+}
+.header2.profileheader h2 span{
+    display: block;
+    font-size: 20px;
+    opacity: 0.5;
+    margin-top: 5px;
+}
+.myprofile{
+    width: 100%;
+    background-color: #f7f8fa;
+    padding-bottom: 150px;
+    margin-top: 228px;
+
+}
+.myprofile .form-group .form-control{
+    font-family: "SourceSansProRegular";
+    font-size: 22px;
+    color: #000;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+}
+.myprofile .form-group .form-control::placeholder{
+    color: #000;
+}
+.myprofile .form-group{
+    background-color: #fff;
+    padding: 10px 15px;
+    margin: 0;
+    box-shadow: inset 0 -1px 0 0 #dfe5eb;
+}
+.myprofile .form-group label{
+    font-family: "SourceSansProRegular";
+    font-size: 20px;
+    color: #969fa9;
+    margin: 0;
+}
+.invite a{
+    font-family: "SourceSansProRegular";
+    font-size: 22px;
+    color: #000;
+    padding: 15px 15px;
+    box-shadow: inset 0 -1px 0 0 #dfe5eb, inset 0 1px 0 0 #dfe5eb;
+    background-color: #ffffff;
+    display: block;
+    margin-top: 15px;
+}
+.invite a img{
+    float: right;
+    margin-top: 3px;
+}
+/*my profile page end*/
+
+
+/*payment request page css start*/
+
+.request{
+    padding: 11px 20px;
+    margin-top: 74px;
+    background-color: #fff;
+}
+.request .form-group{
+    margin-bottom: 15px;
+}
+.request p{
+    font-size: 22px;
+    text-align: center;
+    color: #969fa9;
+    margin-bottom: 20px;
+}
+
+.request .form-control option{
+    
+    font-size: 24px;
+    color: #000000;
+}
+.request button{
+    margin: 90px 0px 60px;
+}
+.request button{
+    margin: 90px 0px 60px;
+}
+
+/*payment request page css end*/
+
+/*send money page css start*/
+.send_money{
+    padding: 11px 20px;
+    margin-top: 74px;
+    background-color: #fff;
+}
+.send_money.send_money2{
+    margin-top: 0px;
+}
+.send_money .form-group{
+    margin-bottom: 15px;
+}
+.send_money p{
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
+    color: #969fa9;
+}
+.send_money .form-control{
+    padding: 0px 25px 0px 0px;
+}
+.send_money .form-control option{
+    
+    font-size: 24px;
+    color: #000000;
+}
+.forbarcode{
+    position: relative;
+}
+.forbarcode img{
+    position: absolute;
+    right: 0%;
+    top: 55%;
+}
+.send_money form p{
+    
+    font-size: 20px;
+    text-align: center;
+    color: #969fa9;
+    padding: 20px 0px;
+    border-radius: 4px;
+    background-color: #f7f8fa;
+    margin-top: 10px;
+}
+.send_money textarea.form-control{
+    height:74px;
+    resize: none;
+    line-height: 32px;
+}
+.send_money button{
+    margin: 20px 0px;
+}
+.send_money .form-para{
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.total_ammount{
+    background-color: #ffffff;
+    padding: 20px ;
+    box-shadow: inset 0 -1px 0 0 #dfe5eb;
+
+}
+.total_ammount p{
+    
+    font-size: 22px;
+    color: #969fa9;
+}
+.total_ammount p span{
+    float:right;
+    color: #000000;
+}
+.pay_difference{
+    padding:20px;
+    background-color: #ffffff;
+}
+.pay_difference .styled-checkbox + label {
+    position: relative;
+    cursor: pointer;
+    font-weight: normal;
+}
+.pay_difference .styled-checkbox + label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 22px;
+    height: 22px;
+    background: transparent;
+    border-radius: 4px;
+    position: absolute;
+    top: 14%;
+    left: 0%;
+    border: 2px solid #969fa9;
+}
+
+.pay_difference .styled-checkbox:checked + label:before {
+    background: #969fa9;
+}
+
+.pay_difference .styled-checkbox:checked + label:after {
+    /*content: "";
+    position: absolute;
+    left: 3px;
+    top: 16px;
+    background: #fff;
+    width: 4px;
+    height: 4px;
+    box-shadow: 4px 0 0 #fff, 6px 0 0 #fff, 6px -4px 0 #fff, 6px -6px 0 #fff, 6px -8px 0 #fff, 6px -10px 0 #fff;
+    -webkit-transform: rotate(45deg);*/
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    transform: rotate(45deg);
+    border: 2px solid #ffffff;
+    border-top: none;
+    border-right: none;
+    width: 12px;
+    height: 6px;
+    transform: rotate(-45deg);
+}
+.pay_difference .styled-checkbox {
+    position: absolute;
+    opacity: 0;
+}
+.pay_difference label{
+    
+    font-size: 20px;
+    color: #969fa9;
+    padding-left: 40px;
+}
+.pay_difference label span{
+    display: block;
+    
+    font-size: 22px;
+    color: #000000;
+
+}
+.pay_difference p{
+    
+    font-size: 22px;
+    color: #000000;
+    float: right;
+    padding-top: 10px;
+}
+
+.comment{
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: inset 0 1px 0 0 #dfe5eb, inset 0 -1px 0 0 #dfe5eb;
+}
+.comment label{
+    
+    font-size: 20px;
+    color: #969fa9;
+}
+.comment textarea.form-control{
+    height:74px;
+    resize: none;
+    line-height: 32px;
+    color: #000;
+    border:none;
+    border-radius: 0px;
+    border-bottom:  solid 2px #969fa9;
+    box-shadow: none;
+    outline: none;
+    padding: 0px 25px 0px 0px;
+}
+.comment .form-control::placeholder{
+    color: #000000;
+}
+
+.pay_mode{
+    font-size: 20px;
+    color: #969fa9;
+    padding: 20px;
+    background-color: #f7f8fa;
+    text-transform: UPPERCASE;
+}
+.payment_items{
+    box-shadow: inset 0 1px 0 0 #dfe5eb, inset 0 -1px 0 0 #dfe5eb;
+    background-color: #ffffff;
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    /*    left: -9999px;*/
+    opacity: 0;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-right: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    
+    font-size: 22px;
+    color: #000;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    right: 26px;
+    top: 18px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #969fa9;
+    border-radius: 100%;
+    background: transparent;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    transform: rotate(45deg);
+    content: "";
+    position: absolute;
+    right: 32px;
+    top: 26px;
+    transform: rotate(45deg);
+    border: 2px solid #ffffff;
+    border-top: none;
+    border-right: none;
+    width: 12px;
+    height: 6px;
+    transform: rotate(-45deg);
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+[type="radio"]:checked + label:before {
+    background-color: #1fb6db;
+    border-color: #1fb6db;
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.payment_details{
+    padding: 20px;
+    border-top:solid 2px #dfe5eb;
+    border-bottom:solid 2px #dfe5eb; 
+}
+.payment_details .form-control{
+    padding: 0px 40px 0px 0px;
+}
+.confirmbtn{
+    padding: 20px;
+    background-color: #f7f8fa;
+}
+.send_money_outer{
+    width: 100%;
+    margin-top: 74px;
+}
+.send_money_outer button{
+    padding: 10px 0px;
+    margin: 0px;
+    border: 2px solid #1fb6db;
+}
+.send_money_outer button:hover{
+    outline: none;
+    color: #fff;
+}
+.balance_payable{
+    padding: 20px;
+    box-shadow: inset 0 1px 0 0 #dfe5eb, inset 0 -1px 0 0 #dfe5eb;
+    background-color: #ffffff;
+}
+.balance_payable p{
+    
+    font-size: 22px;
+    color: #969fa9;
+}
+.balance_payable p span{
+    float: right;
+    color:#000;
+}
+/*send money page css end*/
+
+/*withdraw page start*/
+.withdraw{
+    padding: 20px;
+    width: 100%;
+    margin-top: 74px;
+    background-color: #fff;
+}
+.withdraw .EUR p{
+    
+    font-size: 32px;
+    color:#000;
+    letter-spacing: 0.7px;
+    text-align: center;
+    border-right: solid 2px #dfe5eb;
+}
+.withdraw .EUR p span{
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    color: #969fa9;
+    display: block;
+}
+.withdraw .CHF p{
+    
+    font-size: 32px;
+    color:#000;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
+.withdraw .CHF p span{
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    color: #969fa9;
+    display: block;
+}
+.withdraw .form-control{
+    padding: 0px 25px 0px 5px;
+}
+.withdraw .form-group p{
+    
+    font-size: 20px;
+    color: #1fb6db;
+    margin-top: 10px;
+}
+.select_group {
+    padding: 10px;
+    border-radius: 43px;
+    border: solid 2px #ececec;
+    margin-top: 30px;
+}
+.select_group [type="radio"]:checked,
+.select_group [type="radio"]:not(:checked) {
+    position: absolute;
+}
+.select_group [type="radio"]:checked + label,
+.select_group [type="radio"]:not(:checked) + label
+{
+    
+    font-size: 24px;
+    position: relative;
+    padding-left: 48px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #000000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.select_group [type="radio"]:checked + label:before,
+.select_group [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 10px;;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #969fa9;
+    border-radius: 100%;
+    background: transparent;
+   
+}
+.select_group [type="radio"]:checked + label:after,
+.select_group [type="radio"]:not(:checked) + label:after {
+    transform: rotate(45deg);
+    content: "";
+    position: absolute;
+    left: 16px;
+    top: 18px;
+    transform: rotate(45deg);
+    border: 2px solid #ffffff;
+    border-top: none;
+    border-right: none;
+    width: 12px;
+    height: 6px;
+    transform: rotate(-45deg);
+}
+.select_group [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.select_group [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.select_group [type="radio"]:checked + label:before{
+    background-color: #1fb6db;
+    border-color: #1fb6db;
+}
+.another{
+    margin-top: 10px;
+}
+.withdraw button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widthdraw_last{
+    
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  color: #969fa9;
+  padding-bottom: 20px;
+}
+.withdrawinner{
+    margin-bottom: 20px;
+}
+/*withdraw page end*/
+
+/*keypad page start*/
+.number_confirm{
+    padding:20px;
+    background-color: #fff;
+    margin-top: 74px;
+}
+.number_confirm p{
+    
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0px;
+}
+.number_confirm label{
+    
+    font-size: 20px;
+    color: #969fa9;
+    padding-top:10px;
+
+}
+.number_confirm .form-control{
+    
+    font-size: 24px;
+    color: #000;
+    border:none;
+    border-radius: 0px;
+    border-bottom:  solid 2px #969fa9;
+    box-shadow: none;
+    outline: none;
+    padding: 0px 0px;
+    height: 44px;
+}
+.number_confirm .form-control::placeholder{
+    color: #000000;
+}
+.number_confirm .form-control option{
+    
+    font-size: 24px;
+    color: #000000;
+}
+.number_confirm button{
+    width: 100%;
+    font-size: 22px;
+    border-radius: 30px;
+    background-color: #1fb6db;
+    box-shadow: 0 2px 10px 0 rgba(31, 182, 219, 0.5);
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    outline: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+
+}
+.number_confirm button:focus, .number_confirm button:active:focus{
+    outline: none;
+    color: #ffffff;
+}
+.number_confirm button:hover{
+    color:#fff;
+    outline: none;
+}
+.number_confirm button:hover{
+    color:#fff;
+    outline: none;
+}
+.number_confirm form p{
+    font-size: 20px;
+    
+    line-height: 1.5;
+    text-align: center;
+    color: #969fa9;
+    padding: 0px;
+}
+.number_confirm form p a{
+    color: #969fa9;
+    text-decoration: underline;
+    display: inline-block;
+}
+.number_confirm form p a:hover{
+    color: #1fb6db;
+}
+.keypad{
+    background-color: rgba(210, 213, 219, 0.9);
+    display: none;
+}
+.keypad .col-xs-4{
+    padding: 5px;
+}
+.keypad .numbers{
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 0 0 #848688;
+    text-align: center;
+    min-height: 70px;
+    cursor: pointer;
+}
+.keypad .numbers:hover{
+    background-color:#1fb6db;
+}
+.keypad .numbers:hover p{
+    color:#fff;
+}
+.keypad .numbers:active{
+    background-color:#1fb6db;
+    box-shadow: 0 1px 0 0 #848688;
+    transform: translateY(1px);
+
+}
+.numbers p{
+    font-family:'SFProDisplayRegular';
+    font-size:32px;
+    letter-spacing: 0.3px;
+    color: #000000;
+}
+.numbers p span{
+    font-family:'SFProTextBold';
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: block;
+}
+/*withdraw page end*/
+
+/*passcode page start*/
+
+.passcode{
+    padding: 30px 0px;
+    background-color: #fff;
+    margin-top: 74px;
+}
+.keypadwrapper{
+    text-align: center;
+}
+.keypadwrapper p{
+    
+    font-size: 24px;
+    color: #000000;
+    padding: 10px;
+}
+.keypadwrapper .inputwrapper {
+    margin: 2em;
+    line-height: 0.61em;
+    vertical-align: middle;
+}
+.keypadwrapper .numberinput {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50px;
+    background-color:rgba(31, 182, 219, 0.3);
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 2em;
+}
+.passcode_keypad{
+    text-align:center;
+    padding-top: 60px;
+}
+.numberline{
+    padding: 20px 0px;
+}
+.numberline p{
+     
+     font-size: 32px;
+    color: #000000;
+}
+.numberline:hover{
+    background-color:#1fb6db;
+}
+.numberline:hover p{
+    color:#fff;
+}
+.keypadwrapper .numberinput.nocircle {
+  background-color: #1fb6db;
+}
+.keypadwrapper .numberinput.nocircle span{
+    display: none;
+}
+/*withdraw page end*/
+
+.nice-select{
+    float: unset;
+}
+.nice-select:after{
+    content: url('../img/selectarrow.svg');
+    transform: none;
+    border: none;
+    right: 20px;
+    top: 30%;
+}
+.nice-select.open:after{
+    transform: none;
+}
+.nice-select .option.selected {
+    font-weight: normal;
+}
+.nice-select .option{
+    padding: 0px 35px 0px 35px;
+}
+.account .nice-select .option{
+    padding: 0px 70px 0px 70px;
+}

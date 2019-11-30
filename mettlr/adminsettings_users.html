@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+
+    <title>Mettlr | Admin Settigs | User</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="header_lft">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+
+                            <a class="navbar-brand" href="javascript:void(0)">
+                                Mettlr
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="nav navbar-nav menu">
+                                <li><a href="dashboard.html">Dashboard</a></li>
+                                <li><a href="timeline.html">Timeline</a></li>
+                                <li><a href="kpi.html">KPI</a></li>
+                                <li><a href="challenges.html">Challenges</a></li>
+                                <li><a href="adminsettings_users.html" class="active">Admin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="anchorhover">
+                    <a href="javascript:void(0)" class="notfication"><img src="img/ball.svg" alt="notifications"></a>
+                    <div class="notifybox">
+                        <span class="triangle"></span>
+                        <div class="noti_content boxs">
+                            <div class="noti_data boxs">
+                                <h3>New question<span>47 Minutes ago</span></h3>
+                                <p>Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out</p>
+                            </div>
+                            <div class="bdr_btm"></div>
+                            <div class="noti_data boxs">
+                                <h3>New question<span>59 Minutes ago</span></h3>
+                                <p>Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out</p>
+                            </div>
+                            <div class="bdr_btm"></div>
+                            <div class="noti_data boxs">
+                                <h3>New question<span>1 day ago</span></h3>
+                                <p>Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out</p>
+                            </div>
+                        </div>
+                        <div class="boxs">
+                            <a href="notifications.html" class="viewallbtn">View all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_rht">
+                <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="profileBox">
+                    <a href="javascirpt:void(0)" class="dropbox">
+                        <img src="img/user.png" class="img-responsive" alt="user">
+                        <h4>Johny doe <img src="img/arrowdwn.svg" alt="arrow" class="rotate"></h4>
+                    </a>
+                    <div class="dropmenu">
+                        <span class="triangle"></span>
+                        <a href="profile.html">Profile</a>
+                        <a href="javascript:void(0)" data-toggle="modal" data-target="#help">Help</a>
+                        <a href="index.html">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- adminmenu start -->
+    <div class="adminmenu" id="adminmenu">
+        <a href="dashboard.html" class="">
+            <img src="img/dashboard.png" alt="dashboard" class="imghide">
+            <img src="img/dashboard2.png" alt="dashboard" class="imgshow">
+            Dashboard</a>
+        <a href="reporting.html" class="">
+            <img src="img/reporting.png" alt="reporting" class="imghide">
+            <img src="img/reporting2.png" alt="reporting" class="imgshow">
+            Reporting</a>
+        <a href="content.html" class="">
+            <img src="img/content.png" alt="content" class="imghide">
+            <img src="img/content2.png" alt="content" class="imgshow">
+            Content</a>
+        <a href="adminsettings_users.html" class="active">
+            <img src="img/adminsetting.png" alt="adminsetting" class="imghide">
+            <img src="img/adminsetting2.png" alt="adminsetting" class="imgshow">
+            Admin Settings</a>
+    </div>
+    <!-- adminmenu end -->
+
+    <section class="admin boxs">
+        <div class="container-fluid">
+            <div class="admin_iner boxs">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="admintabs boxs">
+                            <ul>
+                                <li><a href="adminsettings_users.html" class="active">Users</a></li>
+                                <li><a href="adminsettings_usergroup.html">Usergroups</a></li>
+                                <li><a href="adminsettings_kpi.html">KPI upload</a></li>
+                                <li><a href="adminsettings_api.html">App images</a></li>
+                                <li><a href="adminsettings_lang.html">Language</a></li>
+                                <li><a href="adminsettings_msg.html">Welcome message</a></li>
+                            </ul>
+                        </div>
+                        <div class="entries boxs">
+                            <div class="entries_lft">
+                                <div class="EntryList boxs">
+                                    <span>show</span>
+                                    <select>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                        <option value="">6</option>
+                                        <option value="">7</option>
+                                        <option value="">8</option>
+                                        <option value="">9</option>
+                                        <option value="">10</option>
+                                    </select>
+                                    <span>entries</span>
+                                </div>
+                            </div>
+                            <div class="entries_ryt">
+                                <div class="fryt">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#adduser" class="addcntnt">Add users</a>
+                                    <div class="FileExport boxs">
+                                        <a href="javascript:void(0)"><img src="img/import.png" alt="import" class="img-responsive imprt">Import</a>
+                                    </div>
+                                    <div class="searchbox boxs">
+                                        <div class="SearchItm">
+                                            <input type="text" class="form-control" placeholder="Search"><a href="javascript:void(0)"><span><img src="img/search.png" alt="search" class="img-responsive"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="etrydtal_wrp boxs">
+                            <div class="EntriesDetails EntriesDetails2 boxs">
+                                <ul class="AD_Head boxs">
+                                    <li class="width1">First name <img src="img/arrowdown.png" alt="arrowdown" class="img-responsive"></li>
+                                    <li class="width2">Last name <img src="img/arrowdown.png" alt="arrowdown" class="img-responsive"></li>
+                                    <li class="width4">Email <img src="img/arrowdown.png" alt="arrowdown" class="img-responsive"></li>
+                                    <li class="width3">Status <img src="img/arrowdown.png" alt="arrowdown" class="img-responsive"></li>
+                                    <li class="width5">Last Login <img src="img/arrowdown.png" alt="arrowdown" class="img-responsive"></li>
+                                    <li class="width6">Actions</li>
+                                </ul>
+                                <div class="AD_Lists boxs">
+                                    <ul>
+                                        <li class="width1">Bhavik</li>
+                                        <li class="width2">Agarwal</li>
+                                        <li class="width4">ceo@designoweb.com</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">John</li>
+                                        <li class="width2">Doe</li>
+                                        <li class="width4">cherry@ijosoftware.com</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Kimm</li>
+                                        <li class="width2">Siebenga</li>
+                                        <li class="width4">e.siebenga@libertijn.com</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Cherry</li>
+                                        <li class="width2">Pattij</li>
+                                        <li class="width4">evert@strategytranslationmodel.nl</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Evert</li>
+                                        <li class="width2">Strategie</li>
+                                        <li class="width4">info@devinet.eu</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Bhavik</li>
+                                        <li class="width2">Agarwal</li>
+                                        <li class="width4">ceo@designoweb.com</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">John</li>
+                                        <li class="width2">Doe</li>
+                                        <li class="width4">cherry@ijosoftware.com</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Kimm</li>
+                                        <li class="width2">Siebenga</li>
+                                        <li class="width4">e.siebenga@libertijn.com</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Cherry</li>
+                                        <li class="width2">Pattij</li>
+                                        <li class="width4">evert@strategytranslationmodel.nl</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Evert</li>
+                                        <li class="width2">Strategie</li>
+                                        <li class="width4">info@devinet.eu</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">Bhavik</li>
+                                        <li class="width2">Agarwal</li>
+                                        <li class="width4">ceo@designoweb.com</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li class="width1">John</li>
+                                        <li class="width2">Doe</li>
+                                        <li class="width4">cherry@ijosoftware.com</li>
+                                        <li class="width3">Active</li>
+                                        <li class="width5">25 May, 20:25:40</li>
+                                        <li class="width6">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edituser"><img src="img/edit.png" alt="edit" class="img-responsive"></a>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#deleteuser"><img src="img/delete.png" alt="delete" class="img-responsive"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pagination_main boxs">
+                                    <div class="showEntr">
+                                        <p>Showing <span>1</span> to <span>13</span> of <span>13</span> entries</p>
+                                    </div>
+                                    <ul class="pagination">
+                                        <li><a href="#">Prev</a></li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">Next</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer class="footer boxs">
+        <div class="container-fluid">
+            <div class="f_inner boxs">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="f_logo boxs">
+                            <a href="javascript:void(0)">Mettlr</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="f_links boxs">
+                            <a href="javascript:void(0)">Dashboard</a>
+                            <a href="javascript:void(0)">Timeline</a>
+                            <a href="javascript:void(0)">KPI</a>
+                            <a href="javascript:void(0)">Challenges</a>
+                            <a href="javascript:void(0)" class="active">Admin</a>       
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="copyright boxs">
+                            <p>Copyright © 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- delete user modal start -->
+    <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#confirmorder">Open Modal</button> -->
+
+    <div id="deleteuser" class="modal fade confirmorder" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><img src="img/cross.png" alt="cross" class="img-responsive"></button>
+                    <div class="confirmorderbox">
+                        <h2>Are you sure want to delete this user?</h2>
+                        <div class="orderbtns">
+                            <a href="javascript:void(0)" class="cncl">Cancel</a>
+                            <a href="javascript:void(0)" class="cnfrm">Save</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- delete user modal end -->
+
+    <!-- successful modal start -->
+    <div id="success" class="modal fade success" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="successbox">
+                        <div class="success_smiley">
+                            <img src="img/smiley.png" alt="smiley" class="img-responsive center-block">
+                        </div>
+                        <div class="success_coins">
+                            <h2>Nice try</h2>
+                            <p>But the correct answer is <span>“ NO ”</span></p>
+                            <div class="starcoins boxs">
+                                <p><img src="img/star.png" alt="star" class="img-responsive"><span>2/20</span></p>
+                            </div>
+                            <a href="javascript:void(0)" class="conti">Countinue</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- successful modal end -->
+
+    <!-- unsuccessful modal start -->
+    <div id="failed" class="modal fade success" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="successbox">
+                        <div class="failed_smiley">
+                            <img src="img/sad.png" alt="sad" class="img-responsive center-block">
+                        </div>
+                        <div class="success_coins">
+                            <h2>Nice try</h2>
+                            <p>But the correct answer is <span>“ NO ”</span></p>
+                            <div class="starcoins boxs">
+                                <p><img src="img/star.png" alt="star" class="img-responsive"><span>2/20</span></p>
+                            </div>
+                            <a href="javascript:void(0)" class="conti">Countinue</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- unsuccessful modal end -->
+
+
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#edituser">Open Modal 1</button> -->
+
+    <!-- Modal  edit user-->
+    <div id="edituser" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog2">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <div class="mod1_sec boxs">
+
+                        <button type="button" class="close" data-dismiss="modal"> <img src="./img/cross.png" class="img-responsive" alt="image"></button>
+                        <h3>Edit user</h3>
+
+                        <form class="boxs ">
+                            <label class="txt_lb">First name</label>
+                            <input type="text" placeholder="sanjeev" class="filledtxt"><br>
+
+                            <label class="txt_lb">Last name</label>
+                            <input type="text" placeholder="kumar" class="filledtxt"><br>
+                            <label class="txt_lb">Email address</label>
+                            <input type="email" placeholder="Sanju2171991@gmail.com" class="filledtxt"><br>
+                            <label class="txt_lb">Mobile number</label>
+                            <input type="text" placeholder="sanjeev" class="filledtxt"><br>
+                            <label class="txt_lb">Password</label>
+                            <input type="text" placeholder="**********" class="filledtxt"><br>
+                            <label class="txt_lb">Confirm password</label>
+                            <input type="text" placeholder="*****" class="filledtxt">
+                            <label class="txt_lb">Access level</label>
+                            <div class=" leftfl editform">
+                                <input type="radio" name="users" id="rd1"><label for="rd1">Super users</label><br>
+                                <input type="radio" name="users" id="rd2"><label for="rd2">Admin users</label><br>
+                                <input type="radio" name="users" id="rd3"><label for="rd3">Content managers</label><br>
+                                <input type="radio" name="users" id="rd4"><label for="rd4">Standard users</label>
+                            </div>
+                            <div class="boxs save_btn">
+                                <button type="button" class="cencel_btn" data-dismiss="modal">Cancel</button>
+                                <a href="javacript:void(0)" class="savBtn_s">Save</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal  edit user -->
+
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#adduser">Open Modal 1</button> -->
+
+    <!-- Modal  add user-->
+    <div id="adduser" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog2">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <div class="mod1_sec boxs">
+
+                        <button type="button" class="close" data-dismiss="modal"> <img src="./img/cross.png" class="img-responsive" alt="image"></button>
+                        <h3>Add user</h3>
+
+                        <form class="boxs ">
+                            <label class="txt_lb">First name</label>
+                            <input type="text" class="filledtxt"><br>
+
+                            <label class="txt_lb">Last name</label>
+                            <input type="text" class="filledtxt"><br>
+                            <label class="txt_lb">Email address</label>
+                            <input type="email" class="filledtxt"><br>
+                            <label class="txt_lb">Mobile number</label>
+                            <input type="text" class="filledtxt"><br>
+                            <label class="txt_lb">Password</label>
+                            <input type="text" class="filledtxt"><br>
+                            <label class="txt_lb">Confirm password</label>
+                            <input type="text" class="filledtxt">
+                            <label class="txt_lb">Access level</label>
+                            <div class=" leftfl editform">
+                                <input type="radio" name="users" id="rd11"><label for="rd11">Super users</label><br>
+                                <input type="radio" name="users" id="rd21"><label for="rd21">Admin users</label><br>
+                                <input type="radio" name="users" id="rd31"><label for="rd31">Content managers</label><br>
+                                <input type="radio" name="users" id="rd41"><label for="rd41">Standard users</label>
+                            </div>
+                            <div class="boxs save_btn">
+                                <button type="button" class="cencel_btn" data-dismiss="modal">Cancel</button>
+                                <a href="javacript:void(0)" class="savBtn_s">Save</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal  add user -->
+
+
+
+    <!-- modal2 start  video-->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Open Modal 2</button> -->
+
+    <!-- Modal -->
+    <div id="myModal1" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog1">
+
+            <!-- Modal content-->
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <div class="item_con boxs">
+                        <button type="button" class="close" data-dismiss="modal"> <img src="./img/cross.png" class="img-responsive " alt="image"></button>
+                        <h2>Item preview</h2>
+                        <iframe id="vditm" width="560" height="315" src="https://www.youtube.com/embed/Oz8GpDVz5ag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <button type="button" id="clkimg"><img src="./img/video.png" class="img-responsive vdimg " alt="image"></button>
+                        <h4>Example 08: Video</h4>
+                        <p>May 17th, 2019, <span>Cherry Pattij</span></p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- modal 2 end video-->
+
+    <!-- help modal start -->
+    <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#help">Open Modal</button> -->
+
+    <div id="help" class="modal fade help" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><img src="img/cross.png" alt="cross" class="img-responsive"></button>
+                    <div class="helpbox">
+                        <div class="help_head">
+                            <h1>Help</h1>
+                        </div>
+                        <div class="help_para">
+                            <p>If you have any questions or suggestions for us, you can send an email to <a href="mailto:helpdesk@mettlr.nl">helpdesk@mettlr.nl</a> and we’ll get in touch with you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- help modal end -->
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

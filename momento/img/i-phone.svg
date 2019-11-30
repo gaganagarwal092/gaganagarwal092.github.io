@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="28" viewBox="0 0 80 28">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <rect width="79" height="26" x="-.5" y="-.5" stroke="#FFF" rx="2"/>
+        <text fill="#FFF" font-family="AvenirNext-Medium, Avenir Next" font-size="7" font-weight="400" letter-spacing=".06">
+            <tspan x="19" y="11">Available on the</tspan>
+        </text>
+        <text fill="#FFF" font-family="AvenirNext-Medium, Avenir Next" font-size="12.8" font-weight="400" letter-spacing="-.45">
+            <tspan x="19" y="23">App Store</tspan>
+        </text>
+        <path fill="#FFF" d="M7.29 4C6.576 4 6 4.651 6 5.458v15.084C6 21.347 6.577 22 7.29 22h6.42c.713 0 1.29-.651 1.29-1.458V5.458C15 4.653 14.423 4 13.71 4H7.29zm-.446 2.36v13.28h7.312V6.36H6.844zM10.5 21.41c.31 0 .563-.264.563-.59a.577.577 0 0 0-.563-.59.577.577 0 0 0-.563.59c0 .326.252.59.563.59zM9.375 5.18c0 .163.097.295.224.295h1.802c.124 0 .224-.136.224-.295 0-.163-.097-.295-.224-.295H9.599c-.124 0-.224.137-.224.295z"/>
+    </g>
+</svg>

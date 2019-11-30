@@ -1,0 +1,611 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon/favicon.ico" type="image/ico" sizes="16x16">
+
+        <title>MomentoOverview | CoupleInfo</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
+        <link rel="stylesheet" type="text/css" href="css/chosen.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    </head>
+    <body>
+        <div class="sidenav sidenav_info" id="mySidenav">
+            <a href="#" class="logo">Momento</a>
+            <a href="MomentoOverview.html" class=""><img src="img/home.svg" alt="icon">Overview</a>
+            <a href="MomentoOverviewcoupleinfo.html" class="active"><img src="img/group.svg" alt="icon">Couple Info</a>
+            <a href="guest.html" class=""><img src="img/users.svg" alt="icon">Guests</a>
+            <a href="events.html" class=""><img src="img/calendar.svg" alt="icon">Events</a>
+            <a href="message.html" class=""><img src="img/message.svg" alt="icon">Message</a>
+            <a href="social.html" class=""><img src="img/chats.svg" alt="icon">Social</a>
+            <a href="checklist.html" class=""><img src="img/list.svg" alt="icon">Checklist</a>
+            <a href="budget.html" class=""><img src="img/moneynotes.svg" alt="icon">Budget</a>
+            <a href="registery.html" class=""><img src="img/gift.svg" alt="icon">Registery</a>
+            <a href="settings.html" class=""><img src="img/settings.svg" alt="icon">Settings</a>
+        </div>
+
+
+        <div class="coupleinfo_outer height2 boxs">
+
+            <!-- Header Start -->
+            <header class="header header_info">
+                <div class="container-fluid">
+                    <nav class="navbar">
+                        <div class="container-fluid">
+                            <div class="">
+                                <ul class="nav navbar-nav navbar-left">
+                                    <li><a href="#">Audiences</a></li>
+                                    <li><a href="#">Leads</a></li>
+                                    <li><a href="#">Registeration</a></li>
+                                </ul>
+                                <ul class="avtarbox nav navbar-nav navbar-right">
+                                    <h3>
+                                        <!-- <img src="img/avatar.png" alt="avatar"> -->
+                                        Hello,<br><span>Julia Sandler</span>
+                                        <div class="dropdown dropdowndiv boxs trigger11">
+                                            <a href="javascript:void(0)" class="btn Fortabledropdown dropdown-toggle right boxs" type="button" id="dropdownMenu" data-toggle="dropdown"> <img src="img/avatar.png" class="img-responsive" alt="avatar"></a>
+                                            <ul class="dropdown-menu guestdropdown guestdropdown11" aria-labelledby="dropdownMenu">
+                                                <div class="drop_inner boxs">
+                                                    <img class="inner_img img-responsive" src="img/avatar.png" alt="avatar">
+                                                    <h1>Julian & Veronica </h1>
+                                                    <p>davidjburgos@gmail.com</p>
+                                                    <li><a href="javascript:void(0)" class="DropDown first">
+                                                            <img class="switch img-responsive" src="img/switch_circle.png" alt="switch_circle"> 
+                                                            <img class="shover img-responsive" src="img/switch_hover.png" alt="switch_hover">  Switch Wedding </a></li>
+                                                </div>
+
+                                                <li><a href="javascript:void(0)" class="DropDown">
+                                                        Upgrade Plan </a></li>
+                                                <li><a href="javascript:void(0)" class="DropDown">
+                                                        Account Settings </a></li>
+                                                <li><a href="javascript:void(0)" class="DropDown">Log out </a></li>
+                                            </ul>
+                                        </div>
+                                    </h3>
+                                </ul>
+                                <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                                    <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- Header End -->
+
+            <div class="coupleinfo_inner boxs">
+                <div class="coupleinfo_viewbox boxs">
+                    <h2>Couple Info</h2>
+                    <p>
+                        Here, you will edit any details about you and your partner
+                        <span>from personal details to your wedding details.</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="coupleinfo_inner2 boxs">
+                <div class="col-sm-12 nopadding">
+
+                    <div class="couplebtns">
+                        <a href="javascript:void(0)" class="active change1">Couple Info</a>
+                        <a href="javascript:void(0)" class="change2">Our Story</a>
+                    </div>
+                    <div class="forfeedbackheight boxs">
+                        <div class="couple_form boxs" id="apps1">
+                            <div class="col-md-9 col-xs-12  widthcol nopadding">
+                                <div class="couple_border boxs">
+                                    <form>
+                                        <h4>GROOM</h4>
+                                        <div class="col-sm-6 noleft">
+                                            <div class="form-group">
+                                                <label for="fname">First Name</label>
+                                                <input type="text" class="form-control" id="fname" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 noright">
+                                            <div class="form-group">
+                                                <label for="lname">Last Name</label>
+                                                <input type="text" class="form-control" id="lname" placeholder="">
+                                            </div>
+                                        </div>
+                                        <h4 class="boxs">BRIDE</h4>
+                                        <div class="col-sm-6 noleft">
+                                            <div class="form-group">
+                                                <label for="fname">First Name</label>
+                                                <input type="text" class="form-control" id="fname" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 noright">
+                                            <div class="form-group">
+                                                <label for="lname">Last Name</label>
+                                                <input type="text" class="form-control" id="lname" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 nopadding">
+                                            <button type="submit" class="btn1 btn3">Save Changes</button>
+                                        </div>
+                                        <!--                                        <div class="feedbackscroll boxs">
+                                                                                    <div class="appendherechoice boxs">
+                                                                                        <div class="radiobtns radio radio-primary">
+                                                                                            <input checked="checked" id="small_input_pp" name="small_input" type="radio"> <label for="small_input_pp"> </label>
+                                                                                            <input type="text" class="inputchoice" placeholder="">
+                                                                                        </div>
+                                                                                        <div class="radiobtns radio radio-primary">
+                                                                                            <input  id="small_input_cc" name="small_input" type="radio"> <label for="small_input_cc"> </label>
+                                                                                            <input type="text" class="inputchoice" placeholder="">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="addchoicesec boxs">
+                                                                                    <a href="javascript:void(0)" class="addchoiceseclink"><img src="img/plusguest.svg" alt="companion" class="normalimg"><img src="img/plusguesthover.svg" alt="companion" class="hoverimg">Add Choice</a>
+                                                                                </div>-->
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="story boxs" id="apps2" style="display: none;">
+                            <div class="col-md-9 col-xs-12 noleft widthcol">
+                                <div class="story_border boxs">
+
+                                    <div class="booksection boxs">
+                                        <div class="book_heading boxs">
+                                            <h2>Book Style</h2>
+                                        </div>
+                                        <div class="bookboxes boxs">
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="pos_span" id="one">
+                                                <label for="one">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="pos_span" id="two">
+                                                <label for="two">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="pos_span" id="third">
+                                                <label for="third">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="pos_span" id="forth">
+                                                <label for="forth">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="pos_span" id="fifth">
+                                                <label for="fifth">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="pos_span" id="sixth">
+                                                <label for="sixth">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pagesection boxs">
+                                        <div class="pages_heading boxs">
+                                            <h2>Pages Style</h2>
+                                        </div>
+                                    </div>
+                                    <!--                                        <div class="pagebox appendhere2 boxs">
+                                                                                <div class="pagelist boxs feedbackpagelist drophere">
+                                                                                    <div class="draghere">
+                                                                                        <div class="width width1">
+                                                                                            <img src="img/list3.svg" alt="list3" class="img-responsive drophere">
+                                                                                        </div>
+                                                                                        <div class="width width2">
+                                                                                            <p>
+                                                                                                Title1 here untill there is no more space…
+                                                                                            </p>
+                                                                                        </div>
+                                                                                        <div class="width width3">
+                                                                                            <p  id="demo" class="collapse in">
+                                                                                                Description goes here until there is no more spa…
+                                                                                            </p>
+                                    
+                                                                                        </div>
+                                                                                        <div class="Feedbacktopicon">
+                                                                                            <a href="#demo" class="normalhide"><img src="img/close.svg" alt="close" class="img-responsive"></a>
+                                                                                            <a href="#demo" class="normalhide"><img src="img/open.svg" alt="open" class="img-responsive"></a>
+                                                                                            <a href="javascript:void(0)" class="EditD"><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                                                                            <a href="javascript:void(0)" class="delete"><img src="img/delete.svg" alt="delete" class="img-responsive"></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="pagelist boxs feedbackpagelist drophere">
+                                                                                    <div class="draghere">
+                                                                                        <div class="width width1">
+                                                                                            <img src="img/list3.svg" alt="list3" class="img-responsive drophere">
+                                                                                        </div>
+                                                                                        <div class="width width2">
+                                                                                            <p>
+                                                                                                Title2 here untill there is no more space…
+                                                                                            </p>
+                                                                                        </div>
+                                                                                        <div class="width width3">
+                                                                                            <p  id="demo" class="collapse in">
+                                                                                                Description goes here until there is no more spa…
+                                                                                            </p>
+                                    
+                                                                                        </div>
+                                                                                        <div class="Feedbacktopicon">
+                                                                                            <a href="#demo" class="normalhide"><img src="img/close.svg" alt="close" class="img-responsive"></a>
+                                                                                            <a href="#demo" class="normalhide"><img src="img/open.svg" alt="open" class="img-responsive"></a>
+                                                                                            <a href="javascript:void(0)" class="EditD"><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                                                                            <a href="javascript:void(0)" class="delete"><img src="img/delete.svg" alt="delete" class="img-responsive"></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="pagelist boxs feedbackpagelist drophere">
+                                                                                    <div class="draghere">
+                                                                                        <div class="width width1">
+                                                                                            <img src="img/list3.svg" alt="list3" class="img-responsive drophere">
+                                                                                        </div>
+                                                                                        <div class="width width2">
+                                                                                            <p  >
+                                                                                                Title3 here untill there is no more space…
+                                                                                            </p>
+                                                                                        </div>
+                                                                                        <div class="width width3">
+                                                                                            <p id="demo" class="collapse in">
+                                                                                                Description goes here until there is no more spa…
+                                                                                            </p>
+                                    
+                                                                                        </div>
+                                                                                        <div class="Feedbacktopicon">
+                                                                                            <a href="#demo" class="normalhide"><img src="img/close.svg" alt="close" class="img-responsive"></a>
+                                                                                            <a href="#demo" class="normalhide"><img src="img/open.svg" alt="open" class="img-responsive"></a>
+                                                                                            <a href="javascript:void(0)" class="EditD"><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                                                                            <a href="javascript:void(0)" class="delete"><img src="img/delete.svg" alt="delete" class="img-responsive"></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="pagelist boxs feedbackpagelist drophere">
+                                                                                    <div class="draghere">
+                                                                                        <div class="width width1">
+                                                                                            <img src="img/list3.svg" alt="list3" class="img-responsive drophere">
+                                                                                        </div>
+                                                                                        <div class="width width2">
+                                                                                            <p  >
+                                                                                                Title4 here untill there is no more space…
+                                                                                            </p>
+                                                                                        </div>
+                                                                                        <div class="width width3">
+                                                                                            <p  id="demo" class="collapse in">
+                                                                                                Description goes here until there is no more spa…
+                                                                                            </p>
+                                    
+                                                                                        </div>
+                                                                                        <div class="Feedbacktopicon">
+                                                                                            <a href="#demo" class="normalhide"><img src="img/close.svg" alt="close" class="img-responsive"></a>
+                                                                                            <a href="#demo" class="normalhide"><img src="img/open.svg" alt="open" class="img-responsive"></a>
+                                                                                            <a href="javascript:void(0)" class="EditD"><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                                                                            <a href="javascript:void(0)" class="delete"><img src="img/delete.svg" alt="delete" class="img-responsive"></a>
+                                                                                        </div>
+                                                                                    </div> 
+                                                                                </div>
+                                    
+                                    
+                                                                            </div>-->
+                                    <div class="pagebox appendhere2 boxs">
+                                        <div class="pagelist boxs feedbackpagelist drophere">
+                                            <div class="draghere">
+                                                <div class="width width1">
+                                                    <img src="img/list3.svg" alt="list3" class="img-responsive drophere">
+                                                </div>
+                                                <div class="width width2">
+                                                    <p>
+                                                        Title1 here untill there is no more space…
+                                                    </p>
+                                                </div>
+                                                <div class="width width3">
+                                                    <p  id="demo" class="collapse in">
+                                                        Description goes here until there is no more spa…
+                                                    </p>
+
+                                                </div>
+                                                <div class="feedbackIcona">
+                                                    <a href="#demo" class="normalhide"><img src="img/close.svg" alt="close" class="img-responsive"></a>
+                                                    <a href="#demo" class="normalhide"><img src="img/open.svg" alt="open" class="img-responsive"></a>
+                                                    <a href="javascript:void(0)" class="EditD"><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                                    <a href="javascript:void(0)" class="delete" data-type="thisis"><img src="img/delete.svg" alt="delete" class="img-responsive"></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="pagelist boxs feedbackpagelist drophere">
+                                            <div class="draghere">
+                                                <div class="width width1">
+                                                    <img src="img/list3.svg" alt="list3" class="img-responsive drophere">
+                                                </div>
+                                                <div class="width width2">
+                                                    <p>
+                                                        Title2 here untill there is no more space…
+                                                    </p>
+                                                </div>
+                                                <div class="width width3">
+                                                    <p  id="demo" class="collapse in">
+                                                        Description goes here until there is no more spa…
+                                                    </p>
+
+                                                </div>
+                                                <div class="feedbackIcona">
+                                                    <a href="#demo" class="normalhide"><img src="img/close.svg" alt="close" class="img-responsive"></a>
+                                                    <a href="#demo" class="normalhide"><img src="img/open.svg" alt="open" class="img-responsive"></a>
+                                                    <a href="javascript:void(0)" class="EditD"><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                                    <a href="javascript:void(0)" class="delete" data-type="thisis"><img src="img/delete.svg" alt="delete" class="img-responsive"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pagelist boxs feedbackpagelist drophere">
+                                            <div class="draghere">
+                                                <div class="width width1">
+                                                    <img src="img/list3.svg" alt="list3" class="img-responsive drophere">
+                                                </div>
+                                                <div class="width width2">
+                                                    <p  >
+                                                        Title3 here untill there is no more space…
+                                                    </p>
+                                                </div>
+                                                <div class="width width3">
+                                                    <p id="demo" class="collapse in">
+                                                        Description goes here until there is no more spa…
+                                                    </p>
+
+                                                </div>
+                                                <div class="feedbackIcona">
+                                                    <a href="#demo" class="normalhide"><img src="img/close.svg" alt="close" class="img-responsive"></a>
+                                                    <a href="#demo" class="normalhide"><img src="img/open.svg" alt="open" class="img-responsive"></a>
+                                                    <a href="javascript:void(0)" class="EditD"><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                                    <a href="javascript:void(0)" class="delete" data-type="thisis"><img src="img/delete.svg" alt="delete" class="img-responsive"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pagelist boxs feedbackpagelist drophere">
+                                            <div class="draghere">
+                                                <div class="width width1">
+                                                    <img src="img/list3.svg" alt="list3" class="img-responsive drophere">
+                                                </div>
+                                                <div class="width width2">
+                                                    <p>
+                                                        Title4 here untill there is no more space…
+                                                    </p>
+                                                </div>
+                                                <div class="width width3">
+                                                    <p  id="demo" class="collapse in">
+                                                        Description goes here until there is no more spa…
+                                                    </p>
+
+                                                </div>
+                                                <div class="feedbackIcona">
+                                                    <a href="#demo" class="normalhide"><img src="img/close.svg" alt="close" class="img-responsive"></a>
+                                                    <a href="#demo" class="normalhide"><img src="img/open.svg" alt="open" class="img-responsive"></a>
+                                                    <a href="javascript:void(0)" class="EditD"><img src="img/edit.svg" alt="edit" class="img-responsive"></a>
+                                                    <a href="javascript:void(0)" class="delete" data-type="thisis"><img src="img/delete.svg" alt="delete" class="img-responsive"></a>
+                                                </div>
+                                            </div> 
+                                        </div>
+
+
+                                    </div>
+                                    <div class="items boxs">
+                                        <div class="width width2 addadmin ">
+                                            <h4>
+                                                <a href="javascript:void(0)" type="button" data-toggle="modal" data-target="#myModal2" class="upbtn addLinefeedback">
+                                                    <span>
+                                                        <img src="img/plus.svg " alt="plus" class="normalimg">
+                                                        <img src="img/plushover.svg" alt="plus" class="hoverimg">
+                                                    </span>
+                                                    Add Page
+                                                </a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 noright widthcol3 widthcol3D">
+
+                                <div class="previewsection boxs">
+                                    <div class="prev_heading boxs">
+                                        <h2>PREVIEW</h2>
+                                        <div class="slider boxs">
+                                            <div class="slder_heading boxs">
+                                                <h3>
+                                                    Page 1 of 5
+                                                    <i data-toggle="modal" data-target="#previewmodal" class="slickrefresh" ><a href="javascript:void(0)" data-toggle="tooltip1" data-placement="top" class="slickrefresh"  data-original-title="view in larger size">
+                                                            <img src="img/share.svg" alt="share" class="img-responsive feedbacksharewidth">
+                                                        </a> </i>
+                                                </h3>   
+                                            </div>
+
+                                            <div class="slick boxs">
+                                                <div class="slider_imgs boxs">
+                                                    <img src="img/couple11.png" alt="couple1" class="img-responsive">
+                                                    <h3>Lorem ipsum dolor1</h3>
+                                                    <p>Lorem ipsum dolor sit amet, adipisicing elit. Ab maiores.</p>
+
+                                                </div>
+                                                <div class="slider_imgs boxs">
+                                                    <img src="img/couple11.png" alt="couple1" class="img-responsive">
+                                                    <h3>Lorem ipsum dolor2</h3>
+                                                    <p>Lorem ipsum dolor sit amet, adipisicing elit. Ab maiores.</p>
+
+                                                </div>
+                                                <div class="slider_imgs boxs">
+                                                    <img src="img/couple11.png" alt="couple1" class="img-responsive">
+                                                    <h3>Lorem ipsum dolor3</h3>
+                                                    <p>Lorem ipsum dolor sit amet, adipisicing elit. Ab maiores.</p>
+
+                                                </div>
+                                                <div class="slider_imgs boxs">
+                                                    <img src="img/couple11.png" alt="couple1" class="img-responsive">
+                                                    <h3>Lorem ipsum dolor4</h3>
+                                                    <p>Lorem ipsum dolor sit amet, adipisicing elit. Ab maiores.</p>
+
+                                                </div>
+                                                <div class="slider_imgs boxs">
+                                                    <img src="img/couple11.png" alt="couple1" class="img-responsive">
+                                                    <h3>Lorem ipsum dolor5</h3>
+                                                    <p>Lorem ipsum dolor sit amet, adipisicing elit. Ab maiores </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="myModal2" class="modal fade CoupleAddPageModal Forclosemodal" role="dialog">
+
+                <div class="modal-dialog overviewmodalinner">
+                    <!-- Modal content-->
+                    <div class="modal-content boxs step5">
+                        <div class="modal-header boxs">
+                            <button type="button" class="close popupcross FinishPopup"><img src="img/cross.svg" alt="cross" class="img-responsive"></button>
+                            <h4 class="modal-title"><img src="img/weddingphoto.svg" alt="weddingphoto" class="img-responsive center-block"></h4>
+                        </div>
+                        <div class="modal-body boxs">
+                            <form>
+                                <div class="col-sm-12 nopadding">
+                                    <div class="col-sm-12 nopadding">
+                                        <div class="form-group">
+                                            <label for="title">Title</label>
+                                            <input type="text" class="form-control" id="title" placeholder="Here is my title">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message">Bottom Message (Optional)</label>
+                                            <textarea class="form-control" rows="5" id="message" placeholder="Add your message…"></textarea>
+                                        </div>
+                                        <div>
+                                            <div class="file-upload btn labelfont file-uploadfeedback">
+                                                <span id="addhere"><img src="img/paperclip.svg" alt="paperclip" class="img-responsive" id="imgchange"></span>
+                                                <input type="file" name="FileAttachment" id="FileAttachment" class="upload">
+                                                <input type="text" id="fileuploadurl" readonly="" placeholder="Insert Image (Optional)">
+                                            </div>
+
+                                            <a href="javascript:void(0)" class="delete2" id="anchorshow"><img src="img/cross.svg" alt="cross"></a>
+                                        </div>
+                                    </div>
+                                    <!--                                            <div class="col-sm-6 noright">
+                                                                                    <div class="previewbox boxs previewboxfeedback">
+                                                                                        <h2>PREVIEW</h2>
+                                                                                        <div class="previewbox_inner boxs">
+                                                                                            <img src="img/couple11.png" alt="couple1" class="img-responsive width1">
+                                                                                            <p>Lorem ipsum dolor sit amet, adipisicing elit. Ab maiores praesentium.</p>
+                                    
+                                                                                        </div>
+                                                                                                                                            <textarea class=" previewbox_inner" ></textarea>
+                                                                                    </div>
+                                                                                </div>-->
+                                </div>
+                            </form>
+
+                        </div>
+                        <div class="modal-footer boxs">
+                            <button type="button" class="btn1 step5btn FinishPopup">Add Page</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="previewmodal" class="modal fade tde GuestModal Forclosemodal previewmodalclass" role="dialog">
+
+            <div class="modal-dialog overviewmodalinner">
+                <div class="modal-content boxs step5">
+                    <div class="modal-header boxs">
+                        <button type="button" class="close popupcross FinishPopup"><img src="img/cross.svg" alt="cross" class="img-responsive"></button>
+                    </div>
+                    <div class="modal-body boxs">
+                        <div class="form_class boxs">
+                            <div class="slider boxs">
+                                <div class="slder_heading boxs">
+                                    <h3>
+                                        <span>Page 1 of 5</span>
+
+                                    </h3>   
+                                </div>
+
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="img/couple11.png" alt="couple">
+                                            <div class="iteminner boxs">
+                                                <h3>Los Angeles</h3>
+                                                <p>LA is always so much fun!</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/couple11.png" alt="couple">
+                                            <div class="iteminner boxs">
+                                                <h3>New York</h3>
+                                                <p>We love the Big Apple!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Left and right controls -->
+                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                        <img src="img/arrowleft.svg" alt="arrow">
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                        <img src="img/arrowright.svg" alt="arrow">
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src='js/choosen3min.js'></script>
+        <script src="js/choosen1.js"></script> 
+        <script src="js/choosen.js"></script>
+        <script src="js/choosenmsg.js"></script> 
+        <script src="js/filedrag.js"></script>
+        <script src="js/dragdrop.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/moment.js"></script>
+        <script src="js/bootstrap-datetimepicker.min.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <script src="js/jquery.ddslick.min.js"></script>
+        <script src="js/custom.js"></script> 
+
+    </body>
+</html>

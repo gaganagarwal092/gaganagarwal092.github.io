@@ -1,0 +1,324 @@
+@media(max-width:1450px){
+
+}
+@media(max-width:1350px){
+
+   .header .navbar-default .navbar-nav > li > a {
+  
+    font-size: 12px;
+    padding: 0px 15px;
+  
+}
+.banner_photo::after {
+
+    left: -15px;
+}  
+.banner_photo::before {
+    left: -15px;
+}
+.becomesponsor_button ul li a {
+       padding: 6px 10px;
+  
+}
+.becomesponsor {
+    padding: 64px 0px;
+  
+}
+.slick-next {
+    right: -11px;
+}
+.slick-prev {
+    left: -23px;
+}
+.common-wealth-image .button_gp ul li a {
+   
+    padding: 16px;
+   
+}
+.common-wealth-image .button_gp ul li:nth-child(5) a {
+    padding: 18px 29px;
+}
+.button_gp ul li {
+     padding: 71px 0px 23px;
+}
+.common-wealth-image .button_gp ul li a {
+    padding: 18px;
+}
+.profile-section_heading {
+    padding: 54px 16px;
+}
+.commomwealth {
+    padding: 60px 0px 127px 0px;
+}
+} 
+@media(max-width:991px) and (min-width:768px){
+.header .navbar-default .navbar-nav > li > a {
+    font-size: 13px;
+   }
+   .banner_photo {
+    float: none
+}
+.res-scroll {
+    width: 731px;
+    float: left;
+}
+.banner_text p {
+    font-size: 22px;
+}
+.button_gp ul li {
+    padding: 71px 0px 0;
+    /* width: 11.8%; */
+    margin: 19px 1px;
+}
+.view-profile ul li a {
+    margin: -188px 71px;
+ }
+ .becomesponsor_button ul li a {
+      font-size: 15px;
+}
+.common-wealth-image .button_gp ul li a {
+  font-size: 12px;
+   }
+   .common-wealth-image .button_gp ul li a {
+    padding: 13px 9px;
+}
+.common-wealth-image .button_gp ul li:nth-child(5) a {
+    padding: 13px 24px;
+}
+/* .button_gp ul li {
+    padding: 71px 0px 17px;
+} */
+.commonwealth-image {
+    padding: 0px 47px;
+}
+.profile-view ul li a {
+    font-size: 12px;
+    padding: 11px 18px;
+   }
+}
+@media(max-width:767px){  
+    .header .hamburger{
+        display: block;
+         padding: 9px 14px 10px 0px;
+    }
+    .banner_photo {
+   text-align: center;
+    float: none;
+    left: 47px;
+    top: -46px;
+}
+
+.slick-prev:before {
+   font-size: 63px;
+}
+.slick-prev {
+    left: -14px;
+}
+.slick-next:before {
+    font-size: 63px;
+}
+.seminar-content {
+    margin: 64px 40px;
+}
+.sponsor-heading h3 {
+    text-align: center;
+   }
+   .sponsor-content {
+    padding: 0px 26px;
+}
+.logo-img {
+   
+    margin-top: 25px;
+}
+.becomesponsor {
+    padding: 32px 40px 45px !important;
+}
+.become_sponsor {
+    display: block;
+   }
+   .becomesponsor_button ul li {
+display: block;
+    padding: 12px;
+    text-align: center;
+}
+.becomesponsor {
+    padding: 9px 0px 45px;
+}
+.common-wealth-image .button_gp ul li a {
+    padding: 13px 8.4px;
+}
+.common-wealth-image .button_gp ul li a {
+   font-size: 8px;
+}
+/* .button_gp ul li {
+    padding: 71px 0px 16px;
+        display: block;
+    float: left;
+    margin-right: 22px;
+} */
+.common-wealth-image .button_gp ul li:nth-child(5) a {
+    padding: 13px 20px;
+}
+.commonwealth-heading p {
+   
+    margin: 0px 41px;
+   
+}
+.commonwealth-image {
+    text-align: -webkit-center;
+}
+.Commonwealth-content {
+    padding: 36px 24px;
+    text-align: center;
+}
+
+   .myslider-logos {
+    padding: 0px 0px;
+}
+.profile-img1:after {
+ left: 11px;
+width: 45%;
+ margin: 0px;
+}
+.profile-img2:after {
+ left: 11px;
+width: 45%;
+ margin: 0px;
+}
+.profile-img3:after {
+ left: 11px;
+width: 45%;
+ margin: 0px;
+}
+.profile-img4:after {
+ left: 11px;
+width: 45%;
+ margin: 0px;
+}
+.profile-view ul li {
+    text-align: left!important;
+}
+/*for scroll*/
+.scroll-text_2 {
+        overflow: scroll;
+        overflow-x: auto;
+        overflow-y: hidden;
+        height:auto;
+        width:100%;
+        /* margin-bottom: 50px; */
+    }
+
+    .scroll-text_2 .scroll-over{
+        height:auto;
+    }
+    .scroll-text_2::-webkit-scrollbar{
+        width:100%;
+        height:5px;
+        /* border:2px solid #dedcdd!important; */
+        box-shadow: 0px 0px 0px 1px #dedcdd;
+    }
+    .scroll-text_2::-webkit-scrollbar-track{
+        background-color: transparent   ;
+
+    }
+    .scroll-text_2::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        outline: 1px solid transparent;
+    }
+.button_gp ul li {
+    display: inline-block;
+        padding: 50px 0px 16px;
+        margin: 1px;
+}
+.res-scroll {
+    width: 731px;
+    float: left;
+}
+.common-wealth-image .button_gp ul li a {
+    font-size: 12px;
+}
+    .common-wealth-image, .scroll-over{
+        position: relative;
+    }
+    .common-wealth-image #left_arrow_res, .common-wealth-image #right_arrow_res {
+   font-family: 'FontAwesome';
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    background: #fff;
+    padding: 5px 5px;
+    top: 18.9%;
+    display: block;
+}
+.scrollbar {
+    padding: 0px 16px;
+}
+.scrollbar {
+    padding: 10px 16px;
+}
+.common-wealth-image #left_arrow_res{
+        left: 11px;
+}
+.common-wealth-image #right_arrow_res{
+    right:10px;
+}
+}
+@media(max-width:560px){
+
+}
+@media(max-width:414px){
+.res-scroll {
+        width:603px;
+            float: left;
+    }
+    .common-wealth-image .button_gp ul li a {
+    font-size: 10px;
+}
+   .common-wealth-image #left_arrow_res, .common-wealth-image #right_arrow_res {
+    top: 17.2%;
+}
+.res-scroll {
+    width: 661px;
+    float: left;
+}
+}
+@media(max-width:320px){
+.common-wealth-image #left_arrow_res, .common-wealth-image #right_arrow_res {
+    top: 14.5%;
+}
+.view-profile ul li a {
+    font-size: 14px;
+    /* float: right; */
+    margin: -165px auto 0;
+    padding: 4px 37px;
+    display: inline-block;
+    width: 100%;
+}
+.common-wealth-image .button_gp ul li a {
+    font-size: 11px;
+}
+.commonwealth-image {
+  
+    padding: 0px 42px;
+}
+.becomesponsor_button ul li a {
+    background-color: white;
+    color: black;
+    padding: 12px 4px;
+    font-family: 'Montserrat-bold';
+    font-size: 9px;
+}
+.banner_photo {
+    left: 12px;
+}
+.banner_text h6 {
+ 
+    font-size: 22px;
+}
+/* .view-profile ul li a {
+    font-size: 14px;
+    float: right;
+    margin: -186px 78px;
+       padding: 4px 37px;
+} */
+}

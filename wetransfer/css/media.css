@@ -1,0 +1,940 @@
+@media screen and (max-width: 1199px){
+	.bannertxt h1{
+		font-size: 50px;
+	}
+	.bannertxt a{
+	    padding: 15px 75px;
+	}
+	.price h2{
+	    font-size: 50px;
+	}
+	.addbasket a.continuebtn img{
+		height: 26px;
+	}
+	.addbasket a.continuebtn{
+		font-size: 18px;
+		padding: 8px 20px;
+	}
+	.posrel {
+		width: 250px;
+	}
+	.manufacturer .bannertxt h1{
+		font-size: 48px
+	}
+	.chooseph p{
+		font-size: 22px;
+	}
+	.shipping_method{
+		padding-left: 60px;
+	}
+	.total {
+    	padding-left: 60px;
+	}
+	.shipping_method h3{
+		font-size: 18px;
+	}
+	.subcost h2{
+		font-size: 40px;
+	}
+	.subcost h5{
+		font-size: 20px;
+	}
+	.subtotal p{
+		font-size: 18px;
+	}
+	.agreebox .styled-checkbox + label,.agreebox .styled-checkbox + label span a{
+		font-size: 16px;
+	}
+	.agreebox .styled-checkbox + label:before{
+		top: 1px;
+	}
+	.contact_ryt .address a, .contact_ryt .tele a, .contact_ryt .mail a{
+		font-size: 16px;
+	}
+	.contact_head h1{
+		font-size: 34px;
+	}
+	.contact_head h1 a{
+		font-size: 22px;
+	}
+	.contact_head h1 span {
+    	font-size: 22px;
+	}
+	.contact_ryt .tele a{
+		margin-bottom: 40px;
+	}
+	.faq_head h1{
+		font-size: 30px;
+	}
+	.accordian_inner h2{
+		font-size: 22px;
+	}
+	.cong_head h1{
+		font-size: 50px;
+		margin-bottom: 25px;
+	}
+	.cong_head h1 span{
+		font-size: 35px;
+	}
+	.shareicons p{
+		font-size: 16px;
+	}
+	.shareicons a img{
+		width: 56px;
+	}
+	.lftimg img{
+		width: 34px;
+	}
+	.rytimg a img{
+		width: 35px;
+	}
+	.rytimg a{
+		line-height: 35px;
+		font-size: 20px;
+	}
+	.range-slider{
+		height: 200px;
+	    margin-left: 7px;
+	}
+	.agreebox .styled-checkbox:checked + label:after{
+		top: 7px;
+	}
+
+}
+@media screen and (max-width: 991px){
+	.bannertxt h1 {
+    	font-size: 38px;
+	}
+	.bannertxt a {
+    	padding: 10px 35px;
+	}
+	.posrel {
+    	width: 200px;
+	}
+	.manufacturer .bannertxt h1 {
+    	font-size: 36px;
+	}
+	.chooseph p {
+	    font-size: 20px;
+	}
+	.modelselect .nice-select {
+    	width: 220px;
+	}
+	.checkout .col-sm-7,
+	.checkout .col-sm-5{
+		width: 100%;
+	}
+	.itemsboxshow{
+		/*display: block;*/
+	}
+	/*.itemsboxhide{
+		display: none;
+	}*/
+	.shipping_method{
+		border-bottom: none;
+	}
+	.shipping_method {
+    	padding-left: 0;
+	}
+	.total {
+    	padding-left: 0px;
+	}
+	.lftimg {
+	    position: absolute;
+	    top: 30px;
+	    left: 30px;
+	}
+	.lftimg img {
+	    width: 30px;
+	}
+	.rytimg {
+	    position: absolute;
+	    top: 30px;
+	    right: -30px;
+	}
+	a.continuebtn {
+	    font-size: 18px;
+	    padding: 12px 70px;
+	}
+	.modelimg ul.dnone{
+		display: none;
+	}
+	.min {
+	    min-height: auto;
+	}
+	.modelimg ul.min li{
+	    width: 27%;
+	    margin: 0% 3%;
+	}
+	.modelimg ul li:nth-child(2) {
+	    margin-top: -90px;
+	}
+	.hideimg{
+		width: 206px;
+	}
+	.replace {
+	    object-fit: contain;
+	    width: 144px;
+	    height: 144px;
+	}
+
+	.drag-text p {
+    	font-family: "RobotoRegular";
+    	font-size: 16px;
+	}
+	.range-slider{
+	    margin-bottom: 15px;
+		height: 170px;
+		margin-left: 5px;
+	}
+	/*modal strat*/
+	.phdetails h3{
+	    font-size: 20px;
+	}
+	.phdetails h3 span{
+	    font-size: 19px;
+	}
+	.cost h2{
+	    font-size: 28px;
+	}
+	.cost p{
+		font-size: 20px;
+	}
+	.buyitem a{
+	    padding: 8px 50px;
+	}
+	/*modal end*/
+
+}
+@media screen and (max-width: 767px){
+	.header .hamburger{
+        display: block;
+    }
+    .header .navbar-brand{
+		float: initial;
+		width: max-content;
+		margin: 0 auto;
+		display: block;
+    }
+    .header .navbar-brand img{
+		margin: 0 auto;
+    }
+    .header .navbar-header{
+    	position: relative;
+    }
+    .header .cart{
+    	position: absolute;
+    	top: 0px;
+    	right: 0px;
+    }
+    .hidetext{
+    	display: block;
+	    text-align: center;
+    }
+    .bannertxt a.anchorhide{
+    	display: none;
+    }
+    .bflex{
+    	display: block;
+    }
+    .bannertxt{
+    	margin-top: 30px;
+	    text-align: center;
+    } 
+    .bannertxt h1 {
+    	font-size: 50px;
+	    text-align: center;
+        margin-bottom: 10px;
+	}
+	.bannertxt a {
+    	padding: 10px 65px;
+	}
+	.bflex2{
+		display: block;
+	}
+	.manufacturer .bannertxt h1{
+		margin-bottom: 20px;
+	    text-align: center;
+	}
+	.noleft2{
+		padding-left: 15px;
+		padding-right: 20px;
+	}
+	.noright2{
+		padding-right: 15px;
+	    padding-left: 20px;
+	}
+	.modelimg {
+		margin-top: 0px;
+	}
+	.modelselect.bannertxt h1 {
+		text-align: left;
+	}
+	.modelselect .nice-select{
+		font-size: 20px;
+	}
+	.choosemd {
+		padding-top: 10px;
+	}
+	.txtshow{
+		display: none;
+	}
+	.txthide{
+    	display: block;
+	}
+	.modelselect .nice-select{
+		width: 300px;
+		display: block;
+	    margin: 0 auto;
+	    float: initial;
+	}
+	.bannertxt a.anchorred{
+		/*display: inline-block;*/
+	}
+	.modelimg ul{
+		display: none;
+	}
+	.modelimg p{
+		display: block;
+	}
+	.billing_form h3{
+	    font-family: "RobotoBold";
+	}
+	.billing_form .form-control{
+		text-align: center;
+	}
+	.cardhead h3{
+		display: block;
+	}
+	.contact_ryt {
+		margin-top: 30px;
+	}
+	.contact_head h1 {
+    	font-size: 30px;
+	}
+	.contact_head h1 span{
+		font-size: 20px;
+	}
+	.contact_head h1 a {
+    	font-size: 20px;
+	}
+	.faq_head h1 {
+    	font-size: 26px;
+    	text-align: left;
+	}
+	.accordian_inner {
+    	margin-bottom: 20px;
+	}
+	.accordian_inner h2 {
+    	font-size: 20px;
+	}
+	.acc_content p{
+		font-size: 18px;
+	}
+	.accordian_inner h2 a{
+		margin-top: 8px;
+	}
+	.width685 {
+    	width: 100%;
+	}
+	.cong_head h1 {
+    	font-size: 40px;
+    	margin-bottom: 20px;
+	}
+	.cong_head h1 span {
+    	font-size: 30px;
+	}
+	.editoptn{
+		margin-top: 30px;
+	}
+	.lftimg {
+	    position: absolute;
+	    top: 50px;
+	    left: 0;
+	}
+	.rytimg {
+	    position: absolute;
+	    top: 50px;
+	    right: -70px;
+	}
+	.uploadimgbox{
+		margin-top: 30px;
+	}
+	.uploadimgbox img{
+		width: 206px;
+	}
+	.uploadbtn a img{
+		width: 114px;
+	}
+	.drag-text p{
+		display: none;
+	}
+	.hideimg{
+		display: none;
+	}
+	.showimg{
+		display: block;
+	}
+	.btnshowres{
+		display: block;
+	}
+	.lftimg p{
+		left: -50px;
+	}
+	/*modal start*/
+	.buymodal .modal-dialog{
+		width: 90%;
+		margin: 30px auto;
+	}
+	.buyitem a {
+    	padding: 8px 20px;
+	    font-size: 18px;
+        width: 100%;
+	}
+	.imgitem img {
+    	width: 45px;
+    	height: 95px;
+	}
+	.buyinner{
+		margin-top: 10px;
+	}
+	.phdetails h3 span {
+        font-size: 22px;
+	}
+	.cost h2 {
+	    font-size: 24px;
+	}
+	.br_btm{
+		margin-top: 20px;
+		width: 100%;
+	}
+	.buymodal_head h2{
+		font-size: 24px;
+	}
+	.buymodal_head a img{
+		width: 24px;
+	}
+	.buymodal_head a{
+		/*display: none;*/
+	}
+	/*upsell popup responsive box start*/
+	.resview{
+	    display: block;
+	}
+	/*upsell popup responsive box end*/
+	.anchorShow{
+		/*display: none;*/
+	}
+	.anchorhide{
+    	display: block;
+	}
+	.phdetails h3 {
+    	font-size: 30px;
+	}
+	.upsellcheck{
+		bottom: 0;
+	}
+	/*modal end*/
+}
+@media screen and (max-width: 560px){
+	.anchorshow{
+		width: 100%;
+	    padding: 12px 0px;
+	    margin-bottom: 25px;
+	}
+	.hidetext h2{
+	    font-size: 34px;
+	}
+	.hidetext p{
+		font-size: 24px;
+	    margin: 0px 0px 20px;
+	}
+	.bannertxt{
+    	margin-top: 20px;
+    } 
+	.bannertxt h1 {
+    	font-size: 40px;
+	}
+	.bannertxt a {
+	    padding: 10px 35px;
+	    margin-top: 20px;
+	}
+	.price p{
+	    font-size: 18px;
+	}
+	.price h2 {
+    	font-size: 40px;
+	}
+	.manufacturer {
+	    padding-top: 70px;
+	}
+	.manufacturer .bannertxt h1{
+	    font-size: 28px;
+	}
+	.chooseph p {
+    	font-size: 18px;
+	}
+	.modelselect .nice-select {
+    	width: 220px;
+	}
+	.txthide{
+		font-size: 16px;
+	}
+	.colhide{
+		display: none;
+	}
+	.colshow{
+		display: block;
+	}
+	.contact_head h1 {
+    	font-size: 24px;
+	    margin-bottom: 0px;
+	}
+	.contact_head h1 span {
+    	font-size: 18px;
+	}
+	.contact_head h1 a {
+    	font-size: 18px;
+	}
+	.faq_head h1 {
+    	font-size: 24px;
+	}
+	.faq {
+    	padding: 30px 0px 30px;
+	}
+	.lftimg img {
+    	width: 30px;
+	}
+	.range-slider{
+	    height: 135px;
+	}
+	.lftimg {
+	    position: absolute;
+	    top: 60px;
+	    left: -30px;
+	}
+	.rytimg a img {
+    	width: 25px;
+    	margin-right: 10px;
+	}
+	.rytimg a {
+	    line-height: 25px;
+	    font-size: 18px;
+	    margin-bottom: 20px;
+	}
+	.rytimg {
+	    position: absolute;
+	    top: 60px;
+	    right: -80px;
+	}
+	a.continuebtn {
+    	font-size: 18px;
+    	padding: 10px 50px;
+	}
+	.itemdata h4{
+	    font-size: 16px;
+	}
+	.itemdata h5{
+		font-size: 20px;
+	}
+	.itemdata h5 span{
+		font-size: 16px;
+	}
+	.itemdata h5 i{
+		font-size: 20px;
+	}
+	.btnshowres p{
+	    font-size: 18px;
+	}
+	.modelimg p{
+		padding-top: 0;
+	}
+	.adbasimg img{
+	    width: 200px;
+	}
+	.adbasbtn a{
+		font-size: 18px;
+	}
+	.adcost h2{
+		font-size: 36px;
+	}
+	.adcost p{
+		font-size: 16px;
+	}
+	/*modal start*/
+	.phdetails h3 span{
+		font-family: "RobotoBold";
+	}
+	.buyinner{
+		display: block;
+	}
+	.width100{
+		width: 40%;
+	}
+	.width500{
+		width: 60%;
+	}
+	.buymodal_head h2 {
+	    font-size: 20px;
+	}
+	.buymodal_head a{
+		right: -10px;
+	}
+	.buyinner{
+		margin-top: 0;
+	}
+	.imgitem img {
+	    width: 55px;
+	    height: 110px;
+	}
+
+	/*upsell popup responsive box start*/
+	.ph_item_img img {
+	    width: 50px;
+	    height: 100px;
+	}
+	.ph_item_content{
+		margin-top: 20px;
+	}
+	.res_sub_total p{
+		font-size: 18px;
+	}
+	.res_sub_total p span{
+	    font-size: 40px;
+	}
+	.res_sub_total p span i{
+		font-size: 40px;
+	}
+	.res_sub_total a{
+		margin-top: 10px;
+	}
+	.ph_itembox{
+		margin-bottom: 10px;
+	}
+	/*upsell popup responsive box end*/
+	.phdetails h3 {
+    	font-size: 20px;
+	}
+	.phdetails h3 span{
+		font-size: 18px;
+	}
+	/*modal end*/
+
+}
+@media screen and (max-width: 414px){
+	.header .navbar-brand img{
+	    width: 150px; 
+	}
+	.header .cart{
+		width: 26px;
+	}
+	.anchorshow{
+		font-size: 16px;
+	}
+	.hidetext h2 {
+    	font-size: 30px;
+	}
+	.hidetext p {
+    	font-size: 20px;
+	}
+	.bannertxt h1 {
+    	font-size: 30px;
+	}
+	.bannertxt a {
+	    padding: 8px 19px;
+	    margin-top: 20px;
+	    font-size: 16px;
+	}
+	.addflex{
+		display: block;
+	}
+	.addbasket{
+		text-align: center;
+	    margin-top: 20px;
+	}
+	.modelselect .nice-select {
+    	width: 180px;
+	}
+	.bannertxt a.anchorred{
+		font-size: 18px;
+	}
+	.modelselect .nice-select {
+    	font-size: 18px;
+	}
+	.adbasbtn a{
+		font-size: 16px;
+	}
+	.adbasbtn a img{
+		width: 22px;
+	}
+	.adcost h2{
+		font-size: 32px;
+	}
+	.adcost p{
+		font-size: 16px;
+	}
+	.formbox .form-control{
+		font-size: 16px;
+	}
+	.cardhead h3{
+		font-size: 18px;
+		padding-left: 0;
+	}
+	.formbox .paybtn{
+		font-size: 18px;
+	}
+	.formbox .paybtn img{
+		width: 30px;
+	}
+	.formbox .form-group{
+		margin-bottom: 15px;
+	}
+	.btmimg{
+		margin-bottom: 30px;
+	}
+	.btmimg img{
+		width: 180px;
+	}
+	.formbox{
+		padding: 0;
+	}
+	.header .hamburger{
+		width: 27px;
+	}
+	.contact {
+    	padding: 20px 0px 40px;
+	}
+	.contact_head h1 {
+    	font-size: 20px;
+	}
+	.contact_head h1 span {
+    	font-size: 16px;
+	}
+	.contact_head h1 a {
+	    font-size: 16px;
+	}
+	.formbox .form-control {
+	    height: 40px;
+	    padding: 8px 12px;
+	}
+	.contact_lft .formbox textarea.form-control {
+    	height: 125px;
+	}
+	.formbox .btnsend{
+		font-size: 16px;
+		padding: 9px 0px;
+	}
+	.faq {
+    	padding: 20px 0px 30px;
+	}
+	.faq_head h1 {
+    	font-size: 20px;
+	}
+	.accordian_inner h2 {
+    	font-size: 18px;
+	    padding: 10px 10px;
+	}
+	.acc_content p {
+    	font-size: 14px;
+	}
+	.acc_content a{
+		margin-top: -10px;
+	}
+	.cong_head h1 {
+    	font-size: 34px;
+    	margin-bottom: 40px;
+	}
+	.cong_head h1 span {
+    	font-size: 24px;
+	}
+	.shareicons p {
+    	font-size: 14px;
+	    margin-bottom: 10px;
+	}
+	.shareicons a{
+	    margin: 0px 5px;
+	}
+	.shareicons a img {
+    	width: 50px;
+	}
+	.congrats {
+    	height: 85%;
+	}
+	.modelimg p {
+    	padding: 0px 70px;
+	}
+	.reswidth{
+		width: 100%;
+		margin: 0;
+	}
+	.lftimg img {
+    	width: 20px;
+	}
+	.lftimg {
+	    position: absolute;
+	    top: 50px;
+	    left: 50px;
+	}
+	.rytimg {
+	    position: absolute;
+	    top: 50px;
+	    right: 15px;
+	}
+	a.continuebtn {
+	    font-size: 16px;
+	    padding: 7px 30px;
+	}
+	.rytimg a img {
+    	width: 20px;
+	}
+	.rytimg a {
+	    line-height: 20px;
+	    font-size: 16px;
+	    margin-bottom: 15px;
+	}
+	.posrel2{
+		width: 150px;
+	}
+	.shipping_method h3 {
+    	font-size: 16px;
+	}
+	.styled-checkbox + label{
+		font-size: 14px;
+	}
+	.styled-checkbox + label span{
+		font-size: 12px;
+	}
+	.unstyled li:last-child {
+    	margin-top: 30px;
+	}
+	.coupnbtn{
+		font-size: 18px;
+	}
+	.flex2{
+		display: block;
+		padding-left: 30px;
+	}
+	.itemdata a{
+		float: right;
+		margin-top: -40px;
+	}
+	.itemdata h4{
+		margin-bottom: 15px;
+	}
+	.subcost h2 {
+    	font-size: 30px;
+	}
+	.paybtn a{
+		font-size: 18px;
+	}
+	.paybtn a img{
+		width: 30px;
+		height: 25px;
+	}
+	.btnshowres p {
+    	font-size: 16px;
+	}
+	.btnshowres ul li a img {
+    	width: 30px;
+	}
+	.btnshowres ul{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.playbtns a{
+		margin-left: 10px;
+	}
+	.lftimg p {
+	    left: -30px;
+	    font-size: 16px;
+	}
+	/*modal start*/
+	.buyitem a {
+    	padding: 6px 20px;
+    	font-size: 16px;
+	    margin-top: 5px;
+	}
+	.buymodal .modal-content{
+		padding: 15px;
+	}
+	.buymodal_head h2 {
+	    font-size: 18px;
+        padding-right: 20px;
+	}
+	.buymodal_head a img {
+    	width: 20px;
+	}
+	.phdetails h3 {
+	    font-size: 18px;
+	    margin-bottom: 5px;
+	}
+	.phdetails h3 span {
+    	font-size: 16px;
+    	display: inline-block;
+    	margin-left: 5px;
+	}
+	.buyinner {
+	    margin-top: 10px;
+	}
+	.buymodal_head a {
+	    right: -4px;
+	    top: -2px;
+	}
+	/*upsell popup responsive box start*/
+	.ph_itembox {
+		padding: 20px 0px;
+	}
+	.ph_item_lft {
+	    float: left;
+	    width: 25%;
+	}
+	.ph_item_ryt {
+	    float: left;
+	    width: 75%;
+	}
+	.ph_item_content p{
+		font-size: 16px;
+	}
+	.ph_item_content p span{
+		font-size: 18px;
+	}
+	.ph_item_content a{
+		top: 10px;
+	}
+	.res_sub_total p{
+		text-align: left;
+	}
+	.res_sub_total p span{
+		font-size: 35px;
+	    padding-left: 15px;
+	}
+	.res_sub_total p span i{
+		font-size: 35px;
+	}
+	.res_sub_total p{
+		font-size: 16px;
+	}
+	.res_sub_total a{
+	    font-size: 18px;
+        padding: 8px 0px;
+	}
+	.ph_item_content h2{
+	    font-size: 22px;
+	}
+	.ph_item_img img {
+	    width: 55px;
+	    height: 110px;
+	}
+	.ph_item_content {
+	    margin-top: 30px;
+	}
+
+	/*upsell popup responsive box end*/
+
+
+	/*modal end*/
+}
+@media screen and (max-width: 320px){
+
+}

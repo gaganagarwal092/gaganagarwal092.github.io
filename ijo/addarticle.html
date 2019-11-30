@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon.png" sizes="16x16">
+        
+        <title>IJO | Add Article</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/hamburgers.css" rel="stylesheet">
+        <link href="css/slick-theme.css" rel="stylesheet">
+        <link href="css/slick.css" rel="stylesheet">
+        <link href="css/nice-select.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
+    </head>
+    <body>
+        <div class="addshipto boxs">
+            <div class="container-fluid">
+                <div class="add_inner boxs">
+                    <div class="col-sm-8 nopadding pd_ryt">
+                        <div class="shipto_main boxs">
+                            <div class="shipto_head boxs">
+                                <h2><img src="img/rightarrow.svg" alt="rightarrow" class="img-responsive">Add article</h2>
+                                <h3>General information</h3>
+                            </div>
+                            <div class="shipto_form boxs">
+                                <form>
+                                    <div class="col-sm-6 nopadding form_pd_ryt">
+                                        <div class="form-group">
+                                            <label for="acode">Article code</label>
+                                            <input type="text" class="form-control" id="acode" placeholder="2586925839">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_lft">
+                                        <div class="form-group">
+                                            <label for="bcode">Barcode (EAN)</label>
+                                            <input type="text" class="form-control" id="bcode" placeholder="13457659476157">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 nopadding form_lg_pd_lft">
+                                        <div class="form-group">
+                                            <label for="description">Description</label>
+                                            <input type="text" class="form-control" id="description" placeholder="Holster sidekick black">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_ryt">
+                                        <div class="form-group">
+                                            <label for="sprice">Sales price</label>
+                                            <input type="text" class="form-control" id="sprice" placeholder="199.95">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_lft">
+                                        <div class="form-group">
+                                            <label for="pprice">Purchase price</label>
+                                            <input type="text" class="form-control" id="pprice" placeholder="89,95">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_ryt">
+                                        <div class="form-group">
+                                            <label for="quantity">Min. order quantity</label>
+                                            <input type="text" class="form-control" id="quantity" placeholder="10">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_lft">
+                                        <div class="form-group">
+                                            <label for="stock">Min. stock</label>
+                                            <input type="text" class="form-control" id="stock" placeholder="50">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 nopadding form_lg_pd_lft">
+                                        <div class="item boxs">
+                                            <h3><span class="txt">Package material</span>
+                                                <label for="package" class="switch">
+                                                    <input type="checkbox" id="package">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 nopadding form_lg_pd_lft">
+                                        <div class="item boxs">
+                                            <h3><span class="txt">Packinglist/invoice</span>
+                                                <label for="invoice" class="switch">
+                                                    <input type="checkbox" id="invoice" checked="">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 nopadding form_lg_pd_lft">
+                                        <div class="item boxs">
+                                            <h3><span class="txt">Serial number</span>
+                                                <label for="sno" class="switch">
+                                                    <input type="checkbox" id="sno">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 nopadding form_lg_pd_lft">
+                                        <div class="item boxs">
+                                            <h3><span class="txt">Bulk storage</span>
+                                                <label for="bstorage" class="switch">
+                                                    <input type="checkbox" id="bstorage" checked="">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 nopadding form_lg_pd_lft">
+                                        <div class="col-sm-6 nopadding form_pd_ryt">
+                                            <div class="form-group">
+                                                <label for="layer">Layer </label>
+                                                <input type="text" class="form-control" id="layer" placeholder="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 nopadding form_lg_pd_lft">
+                                        <div class="item boxs">
+                                            <h3><span class="txt">Fifo</span>
+                                                <label for="fifo" class="switch">
+                                                    <input type="checkbox" id="fifo" checked="">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 nopadding form_lg_pd_lft">
+                                        <div class="item boxs">
+                                            <h3><span class="txt">Batch Fifo</span>
+                                                <label for="batchinfo" class="switch">
+                                                    <input type="checkbox" id="batchinfo">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_ryt">
+                                        <div class="form-group">
+                                            <label for="weight">Weight</label>
+                                            <input type="text" class="form-control" id="weight" placeholder="120">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_lft">
+                                        <div class="form-group">
+                                            <label for="measurement">Unit measurement</label>
+                                            <select class="form-control" id="measurement">
+                                                <option>Kilogram</option>
+                                                <option>Miligram</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_ryt">
+                                        <div class="form-group">
+                                            <label for="size">Frontsize (cm)</label>
+                                            <input type="text" class="form-control" id="size" placeholder="75">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_lft">
+                                        <div class="form-group">
+                                            <label for="size2">Depth (cm)</label>
+                                            <input type="text" class="form-control" id="size2" placeholder="50">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_ryt">
+                                        <div class="form-group">
+                                            <label for="height">Height (cm)</label>
+                                            <input type="text" class="form-control" id="height" placeholder="60">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_lft">
+                                        <div class="form-group">
+                                            <label for="hno">HSNumber</label>
+                                            <input type="text" class="form-control" id="hno" placeholder="6413497952762">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_pd_ryt">
+                                        <div class="form-group">
+                                            <label for="origin">Country of origin</label>
+                                            <select class="form-control" id="origin">
+                                                <option>Germany</option>
+                                                <option>India</option>
+                                                <option>Netherlands</option>
+                                                <option>Australia</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 nopadding form_lg_pd_lft">
+                                        <div class="uploadfiles boxs">
+                                            <div class="upload_head boxs">
+                                                <h3>Uploads</h3>
+                                                <h5>Upload photo (.jpg, .bmp, .gif, .png)</h5>
+                                            </div>
+                                            <div class="uploadbox boxs">
+                                                <h4><img src="img/form_upload.svg" alt="form_upload" class="img-responsive">Drag and drop your file or<a href="javascript:void(0)">Browse</a></h4>
+                                            </div>
+                                            <div class="uploadedfiles boxs">
+                                                <h6><img src="img/form_jpg.svg" alt="form_jpg" class="img-responsive">Ettoreexamplepicture_16072018.jpg<a href="javascript:void(0)"><img src="img/formtrash.svg" alt="formtrash" class="img-responsive"></a></h6>
+                                                
+                                                <h6><img src="img/form_bmp.svg" alt="form_bmp" class="img-responsive">Ettoreexamplepicture_16072018.bmp<a href="javascript:void(0)"><img src="img/formtrash.svg" alt="formtrash" class="img-responsive"></a></h6>
+                                                
+                                                <h6><img src="img/form_gif.svg" alt="form_gif" class="img-responsive">Ettoreexamplepicture_16072018.gif<a href="javascript:void(0)"><img src="img/formtrash.svg" alt="formtrash" class="img-responsive"></a></h6>
+                                                
+                                                <h6><img src="img/form_png.svg" alt="form_png" class="img-responsive">Ettoreexamplepicture_16072018.png<a href="javascript:void(0)"><img src="img/formtrash.svg" alt="formtrash" class="img-responsive"></a></h6>
+                                            </div>
+                                            <div class="upload_head boxs">
+                                                <h5>Upload documents</h5>
+                                            </div>
+                                            <div class="uploadbox boxs">
+                                                <h4><img src="img/form_upload.svg" alt="form_upload" class="img-responsive">Drag and drop your file or<a href="javascript:void(0)">Browse</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-6 nopadding form_btn_ryt">
+                                        <button type="submit" class="btn1 btncancel hvr-sweep-to-right">Cancel</button>
+                                    </div>
+                                    <div class="col-sm-6 nopadding form_btn_lft">
+                                        <button type="submit" class="btn1 btnsubmit hvr-sweep-to-right">Save</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/jquery.nice-select.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            $(document).ready(function() {
+              $('select').niceSelect();
+            });
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip(); 
+            });
+        </script>
+    </body>
+</html>

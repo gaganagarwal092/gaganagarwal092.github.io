@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+   
+    <title>Comentorate | Profile Edit</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/nice-select.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                    <a class="navbar-brand" href="index_login.html"><img src="img/logo.svg" alt="logo"></a>
+                </div>
+                <div class="header_inner boxs">
+                    <div class="col-sm-4 nopadding">
+                        <div class="head_left boxs">
+                            <a href="index_login.html"><img src="img/logo.svg" alt="logo" class="img-responsive"></a>
+                            <a href="index_login.html">browse</a>
+                            <a href="gettoken.html">Get Tokens</a>
+                            <!-- <a href="javascript:void(0)">About</a> -->
+                        </div>
+                    </div>
+                    <div class="col-sm-4 nopadding">
+                        <div class="search search-login_input boxs">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Find lessons or mentor" id="myInput">
+                                <span class="input-group-addon serach_addon"><img src="img/search.svg" alt="serach_icon"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 nopadding">
+                        <div class="head_rht boxs">
+                            <div class="head_rht_inn2">
+                                <a href="following.html">Following</a>
+                                <!-- <a href="profile.html">Go Live</a> -->
+                                <a href="myprofile.html" class="active">My Profile</a>
+                                <a href="profileedit.html" class="img_right_login"><img src="img/oval2.svg" alt="oval2"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- sidenav start -->
+    <div class="sidenavmain boxs" id="mySidenav">
+        <div class="sidenav" id="mySidenav">
+            <!-- <a href="index_login.html" class="logo"><img src="img/logo.svg" class="img-responsive" alt="logo"></a> -->
+            <a href="index_login.html" class="active">browse</a>
+            <a href="gettoken.html">Get Tokens</a>
+            <a href="following.html">Following</a>
+            <a href="myprofile.html">My Profile</a>
+            <!-- <a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal">Log in </a> -->
+            <!-- <a href="signup.html">Sign up</a> -->
+        </div>
+    </div>
+    <!-- sidenav start -->
+
+    <section class="main boxs">
+        <div class="container">
+            <div class="main_inner boxs">
+                <div class="list_outer boxs">
+                    <div class="list proEdit_c boxs">
+                        <div class="row">
+                            <div class="widthcutome50 widthcutome502 customwidth1">
+                                <div class="stephen_l boxs">
+                                    <div class="stephen_img boxs">
+                                        <!-- <img src="img/stephen.png" alt="stephen_img" class="img-responsive"> -->
+                                        <div class="boxs">
+                                            <div class="avatar-upload">
+                                                <div class="avatar-edit">
+                                                    <input type='file' id="imageUpload2" accept=".png, .jpg, .jpeg" />
+                                                    <label for="imageUpload2"></label>
+                                                </div>
+                                                <div class="avatar-preview">
+                                                    <div id="imagePreview2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="stephen_detail stephen_detail_2 boxs">
+                                        <h1>Stephen Olson 
+                                            <sup class="upgradepro"><a href="javascript:void(0)" class="upgradetopro">Upgrade to Pro</a></sup>
+                                            <sup class="pro"><a href="javascript:void(0)" class="probox">Pro</a></sup>
+                                        </h1>
+                                        <p>100K Subscribers</p>
+                                        <h5>Status</h5>
+                                        <div class="status">
+                                            <p>Thank you for your support. Catch <br>me online M, W 5-7pm EST.</p>
+                                        </div>
+                                        <p class="suprice">Subscribe Price</p>
+                                        <div class="price_live boxs">
+                                            <div class="price">
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" id="price" value="0" maxlength="7">
+                                                        <span class="input-group-addon serach_addon">USD</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="live">
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#setupgolive">Go Live</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="switchmentor boxs">
+                                        <div class="boxs toggleswitch">
+                                            <label class="switch" for="memberview">
+                                                <input type="checkbox" id="memberview">
+                                                <span class="slider round"></span>
+                                            </label>
+                                            <p>Switch to Member View</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widthcutome50 widthcutome502 customwidth2">
+                                <div class="balance balanceprofile">
+                                    <div class="balance_top">
+                                        <h3>Balance</h3>
+                                        <a href="#" data-toggle="modal" data-target="#withdraw_p">Withdraw</a>
+                                    </div>
+                                    <div class="balance_bottom">
+                                        <h2>$300</h2>
+                                        <h4>USD</h4>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs_main boxs">
+                <ul class="tabs">
+                    <li><a href="#tab1">Shop Items</a></li>
+                    <li><a href="#tab2">Lessons</a></li>
+                    <li><a href="#tab3">Profile & Payment</a></li>
+                    <li><a href="#tab4">Purchases</a></li>
+                </ul>
+                <div class="tab_container boxs">
+                    <div id="tab1" class="tab_content boxs">
+                        <button type="button" class="btn addLes_btn addItem_btn" data-toggle="modal" data-target="#addLess_popup">Add Items</button>
+                        <div class="shop_items boxs">
+                                <h2>Mentoring Packages</h2>
+                                <div class="shop_items_top boxs">
+                                    <div class="mins">
+                                        <h4>15 Mins</h4>
+                                        <p>1 on 1 Mentoring</p>
+                                        <h6>100 Tokens</h6>
+                                        <a href="#" class="btn buy_btn" data-toggle="modal" data-target="#edititem">Edit</a>
+                                    </div>
+
+                                    <div class="mins mins2">
+                                        <h4>30 Mins</h4>
+                                        <p>1 on 1 Mentoring</p>
+                                        <h6>200 Tokens</h6>
+                                        <a href="#" class="btn buy_btn" data-toggle="modal" data-target="#edititem">Edit</a>
+                                    </div>
+                                </div>
+                                <div class="shop_items_bott boxs">
+                                    <h2>Merchandise</h2>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="merchandise_box">
+                                                <img src="img/Mask_Group1.png" class="img-responsive" alt="mask_img">
+                                                <h3>Yellow Hoodie</h3>
+                                                <div class="merchandise_bottom">
+                                                    <h5>70 Tokens</h5>
+                                                    <a href="javascript:void(0)" class="btn buy_btn" data-toggle="modal" data-target="#edititem">Edit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="merchandise_box">
+                                                <img src="img/Mask_Group2.png" class="img-responsive" alt="mask_img">
+                                                <h3>Fashion Hat</h3>
+                                                <div class="merchandise_bottom">
+                                                    <h5>30 Tokens</h5>
+                                                    <a href="javascript:void(0)" class="btn buy_btn" data-toggle="modal" data-target="#edititem">Edit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="merchandise_box">
+                                                <img src="img/Mask_Group3.png" class="img-responsive" alt="mask_img">
+                                                <h3>Wood Book</h3>
+                                                <div class="merchandise_bottom">
+                                                    <h5>20 Tokens</h5>
+                                                    <a href="javascript:void(0)" class="btn buy_btn" data-toggle="modal" data-target="#edititem">Edit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="merchandise_box">
+                                                <img src="img/Mask_Group4.png" class="img-responsive" alt="mask_img">
+                                                <h3>Travel Bag</h3>
+                                                <div class="merchandise_bottom">
+                                                    <h5>100 Tokens</h5>
+                                                    <a href="javascript:void(0)" class="btn buy_btn" data-toggle="modal" data-target="#edititem">Edit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div id="tab2" class="tab_content boxs">
+                        <div class="lesson boxs">
+                            <button type="button" class="btn addLes_btn" data-toggle="modal" data-target="#addItems">Add Lessons</button>
+                            <!-- <button type="button" class="btn addLes_btn addItem_btn" data-toggle="modal" data-target="#addLess_popup">Add Items</button> -->
+                            <div class="row">
+                                <div class="col-sm-4 nopadding">
+                                    <div class="tutorial boxs">
+                                        <div class="tutorial_img boxs">
+                                            <img src="img/startup.png" alt="startup_lesson" class="img-responsive">
+                                            <div class="timing">
+                                                <p>04:50</p>
+                                            </div>
+                                        </div>
+                                        <div class="tutorial_detail boxs">
+                                            <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How to build Startup - Episode 1<span class="spanflex">Stephen Olson<a href="javascript:void(0)" class="editlessonbtn" data-toggle="modal" data-target="#editlesson">Edit</a></span></h6>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 nopadding">
+                                    <div class="tutorial boxs">
+                                        <div class="tutorial_img boxs">
+                                            <img src="img/startup1.png" alt="startup_lesson" class="img-responsive">
+                                            <div class="timing">
+                                                <p>04:50</p>
+                                            </div>
+                                        </div>
+                                        <div class="tutorial_detail boxs">
+                                            <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How to build Startup - Episode 2<span class="spanflex">Stephen Olson<a href="javascript:void(0)" class="editlessonbtn" data-toggle="modal" data-target="#editlesson">Edit</a></span></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 nopadding">
+                                    <div class="tutorial boxs">
+                                        <div class="tutorial_img boxs">
+                                            <img src="img/startup2.png" alt="startup_lesson" class="img-responsive">
+                                            <div class="timing">
+                                                <p>04:50</p>
+                                            </div>
+                                        </div>
+                                        <div class="tutorial_detail boxs">
+                                            <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How to build Startup - Episode 3<span class="spanflex">Stephen Olson<a href="javascript:void(0)" class="editlessonbtn" data-toggle="modal" data-target="#editlesson">Edit</a></span></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 nopadding">
+                                    <div class="tutorial boxs">
+                                        <div class="tutorial_img boxs">
+                                            <img src="img/startup3.png" alt="startup_lesson" class="img-responsive">
+                                            <div class="timing">
+                                                <p>04:50</p>
+                                            </div>
+                                        </div>
+                                        <div class="tutorial_detail boxs">
+                                            <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How to build Startup - Episode 4<span class="spanflex">Stephen Olson<a href="javascript:void(0)" class="editlessonbtn" data-toggle="modal" data-target="#editlesson">Edit</a></span></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 nopadding">
+                                    <div class="tutorial boxs">
+                                        <div class="tutorial_img boxs">
+                                            <img src="img/startup4.png" alt="startup_lesson" class="img-responsive">
+                                            <div class="timing">
+                                                <p>04:50</p>
+                                            </div>
+                                        </div>
+                                        <div class="tutorial_detail boxs">
+                                            <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How to build Startup - Episode 5<span class="spanflex">Stephen Olson<a href="javascript:void(0)" class="editlessonbtn" data-toggle="modal" data-target="#editlesson">Edit</a></span></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 nopadding">
+                                    <div class="tutorial boxs">
+                                        <div class="tutorial_img boxs">
+                                            <img src="img/startup5.png" alt="startup_lesson" class="img-responsive">
+                                            <div class="timing">
+                                                <p>04:50</p>
+                                            </div>
+                                        </div>
+                                        <div class="tutorial_detail boxs">
+                                            <h6><img src="img/episode.png" alt="stephen_img" class="img-responsive">How to build Startup - Episode 6<span class="spanflex">Stephen Olson<a href="javascript:void(0)" class="editlessonbtn" data-toggle="modal" data-target="#editlesson">Edit</a></span></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab3" class="tab_content boxs">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="profile_content">
+                                    <h3>Profile</h3>
+                                    <form class="profile_update">
+                                        <div class="form-group">
+                                            <label>Name</label>
+                                            <input type="text" class="form-control" placeholder="Name" value="Stephen Olson">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Email</label>
+                                            <input type="Email" class="form-control" placeholder="Email" value="stephenolson@mail.com">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Address</label>
+                                            <input type="text" class="form-control" placeholder="Address" value="Street 232 , Toronto, Canada">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="c_password">Password
+                                                <a href="resetpassword.html">Change Password</a>
+                                            </label>
+                                            <input type="password" class="form-control" placeholder="Password" value="........">
+                                        </div>
+                                        <div class="switchmentor switchmentorpay boxs prohide">
+                                            <div class="boxs toggleswitch toggleswitchpay">
+                                                <p>Downgrade Pro Account</p>
+                                                <label class="switch" for="downpay">
+                                                    <input type="checkbox" id="downpay">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn update_btn btn-block">Update</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="p_account">
+                                    <h2>Payment Account</h2>
+                                    <a href="#" class="btn add_bank" data-toggle="modal" data-target="#addBank">Add New Bank</a>
+                                    <div class="bank_det">
+                                        <div class="bank_det_top boxs">
+                                            <h4>Bank 1</h4>
+                                            <a href="#"><img src="img/editicon.svg" class="img-responsive" alt="edit_img"></a>
+                                        </div>
+                                        <div class="bank_det_bot">
+                                            <input type="text" class="form_control" placeholder="XXXX - XXXX - XXXX - X435">
+                                        </div>
+                                    </div>
+
+                                    <!-- add new bank modal start -->
+                                    <div class="modal addNew_bank_m fade" id="addBank" role="dialog">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content boxs">
+                                                <div class="modal-body amodal_body">
+                                                    <h2>Add New Bank</h2>
+                                                    <form class="add_bank_f">
+                                                        <div class="form-group">
+                                                            <label>Name</label>
+                                                            <input type="text" class="form-control" placeholder="Name" value="Bank 1">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Account Number</label>
+                                                            <input type="text" class="form-control" placeholder="Account Number" value="Bank account number">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Routing Number</label>
+                                                            <input type="text" class="form-control" placeholder="Routing Number" value="Bank routing number">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label>Country</label>
+                                                            <select class="form-control">
+                                                                <option>Please Select</option>
+                                                                <option>India</option>
+                                                                <option>UK</option>
+                                                                <option>USA</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Address Line 1</label>
+                                                            <input type="text" class="form-control" placeholder="Address Line 1" value="Address Line 1">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Address Line 2</label>
+                                                            <input type="text" class="form-control" placeholder="Address Line 2" value="Address Line 2">
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-6">
+                                                                <div class="form-group">
+                                                                    <label>Country</label>
+                                                                    <select class="form-control">
+                                                                        <option>Please Select</option>
+                                                                        <option>India</option>
+                                                                        <option>UK</option>
+                                                                        <option>USA</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <div class="form-group">
+                                                                    <label>State/Province/Region</label>
+                                                                    <select class="form-control">
+                                                                        <option>Please Select</option>
+                                                                        <option>State one</option>
+                                                                        <option>State two</option>
+                                                                        <option>State three</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-6">
+                                                                <div class="form-group">
+                                                                    <label>Zip Code</label>
+                                                                    <input type="text" class="form-control" placeholder="Zip code" value="Zip code">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <div class="form-group">
+                                                                    <label>Phone</label>
+                                                                    <input type="text" class="form-control" placeholder="Phone number" value="Phone number">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <button type="button" class="btn save_btn btn-block" data-dismiss="modal">Save</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- add new bank modal end -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab4" class="tab_content boxs">
+                        <!-- <button type="button" class="btn addLes_btn addItem_btn" data-toggle="modal" data-target="#addLess_popup">Add Items</button> -->
+                        <div class="forscroll boxs">
+                        <div class="purchase_wraper boxs">
+                            <h2>Jan, 20 2019</h2>
+                            <div class="purch_inner boxs">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <img src="img/oval17.svg" class="img-responsive" alt="comentorate">
+                                        </td>
+                                        <td>
+                                            <h4>Hoodie <span>@ 200 Tokens x 4</span></h4>
+                                        </td>
+                                        <td>
+                                            <h5>Total <span>800 Tokens</span></h5>
+                                        </td>
+                                        <td>
+                                            <h5>Status <span>Shipped</span></h5>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn update_btns" data-toggle="modal" data-target="#updat_popup_m">Update Order</button>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <img src="img/oval17.svg" class="img-responsive" alt="comentorate">
+                                        </td>
+                                        <td>
+                                            <h4>Hoodie <span>@ 200 Tokens x 4</span></h4>
+                                        </td>
+                                        <td>
+                                            <h5>Total <span>800 Tokens</span></h5>
+                                        </td>
+                                        <td>
+                                            <h5>Status <span>Shipped</span></h5>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn update_btns" data-toggle="modal" data-target="#updat_popup_m">Update Order</button>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <img src="img/oval17.svg" class="img-responsive" alt="comentorate">
+                                        </td>
+                                        <td>
+                                            <h4>Hoodie <span>@ 200 Tokens x 4</span></h4>
+                                        </td>
+                                        <td>
+                                            <h5>Total <span>800 Tokens</span></h5>
+                                        </td>
+                                        <td>
+                                            <h5>Status <span>Shipped</span></h5>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn update_btns" data-toggle="modal" data-target="#updat_popup_m">Update Order</button>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <h2>Jan, 20 2019</h2>
+
+                                <table class="table_bottom">
+                                    <tr>
+                                        <td>
+                                            <img src="img/oval17.svg" class="img-responsive" alt="comentorate">
+                                        </td>
+                                        <td>
+                                            <h4>Hoodie <span>@ 200 Tokens x 4</span></h4>
+                                        </td>
+                                        <td>
+                                            <h5>Total <span>800 Tokens</span></h5>
+                                        </td>
+                                        <td>
+                                            <h5>Status <span>Received by buyer</span></h5>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn update_btns" data-toggle="modal" data-target="#updat_popup_m">Update Order</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer start -->
+    <section class="footer boxs">
+        <div class="container">
+            <div class="foot boxs">
+                <div class="boxs">
+                    <a href="index_login.html" class="flogo"><img src="img/logo.svg" alt="logo" class="img-responsive center767"></a>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12 noleft">
+                <ul>
+                    <li><a href="index_login.html">Home</a></li>
+                    <li><a href="javascript:void(0)" data-toggle="modal" data-target="#faqmodal">Support</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    
+                </ul>
+               </div>
+               <div class="col-md-4 col-sm-4 col-xs-12 noright">
+                <ul class="right_footer">
+                    <li><a href="https://www.facebook.com/CoMentorate/?modal=admin_todo_tour" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/comentorateofficial/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/bkapp802" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
+    
+    <!-- Purchase Item start modal-->
+    <div class="modal purchase_mod fade" id="purchaseModal" role="dialog" style="padding-right: 0px;">
+        <div class="modal-dialog">
+            <div class="modal-content purmodal_content boxs orderdonehide">
+                <div class="modal-body purmodal_body boxs">
+                    <div class="purItem_top">
+                        <h3>Purchase Item</h3>
+                        <h4>Your Tokens</h4>
+                        <p>400</p>
+                        <a href="#" class="btn pay_btn">Pay With Tokens <span>200</span></a>
+                    </div>
+                    <div class="un_line_container">
+                        <div class="und_line"></div>
+                        <h4>Or pay with credit card</h4>
+                    </div>
+                    <div class="purItem_bottom">
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="setup_pay">
+                                        <h2>Setup Payment</h2>
+                                        <p>Choose payment method</p>
+                                        <ul class="card_type">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/Visa-dark.svg" class="img-responsive" alt="visa">
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/MasterCard-dark.svg" class="img-responsive" alt="master_card">
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/Paypal-dark.svg" class="img-responsive" alt="paypal">
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <div class="form-group">
+                                            <label>Card Number</label>
+                                            <input type="text" class="form-control" placeholder="Card Number" value="0123 2345 4567 6789">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 noright Rmargin">
+                                                <div class="form-group">
+                                                    <label>Expiry Date</label>
+                                                    <input type="text" class="form-control" placeholder="Expiry Date" value="10/2022">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 noleft Lmargin">
+                                                <div class="form-group">
+                                                    <label>CVC</label>
+                                                    <input type="password" class="form-control" placeholder="CVC" value="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Cardholder Name </label>
+                                            <input type="text" class="form-control" placeholder="Cardholder Name " value="Bernice Vaughn">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="process_pay">
+                                        <h2>Process Payment</h2>
+                                        <h4>Detail Purchase</h4>
+                                        <p>30 mins 1 on 1 mentoring with <span>$ 50</span> Stephen Olson</p>
+                                        <button type="button" class="btn payNow_btn btn-block orderdone">Pay Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-content mentorDmodal boxs orderdoneshow">
+                <div class="modal-body mentorDe_body boxs">
+                    <img src="img/checkmark.svg" class="img-responsive" alt="comentorate">
+                    <p>Order has been placed succesfully</p>
+                    <button type="button" class="btn btn_done orderclose" data-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Purchase Item end modal-->
+
+    <!-- purchase done start modal -->
+    <!-- <div class="purchase_done_modal">
+        <div class="modal mentorDmodal fade" id="pdonemodal" role="dialog">
+            <div class="modal-dialog mentModal_dialog">
+                <div class="modal-content boxs">
+                    <div class="modal-body mentorDe_body boxs">
+                        <img src="img/checkmark.svg" class="img-responsive" alt="comentorate">
+                        <p>Order has been placed succesfully</p>
+                        <button type="button" class="btn btn_done" data-dismiss="modal">Done</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- purchase done end modal -->
+
+    <!-- withdraw modal start -->
+    <div class="modal withdr_popup fade" id="withdraw_p" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs withdrawhide">
+                <div class="modal-body modal_body">
+                    <h2>Withdraw</h2>
+                    <div class="form-group">
+                        <label>Amount to Withdraw</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Amount to Withdraw" value="0">
+                            <span class="input-group-addon amntwth_addon">USD</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Choose Bank for Withdrawal</label>
+                        <select class="form-control">
+                            <option>My Bank - (XXXX-XXXX-XXXX-0123)</option>
+                            <option>Bank Two</option>
+                            <option>Bank Three</option>
+                            <option>Bank Four</option>
+                        </select>
+                    </div>
+                    <div class="buttons boxs">
+                        <button type="button" class="btn cancel_btn" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn withdraw_btn withdraw">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-content boxs withdrawshow">
+                <div class="modal-body modal_body boxs">
+                    <h2>Your withdrawal was processed successfully</h2>
+                    <div class="buttons boxs text-center">
+                        <button type="button" class="btn withdraw_btn withdrawclose" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- withdraw modal end -->
+
+    <!-- login modal start -->
+    <div id="loginModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="boxs">
+        <!-- Modal content-->
+        <div class="modal-content boxs loginModal hidelogin">
+          <div class="modal-body boxs">
+            <div class="log log2 boxs">
+                <div class="log_inner boxs log_inner2">
+                    <div class="heding_ofform boxs">
+                        <h6 id="email_down2">Please login to follow this<i> Mentor</i><span><a href="javascript:void(0)" class="closemsg"><img src="img/closemodal.svg" alt="closemodal"></a></span></h6>
+                    </div>
+                    
+                    <div class="login boxs">
+
+                        <h1>Log in</h1>
+                        <form action="index_login.html">
+                            <div class="form-group">
+                                <label>Username or Email</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" class="form-control" required>
+                            </div>
+                            <a href="javascript:void(0)" class="forgot">Forgot password?</a>
+                            <button type="submit">Log in</button>
+                            <p>Don't have an account?<span> <a href="signup.html">Sign up here</a></span></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-content boxs resetloginmodal showreset">
+            <div class="modal-header boxs">
+                <h6 id="email_down">An email has been sent to the account on file <span><img src="img/sucees_ryt.svg" alt="sucees_ryt"></span></h6>
+              <h4 class="modal-title">Forgot Password</h4>
+            </div>
+            <div class="modal-body boxs">
+                <div class="modal-body_inner boxs">
+                    <p>Please input username or email associated with your CoMentorate account</p>
+                </div>
+                <div class="login login_reset boxs">   
+                    <form>
+                        <div class="form-group">
+                            <label>Username or Email</label>
+                            <input type="email" class="form-control" placeholder="">
+                        </div>
+                        <button type="button" id="reset_password">Reset Password</button>
+                        <p><span> <a href="javascript:void(0)" class="loginagain">Log in here</a></span></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- login modal end -->
+
+    <!--add items modal-->
+    <div class="modal addLesson_popup fade" id="addLess_popup" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="addLess_popup_in boxs">
+                        <h2>Add New Item</h2>
+                        <h4>Add Item Image</h4>
+                        <div class="upload_secs boxs">
+                            <form class="form" method="post" action="" enctype="multipart/form-data">
+                                <div class="dragdrop">
+                                    <div class="uploader">
+                                        <div class="content">
+                                            <div class="upload-icon">
+                                                <img src="img/bag2.svg" class="img-responsive bag_up" alt="comentorate">
+                                            </div>
+                                            <h3>Drag image here or <label for="filePhoto">Browse</label> to upload</h3>
+                                        </div>
+                                        <img src="" class="upload-img">
+                                        <input type="file" name="userprofile_picture" id="filePhoto" />
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                        <div class="boxs">
+                            <form class="uplform">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label>Item Name</label>
+                                            <input type="text" class="form-control" placeholder="Item name" value="Bank 1">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label>Price</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Price" value="0">
+                                                <span class="input-group-addon pricadd_on">USD</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label>Description</label>
+                                            <textarea class="form-control" placeholder="Decription here" value="Decription here"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn uploadItem btn-block" data-dismiss="modal">Upload Item</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--add items modal end-->
+
+    <!--edit items modal start-->
+    <div class="modal addLesson_popup fade" id="edititem" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="addLess_popup_in boxs">
+                        <h2>Edit Item</h2>
+                        <h4>Add Item Image</h4>
+                        <div class="upload_secs boxs">
+                            <form class="form" method="post" action="" enctype="multipart/form-data">
+                                <div class="dragdrop">
+                                    <div class="uploader">
+                                        <div class="content">
+                                            <div class="upload-icon">
+                                                <img src="img/bag2.svg" class="img-responsive bag_up" alt="comentorate">
+                                            </div>
+                                            <h3>Drag image here or <label for="filePhoto">Browse</label> to upload</h3>
+                                        </div>
+                                        <img src="" class="upload-img">
+                                        <input type="file" name="userprofile_picture" id="filePhoto" />
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                        <div class="boxs">
+                            <form class="uplform">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label>Item Name</label>
+                                            <input type="text" class="form-control" placeholder="Item name" value="Bank 1">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label>Price</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Price" value="0">
+                                                <span class="input-group-addon pricadd_on">USD</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label>Description</label>
+                                            <textarea class="form-control" placeholder="Decription here" value="Decription here"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edititembtns boxs">
+                                    <button type="button" class="btn deletebtn" data-dismiss="modal">Delete Item</button>
+                                    <button type="button" class="btn savebtn" data-dismiss="modal">Save Changes</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--edit items modal end-->
+
+    <!--add lesson modal-->
+    <div class="modal modal_addI fade" id="addItems" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body addImodal_body boxs">
+                    <h2>Add Lesson</h2>
+                    <h4>Upload Video</h4>
+                    <div class="video_wraper boxs">
+                        <form class="form" method="post" action="" enctype="multipart/form-data">
+                            <div class="dragdrop">
+                                <div class="uploader">
+                                    <div class="content">
+                                        <div class="upload-icon">
+                                            <img src="img/videoicon.svg" class="img-responsive bag_up" alt="comentorate">
+                                        </div>
+                                        <h3>Drag image here or <label for="filePhoto">Browse</label> to upload</h3>
+                                    </div>
+                                    <img src="" class="upload-img">
+                                    <input type="file" name="userprofile_picture" id="filePhoto" />
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label>Lesson Title</label>
+                            <input type="text" class="form-control" placeholder="Lesson Title" value="Bank 1">
+                        </div>
+                        <button type="button" class="btn upld_btn btn-block" data-dismiss="modal">Upload Lesson</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--add lesson modal end-->
+
+    <!--edit lesson modal-->
+    <div class="modal modal_addI fade" id="editlesson" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body addImodal_body boxs">
+                    <h2>Edit Lesson</h2>
+                    <h4>Upload Video</h4>
+                    <div class="video_wraper boxs">
+                        <form class="form" method="post" action="" enctype="multipart/form-data">
+                            <div class="dragdrop">
+                                <div class="uploader">
+                                    <div class="content">
+                                        <div class="upload-icon">
+                                            <img src="img/videoicon.svg" class="img-responsive bag_up" alt="comentorate">
+                                        </div>
+                                        <h3>Drag image here or <label for="filePhoto">Browse</label> to upload</h3>
+                                    </div>
+                                    <img src="" class="upload-img">
+                                    <input type="file" name="userprofile_picture" id="filePhoto" />
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <form class="boxs editlessonform">
+                        <div class="form-group">
+                            <label>Lesson Title</label>
+                            <input type="text" class="form-control" placeholder="Lesson Title" value="Bank 1">
+                        </div>
+                        <div class="edititembtns boxs">
+                            <button type="button" class="btn deletebtn" data-dismiss="modal">Delete Item</button>
+                            <button type="button" class="btn savebtn" data-dismiss="modal">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--edit lesson modal end-->
+
+    <!--update order modal-->
+    <div class="modal updat_popup fade" id="updat_popup_m" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body umodal_body boxs">
+                    <h2>Yellow Hoodie</h2>
+                    <h4>Item</h4>
+                    <div class="order_top boxs">
+                        <div class="l_img">
+                            <img src="img/Mask_Group1.png" class="img-responsive" alt="comentorate">
+                        </div>
+                        <div class="name_itm">
+                            <h5>Name <span>Yellow Hoodie</span></h5>
+                        </div>
+                        <div class="price_itm">
+                            <h5>Price <span>70 Tokens</span></h5>
+                        </div>
+                    </div>
+                    <div class="upu_line boxs"></div>
+                    <div class="info_wraper boxs">
+                        <div class="contact_in">
+                            <h6>Buyer Information</h6>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="name_info">
+                                        <h3>Name <span>Melanie</span></h3>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="contact_info">
+                                        <h3>Contact <span>melanie@mail.com</span></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="address boxs">
+                                <h3>Address <span>5th, Avenue, New York</span></h3>
+                            </div>
+                              <form>
+                                    <div class="form-group">
+                                        <h3>USPS Tracking Number</h3>
+                                        <input type="text" class="form-control" placeholder="Input Tracking number" value="Input USPS tracking number" alt="comentorate">
+                                    </div>
+                                  <button type="button" class="btn cancel_btn" data-dismiss="modal">Cancel</button>
+                                  <button type="button" class="btn update_btn" data-dismiss="modal">Update</button>
+                                </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--update order modal end-->
+
+    <!-- setupgolive Modal start-->
+    <div id="setupgolive" class="modal fade setupgolive" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="setupgolive_inner boxs">
+                        <h2>Setup &amp; Go Live</h2>
+                        <div class="selectbox boxs">
+                            <label>What topic are you mentoring in?</label>
+                            <select>
+                                <option value="1">Select Topic</option>
+                                <option value="2">Another option</option>
+                                <option value="3">A disabled option</option>
+                                <option value="4">Potato</option>
+                            </select>
+                        </div>
+
+                        <div class="choosewatch boxs">
+                            <label>Who can watch this live session?</label>
+                            <div class="check_live choose_inner boxs">
+                                <div class="radiobox boxs">
+                                    <input type="radio" id="modaltest1" name="radio-group">
+                                    <label for="modaltest1">Subscribers Only (Upgrade)</label>
+                                </div>
+                                <div class="radiobox boxs">
+                                    <input type="radio" id="modaltest2" name="radio-group">
+                                    <label for="modaltest2">Everyone</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="golive boxs">
+                            <a href="livementor.html">Go Live Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- setupgolive Modal end-->
+
+
+    <!-- faq modal start -->
+    <div id="faqmodal" class="modal fade faqmodal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-header boxs">
+                    <h4 class="modal-title">Ask Your Question</h4>
+                </div>
+                <div class="modal-body boxs">
+                    <p>Question</p>
+                    <textarea class="form-control" placeholder="Your question"></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <!-- faq modal ends -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+          $('select').niceSelect();      
+        });    
+    </script>
+    <script>
+        $('.orderdone').click(function(){
+           $('.orderdonehide').hide(); 
+           $('.orderdoneshow').show(); 
+        });
+        $('.orderclose').click(function(){
+           $('.orderdoneshow').hide(); 
+           $('.orderdonehide').show(); 
+        });
+
+        $('.withdraw').click(function(){
+           $('.withdrawhide').hide(); 
+           $('.withdrawshow').show(); 
+        });
+    </script>
+    <script>
+        $("#reset_password").click(function () {
+            $("#email_down").fadeIn();
+        });
+        $('.forgot').click(function() {
+            $('.hidelogin').hide();
+            $('.showreset').show();
+        });
+        $('.loginagain').click(function() {
+            $('.showreset').hide();
+            $('.hidelogin').show();
+        });
+        
+        $('.loginstrip').click(function(){
+             $('#email_down2').hide();
+        });
+        $('.follow').click(function() {
+            $('#email_down2').show();
+        });
+        $('.closemsg').click(function(){
+           $('#email_down2').slideUp(); 
+        });
+    </script>
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    $('#imagePreview2').css('background-image', 'url('+e.target.result +')');
+                    $('#imagePreview2').hide();
+                    $('#imagePreview2').fadeIn(350);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        $('#imageUpload2').change(function() {
+            readURL(this);
+        });
+    </script>
+
+</body>
+
+</html>

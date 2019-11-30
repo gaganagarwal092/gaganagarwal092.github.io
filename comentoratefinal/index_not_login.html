@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+        
+        <title>Comentorate | Home - Not Login</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/hamburgers.css" rel="stylesheet">
+        <link href="css/slick-theme.css" rel="stylesheet">
+        <link href="css/slick.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+
+        
+    </head>
+    <body>
+        <div class="header">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="logo"></a>
+                    </div>
+                    <div class="header_inner boxs">
+                        <div class="col-sm-4 nopadding">
+                            <div class="head_left boxs">
+                                <a href="index_not_login.html"><img src="img/logo.svg" alt="logo" class="img-responsive"></a>
+                                <a href="index_not_login.html">browse</a>
+                                <!-- <a href="token.html">Buy Tokens</a>
+                                 <a href="token.html">Upload</a> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-4 nopadding">
+                            <div class="search search-login_input boxs">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Find lessons or mentor" id="myInput">
+                                    <span class="input-group-addon serach_addon"><img src="img/search.svg" alt="serach_icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 nopadding">
+                            <div class="head_rht boxs">
+                                <!-- <div class="head_rht_inn2">
+                                    <a href="login.html">Following</a>
+                                    <a href="profile.html">Go Live</a>
+                                    <a href="login.html">My Profile</a>
+                                    <a href="profile.html" class="img_right_login"><img src="img/oval2.svg" alt="oval2"></a>
+                                </div> -->
+                                <div class="head_rht_inn">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal" class="loginstrip">Log in </a>
+                                    <a href="signup.html">Sign up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+        
+        <!-- sidenav start -->
+        <div class="sidenavmain boxs" id="mySidenav">
+            <div class="sidenav" id="mySidenav">
+                <!-- <a href="index_login.html" class="logo"><img src="img/logo.svg" class="img-responsive" alt="logo"></a> -->
+                <a href="index_not_login.html" class="active">browse</a>
+                <a href="gettoken.html">Get Tokens</a>
+                <a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal">Log in </a>
+                <a href="signup.html">Sign up</a>
+            </div>
+        </div>
+        <!-- sidenav start -->
+
+        <section class="main boxs">
+            <div class="container">
+                <div class="main_inner boxs" id="myTable">
+                    <div class="mentor boxs">
+                        <div class="featured boxs searchdatapage">
+                            <h2 class="heading_h2 headinghide">Featured Mentors</h2>
+                            <div class="row">
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/mentor.png" alt="mentor_img" class="img-responsive">
+                                            <h6>Wayne Wells</h6>
+                                            <p>Military & Veterans</p>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal" class="follow">follow</a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/mentor1.png" alt="mentor_img" class="img-responsive">
+                                            <h6>Sara Hoffman</h6>
+                                            <p>Family</p>
+                                            <a href="javascript:void(0)" class="followed">followed</a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/mentor2.png" alt="mentor_img" class="img-responsive">
+                                            <h6>Scott Matthews</h6>
+                                            <p>Communication</p>
+                                            <a href="javascript:void(0)" class="followed">followed</a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/mentor3.png" alt="mentor_img" class="img-responsive">
+                                            <h6>Billy Gray</h6>
+                                            <p>Christian</p>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal" class="follow">follow</a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/mentor4.png" alt="mentor_img" class="img-responsive">
+                                            <h6>Margaret King</h6>
+                                            <p>Marriage</p>
+                                            <a href="javascript:void(0)" class="followed">followed</a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/mentor5.png" alt="mentor_img" class="img-responsive">
+                                            <h6>Stephen Olson</h6>
+                                            <p>Startup</p>
+                                             <a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal" class="follow">follow</a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/mentor6.png" alt="mentor_img" class="img-responsive">
+                                            <h6>Elizabeth Scott</h6>
+                                            <p>Hand Crafted</p>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal" class="follow">follow</a>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/mentor7.png" alt="mentor_img" class="img-responsive">
+                                            <h6>Gloria Gomez</h6>
+                                            <p>Conversations</p>
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal" class="follow">follow</a>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent boxs searchdatapage">
+                            <h4 class="live_box_chnge"><span>LIVE</span></h4>
+                            <div class="row mentor_row">
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval1.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Sylvia McCormick</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval2.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Lucas Ortega</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval3.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Devin Snyder</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval4.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Bernice Vaughn</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval5.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Adam Fernandez</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval6.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Christian Cobb</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval7.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Jeffery Thompson</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval8.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Harold Little</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row mentor_row">
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval9.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Matilda Curry</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval10.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Susie Goodman</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval11.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Essie White</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval12.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Matilda Lopez</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval13.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Eugenia Roberson</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval14.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Kate Mann</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval15.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Winnie Fields</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval16.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Louise Francis</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row mentor_row">
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval1.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Sylvia McCormick</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval2.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Lucas Ortega</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval3.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Devin Snyder</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval4.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Bernice Vaughn</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval5.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Adam Fernandez</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval6.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Christian Cobb</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval7.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Jeffery Thompson</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval8.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Harold Little</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row mentor_row">
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval9.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Matilda Curry</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval10.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Susie Goodman</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval11.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Essie White</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval12.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Matilda Lopez</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval13.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Eugenia Roberson</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval14.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Kate Mann</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval15.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Winnie Fields</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval16.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Louise Francis</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row mentor_row">
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval1.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Sylvia McCormick</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval2.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Lucas Ortega</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval3.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Devin Snyder</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval4.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Bernice Vaughn</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval5.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Adam Fernandez</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval6.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Christian Cobb</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval7.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Jeffery Thompson</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval8.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Harold Little</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row mentor_row">
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval9.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Matilda Curry</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval10.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Susie Goodman</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval11.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Essie White</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval12.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Matilda Lopez</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval13.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Eugenia Roberson</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval14.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Kate Mann</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval15.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Winnie Fields</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mentor_inner">
+                                    <a href="javascript:void(0)">
+                                        <div class="mentor_img boxs">
+                                            <img src="img/oval16.svg" alt="mentor_img" class="img-responsive">
+                                            <h6>Louise Francis</h6>
+                                            <p>Business</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="load boxs">
+                            <a href="javascript:void(0)" id="load">Load more mentors</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- footer start -->
+        <section class="footer boxs">
+            <div class="container">
+                <div class="foot boxs">
+                    <div class="boxs">
+                        <a href="index_not_login.html" class="flogo"><img src="img/logo.svg" alt="logo" class="img-responsive center767"></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-12 noleft">
+                    <ul>
+                        <li><a href="index_not_login.html" class="active">Home</a></li>
+                        <li><a href="javascript:void(0)" data-toggle="modal" data-target="#faqmodal">Support</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        
+                    </ul>
+                   </div>
+                   <div class="col-md-4 col-sm-4 col-xs-12 noright">
+                    <ul class="right_footer">
+                        <li><a href="https://www.facebook.com/CoMentorate/?modal=admin_todo_tour" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/comentorateofficial/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/bkapp802" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer end -->
+
+
+
+        <!-- login modal start -->
+        <!-- Modal -->
+        <div id="loginModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="boxs">
+            <!-- Modal content-->
+            <div class="modal-content boxs loginModal hidelogin">
+              <div class="modal-body boxs">
+                <div class="log log2 boxs">
+                    <div class="log_inner boxs log_inner2">
+                        <div class="heding_ofform boxs">
+                            <h6 id="email_down2">Please login to follow this<i> Mentor</i><span><a href="javascript:void(0)" class="closemsg"><img src="img/closemodal.svg" alt="closemodal"></a></span></h6>
+                        </div>
+                        
+                        <div class="login boxs">
+
+                            <h1>Log in</h1>
+                            <form action="index_login.html">
+                                <div class="form-group">
+                                    <label>Username or Email</label>
+                                    <input type="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control" required>
+                                </div>
+                                <a href="javascript:void(0)" class="forgot">Forgot password?</a>
+                                <button type="submit">Log in</button>
+                                <p>Don't have an account?<span> <a href="signup.html">Sign up here</a></span></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-content boxs resetloginmodal showreset">
+                <div class="modal-header boxs">
+                    <h6 id="email_down">An email has been sent to the account on file <span><img src="img/sucees_ryt.svg" alt="sucees_ryt"></span></h6>
+                  <h4 class="modal-title">Forgot Password</h4>
+                </div>
+                <div class="modal-body boxs">
+                    <div class="modal-body_inner boxs">
+                        <p>Please input username or email associated with your CoMentorate account</p>
+                    </div>
+                    <div class="login login_reset boxs">   
+                        <form>
+                            <div class="form-group">
+                                <label>Username or Email</label>
+                                <input type="email" class="form-control" placeholder="">
+                            </div>
+                            <button type="button" id="reset_password">Reset Password</button>
+                            <p><span> <a href="javascript:void(0)" class="loginagain">Log in here</a></span></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!-- login modal end -->
+
+        <!-- faq modal start -->
+        <div id="faqmodal" class="modal fade faqmodal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content boxs">
+                    <div class="modal-header boxs">
+                        <h4 class="modal-title">Ask Your Question</h4>
+                    </div>
+                    <div class="modal-body boxs">
+                        <p>Question</p>
+                        <textarea class="form-control" placeholder="Your question"></textarea>
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        <!-- faq modal ends -->
+
+
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            $(document).ready(function(){
+              $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#myTable .mentor_img").filter(function() {
+                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > 4)
+                });
+              });
+            });
+        </script>
+        <script>
+            $("#reset_password").click(function () {
+                $("#email_down").fadeIn();
+            });
+            $('.forgot').click(function() {
+                $('.hidelogin').hide();
+                $('.showreset').show();
+            });
+            $('.loginagain').click(function() {
+                $('.showreset').hide();
+                $('.hidelogin').show();
+            });
+            
+            $('.loginstrip').click(function(){
+                 $('#email_down2').hide();
+            });
+            $('.follow').click(function() {
+                $('#email_down2').show();
+            });
+            $('.closemsg').click(function(){
+               $('#email_down2').slideUp(); 
+            });
+        </script>
+
+    </body>
+</html>

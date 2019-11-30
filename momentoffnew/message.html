@@ -1,0 +1,687 @@
+<html lang="en">
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="icon" href="img/favicon/favicon.ico" type="image/ico" sizes="16x16">
+
+            <title>Momento | Message</title>
+
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+            <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+            <link rel="stylesheet" type="text/css" href="css/slick.css">
+            <link rel="stylesheet" type="text/css" href="css/chosen.css">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
+            <link rel="stylesheet" type="text/css" href="css/media.css">
+
+        </head>
+        <body >
+            <div class="sidenav sidenav_info" id="mySidenav">
+                <a href="#" class="logo">Momento</a>
+                <a href="MomentoOverview.html" class=""><img src="img/home.svg" alt="icon">Overview</a>
+                <a href="MomentoOverviewcoupleinfo.html" class=""><img src="img/group.svg" alt="icon">Couple Info</a>
+                <a href="guest.html" class=""><img src="img/users.svg" alt="icon">Guests</a>
+                <a href="events.html" class=""><img src="img/calendar.svg" alt="icon">Events</a>
+                <a href="message.html" class="active"><img src="img/message.svg" alt="icon">Message</a>
+                <a href="social.html" class=""><img src="img/chats.svg" alt="icon">Social</a>
+                <a href="checklist.html" class=""><img src="img/list.svg" alt="icon">Checklist</a>
+                <a href="budget.html" class=""><img src="img/moneynotes.svg" alt="icon">Budget</a>
+                <a href="registery.html" class=""><img src="img/gift.svg" alt="icon">Registery</a>
+                <a href="settings.html" class=""><img src="img/settings.svg" alt="icon">Settings</a>
+            </div>
+
+
+            <div class="coupleinfo_outer height2 boxs ">
+
+                <!-- Header Start -->
+                <header class="header header_info">
+                    <div class="container-fluid">
+                        <nav class="navbar">
+                            <div class="container-fluid">
+                                <div class="">
+                                    <ul class="nav navbar-nav navbar-left">
+                                        <li><a href="#">Audiences</a></li>
+                                        <li><a href="#">Leads</a></li>
+                                        <li><a href="#">Registeration</a></li>
+                                    </ul>
+                                    <ul class="avtarbox nav navbar-nav navbar-right">
+                                        <h3>
+                                            <!-- <img src="img/avatar.png" alt="avatar"> -->
+                                            Hello,<br><span>Julia Sandler</span>
+                                            <div class="dropdown dropdowndiv boxs trigger11">
+                                                <a href="javascript:void(0)" class="btn Fortabledropdown dropdown-toggle right boxs" type="button" id="dropdownMenu" data-toggle="dropdown"> <img src="img/avatar.png" class="img-responsive" alt="avatar"></a>
+                                                <ul class="dropdown-menu guestdropdown guestdropdown11" aria-labelledby="dropdownMenu">
+                                                    <div class="drop_inner boxs">
+                                                        <img class="inner_img img-responsive" src="img/avatar.png" alt="avatar">
+                                                        <h1>Julian & Veronica </h1>
+                                                        <p>davidjburgos@gmail.com</p>
+                                                        <li><a href="javascript:void(0)" class="DropDown first">
+                                                                <img class="switch img-responsive" src="img/switch_circle.png" alt="switch_circle"> 
+                                                                <img class="shover img-responsive" src="img/switch_hover.png" alt="switch_hover">  Switch Wedding </a></li>
+                                                    </div>
+
+                                                    <li><a href="javascript:void(0)" class="DropDown">
+                                                            Upgrade Plan </a></li>
+                                                    <li><a href="javascript:void(0)" class="DropDown">
+                                                            Account Settings </a></li>
+                                                    <li><a href="javascript:void(0)" class="DropDown">Log out </a></li>
+                                                </ul>
+                                            </div>
+                                        </h3>
+                                    </ul>
+                                    <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner"></span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+                <!-- Header End -->
+
+                <div class="coupleinfo_inner boxs guestD">
+                    <div class="col-xs-8 noleft gusetWidth1">
+                        <div class="coupleinfo_viewbox Guestwedding boxs">
+                            <h2>Messages & Polls</h2>
+                            <p>
+                                Here, you will edit any details about you and your partner
+                                <span> from personal details to your wedding details.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 noright gusetWidth2">
+                        <div class="guestDright boxs msg_viewsend">
+                            <div class="guestDrightinner boxs">
+                                <p><i data-toggle="modal" data-target="#myModal4"><a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Send Message"><span class="guestimg"><img src="img/chat_msg.svg" alt="guest"></span></a></i></p>
+                                <!--<p class="boxs"><a href="#" class=" btn" type="button" data-toggle="modal" data-target="#myModal4">Add Guest</a></p>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="guesttableD boxs guesttableDM">
+                    <div class="gtlink boxs">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)" class="active clickme" data-type="a"><img src="img/chats_msg_active.svg" alt="chats" class="noactiveimg"><img src="img/chats_msg.svg" alt="chats_active" class="activeimg">Messages</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="clickme" data-type="b"><img src="img/polls.svg" alt="polls" class="noactiveimg"><img src="img/polls_active.svg" alt="polls_active" class="activeimg">Polls</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Msgsec boxs">
+                        <div class="msgs boxs typeA typesa">
+                            <div class="col-sm-7 widthcol"> <!-- left section start -->
+                                <div class="msgs_inner_left boxs padding_col">
+                                    <div class="receipt boxs">
+                                        <div class="receiptuser boxs">
+                                            <img src="img/users_msg.svg" alt="users_msg" class="img-responsive normalimg"><img src="img/users_msgpink.svg" alt="users_msg" class="img-responsive hoverimg">
+                                            <h2>Recpetions: <!-- <span>Add Recpetions here..</span> -->
+                                                <input type="text" value="" id="msg1" name="msg1"/>
+                                            </h2>
+                                        </div>
+                                        <div class="msgboxs boxs">
+                                            <textarea class="form-control" rows="5" id="msgboxs" placeholder="Write your message here…"></textarea>
+                                        </div>
+                                        <div class="send_confirmation boxs">
+                                            <h2><img src="img/send_confirm_msg.svg" alt="send_confirm_msg" class="img-responsive">Send by: </h2>
+                                            <div class="tick boxs">
+                                                <input type="checkbox" id="ticksend1" value="second_checkbox"> <label for="ticksend1"><span></span>SMS</label>
+                                            </div>
+                                            <div class="tick boxs">
+                                                <input type="checkbox" id="ticksend2" value="second_checkbox"> <label for="ticksend2"><span></span>EMAIL</label>
+                                            </div>
+                                            <a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="By default recpetions will be notified in the momento app"><img src="img/info_msg.svg" alt="info_msg" class="img-responsive"></a>
+
+                                        </div>
+                                        <div class="sendbox boxs">
+                                            <div class="file boxs">
+                                                <div class="file-upload btn labelfont file-uploadfeedback">
+                                                    <span id="addhere"><img src="img/paperclip.svg" alt="paperclip" class="img-responsive normalimg" id="imgchangefile"><img src="img/paperclip2.svg" alt="paperclip" class="img-responsive hoverimg"></span>
+                                                    <input type="file" name="FileAttachmentfile" id="FileAttachmentfile" class="upload">
+                                                    <input type="text" id="fileuploadurlfile" readonly="" placeholder="Add a file">
+                                                </div>
+                                                <a href="javascript:void(0)" class="deletefile" id="anchorshowfile"><img src="img/cross.svg" alt="cross"></a>
+                                            </div>
+                                            <div class="photo boxs">
+                                                <div class="file-upload btn labelfont file-uploadfeedback">
+                                                    <span id="addhere"><img src="img/camera_msg.svg" alt="camera_msg" class="img-responsive normalimg" id="imgchangephoto"><img src="img/camera_msg2.svg" alt="camera_msg" class="img-responsive hoverimg"></span>
+                                                    <input type="file" name="FileAttachmentphoto" id="FileAttachmentphoto" class="upload">
+                                                    <input type="text" id="fileuploadurlphoto" readonly="" placeholder="Add photos">
+                                                </div>
+                                                <a href="javascript:void(0)" class="deletephoto" id="anchorshowphoto"><img src="img/cross.svg" alt="cross"></a>
+                                            </div>
+                                            <div class="Schedulebox">
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#schedulemodal"><img src="img/clock_msg.svg" alt="clock_msg" class="img-responsive normalimg"><img src="img/clock_msg2.svg" alt="clock_msg" class="img-responsive hoverimg"><span>Schedule</span></a>
+
+                                            </div>
+                                            <button type="submit" class="btnsend">SEND<img src="img/arrowright_msg.svg" alt="arrowright_msg" class="img-responsive img_hide"><img src="img/arrowright_msg_hover.svg" alt="arrowright_msg_hover" class="img-responsive img_show"></button>
+                                        </div>    
+                                    </div>
+
+                                    <!-- recent sent message start -->
+                                    <div class="recentmsgs boxs">
+                                        <div class="recentmsg_heading boxs">
+                                            <h2>RECENT SENT MESSAGES</h2>
+                                        </div>
+                                        <div class="recentsent boxs">
+                                            <div class="msg_content boxs">
+                                                <p>
+                                                    It is a long established fact that a reader will be distracted by the readable 
+                                                    content of a page when looking at its layout. The point of using Lorem Ipsum 
+                                                    is it has a more-or-less normal…
+                                                </p>
+                                                <div class="msg_content_links boxs">
+                                                    <a><img src="img/recent_msg_clock.svg" alt="recent_msg_clock" class="img-responsive ">Apr 3, 2018</a>
+                                                    <a><img src="img/recent_msg_user.svg" alt="recent_msg_user" class="img-responsive ">Adam, Julia</a>
+                                                    <a><img src="img/recent_msg_send.svg" alt="recent_msg_send" class="img-responsive ">SMS, Email</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recentsent boxs">
+                                            <div class="msg_content boxs">
+                                                <p>
+                                                    It is a long established fact that a reader will be distracted by the readable 
+                                                    content of a page when looking at its layout. The point of using Lorem Ipsum 
+                                                    is it has a more-or-less normal…
+                                                </p>
+                                                <div class="msg_content_links boxs">
+                                                    <a><img src="img/recent_msg_clock.svg" alt="recent_msg_clock" class="img-responsive ">Apr 3, 2018</a>
+                                                    <a><img src="img/recent_msg_user.svg" alt="recent_msg_user" class="img-responsive ">Adam, Julia</a>
+                                                    <a><img src="img/recent_msg_send.svg" alt="recent_msg_send" class="img-responsive ">SMS, Email</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- recent sent message end -->
+                                </div>
+                            </div> <!-- left section end -->
+
+                            <!-- right section priyank start -->
+
+                            <div class="col-sm-5 col-xs-12 message_right_section">
+                                <div class="message-right_sec_box_inner boxs">
+                                    <div class="message-right_sec_box boxs">
+
+                                        <div class="message_sheduled_box1 boxs">
+                                            <h6>Scheduled Messages</h6>
+                                        </div>
+                                        <div class="message_sheduled_box2 boxs">
+                                            <!--box1 start-->
+                                            <div class="message_sheduled_box2_one boxs">
+                                                <div class="message-right_anchors boxs">
+                                                    <ul>
+                                                        <li class="message_right_dropdown">
+                                                            <a class="message_right_dropbtn"><img src="img/message_right_more.svg" alt="message_right_more" class="messg_show_img"><img src="img/message_right_more2.svg" alt="message_right_more" class="messg_hide_img"></a>
+                                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                                <a href="#">Edit</a>
+                                                                <a href="#">Delete</a>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_clock.svg" alt="message_right_clock" class="">  Apr 3, 2018</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_icon.svg" alt="message_right_icon" class="">Friends</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_send.svg" alt="message_right_send" class="">SMS, Email</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                                <div class="message-right_paragraph boxs">
+                                                    <p>It is a long established fact that a reader will be 
+                                                        distracted by the readable content of a page when 
+                                                        looking at its layout. The point of using Lorem Ipsum 
+                                                        is that it has a more-or-less normal…
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <!--box1 end-->
+
+                                            <!--box2 start-->
+                                            <div class="message_sheduled_box2_one boxs">
+                                                <div class="message-right_anchors boxs">
+                                                    <ul>
+                                                        <li class="message_right_dropdown">
+                                                            <a class="message_right_dropbtn"><img src="img/message_right_more.svg" alt="message_right_more" class="messg_show_img"><img src="img/message_right_more2.svg" alt="message_right_more" class="messg_hide_img"></a>
+                                                            <div class="message_right_dropdown-content dropdown_click">
+                                                                <a href="#">Edit</a>
+                                                                <a href="#">Delete</a>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_clock.svg" alt="message_right_clock" class="">  Apr 3, 2018</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_icon.svg" alt="message_right_icon" class="">Friends</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_send.svg" alt="message_right_send" class="">SMS, Email</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="message-right_paragraph boxs">
+                                                    <p>It is a long established fact that a reader will be 
+                                                        distracted by the readable content of a page when 
+                                                        looking at its layout. The point of using Lorem Ipsum 
+                                                        is that it has a more-or-less normal…
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <!--box2 end-->
+
+                                            <!--box3 start-->
+                                            <div class="message_sheduled_box2_one boxs">
+                                                <div class="message-right_anchors boxs">
+                                                    <ul>
+                                                        <li class="message_right_dropdown">
+                                                            <a class="message_right_dropbtn"><img src="img/message_right_more.svg" alt="message_right_more" class="messg_show_img"><img src="img/message_right_more2.svg" alt="message_right_more" class="messg_hide_img"></a>
+                                                            <div class="message_right_dropdown-content dropdown_click">
+                                                                <a href="#">Edit</a>
+                                                                <a href="#">Delete</a>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_clock.svg" alt="message_right_clock" class="">  Apr 3, 2018</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_icon.svg" alt="message_right_icon" class="">Friends</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_send.svg" alt="message_right_send" class="">SMS, Email</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="message-right_paragraph boxs">
+                                                    <p>It is a long established fact that a reader will be 
+                                                        distracted by the readable content of a page when 
+                                                        looking at its layout. The point of using Lorem Ipsum 
+                                                        is that it has a more-or-less normal…
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <!--box3 end-->
+
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>  
+
+                            <!-- right section priyak end -->
+
+
+
+                        </div> <!-- msgs end -->
+
+                        <div class="polls boxs typeA typesb">
+                            <div class="col-sm-7 widthcol"> <!-- left section start -->
+                                <div class="msgs_inner_left boxs padding_col">
+                                    <div class="receipt boxs">
+                                        <div class="receiptuser boxs">
+                                            <img src="img/users_msg.svg" alt="users_msg" class="img-responsive normalimg"><img src="img/users_msgpink.svg" alt="users_msg" class="img-responsive hoverimg">
+                                            <h2>Recpetions: <!-- <span>Add Recpetions here..</span> -->
+                                                <input type="text" value="" id="msg2" name="msg2"/>
+                                            </h2>
+                                        </div>
+                                        <div class="msgboxs polls boxs">
+                                            <textarea class="form-control" rows="5" id="msgboxs" placeholder="Ask a question..?"></textarea>
+                                        </div>
+
+                                        <div class="choicebox boxs">
+                                            <div class="choicebox_inner boxs">
+                                                <div class="tasks boxs">
+                                                    <input type="checkbox" id="choice1" value="second_checkbox" class="check"> <label for="choice1"><span></span></label><input type="text" class="form-control" placeholder="Choice 1" disabled><a href="javascript:void(0)" class="deletechoice"><img src="img/cross_msg.svg" alt="delete"></a>
+                                                </div>
+                                                <div class="tasks boxs">
+                                                    <input type="checkbox" id="choice2" value="second_checkbox" class="check"> <label for="choice2"><span></span></label><input type="text" class="form-control" placeholder="Choice 2" disabled><a href="javascript:void(0)" class="deletechoice"><img src="img/cross_msg.svg" alt="delete"></a>
+                                                </div>
+                                                <!-- <div class="tasks boxs">
+                                                    <input type="checkbox" id="choice2" value="second_checkbox" class="check"> <label for="choice2"><span></span>Work out your budget</label>
+                                                </div> -->
+                                            </div>
+                                            <a href="javascript:void(0)" class="addLine addLinechoice plus"><img src="img/msg_plus.svg" alt="plus" class="msgimg"><img src="img/msg_plus_hover.svg " alt="plus" class="msgimg_hover">Add Choice</a>
+                                        </div>
+                                        <!-- <div class="tick boxs">
+                                            <input type="checkbox" id="choice1" value="second_checkbox"> <label for="choice1"><span></span>SMS</label>
+                                        </div>
+                                        <div class="tick boxs">
+                                            <input type="checkbox" id="choice2" value="second_checkbox"> <label for="choice2"><span></span>EMAIL</label>
+                                        </div> -->                                      
+
+
+                                        <div class="send_confirmation boxs">
+                                            <h2><img src="img/send_confirm_msg.svg" alt="send_confirm_msg" class="img-responsive">Send by: </h2>
+                                            <div class="tick boxs">
+                                                <input type="checkbox" id="ticksend3" value="second_checkbox"> <label for="ticksend3"><span></span>SMS</label>
+                                            </div>
+                                            <div class="tick boxs">
+                                                <input type="checkbox" id="ticksend4" value="second_checkbox"> <label for="ticksend4"><span></span>EMAIL</label>
+                                            </div>
+                                            <!-- <a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="By default recpetions will be notified in the momento app"><img src="img/info_msg.svg" alt="info_msg" class="img-responsive"></a> -->
+
+                                        </div>
+                                        <div class="sendbox boxs">
+                                            <div class="file boxs">
+                                                <div class="file-upload btn labelfont file-uploadfeedback">
+                                                    <span id="addhere"><img src="img/paperclip.svg" alt="paperclip" class="img-responsive normalimg" id="imgchangefile"><img src="img/paperclip2.svg" alt="paperclip" class="img-responsive hoverimg"></span>
+                                                    <input type="file" name="FileAttachmentfile" id="FileAttachmentfile" class="upload">
+                                                    <input type="text" id="fileuploadurlfile" readonly="" placeholder="Add a file">
+                                                </div>
+                                                <a href="javascript:void(0)" class="deletefile" id="anchorshowfile"><img src="img/cross.svg" alt="cross"></a>
+                                            </div>
+                                            <div class="photo boxs">
+                                                <div class="file-upload btn labelfont file-uploadfeedback">
+                                                    <span id="addhere"><img src="img/camera_msg.svg" alt="camera_msg" class="img-responsive normalimg" id="imgchangephoto"><img src="img/camera_msg2.svg" alt="camera_msg" class="img-responsive hoverimg"></span>
+                                                    <input type="file" name="FileAttachmentphoto" id="FileAttachmentphoto" class="upload">
+                                                    <input type="text" id="fileuploadurlphoto" readonly="" placeholder="Add photos">
+                                                </div>
+                                                <a href="javascript:void(0)" class="deletephoto" id="anchorshowphoto"><img src="img/cross.svg" alt="cross"></a>
+                                            </div>
+                                            <div class="Schedulebox">
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#schedulemodal"><img src="img/clock_msg.svg" alt="clock_msg" class="img-responsive normalimg"><img src="img/clock_msg2.svg" alt="clock_msg" class="img-responsive hoverimg"><span>Schedule</span></a>
+
+                                            </div>
+                                            <button type="submit" class="btnsend">SEND<img src="img/arrowright_msg.svg" alt="arrowright_msg" class="img-responsive img_hide"><img src="img/arrowright_msg_hover.svg" alt="arrowright_msg_hover" class="img-responsive img_show"></button>
+                                        </div>    
+                                    </div>
+
+                                    <!-- recent sent message start -->
+                                    <div class="recentmsgs boxs">
+                                        <div class="recentmsg_heading boxs">
+                                            <h2>RECENT POLLS</h2>
+                                        </div>
+                                        <div class="recentsent polls boxs">
+                                            <p>
+                                                What is your favourite car?
+                                            </p>
+                                            <div class="polls_content boxs">
+                                                <div class="polls_Content_bars boxs">
+                                                    <a>75%</a>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow=""
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            BMW
+                                                        </div>
+                                                    </div>
+                                                    <i data-toggle="modal" data-target="#votermodal"><a href="javascript:void(0)" class="margin_left bottomtooltip" data-toggle="tooltip2" data-placement="right" title="View Voters" >543 Votes </a></i>
+                                                </div>
+                                                <div class="polls_Content_bars boxs">
+                                                    <a>34%</a>
+                                                    <div class="progress progress2">
+                                                        <div class="progress-bar colorblue" role="progressbar" aria-valuenow=""
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            Tesla
+                                                        </div>
+                                                    </div>
+                                                    <i data-toggle="modal" data-target="#votermodal"><a href="javascript:void(0)" class="margin_left bottomtooltip" data-toggle="tooltip2" data-placement="right" title="View Voters" >220 Votes </a></i>
+                                                </div>
+                                                <div class="polls_Content_bars boxs">
+                                                    <a>54%</a>
+                                                    <div class="progress progress3">
+                                                        <div class="progress-bar colorblue" role="progressbar" aria-valuenow=""
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            Chevrolet
+                                                        </div>
+                                                    </div>
+                                                    <i data-toggle="modal" data-target="#votermodal"><a href="javascript:void(0)" class="margin_left bottomtooltip" data-toggle="tooltip2" data-placement="right" title="View Voters" >220 Votes </a></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- recent sent message end -->
+                                </div>
+                            </div> <!-- left section end -->
+
+                            <!-- right section priyank start -->
+
+                            <div class="col-sm-5 col-xs-12 message_right_section">
+                                <div class="message-right_sec_box_inner boxs">
+                                    <div class="message-right_sec_box boxs">
+
+                                        <div class="message_sheduled_box1 boxs">
+                                            <h6>Scheduled Messages</h6>
+                                        </div>
+                                        <div class="message_sheduled_box2 boxs">
+                                            <!--box1 start-->
+                                            <div class="message_sheduled_box2_one boxs">
+                                                <div class="message-right_anchors boxs">
+                                                    <ul>
+                                                        <li class="message_right_dropdown">
+                                                            <a class="message_right_dropbtn"><img src="img/message_right_more.svg" alt="message_right_more" class="messg_show_img"><img src="img/message_right_more2.svg" alt="message_right_more" class="messg_hide_img"></a>
+                                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                                <a href="#">Edit</a>
+                                                                <a href="#">Delete</a>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_clock.svg" alt="message_right_clock" class="">  Apr 3, 2018</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_icon.svg" alt="message_right_icon" class="">Friends</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_send.svg" alt="message_right_send" class="">SMS, Email</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="message-right_paragraph boxs">
+                                                    <p>What is your favourite car?
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <!--box1 end-->
+
+                                            <!--box2 start-->
+                                            <div class="message_sheduled_box2_one boxs">
+                                                <div class="message-right_anchors boxs">
+                                                    <ul>
+                                                        <li class="message_right_dropdown">
+                                                            <a class="message_right_dropbtn"><img src="img/message_right_more.svg" alt="message_right_more" class="messg_show_img"><img src="img/message_right_more2.svg" alt="message_right_more" class="messg_hide_img"></a>
+                                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                                <a href="#">Edit</a>
+                                                                <a href="#">Delete</a>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_clock.svg" alt="message_right_clock" class="">  Apr 3, 2018</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_icon.svg" alt="message_right_icon" class="">Friends</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_send.svg" alt="message_right_send" class="">SMS, Email</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="message-right_paragraph boxs">
+                                                    <p>What is your favourite car?
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <!--box2 end-->
+
+                                            <!--box3 start-->
+                                            <div class="message_sheduled_box2_one boxs">
+                                                <div class="message-right_anchors boxs">
+                                                    <ul>
+                                                        <li class="message_right_dropdown">
+                                                            <a class="message_right_dropbtn"><img src="img/message_right_more.svg" alt="message_right_more" class="messg_show_img"><img src="img/message_right_more2.svg" alt="message_right_more" class="messg_hide_img"></a>
+                                                            <div class="message_right_dropdown-content" id="dropdown_click">
+                                                                <a href="#">Edit</a>
+                                                                <a href="#">Delete</a>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_clock.svg" alt="message_right_clock" class="">  Apr 3, 2018</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_icon.svg" alt="message_right_icon" class="">Friends</a>
+                                                        </li>
+                                                        <li>
+                                                            <a><img src="img/message_right_send.svg" alt="message_right_send" class="">SMS, Email</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="message-right_paragraph boxs">
+                                                    <p>What is your favourite car?
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                            <!--box3 end-->
+
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>  
+
+                            <!-- right section priyak end -->
+
+
+                        </div> <!-- polls end -->
+                    </div>
+
+                </div> <!-- guesttableDend -->
+            </div> <!-- couple info end -->
+            <div class="guestlistaddedmessage guestlistaddedmessage1">
+                <p><img src="img/guestmessage.svg" alt="added" class="GuestaddD">something has been deleted<a href="#" class="CrossD"><img src="img/guestcross.svg" alt="cross" ></a></p>
+            </div>
+
+
+            <!-- Trigger the modal with a button -->
+            <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#schedulemodal">momento datetimer</button> -->
+            <!-- Modal -->
+            <div class="modal fade date" id="schedulemodal" role="dialog">
+                <div class="modal-dialog overviewmodalinner">
+                    <!-- Modal content-->
+                    <div class="modal-content content_datertimer boxs">
+                        <div class="modal-header model_datetimer boxs">
+                            <button type="button" class="deletetime ADDGuestDelete" data-dismiss="modal"><img src="img/delete.svg" alt="delete"></button>
+                            <button type="button" class="close" data-dismiss="modal"><img src="img/close2.svg" alt="close"></button>
+                            <h1>Scheule your message</h1> 
+                        </div>
+                        <div class="modal-body boxs">
+                            <div class="datertimer_body box">
+                                <div class="col-sm-6 noleft p_lt">
+                                    <div class="datetimer_left">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Date</label>
+                                            <input type="text" class="datep form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 noright p_rt">
+                                    <div class="datetimer_right">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Time</label>
+                                            <input type="text" class="form-control timep">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer boxs">
+                                <button type="button" class="schedulebtn" data-dismiss="modal">Schedule</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="votermodal" role="dialog">
+                <div class="modal-dialog overviewmodalinner">
+                    <!-- Modal content-->
+                    <div class="modal-content boxs">
+                        <div class="modal-header boxs">
+                            <button type="button" class="close" data-dismiss="modal"><img src="img/close_voters.svg" alt="close"></button>
+                            <h4 class="modal-title">Guests who voted for this answer</h4> 
+                        </div>
+                        <div class="modal-body boxs">
+                            <div class="voterslist boxs feedbackscroll">
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                                <ul>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                    <li>Groomsman<span>Adam Sandler</span></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="js/jquery.min.js"></script>
+            <script src='js/choosen3min.js'></script>
+            <script src="js/choosen1.js"></script> 
+            <script src="js/choosen.js"></script> 
+            <script src="js/choosenmsg.js"></script> 
+            <script src="js/filedrag.js"></script>
+            <script src="js/dragdrop.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/moment.js"></script>
+            <script src="js/bootstrap-datetimepicker.min.js"></script>
+            <script src="js/slick.js"></script>
+            <script src="js/jquery.fancybox.js"></script>
+            <script src="js/jquery.ddslick.min.js"></script>
+            <script src="js/custom.js"></script> 
+        </body>
+    </html>

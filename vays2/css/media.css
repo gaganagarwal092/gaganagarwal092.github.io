@@ -1,0 +1,1264 @@
+@media screen and (min-width: 1921px) and (max-width: 3000px) {
+    .main_wrapper {
+        background-color: #e4e4e4;
+    }
+
+    .main_wrapper_inner {
+        max-width: 1920px;
+        content: "";
+        clear: both;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .header .hamburger {
+        right: 150px;
+    }
+
+    .sidenav .logo {
+        padding-left: 150px;
+    }
+    .detection {
+    padding: 612px 0px;
+    margin-top: -392px;
+  }
+  .meetvay {
+    padding: 100px 0px 200px;
+  }
+  .how {
+    padding: 592px 0px;
+ }
+ .meet_team {
+    padding: 435px 0px;
+    margin-top: -411px;
+}
+}
+
+@media screen and (min-width: 1862px) and (max-width: 1920px) {
+    .vaybanner {
+        padding: 213px 0px;
+    }
+
+    .detection {
+        padding: 610px 0px 585px;
+        margin-top: -280px;
+    }
+
+    .how {
+        padding: 460px 0px 160px;
+    }
+
+    .meet_team {
+        padding: 480px 0px;
+        margin-top: -400px;
+    }
+
+    .about {
+        background-position-y: 100%;
+        padding-bottom: 710px;
+        background-position-x: 100%;
+        padding-top: 680px;
+        margin-top: -540px;
+    }
+
+    .footer_inner {
+        padding-top: 100px;
+
+    }
+}
+
+@media screen and (min-width: 1721px) and (max-width: 1861px) {
+    .vaybanner {
+        padding: 183px 0px;
+    }
+
+    .detection {
+        padding: 440px 0px 440px;
+    }
+
+    .how {
+        padding: 460px 0px 160px;
+    }
+
+    .meet_team {
+        padding: 480px 0px;
+        margin-top: -400px;
+    }
+
+    .about {
+        background-position-y: 100%;
+        padding-bottom: 710px;
+        background-position-x: 100%;
+        padding-top: 500px;
+        margin-top: -540px;
+    }
+
+    .footer_inner {
+        padding-top: 100px;
+
+    }
+}
+
+@media screen and (min-width: 1561px) and (max-width: 1720px) {
+    .vaybanner {
+        padding: 143px 0px;
+    }
+
+    .detection {
+        padding: 380px 0px 380px;
+    }
+
+    .how {
+        padding: 400px 0px 100px;
+    }
+
+    .meet_team {
+        padding: 420px 0px;
+    }
+
+    .about {
+        background-position-y: 100%;
+        padding-bottom: 550px;
+        background-position-x: 100%;
+        padding-top: 500px;
+    }
+
+    .footer_inner {
+        padding-top: 100px;
+
+    }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1560px) {
+    .how {
+        padding: 340px 0px;
+    }
+
+    .meet_team {
+        padding: 380px 0px;
+    }
+
+    .about {
+        padding: 300px 0px 500px;
+    }
+
+}
+
+@media(max-width:767px) {
+
+    .header .hamburger,
+    .sidenav .hamburger {
+        right: 15px;
+    }
+
+    .sidenav .logo {
+        padding-left: 0px;
+    }
+
+    .sidenav .hamburger {
+        top: 14px;
+    }
+   
+
+}
+
+@media screen and (max-width: 1199px) {
+    .header .navbar ul li {
+        padding: 6px 5px;
+    }
+
+    .header .navbar-nav li a.btn1 {
+        font-size: 16px;
+    }
+
+    .header .navbar-nav li a {
+        font-size: 16px;
+    }
+
+    .vaybanner {
+        padding: 153px 0px;
+        background-position-x: 60%;
+    }
+
+    .vb_inner h1 {
+        font-size: 50px;
+        /*padding: 10px 0px;*/
+        padding-top: 100px;
+    }
+
+    .vb_inner .form-control {
+        width: 300px;
+    }
+
+    .mv_lft h2 {
+        font-size: 38px;
+        padding-top: 65px;
+        padding-bottom: 20px;
+    }
+
+    .mv_lft p {
+        font-size: 22px;
+        padding: 10px 0px;
+    }
+
+    .mv_ryt img {
+        padding-top: 65px;
+    }
+
+    .videoboxs {
+        padding-top: 60px;
+    }
+
+    .d_content {
+        margin: 40px 0px;
+    }
+
+    .dc_ryt h2 {
+        font-size: 38px;
+    }
+
+    .dc_ryt p {
+        font-size: 22px;
+    }
+
+    .dc_lft img {
+        width: 270px;
+    }
+
+    .detection {
+        margin-top: -170px;
+        padding: 320px 0px 320px;
+    }
+
+    .edu_inner h2 {
+        font-size: 54px;
+    }
+
+    .edu_inner p {
+        font-size: 25px;
+        padding: 7px 0px;
+    }
+
+    .edu_img {
+        padding: 40px 0px 65px;
+    }
+
+    .edubtn a {
+        font-size: 26px;
+    }
+
+    .how {
+        padding: 300px 0px;
+        margin-top: -150px;
+    }
+
+    .h_inner h3 {
+        font-size: 54px;
+    }
+
+    .h_inner p {
+        font-size: 25px;
+        padding: 7px 0px;
+    }
+
+    .hc_ryt h2 {
+        font-size: 38px;
+        margin-bottom: 5px;
+    }
+
+    .hc_ryt p {
+        font-size: 22px;
+    }
+
+    .hc_lft img {
+        margin-top: 10px;
+    }
+
+    .meet_team {
+        margin-top: -400px;
+    }
+
+    .meetteam h1 {
+        font-size: 54px;
+    }
+
+    .meetteam h4 {
+        font-size: 25px;
+        padding-top: 7px;
+    }
+
+    .ceo img {
+        width: 172px;
+    }
+
+    .ceo h6 {
+        font-size: 20px;
+        padding: 26px 0px;
+    }
+
+    .ceo p {
+        font-size: 18px;
+    }
+
+    .meetteam .ceo {
+        padding: 40px 0px;
+    }
+
+    .apply a {
+        font-size: 26px;
+        padding: 4px 72px;
+        position: relative;
+        z-index: 9;
+    }
+
+    .about {
+        padding: 480px 0px;
+        margin-top: -320px;
+        background-position-x: 60%;
+    }
+
+    .about_inner {
+        position: relative;
+        margin-top: -210px;
+    }
+
+    .about_inner h1 {
+        font-size: 54px;
+    }
+
+    .about_para {
+        padding: 40px 30px;
+    }
+
+    .about_para p {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+    .award {
+        padding: 40px 0px;
+    }
+
+    .developed {
+        padding: 40px 0px;
+    }
+
+    .sign {
+        padding: 180px 0px;
+        margin-top: -180px;
+    }
+
+    .get {
+        margin-right: 120px;
+    }
+
+    .signup_outer {
+        left: 0;
+    }
+
+    .arrrow img {
+        width: 187px;
+    }
+
+    .arrrow {
+        right: 0;
+        bottom: -14px;
+    }
+
+    .arrrow2 {
+        right: 281px;
+        width: 187px;
+    }
+
+    .signup h4 {
+        font-size: 28px;
+    }
+
+    .signup p {
+        line-height: 16px;
+    }
+
+    .signup form {
+        padding-top: 15px;
+    }
+
+    .signup .form-control {
+        height: 42px;
+    }
+
+    .signup button {
+        margin-top: 30px;
+    }
+
+    .check_list p {
+        padding-bottom: 27px;
+    }
+
+    .footer {
+        padding-top: 320px;
+        margin-top: -150px;
+    }
+
+    .contact h4 {
+        font-size: 26px;
+    }
+
+    .contact a,
+    .contact p {
+        font-size: 16px;
+        line-height: 16px;
+        padding-top: 10px;
+    }
+
+    .foot_low {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .foot_low p {
+        font-size: 16px;
+    }
+
+    .footer_inner {
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 991px) and(min-width:768px) {
+    .signup {
+        min-height: 408px;
+    }
+
+    .signup_outer {
+        top: 50%;
+        margin-top: -204px;
+    }
+
+    .get_inner h5 {
+        padding-top: 60px;
+    }
+
+    .get_inner {
+        min-height: 538px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .vaybanner {
+        padding: 173px 0px;
+        background-position-x: 60%;
+    }
+
+    .vb_inner h1 {
+        font-size: 40px;
+    }
+
+    .vb_inner p {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+
+    .vb_inner .form-control {
+        width: 240px;
+        height: 36px;
+    }
+
+    .downlogo {
+        padding-top: 125px;
+    }
+
+    .mv_inner h6 {
+        font-size: 22px;
+    }
+
+    .mv_lft h2 {
+        font-size: 32px;
+        padding-top: 55px;
+        padding-bottom: 10px;
+    }
+
+    .mv_ryt img {
+        padding-top: 55px;
+    }
+
+    .mv_lft p {
+        font-size: 18px;
+        padding: 7px 0px;
+    }
+
+    .videoboxs {
+        padding-top: 30px;
+    }
+
+    .detection {
+        background-position-x: 50%;
+        margin-top: -130px;
+        padding: 240px 0px;
+    }
+
+    .dc_ryt h2,
+    .hc_ryt h2 {
+        font-size: 32px;
+    }
+
+    .dc_ryt p,
+    .hc_ryt p {
+        font-size: 18px;
+    }
+
+    .dc_lft img.width180 {
+        width: 170px;
+    }
+
+    .edu_inner h2,
+    .h_inner h3,
+    .meetteam h1,
+    .about_inner h1 {
+        font-size: 42px;
+    }
+
+    .edu_inner p,
+    .h_inner p,
+    .meetteam h4,
+    .ceo h6,
+    .about_para p {
+        font-size: 18px;
+    }
+
+    .edu_img img {
+        width: 176px;
+    }
+
+    .edu_img {
+        padding: 30px 0px 45px;
+    }
+
+    .edubtn a,
+    .apply a {
+        font-size: 22px;
+    }
+
+    .how {
+        margin-top: -130px;
+        padding: 250px 0px;
+    }
+
+    .h_content {
+        margin: 30px 0px;
+    }
+
+    .ceo h6 {
+        padding: 26px 0px 16px;
+    }
+
+    .ceo p {
+        font-size: 16px;
+    }
+
+    .meetteam .row {
+        padding: 40px 0px;
+    }
+
+    .about {
+        padding: 410px 0px 480px;
+        margin-top: -320px;
+    }
+
+    .about_para {
+        padding: 30px 30px;
+    }
+
+    .award,
+    .developed {
+        padding: 20px 0px;
+    }
+
+    .award img,
+    .developed img {
+        width: 560px;
+    }
+
+    .signup_outer {
+        width: 340px;
+
+    }
+
+    .signup {
+        padding: 20px 40px;
+    }
+
+    .signup .form-group {
+        margin-bottom: 15px;
+    }
+
+    .signup form {
+        padding-top: 10px;
+    }
+
+    .signup button {
+        margin-top: 20px;
+    }
+
+    .get {
+        width: 360px;
+    }
+
+    .get_inner {
+        padding: 35px 20px 120px 65px;
+    }
+
+    .arrrow {
+        right: 0;
+        bottom: -50px;
+    }
+
+    .arrrow2 {
+        right: 141px;
+        width: 157px;
+    }
+
+    .check_list {
+        padding: 20px;
+    }
+
+    .check_list p {
+        padding-bottom: 17px;
+    }
+
+    .footer {
+        padding-top: 270px;
+    }
+
+    .footer_inner {
+        padding: 50px 70px 0px;
+    }
+
+    .foot_low {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .foot_low p {
+        font-size: 14px;
+    }
+
+    .meet_team {
+        margin-top: -330px;
+        padding: 270px 0px;
+    }
+
+    .get {
+        margin-right: 60px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 14px 0px;
+    }
+
+    .header.fixed_header {
+        padding: 7px 0px;
+    }
+
+    .videoboxs {
+        padding: 30px;
+    }
+
+    + .detection {
+        padding: 160px 0px 150px;
+        margin-top: -100px;
+    }
+
+    .dc_ryt h2,
+    .hc_ryt h2 {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+
+    .dc_ryt p,
+    .hc_ryt p {
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+
+    .dc_lft img {
+        width: 160px;
+    }
+
+    .dc_lft img.width180 {
+        width: 140px;
+    }
+
+    .d_content {
+        margin: 20px 0px;
+    }
+
+    .edu_inner h2,
+    .h_inner h3,
+    .meetteam h1,
+    .about_inner h1 {
+        font-size: 32px;
+    }
+
+    .edu_inner p,
+    .h_inner p,
+    .meetteam h4,
+    .ceo h6,
+    .about_para p {
+        font-size: 16px;
+    }
+
+    .edu_img img {
+        width: 136px;
+        margin: 0px 10px;
+    }
+
+    .edu_img img.imgzoom {
+        width: 186px;
+    }
+
+    .edubtn a,
+    .apply a {
+        font-size: 18px;
+    }
+
+    .apply a {
+        margin: 5px auto 0px;
+
+    }
+
+    .apply p {
+        padding-top: 3px;
+    }
+
+    .edu_img {
+        padding: 25px 0px 25px;
+    }
+
+    .how {
+        margin-top: -130px;
+        padding: 200px 0px;
+    }
+
+    .hc_lft img {
+        /*        width: 80px;*/
+        margin-top: 30px;
+    }
+
+    .mv_lft p {
+        font-size: 16px;
+        padding: 7px 0px;
+    }
+
+    .meet_team {
+        margin-top: -380px;
+        padding: 340px 0px;
+    }
+
+    .ceo h6 {
+        font-size: 20px;
+    }
+
+    .meetteam .ceo {
+        margin-top: 40px;
+        padding: 0px 0px;
+    }
+
+    .meetteam .row {
+        padding: 0px 0px;
+    }
+
+    .about {
+        background-position-x: 0%;
+        padding: 380px 0px 360px;
+        margin-top: -340px;
+    }
+
+    .about_para {
+        padding: 20px 20px;
+    }
+
+    .award img,
+    .developed img {
+        width: 360px;
+    }
+
+    .arrrow {
+        display: none;
+    }
+
+    .sign {
+        /*padding: 0px 0px;*/
+    }
+
+    .get,
+    .signup_outer {
+        width: 300px;
+    }
+
+    .get {
+        float: initial;
+        margin: 0 auto;
+    }
+
+    .get_inner {
+        padding: 30px 20px 0px 30px;
+        margin-top: 30px;
+    }
+
+    .get_inner h5 {
+        font-size: 22px;
+    }
+
+    .signup_outer {
+        /*width: 360px;*/
+        margin: 0px auto;
+        position: initial;
+    }
+
+    .signup p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .signup .form-control {
+        height: 38px;
+        padding: 8px 12px;
+    }
+
+    .signup textarea.form-control {
+        height: 105px;
+        resize: none;
+        padding: 12px 12px;
+    }
+
+    .signup button {
+        font-size: 16px;
+    }
+
+    .arrrow2 {
+        bottom: -64px;
+        right: 161px;
+        width: 117px;
+    }
+
+    .footer {
+        padding-top: 270px;
+        margin-top: -220px;
+    }
+
+    .address_img {
+        margin-top: 30px;
+    }
+
+    .contact h4 {
+        font-size: 22px;
+    }
+
+    .footer_inner {
+        /*padding: 0px 30px;*/
+    }
+
+    .videoboxs iframe {
+        width: 500px;
+        height: 230px;
+    }
+    .d_float .dc_lft {
+      margin-top: 15px;
+    }
+    .apply p {
+     padding-top: 30px;
+   }
+
+}
+
+@media screen and (max-width: 560px) {
+    .sidenav a {
+        padding: 4px 8px 4px 8px;
+        font-size: 24px;
+    }
+
+    .vaybanner {
+        padding: 213px 0px;
+    }
+
+    .vb_inner h1 {
+        font-size: 32px;
+        padding-top: 80px;
+    }
+
+    .downlogo {
+        padding-top: 155px;
+    }
+
+    .vb_inner p {
+        font-size: 16px;
+    }
+
+    .vb_inner .form-control {
+        font-size: 16px;
+        width: 220px;
+        height: 32px;
+    }
+
+    .downlogo img {
+        width: 50px;
+    }
+
+    .mv_inner h6 {
+        font-size: 20px;
+    }
+
+    .mv_lft h2 {
+        font-size: 28px;
+        padding-top: 35px;
+    }
+
+    .mv_ryt img {
+        padding-top: 25px;
+    }
+
+    .meetvay {
+        padding-bottom: 140px;
+    }
+
+    .detection {
+        margin-top: -210px;
+        padding: 170px 0px 150px;
+        background-position-x: 60%;
+    }
+
+    .dc_lft,
+    .hc_lft {
+        width: 30%;
+    }
+
+    .dc_ryt,
+    .hc_ryt {
+        width: 70%;
+    }
+
+    .dc_ryt h2,
+    .hc_ryt h2 {
+        font-size: 24px;
+    }
+
+    .edu_inner h2,
+    .h_inner h3,
+    .meetteam h1,
+    .about_inner h1 {
+        font-size: 24px;
+    }
+
+    .edu_inner p,
+    .h_inner p,
+    .meetteam h4,
+    .ceo h6,
+    .about_para p {
+        font-size: 14px;
+    }
+
+    .edubtn a,
+    .apply a {
+        font-size: 16px;
+        padding: 5px 35px;
+    }
+
+    .apply a {
+        margin: 10px auto 0px;
+    }
+
+    .hc_lft img {
+        margin-top: 20px;
+    }
+
+    .ceo h6 {
+        font-size: 18px;
+    }
+
+    .about {
+        /*padding-top: 110px;
+            background-position-x: 50%;*/
+    }
+
+    .award img,
+    .developed img {
+        width: 320px;
+    }
+
+    .footer {
+        background-position-x: 10%;
+        margin-top: -300px;
+    }
+
+    .foot_low {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .get {
+        float: initial;
+        margin: 0 auto;
+    }
+
+    .videoboxs iframe {
+        width: 350px;
+    }
+
+    .check_list {
+        padding: 15px;
+    }
+
+    .get {
+        width: 360px;
+    }
+
+    .get_inner {
+        padding: 35px 20px 0px 20px;
+        margin-top: 30px;
+    }
+
+    .leftpadding {
+        padding-left: 40px;
+    }
+
+    .sign {
+        /*padding: 0px 0px;
+        margin-top: -50px;*/
+    }
+
+    .signup_outer {
+        width: 360px;
+        margin: 0px auto;
+        position: initial;
+    }
+
+    .signup {
+        padding: 20px 40px;
+    }
+
+    .arrrow2 {
+        bottom: -94px;
+        right: 111px;
+    }
+
+    .edu_img img {
+        margin: 0px 4px;
+        width: 106px;
+    }
+
+    .edu_img img.imgzoom {
+        width: 136px;
+    }
+
+    .meet_team {
+        padding: 310px 0px;
+        background-position-x: 100%;
+    }
+
+    .footer_inner {
+        padding: 50px 20px 0px;
+    }
+
+    .about {
+        background-position-x: center;
+        padding: 380px 0px 170px
+    }
+
+    .response {
+        position: absolute;
+        top: 62px;
+        left: 0;
+    }
+
+    .hc_lft img {
+        width: 90px;
+    }
+
+    .header .navbar-brand,
+    .sidenav .logo img {
+        width: 90px;
+    }
+
+    .footer .scrollTop {
+        right: 20px;
+        bottom: 47px;
+        padding: 7px 7px 7px;
+    }
+   .apply p {
+    padding-top: 30px;
+}
+/*
+    .footer .scrollTop i {
+        font-size: 37px;
+    }
+*/
+
+}
+
+@media screen and (max-width: 414px) {
+    .sidenav a {
+        padding: 4px 8px 4px 8px;
+        font-size: 22px;
+    }
+
+    .sidenav .logo img {
+        width: 100px;
+    }
+
+    .vb_inner h1 {
+        font-size: 28px;
+        padding-top: 80px;
+    }
+
+    .mv_lft h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mv_lft p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .dc_lft,
+    .hc_lft {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .dc_ryt,
+    .hc_ryt {
+        width: 100%;
+    }
+
+    .dc_ryt h2,
+    .hc_ryt h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .dc_ryt p,
+    .hc_ryt p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .d_float .dc_ryt h2,
+    .d_float .dc_ryt p {
+        text-align: center;
+    }
+
+    .meetvay {
+        padding-bottom: 0px;
+    }
+
+    .detection {
+        margin-top: -160px;
+        padding: 180px 0px 180px;
+    }
+
+    .d_inner {
+        margin-top: 50px;
+    }
+
+    .education {
+        padding-top: 30px;
+        margin-top: -100px;
+        position: relative;
+        z-index: 9;
+    }
+
+    .h_float .hc_ryt h2,
+    .h_float .hc_ryt p {
+        text-align: center;
+    }
+
+    .ceo p {
+        font-size: 14px;
+    }
+
+    .about_para p {
+        text-align: center;
+    }
+
+    .about {
+        /*padding-top: 120px;*/
+    }
+
+    .videoboxs {
+        padding: 15px 15px;
+    }
+
+    .videoboxs iframe {
+        width: 100%;
+        height: 160px;
+    }
+
+    .signup_outer {
+        width: 90%;
+    }
+
+    .get {
+        width: 90%;
+    }
+
+    .arrrow2 {
+        bottom: -64px;
+        right: 31px;
+    }
+
+    .sign {
+        /*padding: 0px 0px;
+        margin-top: -80px;*/
+    }
+
+    .edu_img img {
+        display: block;
+        margin: 5px auto;
+    }
+
+    .header .navbar-brand,
+    .sidenav .logo img {
+        width: 75px;
+    }
+
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        width: 22px;
+        height: 3px;
+    }
+
+    .header .hamburger {
+        width: 42px;
+        height: 41px;
+        padding: 9px 10px 10px 10px;
+    }
+
+    .header .hamburger {
+        right: 15px;
+    }
+
+    .sidenav .hamburger {
+        right: 14px;
+        top: 12px;
+    }
+
+    .edu_img .hide_img {
+        display: none;
+    }
+    .d_content {
+    display: block;
+    
+}
+
+
+}
+
+@media screen and (max-width: 320px) {}
