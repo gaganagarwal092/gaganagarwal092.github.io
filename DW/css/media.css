@@ -1,0 +1,1694 @@
+@media (max-width:1348px) {
+    .rhtzero {
+        margin-right: -30px;
+    }
+    .glob_img {
+        right: -30px;
+    }
+}
+
+@media(max-width:1199px) {
+    .header {
+        padding: 10px 0px;
+    }
+    .head .logo img {
+        width: 190px;
+        height: 60px;
+    }
+    .banner_section {
+        padding: 60px 0px;
+    }
+    .quote_btn {
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+    .quote button {
+        padding: 8px 40px;
+    }
+    #demo div>span {
+        width: 74px;
+        padding: 10px 10px;
+    }
+    .smalltext {
+        font-size: 14px;
+    }
+    #clockdiv {
+        width: 509px;
+        font-size: 30px;
+        margin-left: -69px;
+        padding-left: 96px;
+    }
+    #demo {
+        width: 509px;
+        font-size: 30px;
+        margin-left: -69px;
+        padding-left: 96px;
+    }
+    .app_rht {
+        padding: 25px 30px 40px;
+        width: 600px;
+    }
+    .rhtzero {
+        margin-right: -26px;
+    }
+    .discount_section {
+        /*padding-top: 35px;*/
+        padding: 0;
+    }
+    .dis_left h2 {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    #clockdiv>div {
+        padding: 10px 10px 20px;
+    }
+    #demo>div {
+        padding: 10px 10px 20px;
+    }
+    .form_left .form-control {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .radio_bud {
+        margin-bottom: 50px;
+    }
+    .radio_bud .radio1_gb {
+        font-size: 15px;
+    }
+    .radio_bud1 {
+        padding: 0px 11px;
+    }
+    .radio_bud1 label {
+        font-size: 14px;
+    }
+    .circle_img {
+        width: 600px;
+        left: -30px;
+    }
+    /* .dis_left {
+        position: relative;
+    }*/
+    /*.phpos{
+        position: relative;
+    }*/
+    .dis_left img {
+        width: 260px;
+        margin-top: 70px;
+        margin-left: 130px;
+        /*position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        margin-left: 0;
+        margin-top: 0;*/
+    }
+    .app_sec h2 {
+        font-size: 40px;
+    }
+    .app_sec {
+        padding: 0px 130px;
+    }
+    .iso_sec ul li {
+        display: inline-block;
+        width: 152px;
+    }
+    .part_sec h2 {
+        font-size: 45px;
+    }
+    .client_partner .logoitem {
+        margin: 30px 12px 0;
+    }
+    .btnul ul li {
+        padding: 0px 12px;
+    }
+    .disbtm_left1 h2 {
+        font-size: 45px;
+    }
+    /*.disbtm_left2 img.mblimg {
+        top: 143px;
+        left: 148px;
+        width: 195px;
+    }*/
+    .app, .portfolio {
+        padding: 70px 0px;
+    }
+    .offer_down {
+        font-size: 40px;
+        padding-top: 20px;
+    }
+    .app_content h5 {
+        font-size: 22px;
+    }
+    .app_content {
+        padding: 25px 0px;
+    }
+    .app_rht_rht li {
+        /*margin-right: 17px;*/
+    }
+    .brown_lft h1 {
+        font-family: 'NeutrifProSemiBold';
+        font-size: 45px;
+    }
+    .brown_rht {
+        margin-top: -168px;
+    }
+    .offer_down {
+        font-size: 35px;
+        padding-top: 15px;
+    }
+    .portfolio_inner .row {
+        padding-top: 50px;
+    }
+    .talk {
+        padding: 70px 0px 0px;
+    }
+    .global {
+        padding: 70px 0px 70px;
+    }
+    .jaihoimage {
+        width: 280px;
+    }
+    .jaihoimage p {
+        font-size: 16px;
+    }
+    .offer h3 {
+        font-size: 22px;
+    }
+    .global_rht p {
+        font-size: 22px;
+        padding: 20px 0px;
+    }
+    .global_rht li {
+        width: 199px;
+        padding: 30px 20px;
+        margin: 20px 15px 0px;
+    }
+    .global_inner.qbtn {
+        margin: 40 auto 0;
+    }
+    .glob_img {
+        right: -25px;
+        width: 93px;
+    }
+    .company_con h6 {
+        font-family: 'NeutrifProMedium';
+        font-size: 20px;
+    }
+    .company_con a {
+        font-size: 16px;
+        margin: 5px 0px 0px;
+    }
+    .company {
+        padding: 70px 0px;
+    }
+    /*.copy_inner p {
+        font-size: 20px;
+    }*/
+    /*.copy {
+        padding: 25px 0px;
+    }*/
+    .btnul ul li a {
+        padding: 7px 10px;
+        font-size: 17px;
+    }
+    .banner_cont h2 {
+        font-size: 38px;
+        /*margin-bottom: 20px;*/
+    }
+    /*.banner_cont h3 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }*/
+    .challege_cont h4 {
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+    .challege_cont p {
+        font-size: 20px;
+    }
+    .mbl_imagee img.mble {
+        top: 71px;
+    }
+    .num_row {
+        margin: 60px 0px;
+    }
+    .purple_div {
+        margin: 70px 0px;
+    }
+    .global_rht li span {
+        font-size: 20px;
+    }
+    .global_rht li {
+        width: 150px;
+        margin: 0px 13px 0px;
+        padding: 20px 20px;
+    }
+    .flag_img {
+        min-height: 89px;
+    }
+    .talk_detail .col-sm-9 {
+        width: 70%;
+    }
+    .talk_detail .col-sm-3 {
+        width: 30%;
+    }
+    .talk_content p {
+        font-size: 20px;
+    }
+    .client_detail {
+        display: block;
+        padding: 20px;
+        min-height: 374px;
+    }
+    .client_img {
+        margin-left: 0;
+        margin-top: 0;
+        float: left;
+        width: 40%;
+    }
+    .client_inner {
+        float: left;
+        width: 60%;
+        padding-left: 20px;
+    }
+    .client_inner p {
+        text-align: justify;
+    }
+    .client_inner h4 {
+        font-size: 26px;
+    }
+    .client_inner h6 {
+        padding: 10px 0px 15px;
+    }
+    .company_detail img {
+        width: 24px;
+    }
+    .company_con {
+        margin-left: 20px;
+    }
+    .fsocial {
+        padding-left: 45px;
+    }
+}
+
+@media(max-width:991px) {
+    /*.dis_left img {
+        width: 245px;
+        margin: 40px auto;
+    }*/
+    #clockdiv>div {
+        padding: 10px 6px 20px;
+    }
+    #clockdiv {
+        width: 418px;
+        font-size: 20px;
+        margin-left: -87px;
+        padding-left: 73px;
+    }
+    #demo>div {
+        padding: 10px 6px 20px;
+    }
+    #demo {
+        /*width: 418px;
+        font-size: 20px;
+        margin-left: -87px;
+        padding-left: 73px;*/
+        width: 330px;
+        font-size: 20px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .clk1:nth-child(1)::before {
+        top: 22px;
+        left: -5px;
+        height: 66px;
+    }
+    .app_rht {
+        padding: 25px 30px 40px;
+        width: 379px;
+        margin-top: -432px;
+    }
+    .circle_img {
+        width: 555px;
+    }
+    .dis_right {
+        padding: 30px 15px;
+    }
+    .radio_bud1 input[type=radio]:checked+label .grey {
+        border: 5px solid #ef392f;
+    }
+    .grey {
+        height: 16px;
+        width: 16px;
+        border: 5px solid #e4e4e4;
+    }
+    .form_left .form-control {
+        padding: 6px 5px;
+    }
+    .radio_bud1 {
+        padding: 0px 1px;
+    }
+    .app_sec {
+        padding: 0px 57px;
+    }
+    .app_sec h2 {
+        font-size: 35px;
+    }
+    .num h3 {
+        font-size: 30px;
+    }
+    .num p {
+        font-size: 14px;
+    }
+    .iso_sec ul li {
+        display: inline-block;
+        width: 116px;
+    }
+    .purple_div {
+        padding: 20px 20px;
+        margin: 30px 0px;
+    }
+    .part_sec h2 {
+        font-size: 35px;
+    }
+    .client_partner .logoitem {
+        margin: 30px 12px 0;
+        height: 115px;
+        width: 16%;
+    }
+    /*.btnul ul li a {
+        padding: 10px 15px;
+        min-width: 163px;
+    }*/
+    /*.btnul ul li a {
+        padding: 8px 15px;
+        min-width: 66px;
+    }*/
+    /*.btnul ul li {
+        padding: 0px 3px;
+    }*/
+    /*.disbtm_left2 img.mblimg {
+        top: 114px;
+        left: 100px;
+        width: 164px;
+    }*/
+    .app_rht_lft img {
+        width: 158px;
+        margin: 0 auto;
+    }
+    .app_rht_rht img {
+        width: 108px;
+    }
+    .app_content {
+        padding: 15px 0px;
+    }
+    .app_content p {
+        padding-top: 10px;
+    }
+    .brown_lft h1 {
+        font-size: 45px;
+    }
+    .brown_lft p {
+        padding: 5px 0px;
+        font-size: 16px;
+    }
+    .brown_lft p br {
+        display: none;
+    }
+    .brown_rht {
+        margin-top: -127px;
+    }
+    .port_rht p {
+        font-size: 15px;
+        padding: 20px 0px;
+    }
+    .portfolio_inner .row {
+        padding-top: 35px;
+    }
+    .benefit_content img {
+        /*width: 70px;*/
+        min-height: 78px;
+    }
+    .benefit_content h6 {
+        font-size: 20px;
+    }
+    .left_line {
+        margin-left: -237px;
+        width: 220px;
+    }
+    .rgt_line {
+        margin-left: 237px;
+        width: 220px;
+    }
+    .talk_content p {
+        font-size: 20px;
+    }
+    .quote button {
+        font-size: 16px;
+        padding: 8px 24px;
+    }
+    /* .righticon {
+        margin-left: 0px;
+    }
+    .lefticon {
+        margin-right: 0px;
+    } */
+    .talk_detail {
+        padding: 50px 0px;
+    }
+    .right_border {
+        width: 170px;
+        margin-left: 203px;
+    }
+    .left_border {
+        width: 170px;
+        margin-left: -203px;
+    }
+    .portfolio_inner .row {
+        display: block;
+    }
+    .rhtzero {
+        margin-right: -26px;
+    }
+    /*.dis_left img {
+        margin-top: 40px;
+        margin-left: 50px;
+    }*/
+    .dis_left h2 {
+        font-size: 45px;
+        text-align: center;
+        margin-top: 110px;
+    }
+    .glob_img {
+        right: -26px;
+    }
+    .global_rht h2 {
+        font-size: 45px;
+    }
+    .global_rht p {
+        font-size: 22px;
+        padding: 12px 0px;
+    }
+    .app_rht_inner {
+        display: inline-block;
+    }
+    .global_rht h2 {
+        font-size: 35px;
+    }
+    .global_rht p {
+        font-size: 18px;
+        padding: 12px 0px;
+    }
+    .glob_img {
+        right: -25px;
+        width: 80px;
+    }
+    .global_rht li span {
+        font-size: 20px;
+        padding-top: 0;
+    }
+    .global_rht li {
+        width: 29.3%;
+        float: left;
+        margin: 0% 2%;
+    }
+    .flag_img {
+        min-height: 80px;
+    }
+    .global_rht {
+        padding: 80px 0px;
+    }
+    .jaihoimage {
+        width: 240px;
+        padding: 35px 15px 25px;
+    }
+    .global {
+        padding: 50px 0px;
+    }
+    .company_con {
+        margin-left: 20px;
+    }
+    .company {
+        padding: 50px 0px;
+    }
+    .company_con h6 {
+        font-family: 'NeutrifProMedium';
+        font-size: 16px;
+    }
+    .company_con a {
+        font-size: 14px;
+    }
+    .quote {
+        margin-right: 0px;
+    }
+    .btnul ul li a {
+        font-size: 14px;
+    }
+    /*.quote button {
+        font-size: 18px;
+        width: 122px;
+        height: 37px;
+    }*/
+    .service_home .innerserv {
+        padding: 28px 20px 40px;
+    }
+    .service_home .innerserv ul.servicecont_list li {
+        padding-left: 6px;
+    }
+    .service_home .servicebox .col-sm-6:nth-child(3) .innerserv {
+        margin-top: -151px;
+    }
+    .service_home .innerserv {
+        padding: 40px 40px 75px;
+    }
+    .service_home .innerserv h2, .build h2 {
+        font-size: 38px;
+    }
+    .service_home .innerserv img {
+        display: none;
+    }
+    .service_home .innerserv .serviceicon_list li img {
+        display: block;
+    }
+    .service_home .innerserv ul.servicecont_list {
+        padding-right: 0;
+    }
+    .jaihoimage img {
+        height: 40%;
+    }
+    .jaihoimage h2 {
+        font-size: 24px;
+        margin-bottom: 6px;
+    }
+    .jaihoimage h3 {
+        font-size: 17px;
+    }
+    .jaihoimage p {
+        font-size: 16px;
+    }
+    .grey_line {
+        margin: 15px 0px;
+    }
+    /*.jaihoimage {
+        width: 284px;
+        padding: 30px 16px;
+    }*/
+    .global_rht h2 {
+        font-size: 30px;
+    }
+    .global_rht p {
+        font-size: 17px;
+        padding: 12px 0px;
+    }
+    .sociallinks li a i {
+        font-size: 16px;
+        line-height: 30px;
+        height: 30px;
+        width: 30px;
+    }
+    .fsocial {
+        padding-left: 32px;
+        margin-top: 8px;
+    }
+    .company_con h6 {
+        font-size: 15px;
+    }
+    .company_con {
+        margin-left: 8px;
+    }
+    /*.talk_detail .col-sm-3{
+        width: 100%;
+        margin-top: 20px;
+    }*/
+    .talk_detail .quote {
+        justify-content: center;
+    }
+    .banner_section {
+        padding: 50px 0px 100px;
+    }
+    .challege_cont h4 {
+        font-size: 19px;
+    }
+    .banner_cont .banner_btn {
+        margin-top: 50px;
+    }
+    .banner_cont h3 {
+        margin-bottom: 50px;
+    }
+    .head .logo img {
+        width: 160px;
+        height: 50px;
+    }
+    .head {
+        padding: 0px 15px 0px 0px;
+    }
+    .btnul ul li {
+        padding: 0px 5px;
+    }
+    .banner_sec {
+        margin-top: 70px;
+    }
+    #demo div>span {
+        width: 55px;
+    }
+    .dis_left img {
+        width: 250px;
+        margin-top: 50px;
+        margin-left: 110px;
+    }
+    .partner_section {
+        padding-top: 30px;
+    }
+    .client_partner {
+        padding: 0px 0px 50px;
+    }
+    .disbtm_left2 img.mblimg {
+        width: 150px;
+    }
+    .app, .portfolio {
+        padding: 60px 0px;
+    }
+    .brown_lft .quote {
+        margin-top: 20px;
+    }
+    .talk_detail .col-sm-9 {
+        width: 60%;
+    }
+    .talk_detail .col-sm-3 {
+        width: 40%;
+    }
+    .talk_detail .quote {
+        margin-top: 25px;
+    }
+    .client_detail {
+        width: 100%;
+        padding: 15px;
+        min-height: auto;
+    }
+    .client .col-sm-6 {
+        padding: 0px 15px;
+    }
+    .client_img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .client_inner {
+        width: 100%;
+        padding-left: 0;
+    }
+    .client_img img {
+        margin: 0 auto;
+    }
+    .client_inner p {
+        min-height: 180px;
+    }
+    .global_inner .quote button {
+        padding: 10px 40px;
+    }
+}
+
+@media(max-width:767px) {
+    .purple_div .form_left .form-control{
+        margin-bottom: 0;
+    }
+    .purple_div .envlp img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .dis_right .col-sm-4 {
+        width: 40%;
+        float: left;
+    }
+    .dis_right .col-sm-8 {
+        width: 60%;
+        float: left;
+    }
+    .envlp img {
+        width: 70%;
+    }
+    .estimateup .estimte {
+        padding: 0px 20px 20px 20px;
+    }
+    .client_detail {
+        min-height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .modal-dialog {
+        margin: 30px auto;
+        width: 90%;
+    }
+    .estimateup .estimte .form-control {
+        margin-bottom: 0px;
+    }
+    .discount_section {
+        padding: 20px 0px 0px;
+    }
+    .dis_sec .dis_left {
+        display: none;
+    }
+    .radio_bud {
+        margin-bottom: 70px;
+    }
+    .circle_img {
+        display: none;
+    }
+    .rgt_d {
+        padding-top: 0px;
+    }
+    .pophead .btm_pop {
+        width: 100%;
+    }
+    .header .hamburger {
+        display: block;
+    }
+    .popbbtn .popbutn {
+        padding: 12px 43px;
+    }
+    .app_rht {
+        padding: 25px 30px 40px;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    /* .talk_detail .quote {
+        display: block;
+    } */
+    .left_border {
+        width: 132px;
+        margin-left: -196px;
+    }
+    .right_border {
+        width: 132px;
+        margin-left: 196px;
+    }
+    .client .row {
+        margin: 0px;
+    }
+    .client .col-sm-6 {
+        padding: 0px 0px 40px;
+    }
+    /* .client_img {
+        margin-left: -120px;
+    } */
+    .clientslider .slick-next {
+        right: 42%;
+    }
+    .global {
+        padding: 30px 0px 50px;
+    }
+    .global_rht h2 {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .global_rht p {
+        font-size: 16px;
+    }
+    .company {
+        padding: 30px 0px;
+    }
+    .company_detail {
+        margin-bottom: 15px;
+    }
+    .company_detail img {
+        width: 30px;
+    }
+    /*.copy_inner p {
+        font-size: 15px;
+    }*/
+    /*.copy {
+        padding: 20px 0px;
+    }*/
+    .rhtzero {
+        margin-right: -15px;
+    }
+    .glob_img {
+        right: -14px;
+        width: 80px;
+    }
+    .dis_right {
+        width: 100%;
+        float: right;
+    }
+    #clockdiv {
+        width: 100%;
+        font-size: 20px;
+        margin-left: 0;
+        padding-left: 0px;
+        float: right;
+    }
+    #demo {
+        width: 100%;
+        font-size: 45px;
+        margin-left: 0;
+        padding-left: 0px;
+        float: right;
+    }
+    #demo div>span {
+        width: 100px;
+    }
+    .app_sec h2 {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    .app_sec {
+        padding: 0px 0;
+    }
+    .num h3 {
+        font-size: 25px;
+    }
+    .num p {
+        font-size: 13px;
+    }
+    .iso_sec ul li {
+        width: 33.33%;
+        /* padding: 0; */
+        float: left;
+        min-height: 125px;
+        display: flex;
+        align-items: center;
+    }
+    .iso_sec ul li img {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 115px;
+    }
+    .purple_div {
+        padding: 15px 15px;
+        margin: 20px 0px;
+    }
+    .client_partner {
+        padding: 0px 0px 50px;
+    }
+    .client_partner .logoitem {
+        height: 80px;
+        width: 20.4%;
+        margin: 0% 2% 2%;
+    }
+    .btnul ul li a {
+        padding: 8px 7px;
+        font-size: 14px;
+    }
+    .disbtm_left1 h2 {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    /*.disbtm_left2 img.mblimg {
+        margin: 0 auto;
+        top: 97px;
+        left: 166px;
+        width: 210px;
+    }*/
+    .resfrm {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .radio_bud1 {
+        padding: 0px 13px;
+    }
+    .app, .portfolio {
+        padding: 30px 0px;
+    }
+    .left_border {
+        width: 171px;
+        margin-left: -161px;
+    }
+    .right_border {
+        width: 171px;
+        margin-left: 161px;
+    }
+    .offer_down {
+        font-size: 30px;
+    }
+    .app_detail {
+        padding-top: 25px;
+    }
+    .app_left {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .app_left a span {
+        width: 87%;
+    }
+    .brown {
+        padding: 40px 0px 189px;
+    }
+    .brown_rht {
+        margin-top: -191px;
+    }
+    .port_rht a {
+        margin-bottom: 15px;
+    }
+    .paddlft {
+        padding-left: 0px;
+    }
+    .benefit_content h6 {
+        font-size: 18px;
+    }
+    .left_line {
+        margin-left: -186px;
+        width: 132px;
+    }
+    .rgt_line {
+        margin-left: 186px;
+        width: 132px;
+    }
+    .talk_detail {
+        padding: 30px 0px;
+    }
+    .talk_lft {
+        margin-bottom: 15px;
+    }
+    .quote {
+        /* display: block; */
+        text-align: center;
+    }
+    .mbl_imagee img.mble {
+        display: none;
+    }
+    .banner_cont h3 {
+        /*font-size: 35px;*/
+        margin-bottom: 50px;
+    }
+    .challege_cont p {
+        font-size: 18px;
+    }
+    .challege_cont h4 {
+        font-size: 18px;
+    }
+    .banner_cont h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .challege_cont {
+        margin-bottom: 11px;
+    }
+    .challenge_sec .col-sm-4 {
+        width: 33.33%;
+        float: left;
+    }
+    .btnul {
+        display: none;
+    }
+    .quote_btn {
+        padding: 10px 34px;
+    }
+    .purple_div {
+        display: inline-block;
+        border-radius: 30px;
+    }
+    .talk_detail .rebn .resquote {
+        display: inline-block;
+    }
+    .quote {
+        display: block;
+    }
+    .sbm_btn {
+        float: unset;
+    }
+    .purple_div .sub_btn {
+        float: unset;
+    }
+    .serv_stack p {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .client h3, .serv_stack h3 {
+        font-size: 27px;
+        padding: 0px 0 10px;
+    }
+    .service_home .innerserv {
+        padding: 25px 25px;
+        margin-bottom: 15px;
+    }
+    .service_home .servicebox .col-sm-6:nth-child(2) .innerserv {
+        margin-top: 0px;
+    }
+    .client_img {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 45%;
+        margin-bottom: 0;
+    }
+    .client_inner {
+        width: 55%;
+        padding-left: 0;
+    }
+    .client_inner p {
+        min-height: auto;
+    }
+    .jaihoimage {
+        margin: 0 auto;
+    }
+    .fsocial {
+        margin-bottom: 15px;
+    }
+    .part_sec h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .num_row {
+        margin: 40px 0px 30px;
+    }
+    .form_left .form-control {
+        padding: 6px 12px;
+        font-size: 16px;
+    }
+    .radio_bud1 label {
+        font-size: 16px;
+    }
+    .head .logo img {
+        width: 200px;
+        height: 60px;
+    }
+    .banner_sec {
+        margin-top: 80px;
+    }
+    .disbtm_left2 img.mblimg {
+        width: 220px;
+    }
+    .app {
+        display: none;
+    }
+    .brown_lft p {
+        padding: 10px 50px;
+        font-size: 18px;
+    }
+    .brown_lft .quote button {
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+    .benefit_content {
+        width: 50%;
+    }
+    .benefit_content:last-child {
+        width: 100%;
+    }
+    .benefit_content img {
+        width: auto;
+        min-height: auto;
+    }
+    .talk_detail .col-sm-9 {
+        width: 100%;
+    }
+    .talk_detail .col-sm-3 {
+        width: 100%;
+    }
+    .talk_detail .quote {
+        margin-top: 25px;
+        float: left;
+        display: block;
+        width: 100%;
+    }
+    .talk_detail .quote button {
+        padding: 10px 44px;
+        font-size: 18px;
+    }
+    .global_rht {
+        padding: 20px 0px;
+    }
+    .flag_img {
+        height: 94px;
+    }
+    .purple_div .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+    .client_partner .logoitem.reshide {
+        display: none;
+    }
+}
+
+@media(max-width:560px) {
+    .form_left .form-control {
+        padding: 6px 12px;
+        font-size: 15px;
+    }
+    .radio_bud {
+        margin-bottom: 70px;
+    }
+    .form_left .col-sm-3 {
+        padding-right: 7px;
+    }
+    .form_left .col-sm-9 {
+        padding-left: 7px;
+    }
+    .global_rht {
+        display: none;
+    }
+    .radio_bud1 label {
+        font-size: 14px;
+    }
+    .grey{
+        margin-right: 10px;
+    }
+    .quote_btn_new {
+        padding: 7px 30px;
+    }
+    .calltext p{
+        font-size: 18px;
+    }
+    .calltextbtm p{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .purple_div {
+        display: none;
+    }
+    .client_partner .logoitem.reshide {
+        display: inline-block;
+    }
+    .brown {
+        display: none;
+    }
+    .brown_rht {
+        display: none;
+    }
+    .talk_detail {
+        display: none;
+    }
+    .head .logo img {
+        width: 140px;
+        height: 50px;
+    }
+    .app {
+        display: none;
+    }
+    .envlp img {
+        width: 100%;
+        /* float: right; */
+    }
+    .estimateup .estimte form .col-sm-6 {
+        width: 100%;
+        display: inline-block;
+    }
+    .service_home .innerserv {
+        padding: 20px 20px;
+    }
+    .popchk {
+        width: 48%;
+    }
+    .service_home .innerserv h2 {
+        padding: 0 0px 14px 0;
+    }
+    .client_detail {
+        min-height: auto;
+    }
+    .estimateup .estimte label {
+        font-size: 15px;
+    }
+    .offer .left_border3 {
+        width: 85px;
+        margin-left: -143px;
+    }
+    .offer .right_border3 {
+        width: 85px;
+        margin-left: 143px;
+    }
+    .left_border {
+        width: 117px;
+        margin-left: -118px;
+    }
+    .right_border {
+        width: 117px;
+        margin-left: 118px;
+    }
+    .left_border2 {
+        width: 108px;
+        margin-left: -125px;
+    }
+    .right_border2 {
+        width: 108px;
+        margin-left: 125px;
+    }
+    .offer h3 {
+        font-size: 18px;
+    }
+    .circle_img {
+        width: 434px;
+    }
+    .benefit_content h6 {
+        font-size: 14px;
+    }
+    .benefit_content h6 {
+        font-size: 14px;
+    }
+    .dis_left img {
+        margin-top: 40px;
+        margin-left: -10px;
+    }
+    .dis_right {
+        width: 100%;
+        margin-top: 40px;
+        /* float: right; */
+    }
+    .radio_bud1 {
+        padding: 0px 10px;
+    }
+    #clockdiv {
+        width: 100%;
+        font-size: 17px;
+    }
+    #demo {
+        width: 100%;
+        /*font-size: 17px;*/
+    }
+    .app_sec h2 {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    /*.purple_div {
+    display: inline-block;
+}*/
+    .purple_div {
+        border-radius: 23px;
+    }
+    .sbm_btn {
+        float: unset;
+    }
+    .client_partner .logoitem {
+        height: 100px;
+        width: 28.6%;
+        margin: 0% 2% 2%;
+    }
+    .client_partner {
+        padding: 0px 0px 40px;
+    }
+    .btnul {
+        display: none;
+    }
+    /*.disbtm_left2 img.mblimg {
+    margin: 0 auto;
+    top: 73px;
+    left: 113px;
+    width: 183px;
+}*/
+    .banner_sec {
+        margin-top: 70px;
+    }
+    .brown_rht {
+        margin-top: -136px;
+    }
+    .talk_detail {
+        padding: 20px 0px;
+    }
+    .quote button {
+        /*width: 134px;*/
+        /*height: 40px;*/
+    }
+    .talk_content p {
+        font-size: 16px;
+    }
+    .client_detail {
+        padding: 15px 10px;
+        width: 100%;
+    }
+    .client_img {
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .client_inner {
+        width: 100%;
+    }
+    .client_inner {
+        padding-left: 0px;
+    }
+    .clientslider .slick-prev {
+        left: 40%;
+    }
+    .talk {
+        padding: 40px 0px 20px;
+    }
+    .global_rht h2 {
+        font-size: 25px;
+    }
+    .glob_img {
+        width: 65px;
+        top: -14px;
+    }
+    .global_rht li {
+        width: 28.6%;
+        margin: 2% 2% 0%;
+        min-height: 130px;
+        padding: 15px 15px;
+    }
+    .flag_img {
+        min-height: 65px;
+        height: 65px;
+    }
+    .benefit_content img {
+        width: 80px;
+    }
+    .global_inner .quote {
+        margin-top: 40px;
+    }
+    .benefit_content {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .benefit_content p {
+        padding-top: 10px;
+    }
+    .offer_down {
+        font-size: 25px;
+    }
+    .offer h3 {
+        font-size: 15px;
+    }
+    .brown {
+        padding: 30px 0px 133px;
+    }
+    .app_left a span {
+        width: 83%;
+    }
+    .app_left {
+        padding: 20px
+    }
+    .banner_cont h3 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .banner_cont h2 {
+        font-size: 30px;
+    }
+    .challege_cont h4 {
+        font-size: 16px;
+    }
+    .challege_cont p {
+        font-size: 16px;
+    }
+    .rgt_d {
+        padding: 0;
+    }
+    .quote_btn {
+        padding: 8px 40px;
+    }
+    #demo div>span {
+        width: 70px;
+        font-size: 35px;
+    }
+    .iso_sec ul li img {
+        width: 100%;
+    }
+    .disbtm_left2 img.mblimg {
+        width: 150px;
+    }
+    .disbtm_left2 {
+        padding-top: 30px;
+    }
+    .benefits {
+        padding: 40px 0px 0px;
+    }
+}
+
+@media(max-width:414px) {
+    .calltext p{
+        margin-top: 10px;
+    }
+    .form_left .form-control {
+        padding: 6px 6px;
+        font-size: 14px;
+    }
+    .iso_sec ul li img {
+        width: 100%;
+        max-width: 86px;
+    }
+    .client_detail {
+        min-height: 546px;
+    }
+    .left_border {
+        width: 84px;
+        margin-left: -98px;
+    }
+    .right_border {
+        width: 84px;
+        margin-left: 98px;
+    }
+    .left_border2 {
+        width: 70px;
+        margin-left: -103px;
+    }
+    .right_border2 {
+        width: 70px;
+        margin-left: 103px;
+    }
+    .offer .left_border3 {
+        width: 60px;
+        margin-left: -119px;
+    }
+    .offer .right_border3 {
+        width: 60px;
+        margin-left: 119px;
+    }
+    .mreswth {
+        width: 100%;
+        float: left;
+    }
+    .circle_img {
+        width: 399px;
+    }
+    .dis_left img {
+        width: 199px;
+        margin-top: 45px;
+        margin-left: 3px;
+    }
+    .quote {
+        margin-right: 2px;
+    }
+    .rgt_d {
+        padding: 0px;
+    }
+    .form_left .form-control {
+        margin-bottom: 15px;
+    }
+    .radio_bud {
+        margin-bottom: 15px;
+    }
+    .radio_bud .radio1_gb {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .smalltext {
+        font-family: 'NeutrifProMedium';
+        font-size: 12px;
+    }
+    .app_sec h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .num_row {
+        margin: 20px 0px;
+    }
+    .num1 {
+        margin: 25px 0px;
+    }
+    .sbm_btn {
+        padding: 5px 27px;
+        font-size: 14px;
+    }
+    .envlp img {
+        width: 40px;
+    }
+    .part_sec h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .client_partner .logoitem {
+        height: 107px;
+        width: 41%;
+    }
+    .partnerlogo {
+        padding: 10px;
+    }
+    .disbtm_left2 img.mblimg {
+        width: 125px;
+    }
+    .lucky_section {
+        padding: 0px 0px 20px;
+    }
+    .benefits {
+        padding: 30px 0px 0px;
+    }
+    .disbtm_left1 h2 {
+        font-size: 35px;
+    }
+    .app_left a span {
+        width: 77%;
+    }
+    .app_left a span {
+        font-size: 14px;
+        padding-bottom: 18px;
+        margin-left: 13px;
+    }
+    .app_rht {
+        padding: 15px 15px 20px
+    }
+    .app_rht_rht li {
+        margin-right: 12px;
+    }
+    .brown_rht {
+        margin-top: -100px;
+    }
+    .brown_lft h1 {
+        font-size: 30px;
+    }
+    .benefit_content {
+        min-height: 121px;
+    }
+    .number p {
+        font-size: 20px;
+    }
+    .clientslider .slick-prev {
+        left: 37%;
+    }
+    .client_detail {
+        width: 100%;
+        display: inline-block;
+    }
+    .client_inner {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .glob_img {
+        width: 54px;
+    }
+    .global_rht li {
+        width: 100%;
+        margin: 0px 0px 15px;
+    }
+    .global {
+        padding: 20px 0px 30px;
+    }
+    .global_rht {
+        padding-bottom: 0;
+    }
+    .flag_img {
+        min-height: 122px;
+        height: 122px;
+    }
+    .challenge_sec .col-sm-4 {
+        width: 100%;
+        float: left;
+    }
+    .challege_cont {
+        margin-bottom: 15px;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .envlp img {
+        width: 55px;
+        margin-bottom: 20px;
+    }
+    .purple_div {
+        padding: 15px 0px;
+    }
+    .service_home .innerserv {
+        padding: 15px 15px;
+    }
+    .modal-dialog {
+        margin: 30px auto;
+    }
+    .estimateup .estimte {
+        padding: 0px 6px 6px 10px;
+    }
+    .popchk {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .quote button {
+        font-size: 14px;
+    }
+    .banner_sec {
+        margin-top: 60px;
+    }
+    .head {
+        padding: 0px 10px 0px 0px;
+    }
+    .head .logo img {
+        width: 120px;
+        height: 40px;
+    }
+    .quote button {
+        padding: 8px 16px;
+    }
+    .lefticon {
+        margin-right: 5px;
+    }
+    .righticon {
+        margin-left: 5px;
+    }
+    .banner_section {
+        padding: 30px 0px 40px;
+    }
+    .quote_btn {
+        padding: 8px 20px;
+        font-size: 18px;
+    }
+    .dis_right {
+        margin-top: 10px;
+        padding: 20px 15px 30px;
+    }
+    .clk1::after {
+        top: 15px;
+    }
+    #demo div>span {
+        width: 40px;
+        font-size: 24px;
+        padding: 0;
+    }
+    #demo {
+        font-size: unset;
+    }
+    .num h3 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .iso_sec ul li {
+        padding: 0px 5px;
+        min-height: 100px;
+    }
+    .client_partner .logoitem {
+        height: 60px;
+        width: 28.4%;
+    }
+    .partnerlogo img {
+        width: 80%;
+    }
+    .client_partner {
+        padding: 0px 0px 30px;
+    }
+    .banner_cont .banner_btn {
+        margin-top: 20px;
+    }
+    .banner_cont h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .banner_cont h2 {
+        font-size: 24px;
+    }
+    .dis_sec {
+        padding: 0px 0px 20px;
+    }
+    .lucky_section .dis_sec {
+        padding: 20px 0px 20px;
+    }
+    .form_left .col-sm-3{
+        padding-right: 7px;
+    }
+    .form_left .col-sm-9{
+        padding-left: 7px;
+    }
+}
+
+@media(max-width:320px) {
+    /*.disbtm_left2 img.mblimg {
+        left: 89px;
+        width: 121px;
+        top: 114px;
+    }*/
+}
