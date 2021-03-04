@@ -1,0 +1,447 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1680px) {}
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 1199px) {
+    .isu_box {
+        width: 150px;
+        height: 150px;
+    }
+
+    .IA_lft h4 {
+        font-size: 40px;
+    }
+
+    .IA_lft ul {
+        margin-top: 10px;
+    }
+
+    .IA_lft ul li {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .playstore_link img {
+        width: 120px;
+    }
+
+    .reviews,
+    .faq {
+        padding: 40px 0px;
+    }
+
+    .review_inner .slick-list {
+        padding: 80px 0px 40px !important;
+    }
+
+    .faq_question h4 {
+        padding: 15px;
+        font-size: 26px;
+    }
+
+    .faq_question h4 i {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #808080;
+        color: #808080;
+        border-radius: 50%;
+        padding: 0px 7px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+
+    .h_head h1 {
+        padding: 0px 0px 0px;
+    }
+
+    .isu_box {
+        width: 180px;
+        height: 180px;
+    }
+
+    .think_inner h2 {
+        font-size: 30px;
+    }
+
+    .think {
+        padding: 50px 0px 50px;
+    }
+
+    .hi_content {
+        padding: 20px 30px;
+    }
+
+    .hi_content h3 {
+        font-size: 30px;
+    }
+
+    .hi_content p {
+        font-size: 16px;
+        padding: 15px 0 22px;
+    }
+
+    .IA_ryt img {
+        width: 70%;
+    }
+
+    .IA_lft h4 {
+        font-size: 28px;
+    }
+
+    .playstore_link {
+        top: 20%;
+        left: 60%;
+    }
+
+    .rc_inner {
+        padding: 20px 20px;
+    }
+
+    .review_para:before {
+        width: 20px;
+        height: 20px;
+        top: 0px;
+        left: -10px;
+    }
+
+    .review_para p {
+        padding: 10px 10px 0px 17px;
+        line-height: 18px;
+    }
+
+    .review_head h2,
+    .faq_head h3 {
+        font-size: 30px;
+    }
+
+    .faq_question h4 {
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+
+    .faq_question h4 i {
+        position: absolute;
+        top: 8px;
+        right: 15px;
+        width: 25px;
+        height: 25px;
+        border: 2px solid #808080;
+        color: #808080;
+        border-radius: 50%;
+        padding: 1px 6px;
+    }
+
+    .faq_ans p {
+        font-size: 16px;
+        padding: 10px 15px 10px;
+    }
+
+    .f_inner {
+        flex-wrap: wrap;
+    }
+
+    .f_logo,
+    .f_sec1,
+    .f_sec2,
+    .f_sec3,
+    .f_sec4 {
+        flex: auto;
+    }
+
+    .f_sec ul li a {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .f_logo a {
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header .navbar-brand {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .home {
+        margin-top: 82px;
+    }
+
+    .isu_box {
+        width: 160px;
+        height: 160px;
+    }
+
+    .header .hamburger {
+        display: block;
+    }
+
+    .review_content.slick-slide.slick-active,
+    .review_content.slick-slide {
+        box-shadow: none !important;
+        opacity: 1;
+        height: auto;
+        padding: 30px 30px;
+    }
+
+    .review_inner .slick-list {
+        padding: 0px !important;
+    }
+
+    .rc_inner {
+        padding: 30px 50px;
+        margin-top: 0px;
+        box-shadow: 20px 24px 28px -20px rgba(0, 0, 0, 0.07), 0 0px 34px -10px rgba(195, 197, 212, 0.57), 0 2px 24px 0 rgba(70, 90, 207, 0.16) !important;
+    }
+
+    .review_para p {
+        padding: 15px 10px 10px 27px;
+        line-height: 26px;
+        font-size: 16px;
+    }
+
+    .review_para:before {
+        width: 40px;
+        height: 40px;
+        top: -10px;
+        left: -20px;
+    }
+
+    .name p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .name p span {
+        font-size: 14px;
+    }
+
+    .viewer_img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .reviews,
+    .faq {
+        padding: 30px 0px;
+    }
+
+    .width100 {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .IA_lft h4 {
+        font-size: 36px;
+    }
+
+    .IA_ryt {
+        display: none;
+
+    }
+
+    .playstore_link {
+        top: 50%;
+        left: unset;
+        right: 0;
+        transform: translate(0%, 0%);
+    }
+
+    .playstore_link img {
+        width: 150px;
+    }
+
+    .faq_head p {
+        font-size: 16px;
+    }
+
+    .faq_question h4 {
+        padding: 10px 40px 10px 15px;
+        font-size: 18px;
+    }
+
+    .faq_question h4 i {
+        transform: translate(-50%, -50%);
+        top: 50%;
+        right: 0%;
+    }
+
+    .faq_question.active h4 i {
+        top: 10px;
+        right: 15px;
+    }
+
+    .think_inner h2 {
+        font-size: 22px;
+    }
+
+    .f_logo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 575px) {
+    .SF_inner1 {
+        display: none;
+    }
+
+    .SF_inner2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .h_head h1 {
+        padding: 0px 0px 20px;
+    }
+
+    .think {
+        padding: 30px 0px 30px;
+    }
+
+    .think_inner p {
+        padding-top: 10px;
+    }
+
+    .isur_app {
+        padding: 30px 0px 100px;
+    }
+
+    .playstore_link {
+        top: unset;
+        left: 0;
+        right: 0;
+        transform: translate(0%, 0%);
+        text-align: center;
+        bottom: -60px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .SF_inner2 a {
+        font-size: 12px;
+    }
+
+    .h_head h1 {
+        font-size: 24px;
+    }
+
+    .isu_box {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 30px;
+    }
+
+    .home {
+        padding: 30px 0px 0px;
+    }
+
+    .think {
+        padding: 20px 0px 20px;
+    }
+
+    .hi_content {
+        padding: 20px 15px;
+    }
+
+    .hi_content h3 {
+        font-size: 26px;
+    }
+
+    .hi_content p {
+        padding: 10px 0 20px;
+    }
+
+    .IA_lft h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .IA_lft ul li {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .playstore_link img {
+        width: 130px;
+    }
+
+    .isur_app {
+        padding: 30px 0px 90px;
+    }
+
+    .reviews,
+    .faq {
+        padding: 20px 0px;
+    }
+
+    .review_content.slick-slide.slick-active,
+    .review_content.slick-slide {
+        box-shadow: none !important;
+        opacity: 1;
+        height: auto;
+        padding: 20px 15px;
+    }
+
+    .review_para:before {
+        width: 25px;
+        height: 25px;
+        top: -5px;
+        left: -10px;
+    }
+
+    .rc_inner {
+        padding: 20px 20px;
+        margin-top: 0px;
+        box-shadow: 20px 24px 28px -20px rgba(0, 0, 0, 0.07), 0 0px 34px -10px rgba(195, 197, 212, 0.57), 0 2px 24px 0 rgba(70, 90, 207, 0.16) !important;
+    }
+
+    .review_para p {
+        padding: 15px 10px 10px 17px;
+        line-height: 26px;
+        font-size: 16px;
+    }
+
+    .faq_head p {
+        padding: 10px 0 30px;
+    }
+
+    .faq_question h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .faq_ans p {
+        font-size: 15px;
+        padding: 10px 15px 10px;
+    }
+
+    .f_inner {
+        padding: 30px 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {}

@@ -1,0 +1,105 @@
+<base href="http://localhost/newfz/course.php/">
+<base href="https://www.finnovationz.com/course.php">
+
+#1582d0
+
+<!--== start top bar==-->
+<?php include("header.php");?>
+<!--== end top bar==-->
+
+<!--== sidenav start ==-->
+<?php include("sidenav.php");?>
+<!--== sidenav end ==-->
+
+<link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+
+<script src="js/custom.js"></script>
+
+
+https://sg3plvcpnl294214.prod.sin3.secureserver.net:2083/logout/?locale=en
+
+id = e463lenpkbon
+paswd = ,}qT&GA61x(
+
+
+<h2 class="mt-2" style="display: flex; align-items: center;">₹555 <span style="font-size: 18px; color: #1a436c; padding: 5px 10px; display: inline-block; border-radius: 25px; font-weight: 700;">(Flat 20% Discount)</span></h2>
+
+
+<!--<small>Enter your registered email of your any previous course</small>-->
+<small>If yes, then continue with your registered email ID & avail 33% discount on this course.</small>
+<small>If no, then skip & avail the course at regular price.</small>
+
+shutdown -s -t 360
+
+
+
+$('.review_inner').slick({
+    infinite: true,
+     dots:true,
+    centerMode: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+   responsive: [
+    {
+      breakpoint:980,
+      settings: {
+        arrows: false,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    }]
+
+ });
+
+ display: block;
+    max-width: 100%;
+    height: auto;
+
+
+
+
+    <section class="funnel_main">
+        <div class="funnel_inner_1">
+            <div class="container funnel_container">
+                <div class="funnelbox">
+                    <div class="funnel_heading boxs">
+                        <h1>Do you know how much cash your auto <br>accident is worth?</h1>
+                    </div>
+                    <div class="funnelbtns boxs">
+                        <ul>
+                            <li>
+                                <input class="styled-checkbox nextme" id="styled-checkbox-1" type="radio" value="value1" active="" nextme="" data-id="2" name="next1">
+                                <label for="styled-checkbox-1">
+                                    <div class="funnelbtnstyle boxs">
+                                        <h4>SOMEWHAT SURE</h4>
+                                    </div>
+                                </label>
+                            </li>
+                            <li>
+                                <input class="styled-checkbox nextme" id="styled-checkbox-2" type="radio" value="value1" active="" nextme="" data-id="2" name="next1">
+                                <label for="styled-checkbox-2">
+                                    <div class="funnelbtnstyle boxs">
+                                        <h4>NOT SURE</h4>
+                                    </div>
+                                </label>
+                            </li>
+                            <li>
+                                <input class="styled-checkbox nextme" id="styled-checkbox-3" type="radio" value="value1" active="" nextme="" data-id="2" name="next1">
+                                <label for="styled-checkbox-3">
+                                    <div class="funnelbtnstyle boxs">
+                                        <h4>NO IDEA</h4>
+                                    </div>
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="boxs imgcenter">
+                            <button type="button" class="active prevme" data-id="1" name="prev">&lt; Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
