@@ -104,6 +104,24 @@
                 display: block;
             }
         }
+        .react {
+            -webkit-animation:spin 6s linear infinite;
+            -moz-animation:spin 6s linear infinite;
+            animation:spin 6s linear infinite;
+        }
+        
+        @-moz-keyframes spin { 
+            100% { -moz-transform: rotate(360deg); } 
+        }
+        @-webkit-keyframes spin { 
+            100% { -webkit-transform: rotate(360deg); } 
+        }
+        @keyframes spin { 
+            100% { 
+                -webkit-transform: rotate(360deg); 
+                transform:rotate(360deg); 
+            } 
+        }
     </style>
 </head>
 
@@ -310,6 +328,8 @@
                                     src="assests/icons/3-javascript-48.png" />
                                 <img title="Bootstrap" alt="Bootstrap" width="auto"
                                     src="assests/icons/4-bootstrap-48.png" />
+                                <img title="React" alt="React" width="auto" class="react"
+                                    src="assests/icons/5-react-48.png" />
                             </div>
                         </div>
 
@@ -320,15 +340,15 @@
                             <div class="connections">
                                 <a href="https://www.linkedin.com/in/gaganmittal8/" target="_blank">
                                     <img title="LinkedIn - Gagan Mittal" alt="LinkedIn" width="auto"
-                                        src="assests/icons/5-linkedin-48.png" />
+                                        src="assests/icons/1-linkedin-48.png" />
                                 </a>
-                                <a href="mailto:gaganagarwal03@gmail.com">
+                                <a href="mailto:gaganagarwal.official@gmail.com">
                                     <img title="Mail - Gagan Agarwal" alt="Mail" width="auto"
-                                        src="assests/icons/6-email-open-48.png" />
+                                        src="assests/icons/2-email-open-48.png" />
                                 </a>
                                 <a href="https://www.instagram.com/gaganmittal8/" target="_blank">
                                     <img title="Instagram - Gagan Mittal" alt="Instagram" width="auto"
-                                        src="assests/icons/7-instagram-48.png" />
+                                        src="assests/icons/3-instagram-48.png" />
                                 </a>
                             </div>
                         </div>
